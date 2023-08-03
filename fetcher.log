@@ -1466,3 +1466,87 @@
 [2023-08-04 01:00:33] INFO root fetch - processPackages [sbcli]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-3.1.tar.gz]
 [2023-08-04 01:00:33] INFO root fetch - main [MainThread]: End processing [sbcli]: success
 [2023-08-04 01:00:33] INFO root fetch - main [MainThread]: Store serial: [19165429]
+[2023-08-04 01:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165429]
+[2023-08-04 01:05:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 01:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2023-08-04 01:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jijzept
+[2023-08-04 01:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2023-08-04 01:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-08-04 01:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-08-04 01:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webwithpy
+[2023-08-04 01:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: instacrawl
+[2023-08-04 01:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geofileops
+[2023-08-04 01:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flow-agent-package
+[2023-08-04 01:05:43] INFO root fetch - processPackages [mystring]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 01:05:43] INFO root fetch - processPackages [webwithpy]: New version: [0.1.1.1] Old Version: [0.1.1]
+[2023-08-04 01:05:43] INFO root fetch - processPackages [instacrawl]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-04 01:05:43] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230802] Old Version: [1.5.0.dev20230801]
+[2023-08-04 01:05:43] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/7b/b2/93d76068d648339a62fdf56ea563149059b40acd2f903f5abe247ef04a25/mystring-0.0.98.tar.gz
+[2023-08-04 01:05:43] INFO root fetch - processPackages [instacrawl]: Downloading https://files.pythonhosted.org/packages/68/0e/a960a53d6858bf9730414a0916df7b92ae84b21133dcadbb0407d7852090/instacrawl-0.1.2.tar.gz
+[2023-08-04 01:05:43] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/cd/d0/027b7b85752ef85bdc292472b8e09983e45f29d86308f1ea1163bd343c6a/webwithpy-0.1.1.tar.gz
+[2023-08-04 01:05:43] INFO root fetch - processPackages [jijzept]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-04 01:05:43] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230803] Old Version: [0.7.0b20230802]
+[2023-08-04 01:05:43] INFO root fetch - processPackages [flow-agent-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 01:05:43] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/5b/12/d34b5f3930ac750c48791f6d550296e5c96b2b8076c11626f6d03a7044b3/flwr_nightly-1.5.0.dev20230801.tar.gz
+[2023-08-04 01:05:43] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230803] Old Version: [0.7.0b20230802]
+[2023-08-04 01:05:43] INFO root fetch - processPackages [geofileops]: New version: [0.8.0a8] Old Version: [0.8.0a7]
+[2023-08-04 01:05:44] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d1/74/c8949d037142e817bcd6521db8140d98f1b99f953a5d577bec5ae132355b/mystring-0.0.99.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/fc/bd/f707492a6b676a81111d1850f8c117c91021318766c0c9ad5b9ea5fae440/tmnt-cu101-0.7.0b20230802.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [flow-agent-package]: Downloading https://files.pythonhosted.org/packages/d8/76/36fff7123e13dd2665e0c1934926d0a93e6886cd24a61feccb7c59ef9d43/flow-agent-package-0.0.8.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/72/fb/9a52fe090892437248f15fb11b3c8ee874329278b8f5ee8d6169e88dc0a6/jijzept-1.9.1-cp39-cp39-win_amd64.whl
+[2023-08-04 01:05:44] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/62/ce/761eda6b4913aade1ca370d7c8cdc167994ad3612a6346c15f22238e8856/tmnt-0.7.0b20230802.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/b5/8a/bfbd0bd3a296ea9603008cb041ccc8a7d850a111ae9b4737e07c23c58e2f/webwithpy-0.1.1.1.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [instacrawl]: Downloading https://files.pythonhosted.org/packages/e3/58/5f019b77cd8a8e82999ac1f70fa080538fcf1673da1fa38840a74d6d7d5f/instacrawl-0.1.3.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/0e/bd/a4e2d9612f873dcb0ec686d04e92ef25eae66821637e0f8c955e9041d90d/geofileops-0.8.0a7.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-08-04 01:05:44] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.98.tar.gz tmp/mystring-0.0.99.tar.gz --markdown 20230804/m/mystring/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 01:05:44] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/4e/4c/ccd01f8cde3790cbe36652e2b7ec1b7eeb10765e445675042ebc19d62f4d/flwr_nightly-1.5.0.dev20230802.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [webwithpy]: executing diffoscope
+[2023-08-04 01:05:44] INFO root fetch - processPackages [webwithpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webwithpy-0.1.1.tar.gz tmp/webwithpy-0.1.1.1.tar.gz --markdown 20230804/w/webwithpy/0.1.1-0.1.1.1/diff.md --exclude *.pyd
+[2023-08-04 01:05:44] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/1c/e8/611c0ed6c5d6c6123c1017fcaa8fde4337ea00ea8ae3b02172efaa0b9bd2/tmnt-0.7.0b20230803.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [instacrawl]: executing diffoscope
+[2023-08-04 01:05:44] INFO root fetch - processPackages [instacrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instacrawl-0.1.2.tar.gz tmp/instacrawl-0.1.3.tar.gz --markdown 20230804/i/instacrawl/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-04 01:05:44] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-08-04 01:05:44] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230802.tar.gz tmp/tmnt-0.7.0b20230803.tar.gz --markdown 20230804/t/tmnt/0.7.0b20230802-0.7.0b20230803/diff.md --exclude *.pyd
+[2023-08-04 01:05:44] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/a1/bc/e2438f5f8452cd4acef7ef12bfa56f583f3dfd05881f00d6bb416d64ba72/jijzept-1.9.2-cp39-cp39-win_amd64.whl
+[2023-08-04 01:05:44] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/58/ed/12e406be1d91f3855f189db96f2bb545fc98e73d0341a828070f93aa9869/tmnt-cu101-0.7.0b20230803.tar.gz
+[2023-08-04 01:05:44] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-08-04 01:05:44] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230801.tar.gz tmp/flwr_nightly-1.5.0.dev20230802.tar.gz --markdown 20230804/f/flwr-nightly/1.5.0.dev20230801-1.5.0.dev20230802/diff.md --exclude *.pyd
+[2023-08-04 01:05:44] INFO root fetch - processPackages [jijzept]: executing diffoscope
+[2023-08-04 01:05:44] INFO root fetch - processPackages [jijzept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20230804/j/jijzept/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-04 01:05:44] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-08-04 01:05:44] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230802.tar.gz tmp/tmnt-cu101-0.7.0b20230803.tar.gz --markdown 20230804/t/tmnt-cu101/0.7.0b20230802-0.7.0b20230803/diff.md --exclude *.pyd
+[2023-08-04 01:05:45] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/f1/34/6de5dda7b13bf7cfb71c5d1cc2a13863de2222b3dc6e7ffd4859bd26659e/geofileops-0.8.0a8.tar.gz
+[2023-08-04 01:05:45] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.98.tar.gz]
+[2023-08-04 01:05:45] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.0.99.tar.gz]
+[2023-08-04 01:05:45] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-08-04 01:05:45] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.1.1.tar.gz]
+[2023-08-04 01:05:45] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.1.1.1.tar.gz]
+[2023-08-04 01:05:45] INFO root fetch - main [MainThread]: End processing [webwithpy]: success
+[2023-08-04 01:05:45] INFO root fetch - processPackages [flow-agent-package]: Downloading https://files.pythonhosted.org/packages/3d/bc/1db8a44616849cfbe37aa0e66219b59b8b1ba4b3a072bdb7def6c6bbe458/flow-agent-package-0.0.9.tar.gz
+[2023-08-04 01:05:45] INFO root fetch - processPackages [geofileops]: executing diffoscope
+[2023-08-04 01:05:45] INFO root fetch - processPackages [geofileops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofileops-0.8.0a7.tar.gz tmp/geofileops-0.8.0a8.tar.gz --markdown 20230804/g/geofileops/0.8.0a7-0.8.0a8/diff.md --exclude *.pyd
+[2023-08-04 01:05:45] INFO root fetch - processPackages [flow-agent-package]: executing diffoscope
+[2023-08-04 01:05:45] INFO root fetch - processPackages [flow-agent-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow-agent-package-0.0.8.tar.gz tmp/flow-agent-package-0.0.9.tar.gz --markdown 20230804/f/flow-agent-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 01:05:45] INFO root fetch - processPackages [instacrawl]: Remove: archive file [/home/abi/fetcher/tmp/instacrawl-0.1.2.tar.gz]
+[2023-08-04 01:05:45] INFO root fetch - processPackages [instacrawl]: Remove: archive file [/home/abi/fetcher/tmp/instacrawl-0.1.3.tar.gz]
+[2023-08-04 01:05:45] INFO root fetch - main [MainThread]: End processing [instacrawl]: success
+[2023-08-04 01:05:45] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230802.tar.gz]
+[2023-08-04 01:05:45] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230803.tar.gz]
+[2023-08-04 01:05:45] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-08-04 01:05:46] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230802.tar.gz]
+[2023-08-04 01:05:46] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230803.tar.gz]
+[2023-08-04 01:05:46] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-08-04 01:05:46] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230801.tar.gz]
+[2023-08-04 01:05:46] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230802.tar.gz]
+[2023-08-04 01:05:46] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-08-04 01:05:46] INFO root fetch - processPackages [flow-agent-package]: Remove: archive file [/home/abi/fetcher/tmp/flow-agent-package-0.0.8.tar.gz]
+[2023-08-04 01:05:46] INFO root fetch - processPackages [flow-agent-package]: Remove: archive file [/home/abi/fetcher/tmp/flow-agent-package-0.0.9.tar.gz]
+[2023-08-04 01:05:46] INFO root fetch - main [MainThread]: End processing [flow-agent-package]: success
+[2023-08-04 01:05:46] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-04 01:05:46] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-04 01:05:46] INFO root fetch - main [MainThread]: End processing [jijzept]: success
+[2023-08-04 01:05:47] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.8.0a7.tar.gz]
+[2023-08-04 01:05:47] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.8.0a8.tar.gz]
+[2023-08-04 01:05:47] INFO root fetch - main [MainThread]: End processing [geofileops]: success
+[2023-08-04 01:05:47] INFO root fetch - main [MainThread]: Store serial: [19165508]
