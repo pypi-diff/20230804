@@ -1550,3 +1550,67 @@
 [2023-08-04 01:05:47] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.8.0a8.tar.gz]
 [2023-08-04 01:05:47] INFO root fetch - main [MainThread]: End processing [geofileops]: success
 [2023-08-04 01:05:47] INFO root fetch - main [MainThread]: Store serial: [19165508]
+[2023-08-04 01:10:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165508]
+[2023-08-04 01:10:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-04 01:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flow-agent-package
+[2023-08-04 01:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goodmap
+[2023-08-04 01:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lares
+[2023-08-04 01:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: catkin-tools
+[2023-08-04 01:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BloxPy
+[2023-08-04 01:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyroostermoney
+[2023-08-04 01:10:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lares
+[2023-08-04 01:10:57] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 01:10:57] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 01:10:57] INFO root fetch - processPackages [BloxPy]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-08-04 01:10:57] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-04 01:10:57] INFO root fetch - processPackages [pyroostermoney]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-08-04 01:10:57] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-04 01:10:57] INFO root fetch - processPackages [catkin-tools]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-04 01:10:57] INFO root fetch - processPackages [goodmap]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 01:10:57] INFO root fetch - processPackages [flow-agent-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 01:10:57] INFO root fetch - processPackages [BloxPy]: Downloading https://files.pythonhosted.org/packages/75/6d/df6ed6692bf51cb2502d845fe3665ba0244c2635a39377bf6839d68c03f0/BloxPy-0.1.13.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [flow-agent-package]: Downloading https://files.pythonhosted.org/packages/d8/76/36fff7123e13dd2665e0c1934926d0a93e6886cd24a61feccb7c59ef9d43/flow-agent-package-0.0.8.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [BloxPy]: Downloading https://files.pythonhosted.org/packages/e7/6c/b290665c66a40e3bd718126dd158e6ec318c089bbcb915849943709fa51d/BloxPy-0.1.14.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/46/65/87c47c846e07f6e4638a69c7d2ad5a45aae0193f78b3dd775469ee1787f4/pyroostermoney-0.2.5.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [goodmap]: Downloading https://files.pythonhosted.org/packages/ed/70/53184838638713ac590f4125926dbcff898b029593280871fea09815684b/goodmap-0.1.8.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [catkin-tools]: Downloading https://files.pythonhosted.org/packages/47/b1/4946aeec3ffab7c116800351290f660ccd3a8712263b6731b7ebdbcc7428/catkin_tools-0.9.3.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-04 01:10:58] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230804/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 01:10:58] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-04 01:10:58] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230804/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 01:10:58] INFO root fetch - processPackages [BloxPy]: executing diffoscope
+[2023-08-04 01:10:58] INFO root fetch - processPackages [BloxPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BloxPy-0.1.13.tar.gz tmp/BloxPy-0.1.14.tar.gz --markdown 20230804/B/BloxPy/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-08-04 01:10:58] INFO root fetch - processPackages [flow-agent-package]: Downloading https://files.pythonhosted.org/packages/3d/bc/1db8a44616849cfbe37aa0e66219b59b8b1ba4b3a072bdb7def6c6bbe458/flow-agent-package-0.0.9.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [goodmap]: Downloading https://files.pythonhosted.org/packages/c2/83/c24b554dfc68a3edc677a522fdf365b996ff1fce7aa2f4e8b9d45f48b54a/goodmap-0.1.9.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/a6/31/05733085c118f51cde3e36814eee279f2891b32e0dd6d354491c07493b46/pyroostermoney-0.3.0.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [goodmap]: executing diffoscope
+[2023-08-04 01:10:58] INFO root fetch - processPackages [goodmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodmap-0.1.8.tar.gz tmp/goodmap-0.1.9.tar.gz --markdown 20230804/g/goodmap/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 01:10:58] INFO root fetch - processPackages [catkin-tools]: Downloading https://files.pythonhosted.org/packages/f6/db/7c1fe01f409c90621dcc4dd655d464b8804f7a4f989c38794006dcde9c60/catkin_tools-0.9.4.tar.gz
+[2023-08-04 01:10:58] INFO root fetch - processPackages [flow-agent-package]: executing diffoscope
+[2023-08-04 01:10:58] INFO root fetch - processPackages [flow-agent-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow-agent-package-0.0.8.tar.gz tmp/flow-agent-package-0.0.9.tar.gz --markdown 20230804/f/flow-agent-package/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 01:10:58] INFO root fetch - processPackages [pyroostermoney]: executing diffoscope
+[2023-08-04 01:10:58] INFO root fetch - processPackages [pyroostermoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroostermoney-0.2.5.tar.gz tmp/pyroostermoney-0.3.0.tar.gz --markdown 20230804/p/pyroostermoney/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-08-04 01:10:58] INFO root fetch - processPackages [catkin-tools]: executing diffoscope
+[2023-08-04 01:10:58] INFO root fetch - processPackages [catkin-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catkin_tools-0.9.3.tar.gz tmp/catkin_tools-0.9.4.tar.gz --markdown 20230804/c/catkin-tools/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-04 01:10:59] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.8.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.9.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-04 01:10:59] INFO root fetch - processPackages [BloxPy]: Remove: archive file [/home/abi/fetcher/tmp/BloxPy-0.1.13.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - processPackages [BloxPy]: Remove: archive file [/home/abi/fetcher/tmp/BloxPy-0.1.14.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - main [MainThread]: End processing [BloxPy]: success
+[2023-08-04 01:10:59] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-04 01:10:59] INFO root fetch - processPackages [flow-agent-package]: Remove: archive file [/home/abi/fetcher/tmp/flow-agent-package-0.0.8.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - processPackages [flow-agent-package]: Remove: archive file [/home/abi/fetcher/tmp/flow-agent-package-0.0.9.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - main [MainThread]: End processing [flow-agent-package]: success
+[2023-08-04 01:10:59] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.2.5.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.3.0.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - main [MainThread]: End processing [pyroostermoney]: success
+[2023-08-04 01:10:59] INFO root fetch - processPackages [goodmap]: Remove: archive file [/home/abi/fetcher/tmp/goodmap-0.1.8.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - processPackages [goodmap]: Remove: archive file [/home/abi/fetcher/tmp/goodmap-0.1.9.tar.gz]
+[2023-08-04 01:10:59] INFO root fetch - main [MainThread]: End processing [goodmap]: success
+[2023-08-04 01:11:00] INFO root fetch - processPackages [catkin-tools]: Remove: archive file [/home/abi/fetcher/tmp/catkin_tools-0.9.3.tar.gz]
+[2023-08-04 01:11:00] INFO root fetch - processPackages [catkin-tools]: Remove: archive file [/home/abi/fetcher/tmp/catkin_tools-0.9.4.tar.gz]
+[2023-08-04 01:11:00] INFO root fetch - main [MainThread]: End processing [catkin-tools]: success
+[2023-08-04 01:11:00] INFO root fetch - main [MainThread]: Store serial: [19165568]
