@@ -2095,3 +2095,65 @@
 [2023-08-04 01:42:27] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2033.post1691093996.tar.gz]
 [2023-08-04 01:42:27] INFO root fetch - main [MainThread]: End processing [scrunch]: success
 [2023-08-04 01:42:27] INFO root fetch - main [MainThread]: Store serial: [19165806]
+[2023-08-04 01:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165806]
+[2023-08-04 01:47:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-04 01:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaml-requests
+[2023-08-04 01:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: harlequin
+[2023-08-04 01:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evodiff
+[2023-08-04 01:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skyplane-nightly
+[2023-08-04 01:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AppiumExtended
+[2023-08-04 01:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: repo-review
+[2023-08-04 01:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ray
+[2023-08-04 01:47:36] INFO root fetch - processPackages [evodiff]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 01:47:36] INFO root fetch - processPackages [AppiumExtended]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 01:47:36] INFO root fetch - processPackages [ray]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-08-04 01:47:36] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230802] Old Version: [0.3.2.dev20230801]
+[2023-08-04 01:47:36] INFO root fetch - processPackages [evodiff]: Downloading https://files.pythonhosted.org/packages/8d/45/7ee014227912cc29ded96df0fc9834fb08e11c83a8597cfa1aac8e6ab5d9/evodiff-0.0.2.tar.gz
+[2023-08-04 01:47:36] INFO root fetch - processPackages [yaml-requests]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-04 01:47:36] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/48/55/f67b7ff09d9d9bb7ded43778a2902e2c1945df868cb72b799ff08431d069/AppiumExtended-0.1.8.tar.gz
+[2023-08-04 01:47:36] INFO root fetch - processPackages [repo-review]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-04 01:47:36] INFO root fetch - processPackages [harlequin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 01:47:36] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/ac/12/4c2814698af9bed2dd321b8c6a9c92f668fc58f550796861a877963f13b6/skyplane_nightly-0.3.2.dev20230801.tar.gz
+[2023-08-04 01:47:36] INFO root fetch - processPackages [repo-review]: Downloading https://files.pythonhosted.org/packages/97/e3/ce0d66a169beb370e5faa32f9d791ff51914a98fbada379a7211054cc9ca/repo_review-0.9.1.tar.gz
+[2023-08-04 01:47:36] INFO root fetch - processPackages [ray]: Downloading https://files.pythonhosted.org/packages/40/a3/66a9bf1d801d2b9ad1a439e1e45bd32054eae53fab352e079c8178b95f4f/ray-2.6.0-cp39-cp39-win_amd64.whl
+[2023-08-04 01:47:36] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/9a/84/d4433542b532cc2cf84b7c6f9c0fc8a4dacf46f0869451b85488cd9c70f9/harlequin-0.0.8.tar.gz
+[2023-08-04 01:47:36] INFO root fetch - processPackages [yaml-requests]: Downloading https://files.pythonhosted.org/packages/a5/8f/61c8a00dfdbf350a81def57e2c3d442e5ebb6a610df1fb3c441500d5c4ee/yaml_requests-0.8.0.tar.gz
+[2023-08-04 01:47:36] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/98/22/6a210072cc16cc0844864c54bc03a4714837c16bc570e163961c62152a39/AppiumExtended-0.1.9.tar.gz
+[2023-08-04 01:47:36] INFO root fetch - processPackages [evodiff]: Downloading https://files.pythonhosted.org/packages/0a/76/5cb90992d36fd498df8afe952c22c146b2b44f7fb8bd8142a7d47f32c44f/evodiff-0.0.3.tar.gz
+[2023-08-04 01:47:36] WARNING root fetch - processPackages [ray]: Skipping package: exceeds size limit 22334034>=10485760
+[2023-08-04 01:47:36] INFO root fetch - main [MainThread]: End processing [ray] error
+[2023-08-04 01:47:36] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/37/6e/e7bacc1f9949e0e478b788a2af65ee9e04647ed2586787ae5d526d38f2a1/skyplane_nightly-0.3.2.dev20230802.tar.gz
+[2023-08-04 01:47:36] INFO root fetch - processPackages [AppiumExtended]: executing diffoscope
+[2023-08-04 01:47:36] INFO root fetch - processPackages [AppiumExtended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppiumExtended-0.1.8.tar.gz tmp/AppiumExtended-0.1.9.tar.gz --markdown 20230804/A/AppiumExtended/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 01:47:36] INFO root fetch - processPackages [evodiff]: executing diffoscope
+[2023-08-04 01:47:36] INFO root fetch - processPackages [evodiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evodiff-0.0.2.tar.gz tmp/evodiff-0.0.3.tar.gz --markdown 20230804/e/evodiff/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 01:47:36] INFO root fetch - processPackages [repo-review]: Downloading https://files.pythonhosted.org/packages/c4/62/79f892cbfd48d916c2eeb2274a4e537a0c50556e86b7da213adcdc4bcc23/repo_review-0.9.2.tar.gz
+[2023-08-04 01:47:37] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-08-04 01:47:37] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230801.tar.gz tmp/skyplane_nightly-0.3.2.dev20230802.tar.gz --markdown 20230804/s/skyplane-nightly/0.3.2.dev20230801-0.3.2.dev20230802/diff.md --exclude *.pyd
+[2023-08-04 01:47:37] INFO root fetch - processPackages [yaml-requests]: Downloading https://files.pythonhosted.org/packages/cc/6d/9b0477a85071ce0eddaa6271624ec6e233c5426da949f5fbf7658b224a36/yaml_requests-0.9.0.tar.gz
+[2023-08-04 01:47:37] INFO root fetch - processPackages [repo-review]: executing diffoscope
+[2023-08-04 01:47:37] INFO root fetch - processPackages [repo-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo_review-0.9.1.tar.gz tmp/repo_review-0.9.2.tar.gz --markdown 20230804/r/repo-review/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-04 01:47:37] INFO root fetch - processPackages [harlequin]: Downloading https://files.pythonhosted.org/packages/e2/a0/ca3c337e06ecbd039bbccab3d2d55ab9c4a87f51afd28c19e804aca66fd5/harlequin-0.0.9.tar.gz
+[2023-08-04 01:47:37] INFO root fetch - processPackages [yaml-requests]: executing diffoscope
+[2023-08-04 01:47:37] INFO root fetch - processPackages [yaml-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml_requests-0.8.0.tar.gz tmp/yaml_requests-0.9.0.tar.gz --markdown 20230804/y/yaml-requests/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 01:47:37] INFO root fetch - processPackages [harlequin]: executing diffoscope
+[2023-08-04 01:47:37] INFO root fetch - processPackages [harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin-0.0.8.tar.gz tmp/harlequin-0.0.9.tar.gz --markdown 20230804/h/harlequin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 01:47:37] INFO root fetch - processPackages [evodiff]: Remove: archive file [/home/abi/fetcher/tmp/evodiff-0.0.2.tar.gz]
+[2023-08-04 01:47:37] INFO root fetch - processPackages [evodiff]: Remove: archive file [/home/abi/fetcher/tmp/evodiff-0.0.3.tar.gz]
+[2023-08-04 01:47:37] INFO root fetch - main [MainThread]: End processing [evodiff]: success
+[2023-08-04 01:47:38] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.8.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.9.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - main [MainThread]: End processing [AppiumExtended]: success
+[2023-08-04 01:47:38] INFO root fetch - processPackages [yaml-requests]: Remove: archive file [/home/abi/fetcher/tmp/yaml_requests-0.8.0.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - processPackages [yaml-requests]: Remove: archive file [/home/abi/fetcher/tmp/yaml_requests-0.9.0.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - main [MainThread]: End processing [yaml-requests]: success
+[2023-08-04 01:47:38] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230801.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230802.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-08-04 01:47:38] INFO root fetch - processPackages [harlequin]: Remove: archive file [/home/abi/fetcher/tmp/harlequin-0.0.8.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - processPackages [harlequin]: Remove: archive file [/home/abi/fetcher/tmp/harlequin-0.0.9.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - main [MainThread]: End processing [harlequin]: success
+[2023-08-04 01:47:38] INFO root fetch - processPackages [repo-review]: Remove: archive file [/home/abi/fetcher/tmp/repo_review-0.9.1.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - processPackages [repo-review]: Remove: archive file [/home/abi/fetcher/tmp/repo_review-0.9.2.tar.gz]
+[2023-08-04 01:47:38] INFO root fetch - main [MainThread]: End processing [repo-review]: success
+[2023-08-04 01:47:38] INFO root fetch - main [MainThread]: Store serial: [19165834]
