@@ -703,3 +703,87 @@
 [2023-08-04 00:13:16] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
 [2023-08-04 00:13:16] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
 [2023-08-04 00:13:16] INFO root fetch - main [MainThread]: Store serial: [19165037]
+[2023-08-04 00:18:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165037]
+[2023-08-04 00:18:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 00:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nalpy
+[2023-08-04 00:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: equation-sampler
+[2023-08-04 00:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sylk
+[2023-08-04 00:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gymnasium-trading
+[2023-08-04 00:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e-models
+[2023-08-04 00:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: charmed-kubeflow-chisme
+[2023-08-04 00:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-08-04 00:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AppiumExtended
+[2023-08-04 00:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langfuse
+[2023-08-04 00:18:25] INFO root fetch - processPackages [equation-sampler]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 00:18:25] INFO root fetch - processPackages [AppiumExtended]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 00:18:25] INFO root fetch - processPackages [langfuse]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 00:18:25] INFO root fetch - processPackages [coiled]: New version: [0.9.5.dev9] Old Version: [0.9.5.dev8]
+[2023-08-04 00:18:25] INFO root fetch - processPackages [gymnasium-trading]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-04 00:18:25] INFO root fetch - processPackages [nalpy]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-04 00:18:25] INFO root fetch - processPackages [equation-sampler]: Downloading https://files.pythonhosted.org/packages/5a/8e/c18172019a9b3c6af4f60714c4249383fe96b9b49ac1aac5fbe6a316952f/equation-sampler-0.0.2.tar.gz
+[2023-08-04 00:18:25] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/48/55/f67b7ff09d9d9bb7ded43778a2902e2c1945df868cb72b799ff08431d069/AppiumExtended-0.1.8.tar.gz
+[2023-08-04 00:18:25] INFO root fetch - processPackages [charmed-kubeflow-chisme]: New version: [0.2.0] Old Version: [0.0.9]
+[2023-08-04 00:18:25] INFO root fetch - processPackages [sylk]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-04 00:18:25] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/fc/40/3ef74e4912171af535ce42a8496b5d514b756a0b45ff32bc1feed39955ef/langfuse-0.0.8.tar.gz
+[2023-08-04 00:18:25] INFO root fetch - processPackages [e-models]: New version: [1.5.3] Old Version: [1.5.2.1]
+[2023-08-04 00:18:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/24/6d/7e38de78e9f052f234b1170563fc1971e6ffc387d8426174fb4b981de64f/coiled-0.9.5.dev8.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [nalpy]: Downloading https://files.pythonhosted.org/packages/3d/ba/e71df3ae726e10fabf7ff679c77061070d225c702ec562a0edeed68f0bd6/nalpy-0.3.3.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [gymnasium-trading]: Downloading https://files.pythonhosted.org/packages/b9/e6/7fbf3042b66b6c48af5b67f16f480d33c18ff95ef3adb63ad3d8cb900c87/gymnasium_trading-0.0.6.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/67/8d/74ba59d906a7f5b4f3a9c7d55aa0af85a3d64f30ed03a55294ab43e42488/e-models-1.5.2.1.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [AppiumExtended]: Downloading https://files.pythonhosted.org/packages/98/22/6a210072cc16cc0844864c54bc03a4714837c16bc570e163961c62152a39/AppiumExtended-0.1.9.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/6d/5c/de0ad8177d2d19ced93435f5d3b214cd3542e8acd5d8801e25a67a88a7f7/sylk-0.3.1-py3-none-any.whl
+[2023-08-04 00:18:26] INFO root fetch - processPackages [charmed-kubeflow-chisme]: Downloading https://files.pythonhosted.org/packages/2b/03/55a12d1a1a9f4c5ee7962edc85f55ae54ee24306da6903c3b92ea92d03ee/charmed-kubeflow-chisme-0.0.9.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [equation-sampler]: Downloading https://files.pythonhosted.org/packages/34/dc/b75622b714ee4fed3be59532b6d7fccd5d875e9abd5682cbabaaab956edc/equation-sampler-0.0.3.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/de/d3/b197d5f4cd35d1634c7d1049508a9a3504620135205db52eb1add92737a2/coiled-0.9.5.dev9.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/a3/6a/95eb0d740a1f91ce539617150bdf06282bad7e47ab66b7bf599d696f52d9/langfuse-0.0.9.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [equation-sampler]: executing diffoscope
+[2023-08-04 00:18:26] INFO root fetch - processPackages [AppiumExtended]: executing diffoscope
+[2023-08-04 00:18:26] INFO root fetch - processPackages [equation-sampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equation-sampler-0.0.2.tar.gz tmp/equation-sampler-0.0.3.tar.gz --markdown 20230804/e/equation-sampler/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 00:18:26] INFO root fetch - processPackages [AppiumExtended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppiumExtended-0.1.8.tar.gz tmp/AppiumExtended-0.1.9.tar.gz --markdown 20230804/A/AppiumExtended/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 00:18:26] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2023-08-04 00:18:26] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-0.0.8.tar.gz tmp/langfuse-0.0.9.tar.gz --markdown 20230804/l/langfuse/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 00:18:26] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-04 00:18:26] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.5.dev8.tar.gz tmp/coiled-0.9.5.dev9.tar.gz --markdown 20230804/c/coiled/0.9.5.dev8-0.9.5.dev9/diff.md --exclude *.pyd
+[2023-08-04 00:18:26] INFO root fetch - processPackages [nalpy]: Downloading https://files.pythonhosted.org/packages/94/72/82dd5a0257683fa42d8c5396a61e3d401913124a258b925c88d8f77410ce/nalpy-0.3.4.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/eb/bf/0d3ae94789731acc295517a6d7e420bb4956316f09deab0f5c7248dd3373/e-models-1.5.3.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [gymnasium-trading]: Downloading https://files.pythonhosted.org/packages/5f/d9/10fbb0b15aa05cf7e6adbd91c580395ff26525b88716dd24f7c897cd410b/gymnasium_trading-0.0.7.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [charmed-kubeflow-chisme]: Downloading https://files.pythonhosted.org/packages/5d/3d/573b4174a2a92bbad508dfd1ef62c6e83481a2b5c24fd578d866bedc8892/charmed-kubeflow-chisme-0.2.0.tar.gz
+[2023-08-04 00:18:26] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/1b/31/f51128361951822b501763541b0f76b9ade2fac9f629db0bc43316e6a82c/sylk-0.3.2-py3-none-any.whl
+[2023-08-04 00:18:26] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-08-04 00:18:26] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.5.2.1.tar.gz tmp/e-models-1.5.3.tar.gz --markdown 20230804/e/e-models/1.5.2.1-1.5.3/diff.md --exclude *.pyd
+[2023-08-04 00:18:26] INFO root fetch - processPackages [gymnasium-trading]: executing diffoscope
+[2023-08-04 00:18:26] INFO root fetch - processPackages [gymnasium-trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_trading-0.0.6.tar.gz tmp/gymnasium_trading-0.0.7.tar.gz --markdown 20230804/g/gymnasium-trading/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-04 00:18:26] INFO root fetch - processPackages [charmed-kubeflow-chisme]: executing diffoscope
+[2023-08-04 00:18:26] INFO root fetch - processPackages [charmed-kubeflow-chisme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charmed-kubeflow-chisme-0.0.9.tar.gz tmp/charmed-kubeflow-chisme-0.2.0.tar.gz --markdown 20230804/c/charmed-kubeflow-chisme/0.0.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 00:18:27] INFO root fetch - processPackages [sylk]: executing diffoscope
+[2023-08-04 00:18:27] INFO root fetch - processPackages [sylk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sylk-0.3.1-py3-none-any.whl.zip tmp/sylk-0.3.2-py3-none-any.whl.zip --markdown 20230804/s/sylk/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-04 00:18:27] INFO root fetch - processPackages [nalpy]: executing diffoscope
+[2023-08-04 00:18:27] INFO root fetch - processPackages [nalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nalpy-0.3.3.tar.gz tmp/nalpy-0.3.4.tar.gz --markdown 20230804/n/nalpy/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-04 00:18:28] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.8.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-0.0.9.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2023-08-04 00:18:28] INFO root fetch - processPackages [equation-sampler]: Remove: archive file [/home/abi/fetcher/tmp/equation-sampler-0.0.2.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - processPackages [equation-sampler]: Remove: archive file [/home/abi/fetcher/tmp/equation-sampler-0.0.3.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - main [MainThread]: End processing [equation-sampler]: success
+[2023-08-04 00:18:28] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.8.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - processPackages [AppiumExtended]: Remove: archive file [/home/abi/fetcher/tmp/AppiumExtended-0.1.9.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - main [MainThread]: End processing [AppiumExtended]: success
+[2023-08-04 00:18:28] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev8.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev9.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-04 00:18:28] INFO root fetch - processPackages [gymnasium-trading]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_trading-0.0.6.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - processPackages [gymnasium-trading]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_trading-0.0.7.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - main [MainThread]: End processing [gymnasium-trading]: success
+[2023-08-04 00:18:28] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.5.2.1.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.5.3.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-08-04 00:18:28] INFO root fetch - processPackages [charmed-kubeflow-chisme]: Remove: archive file [/home/abi/fetcher/tmp/charmed-kubeflow-chisme-0.0.9.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - processPackages [charmed-kubeflow-chisme]: Remove: archive file [/home/abi/fetcher/tmp/charmed-kubeflow-chisme-0.2.0.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - main [MainThread]: End processing [charmed-kubeflow-chisme]: success
+[2023-08-04 00:18:28] INFO root fetch - processPackages [nalpy]: Remove: archive file [/home/abi/fetcher/tmp/nalpy-0.3.3.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - processPackages [nalpy]: Remove: archive file [/home/abi/fetcher/tmp/nalpy-0.3.4.tar.gz]
+[2023-08-04 00:18:28] INFO root fetch - main [MainThread]: End processing [nalpy]: success
+[2023-08-04 00:18:29] INFO root fetch - processPackages [sylk]: Remove: archive file [/home/abi/fetcher/tmp/sylk-0.3.1-py3-none-any.whl.zip]
+[2023-08-04 00:18:29] INFO root fetch - processPackages [sylk]: Remove: archive file [/home/abi/fetcher/tmp/sylk-0.3.2-py3-none-any.whl.zip]
+[2023-08-04 00:18:29] INFO root fetch - main [MainThread]: End processing [sylk]: success
+[2023-08-04 00:18:29] INFO root fetch - main [MainThread]: Store serial: [19165063]
