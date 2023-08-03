@@ -2038,3 +2038,60 @@
 [2023-08-04 01:37:16] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
 [2023-08-04 01:37:16] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2023-08-04 01:37:16] INFO root fetch - main [MainThread]: Store serial: [19165790]
+[2023-08-04 01:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165790]
+[2023-08-04 01:42:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-04 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrunch
+[2023-08-04 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: riid
+[2023-08-04 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bygg
+[2023-08-04 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: andak
+[2023-08-04 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roboflowoak
+[2023-08-04 01:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litenai
+[2023-08-04 01:42:25] INFO root fetch - processPackages [andak]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-04 01:42:25] INFO root fetch - processPackages [andak]: Downloading https://files.pythonhosted.org/packages/be/51/420cae04205fddf9b8538d570a29031bb4d026c95025a529f96e959189ae/andak-0.0.1.tar.gz
+[2023-08-04 01:42:25] INFO root fetch - processPackages [litenai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 01:42:25] INFO root fetch - processPackages [bygg]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 01:42:25] INFO root fetch - processPackages [roboflowoak]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-04 01:42:25] INFO root fetch - processPackages [riid]: New version: [2.0.0] Old Version: [1.0.2]
+[2023-08-04 01:42:25] INFO root fetch - processPackages [andak]: Downloading https://files.pythonhosted.org/packages/33/1b/0b889aa7221c0548033a3b0c53aa81ccef219167ec3f46165a70b4ca8ce7/andak-0.0.2.tar.gz
+[2023-08-04 01:42:25] INFO root fetch - processPackages [bygg]: Downloading https://files.pythonhosted.org/packages/44/e0/605eb4f5bfe1cda9900a183cc697e72ba29d3a2f85cb3f9ca348a2120230/bygg-0.1.0.tar.gz
+[2023-08-04 01:42:25] INFO root fetch - processPackages [scrunch]: New version: [6.5.2033.post1691093996] Old Version: [6.5.2032.post1691083150]
+[2023-08-04 01:42:25] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/94/2a/faa876ae16d03bc0c8948d4f3be1aab1fdbcfb4318cef9fcb984d2b303b9/litenai-0.0.8-py3-none-any.whl
+[2023-08-04 01:42:25] INFO root fetch - processPackages [roboflowoak]: Downloading https://files.pythonhosted.org/packages/f8/de/ca2a548e966a04c8e0d1063aecf07857794d659eb5091ce51f1fae1b295e/roboflowoak-0.0.7.tar.gz
+[2023-08-04 01:42:26] INFO root fetch - processPackages [riid]: Downloading https://files.pythonhosted.org/packages/c8/e8/c101cbddd0980380d330eec7a9b42a4f0851ea4d3990ba97b71f5c32c5a5/riid-1.0.2.tar.gz
+[2023-08-04 01:42:26] INFO root fetch - processPackages [andak]: executing diffoscope
+[2023-08-04 01:42:26] INFO root fetch - processPackages [andak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andak-0.0.1.tar.gz tmp/andak-0.0.2.tar.gz --markdown 20230804/a/andak/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-04 01:42:26] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/c9/eb/4a1efb8a50fb0ebe0daba966e847346c50724afdb0a51aa3ddeac9ebc42d/scrunch-6.5.2032.post1691083150.tar.gz
+[2023-08-04 01:42:26] INFO root fetch - processPackages [bygg]: Downloading https://files.pythonhosted.org/packages/1b/c8/a913f9af360325fb29660d98b24d88ad76ea4b67fb25b6ac48b5c47a9644/bygg-0.1.1.tar.gz
+[2023-08-04 01:42:26] INFO root fetch - processPackages [roboflowoak]: Downloading https://files.pythonhosted.org/packages/bf/71/5d0e19ef81efc71d9fc73c780279f1a52c2c322576e569206348cf0ff003/roboflowoak-0.0.8.tar.gz
+[2023-08-04 01:42:26] INFO root fetch - processPackages [bygg]: executing diffoscope
+[2023-08-04 01:42:26] INFO root fetch - processPackages [bygg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bygg-0.1.0.tar.gz tmp/bygg-0.1.1.tar.gz --markdown 20230804/b/bygg/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 01:42:26] INFO root fetch - processPackages [riid]: Downloading https://files.pythonhosted.org/packages/59/75/fe14faac1c4523f24865463a96d7b72d8fd36154bfa279fac2aaef434ef3/riid-2.0.0.tar.gz
+[2023-08-04 01:42:26] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/75/73/193b789002dd329d092fe95760ff9bc83157ab0798508e0489ccadc622b4/litenai-0.0.9-py3-none-any.whl
+[2023-08-04 01:42:26] INFO root fetch - processPackages [roboflowoak]: executing diffoscope
+[2023-08-04 01:42:26] INFO root fetch - processPackages [roboflowoak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboflowoak-0.0.7.tar.gz tmp/roboflowoak-0.0.8.tar.gz --markdown 20230804/r/roboflowoak/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-04 01:42:26] INFO root fetch - processPackages [riid]: executing diffoscope
+[2023-08-04 01:42:26] INFO root fetch - processPackages [riid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riid-1.0.2.tar.gz tmp/riid-2.0.0.tar.gz --markdown 20230804/r/riid/1.0.2-2.0.0/diff.md --exclude *.pyd
+[2023-08-04 01:42:26] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/e7/47/1a09fd583049163a1cb3ea1b93beb501f231c6c4e7e2d8b82c6054b5229f/scrunch-6.5.2033.post1691093996.tar.gz
+[2023-08-04 01:42:26] INFO root fetch - processPackages [litenai]: executing diffoscope
+[2023-08-04 01:42:26] INFO root fetch - processPackages [litenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenai-0.0.8-py3-none-any.whl.zip tmp/litenai-0.0.9-py3-none-any.whl.zip --markdown 20230804/l/litenai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 01:42:26] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-04 01:42:26] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2032.post1691083150.tar.gz tmp/scrunch-6.5.2033.post1691093996.tar.gz --markdown 20230804/s/scrunch/6.5.2032.post1691083150-6.5.2033.post1691093996/diff.md --exclude *.pyd
+[2023-08-04 01:42:26] INFO root fetch - processPackages [andak]: Remove: archive file [/home/abi/fetcher/tmp/andak-0.0.1.tar.gz]
+[2023-08-04 01:42:26] INFO root fetch - processPackages [andak]: Remove: archive file [/home/abi/fetcher/tmp/andak-0.0.2.tar.gz]
+[2023-08-04 01:42:26] INFO root fetch - main [MainThread]: End processing [andak]: success
+[2023-08-04 01:42:27] INFO root fetch - processPackages [roboflowoak]: Remove: archive file [/home/abi/fetcher/tmp/roboflowoak-0.0.7.tar.gz]
+[2023-08-04 01:42:27] INFO root fetch - processPackages [roboflowoak]: Remove: archive file [/home/abi/fetcher/tmp/roboflowoak-0.0.8.tar.gz]
+[2023-08-04 01:42:27] INFO root fetch - main [MainThread]: End processing [roboflowoak]: success
+[2023-08-04 01:42:27] INFO root fetch - processPackages [bygg]: Remove: archive file [/home/abi/fetcher/tmp/bygg-0.1.0.tar.gz]
+[2023-08-04 01:42:27] INFO root fetch - processPackages [bygg]: Remove: archive file [/home/abi/fetcher/tmp/bygg-0.1.1.tar.gz]
+[2023-08-04 01:42:27] INFO root fetch - main [MainThread]: End processing [bygg]: success
+[2023-08-04 01:42:27] INFO root fetch - processPackages [riid]: Remove: archive file [/home/abi/fetcher/tmp/riid-1.0.2.tar.gz]
+[2023-08-04 01:42:27] INFO root fetch - processPackages [riid]: Remove: archive file [/home/abi/fetcher/tmp/riid-2.0.0.tar.gz]
+[2023-08-04 01:42:27] INFO root fetch - main [MainThread]: End processing [riid]: success
+[2023-08-04 01:42:27] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.8-py3-none-any.whl.zip]
+[2023-08-04 01:42:27] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.9-py3-none-any.whl.zip]
+[2023-08-04 01:42:27] INFO root fetch - main [MainThread]: End processing [litenai]: success
+[2023-08-04 01:42:27] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2032.post1691083150.tar.gz]
+[2023-08-04 01:42:27] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2033.post1691093996.tar.gz]
+[2023-08-04 01:42:27] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-04 01:42:27] INFO root fetch - main [MainThread]: Store serial: [19165806]
