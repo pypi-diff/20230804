@@ -1043,3 +1043,54 @@
 [2023-08-04 00:34:14] INFO root fetch - processPackages [sequentPSS]: Remove: archive file [/home/abi/fetcher/tmp/sequentPSS-0.0.2.tar.gz]
 [2023-08-04 00:34:14] INFO root fetch - main [MainThread]: End processing [sequentPSS]: success
 [2023-08-04 00:34:14] INFO root fetch - main [MainThread]: Store serial: [19165163]
+[2023-08-04 00:39:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165163]
+[2023-08-04 00:39:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-04 00:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-08-04 00:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: e-models
+[2023-08-04 00:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unbeheader
+[2023-08-04 00:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mamon-utils
+[2023-08-04 00:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywaterml
+[2023-08-04 00:39:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libquantum
+[2023-08-04 00:39:23] INFO root fetch - processPackages [e-models]: New version: [1.5.3] Old Version: [1.5.2.1]
+[2023-08-04 00:39:23] INFO root fetch - processPackages [coiled]: New version: [0.9.5.dev9] Old Version: [0.9.5.dev8]
+[2023-08-04 00:39:23] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/67/8d/74ba59d906a7f5b4f3a9c7d55aa0af85a3d64f30ed03a55294ab43e42488/e-models-1.5.2.1.tar.gz
+[2023-08-04 00:39:23] INFO root fetch - processPackages [mamon-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 00:39:23] WARNING root fetch - processPackages [unbeheader]: Skipping, unable to determine old version
+[2023-08-04 00:39:23] INFO root fetch - main [MainThread]: End processing [unbeheader] error
+[2023-08-04 00:39:23] INFO root fetch - processPackages [pywaterml]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-04 00:39:23] INFO root fetch - processPackages [libquantum]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-08-04 00:39:23] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/24/6d/7e38de78e9f052f234b1170563fc1971e6ffc387d8426174fb4b981de64f/coiled-0.9.5.dev8.tar.gz
+[2023-08-04 00:39:23] INFO root fetch - processPackages [libquantum]: Downloading https://files.pythonhosted.org/packages/90/8b/f81f80fe4fb3419ac3819a90868426edf250c9892291875841abfa4c1020/libquantum-1.5.5.tar.gz
+[2023-08-04 00:39:23] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/eb/bf/0d3ae94789731acc295517a6d7e420bb4956316f09deab0f5c7248dd3373/e-models-1.5.3.tar.gz
+[2023-08-04 00:39:23] INFO root fetch - processPackages [mamon-utils]: Downloading https://files.pythonhosted.org/packages/88/ea/0a3be78344214206047efb8b2f68fa9cdf5b2e15c658fb0bdf4436403579/mamon_utils-0.0.2.tar.gz
+[2023-08-04 00:39:23] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/de/d3/b197d5f4cd35d1634c7d1049508a9a3504620135205db52eb1add92737a2/coiled-0.9.5.dev9.tar.gz
+[2023-08-04 00:39:23] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-08-04 00:39:23] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.5.2.1.tar.gz tmp/e-models-1.5.3.tar.gz --markdown 20230804/e/e-models/1.5.2.1-1.5.3/diff.md --exclude *.pyd
+[2023-08-04 00:39:23] INFO root fetch - processPackages [pywaterml]: Downloading https://files.pythonhosted.org/packages/ae/cc/3aa77e0cd73abcceadf696e057e84330b63c9a52de9ccfc1eb1293edf4fe/pywaterml-1.2.8.tar.gz
+[2023-08-04 00:39:23] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-08-04 00:39:23] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.9.5.dev8.tar.gz tmp/coiled-0.9.5.dev9.tar.gz --markdown 20230804/c/coiled/0.9.5.dev8-0.9.5.dev9/diff.md --exclude *.pyd
+[2023-08-04 00:39:23] INFO root fetch - processPackages [mamon-utils]: Downloading https://files.pythonhosted.org/packages/82/d4/9a625afeda2f4e13cf6d839f931a89d8a851d2390cc9ca922f2b4fec032c/mamon_utils-0.0.3.tar.gz
+[2023-08-04 00:39:23] INFO root fetch - processPackages [libquantum]: Downloading https://files.pythonhosted.org/packages/f0/89/8b16fd9480f6db60dab0fc56b7440a6c8ee41adc296a4e565e9cf023a571/libquantum-1.5.6.tar.gz
+[2023-08-04 00:39:24] INFO root fetch - processPackages [mamon-utils]: executing diffoscope
+[2023-08-04 00:39:24] INFO root fetch - processPackages [mamon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mamon_utils-0.0.2.tar.gz tmp/mamon_utils-0.0.3.tar.gz --markdown 20230804/m/mamon-utils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 00:39:24] INFO root fetch - processPackages [pywaterml]: Downloading https://files.pythonhosted.org/packages/43/df/ee440e89bb799aacc6167f749c745d7080fd1b6d0163691ed2eb204787a7/pywaterml-1.2.9.tar.gz
+[2023-08-04 00:39:24] INFO root fetch - processPackages [libquantum]: executing diffoscope
+[2023-08-04 00:39:24] INFO root fetch - processPackages [libquantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libquantum-1.5.5.tar.gz tmp/libquantum-1.5.6.tar.gz --markdown 20230804/l/libquantum/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-08-04 00:39:24] INFO root fetch - processPackages [pywaterml]: executing diffoscope
+[2023-08-04 00:39:24] INFO root fetch - processPackages [pywaterml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywaterml-1.2.8.tar.gz tmp/pywaterml-1.2.9.tar.gz --markdown 20230804/p/pywaterml/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-04 00:39:24] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.5.2.1.tar.gz]
+[2023-08-04 00:39:24] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.5.3.tar.gz]
+[2023-08-04 00:39:24] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-08-04 00:39:24] INFO root fetch - processPackages [mamon-utils]: Remove: archive file [/home/abi/fetcher/tmp/mamon_utils-0.0.2.tar.gz]
+[2023-08-04 00:39:24] INFO root fetch - processPackages [mamon-utils]: Remove: archive file [/home/abi/fetcher/tmp/mamon_utils-0.0.3.tar.gz]
+[2023-08-04 00:39:24] INFO root fetch - main [MainThread]: End processing [mamon-utils]: success
+[2023-08-04 00:39:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev8.tar.gz]
+[2023-08-04 00:39:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.9.5.dev9.tar.gz]
+[2023-08-04 00:39:24] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-08-04 00:39:25] INFO root fetch - processPackages [pywaterml]: Remove: archive file [/home/abi/fetcher/tmp/pywaterml-1.2.8.tar.gz]
+[2023-08-04 00:39:25] INFO root fetch - processPackages [pywaterml]: Remove: archive file [/home/abi/fetcher/tmp/pywaterml-1.2.9.tar.gz]
+[2023-08-04 00:39:25] INFO root fetch - main [MainThread]: End processing [pywaterml]: success
+[2023-08-04 00:39:25] INFO root fetch - processPackages [libquantum]: Remove: archive file [/home/abi/fetcher/tmp/libquantum-1.5.5.tar.gz]
+[2023-08-04 00:39:25] INFO root fetch - processPackages [libquantum]: Remove: archive file [/home/abi/fetcher/tmp/libquantum-1.5.6.tar.gz]
+[2023-08-04 00:39:25] INFO root fetch - main [MainThread]: End processing [libquantum]: success
+[2023-08-04 00:39:25] INFO root fetch - main [MainThread]: Store serial: [19165182]
