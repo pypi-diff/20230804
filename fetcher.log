@@ -935,3 +935,111 @@
 [2023-08-04 00:29:00] INFO root fetch - processPackages [pensando-dss]: Remove: archive file [/home/abi/fetcher/tmp/pensando_dss-1.62.2.tar.gz]
 [2023-08-04 00:29:00] INFO root fetch - main [MainThread]: End processing [pensando-dss]: success
 [2023-08-04 00:29:00] INFO root fetch - main [MainThread]: Store serial: [19165119]
+[2023-08-04 00:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165119]
+[2023-08-04 00:34:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instacrawl
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedhtml
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kraken-build
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kraken-common
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kraken-core
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kraken-wrapper
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kraken-std
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webwithpy
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jarbas-hive-mind
+[2023-08-04 00:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hivemind-bus-client
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.30.2] Old Version: [0.30.1]
+[2023-08-04 00:34:10] INFO root fetch - processPackages [instacrawl]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-04 00:34:10] INFO root fetch - processPackages [jarbas-hive-mind]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-build]: New version: [0.30.3] Old Version: [0.30.2]
+[2023-08-04 00:34:10] INFO root fetch - processPackages [typedhtml]: New version: [0.2.15] Old Version: [0.2.14]
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-08-04 00:34:10] INFO root fetch - processPackages [hivemind-bus-client]: New version: [0.0.4a6] Old Version: [0.0.4a5]
+[2023-08-04 00:34:10] WARNING root fetch - processPackages [webwithpy]: Skipping, unable to determine old version
+[2023-08-04 00:34:10] INFO root fetch - processPackages [webwithpy]: Start processing: djfapi
+[2023-08-04 00:34:10] INFO root fetch - main [MainThread]: End processing [webwithpy] error
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/77/e8/8a38fbacce492c767765b3e46ba23684cc79ce15c7c9c42c07b81fe4c259/kraken_wrapper-0.30.1.tar.gz
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-08-04 00:34:10] INFO root fetch - processPackages [jarbas-hive-mind]: Downloading https://files.pythonhosted.org/packages/91/7b/2d42beff1029ad8a9b80e29d5d098e6fdf935dcda89113214b6452c5e0d1/jarbas_hive_mind-0.9.0.tar.gz
+[2023-08-04 00:34:10] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/c8/2d/fa44facb91aceec6235314e477acdf2e259eeaf39f8201174dfaa87a9afd/typedhtml-0.2.14.tar.gz
+[2023-08-04 00:34:10] INFO root fetch - processPackages [instacrawl]: Downloading https://files.pythonhosted.org/packages/58/e2/0b5c56c46c48f7d97294f759ee65bcafddd3b5dc3657cc74763e8901e586/instacrawl-0.1.1.tar.gz
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-08-04 00:34:10] INFO root fetch - processPackages [djfapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/68/d2/aa05cdbafb099012e0d66d0a2772e6297b9c446a96ff7d0f3d9b702e3e87/kraken_build-0.30.2.tar.gz
+[2023-08-04 00:34:10] INFO root fetch - processPackages [hivemind-bus-client]: Downloading https://files.pythonhosted.org/packages/6b/7c/81bb398e3f9290ea05c55eb82b49df0cff65a9e2b60dd1f44080252979a6/hivemind_bus_client-0.0.4a5-py3-none-any.whl
+[2023-08-04 00:34:10] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/ec/91/212e1a394a4b7d62bf3d3dc4739dc10a9ddedc9fe6ee1c1fd3a0c3a66f24/djfapi-0.0.8.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/ad/ca/4f9b1e1493e4ebc098653625e80fba984f39f63b915c22061b08a240ba85/kraken_wrapper-0.30.2.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [jarbas-hive-mind]: Downloading https://files.pythonhosted.org/packages/7f/97/76004a92ffda9330f1841c08b81f7f54c16185a984d40c336ec73af026cb/jarbas_hive_mind-0.9.1.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [instacrawl]: Downloading https://files.pythonhosted.org/packages/68/0e/a960a53d6858bf9730414a0916df7b92ae84b21133dcadbb0407d7852090/instacrawl-0.1.2.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230804/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/e9/77/21fd26d9099b941289ddd587ac9ad1e000b2fbb753a01969796e3439631e/typedhtml-0.2.15.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/dd/f5/aba4873509ee8b4fe1b1565e14d1cefa7169ea0e3c0e0a3cfac1223312c9/kraken_build-0.30.3.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.30.1.tar.gz tmp/kraken_wrapper-0.30.2.tar.gz --markdown 20230804/k/kraken-wrapper/0.30.1-0.30.2/diff.md --exclude *.pyd
+[2023-08-04 00:34:11] INFO root fetch - processPackages [jarbas-hive-mind]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [jarbas-hive-mind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarbas_hive_mind-0.9.0.tar.gz tmp/jarbas_hive_mind-0.9.1.tar.gz --markdown 20230804/j/jarbas-hive-mind/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-04 00:34:11] INFO root fetch - processPackages [instacrawl]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [instacrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instacrawl-0.1.1.tar.gz tmp/instacrawl-0.1.2.tar.gz --markdown 20230804/i/instacrawl/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-04 00:34:11] INFO root fetch - processPackages [hivemind-bus-client]: Downloading https://files.pythonhosted.org/packages/5f/0a/948d8393c1897bae1dbbd64f7e28d3899563d44a39f719ddc5bc2d402f1c/hivemind_bus_client-0.0.4a6-py3-none-any.whl
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230804/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-08-04 00:34:11] INFO root fetch - processPackages [typedhtml]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [typedhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhtml-0.2.14.tar.gz tmp/typedhtml-0.2.15.tar.gz --markdown 20230804/t/typedhtml/0.2.14-0.2.15/diff.md --exclude *.pyd
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.30.2.tar.gz tmp/kraken_build-0.30.3.tar.gz --markdown 20230804/k/kraken-build/0.30.2-0.30.3/diff.md --exclude *.pyd
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230804/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-08-04 00:34:11] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/9a/84/a6710eab6739d2351d2a2585909093b9947b85cb544edc5f944e1ae1a85d/djfapi-0.0.9.tar.gz
+[2023-08-04 00:34:11] INFO root fetch - processPackages [hivemind-bus-client]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [hivemind-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivemind_bus_client-0.0.4a5-py3-none-any.whl.zip tmp/hivemind_bus_client-0.0.4a6-py3-none-any.whl.zip --markdown 20230804/h/hivemind-bus-client/0.0.4a5-0.0.4a6/diff.md --exclude *.pyd
+[2023-08-04 00:34:11] INFO root fetch - processPackages [djfapi]: executing diffoscope
+[2023-08-04 00:34:11] INFO root fetch - processPackages [djfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djfapi-0.0.8.tar.gz tmp/djfapi-0.0.9.tar.gz --markdown 20230804/d/djfapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 00:34:12] INFO root fetch - processPackages [instacrawl]: Remove: archive file [/home/abi/fetcher/tmp/instacrawl-0.1.1.tar.gz]
+[2023-08-04 00:34:12] INFO root fetch - processPackages [instacrawl]: Remove: archive file [/home/abi/fetcher/tmp/instacrawl-0.1.2.tar.gz]
+[2023-08-04 00:34:12] INFO root fetch - processPackages [instacrawl]: Start processing: unbeheader
+[2023-08-04 00:34:12] INFO root fetch - main [MainThread]: End processing [instacrawl]: success
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.30.1.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.30.2.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-wrapper]: Start processing: sequentPSS
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-08-04 00:34:13] INFO root fetch - processPackages [sequentPSS]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [jarbas-hive-mind]: Remove: archive file [/home/abi/fetcher/tmp/jarbas_hive_mind-0.9.0.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [jarbas-hive-mind]: Remove: archive file [/home/abi/fetcher/tmp/jarbas_hive_mind-0.9.1.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [jarbas-hive-mind]: success
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.30.2.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.30.3.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-08-04 00:34:13] ERROR root fetch - processPackages [unbeheader]: Unable to get metadata: No such project 'unbeheader'
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [unbeheader] error
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-08-04 00:34:13] INFO root fetch - processPackages [hivemind-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/hivemind_bus_client-0.0.4a5-py3-none-any.whl.zip]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [hivemind-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/hivemind_bus_client-0.0.4a6-py3-none-any.whl.zip]
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [hivemind-bus-client]: success
+[2023-08-04 00:34:13] INFO root fetch - processPackages [sequentPSS]: Downloading https://files.pythonhosted.org/packages/61/b4/5b6a2e1a580b4629916962e58ed6fa0dd7d9b97135f4a7d6f2e5d7f96c6b/sequentPSS-0.0.1.tar.gz
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-08-04 00:34:13] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.8.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.9.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [djfapi]: success
+[2023-08-04 00:34:13] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.2.14.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.2.15.tar.gz]
+[2023-08-04 00:34:13] INFO root fetch - main [MainThread]: End processing [typedhtml]: success
+[2023-08-04 00:34:13] INFO root fetch - processPackages [sequentPSS]: Downloading https://files.pythonhosted.org/packages/24/57/734d86601c9a0cc37f215559002c01212a44eca37f00db389e95d08ccf13/sequentPSS-0.0.2.tar.gz
+[2023-08-04 00:34:13] INFO root fetch - processPackages [sequentPSS]: executing diffoscope
+[2023-08-04 00:34:13] INFO root fetch - processPackages [sequentPSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequentPSS-0.0.1.tar.gz tmp/sequentPSS-0.0.2.tar.gz --markdown 20230804/s/sequentPSS/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-04 00:34:14] INFO root fetch - processPackages [sequentPSS]: Remove: archive file [/home/abi/fetcher/tmp/sequentPSS-0.0.1.tar.gz]
+[2023-08-04 00:34:14] INFO root fetch - processPackages [sequentPSS]: Remove: archive file [/home/abi/fetcher/tmp/sequentPSS-0.0.2.tar.gz]
+[2023-08-04 00:34:14] INFO root fetch - main [MainThread]: End processing [sequentPSS]: success
+[2023-08-04 00:34:14] INFO root fetch - main [MainThread]: Store serial: [19165163]
