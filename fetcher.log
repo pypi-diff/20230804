@@ -787,3 +787,45 @@
 [2023-08-04 00:18:29] INFO root fetch - processPackages [sylk]: Remove: archive file [/home/abi/fetcher/tmp/sylk-0.3.2-py3-none-any.whl.zip]
 [2023-08-04 00:18:29] INFO root fetch - main [MainThread]: End processing [sylk]: success
 [2023-08-04 00:18:29] INFO root fetch - main [MainThread]: Store serial: [19165063]
+[2023-08-04 00:23:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165063]
+[2023-08-04 00:23:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-04 00:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-08-04 00:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omni-pro
+[2023-08-04 00:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgcooldown
+[2023-08-04 00:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: giza-cli
+[2023-08-04 00:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-monitor
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pgcooldown]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-04 00:23:38] INFO root fetch - processPackages [omni-pro]: New version: [0.1.34] Old Version: [0.1.33]
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.419] Old Version: [0.3.418]
+[2023-08-04 00:23:38] WARNING root fetch - processPackages [llm-monitor]: Skipping, unable to determine old version
+[2023-08-04 00:23:38] INFO root fetch - main [MainThread]: End processing [llm-monitor] error
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pgcooldown]: Downloading https://files.pythonhosted.org/packages/a4/f9/feb13937e87ecd4bc884efed9dd2629cd8d2d3f8ca4dbbcb39ba814479bd/pgcooldown-0.2.1.tar.gz
+[2023-08-04 00:23:38] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/79/cd/6a445ce85df4c0b8e2e6e5fb3c595eefa067101dd4b92ebe3b05072e8efc/omni-pro-0.1.33.tar.gz
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/2c/da/4b0a3344430ad183d15587b6c481a31a6172c73bb77e22b7880b1f0709eb/pepperize.cdk-ses-smtp-credentials-0.3.418.tar.gz
+[2023-08-04 00:23:38] INFO root fetch - processPackages [giza-cli]: New version: [0.2.0] Old Version: [0.0.2]
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pgcooldown]: Downloading https://files.pythonhosted.org/packages/d8/cd/a735f67675a26a1222c90c04349b30d343cd97766e28bccadb651e556428/pgcooldown-0.2.2.tar.gz
+[2023-08-04 00:23:38] INFO root fetch - processPackages [giza-cli]: Downloading https://files.pythonhosted.org/packages/4b/1c/0071525392ec5fe29c858a4e3412a41d62cf0114b7af78de520ed59412e0/giza_cli-0.0.2.tar.gz
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/98/3b/79f1838f17204b2a0414dc3b010f9a0a3033d9f7d74482e20d3c940eda25/pepperize.cdk-ses-smtp-credentials-0.3.419.tar.gz
+[2023-08-04 00:23:38] INFO root fetch - processPackages [omni-pro]: Downloading https://files.pythonhosted.org/packages/1a/be/7991681e63839653132558ba761e952060f516bb559a0db74dfcf270d242/omni-pro-0.1.34.tar.gz
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pgcooldown]: executing diffoscope
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pgcooldown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgcooldown-0.2.1.tar.gz tmp/pgcooldown-0.2.2.tar.gz --markdown 20230804/p/pgcooldown/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-08-04 00:23:38] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.418.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.419.tar.gz --markdown 20230804/p/pepperize.cdk-ses-smtp-credentials/0.3.418-0.3.419/diff.md --exclude *.pyd
+[2023-08-04 00:23:38] INFO root fetch - processPackages [omni-pro]: executing diffoscope
+[2023-08-04 00:23:38] INFO root fetch - processPackages [omni-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni-pro-0.1.33.tar.gz tmp/omni-pro-0.1.34.tar.gz --markdown 20230804/o/omni-pro/0.1.33-0.1.34/diff.md --exclude *.pyd
+[2023-08-04 00:23:39] INFO root fetch - processPackages [giza-cli]: Downloading https://files.pythonhosted.org/packages/24/6e/12dd55997fdb66984bea4b0b672422c4296e848df7a10ff60f1196457835/giza_cli-0.2.0.tar.gz
+[2023-08-04 00:23:39] INFO root fetch - processPackages [giza-cli]: executing diffoscope
+[2023-08-04 00:23:39] INFO root fetch - processPackages [giza-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giza_cli-0.0.2.tar.gz tmp/giza_cli-0.2.0.tar.gz --markdown 20230804/g/giza-cli/0.0.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 00:23:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.418.tar.gz]
+[2023-08-04 00:23:39] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.419.tar.gz]
+[2023-08-04 00:23:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-08-04 00:23:39] INFO root fetch - processPackages [pgcooldown]: Remove: archive file [/home/abi/fetcher/tmp/pgcooldown-0.2.1.tar.gz]
+[2023-08-04 00:23:39] INFO root fetch - processPackages [pgcooldown]: Remove: archive file [/home/abi/fetcher/tmp/pgcooldown-0.2.2.tar.gz]
+[2023-08-04 00:23:39] INFO root fetch - main [MainThread]: End processing [pgcooldown]: success
+[2023-08-04 00:23:39] INFO root fetch - processPackages [giza-cli]: Remove: archive file [/home/abi/fetcher/tmp/giza_cli-0.0.2.tar.gz]
+[2023-08-04 00:23:39] INFO root fetch - processPackages [giza-cli]: Remove: archive file [/home/abi/fetcher/tmp/giza_cli-0.2.0.tar.gz]
+[2023-08-04 00:23:39] INFO root fetch - main [MainThread]: End processing [giza-cli]: success
+[2023-08-04 00:23:40] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.33.tar.gz]
+[2023-08-04 00:23:40] INFO root fetch - processPackages [omni-pro]: Remove: archive file [/home/abi/fetcher/tmp/omni-pro-0.1.34.tar.gz]
+[2023-08-04 00:23:40] INFO root fetch - main [MainThread]: End processing [omni-pro]: success
+[2023-08-04 00:23:40] INFO root fetch - main [MainThread]: Store serial: [19165082]
