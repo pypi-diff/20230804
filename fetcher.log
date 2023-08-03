@@ -1960,3 +1960,81 @@
 [2023-08-04 01:31:55] INFO root fetch - processPackages [PyPartMC]: Remove: archive file [/home/abi/fetcher/tmp/PyPartMC-0.5.0-cp38-cp38-win_amd64.whl.zip]
 [2023-08-04 01:31:55] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
 [2023-08-04 01:31:55] INFO root fetch - main [MainThread]: Store serial: [19165756]
+[2023-08-04 01:36:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165756]
+[2023-08-04 01:37:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 01:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metabengine
+[2023-08-04 01:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pex
+[2023-08-04 01:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fmetools
+[2023-08-04 01:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weathermap
+[2023-08-04 01:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evodiff
+[2023-08-04 01:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-PyHive
+[2023-08-04 01:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-gitlab
+[2023-08-04 01:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aws-native
+[2023-08-04 01:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clientele
+[2023-08-04 01:37:04] INFO root fetch - processPackages [clientele]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-04 01:37:04] INFO root fetch - processPackages [evodiff]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-04 01:37:04] INFO root fetch - processPackages [acryl-PyHive]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-04 01:37:04] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.3.0a1691097818] Old Version: [6.2.0a1690301864]
+[2023-08-04 01:37:04] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/56/4a/f85b2121f0737f3f1dbd7eec9f916104c54b701ceee825a6bf146548c85d/clientele-0.4.2.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [acryl-PyHive]: Downloading https://files.pythonhosted.org/packages/22/24/4459183793c1ea73e39438ba40eeb2246ee50d80ff1277330a4037cf8e23/acryl-PyHive-0.6.8.tar.gz
+[2023-08-04 01:37:04] WARNING root fetch - processPackages [weathermap]: Skipping, unable to determine old version
+[2023-08-04 01:37:04] INFO root fetch - main [MainThread]: End processing [weathermap] error
+[2023-08-04 01:37:04] INFO root fetch - processPackages [fmetools]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-08-04 01:37:04] INFO root fetch - processPackages [metabengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 01:37:04] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-08-04 01:37:04] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/b5/a6/3013168cb39ebb1caf8febeea42840b306dbe9143b43e618dfc8d35bff24/pulumi_gitlab-6.2.0a1690301864.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [pex]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-08-04 01:37:04] INFO root fetch - processPackages [evodiff]: Downloading https://files.pythonhosted.org/packages/57/08/3b5af9ce61af56d846f5cde83a5792cd4f2e1b1341ebadb2f1a9c63aee8a/evodiff-0.0.1.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [clientele]: Downloading https://files.pythonhosted.org/packages/6f/fa/e1134a57748bef34eac4af0d07d7898c6d411b66c825de7620ae4d2debd0/clientele-0.4.3.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/d9/46/f805a0511272771918fdc2aea3a4bfcf44bdbccec5cb1311e85289a6d128/metabengine-0.0.8.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [fmetools]: Downloading https://files.pythonhosted.org/packages/dc/d3/b73410c7e820446157aeea9ce6b2e192736fad0b38472b4677f3bdd3ef48/fmetools-0.7.1.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [pex]: Downloading https://files.pythonhosted.org/packages/bc/74/287adfa37d7be93d3183305f3f1e9685ecf1f6dae715b25bef0d69553bfc/pex-2.1.98.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [acryl-PyHive]: Downloading https://files.pythonhosted.org/packages/2a/a7/ddb9d5560d7b74c51d0c6a358e2f37e920fee51d5475f14f8b5f5e802eec/acryl-PyHive-0.6.9.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [clientele]: executing diffoscope
+[2023-08-04 01:37:04] INFO root fetch - processPackages [clientele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clientele-0.4.2.tar.gz tmp/clientele-0.4.3.tar.gz --markdown 20230804/c/clientele/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-04 01:37:04] INFO root fetch - processPackages [evodiff]: Downloading https://files.pythonhosted.org/packages/8d/45/7ee014227912cc29ded96df0fc9834fb08e11c83a8597cfa1aac8e6ab5d9/evodiff-0.0.2.tar.gz
+[2023-08-04 01:37:04] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/6d/84/b1797b24bfb2493a03c2038b7c70c26582a5a215a6523a4642d25bfed422/pulumi_gitlab-6.3.0a1691097818.tar.gz
+[2023-08-04 01:37:05] INFO root fetch - processPackages [evodiff]: executing diffoscope
+[2023-08-04 01:37:05] INFO root fetch - processPackages [evodiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evodiff-0.0.1.tar.gz tmp/evodiff-0.0.2.tar.gz --markdown 20230804/e/evodiff/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-04 01:37:05] INFO root fetch - processPackages [acryl-PyHive]: executing diffoscope
+[2023-08-04 01:37:05] INFO root fetch - processPackages [acryl-PyHive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-PyHive-0.6.8.tar.gz tmp/acryl-PyHive-0.6.9.tar.gz --markdown 20230804/a/acryl-PyHive/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-04 01:37:05] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-08-04 01:37:05] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.2.0a1690301864.tar.gz tmp/pulumi_gitlab-6.3.0a1691097818.tar.gz --markdown 20230804/p/pulumi-gitlab/6.2.0a1690301864-6.3.0a1691097818/diff.md --exclude *.pyd
+[2023-08-04 01:37:05] INFO root fetch - processPackages [fmetools]: Downloading https://files.pythonhosted.org/packages/fb/3d/e678814820a16533b05cb062a9ad0cc88db7e6bf03a33d03cb03bfd8b87f/fmetools-0.7.3.tar.gz
+[2023-08-04 01:37:05] INFO root fetch - processPackages [metabengine]: Downloading https://files.pythonhosted.org/packages/fc/a1/351a6a3649b9c5ad6974c2adfaf669084588817967308e501736db530aa7/metabengine-0.0.9.tar.gz
+[2023-08-04 01:37:05] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-08-04 01:37:05] INFO root fetch - processPackages [fmetools]: executing diffoscope
+[2023-08-04 01:37:05] INFO root fetch - processPackages [fmetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmetools-0.7.1.tar.gz tmp/fmetools-0.7.3.tar.gz --markdown 20230804/f/fmetools/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-08-04 01:37:05] INFO root fetch - processPackages [metabengine]: executing diffoscope
+[2023-08-04 01:37:05] INFO root fetch - processPackages [metabengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabengine-0.0.8.tar.gz tmp/metabengine-0.0.9.tar.gz --markdown 20230804/m/metabengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 01:37:05] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.4.2.tar.gz]
+[2023-08-04 01:37:05] INFO root fetch - processPackages [clientele]: Remove: archive file [/home/abi/fetcher/tmp/clientele-0.4.3.tar.gz]
+[2023-08-04 01:37:05] INFO root fetch - main [MainThread]: End processing [clientele]: success
+[2023-08-04 01:37:06] INFO root fetch - processPackages [evodiff]: Remove: archive file [/home/abi/fetcher/tmp/evodiff-0.0.1.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - processPackages [evodiff]: Remove: archive file [/home/abi/fetcher/tmp/evodiff-0.0.2.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - main [MainThread]: End processing [evodiff]: success
+[2023-08-04 01:37:06] INFO root fetch - processPackages [acryl-PyHive]: Remove: archive file [/home/abi/fetcher/tmp/acryl-PyHive-0.6.8.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - processPackages [acryl-PyHive]: Remove: archive file [/home/abi/fetcher/tmp/acryl-PyHive-0.6.9.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - main [MainThread]: End processing [acryl-PyHive]: success
+[2023-08-04 01:37:06] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.8.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - processPackages [metabengine]: Remove: archive file [/home/abi/fetcher/tmp/metabengine-0.0.9.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - main [MainThread]: End processing [metabengine]: success
+[2023-08-04 01:37:06] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-08-04 01:37:06] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230804/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-08-04 01:37:06] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.2.0a1690301864.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.3.0a1691097818.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-08-04 01:37:06] INFO root fetch - processPackages [fmetools]: Remove: archive file [/home/abi/fetcher/tmp/fmetools-0.7.1.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - processPackages [fmetools]: Remove: archive file [/home/abi/fetcher/tmp/fmetools-0.7.3.tar.gz]
+[2023-08-04 01:37:06] INFO root fetch - main [MainThread]: End processing [fmetools]: success
+[2023-08-04 01:37:07] INFO root fetch - processPackages [pex]: Downloading https://files.pythonhosted.org/packages/f8/76/7e17f82344dd14a5a9cf76391cdf6edeede0e409432a319db98512d11375/pex-2.1.99.tar.gz
+[2023-08-04 01:37:08] INFO root fetch - processPackages [pex]: executing diffoscope
+[2023-08-04 01:37:08] INFO root fetch - processPackages [pex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pex-2.1.98.tar.gz tmp/pex-2.1.99.tar.gz --markdown 20230804/p/pex/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-08-04 01:37:13] INFO root fetch - processPackages [pex]: Remove: archive file [/home/abi/fetcher/tmp/pex-2.1.98.tar.gz]
+[2023-08-04 01:37:13] INFO root fetch - processPackages [pex]: Remove: archive file [/home/abi/fetcher/tmp/pex-2.1.99.tar.gz]
+[2023-08-04 01:37:13] INFO root fetch - main [MainThread]: End processing [pex]: success
+[2023-08-04 01:37:16] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-08-04 01:37:16] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-08-04 01:37:16] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-08-04 01:37:16] INFO root fetch - main [MainThread]: Store serial: [19165790]
