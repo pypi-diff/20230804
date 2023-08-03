@@ -1363,3 +1363,106 @@
 [2023-08-04 00:55:21] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
 [2023-08-04 00:55:21] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-08-04 00:55:21] INFO root fetch - main [MainThread]: Store serial: [19165361]
+[2023-08-04 01:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165361]
+[2023-08-04 01:00:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BloxPy
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symphony-list
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djfapi
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: symphony-markdown
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symphony-scatterplot
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: symphony-summary
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: symphony-vega
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mamon-utils
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webwithpy
+[2023-08-04 01:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vmman1
+[2023-08-04 01:00:30] INFO root fetch - processPackages [webwithpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 01:00:30] INFO root fetch - processPackages [BloxPy]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-08-04 01:00:30] INFO root fetch - processPackages [djfapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 01:00:30] WARNING root fetch - processPackages [symphony-scatterplot]: Skipping, unable to determine old version
+[2023-08-04 01:00:30] INFO root fetch - processPackages [symphony-scatterplot]: Start processing: sbcli
+[2023-08-04 01:00:30] INFO root fetch - main [MainThread]: End processing [symphony-scatterplot] error
+[2023-08-04 01:00:30] WARNING root fetch - processPackages [symphony-summary]: Skipping, unable to determine old version
+[2023-08-04 01:00:30] INFO root fetch - processPackages [symphony-summary]: Start processing: unbeheader
+[2023-08-04 01:00:30] INFO root fetch - main [MainThread]: End processing [symphony-summary] error
+[2023-08-04 01:00:30] WARNING root fetch - processPackages [symphony-markdown]: Skipping, unable to determine old version
+[2023-08-04 01:00:30] INFO root fetch - processPackages [symphony-markdown]: Start processing: metar2bufr
+[2023-08-04 01:00:30] INFO root fetch - main [MainThread]: End processing [symphony-markdown] error
+[2023-08-04 01:00:30] INFO root fetch - processPackages [mamon-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-04 01:00:30] WARNING root fetch - processPackages [vmman1]: Skipping, unable to determine old version
+[2023-08-04 01:00:30] INFO root fetch - processPackages [vmman1]: Start processing: always-updates
+[2023-08-04 01:00:30] INFO root fetch - main [MainThread]: End processing [vmman1] error
+[2023-08-04 01:00:30] WARNING root fetch - processPackages [symphony-vega]: Skipping, unable to determine old version
+[2023-08-04 01:00:30] INFO root fetch - processPackages [symphony-vega]: Start processing: BloxPy
+[2023-08-04 01:00:30] INFO root fetch - main [MainThread]: End processing [symphony-vega] error
+[2023-08-04 01:00:30] WARNING root fetch - processPackages [symphony-list]: Skipping, unable to determine old version
+[2023-08-04 01:00:30] INFO root fetch - processPackages [symphony-list]: Start processing: caltechdata-api
+[2023-08-04 01:00:30] INFO root fetch - main [MainThread]: End processing [symphony-list] error
+[2023-08-04 01:00:30] INFO root fetch - processPackages [BloxPy]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-08-04 01:00:30] INFO root fetch - processPackages [sbcli]: New version: [3.1] Old Version: [3]
+[2023-08-04 01:00:30] WARNING root fetch - processPackages [unbeheader]: Skipping, unable to determine old version
+[2023-08-04 01:00:30] INFO root fetch - main [MainThread]: End processing [unbeheader] error
+[2023-08-04 01:00:30] INFO root fetch - processPackages [metar2bufr]: New version: [0.0.2.35] Old Version: [0.0.2.34]
+[2023-08-04 01:00:30] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/ed/c6/9c3a138068dc16ab598fc7f2fa3c7435fc1e67ec73e9ca20a7e3123fcb9f/webwithpy-0.1.0.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 01:00:30] INFO root fetch - processPackages [BloxPy]: Downloading https://files.pythonhosted.org/packages/75/6d/df6ed6692bf51cb2502d845fe3665ba0244c2635a39377bf6839d68c03f0/BloxPy-0.1.13.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [mamon-utils]: Downloading https://files.pythonhosted.org/packages/82/d4/9a625afeda2f4e13cf6d839f931a89d8a851d2390cc9ca922f2b4fec032c/mamon_utils-0.0.3.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [caltechdata-api]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-04 01:00:30] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/ec/91/212e1a394a4b7d62bf3d3dc4739dc10a9ddedc9fe6ee1c1fd3a0c3a66f24/djfapi-0.0.8.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [BloxPy]: Downloading https://files.pythonhosted.org/packages/75/6d/df6ed6692bf51cb2502d845fe3665ba0244c2635a39377bf6839d68c03f0/BloxPy-0.1.13.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [sbcli]: Downloading https://files.pythonhosted.org/packages/82/c8/f8b24b1189d43a5ab7996f94f8c7ff7f60068d428510266187e07645f1b6/sbcli-3.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/9e/ee/19f81dc0a6e749478a7372b6b7655baf75c8ee4e4dc57ed3da608cae34a0/metar2bufr-0.0.2.34.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [caltechdata-api]: Downloading https://files.pythonhosted.org/packages/94/d9/89486a4eef21b205186a3c80fff63180564d374de4580257ddfc526bf072/caltechdata_api-1.4.2.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [sbcli]: Downloading https://files.pythonhosted.org/packages/ba/9f/95c9d72c3227652192402476fbd015fba0ae0fed5fbb2c985dc54d9e864d/sbcli-3.1.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [BloxPy]: Downloading https://files.pythonhosted.org/packages/e7/6c/b290665c66a40e3bd718126dd158e6ec318c089bbcb915849943709fa51d/BloxPy-0.1.14.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 01:00:30] INFO root fetch - processPackages [webwithpy]: Downloading https://files.pythonhosted.org/packages/cd/d0/027b7b85752ef85bdc292472b8e09983e45f29d86308f1ea1163bd343c6a/webwithpy-0.1.1.tar.gz
+[2023-08-04 01:00:31] INFO root fetch - processPackages [mamon-utils]: Downloading https://files.pythonhosted.org/packages/dd/e0/641ae3bd20328af67d17b5165593b8d674e4f2535bbcf1ef7526f46cd10a/mamon_utils-0.0.4.tar.gz
+[2023-08-04 01:00:31] INFO root fetch - processPackages [BloxPy]: Downloading https://files.pythonhosted.org/packages/e7/6c/b290665c66a40e3bd718126dd158e6ec318c089bbcb915849943709fa51d/BloxPy-0.1.14.tar.gz
+[2023-08-04 01:00:31] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/9a/84/a6710eab6739d2351d2a2585909093b9947b85cb544edc5f944e1ae1a85d/djfapi-0.0.9.tar.gz
+[2023-08-04 01:00:31] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 01:00:31] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 01:00:31] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/36/2b/daac20998af3aaac997b624590be8ee2ff1bbccb82d7998f4412224b4a5f/metar2bufr-0.0.2.35.tar.gz
+[2023-08-04 01:00:31] INFO root fetch - processPackages [sbcli]: executing diffoscope
+[2023-08-04 01:00:31] INFO root fetch - processPackages [sbcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-3.tar.gz tmp/sbcli-3.1.tar.gz --markdown 20230804/s/sbcli/3-3.1/diff.md --exclude *.pyd
+[2023-08-04 01:00:31] INFO root fetch - processPackages [BloxPy]: executing diffoscope
+[2023-08-04 01:00:31] INFO root fetch - processPackages [BloxPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BloxPy-0.1.13.tar.gz tmp/BloxPy-0.1.14.tar.gz --markdown 20230804/B/BloxPy/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-08-04 01:00:31] INFO root fetch - processPackages [BloxPy]: executing diffoscope
+[2023-08-04 01:00:31] INFO root fetch - processPackages [BloxPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BloxPy-0.1.13.tar.gz tmp/BloxPy-0.1.14.tar.gz --markdown 20230804/B/BloxPy/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-08-04 01:00:31] INFO root fetch - processPackages [webwithpy]: executing diffoscope
+[2023-08-04 01:00:31] INFO root fetch - processPackages [webwithpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webwithpy-0.1.0.tar.gz tmp/webwithpy-0.1.1.tar.gz --markdown 20230804/w/webwithpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 01:00:31] INFO root fetch - processPackages [caltechdata-api]: Downloading https://files.pythonhosted.org/packages/45/4e/6070289251e068af6b4fb4b2be5449fc629cf21d0ddd447a0a537c87bb01/caltechdata_api-1.4.3.tar.gz
+[2023-08-04 01:00:31] INFO root fetch - processPackages [mamon-utils]: executing diffoscope
+[2023-08-04 01:00:31] INFO root fetch - processPackages [mamon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mamon_utils-0.0.3.tar.gz tmp/mamon_utils-0.0.4.tar.gz --markdown 20230804/m/mamon-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-04 01:00:31] INFO root fetch - processPackages [djfapi]: executing diffoscope
+[2023-08-04 01:00:31] INFO root fetch - processPackages [djfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djfapi-0.0.8.tar.gz tmp/djfapi-0.0.9.tar.gz --markdown 20230804/d/djfapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 01:00:31] INFO root fetch - processPackages [metar2bufr]: executing diffoscope
+[2023-08-04 01:00:31] INFO root fetch - processPackages [metar2bufr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metar2bufr-0.0.2.34.tar.gz tmp/metar2bufr-0.0.2.35.tar.gz --markdown 20230804/m/metar2bufr/0.0.2.34-0.0.2.35/diff.md --exclude *.pyd
+[2023-08-04 01:00:31] INFO root fetch - processPackages [caltechdata-api]: executing diffoscope
+[2023-08-04 01:00:31] INFO root fetch - processPackages [caltechdata-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caltechdata_api-1.4.2.tar.gz tmp/caltechdata_api-1.4.3.tar.gz --markdown 20230804/c/caltechdata-api/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-04 01:00:32] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 01:00:32] INFO root fetch - processPackages [mamon-utils]: Remove: archive file [/home/abi/fetcher/tmp/mamon_utils-0.0.3.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - processPackages [mamon-utils]: Remove: archive file [/home/abi/fetcher/tmp/mamon_utils-0.0.4.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - main [MainThread]: End processing [mamon-utils]: success
+[2023-08-04 01:00:32] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.1.0.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - processPackages [webwithpy]: Remove: archive file [/home/abi/fetcher/tmp/webwithpy-0.1.1.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - main [MainThread]: End processing [webwithpy]: success
+[2023-08-04 01:00:32] INFO root fetch - processPackages [BloxPy]: Remove: archive file [/home/abi/fetcher/tmp/BloxPy-0.1.13.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - processPackages [BloxPy]: Remove: archive file [/home/abi/fetcher/tmp/BloxPy-0.1.14.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - main [MainThread]: End processing [BloxPy]: success
+[2023-08-04 01:00:32] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.8.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.9.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - main [MainThread]: End processing [djfapi]: success
+[2023-08-04 01:00:32] INFO root fetch - processPackages [caltechdata-api]: Remove: archive file [/home/abi/fetcher/tmp/caltechdata_api-1.4.2.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - processPackages [caltechdata-api]: Remove: archive file [/home/abi/fetcher/tmp/caltechdata_api-1.4.3.tar.gz]
+[2023-08-04 01:00:32] INFO root fetch - main [MainThread]: End processing [caltechdata-api]: success
+[2023-08-04 01:00:33] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.34.tar.gz]
+[2023-08-04 01:00:33] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.35.tar.gz]
+[2023-08-04 01:00:33] INFO root fetch - main [MainThread]: End processing [metar2bufr]: success
+[2023-08-04 01:00:33] INFO root fetch - main [MainThread]: End processing [BloxPy]: success
+[2023-08-04 01:00:33] INFO root fetch - processPackages [sbcli]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-3.tar.gz]
+[2023-08-04 01:00:33] INFO root fetch - processPackages [sbcli]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-3.1.tar.gz]
+[2023-08-04 01:00:33] INFO root fetch - main [MainThread]: End processing [sbcli]: success
+[2023-08-04 01:00:33] INFO root fetch - main [MainThread]: Store serial: [19165429]
