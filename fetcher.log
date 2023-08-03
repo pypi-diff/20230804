@@ -1163,3 +1163,93 @@
 [2023-08-04 00:44:36] INFO root fetch - processPackages [eikobot]: Remove: archive file [/home/abi/fetcher/tmp/eikobot-0.6.0.tar.gz]
 [2023-08-04 00:44:36] INFO root fetch - main [MainThread]: End processing [eikobot]: success
 [2023-08-04 00:44:36] INFO root fetch - main [MainThread]: Store serial: [19165207]
+[2023-08-04 00:49:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165207]
+[2023-08-04 00:49:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nismod-snail
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caveclient
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sharetop
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webwithpy
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dnikit
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arize-phoenix
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dnikit_tensorflow
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-sphinx-hosting
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dnikit_torch
+[2023-08-04 00:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-08-04 00:49:45] INFO root fetch - processPackages [caveclient]: New version: [5.8.0] Old Version: [5.7.0]
+[2023-08-04 00:49:45] WARNING root fetch - processPackages [webwithpy]: Skipping, unable to determine old version
+[2023-08-04 00:49:45] INFO root fetch - processPackages [webwithpy]: Start processing: redvox-pandas
+[2023-08-04 00:49:45] INFO root fetch - main [MainThread]: End processing [webwithpy] error
+[2023-08-04 00:49:45] INFO root fetch - processPackages [django-sphinx-hosting]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-04 00:49:45] WARNING root fetch - processPackages [dnikit_torch]: Skipping, unable to determine old version
+[2023-08-04 00:49:45] INFO root fetch - processPackages [dnikit_torch]: Start processing: symphony-ui
+[2023-08-04 00:49:45] INFO root fetch - main [MainThread]: End processing [dnikit_torch] error
+[2023-08-04 00:49:45] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 00:49:45] INFO root fetch - processPackages [sharetop]: New version: [2.4.7] Old Version: [2.4.6]
+[2023-08-04 00:49:45] WARNING root fetch - processPackages [dnikit]: Skipping, unable to determine old version
+[2023-08-04 00:49:45] INFO root fetch - processPackages [dnikit]: Start processing: lares
+[2023-08-04 00:49:45] INFO root fetch - main [MainThread]: End processing [dnikit] error
+[2023-08-04 00:49:45] WARNING root fetch - processPackages [dnikit_tensorflow]: Skipping, unable to determine old version
+[2023-08-04 00:49:45] INFO root fetch - main [MainThread]: End processing [dnikit_tensorflow] error
+[2023-08-04 00:49:45] INFO root fetch - processPackages [caveclient]: Downloading https://files.pythonhosted.org/packages/b5/d2/dac876a99c37da2d4017cdd6cfc1b2136f4569de980ddec4a9b3a0dc3b1e/caveclient-5.7.0.tar.gz
+[2023-08-04 00:49:45] WARNING root fetch - processPackages [symphony-ui]: Skipping, unable to determine old version
+[2023-08-04 00:49:45] INFO root fetch - main [MainThread]: End processing [symphony-ui] error
+[2023-08-04 00:49:45] INFO root fetch - processPackages [nismod-snail]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-08-04 00:49:45] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 00:49:45] INFO root fetch - processPackages [kcli]: New version: [99.0.202308032248] Old Version: [99.0.202308010800]
+[2023-08-04 00:49:45] INFO root fetch - processPackages [redvox-pandas]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-08-04 00:49:45] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/aa/cd/6114a7b8cf79cdb8874b7fc09dd26b6b6193c6fd1d0872c07b33869e4529/arize_phoenix-0.0.8.tar.gz
+[2023-08-04 00:49:45] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/ad/28/b173ebccaa506ed039ac701748871693009f9f238e8429a4ebe8c5b59acc/django-sphinx-hosting-1.2.2.tar.gz
+[2023-08-04 00:49:45] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-04 00:49:45] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/1c/59/33ba4b505e0bfd4a3dfeac92b7800bb935548a1be9092dccb6828bd9d621/sharetop-2.4.6.tar.gz
+[2023-08-04 00:49:45] INFO root fetch - processPackages [nismod-snail]: Downloading https://files.pythonhosted.org/packages/98/de/4c19bbec68d0a0d8480e85a089fe5ecab844194276d801d63f5fb3a9857b/nismod-snail-0.3.2.tar.gz
+[2023-08-04 00:49:45] INFO root fetch - processPackages [redvox-pandas]: Downloading https://files.pythonhosted.org/packages/e6/79/592a8780a67662f6212fa7b6e1593121913ac3d6c36d34a7de30f5c2acb4/redvox-pandas-1.4.4.tar.gz
+[2023-08-04 00:49:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/27/2b/4b3d08d4683eb9ce365476636507b5922336df60f0b4361e460024561356/kcli-99.0.202308010800-py3-none-any.whl
+[2023-08-04 00:49:45] INFO root fetch - processPackages [caveclient]: Downloading https://files.pythonhosted.org/packages/c2/50/671dac16783aa3341359e267d71ecf82c277f2248ab1d695bdda44e97f74/caveclient-5.8.0.tar.gz
+[2023-08-04 00:49:46] INFO root fetch - processPackages [django-sphinx-hosting]: Downloading https://files.pythonhosted.org/packages/5c/dd/a0230364737a4f9d8c4a854173afb861c9c944e1b20b1fc2eee9ed02ce47/django-sphinx-hosting-1.2.3.tar.gz
+[2023-08-04 00:49:46] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-04 00:49:46] INFO root fetch - processPackages [caveclient]: executing diffoscope
+[2023-08-04 00:49:46] INFO root fetch - processPackages [caveclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caveclient-5.7.0.tar.gz tmp/caveclient-5.8.0.tar.gz --markdown 20230804/c/caveclient/5.7.0-5.8.0/diff.md --exclude *.pyd
+[2023-08-04 00:49:46] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-04 00:49:46] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230804/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 00:49:46] INFO root fetch - processPackages [django-sphinx-hosting]: executing diffoscope
+[2023-08-04 00:49:46] INFO root fetch - processPackages [django-sphinx-hosting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sphinx-hosting-1.2.2.tar.gz tmp/django-sphinx-hosting-1.2.3.tar.gz --markdown 20230804/d/django-sphinx-hosting/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-04 00:49:46] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/e5/df/a3cfaa85ea8a531e8e8829feb9a65c5b98d29db4c9fdca43b58d5f64a5c0/sharetop-2.4.7.tar.gz
+[2023-08-04 00:49:46] INFO root fetch - processPackages [redvox-pandas]: Downloading https://files.pythonhosted.org/packages/50/9e/b029f6004ad1015bcd509e8a41f77a51c355a429ef374f384872bcc77ffa/redvox-pandas-1.4.5.tar.gz
+[2023-08-04 00:49:46] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/af/d8/2db399e5e20785b2485581651ae7b1b6686105545492f859f0bf3a9c73f5/arize_phoenix-0.0.9.tar.gz
+[2023-08-04 00:49:46] INFO root fetch - processPackages [nismod-snail]: Downloading https://files.pythonhosted.org/packages/09/8e/78ac473a7b5a4b19bfa3665ba0384a86e238a8b1a9dfb7a03df46f01bff0/nismod-snail-0.4.0.tar.gz
+[2023-08-04 00:49:46] INFO root fetch - processPackages [sharetop]: executing diffoscope
+[2023-08-04 00:49:46] INFO root fetch - processPackages [sharetop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharetop-2.4.6.tar.gz tmp/sharetop-2.4.7.tar.gz --markdown 20230804/s/sharetop/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2023-08-04 00:49:46] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/6d/62/5e4c66d2ecb85a6ccc4d157e5a6604126815fc1061835bc5d05b080e10dc/kcli-99.0.202308032248-py3-none-any.whl
+[2023-08-04 00:49:46] INFO root fetch - processPackages [redvox-pandas]: executing diffoscope
+[2023-08-04 00:49:46] INFO root fetch - processPackages [redvox-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvox-pandas-1.4.4.tar.gz tmp/redvox-pandas-1.4.5.tar.gz --markdown 20230804/r/redvox-pandas/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-08-04 00:49:46] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-08-04 00:49:46] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202308010800-py3-none-any.whl.zip tmp/kcli-99.0.202308032248-py3-none-any.whl.zip --markdown 20230804/k/kcli/99.0.202308010800-99.0.202308032248/diff.md --exclude *.pyd
+[2023-08-04 00:49:46] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-08-04 00:49:46] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230804/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 00:49:46] INFO root fetch - processPackages [nismod-snail]: executing diffoscope
+[2023-08-04 00:49:46] INFO root fetch - processPackages [nismod-snail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nismod-snail-0.3.2.tar.gz tmp/nismod-snail-0.4.0.tar.gz --markdown 20230804/n/nismod-snail/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-08-04 00:49:47] INFO root fetch - processPackages [caveclient]: Remove: archive file [/home/abi/fetcher/tmp/caveclient-5.7.0.tar.gz]
+[2023-08-04 00:49:47] INFO root fetch - processPackages [caveclient]: Remove: archive file [/home/abi/fetcher/tmp/caveclient-5.8.0.tar.gz]
+[2023-08-04 00:49:47] INFO root fetch - main [MainThread]: End processing [caveclient]: success
+[2023-08-04 00:49:47] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.8.tar.gz]
+[2023-08-04 00:49:47] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.9.tar.gz]
+[2023-08-04 00:49:47] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-04 00:49:47] INFO root fetch - processPackages [django-sphinx-hosting]: Remove: archive file [/home/abi/fetcher/tmp/django-sphinx-hosting-1.2.2.tar.gz]
+[2023-08-04 00:49:47] INFO root fetch - processPackages [django-sphinx-hosting]: Remove: archive file [/home/abi/fetcher/tmp/django-sphinx-hosting-1.2.3.tar.gz]
+[2023-08-04 00:49:47] INFO root fetch - main [MainThread]: End processing [django-sphinx-hosting]: success
+[2023-08-04 00:49:47] INFO root fetch - processPackages [redvox-pandas]: Remove: archive file [/home/abi/fetcher/tmp/redvox-pandas-1.4.4.tar.gz]
+[2023-08-04 00:49:47] INFO root fetch - processPackages [redvox-pandas]: Remove: archive file [/home/abi/fetcher/tmp/redvox-pandas-1.4.5.tar.gz]
+[2023-08-04 00:49:47] INFO root fetch - main [MainThread]: End processing [redvox-pandas]: success
+[2023-08-04 00:49:48] INFO root fetch - processPackages [sharetop]: Remove: archive file [/home/abi/fetcher/tmp/sharetop-2.4.6.tar.gz]
+[2023-08-04 00:49:48] INFO root fetch - processPackages [sharetop]: Remove: archive file [/home/abi/fetcher/tmp/sharetop-2.4.7.tar.gz]
+[2023-08-04 00:49:48] INFO root fetch - main [MainThread]: End processing [sharetop]: success
+[2023-08-04 00:49:49] INFO root fetch - processPackages [nismod-snail]: Remove: archive file [/home/abi/fetcher/tmp/nismod-snail-0.3.2.tar.gz]
+[2023-08-04 00:49:49] INFO root fetch - processPackages [nismod-snail]: Remove: archive file [/home/abi/fetcher/tmp/nismod-snail-0.4.0.tar.gz]
+[2023-08-04 00:49:49] INFO root fetch - main [MainThread]: End processing [nismod-snail]: success
+[2023-08-04 00:49:50] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308010800-py3-none-any.whl.zip]
+[2023-08-04 00:49:50] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308032248-py3-none-any.whl.zip]
+[2023-08-04 00:49:50] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-08-04 00:50:04] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.8.tar.gz]
+[2023-08-04 00:50:04] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.9.tar.gz]
+[2023-08-04 00:50:04] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-08-04 00:50:04] INFO root fetch - main [MainThread]: Store serial: [19165291]
