@@ -1825,3 +1825,33 @@
 [2023-08-04 01:21:30] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230803.170555.tar.gz]
 [2023-08-04 01:21:30] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-08-04 01:21:30] INFO root fetch - main [MainThread]: Store serial: [19165700]
+[2023-08-04 01:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165700]
+[2023-08-04 01:26:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-04 01:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gplugins
+[2023-08-04 01:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: padic
+[2023-08-04 01:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hugg
+[2023-08-04 01:26:39] INFO root fetch - processPackages [hugg]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-04 01:26:39] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/0e/54/aba8aabf5534dd52084d4c450cdf31da815a98e21f753305641887cb0b90/hugg-0.1.6.tar.gz
+[2023-08-04 01:26:39] INFO root fetch - processPackages [gplugins]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 01:26:39] INFO root fetch - processPackages [padic]: New version: [0.2.3] Old Version: [0.2.2.1]
+[2023-08-04 01:26:39] INFO root fetch - processPackages [padic]: Downloading https://files.pythonhosted.org/packages/d8/61/e4e3d40c7bbdc58f54103719f2542fcf34dbc957152dc5c7f073e2564c13/padic-0.2.2.1.tar.gz
+[2023-08-04 01:26:39] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/28/6e/1488d2ed44a3863a1cc104996dd031dd418371f8318c3ff4d561f23d8bfb/gplugins-0.0.2.tar.gz
+[2023-08-04 01:26:39] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/9c/3b/e1f3353e3c1f67e787c2565a57b563d6697137056c168803bc6015799ff7/hugg-0.1.7.tar.gz
+[2023-08-04 01:26:39] INFO root fetch - processPackages [hugg]: executing diffoscope
+[2023-08-04 01:26:39] INFO root fetch - processPackages [hugg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugg-0.1.6.tar.gz tmp/hugg-0.1.7.tar.gz --markdown 20230804/h/hugg/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-04 01:26:39] INFO root fetch - processPackages [padic]: Downloading https://files.pythonhosted.org/packages/23/99/bc01964ffa48ecfe93e02aa09ff1f69c74c16b6611d93421f10587b1818d/padic-0.2.3.tar.gz
+[2023-08-04 01:26:39] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/8e/fb/e3cbb60e9c8f2d932de90a2eadaf51b57c0ce014d043913065b4e9195d75/gplugins-0.0.3.tar.gz
+[2023-08-04 01:26:39] INFO root fetch - processPackages [padic]: executing diffoscope
+[2023-08-04 01:26:39] INFO root fetch - processPackages [padic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padic-0.2.2.1.tar.gz tmp/padic-0.2.3.tar.gz --markdown 20230804/p/padic/0.2.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-08-04 01:26:40] INFO root fetch - processPackages [gplugins]: executing diffoscope
+[2023-08-04 01:26:40] INFO root fetch - processPackages [gplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gplugins-0.0.2.tar.gz tmp/gplugins-0.0.3.tar.gz --markdown 20230804/g/gplugins/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 01:26:40] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.1.6.tar.gz]
+[2023-08-04 01:26:40] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.1.7.tar.gz]
+[2023-08-04 01:26:40] INFO root fetch - main [MainThread]: End processing [hugg]: success
+[2023-08-04 01:26:40] INFO root fetch - processPackages [padic]: Remove: archive file [/home/abi/fetcher/tmp/padic-0.2.2.1.tar.gz]
+[2023-08-04 01:26:40] INFO root fetch - processPackages [padic]: Remove: archive file [/home/abi/fetcher/tmp/padic-0.2.3.tar.gz]
+[2023-08-04 01:26:40] INFO root fetch - main [MainThread]: End processing [padic]: success
+[2023-08-04 01:26:41] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.0.2.tar.gz]
+[2023-08-04 01:26:41] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.0.3.tar.gz]
+[2023-08-04 01:26:41] INFO root fetch - main [MainThread]: End processing [gplugins]: success
+[2023-08-04 01:26:41] INFO root fetch - main [MainThread]: Store serial: [19165709]
