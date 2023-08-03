@@ -1094,3 +1094,72 @@
 [2023-08-04 00:39:25] INFO root fetch - processPackages [libquantum]: Remove: archive file [/home/abi/fetcher/tmp/libquantum-1.5.6.tar.gz]
 [2023-08-04 00:39:25] INFO root fetch - main [MainThread]: End processing [libquantum]: success
 [2023-08-04 00:39:25] INFO root fetch - main [MainThread]: Store serial: [19165182]
+[2023-08-04 00:44:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165182]
+[2023-08-04 00:44:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-04 00:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hat-doit
+[2023-08-04 00:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azcausal
+[2023-08-04 00:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: formant
+[2023-08-04 00:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metar2bufr
+[2023-08-04 00:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textrl
+[2023-08-04 00:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discco
+[2023-08-04 00:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spellbot
+[2023-08-04 00:44:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eikobot
+[2023-08-04 00:44:33] INFO root fetch - processPackages [hat-doit]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-04 00:44:33] INFO root fetch - processPackages [metar2bufr]: New version: [0.0.2.34] Old Version: [0.0.2.33]
+[2023-08-04 00:44:34] INFO root fetch - processPackages [discco]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-04 00:44:34] INFO root fetch - processPackages [textrl]: New version: [0.2.21] Old Version: [0.2.20]
+[2023-08-04 00:44:34] INFO root fetch - processPackages [hat-doit]: Downloading https://files.pythonhosted.org/packages/2d/ec/8ee916b018419d8ac5a5ce7b83d2bc458d99060f1077348c454e5c2657a3/hat_doit-0.8.3-cp38.cp39.cp310-none-any.whl
+[2023-08-04 00:44:34] WARNING root fetch - processPackages [azcausal]: Skipping, unable to determine old version
+[2023-08-04 00:44:34] INFO root fetch - main [MainThread]: End processing [azcausal] error
+[2023-08-04 00:44:34] INFO root fetch - processPackages [eikobot]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-08-04 00:44:34] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/5f/25/4e0ec6dca42c71da5c5599c9f9071a2142b7592e6a6a12e9cf176ea4ecf0/metar2bufr-0.0.2.33.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [discco]: Downloading https://files.pythonhosted.org/packages/c0/b7/b356c42832dcbd66842039d4236b7138acbd5107ef3417f680021fc5af9a/discco-0.2.4.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [formant]: New version: [1.99.25] Old Version: [1.99.10]
+[2023-08-04 00:44:34] INFO root fetch - processPackages [spellbot]: New version: [9.0.3] Old Version: [9.0.2]
+[2023-08-04 00:44:34] INFO root fetch - processPackages [textrl]: Downloading https://files.pythonhosted.org/packages/d0/b4/cd3d73f506d6dd8c60c2aa7de2cec7db7b3759e8e830a5c527fcfa43a18a/textrl-0.2.20.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/b4/ae/48e0e0cc421f59b739a0933ff541c564d705ba0f03ab53b6ad242e88d6dd/formant-1.99.10.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [eikobot]: Downloading https://files.pythonhosted.org/packages/a3/4c/877e582941c4ed9387466ebc6e1a97eb31e73283c2a2924b1e281956ba1d/eikobot-0.5.1.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [discco]: Downloading https://files.pythonhosted.org/packages/f7/1d/641089ea5fb056087c907df76dcb7251159d8fa909aa4a323c557908724a/discco-0.2.5.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [hat-doit]: Downloading https://files.pythonhosted.org/packages/14/81/0799eb7b2957b2c91842ffc0a3ccae169b148906847701205ca51da11457/hat_doit-0.9.0-cp38.cp39.cp310-none-any.whl
+[2023-08-04 00:44:34] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/9e/ee/19f81dc0a6e749478a7372b6b7655baf75c8ee4e4dc57ed3da608cae34a0/metar2bufr-0.0.2.34.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/a9/54/3681bc3c7564056d2168e1f6be22df711c2d1518fe8c55af354cfffe3d8c/spellbot-9.0.2.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [discco]: executing diffoscope
+[2023-08-04 00:44:34] INFO root fetch - processPackages [discco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discco-0.2.4.tar.gz tmp/discco-0.2.5.tar.gz --markdown 20230804/d/discco/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-04 00:44:34] INFO root fetch - processPackages [hat-doit]: executing diffoscope
+[2023-08-04 00:44:34] INFO root fetch - processPackages [hat-doit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_doit-0.8.3-cp38.cp39.cp310-none-any.whl.zip tmp/hat_doit-0.9.0-cp38.cp39.cp310-none-any.whl.zip --markdown 20230804/h/hat-doit/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 00:44:34] INFO root fetch - processPackages [metar2bufr]: executing diffoscope
+[2023-08-04 00:44:34] INFO root fetch - processPackages [metar2bufr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metar2bufr-0.0.2.33.tar.gz tmp/metar2bufr-0.0.2.34.tar.gz --markdown 20230804/m/metar2bufr/0.0.2.33-0.0.2.34/diff.md --exclude *.pyd
+[2023-08-04 00:44:34] INFO root fetch - processPackages [textrl]: Downloading https://files.pythonhosted.org/packages/f9/68/feb542fe7fd13a139286f7ee0248f0f396493e40dc5f0f5d7673bfa77547/textrl-0.2.21.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/0f/87/d41a560174ff1aede53afa1480b906376d1d5d3f7263147c18f90dda6c0f/formant-1.99.25.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [eikobot]: Downloading https://files.pythonhosted.org/packages/fd/03/4fd2c74fac0b1260f3713c15cdb495267273adcafb07a49282c7e03ebf24/eikobot-0.6.0.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/62/fa/1de0ff214f3074eadff0ae05f3287c588f255890e2b1e1da7219374c14db/spellbot-9.0.3.tar.gz
+[2023-08-04 00:44:34] INFO root fetch - processPackages [textrl]: executing diffoscope
+[2023-08-04 00:44:34] INFO root fetch - processPackages [textrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textrl-0.2.20.tar.gz tmp/textrl-0.2.21.tar.gz --markdown 20230804/t/textrl/0.2.20-0.2.21/diff.md --exclude *.pyd
+[2023-08-04 00:44:34] INFO root fetch - processPackages [formant]: executing diffoscope
+[2023-08-04 00:44:34] INFO root fetch - processPackages [formant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formant-1.99.10.tar.gz tmp/formant-1.99.25.tar.gz --markdown 20230804/f/formant/1.99.10-1.99.25/diff.md --exclude *.pyd
+[2023-08-04 00:44:34] INFO root fetch - processPackages [eikobot]: executing diffoscope
+[2023-08-04 00:44:34] INFO root fetch - processPackages [eikobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eikobot-0.5.1.tar.gz tmp/eikobot-0.6.0.tar.gz --markdown 20230804/e/eikobot/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-08-04 00:44:34] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2023-08-04 00:44:34] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-9.0.2.tar.gz tmp/spellbot-9.0.3.tar.gz --markdown 20230804/s/spellbot/9.0.2-9.0.3/diff.md --exclude *.pyd
+[2023-08-04 00:44:35] INFO root fetch - processPackages [discco]: Remove: archive file [/home/abi/fetcher/tmp/discco-0.2.4.tar.gz]
+[2023-08-04 00:44:35] INFO root fetch - processPackages [discco]: Remove: archive file [/home/abi/fetcher/tmp/discco-0.2.5.tar.gz]
+[2023-08-04 00:44:35] INFO root fetch - main [MainThread]: End processing [discco]: success
+[2023-08-04 00:44:35] INFO root fetch - processPackages [hat-doit]: Remove: archive file [/home/abi/fetcher/tmp/hat_doit-0.8.3-cp38.cp39.cp310-none-any.whl.zip]
+[2023-08-04 00:44:35] INFO root fetch - processPackages [hat-doit]: Remove: archive file [/home/abi/fetcher/tmp/hat_doit-0.9.0-cp38.cp39.cp310-none-any.whl.zip]
+[2023-08-04 00:44:35] INFO root fetch - main [MainThread]: End processing [hat-doit]: success
+[2023-08-04 00:44:35] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.33.tar.gz]
+[2023-08-04 00:44:35] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.34.tar.gz]
+[2023-08-04 00:44:35] INFO root fetch - main [MainThread]: End processing [metar2bufr]: success
+[2023-08-04 00:44:36] INFO root fetch - processPackages [textrl]: Remove: archive file [/home/abi/fetcher/tmp/textrl-0.2.20.tar.gz]
+[2023-08-04 00:44:36] INFO root fetch - processPackages [textrl]: Remove: archive file [/home/abi/fetcher/tmp/textrl-0.2.21.tar.gz]
+[2023-08-04 00:44:36] INFO root fetch - main [MainThread]: End processing [textrl]: success
+[2023-08-04 00:44:36] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.10.tar.gz]
+[2023-08-04 00:44:36] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.25.tar.gz]
+[2023-08-04 00:44:36] INFO root fetch - main [MainThread]: End processing [formant]: success
+[2023-08-04 00:44:36] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-9.0.2.tar.gz]
+[2023-08-04 00:44:36] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-9.0.3.tar.gz]
+[2023-08-04 00:44:36] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2023-08-04 00:44:36] INFO root fetch - processPackages [eikobot]: Remove: archive file [/home/abi/fetcher/tmp/eikobot-0.5.1.tar.gz]
+[2023-08-04 00:44:36] INFO root fetch - processPackages [eikobot]: Remove: archive file [/home/abi/fetcher/tmp/eikobot-0.6.0.tar.gz]
+[2023-08-04 00:44:36] INFO root fetch - main [MainThread]: End processing [eikobot]: success
+[2023-08-04 00:44:36] INFO root fetch - main [MainThread]: Store serial: [19165207]
