@@ -1253,3 +1253,113 @@
 [2023-08-04 00:50:04] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.9.tar.gz]
 [2023-08-04 00:50:04] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-08-04 00:50:04] INFO root fetch - main [MainThread]: Store serial: [19165291]
+[2023-08-04 00:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165291]
+[2023-08-04 00:55:14] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decoratory
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyepsilla
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biosimulators-tellurium
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidgzip
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: always-updates
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: always-updates
+[2023-08-04 00:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: symphony-binary-confusion-matrix
+[2023-08-04 00:55:14] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 00:55:14] INFO root fetch - processPackages [biosimulators-tellurium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 00:55:14] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 00:55:14] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 00:55:14] WARNING root fetch - processPackages [symphony-binary-confusion-matrix]: Skipping, unable to determine old version
+[2023-08-04 00:55:14] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: Start processing: always-updates
+[2023-08-04 00:55:14] INFO root fetch - main [MainThread]: End processing [symphony-binary-confusion-matrix] error
+[2023-08-04 00:55:14] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 00:55:14] INFO root fetch - processPackages [pyepsilla]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 00:55:14] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 00:55:14] INFO root fetch - processPackages [decoratory]: New version: [0.9.7.2] Old Version: [0.9.6.1]
+[2023-08-04 00:55:14] INFO root fetch - processPackages [kfish]: New version: [99.0.202308032252] Old Version: [99.0.202308010803]
+[2023-08-04 00:55:14] INFO root fetch - processPackages [rapidgzip]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-08-04 00:55:14] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 00:55:14] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 00:55:14] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 00:55:14] INFO root fetch - processPackages [biosimulators-tellurium]: Downloading https://files.pythonhosted.org/packages/a4/a6/bb968d9c6b5ad83f93b66deb67baa7f7ab5cf7ea1ad7cd8b8f67677bc226/biosimulators_tellurium-0.1.8.tar.gz
+[2023-08-04 00:55:14] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/8c/7f/f493c709283b8507beb6db6751773c01ad3bbab395f3fd6501d95b9d273e/pyepsilla-0.1.0.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f8/a5/ad082561114ad524bf39f284d4d0c5bbd58758e16f6223d29cbaeb3ceba4/kfish-99.0.202308010803-py3-none-any.whl
+[2023-08-04 00:55:15] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/94/d5/208536028e4def0406cba1824ccffb8fe1d968e5dba509f159942c238ce8/decoratory-0.9.6.1.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [rapidgzip]: Downloading https://files.pythonhosted.org/packages/e1/b9/a719a381d54d0c3e20f69a57f214c2e67e9eaa706fb9e1c66297b8731ffb/rapidgzip-0.7.1.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [biosimulators-tellurium]: Downloading https://files.pythonhosted.org/packages/0f/58/0de6fa4f7d1640b60589353547b3e48adbe1b1fbe80abd5aeaaec86a94bc/biosimulators_tellurium-0.1.9.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 00:55:15] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 00:55:15] INFO root fetch - processPackages [biosimulators-tellurium]: executing diffoscope
+[2023-08-04 00:55:15] INFO root fetch - processPackages [biosimulators-tellurium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosimulators_tellurium-0.1.8.tar.gz tmp/biosimulators_tellurium-0.1.9.tar.gz --markdown 20230804/b/biosimulators-tellurium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 00:55:15] INFO root fetch - processPackages [pyepsilla]: Downloading https://files.pythonhosted.org/packages/3e/fb/b05bb1ac46134c76dec05297369e5b9fe4e2204f2258221e3ae63205810a/pyepsilla-0.1.1.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f8/d5/5a174f736b0e57430c7108aee16ec0634cc09aa32c9ed650d308745d743c/kfish-99.0.202308032252-py3-none-any.whl
+[2023-08-04 00:55:15] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/3c/93/58d45468dd6702d329b70a3c2c283b428056353d6d4c111d012160d0af43/decoratory-0.9.7.2.tar.gz
+[2023-08-04 00:55:15] INFO root fetch - processPackages [pyepsilla]: executing diffoscope
+[2023-08-04 00:55:15] INFO root fetch - processPackages [pyepsilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepsilla-0.1.0.tar.gz tmp/pyepsilla-0.1.1.tar.gz --markdown 20230804/p/pyepsilla/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 00:55:15] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-08-04 00:55:15] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202308010803-py3-none-any.whl.zip tmp/kfish-99.0.202308032252-py3-none-any.whl.zip --markdown 20230804/k/kfish/99.0.202308010803-99.0.202308032252/diff.md --exclude *.pyd
+[2023-08-04 00:55:15] INFO root fetch - processPackages [decoratory]: executing diffoscope
+[2023-08-04 00:55:15] INFO root fetch - processPackages [decoratory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoratory-0.9.6.1.tar.gz tmp/decoratory-0.9.7.2.tar.gz --markdown 20230804/d/decoratory/0.9.6.1-0.9.7.2/diff.md --exclude *.pyd
+[2023-08-04 00:55:15] INFO root fetch - processPackages [rapidgzip]: Downloading https://files.pythonhosted.org/packages/07/c9/62bfe9c9f511b0f21f489a634bf68f51d5b45cfc99b0d4b866705da2edf8/rapidgzip-0.8.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-04 00:55:16] INFO root fetch - processPackages [rapidgzip]: executing diffoscope
+[2023-08-04 00:55:16] INFO root fetch - processPackages [rapidgzip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidgzip-0.7.1.tar.gz tmp/rapidgzip-0.8.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230804/r/rapidgzip/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-08-04 00:55:16] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-04 00:55:16] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-04 00:55:16] INFO root fetch - processPackages [always-updates]: Start processing: kolibri-ml
+[2023-08-04 00:55:16] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 00:55:16] INFO root fetch - processPackages [always-updates]: Start processing: symphony-data-map
+[2023-08-04 00:55:16] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 00:55:16] INFO root fetch - processPackages [always-updates]: Start processing: symphony-duplicates
+[2023-08-04 00:55:16] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 00:55:16] WARNING root fetch - processPackages [symphony-data-map]: Skipping, unable to determine old version
+[2023-08-04 00:55:16] INFO root fetch - processPackages [symphony-data-map]: Start processing: symphony-fairvis
+[2023-08-04 00:55:16] INFO root fetch - main [MainThread]: End processing [symphony-data-map] error
+[2023-08-04 00:55:16] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.79]
+[2023-08-04 00:55:17] INFO root fetch - processPackages [always-updates]: Start processing: symphony-familiarity
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 00:55:17] WARNING root fetch - processPackages [symphony-duplicates]: Skipping, unable to determine old version
+[2023-08-04 00:55:17] INFO root fetch - processPackages [symphony-duplicates]: Start processing: symphony-hierarchical-confusion-matrix
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [symphony-duplicates] error
+[2023-08-04 00:55:17] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308010803-py3-none-any.whl.zip]
+[2023-08-04 00:55:17] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308032252-py3-none-any.whl.zip]
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-08-04 00:55:17] WARNING root fetch - processPackages [symphony-fairvis]: Skipping, unable to determine old version
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [symphony-fairvis] error
+[2023-08-04 00:55:17] INFO root fetch - processPackages [biosimulators-tellurium]: Remove: archive file [/home/abi/fetcher/tmp/biosimulators_tellurium-0.1.8.tar.gz]
+[2023-08-04 00:55:17] INFO root fetch - processPackages [biosimulators-tellurium]: Remove: archive file [/home/abi/fetcher/tmp/biosimulators_tellurium-0.1.9.tar.gz]
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [biosimulators-tellurium]: success
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 00:55:17] WARNING root fetch - processPackages [symphony-familiarity]: Skipping, unable to determine old version
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [symphony-familiarity] error
+[2023-08-04 00:55:17] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/d3/d1/6c094b47aa3e5053d7f7344fdc668a20f17f375f751cc18e7bf760cfe7eb/kolibri_ml-1.1.79-py3-none-any.whl
+[2023-08-04 00:55:17] WARNING root fetch - processPackages [symphony-hierarchical-confusion-matrix]: Skipping, unable to determine old version
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [symphony-hierarchical-confusion-matrix] error
+[2023-08-04 00:55:17] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.1.0.tar.gz]
+[2023-08-04 00:55:17] INFO root fetch - processPackages [pyepsilla]: Remove: archive file [/home/abi/fetcher/tmp/pyepsilla-0.1.1.tar.gz]
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [pyepsilla]: success
+[2023-08-04 00:55:17] INFO root fetch - processPackages [rapidgzip]: Remove: archive file [/home/abi/fetcher/tmp/rapidgzip-0.7.1.tar.gz]
+[2023-08-04 00:55:17] INFO root fetch - processPackages [rapidgzip]: Remove: archive file [/home/abi/fetcher/tmp/rapidgzip-0.8.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [rapidgzip]: success
+[2023-08-04 00:55:17] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.6.1.tar.gz]
+[2023-08-04 00:55:17] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.9.7.2.tar.gz]
+[2023-08-04 00:55:17] INFO root fetch - main [MainThread]: End processing [decoratory]: success
+[2023-08-04 00:55:17] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/cf/97/90c21f98d1d917a1aba37dde9f7497a137a46ef54f7c363a162fd4a91d71/kolibri_ml-1.1.8-py3-none-any.whl
+[2023-08-04 00:55:17] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-08-04 00:55:17] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.79-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230804/k/kolibri-ml/1.1.79-1.1.8/diff.md --exclude *.pyd
+[2023-08-04 00:55:21] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.79-py3-none-any.whl.zip]
+[2023-08-04 00:55:21] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
+[2023-08-04 00:55:21] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-08-04 00:55:21] INFO root fetch - main [MainThread]: Store serial: [19165361]
