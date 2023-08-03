@@ -2213,3 +2213,192 @@
 [2023-08-04 01:52:49] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
 [2023-08-04 01:52:49] INFO root fetch - main [MainThread]: End processing [pyperclipimg]: success
 [2023-08-04 01:52:49] INFO root fetch - main [MainThread]: Store serial: [19165885]
+[2023-08-04 01:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165885]
+[2023-08-04 01:57:57] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdpp
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timm
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atoti-core
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atoti-jupyterlab3
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langkit
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atoti-query
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atoti-kafka
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atoti-directquery-snowflake
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atoti-directquery-clickhouse
+[2023-08-04 01:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: atoti-sql
+[2023-08-04 01:57:58] INFO root fetch - processPackages [langkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [timm]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-kafka]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-core]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-query]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [pdpp]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-jupyterlab3]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-directquery-snowflake]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-sql]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/ce/e3/7969ef4cda66f7a8d2dc2a61af3bb067c395b8fc3c8bf9e6777139afa351/langkit-0.0.8.tar.gz
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-directquery-clickhouse]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-core]: Downloading https://files.pythonhosted.org/packages/84/42/87d8f9589dd433017180a34c7ce37b857d52f4fee1cf90d9f5d65f8a2320/atoti_core-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:58] INFO root fetch - processPackages [pdpp]: Downloading https://files.pythonhosted.org/packages/c4/7b/65c3fa3ebdf3663bab0e928135bfd2d6fbbbc2d44f520cc6120969e6313d/pdpp-0.4.7.tar.gz
+[2023-08-04 01:57:58] INFO root fetch - processPackages [timm]: Downloading https://files.pythonhosted.org/packages/a9/98/413172e0fd465ab679be795a6a04b60ef44c8bb0930f1a8ec20ff98b783a/timm-0.9.1.tar.gz
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-kafka]: Downloading https://files.pythonhosted.org/packages/97/95/688d51defd99b6508e2673a711f4476e01a5167ae28d1296955aff6388c4/atoti_kafka-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-query]: Downloading https://files.pythonhosted.org/packages/46/90/b5da1a344dc1b11d576265128b1a9365004d5d0c866d0ea221ac9c710df0/atoti_query-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-directquery-snowflake]: Downloading https://files.pythonhosted.org/packages/c2/f5/cbc89621c6db944bd20879e556ca815c4c403472191c99950083b635d0f1/atoti_directquery_snowflake-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-sql]: Downloading https://files.pythonhosted.org/packages/cd/20/91125c24f75e42f8f61c4adbc4cabdb66e6849bc0055b1690a8297afc537/atoti_sql-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-directquery-clickhouse]: Downloading https://files.pythonhosted.org/packages/ec/79/6741954071091eec9e7678f1268960040cf9ce8990a896cd3498143d4ff2/atoti_directquery_clickhouse-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-jupyterlab3]: Downloading https://files.pythonhosted.org/packages/a0/5f/139ee3f7dc61acef011e2bf97d266c98f19d0f4f126fbc90c874c3cec674/atoti_jupyterlab3-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:58] WARNING root fetch - processPackages [atoti-sql]: Skipping package: exceeds size limit 26071415>=10485760
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-sql]: Start processing: atoti-aws
+[2023-08-04 01:57:58] INFO root fetch - main [MainThread]: End processing [atoti-sql] error
+[2023-08-04 01:57:58] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/32/28/704a6d98bd58a324050772e6b9dc1479ab2f09c77c3a83a38e3697af8ef3/langkit-0.0.9.tar.gz
+[2023-08-04 01:57:58] WARNING root fetch - processPackages [atoti-directquery-snowflake]: Skipping package: exceeds size limit 55800453>=10485760
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-directquery-snowflake]: Start processing: atoti-directquery-mssql
+[2023-08-04 01:57:58] INFO root fetch - main [MainThread]: End processing [atoti-directquery-snowflake] error
+[2023-08-04 01:57:58] WARNING root fetch - processPackages [atoti-directquery-clickhouse]: Skipping package: exceeds size limit 28651537>=10485760
+[2023-08-04 01:57:58] INFO root fetch - processPackages [atoti-directquery-clickhouse]: Start processing: atoti-azure
+[2023-08-04 01:57:58] INFO root fetch - main [MainThread]: End processing [atoti-directquery-clickhouse] error
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-aws]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-directquery-mssql]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-azure]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:59] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2023-08-04 01:57:59] INFO root fetch - processPackages [pdpp]: Downloading https://files.pythonhosted.org/packages/e9/9c/7137745902f00c1368e47911b477f4ae96eb3a7098f76e965ea22b41480a/pdpp-0.4.8.tar.gz
+[2023-08-04 01:57:59] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.8.tar.gz tmp/langkit-0.0.9.tar.gz --markdown 20230804/l/langkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-query]: Downloading https://files.pythonhosted.org/packages/3f/1d/3cbe168d1e4cb0e7e7ca5168014e213245941edc0be27d10f5e161d23213/atoti_query-0.8.3-py3-none-any.whl
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-core]: Downloading https://files.pythonhosted.org/packages/1e/a9/6c3eb57b97dce651fa48229314aeb16c8f15cde980067a944f4a67c2cc13/atoti_core-0.8.3-py3-none-any.whl
+[2023-08-04 01:57:59] INFO root fetch - processPackages [timm]: Downloading https://files.pythonhosted.org/packages/90/79/f79ebb37aab0815a67e025d3fd2ae94b02a4d6078ba9ddc8aed9adc6fb25/timm-0.9.2.tar.gz
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-aws]: Downloading https://files.pythonhosted.org/packages/7f/ae/ee6f188e22a0194a9344411300e49d7688b2a5105589662b3fe9ffd6877b/atoti_aws-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-query]: executing diffoscope
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atoti_query-0.8.2-0_80138c9-py3-none-any.whl.zip tmp/atoti_query-0.8.3-py3-none-any.whl.zip --markdown 20230804/a/atoti-query/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-directquery-mssql]: Downloading https://files.pythonhosted.org/packages/d3/14/33820788b3b71cd03b8ed253fc81ca53b8f4c17991d0a163bb3a2dd9c67d/atoti_directquery_mssql-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-core]: executing diffoscope
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atoti_core-0.8.2-0_80138c9-py3-none-any.whl.zip tmp/atoti_core-0.8.3-py3-none-any.whl.zip --markdown 20230804/a/atoti-core/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-azure]: Downloading https://files.pythonhosted.org/packages/0d/05/de7f5de9a30d3e88bae7aa0644d42401737dd2fc99468c89ac42d5a41947/atoti_azure-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:59] WARNING root fetch - processPackages [atoti-aws]: Skipping package: exceeds size limit 20738220>=10485760
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-aws]: Start processing: atoti-gcp
+[2023-08-04 01:57:59] INFO root fetch - main [MainThread]: End processing [atoti-aws] error
+[2023-08-04 01:57:59] INFO root fetch - processPackages [pdpp]: executing diffoscope
+[2023-08-04 01:57:59] INFO root fetch - processPackages [pdpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdpp-0.4.7.tar.gz tmp/pdpp-0.4.8.tar.gz --markdown 20230804/p/pdpp/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-08-04 01:57:59] WARNING root fetch - processPackages [atoti-directquery-mssql]: Skipping package: exceeds size limit 28601010>=10485760
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-directquery-mssql]: Start processing: atoti-directquery-synapse
+[2023-08-04 01:57:59] INFO root fetch - main [MainThread]: End processing [atoti-directquery-mssql] error
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-jupyterlab3]: Downloading https://files.pythonhosted.org/packages/aa/0a/00e31bb2303380638230acf03273f3f3207572c81a1d6e51aff51263b0a7/atoti_jupyterlab3-0.8.3-py3-none-any.whl
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-gcp]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-directquery-synapse]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:59] INFO root fetch - processPackages [timm]: executing diffoscope
+[2023-08-04 01:57:59] INFO root fetch - processPackages [timm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timm-0.9.1.tar.gz tmp/timm-0.9.2.tar.gz --markdown 20230804/t/timm/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-kafka]: Downloading https://files.pythonhosted.org/packages/97/02/a0795baad286aca5241fed3aec7ab9ba2159cf589b1a42fecc226245665a/atoti_kafka-0.8.3-py3-none-any.whl
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-gcp]: Downloading https://files.pythonhosted.org/packages/00/a5/0363b0fa1281c6d4680f0511730cbfb62692b6b7ac113d08ffd26f0c6014/atoti_gcp-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-directquery-synapse]: Downloading https://files.pythonhosted.org/packages/56/41/7392ad3c9b53db01af66d0a9198f8e8868eb41d8c65692cc4c47440bb427/atoti_directquery_synapse-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:57:59] WARNING root fetch - processPackages [atoti-directquery-synapse]: Skipping package: exceeds size limit 28602918>=10485760
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-directquery-synapse]: Start processing: atoti-directquery-redshift
+[2023-08-04 01:57:59] INFO root fetch - main [MainThread]: End processing [atoti-directquery-synapse] error
+[2023-08-04 01:57:59] WARNING root fetch - processPackages [atoti-azure]: Skipping package: exceeds size limit 28171603>=10485760
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-jupyterlab3]: executing diffoscope
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-azure]: Start processing: atoti-directquery-databricks
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-jupyterlab3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atoti_jupyterlab3-0.8.2-0_80138c9-py3-none-any.whl.zip tmp/atoti_jupyterlab3-0.8.3-py3-none-any.whl.zip --markdown 20230804/a/atoti-jupyterlab3/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-04 01:57:59] INFO root fetch - main [MainThread]: End processing [atoti-azure] error
+[2023-08-04 01:57:59] WARNING root fetch - processPackages [atoti-gcp]: Skipping package: exceeds size limit 21112441>=10485760
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-gcp]: Start processing: atoti-directquery-bigquery
+[2023-08-04 01:57:59] INFO root fetch - main [MainThread]: End processing [atoti-gcp] error
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-directquery-databricks]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:57:59] INFO root fetch - processPackages [atoti-directquery-redshift]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-directquery-bigquery]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-kafka]: executing diffoscope
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atoti_kafka-0.8.2-0_80138c9-py3-none-any.whl.zip tmp/atoti_kafka-0.8.3-py3-none-any.whl.zip --markdown 20230804/a/atoti-kafka/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-directquery-bigquery]: Downloading https://files.pythonhosted.org/packages/ec/98/ee2deb7912a5208450829f42526f22d48e6e21a17c4bc7d540f672c47083/atoti_directquery_bigquery-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-directquery-databricks]: Downloading https://files.pythonhosted.org/packages/7c/b3/4f87caf080263062b1b15e80466b892a6fb156754727b95ba534b60dea13/atoti_directquery_databricks-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-directquery-redshift]: Downloading https://files.pythonhosted.org/packages/56/ee/7f9c15f4e867f97436f92d57e96d724909b40dcaea3baa6520158b905931/atoti_directquery_redshift-0.8.2-0_80138c9-py3-none-any.whl
+[2023-08-04 01:58:00] WARNING root fetch - processPackages [atoti-directquery-bigquery]: Skipping package: exceeds size limit 55075065>=10485760
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-directquery-bigquery]: Start processing: solutions-builder
+[2023-08-04 01:58:00] INFO root fetch - main [MainThread]: End processing [atoti-directquery-bigquery] error
+[2023-08-04 01:58:00] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.8.tar.gz]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [langkit]: Start processing: always-updates
+[2023-08-04 01:58:00] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2023-08-04 01:58:00] WARNING root fetch - processPackages [atoti-directquery-databricks]: Skipping package: exceeds size limit 43796193>=10485760
+[2023-08-04 01:58:00] WARNING root fetch - processPackages [atoti-directquery-redshift]: Skipping package: exceeds size limit 28245041>=10485760
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-directquery-databricks]: Start processing: always-updates
+[2023-08-04 01:58:00] INFO root fetch - main [MainThread]: End processing [atoti-directquery-databricks] error
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-directquery-redshift]: Start processing: pdpp
+[2023-08-04 01:58:00] INFO root fetch - main [MainThread]: End processing [atoti-directquery-redshift] error
+[2023-08-04 01:58:00] INFO root fetch - processPackages [solutions-builder]: New version: [1.17.7] Old Version: [1.17.6]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [pdpp]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [pdpp]: Remove: archive file [/home/abi/fetcher/tmp/pdpp-0.4.7.tar.gz]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [pdpp]: Remove: archive file [/home/abi/fetcher/tmp/pdpp-0.4.8.tar.gz]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [pdpp]: Start processing: mzn-bench
+[2023-08-04 01:58:00] INFO root fetch - main [MainThread]: End processing [pdpp]: success
+[2023-08-04 01:58:00] INFO root fetch - processPackages [pdpp]: Downloading https://files.pythonhosted.org/packages/c4/7b/65c3fa3ebdf3663bab0e928135bfd2d6fbbbc2d44f520cc6120969e6313d/pdpp-0.4.7.tar.gz
+[2023-08-04 01:58:00] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 01:58:00] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 01:58:00] INFO root fetch - processPackages [solutions-builder]: Downloading https://files.pythonhosted.org/packages/df/9a/c5bbac45fa6518203cf7d3b179b87b6ce87db183e9510ec8a7b435263525/solutions_builder-1.17.6.tar.gz
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-query]: Remove: archive file [/home/abi/fetcher/tmp/atoti_query-0.8.2-0_80138c9-py3-none-any.whl.zip]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-query]: Remove: archive file [/home/abi/fetcher/tmp/atoti_query-0.8.3-py3-none-any.whl.zip]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [mzn-bench]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [atoti-query]: Start processing: smarts
+[2023-08-04 01:58:00] INFO root fetch - main [MainThread]: End processing [atoti-query]: success
+[2023-08-04 01:58:00] INFO root fetch - processPackages [pdpp]: Downloading https://files.pythonhosted.org/packages/e9/9c/7137745902f00c1368e47911b477f4ae96eb3a7098f76e965ea22b41480a/pdpp-0.4.8.tar.gz
+[2023-08-04 01:58:00] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 01:58:00] INFO root fetch - processPackages [smarts]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-04 01:58:00] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 01:58:01] INFO root fetch - processPackages [atoti-core]: Remove: archive file [/home/abi/fetcher/tmp/atoti_core-0.8.2-0_80138c9-py3-none-any.whl.zip]
+[2023-08-04 01:58:01] INFO root fetch - processPackages [atoti-core]: Remove: archive file [/home/abi/fetcher/tmp/atoti_core-0.8.3-py3-none-any.whl.zip]
+[2023-08-04 01:58:01] INFO root fetch - processPackages [atoti-core]: Start processing: smarts
+[2023-08-04 01:58:01] INFO root fetch - main [MainThread]: End processing [atoti-core]: success
+[2023-08-04 01:58:01] INFO root fetch - processPackages [mzn-bench]: Downloading https://files.pythonhosted.org/packages/26/47/e1c7da1777b3941fb69467ffdc4debeede04fb11d21482044181ccfe3450/mzn-bench-0.1.0.tar.gz
+[2023-08-04 01:58:01] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 01:58:01] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 01:58:01] INFO root fetch - processPackages [pdpp]: executing diffoscope
+[2023-08-04 01:58:01] INFO root fetch - processPackages [pdpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdpp-0.4.7.tar.gz tmp/pdpp-0.4.8.tar.gz --markdown 20230804/p/pdpp/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-08-04 01:58:01] INFO root fetch - processPackages [smarts]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-04 01:58:01] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 01:58:01] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 01:58:01] INFO root fetch - processPackages [smarts]: Downloading https://files.pythonhosted.org/packages/27/d5/d0b385d3a51e94f0509ddb16c55b2ff93f349a8d12efe111bc6f90115ea0/smarts-1.2.0-py3-none-any.whl
+[2023-08-04 01:58:01] INFO root fetch - processPackages [solutions-builder]: Downloading https://files.pythonhosted.org/packages/4c/db/4c41bed654aad90ebbde58c1295b8ea6be3d67d6cca1f77599c909c69d8d/solutions_builder-1.17.7.tar.gz
+[2023-08-04 01:58:01] INFO root fetch - processPackages [smarts]: Downloading https://files.pythonhosted.org/packages/27/d5/d0b385d3a51e94f0509ddb16c55b2ff93f349a8d12efe111bc6f90115ea0/smarts-1.2.0-py3-none-any.whl
+[2023-08-04 01:58:01] INFO root fetch - processPackages [solutions-builder]: executing diffoscope
+[2023-08-04 01:58:01] INFO root fetch - processPackages [solutions-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solutions_builder-1.17.6.tar.gz tmp/solutions_builder-1.17.7.tar.gz --markdown 20230804/s/solutions-builder/1.17.6-1.17.7/diff.md --exclude *.pyd
+[2023-08-04 01:58:01] INFO root fetch - processPackages [mzn-bench]: Downloading https://files.pythonhosted.org/packages/20/55/42ca8189d3d930d4bf10f50f186f11af067eb44d8ea781eeab62ecda0265/mzn_bench-0.2.0.tar.gz
+[2023-08-04 01:58:01] INFO root fetch - processPackages [mzn-bench]: executing diffoscope
+[2023-08-04 01:58:01] INFO root fetch - processPackages [mzn-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mzn-bench-0.1.0.tar.gz tmp/mzn_bench-0.2.0.tar.gz --markdown 20230804/m/mzn-bench/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 01:58:01] INFO root fetch - processPackages [smarts]: Downloading https://files.pythonhosted.org/packages/26/4a/f731e12b29c9f3eb1275d1d7c0c0ca459a0c87373e087f4b1f16a417a844/smarts-1.3.0-py3-none-any.whl
+[2023-08-04 01:58:01] INFO root fetch - processPackages [smarts]: Downloading https://files.pythonhosted.org/packages/26/4a/f731e12b29c9f3eb1275d1d7c0c0ca459a0c87373e087f4b1f16a417a844/smarts-1.3.0-py3-none-any.whl
+[2023-08-04 01:58:01] INFO root fetch - processPackages [smarts]: executing diffoscope
+[2023-08-04 01:58:01] INFO root fetch - processPackages [smarts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarts-1.2.0-py3-none-any.whl.zip tmp/smarts-1.3.0-py3-none-any.whl.zip --markdown 20230804/s/smarts/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-04 01:58:02] INFO root fetch - processPackages [smarts]: executing diffoscope
+[2023-08-04 01:58:02] INFO root fetch - processPackages [smarts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarts-1.2.0-py3-none-any.whl.zip tmp/smarts-1.3.0-py3-none-any.whl.zip --markdown 20230804/s/smarts/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-04 01:58:02] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-04 01:58:02] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-04 01:58:02] INFO root fetch - processPackages [always-updates]: Start processing: sequentPSS
+[2023-08-04 01:58:02] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 01:58:02] INFO root fetch - processPackages [sequentPSS]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 01:58:02] INFO root fetch - processPackages [sequentPSS]: Downloading https://files.pythonhosted.org/packages/24/57/734d86601c9a0cc37f215559002c01212a44eca37f00db389e95d08ccf13/sequentPSS-0.0.2.tar.gz
+[2023-08-04 01:58:02] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 01:58:02] INFO root fetch - processPackages [pdpp]: Remove: archive file [/home/abi/fetcher/tmp/pdpp-0.4.7.tar.gz]
+[2023-08-04 01:58:02] INFO root fetch - processPackages [pdpp]: Remove: archive file [/home/abi/fetcher/tmp/pdpp-0.4.8.tar.gz]
+[2023-08-04 01:58:02] INFO root fetch - main [MainThread]: End processing [pdpp]: success
+[2023-08-04 01:58:02] INFO root fetch - processPackages [sequentPSS]: Downloading https://files.pythonhosted.org/packages/57/b3/f89dbcaa4df691ba5cdcbfad1696273f3e18be588a0789b606a5387b10bc/sequentPSS-0.0.3.tar.gz
+[2023-08-04 01:58:03] INFO root fetch - processPackages [mzn-bench]: Remove: archive file [/home/abi/fetcher/tmp/mzn-bench-0.1.0.tar.gz]
+[2023-08-04 01:58:03] INFO root fetch - processPackages [mzn-bench]: Remove: archive file [/home/abi/fetcher/tmp/mzn_bench-0.2.0.tar.gz]
+[2023-08-04 01:58:03] INFO root fetch - main [MainThread]: End processing [mzn-bench]: success
+[2023-08-04 01:58:03] INFO root fetch - processPackages [sequentPSS]: executing diffoscope
+[2023-08-04 01:58:03] INFO root fetch - processPackages [sequentPSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequentPSS-0.0.2.tar.gz tmp/sequentPSS-0.0.3.tar.gz --markdown 20230804/s/sequentPSS/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 01:58:03] INFO root fetch - processPackages [timm]: Remove: archive file [/home/abi/fetcher/tmp/timm-0.9.1.tar.gz]
+[2023-08-04 01:58:03] INFO root fetch - processPackages [timm]: Remove: archive file [/home/abi/fetcher/tmp/timm-0.9.2.tar.gz]
+[2023-08-04 01:58:03] INFO root fetch - main [MainThread]: End processing [timm]: success
+[2023-08-04 01:58:03] INFO root fetch - processPackages [solutions-builder]: Remove: archive file [/home/abi/fetcher/tmp/solutions_builder-1.17.6.tar.gz]
+[2023-08-04 01:58:03] INFO root fetch - processPackages [solutions-builder]: Remove: archive file [/home/abi/fetcher/tmp/solutions_builder-1.17.7.tar.gz]
+[2023-08-04 01:58:03] INFO root fetch - main [MainThread]: End processing [solutions-builder]: success
+[2023-08-04 01:58:04] INFO root fetch - processPackages [sequentPSS]: Remove: archive file [/home/abi/fetcher/tmp/sequentPSS-0.0.2.tar.gz]
+[2023-08-04 01:58:04] INFO root fetch - processPackages [sequentPSS]: Remove: archive file [/home/abi/fetcher/tmp/sequentPSS-0.0.3.tar.gz]
+[2023-08-04 01:58:04] INFO root fetch - main [MainThread]: End processing [sequentPSS]: success
+[2023-08-04 01:58:05] INFO root fetch - processPackages [atoti-jupyterlab3]: Remove: archive file [/home/abi/fetcher/tmp/atoti_jupyterlab3-0.8.2-0_80138c9-py3-none-any.whl.zip]
+[2023-08-04 01:58:05] INFO root fetch - processPackages [atoti-jupyterlab3]: Remove: archive file [/home/abi/fetcher/tmp/atoti_jupyterlab3-0.8.3-py3-none-any.whl.zip]
+[2023-08-04 01:58:05] INFO root fetch - main [MainThread]: End processing [atoti-jupyterlab3]: success
+[2023-08-04 01:58:05] INFO root fetch - processPackages [smarts]: Remove: archive file [/home/abi/fetcher/tmp/smarts-1.2.0-py3-none-any.whl.zip]
+[2023-08-04 01:58:05] INFO root fetch - processPackages [smarts]: Remove: archive file [/home/abi/fetcher/tmp/smarts-1.3.0-py3-none-any.whl.zip]
+[2023-08-04 01:58:05] INFO root fetch - main [MainThread]: End processing [smarts]: success
+[2023-08-04 01:58:05] INFO root fetch - main [MainThread]: End processing [smarts]: success
+[2023-08-04 01:58:12] INFO root fetch - processPackages [atoti-kafka]: Remove: archive file [/home/abi/fetcher/tmp/atoti_kafka-0.8.2-0_80138c9-py3-none-any.whl.zip]
+[2023-08-04 01:58:12] INFO root fetch - processPackages [atoti-kafka]: Remove: archive file [/home/abi/fetcher/tmp/atoti_kafka-0.8.3-py3-none-any.whl.zip]
+[2023-08-04 01:58:12] INFO root fetch - main [MainThread]: End processing [atoti-kafka]: success
+[2023-08-04 01:58:12] INFO root fetch - main [MainThread]: Store serial: [19165947]
