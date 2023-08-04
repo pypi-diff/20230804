@@ -12592,3 +12592,66 @@
 [2023-08-04 06:35:56] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.46.tar.gz]
 [2023-08-04 06:35:56] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-08-04 06:35:56] INFO root fetch - main [MainThread]: Store serial: [19169854]
+[2023-08-04 06:41:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169854]
+[2023-08-04 06:41:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-04 06:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytranskit
+[2023-08-04 06:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ptrack
+[2023-08-04 06:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libmata
+[2023-08-04 06:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2023-08-04 06:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-partner-second-lastname
+[2023-08-04 06:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opendp
+[2023-08-04 06:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opposite-day
+[2023-08-04 06:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libmata
+[2023-08-04 06:41:05] INFO root fetch - processPackages [pytranskit]: New version: [0.2.5.1] Old Version: [0.2.5]
+[2023-08-04 06:41:05] INFO root fetch - processPackages [opendp]: New version: [0.8.0a20230803001] Old Version: [0.8.0a20230727001]
+[2023-08-04 06:41:05] INFO root fetch - processPackages [odoo14-addon-partner-second-lastname]: New version: [14.0.1.1.1.dev2] Old Version: [14.0.1.1.1.dev1]
+[2023-08-04 06:41:05] INFO root fetch - processPackages [pytranskit]: Downloading https://files.pythonhosted.org/packages/27/47/0531077f4f542f856ac6d4b2dc856de1ef1bd7e75dbf35f59ef56002dc8d/pytranskit-0.2.5.tar.gz
+[2023-08-04 06:41:05] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-04 06:41:05] WARNING root fetch - processPackages [opposite-day]: Skipping, unable to determine old version
+[2023-08-04 06:41:05] INFO root fetch - main [MainThread]: End processing [opposite-day] error
+[2023-08-04 06:41:05] INFO root fetch - processPackages [ptrack]: New version: [0.2.1] Old Version: [0.1.4]
+[2023-08-04 06:41:05] INFO root fetch - processPackages [libmata]: New version: [0.90.0] Old Version: [0.89.0]
+[2023-08-04 06:41:05] INFO root fetch - processPackages [libmata]: New version: [0.90.0] Old Version: [0.89.0]
+[2023-08-04 06:41:06] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/7a/28/dfaf76f556079bb0fd1947bfdf812281a8c722c657c98f03d28c3582f109/opendp-0.8.0a20230727001-py3-none-any.whl
+[2023-08-04 06:41:06] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/7c/00/8914d850da4a853a95d29dcfc7580410b87414c4169ce5a60fa0ebef4ef4/libmata-0.89.0.tar.gz
+[2023-08-04 06:41:06] INFO root fetch - processPackages [odoo14-addon-partner-second-lastname]: Downloading https://files.pythonhosted.org/packages/ff/98/fd0cae8567412b5b4354955409f9688401bd210ab14ea2aeab4d2d33f14e/odoo14_addon_partner_second_lastname-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-08-04 06:41:06] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 29305765>=10485760
+[2023-08-04 06:41:06] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2023-08-04 06:41:06] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-08-04 06:41:06] INFO root fetch - processPackages [ptrack]: Downloading https://files.pythonhosted.org/packages/68/59/7bd11787675fb840fd3f9f42b33db7755c22ba2f9ab47be0c14c3641868a/ptrack-0.1.4.tar.gz
+[2023-08-04 06:41:06] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/7c/00/8914d850da4a853a95d29dcfc7580410b87414c4169ce5a60fa0ebef4ef4/libmata-0.89.0.tar.gz
+[2023-08-04 06:41:06] INFO root fetch - processPackages [pytranskit]: Downloading https://files.pythonhosted.org/packages/bf/ca/29ffb1b619848effe34784c0a67cae8290aeac33347c43a9c503a3d4d468/pytranskit-0.2.5.1.tar.gz
+[2023-08-04 06:41:06] INFO root fetch - processPackages [pytranskit]: executing diffoscope
+[2023-08-04 06:41:06] INFO root fetch - processPackages [pytranskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytranskit-0.2.5.tar.gz tmp/pytranskit-0.2.5.1.tar.gz --markdown 20230804/p/pytranskit/0.2.5-0.2.5.1/diff.md --exclude *.pyd
+[2023-08-04 06:41:06] INFO root fetch - processPackages [odoo14-addon-partner-second-lastname]: Downloading https://files.pythonhosted.org/packages/0c/b8/cd05e94e2cf6992e52468eff58078d2b3a6872c333b2314a98b5a1905d32/odoo14_addon_partner_second_lastname-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-08-04 06:41:06] INFO root fetch - processPackages [ptrack]: Downloading https://files.pythonhosted.org/packages/7b/0b/6f05ed324213e31c0ff86a22150bb93824415e7370cceba6b177bf9213c1/ptrack-0.2.1.tar.gz
+[2023-08-04 06:41:06] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/fe/8c/6e796916312c03729f5a803ee70e5ef2bf082055bf64246d61fd99c47f7a/libmata-0.90.0.tar.gz
+[2023-08-04 06:41:06] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-08-04 06:41:06] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/fe/8c/6e796916312c03729f5a803ee70e5ef2bf082055bf64246d61fd99c47f7a/libmata-0.90.0.tar.gz
+[2023-08-04 06:41:06] INFO root fetch - processPackages [odoo14-addon-partner-second-lastname]: executing diffoscope
+[2023-08-04 06:41:06] INFO root fetch - processPackages [odoo14-addon-partner-second-lastname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_second_lastname-14.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_partner_second_lastname-14.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230804/o/odoo14-addon-partner-second-lastname/14.0.1.1.1.dev1-14.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-08-04 06:41:06] INFO root fetch - processPackages [ptrack]: executing diffoscope
+[2023-08-04 06:41:06] INFO root fetch - processPackages [ptrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptrack-0.1.4.tar.gz tmp/ptrack-0.2.1.tar.gz --markdown 20230804/p/ptrack/0.1.4-0.2.1/diff.md --exclude *.pyd
+[2023-08-04 06:41:06] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-08-04 06:41:06] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230804/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-04 06:41:07] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-08-04 06:41:07] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.89.0.tar.gz tmp/libmata-0.90.0.tar.gz --markdown 20230804/l/libmata/0.89.0-0.90.0/diff.md --exclude *.pyd
+[2023-08-04 06:41:07] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-08-04 06:41:07] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.89.0.tar.gz tmp/libmata-0.90.0.tar.gz --markdown 20230804/l/libmata/0.89.0-0.90.0/diff.md --exclude *.pyd
+[2023-08-04 06:41:07] INFO root fetch - processPackages [pytranskit]: Remove: archive file [/home/abi/fetcher/tmp/pytranskit-0.2.5.tar.gz]
+[2023-08-04 06:41:07] INFO root fetch - processPackages [pytranskit]: Remove: archive file [/home/abi/fetcher/tmp/pytranskit-0.2.5.1.tar.gz]
+[2023-08-04 06:41:07] INFO root fetch - main [MainThread]: End processing [pytranskit]: success
+[2023-08-04 06:41:07] INFO root fetch - processPackages [ptrack]: Remove: archive file [/home/abi/fetcher/tmp/ptrack-0.1.4.tar.gz]
+[2023-08-04 06:41:07] INFO root fetch - processPackages [ptrack]: Remove: archive file [/home/abi/fetcher/tmp/ptrack-0.2.1.tar.gz]
+[2023-08-04 06:41:07] INFO root fetch - main [MainThread]: End processing [ptrack]: success
+[2023-08-04 06:41:07] INFO root fetch - processPackages [odoo14-addon-partner-second-lastname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_second_lastname-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-08-04 06:41:07] INFO root fetch - processPackages [odoo14-addon-partner-second-lastname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_second_lastname-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-08-04 06:41:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-second-lastname]: success
+[2023-08-04 06:41:08] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-08-04 06:41:08] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-08-04 06:41:08] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-08-04 06:41:09] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.89.0.tar.gz]
+[2023-08-04 06:41:09] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.90.0.tar.gz]
+[2023-08-04 06:41:09] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-08-04 06:41:09] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-08-04 06:41:09] INFO root fetch - main [MainThread]: Store serial: [19169878]
