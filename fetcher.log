@@ -9450,3 +9450,92 @@
 [2023-08-04 03:37:24] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.6.tar.gz]
 [2023-08-04 03:37:24] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
 [2023-08-04 03:37:24] INFO root fetch - main [MainThread]: Store serial: [19168500]
+[2023-08-04 03:42:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19168500]
+[2023-08-04 03:42:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unbeheader
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-scipy
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlconstructor
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xhac
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-sphinx
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive-jupyter-kernel
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhousf-lib
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assess-acceptability-judgments
+[2023-08-04 03:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cntdrun
+[2023-08-04 03:42:33] INFO root fetch - processPackages [assess-acceptability-judgments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 03:42:33] INFO root fetch - processPackages [unbeheader]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-08-04 03:42:33] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-08-04 03:42:33] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 03:42:33] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-08-04 03:42:33] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/4f/48/9f7539a5aeca8843875b453a08c37e8a1fbcb3fbe2e57ac4eebf00c53408/assess_acceptability_judgments-0.0.8.tar.gz
+[2023-08-04 03:42:33] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 03:42:33] WARNING root fetch - processPackages [xhac]: Skipping, unable to determine old version
+[2023-08-04 03:42:33] INFO root fetch - processPackages [xhac]: Start processing: nbdev-django
+[2023-08-04 03:42:33] INFO root fetch - main [MainThread]: End processing [xhac] error
+[2023-08-04 03:42:33] WARNING root fetch - processPackages [sqlconstructor]: Skipping, unable to determine old version
+[2023-08-04 03:42:33] INFO root fetch - processPackages [sqlconstructor]: Start processing: streamlit-bls-connection
+[2023-08-04 03:42:33] INFO root fetch - main [MainThread]: End processing [sqlconstructor] error
+[2023-08-04 03:42:33] WARNING root fetch - processPackages [cntdrun]: Skipping, unable to determine old version
+[2023-08-04 03:42:33] INFO root fetch - main [MainThread]: End processing [cntdrun] error
+[2023-08-04 03:42:33] INFO root fetch - processPackages [zhousf-lib]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-04 03:42:33] INFO root fetch - processPackages [unbeheader]: Downloading https://files.pythonhosted.org/packages/b3/22/39f09a6eebc2299613cec805fa1952b41cfbb85c8f2f92f970d88f2bb169/unbeheader-1.0.2.tar.gz
+[2023-08-04 03:42:33] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-04 03:42:33] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-08-04 03:42:33] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-08-04 03:42:33] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 03:42:33] INFO root fetch - processPackages [streamlit-bls-connection]: New version: [0.8] Old Version: [0.7]
+[2023-08-04 03:42:33] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/14/1e/f25f956ea54a3714ce63a14f1a00ec311a7b9e1898ecde31074216056941/zhousf-lib-0.9.2.tar.gz
+[2023-08-04 03:42:33] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-04 03:42:33] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-08-04 03:42:33] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-08-04 03:42:34] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-08-04 03:42:34] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-08-04 03:42:34] INFO root fetch - processPackages [unbeheader]: Downloading https://files.pythonhosted.org/packages/7a/3d/c2c547534bedd17dd698a204c57f6820d7fee62af14516f586e37b9f7782/unbeheader-1.0.4.tar.gz
+[2023-08-04 03:42:34] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-04 03:42:34] INFO root fetch - processPackages [streamlit-bls-connection]: Downloading https://files.pythonhosted.org/packages/d5/7f/54b58697a03a6765c25d8082726345bad169b044b726e5eecfc63074113f/streamlit_bls_connection-0.7.tar.gz
+[2023-08-04 03:42:34] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-08-04 03:42:34] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230804/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 03:42:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-08-04 03:42:34] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-04 03:42:34] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230804/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 03:42:34] INFO root fetch - processPackages [unbeheader]: executing diffoscope
+[2023-08-04 03:42:34] INFO root fetch - processPackages [unbeheader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbeheader-1.0.2.tar.gz tmp/unbeheader-1.0.4.tar.gz --markdown 20230804/u/unbeheader/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-08-04 03:42:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-08-04 03:42:34] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230804/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-08-04 03:42:34] INFO root fetch - processPackages [streamlit-bls-connection]: Downloading https://files.pythonhosted.org/packages/bb/dc/aef3819fee02714ed9cfd4b60170ca129545e1473b0b9c80ad04b960d6ad/streamlit_bls_connection-0.8.tar.gz
+[2023-08-04 03:42:34] INFO root fetch - processPackages [streamlit-bls-connection]: executing diffoscope
+[2023-08-04 03:42:34] INFO root fetch - processPackages [streamlit-bls-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_bls_connection-0.7.tar.gz tmp/streamlit_bls_connection-0.8.tar.gz --markdown 20230804/s/streamlit-bls-connection/0.7-0.8/diff.md --exclude *.pyd
+[2023-08-04 03:42:34] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-04 03:42:34] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-04 03:42:34] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230804/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 03:42:35] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-08-04 03:42:35] INFO root fetch - processPackages [unbeheader]: Remove: archive file [/home/abi/fetcher/tmp/unbeheader-1.0.2.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - processPackages [unbeheader]: Remove: archive file [/home/abi/fetcher/tmp/unbeheader-1.0.4.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - main [MainThread]: End processing [unbeheader]: success
+[2023-08-04 03:42:35] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-04 03:42:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-08-04 03:42:35] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-08-04 03:42:35] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-08-04 03:42:35] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-04 03:42:35] INFO root fetch - processPackages [streamlit-bls-connection]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bls_connection-0.7.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - processPackages [streamlit-bls-connection]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_bls_connection-0.8.tar.gz]
+[2023-08-04 03:42:35] INFO root fetch - main [MainThread]: End processing [streamlit-bls-connection]: success
+[2023-08-04 03:42:35] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/cd/7b/8ad7560331af80349043055b6cfa62c927639e79a574010a220ed36a2bf7/zhousf-lib-0.9.3.tar.gz
+[2023-08-04 03:42:36] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/e4/db/8ec9932edb716cd73e143278019dc61601cb1a4b930510d6a5ea2b8477b7/assess_acceptability_judgments-0.0.9.tar.gz
+[2023-08-04 03:42:37] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-08-04 03:42:37] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.9.2.tar.gz tmp/zhousf-lib-0.9.3.tar.gz --markdown 20230804/z/zhousf-lib/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-04 03:42:37] INFO root fetch - processPackages [assess-acceptability-judgments]: executing diffoscope
+[2023-08-04 03:42:37] INFO root fetch - processPackages [assess-acceptability-judgments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assess_acceptability_judgments-0.0.8.tar.gz tmp/assess_acceptability_judgments-0.0.9.tar.gz --markdown 20230804/a/assess-acceptability-judgments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 03:42:39] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.9.2.tar.gz]
+[2023-08-04 03:42:39] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.9.3.tar.gz]
+[2023-08-04 03:42:39] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-08-04 03:42:40] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.8.tar.gz]
+[2023-08-04 03:42:40] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.9.tar.gz]
+[2023-08-04 03:42:40] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
+[2023-08-04 03:42:40] INFO root fetch - main [MainThread]: Store serial: [19168541]
