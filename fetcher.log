@@ -19717,3 +19717,101 @@
 [2023-08-04 13:06:05] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.2.tar.gz]
 [2023-08-04 13:06:05] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-08-04 13:06:05] INFO root fetch - main [MainThread]: Store serial: [19173048]
+[2023-08-04 13:11:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19173048]
+[2023-08-04 13:11:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klarf-reader
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-image
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gastimator
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sylk
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pqinput
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-splatoon3
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langful
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acryl-datahub
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atmoswing-vigicrues
+[2023-08-04 13:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acryl-datahub-airflow-plugin
+[2023-08-04 13:11:15] INFO root fetch - processPackages [sylk]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [dask-image]: New version: [2023.8.0rc2] Old Version: [2023.8.0]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [gastimator]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [pqinput]: New version: [0.0.5] Old Version: [0.0.409]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [klarf-reader]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [atmoswing-vigicrues]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [langful]: New version: [0.42] Old Version: [0.41]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/6d/5c/de0ad8177d2d19ced93435f5d3b214cd3542e8acd5d8801e25a67a88a7f7/sylk-0.3.1-py3-none-any.whl
+[2023-08-04 13:11:15] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-08-04 13:11:15] INFO root fetch - processPackages [dask-image]: Downloading https://files.pythonhosted.org/packages/d7/f4/9d95d1aaeda57366647bd3bd36e3b9365c8c4b7074d15f3ee4f5ccfda269/dask-image-2023.8.0.tar.gz
+[2023-08-04 13:11:15] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/5f/82/2222434745e9c6686b15ce76ac9f0f845dd93d18ec9fc8aa3ed8a187eae1/pqinput-0.0.409.tar.gz
+[2023-08-04 13:11:15] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/73/3c/1ac650a9e1507b83856f3198b219f8042d58882f4c0d74fac7aa905cacc5/langful-0.41-py3-none-any.whl
+[2023-08-04 13:11:15] INFO root fetch - processPackages [gastimator]: Downloading https://files.pythonhosted.org/packages/4e/b9/d99c78879990cd96b819adbae401ee3867a6c7c8c9581c64b50e4fc8df87/gastimator-0.4.7.tar.gz
+[2023-08-04 13:11:15] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/8f/98/5a3fa582f1fc1fac82befe446c61997813ea6d4f921e1fadaf66f461d012/klarf-reader-0.3.7.tar.gz
+[2023-08-04 13:11:15] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/f0/3a/b78c803e674c263d4ad75c32ab24104c03ac9b77689831a58e77f7538780/atmoswing-vigicrues-1.1.5.tar.gz
+[2023-08-04 13:11:15] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Downloading https://files.pythonhosted.org/packages/98/ff/f0075ee868b1c4fe75f91c71618b98fc9d71dacc8d3d8ff73ba84a5a7774/nonebot_plugin_splatoon3-1.2.3.tar.gz
+[2023-08-04 13:11:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-08-04 13:11:16] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping package: exceeds size limit 49559712>=10485760
+[2023-08-04 13:11:16] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Start processing: vulcan-sql
+[2023-08-04 13:11:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-08-04 13:11:16] INFO root fetch - processPackages [sylk]: Downloading https://files.pythonhosted.org/packages/1b/31/f51128361951822b501763541b0f76b9ade2fac9f629db0bc43316e6a82c/sylk-0.3.2-py3-none-any.whl
+[2023-08-04 13:11:16] INFO root fetch - processPackages [dask-image]: Downloading https://files.pythonhosted.org/packages/c5/9f/d8a0ebc173a2b3a4c1cc35615df8b67d8cad974521012b2878726a19cc78/dask-image-2023.8.0rc2.tar.gz
+[2023-08-04 13:11:16] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/64/f8/af133388c3696d962653f7d9fe58712bcd7759445b38cfdf2ca2d043caac/langful-0.42-py3-none-any.whl
+[2023-08-04 13:11:16] INFO root fetch - processPackages [klarf-reader]: Downloading https://files.pythonhosted.org/packages/2d/5f/2b4903403ed46b446a514de7a4e0345effba12f9b5d572157feb692c624a/klarf-reader-0.3.8.tar.gz
+[2023-08-04 13:11:16] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-08-04 13:11:16] INFO root fetch - processPackages [gastimator]: Downloading https://files.pythonhosted.org/packages/c5/22/445ff5136f94e18ba048d19a57ca96a84fdb74a2f6ab7eb3bcb1140dfffa/gastimator-0.4.8.tar.gz
+[2023-08-04 13:11:16] INFO root fetch - processPackages [vulcan-sql]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-08-04 13:11:16] INFO root fetch - processPackages [sylk]: executing diffoscope
+[2023-08-04 13:11:16] INFO root fetch - processPackages [sylk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sylk-0.3.1-py3-none-any.whl.zip tmp/sylk-0.3.2-py3-none-any.whl.zip --markdown 20230804/s/sylk/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-04 13:11:16] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/24/f0/f99cfe6cf9ddfbcf34bcacfbb3afa1b2c387acbac86d2900a726213bbf59/atmoswing-vigicrues-1.1.6.tar.gz
+[2023-08-04 13:11:16] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/74/28/0a47eb8953e25de93f5e72aa16c016701c4cd62127e0e20171232afa4371/pqinput-0.0.5.tar.gz
+[2023-08-04 13:11:16] INFO root fetch - processPackages [dask-image]: executing diffoscope
+[2023-08-04 13:11:16] INFO root fetch - processPackages [dask-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-image-2023.8.0.tar.gz tmp/dask-image-2023.8.0rc2.tar.gz --markdown 20230804/d/dask-image/2023.8.0-2023.8.0rc2/diff.md --exclude *.pyd
+[2023-08-04 13:11:16] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-08-04 13:11:16] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-08-04 13:11:16] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.41-py3-none-any.whl.zip tmp/langful-0.42-py3-none-any.whl.zip --markdown 20230804/l/langful/0.41-0.42/diff.md --exclude *.pyd
+[2023-08-04 13:11:16] INFO root fetch - processPackages [klarf-reader]: executing diffoscope
+[2023-08-04 13:11:16] INFO root fetch - processPackages [klarf-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarf-reader-0.3.7.tar.gz tmp/klarf-reader-0.3.8.tar.gz --markdown 20230804/k/klarf-reader/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-08-04 13:11:16] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-08-04 13:11:16] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230804/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-08-04 13:11:16] INFO root fetch - processPackages [gastimator]: executing diffoscope
+[2023-08-04 13:11:16] INFO root fetch - processPackages [gastimator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gastimator-0.4.7.tar.gz tmp/gastimator-0.4.8.tar.gz --markdown 20230804/g/gastimator/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-08-04 13:11:16] INFO root fetch - processPackages [pqinput]: executing diffoscope
+[2023-08-04 13:11:16] INFO root fetch - processPackages [pqinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqinput-0.0.409.tar.gz tmp/pqinput-0.0.5.tar.gz --markdown 20230804/p/pqinput/0.0.409-0.0.5/diff.md --exclude *.pyd
+[2023-08-04 13:11:16] INFO root fetch - processPackages [atmoswing-vigicrues]: executing diffoscope
+[2023-08-04 13:11:16] INFO root fetch - processPackages [atmoswing-vigicrues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-vigicrues-1.1.5.tar.gz tmp/atmoswing-vigicrues-1.1.6.tar.gz --markdown 20230804/a/atmoswing-vigicrues/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-08-04 13:11:16] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/d0/f6/39b9628265f2729c9f5ed0a19e915e8e076d411962ac080e2129fb90fc56/vulcan-sql-0.7.2.tar.gz
+[2023-08-04 13:11:17] INFO root fetch - processPackages [vulcan-sql]: Downloading https://files.pythonhosted.org/packages/65/41/5dd7917e439c87eb469fc12a3df11d0a4297189f3d93325f3fddb8f5259a/vulcan-sql-0.8.0.tar.gz
+[2023-08-04 13:11:17] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-08-04 13:11:17] INFO root fetch - processPackages [vulcan-sql]: executing diffoscope
+[2023-08-04 13:11:17] INFO root fetch - processPackages [vulcan-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-sql-0.7.2.tar.gz tmp/vulcan-sql-0.8.0.tar.gz --markdown 20230804/v/vulcan-sql/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-08-04 13:11:17] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-08-04 13:11:17] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230804/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-08-04 13:11:17] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.41-py3-none-any.whl.zip]
+[2023-08-04 13:11:17] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.42-py3-none-any.whl.zip]
+[2023-08-04 13:11:17] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-08-04 13:11:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-08-04 13:11:18] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.7.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - processPackages [klarf-reader]: Remove: archive file [/home/abi/fetcher/tmp/klarf-reader-0.3.8.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - main [MainThread]: End processing [klarf-reader]: success
+[2023-08-04 13:11:18] INFO root fetch - processPackages [pqinput]: Remove: archive file [/home/abi/fetcher/tmp/pqinput-0.0.409.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - processPackages [pqinput]: Remove: archive file [/home/abi/fetcher/tmp/pqinput-0.0.5.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - main [MainThread]: End processing [pqinput]: success
+[2023-08-04 13:11:18] INFO root fetch - processPackages [gastimator]: Remove: archive file [/home/abi/fetcher/tmp/gastimator-0.4.7.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - processPackages [gastimator]: Remove: archive file [/home/abi/fetcher/tmp/gastimator-0.4.8.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - main [MainThread]: End processing [gastimator]: success
+[2023-08-04 13:11:18] INFO root fetch - processPackages [atmoswing-vigicrues]: Remove: archive file [/home/abi/fetcher/tmp/atmoswing-vigicrues-1.1.5.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - processPackages [atmoswing-vigicrues]: Remove: archive file [/home/abi/fetcher/tmp/atmoswing-vigicrues-1.1.6.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - main [MainThread]: End processing [atmoswing-vigicrues]: success
+[2023-08-04 13:11:18] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask-image-2023.8.0.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - processPackages [dask-image]: Remove: archive file [/home/abi/fetcher/tmp/dask-image-2023.8.0rc2.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - main [MainThread]: End processing [dask-image]: success
+[2023-08-04 13:11:18] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.7.2.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - processPackages [vulcan-sql]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-sql-0.8.0.tar.gz]
+[2023-08-04 13:11:18] INFO root fetch - main [MainThread]: End processing [vulcan-sql]: success
+[2023-08-04 13:11:19] INFO root fetch - processPackages [sylk]: Remove: archive file [/home/abi/fetcher/tmp/sylk-0.3.1-py3-none-any.whl.zip]
+[2023-08-04 13:11:19] INFO root fetch - processPackages [sylk]: Remove: archive file [/home/abi/fetcher/tmp/sylk-0.3.2-py3-none-any.whl.zip]
+[2023-08-04 13:11:19] INFO root fetch - main [MainThread]: End processing [sylk]: success
+[2023-08-04 13:11:20] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-08-04 13:11:20] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-08-04 13:11:20] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-08-04 13:11:20] INFO root fetch - main [MainThread]: Store serial: [19173078]
