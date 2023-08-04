@@ -11835,3 +11835,39 @@
 [2023-08-04 05:43:46] INFO root fetch - processPackages [linuxp]: Remove: archive file [/home/abi/fetcher/tmp/linuxp-1.0.9.tar.gz]
 [2023-08-04 05:43:46] INFO root fetch - main [MainThread]: End processing [linuxp]: success
 [2023-08-04 05:43:46] INFO root fetch - main [MainThread]: Store serial: [19169482]
+[2023-08-04 05:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169482]
+[2023-08-04 05:48:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-04 05:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Tailbone
+[2023-08-04 05:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-pymdownx-material-extras
+[2023-08-04 05:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bbat
+[2023-08-04 05:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-module-jsh
+[2023-08-04 05:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfl-data
+[2023-08-04 05:48:56] INFO root fetch - processPackages [bbat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-04 05:48:56] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/df/13/929e72634d1229b0cc1a85b5931cb46a9a197ae1f574c9205049b6b43192/bbat-0.2.1.tar.gz
+[2023-08-04 05:48:56] WARNING root fetch - processPackages [zfl-data]: Skipping, unable to determine old version
+[2023-08-04 05:48:56] INFO root fetch - main [MainThread]: End processing [zfl-data] error
+[2023-08-04 05:48:56] WARNING root fetch - processPackages [my-module-jsh]: Skipping, unable to determine old version
+[2023-08-04 05:48:56] INFO root fetch - main [MainThread]: End processing [my-module-jsh] error
+[2023-08-04 05:48:56] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: New version: [2.5.1] Old Version: [2.5]
+[2023-08-04 05:48:56] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-04 05:48:56] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: Downloading https://files.pythonhosted.org/packages/63/ac/2539b3d0dce14a02690eecb1e5e83a7891b9b41c4881181f701699af8604/mkdocs_pymdownx_material_extras-2.5.tar.gz
+[2023-08-04 05:48:56] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/db/a0/ed4e1374581a45bb41be3c96a8ca43a1cea3b15bdbb0eeaee529ff95225a/bbat-0.2.2.tar.gz
+[2023-08-04 05:48:56] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-08-04 05:48:56] INFO root fetch - processPackages [bbat]: executing diffoscope
+[2023-08-04 05:48:56] INFO root fetch - processPackages [bbat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbat-0.2.1.tar.gz tmp/bbat-0.2.2.tar.gz --markdown 20230804/b/bbat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-04 05:48:56] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: Downloading https://files.pythonhosted.org/packages/45/86/ccd6fb385fe693ea4d4da35c6f8ebea7442e4964fa250b1117e6fc48ee70/mkdocs_pymdownx_material_extras-2.5.1.tar.gz
+[2023-08-04 05:48:57] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: executing diffoscope
+[2023-08-04 05:48:57] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_pymdownx_material_extras-2.5.tar.gz tmp/mkdocs_pymdownx_material_extras-2.5.1.tar.gz --markdown 20230804/m/mkdocs-pymdownx-material-extras/2.5-2.5.1/diff.md --exclude *.pyd
+[2023-08-04 05:48:57] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-08-04 05:48:57] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-08-04 05:48:57] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230804/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-04 05:48:57] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-0.2.1.tar.gz]
+[2023-08-04 05:48:57] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-0.2.2.tar.gz]
+[2023-08-04 05:48:57] INFO root fetch - main [MainThread]: End processing [bbat]: success
+[2023-08-04 05:48:57] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_pymdownx_material_extras-2.5.tar.gz]
+[2023-08-04 05:48:57] INFO root fetch - processPackages [mkdocs-pymdownx-material-extras]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_pymdownx_material_extras-2.5.1.tar.gz]
+[2023-08-04 05:48:57] INFO root fetch - main [MainThread]: End processing [mkdocs-pymdownx-material-extras]: success
+[2023-08-04 05:48:59] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.8.tar.gz]
+[2023-08-04 05:48:59] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.9.tar.gz]
+[2023-08-04 05:48:59] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-08-04 05:48:59] INFO root fetch - main [MainThread]: Store serial: [19169524]
