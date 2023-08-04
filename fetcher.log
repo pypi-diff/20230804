@@ -11871,3 +11871,33 @@
 [2023-08-04 05:48:59] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.9.tar.gz]
 [2023-08-04 05:48:59] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
 [2023-08-04 05:48:59] INFO root fetch - main [MainThread]: Store serial: [19169524]
+[2023-08-04 05:54:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169524]
+[2023-08-04 05:54:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-04 05:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-user
+[2023-08-04 05:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acceleration2
+[2023-08-04 05:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: varman
+[2023-08-04 05:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shop-ingest
+[2023-08-04 05:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: newpychromedriver
+[2023-08-04 05:54:09] INFO root fetch - processPackages [varman]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-08-04 05:54:09] WARNING root fetch - processPackages [shop-ingest]: Skipping, unable to determine old version
+[2023-08-04 05:54:09] INFO root fetch - main [MainThread]: End processing [shop-ingest] error
+[2023-08-04 05:54:09] INFO root fetch - processPackages [varman]: Downloading https://files.pythonhosted.org/packages/ed/4a/f5e1408160356843aaf17967d5a9b6e1b90f4fa3ca48a59daa602cabe949/varman-0.0.5.tar.gz
+[2023-08-04 05:54:09] WARNING root fetch - processPackages [acceleration2]: Skipping, unable to determine old version
+[2023-08-04 05:54:09] INFO root fetch - main [MainThread]: End processing [acceleration2] error
+[2023-08-04 05:54:09] WARNING root fetch - processPackages [newpychromedriver]: Skipping, unable to determine old version
+[2023-08-04 05:54:09] INFO root fetch - main [MainThread]: End processing [newpychromedriver] error
+[2023-08-04 05:54:09] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-04 05:54:09] INFO root fetch - processPackages [varman]: Downloading https://files.pythonhosted.org/packages/66/ca/447b67b6c624472c8727207475c314094f4d44f7f2bea03d6a14cf650fe6/varman-0.1.0.tar.gz
+[2023-08-04 05:54:09] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-08-04 05:54:09] INFO root fetch - processPackages [varman]: executing diffoscope
+[2023-08-04 05:54:09] INFO root fetch - processPackages [varman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varman-0.0.5.tar.gz tmp/varman-0.1.0.tar.gz --markdown 20230804/v/varman/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-08-04 05:54:09] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-08-04 05:54:10] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-08-04 05:54:10] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230804/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-04 05:54:10] INFO root fetch - processPackages [varman]: Remove: archive file [/home/abi/fetcher/tmp/varman-0.0.5.tar.gz]
+[2023-08-04 05:54:10] INFO root fetch - processPackages [varman]: Remove: archive file [/home/abi/fetcher/tmp/varman-0.1.0.tar.gz]
+[2023-08-04 05:54:10] INFO root fetch - main [MainThread]: End processing [varman]: success
+[2023-08-04 05:54:10] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-08-04 05:54:10] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-08-04 05:54:10] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-08-04 05:54:10] INFO root fetch - main [MainThread]: Store serial: [19169542]
