@@ -13239,3 +13239,18 @@
 [2023-08-04 07:28:18] INFO root fetch - processPackages [zcc-helper]: Remove: archive file [/home/abi/fetcher/tmp/zcc-helper-3.2.dev1.tar.gz]
 [2023-08-04 07:28:18] INFO root fetch - main [MainThread]: End processing [zcc-helper]: success
 [2023-08-04 07:28:18] INFO root fetch - main [MainThread]: Store serial: [19170140]
+[2023-08-04 07:33:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170140]
+[2023-08-04 07:33:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-04 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: michaelPanSqlLib
+[2023-08-04 07:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usermgr
+[2023-08-04 07:33:27] INFO root fetch - processPackages [usermgr]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-04 07:33:27] WARNING root fetch - processPackages [michaelPanSqlLib]: Skipping, unable to determine old version
+[2023-08-04 07:33:27] INFO root fetch - main [MainThread]: End processing [michaelPanSqlLib] error
+[2023-08-04 07:33:28] INFO root fetch - processPackages [usermgr]: Downloading https://files.pythonhosted.org/packages/67/27/427e8d051518c18639c209e53ea20759d2dbc135dce45f9423e7f694e4b9/usermgr-0.1.2.tar.gz
+[2023-08-04 07:33:28] INFO root fetch - processPackages [usermgr]: Downloading https://files.pythonhosted.org/packages/43/93/f8eedbcb8a4dbb7a11470c67c47cca4b2c4544a3096f1a7117c45c65e2d9/usermgr-0.2.0.tar.gz
+[2023-08-04 07:33:28] INFO root fetch - processPackages [usermgr]: executing diffoscope
+[2023-08-04 07:33:28] INFO root fetch - processPackages [usermgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usermgr-0.1.2.tar.gz tmp/usermgr-0.2.0.tar.gz --markdown 20230804/u/usermgr/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 07:33:29] INFO root fetch - processPackages [usermgr]: Remove: archive file [/home/abi/fetcher/tmp/usermgr-0.1.2.tar.gz]
+[2023-08-04 07:33:29] INFO root fetch - processPackages [usermgr]: Remove: archive file [/home/abi/fetcher/tmp/usermgr-0.2.0.tar.gz]
+[2023-08-04 07:33:29] INFO root fetch - main [MainThread]: End processing [usermgr]: success
+[2023-08-04 07:33:29] INFO root fetch - main [MainThread]: Store serial: [19170159]
