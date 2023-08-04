@@ -12056,3 +12056,127 @@
 [2023-08-04 06:04:36] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
 [2023-08-04 06:04:36] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
 [2023-08-04 06:04:36] INFO root fetch - main [MainThread]: Store serial: [19169606]
+[2023-08-04 06:09:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169606]
+[2023-08-04 06:09:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-binary
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedriver-binary
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghast-scanner
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-service-client
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-next-appointment
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-ui
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-v4-service
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-core
+[2023-08-04 06:09:45] WARNING root fetch - processPackages [ghast-scanner]: Skipping, unable to determine old version
+[2023-08-04 06:09:45] INFO root fetch - processPackages [ghast-scanner]: Start processing: rogue-tools
+[2023-08-04 06:09:45] INFO root fetch - main [MainThread]: End processing [ghast-scanner] error
+[2023-08-04 06:09:45] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [edc-next-appointment]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [rogue-tools]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-04 06:09:45] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-08-04 06:09:45] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-08-04 06:09:45] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-08-04 06:09:46] INFO root fetch - processPackages [edc-next-appointment]: Downloading https://files.pythonhosted.org/packages/7f/6e/900487a6ef93d28cae14a25e6e3acc3a6cd4a3931a29ca20abc42c518c5e/edc-next-appointment-0.1.3.tar.gz
+[2023-08-04 06:09:46] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/84/46/90ac0673d2ece1b8f7d9b2d79cbfa1e27432c99bf51225c2f9fa1aae6c83/rogue_tools-1.1.1.tar.gz
+[2023-08-04 06:09:46] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-08-04 06:09:46] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-08-04 06:09:46] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230804/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230804/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 06:09:46] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230804/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230804/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230804/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230804/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 06:09:46] INFO root fetch - processPackages [edc-next-appointment]: Downloading https://files.pythonhosted.org/packages/89/5e/42a3167f29be27dcee41e68f157f834e9723a56c9cb3eabb77d4f4a3d78d/edc-next-appointment-0.1.4.tar.gz
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230804/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 06:09:46] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/9e/be/d3720244e9662692ea66962967056020cf377ac80ed9240a8124d7e5c85e/rogue_tools-1.1.2.tar.gz
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230804/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 06:09:46] INFO root fetch - processPackages [edc-next-appointment]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [edc-next-appointment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-next-appointment-0.1.3.tar.gz tmp/edc-next-appointment-0.1.4.tar.gz --markdown 20230804/e/edc-next-appointment/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-04 06:09:46] INFO root fetch - processPackages [rogue-tools]: executing diffoscope
+[2023-08-04 06:09:46] INFO root fetch - processPackages [rogue-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rogue_tools-1.1.1.tar.gz tmp/rogue_tools-1.1.2.tar.gz --markdown 20230804/r/rogue-tools/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-04 06:09:47] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-08-04 06:09:47] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-08-04 06:09:47] INFO root fetch - processPackages [chromedriver-binary]: Start processing: AndroidTools
+[2023-08-04 06:09:47] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-08-04 06:09:48] INFO root fetch - processPackages [AndroidTools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [chromedriver-binary]: Start processing: jshmodule
+[2023-08-04 06:09:48] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-08-04 06:09:48] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/d3/bf/74f09135342dd6b5ea77cf6a814ee9ff3f477acb64bdcc86f311d6cd957b/AndroidTools-0.1.0.tar.gz
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: gitaudit
+[2023-08-04 06:09:48] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: edc-pharmacy
+[2023-08-04 06:09:48] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-08-04 06:09:48] WARNING root fetch - processPackages [jshmodule]: Skipping, unable to determine old version
+[2023-08-04 06:09:48] INFO root fetch - main [MainThread]: End processing [jshmodule] error
+[2023-08-04 06:09:48] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/9e/e8/f3020e72acb44acfaadb426318d3d73079db8a267dfc7064108f92fa3c50/AndroidTools-0.1.1.tar.gz
+[2023-08-04 06:09:48] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-08-04 06:09:48] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.1.1.tar.gz]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.1.2.tar.gz]
+[2023-08-04 06:09:48] INFO root fetch - main [MainThread]: End processing [rogue-tools]: success
+[2023-08-04 06:09:48] INFO root fetch - processPackages [edc-pharmacy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [AndroidTools]: executing diffoscope
+[2023-08-04 06:09:48] INFO root fetch - processPackages [AndroidTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidTools-0.1.0.tar.gz tmp/AndroidTools-0.1.1.tar.gz --markdown 20230804/A/AndroidTools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 06:09:48] INFO root fetch - processPackages [edc-next-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc-next-appointment-0.1.3.tar.gz]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [edc-next-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc-next-appointment-0.1.4.tar.gz]
+[2023-08-04 06:09:48] INFO root fetch - main [MainThread]: End processing [edc-next-appointment]: success
+[2023-08-04 06:09:48] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-08-04 06:09:48] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-08-04 06:09:48] INFO root fetch - processPackages [edc-pharmacy]: Downloading https://files.pythonhosted.org/packages/d8/fd/29ba85dbb1a66fdc98d26e782a7eda1905ff01caa1381d521720403282cd/edc-pharmacy-0.1.8.tar.gz
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-04 06:09:48] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-04 06:09:48] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-08-04 06:09:48] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-08-04 06:09:48] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230804/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 06:09:49] INFO root fetch - processPackages [edc-pharmacy]: Downloading https://files.pythonhosted.org/packages/76/98/716ce513dd96a255a4e89d06aee44a862e1236127efdc48e078ab9c8ecd1/edc-pharmacy-0.1.9.tar.gz
+[2023-08-04 06:09:49] INFO root fetch - processPackages [edc-pharmacy]: executing diffoscope
+[2023-08-04 06:09:49] INFO root fetch - processPackages [edc-pharmacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pharmacy-0.1.8.tar.gz tmp/edc-pharmacy-0.1.9.tar.gz --markdown 20230804/e/edc-pharmacy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 06:09:49] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-08-04 06:09:49] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-08-04 06:09:49] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-08-04 06:09:49] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.1.0.tar.gz]
+[2023-08-04 06:09:49] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.1.1.tar.gz]
+[2023-08-04 06:09:49] INFO root fetch - main [MainThread]: End processing [AndroidTools]: success
+[2023-08-04 06:09:49] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-04 06:09:49] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-04 06:09:49] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-08-04 06:09:49] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-08-04 06:09:49] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-08-04 06:09:49] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-08-04 06:09:50] INFO root fetch - processPackages [edc-pharmacy]: Remove: archive file [/home/abi/fetcher/tmp/edc-pharmacy-0.1.8.tar.gz]
+[2023-08-04 06:09:50] INFO root fetch - processPackages [edc-pharmacy]: Remove: archive file [/home/abi/fetcher/tmp/edc-pharmacy-0.1.9.tar.gz]
+[2023-08-04 06:09:50] INFO root fetch - main [MainThread]: End processing [edc-pharmacy]: success
+[2023-08-04 06:09:50] INFO root fetch - main [MainThread]: Store serial: [19169644]
