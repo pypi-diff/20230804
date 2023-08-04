@@ -17706,3 +17706,95 @@
 [2023-08-04 11:33:27] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post937-py3-none-any.whl.zip]
 [2023-08-04 11:33:28] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-08-04 11:33:28] INFO root fetch - main [MainThread]: Store serial: [19172168]
+[2023-08-04 11:38:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172168]
+[2023-08-04 11:38:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardsort
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SOMcreator
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xmos-ai-tools
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abinitostudio
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genia
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mofmt
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-tenants-celery-beat
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ghast-scanner
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opentf-toolkit-nightly
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ssb-klass-python
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ghast-scanner]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.50.0.dev650] Old Version: [0.50.0.dev644]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [SOMcreator]: New version: [1.1.8.3] Old Version: [1.1.8.2]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [genia]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [django-tenants-celery-beat]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [abinitostudio]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ssb-klass-python]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [mofmt]: New version: [0.2.2rc1] Old Version: [0.2.1]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/6f/e5/029861006bfc082a3329a6b1fed3b1caed62fbae6ffd7d9761a8afdf8bfd/opentf_toolkit_nightly-0.50.0.dev644-py3-none-any.whl
+[2023-08-04 11:38:37] INFO root fetch - processPackages [xmos-ai-tools]: New version: [1.0.1.dev84] Old Version: [1.0.1.dev68]
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ghast-scanner]: Downloading https://files.pythonhosted.org/packages/a5/25/4bbb6f0d878bc833c3e29b3ae5547707e279586b375bed50f0868a47094f/ghast_scanner-1.4.5.tar.gz
+[2023-08-04 11:38:37] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/e2/65/5555993adf893d4980d662281fc8283ca1bee5c570aad319caacee113aaf/SOMcreator-1.1.8.2.tar.gz
+[2023-08-04 11:38:37] INFO root fetch - processPackages [genia]: Downloading https://files.pythonhosted.org/packages/a0/c8/02c0e12ce3ab651ff779509ea445b9b19dc3552906f64d5f74ff4292aca1/genia-0.3.0.tar.gz
+[2023-08-04 11:38:37] INFO root fetch - processPackages [django-tenants-celery-beat]: Downloading https://files.pythonhosted.org/packages/c2/8b/db3a75b36ebcbf27a2783f92b73a75bb820c23d1f9203d1787fae7d99942/django-tenants-celery-beat-0.2.0.tar.gz
+[2023-08-04 11:38:37] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-08-04 11:38:37] INFO root fetch - processPackages [abinitostudio]: Downloading https://files.pythonhosted.org/packages/dc/98/02179d5dd08927f281ebfa8bb7c6b53c90ed77c1c9f6da9e1cda60e7647b/abinitostudio-1.0.1.tar.gz
+[2023-08-04 11:38:37] INFO root fetch - processPackages [ssb-klass-python]: Downloading https://files.pythonhosted.org/packages/00/c6/a50f108098b0172c4a46a5d2d0f88fd92c7140bb4a54eda07e0f23622146/ssb_klass_python-0.0.3.tar.gz
+[2023-08-04 11:38:37] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/75/29/877d140eb98eb9b3ce1c529701ddbc3853c769dc2cafc6a62b5d60f0da30/xmos_ai_tools-1.0.1.dev68-py3-none-win_amd64.whl
+[2023-08-04 11:38:37] INFO root fetch - processPackages [mofmt]: Downloading https://files.pythonhosted.org/packages/1e/a5/4fbc91b6439a51d5f791669bd2d3677145117a974f87c35617d64328be2f/mofmt-0.2.1-py3-none-any.whl
+[2023-08-04 11:38:37] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/0e/da/218e461bac54c53ac00e56e52c6e7238867b16d58bcc5c08fbf739d0a199/opentf_toolkit_nightly-0.50.0.dev650-py3-none-any.whl
+[2023-08-04 11:38:38] INFO root fetch - processPackages [SOMcreator]: Downloading https://files.pythonhosted.org/packages/f6/29/d0d989ef7faf83b52c092fadc5f2200316ab71b01a9a8e9210e8b95ca6a0/SOMcreator-1.1.8.3.tar.gz
+[2023-08-04 11:38:38] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2023-08-04 11:38:38] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.50.0.dev644-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.50.0.dev650-py3-none-any.whl.zip --markdown 20230804/o/opentf-toolkit-nightly/0.50.0.dev644-0.50.0.dev650/diff.md --exclude *.pyd
+[2023-08-04 11:38:38] INFO root fetch - processPackages [ghast-scanner]: Downloading https://files.pythonhosted.org/packages/24/33/6c732bbf058cb6c6e0e988f9f11bccbcad218ea7b7aded7bc2fe46cbe2ff/ghast_scanner-1.4.6.tar.gz
+[2023-08-04 11:38:38] INFO root fetch - processPackages [genia]: Downloading https://files.pythonhosted.org/packages/d0/d6/e7093344605e66c9eb9e4710af209fa9f9e65b641610a5a8c697a2e8622a/genia-0.4.0.tar.gz
+[2023-08-04 11:38:38] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-08-04 11:38:38] INFO root fetch - processPackages [SOMcreator]: executing diffoscope
+[2023-08-04 11:38:38] INFO root fetch - processPackages [SOMcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SOMcreator-1.1.8.2.tar.gz tmp/SOMcreator-1.1.8.3.tar.gz --markdown 20230804/S/SOMcreator/1.1.8.2-1.1.8.3/diff.md --exclude *.pyd
+[2023-08-04 11:38:38] INFO root fetch - processPackages [django-tenants-celery-beat]: Downloading https://files.pythonhosted.org/packages/8d/4d/00eb1c61c77dbb570750f9dcd1e858319baa22b40b3c48f120b752ad51dd/django-tenants-celery-beat-0.2.1.tar.gz
+[2023-08-04 11:38:38] INFO root fetch - processPackages [mofmt]: Downloading https://files.pythonhosted.org/packages/c8/13/df76dc487af4c6e35b61cde17d639ed78fe78edbe55d6cc4d549236e2013/mofmt-0.2.2rc1.tar.gz
+[2023-08-04 11:38:38] INFO root fetch - processPackages [genia]: executing diffoscope
+[2023-08-04 11:38:38] INFO root fetch - processPackages [genia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genia-0.3.0.tar.gz tmp/genia-0.4.0.tar.gz --markdown 20230804/g/genia/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-04 11:38:38] INFO root fetch - processPackages [django-tenants-celery-beat]: executing diffoscope
+[2023-08-04 11:38:38] INFO root fetch - processPackages [django-tenants-celery-beat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tenants-celery-beat-0.2.0.tar.gz tmp/django-tenants-celery-beat-0.2.1.tar.gz --markdown 20230804/d/django-tenants-celery-beat/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-04 11:38:38] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-08-04 11:38:38] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230804/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-08-04 11:38:38] INFO root fetch - processPackages [abinitostudio]: Downloading https://files.pythonhosted.org/packages/29/2a/2c5f578eaa4091f8cd5d1db1f23429af0d03c6a4c6787c6e4d748d3b2da9/abinitostudio-1.0.2.tar.gz
+[2023-08-04 11:38:38] INFO root fetch - processPackages [ghast-scanner]: executing diffoscope
+[2023-08-04 11:38:38] INFO root fetch - processPackages [ghast-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghast_scanner-1.4.5.tar.gz tmp/ghast_scanner-1.4.6.tar.gz --markdown 20230804/g/ghast-scanner/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-08-04 11:38:38] INFO root fetch - processPackages [mofmt]: executing diffoscope
+[2023-08-04 11:38:38] INFO root fetch - processPackages [mofmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mofmt-0.2.1-py3-none-any.whl.zip tmp/mofmt-0.2.2rc1.tar.gz --markdown 20230804/m/mofmt/0.2.1-0.2.2rc1/diff.md --exclude *.pyd
+[2023-08-04 11:38:38] INFO root fetch - processPackages [ssb-klass-python]: Downloading https://files.pythonhosted.org/packages/82/93/4ec746e4936a3f94f34db988a7f85130146d095fdfac8006321b57332931/ssb_klass_python-0.0.4.tar.gz
+[2023-08-04 11:38:38] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 27633722>=10485760
+[2023-08-04 11:38:38] INFO root fetch - processPackages [xmos-ai-tools]: Start processing: Swagger2Tests
+[2023-08-04 11:38:38] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-08-04 11:38:39] WARNING root fetch - processPackages [Swagger2Tests]: Skipping, unable to determine old version
+[2023-08-04 11:38:39] INFO root fetch - main [MainThread]: End processing [Swagger2Tests] error
+[2023-08-04 11:38:39] INFO root fetch - processPackages [ssb-klass-python]: executing diffoscope
+[2023-08-04 11:38:39] INFO root fetch - processPackages [ssb-klass-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_klass_python-0.0.3.tar.gz tmp/ssb_klass_python-0.0.4.tar.gz --markdown 20230804/s/ssb-klass-python/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-04 11:38:39] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.50.0.dev644-py3-none-any.whl.zip]
+[2023-08-04 11:38:39] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.50.0.dev650-py3-none-any.whl.zip]
+[2023-08-04 11:38:39] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2023-08-04 11:38:39] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.1.8.2.tar.gz]
+[2023-08-04 11:38:39] INFO root fetch - processPackages [SOMcreator]: Remove: archive file [/home/abi/fetcher/tmp/SOMcreator-1.1.8.3.tar.gz]
+[2023-08-04 11:38:39] INFO root fetch - main [MainThread]: End processing [SOMcreator]: success
+[2023-08-04 11:38:39] INFO root fetch - processPackages [django-tenants-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/django-tenants-celery-beat-0.2.0.tar.gz]
+[2023-08-04 11:38:39] INFO root fetch - processPackages [django-tenants-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/django-tenants-celery-beat-0.2.1.tar.gz]
+[2023-08-04 11:38:39] INFO root fetch - main [MainThread]: End processing [django-tenants-celery-beat]: success
+[2023-08-04 11:38:39] INFO root fetch - processPackages [mofmt]: Remove: archive file [/home/abi/fetcher/tmp/mofmt-0.2.1-py3-none-any.whl.zip]
+[2023-08-04 11:38:39] INFO root fetch - processPackages [mofmt]: Remove: archive file [/home/abi/fetcher/tmp/mofmt-0.2.2rc1.tar.gz]
+[2023-08-04 11:38:39] INFO root fetch - main [MainThread]: End processing [mofmt]: success
+[2023-08-04 11:38:39] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-08-04 11:38:39] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-08-04 11:38:39] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-08-04 11:38:39] INFO root fetch - processPackages [abinitostudio]: executing diffoscope
+[2023-08-04 11:38:39] INFO root fetch - processPackages [abinitostudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abinitostudio-1.0.1.tar.gz tmp/abinitostudio-1.0.2.tar.gz --markdown 20230804/a/abinitostudio/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-04 11:38:39] INFO root fetch - processPackages [ghast-scanner]: Remove: archive file [/home/abi/fetcher/tmp/ghast_scanner-1.4.5.tar.gz]
+[2023-08-04 11:38:39] INFO root fetch - processPackages [ghast-scanner]: Remove: archive file [/home/abi/fetcher/tmp/ghast_scanner-1.4.6.tar.gz]
+[2023-08-04 11:38:39] INFO root fetch - main [MainThread]: End processing [ghast-scanner]: success
+[2023-08-04 11:38:40] INFO root fetch - processPackages [genia]: Remove: archive file [/home/abi/fetcher/tmp/genia-0.3.0.tar.gz]
+[2023-08-04 11:38:40] INFO root fetch - processPackages [genia]: Remove: archive file [/home/abi/fetcher/tmp/genia-0.4.0.tar.gz]
+[2023-08-04 11:38:40] INFO root fetch - main [MainThread]: End processing [genia]: success
+[2023-08-04 11:38:40] INFO root fetch - processPackages [ssb-klass-python]: Remove: archive file [/home/abi/fetcher/tmp/ssb_klass_python-0.0.3.tar.gz]
+[2023-08-04 11:38:40] INFO root fetch - processPackages [ssb-klass-python]: Remove: archive file [/home/abi/fetcher/tmp/ssb_klass_python-0.0.4.tar.gz]
+[2023-08-04 11:38:40] INFO root fetch - main [MainThread]: End processing [ssb-klass-python]: success
+[2023-08-04 11:38:41] INFO root fetch - processPackages [abinitostudio]: Remove: archive file [/home/abi/fetcher/tmp/abinitostudio-1.0.1.tar.gz]
+[2023-08-04 11:38:41] INFO root fetch - processPackages [abinitostudio]: Remove: archive file [/home/abi/fetcher/tmp/abinitostudio-1.0.2.tar.gz]
+[2023-08-04 11:38:41] INFO root fetch - main [MainThread]: End processing [abinitostudio]: success
+[2023-08-04 11:38:41] INFO root fetch - main [MainThread]: Store serial: [19172205]
