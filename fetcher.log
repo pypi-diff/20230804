@@ -15339,3 +15339,24 @@
 [2023-08-04 09:41:11] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.0.8.dev2-py3-none-any.whl.zip]
 [2023-08-04 09:41:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
 [2023-08-04 09:41:11] INFO root fetch - main [MainThread]: Store serial: [19171121]
+[2023-08-04 09:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171121]
+[2023-08-04 09:46:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-04 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: click-default-group
+[2023-08-04 09:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webviz-config
+[2023-08-04 09:46:20] INFO root fetch - processPackages [webviz-config]: New version: [0.5.3a0] Old Version: [0.5.3]
+[2023-08-04 09:46:20] INFO root fetch - processPackages [click-default-group]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-04 09:46:20] INFO root fetch - processPackages [webviz-config]: Downloading https://files.pythonhosted.org/packages/68/d7/d70506284b3298b0df8f3980159b7a4fd7b4e99d4731d13fba8a5d61de79/webviz-config-0.5.3.tar.gz
+[2023-08-04 09:46:20] INFO root fetch - processPackages [click-default-group]: Downloading https://files.pythonhosted.org/packages/22/3a/e9feb3435bd4b002d183fcb9ee08fb369a7e570831ab1407bc73f079948f/click-default-group-1.2.2.tar.gz
+[2023-08-04 09:46:20] INFO root fetch - processPackages [click-default-group]: Downloading https://files.pythonhosted.org/packages/63/22/bbff0e364ebcb111915770b2f580fbaec7e356cb8bd8221bae65590f4433/click_default_group-1.2.3.tar.gz
+[2023-08-04 09:46:20] INFO root fetch - processPackages [click-default-group]: executing diffoscope
+[2023-08-04 09:46:20] INFO root fetch - processPackages [click-default-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click-default-group-1.2.2.tar.gz tmp/click_default_group-1.2.3.tar.gz --markdown 20230804/c/click-default-group/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-04 09:46:21] INFO root fetch - processPackages [webviz-config]: Downloading https://files.pythonhosted.org/packages/49/d5/a6fde64ff1591ecce834d60f8862260aa2e1ceca999bfdda230a4f0b7786/webviz-config-0.5.3a0.tar.gz
+[2023-08-04 09:46:21] INFO root fetch - processPackages [webviz-config]: executing diffoscope
+[2023-08-04 09:46:21] INFO root fetch - processPackages [webviz-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-config-0.5.3.tar.gz tmp/webviz-config-0.5.3a0.tar.gz --markdown 20230804/w/webviz-config/0.5.3-0.5.3a0/diff.md --exclude *.pyd
+[2023-08-04 09:46:21] INFO root fetch - processPackages [click-default-group]: Remove: archive file [/home/abi/fetcher/tmp/click-default-group-1.2.2.tar.gz]
+[2023-08-04 09:46:21] INFO root fetch - processPackages [click-default-group]: Remove: archive file [/home/abi/fetcher/tmp/click_default_group-1.2.3.tar.gz]
+[2023-08-04 09:46:21] INFO root fetch - main [MainThread]: End processing [click-default-group]: success
+[2023-08-04 09:46:23] INFO root fetch - processPackages [webviz-config]: Remove: archive file [/home/abi/fetcher/tmp/webviz-config-0.5.3.tar.gz]
+[2023-08-04 09:46:23] INFO root fetch - processPackages [webviz-config]: Remove: archive file [/home/abi/fetcher/tmp/webviz-config-0.5.3a0.tar.gz]
+[2023-08-04 09:46:23] INFO root fetch - main [MainThread]: End processing [webviz-config]: success
+[2023-08-04 09:46:23] INFO root fetch - main [MainThread]: Store serial: [19171127]
