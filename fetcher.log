@@ -12751,3 +12751,80 @@
 [2023-08-04 06:46:22] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
 [2023-08-04 06:46:22] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
 [2023-08-04 06:46:22] INFO root fetch - main [MainThread]: Store serial: [19169910]
+[2023-08-04 06:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169910]
+[2023-08-04 06:51:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: env-minion
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meerschaum
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garth
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-chatbox
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastsam
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threemystic-cloud-client
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zfl-data
+[2023-08-04 06:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: intecomm-edc
+[2023-08-04 06:51:31] INFO root fetch - processPackages [streamlit-chatbox]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-04 06:51:31] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230804.4.28.426175] Old Version: [20230803.19.29.687811]
+[2023-08-04 06:51:31] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/ed/4d/6e39cf9364d7febb49b6257e10a413b477ad1fce9d3732fe211da5668725/streamlit_chatbox-1.1.4-py3-none-any.whl
+[2023-08-04 06:51:31] WARNING root fetch - processPackages [fastsam]: Skipping, unable to determine old version
+[2023-08-04 06:51:31] INFO root fetch - main [MainThread]: End processing [fastsam] error
+[2023-08-04 06:51:31] INFO root fetch - processPackages [garth]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-08-04 06:51:31] WARNING root fetch - processPackages [env-minion]: Skipping, unable to determine old version
+[2023-08-04 06:51:31] INFO root fetch - main [MainThread]: End processing [env-minion] error
+[2023-08-04 06:51:31] INFO root fetch - processPackages [zfl-data]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-04 06:51:31] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.61] Old Version: [0.1.60]
+[2023-08-04 06:51:31] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 06:51:31] INFO root fetch - processPackages [meerschaum]: New version: [1.7.0.dev1] Old Version: [1.6.9]
+[2023-08-04 06:51:31] INFO root fetch - processPackages [edc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-04 06:51:31] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/11/d6/1cabab35be6b8b00d52d598e597533f07ae18e2d336bd53701523b940a7a/certora-cli-alpha-master-20230803.19.29.687811.tar.gz
+[2023-08-04 06:51:31] INFO root fetch - processPackages [zfl-data]: Downloading https://files.pythonhosted.org/packages/eb/f8/eb0f98ec80fcbf4d1daaf955efdf8dd889cf1514c0154266ffb2837376e7/zfl_data-0.0.1.tar.gz
+[2023-08-04 06:51:31] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37829863>=10485760
+[2023-08-04 06:51:31] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-04 06:51:31] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/33/f7/75245929557e00aff163596f007af615e59a06e7ea2f423caa0b34a10ad8/garth-0.3.5.tar.gz
+[2023-08-04 06:51:31] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/69/79/7442993feadf8a112ddf43efc32b13f591aea6824e87f3cfc5f0b7ae22ba/threemystic_cloud_client-0.1.60.tar.gz
+[2023-08-04 06:51:31] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-08-04 06:51:31] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/e7/a5/daf418e71bd16350c5ee45dedb45a0d0d3f4e01cfff517a1cb6e26ffcb96/meerschaum-1.6.9.tar.gz
+[2023-08-04 06:51:31] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/0d/71/fd426ffa8384b1a3dcc003d2c9cdcf108903816623585994a8b806e67082/edc-0.5.8.tar.gz
+[2023-08-04 06:51:31] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/f1/81/29753005b77ab2a0215df92e46e72f2db67815997cd0dbaddc9cd60bdf70/streamlit_chatbox-1.1.5-py3-none-any.whl
+[2023-08-04 06:51:32] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2023-08-04 06:51:32] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-1.1.4-py3-none-any.whl.zip tmp/streamlit_chatbox-1.1.5-py3-none-any.whl.zip --markdown 20230804/s/streamlit-chatbox/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-04 06:51:32] INFO root fetch - processPackages [zfl-data]: Downloading https://files.pythonhosted.org/packages/2f/63/847917af61ab314a77e6001a5a031a2565231f5abba4dc694a1333388c94/zfl_data-0.0.2.tar.gz
+[2023-08-04 06:51:32] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/d6/8c/d782d307a9ebc937aa2db2080a84c90d863df2cd68c5ec0a51baae155db0/garth-0.4.0.tar.gz
+[2023-08-04 06:51:32] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/2f/e1/fd0ee5161861fdf3f2ff3a9b407ba71a7e045d2f3d7faef77a97c213cad5/threemystic_cloud_client-0.1.61.tar.gz
+[2023-08-04 06:51:32] INFO root fetch - processPackages [zfl-data]: executing diffoscope
+[2023-08-04 06:51:32] INFO root fetch - processPackages [zfl-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfl_data-0.0.1.tar.gz tmp/zfl_data-0.0.2.tar.gz --markdown 20230804/z/zfl-data/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-04 06:51:32] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-08-04 06:51:32] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.60.tar.gz tmp/threemystic_cloud_client-0.1.61.tar.gz --markdown 20230804/t/threemystic-cloud-client/0.1.60-0.1.61/diff.md --exclude *.pyd
+[2023-08-04 06:51:32] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-08-04 06:51:32] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.3.5.tar.gz tmp/garth-0.4.0.tar.gz --markdown 20230804/g/garth/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-08-04 06:51:32] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-08-04 06:51:32] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/c3/e1/9aff20b85318cc37cad1323d68f6b4fc9186339dd91f77988832e79670ee/edc-0.5.9.tar.gz
+[2023-08-04 06:51:32] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/e1/c5/adf22596727ff4203c83c3cf448c61041860de4c20eef8e11b958d051be7/meerschaum-1.7.0.dev1.tar.gz
+[2023-08-04 06:51:32] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-08-04 06:51:32] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230804/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 06:51:32] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-08-04 06:51:32] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.8.tar.gz tmp/edc-0.5.9.tar.gz --markdown 20230804/e/edc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-04 06:51:32] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2023-08-04 06:51:32] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-1.6.9.tar.gz tmp/meerschaum-1.7.0.dev1.tar.gz --markdown 20230804/m/meerschaum/1.6.9-1.7.0.dev1/diff.md --exclude *.pyd
+[2023-08-04 06:51:33] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.4-py3-none-any.whl.zip]
+[2023-08-04 06:51:33] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.1.5-py3-none-any.whl.zip]
+[2023-08-04 06:51:33] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2023-08-04 06:51:33] INFO root fetch - processPackages [zfl-data]: Remove: archive file [/home/abi/fetcher/tmp/zfl_data-0.0.1.tar.gz]
+[2023-08-04 06:51:33] INFO root fetch - processPackages [zfl-data]: Remove: archive file [/home/abi/fetcher/tmp/zfl_data-0.0.2.tar.gz]
+[2023-08-04 06:51:33] INFO root fetch - main [MainThread]: End processing [zfl-data]: success
+[2023-08-04 06:51:33] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.60.tar.gz]
+[2023-08-04 06:51:33] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.61.tar.gz]
+[2023-08-04 06:51:33] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-08-04 06:51:33] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.3.5.tar.gz]
+[2023-08-04 06:51:33] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.0.tar.gz]
+[2023-08-04 06:51:33] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-08-04 06:51:34] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.8.tar.gz]
+[2023-08-04 06:51:34] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
+[2023-08-04 06:51:34] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-08-04 06:51:34] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-1.6.9.tar.gz]
+[2023-08-04 06:51:34] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-1.7.0.dev1.tar.gz]
+[2023-08-04 06:51:34] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2023-08-04 06:51:35] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.8.tar.gz]
+[2023-08-04 06:51:35] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
+[2023-08-04 06:51:35] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-08-04 06:51:35] INFO root fetch - main [MainThread]: Store serial: [19169942]
