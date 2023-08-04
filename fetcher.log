@@ -18444,3 +18444,117 @@
 [2023-08-04 12:02:44] INFO root fetch - processPackages [astro-p3]: Remove: archive file [/home/abi/fetcher/tmp/astro-p3-1.2.tar.gz]
 [2023-08-04 12:02:44] INFO root fetch - main [MainThread]: End processing [astro-p3]: success
 [2023-08-04 12:02:44] INFO root fetch - main [MainThread]: Store serial: [19172458]
+[2023-08-04 12:07:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172458]
+[2023-08-04 12:07:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mastsel
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dm-reverb-nightly
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentf-toolkit-nightly
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typer-common-functions
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wowipy
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plbm-liumou-Stable
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DistInfo-ReadMe
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphractal
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cardsort
+[2023-08-04 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coolpandas
+[2023-08-04 12:07:53] INFO root fetch - processPackages [wowipy]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-08-04 12:07:53] INFO root fetch - processPackages [typer-common-functions]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-04 12:07:53] INFO root fetch - processPackages [opentf-toolkit-nightly]: New version: [0.50.0.dev653] Old Version: [0.50.0.dev650]
+[2023-08-04 12:07:53] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-04 12:07:53] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-08-04 12:07:53] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-08-04 12:07:53] INFO root fetch - processPackages [mastsel]: New version: [1.2] Old Version: [1.1]
+[2023-08-04 12:07:53] WARNING root fetch - processPackages [DistInfo-ReadMe]: Skipping, unable to determine old version
+[2023-08-04 12:07:53] INFO root fetch - processPackages [DistInfo-ReadMe]: Start processing: citrusdb
+[2023-08-04 12:07:53] INFO root fetch - main [MainThread]: End processing [DistInfo-ReadMe] error
+[2023-08-04 12:07:53] INFO root fetch - processPackages [coolpandas]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-04 12:07:53] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/2b/d9/64c21d6e4e93395e9572edd152c5e117fb4f258637232d80c309214e8f12/wowipy-1.1.7.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [plbm-liumou-Stable]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-08-04 12:07:53] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [typer-common-functions]: Downloading https://files.pythonhosted.org/packages/53/f4/afb54ca3b4623dc21ae8e7ce8684c43b7052ed3dd4aa68311514f02ae713/typer_common_functions-0.0.4.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/0e/da/218e461bac54c53ac00e56e52c6e7238867b16d58bcc5c08fbf739d0a199/opentf_toolkit_nightly-0.50.0.dev650-py3-none-any.whl
+[2023-08-04 12:07:53] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-04 12:07:53] INFO root fetch - processPackages [citrusdb]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-04 12:07:53] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/a9/53/b6200963f69f4a11eaf7d547de69cf8edca52312a12a0db346d866c2f909/mastsel-1.1.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [coolpandas]: Downloading https://files.pythonhosted.org/packages/fe/40/fb2e9bd0c3ef19563fb22edd116a24e27458210d8707de181950c10ec530/coolpandas-0.4.5.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [plbm-liumou-Stable]: Downloading https://files.pythonhosted.org/packages/47/54/5e2bfa082f0e9217a1db0383647388bcfa7e0992dd1091de8f21b9e7f00a/plbm_liumou_stable-1.3.9.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/a2/f4/dcb4ad2e5d49511fbbeecd3416ea7ad8cbc2cd652725055ceeab94dcb38f/wowipy-1.1.8.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/d8/13/f609f92812ae57451d1cef3193450b065ea8fb6ecb6fbd9fab058fd634d1/citrusdb-0.5.1.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [typer-common-functions]: Downloading https://files.pythonhosted.org/packages/ac/72/b4543e35472fe71275d008ec732ac2c60a2249eaded1380837bb99cc8aaa/typer_common_functions-0.0.5.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-08-04 12:07:53] INFO root fetch - processPackages [opentf-toolkit-nightly]: Downloading https://files.pythonhosted.org/packages/d6/6a/00ceba9e1fc59db8235b18ab11bdb91573a44f62d86aa46f128e5cbe4315/opentf_toolkit_nightly-0.50.0.dev653-py3-none-any.whl
+[2023-08-04 12:07:53] INFO root fetch - processPackages [wowipy]: executing diffoscope
+[2023-08-04 12:07:53] INFO root fetch - processPackages [wowipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowipy-1.1.7.tar.gz tmp/wowipy-1.1.8.tar.gz --markdown 20230804/w/wowipy/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-08-04 12:07:54] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-08-04 12:07:54] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230804/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-08-04 12:07:54] INFO root fetch - processPackages [typer-common-functions]: executing diffoscope
+[2023-08-04 12:07:54] INFO root fetch - processPackages [typer-common-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_common_functions-0.0.4.tar.gz tmp/typer_common_functions-0.0.5.tar.gz --markdown 20230804/t/typer-common-functions/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-04 12:07:54] INFO root fetch - processPackages [coolpandas]: Downloading https://files.pythonhosted.org/packages/5e/ae/b5113a3546f1c00cfda3844af0e4f200ef9d567b3ed91a74e41c3eb965a4/coolpandas-0.4.6.tar.gz
+[2023-08-04 12:07:54] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-08-04 12:07:54] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230804/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-04 12:07:54] INFO root fetch - processPackages [plbm-liumou-Stable]: Downloading https://files.pythonhosted.org/packages/f3/db/d308f3d7b2f08e7ce23e53e626c2441be4f1daa130579e18f5c7aefb2194/plbm_liumou_stable-1.4.0.tar.gz
+[2023-08-04 12:07:54] INFO root fetch - processPackages [opentf-toolkit-nightly]: executing diffoscope
+[2023-08-04 12:07:54] INFO root fetch - processPackages [opentf-toolkit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit_nightly-0.50.0.dev650-py3-none-any.whl.zip tmp/opentf_toolkit_nightly-0.50.0.dev653-py3-none-any.whl.zip --markdown 20230804/o/opentf-toolkit-nightly/0.50.0.dev650-0.50.0.dev653/diff.md --exclude *.pyd
+[2023-08-04 12:07:54] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/62/1f/ea9ace552b3afbef11be8a950e626964c35314cd2bb418d1f8ce78e57f8e/mastsel-1.2.tar.gz
+[2023-08-04 12:07:54] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/ac/6a/c465feb488f1bb37852655a8f19df80ad464540b7aaa7160eb45d911f345/citrusdb-0.5.2.tar.gz
+[2023-08-04 12:07:54] INFO root fetch - processPackages [mastsel]: executing diffoscope
+[2023-08-04 12:07:54] INFO root fetch - processPackages [mastsel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastsel-1.1.tar.gz tmp/mastsel-1.2.tar.gz --markdown 20230804/m/mastsel/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-04 12:07:54] INFO root fetch - processPackages [citrusdb]: executing diffoscope
+[2023-08-04 12:07:54] INFO root fetch - processPackages [citrusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citrusdb-0.5.1.tar.gz tmp/citrusdb-0.5.2.tar.gz --markdown 20230804/c/citrusdb/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-04 12:07:54] INFO root fetch - processPackages [coolpandas]: executing diffoscope
+[2023-08-04 12:07:54] INFO root fetch - processPackages [coolpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolpandas-0.4.5.tar.gz tmp/coolpandas-0.4.6.tar.gz --markdown 20230804/c/coolpandas/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-04 12:07:54] INFO root fetch - processPackages [plbm-liumou-Stable]: executing diffoscope
+[2023-08-04 12:07:54] INFO root fetch - processPackages [plbm-liumou-Stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plbm_liumou_stable-1.3.9.tar.gz tmp/plbm_liumou_stable-1.4.0.tar.gz --markdown 20230804/p/plbm-liumou-Stable/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-08-04 12:07:55] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [cardsort]: Start processing: hstreamdb-api
+[2023-08-04 12:07:55] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-08-04 12:07:55] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.7.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.8.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [wowipy]: Start processing: artigraph
+[2023-08-04 12:07:55] INFO root fetch - main [MainThread]: End processing [wowipy]: success
+[2023-08-04 12:07:55] INFO root fetch - processPackages [typer-common-functions]: Remove: archive file [/home/abi/fetcher/tmp/typer_common_functions-0.0.4.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [typer-common-functions]: Remove: archive file [/home/abi/fetcher/tmp/typer_common_functions-0.0.5.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - main [MainThread]: End processing [typer-common-functions]: success
+[2023-08-04 12:07:55] INFO root fetch - processPackages [hstreamdb-api]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-08-04 12:07:55] INFO root fetch - processPackages [artigraph]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.50.0.dev650-py3-none-any.whl.zip]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [opentf-toolkit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit_nightly-0.50.0.dev653-py3-none-any.whl.zip]
+[2023-08-04 12:07:55] INFO root fetch - main [MainThread]: End processing [opentf-toolkit-nightly]: success
+[2023-08-04 12:07:55] INFO root fetch - processPackages [hstreamdb-api]: Downloading https://files.pythonhosted.org/packages/b2/92/e20b071e86f62a337de625fae5d5bac2ded7126267a453054a1032dea99c/hstreamdb-api-0.6.0.tar.gz
+[2023-08-04 12:07:55] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-1.1.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-1.2.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - main [MainThread]: End processing [mastsel]: success
+[2023-08-04 12:07:55] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/d5/23/90280c1d391b4dbfb8b2b7aa116c61f6dcce32afde8a427821b2f0988006/artigraph-0.0.4.tar.gz
+[2023-08-04 12:07:55] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-04 12:07:55] INFO root fetch - processPackages [coolpandas]: Remove: archive file [/home/abi/fetcher/tmp/coolpandas-0.4.5.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - processPackages [coolpandas]: Remove: archive file [/home/abi/fetcher/tmp/coolpandas-0.4.6.tar.gz]
+[2023-08-04 12:07:55] INFO root fetch - main [MainThread]: End processing [coolpandas]: success
+[2023-08-04 12:07:56] INFO root fetch - processPackages [hstreamdb-api]: Downloading https://files.pythonhosted.org/packages/43/21/e8d228b8796867992146662e475d52a1391431f73fa1e59eda5ab366d303/hstreamdb-api-0.6.1.tar.gz
+[2023-08-04 12:07:56] INFO root fetch - processPackages [citrusdb]: Remove: archive file [/home/abi/fetcher/tmp/citrusdb-0.5.1.tar.gz]
+[2023-08-04 12:07:56] INFO root fetch - processPackages [citrusdb]: Remove: archive file [/home/abi/fetcher/tmp/citrusdb-0.5.2.tar.gz]
+[2023-08-04 12:07:56] INFO root fetch - main [MainThread]: End processing [citrusdb]: success
+[2023-08-04 12:07:56] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/1e/6e/58dc4aa7a9b647e4556155a0b989fa72994a36ed1f9f3fe58e1be8ebc963/artigraph-0.0.5.tar.gz
+[2023-08-04 12:07:56] INFO root fetch - processPackages [hstreamdb-api]: executing diffoscope
+[2023-08-04 12:07:56] INFO root fetch - processPackages [hstreamdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstreamdb-api-0.6.0.tar.gz tmp/hstreamdb-api-0.6.1.tar.gz --markdown 20230804/h/hstreamdb-api/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-04 12:07:56] INFO root fetch - processPackages [plbm-liumou-Stable]: Remove: archive file [/home/abi/fetcher/tmp/plbm_liumou_stable-1.3.9.tar.gz]
+[2023-08-04 12:07:56] INFO root fetch - processPackages [plbm-liumou-Stable]: Remove: archive file [/home/abi/fetcher/tmp/plbm_liumou_stable-1.4.0.tar.gz]
+[2023-08-04 12:07:56] INFO root fetch - main [MainThread]: End processing [plbm-liumou-Stable]: success
+[2023-08-04 12:07:56] INFO root fetch - processPackages [artigraph]: executing diffoscope
+[2023-08-04 12:07:56] INFO root fetch - processPackages [artigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artigraph-0.0.4.tar.gz tmp/artigraph-0.0.5.tar.gz --markdown 20230804/a/artigraph/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-04 12:07:56] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-08-04 12:07:56] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230804/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-08-04 12:07:56] INFO root fetch - processPackages [hstreamdb-api]: Remove: archive file [/home/abi/fetcher/tmp/hstreamdb-api-0.6.0.tar.gz]
+[2023-08-04 12:07:56] INFO root fetch - processPackages [hstreamdb-api]: Remove: archive file [/home/abi/fetcher/tmp/hstreamdb-api-0.6.1.tar.gz]
+[2023-08-04 12:07:56] INFO root fetch - main [MainThread]: End processing [hstreamdb-api]: success
+[2023-08-04 12:07:57] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.4.tar.gz]
+[2023-08-04 12:07:57] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.5.tar.gz]
+[2023-08-04 12:07:57] INFO root fetch - main [MainThread]: End processing [artigraph]: success
+[2023-08-04 12:08:28] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-04 12:08:28] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-04 12:08:28] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-08-04 12:08:28] INFO root fetch - main [MainThread]: Store serial: [19172496]
