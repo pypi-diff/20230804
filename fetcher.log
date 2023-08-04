@@ -2402,3 +2402,96 @@
 [2023-08-04 01:58:12] INFO root fetch - processPackages [atoti-kafka]: Remove: archive file [/home/abi/fetcher/tmp/atoti_kafka-0.8.3-py3-none-any.whl.zip]
 [2023-08-04 01:58:12] INFO root fetch - main [MainThread]: End processing [atoti-kafka]: success
 [2023-08-04 01:58:12] INFO root fetch - main [MainThread]: Store serial: [19165947]
+[2023-08-04 02:03:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165947]
+[2023-08-04 02:03:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netkiller-devops
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws-native
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symphony-binary-confusion-matrix
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: symphony-data-map
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: symphony-duplicates
+[2023-08-04 02:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: symphony-fairvis
+[2023-08-04 02:03:21] WARNING root fetch - processPackages [symphony-fairvis]: Skipping, unable to determine old version
+[2023-08-04 02:03:21] INFO root fetch - processPackages [symphony-fairvis]: Start processing: symphony-familiarity
+[2023-08-04 02:03:21] INFO root fetch - main [MainThread]: End processing [symphony-fairvis] error
+[2023-08-04 02:03:21] WARNING root fetch - processPackages [symphony-data-map]: Skipping, unable to determine old version
+[2023-08-04 02:03:21] INFO root fetch - processPackages [symphony-data-map]: Start processing: symphony-hierarchical-confusion-matrix
+[2023-08-04 02:03:21] INFO root fetch - main [MainThread]: End processing [symphony-data-map] error
+[2023-08-04 02:03:21] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 02:03:21] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 02:03:21] WARNING root fetch - processPackages [symphony-hierarchical-confusion-matrix]: Skipping, unable to determine old version
+[2023-08-04 02:03:21] INFO root fetch - processPackages [symphony-hierarchical-confusion-matrix]: Start processing: torchdatasets-nightly
+[2023-08-04 02:03:21] INFO root fetch - main [MainThread]: End processing [symphony-hierarchical-confusion-matrix] error
+[2023-08-04 02:03:21] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 02:03:21] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 02:03:21] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 02:03:21] INFO root fetch - processPackages [netkiller-devops]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-04 02:03:21] WARNING root fetch - processPackages [symphony-duplicates]: Skipping, unable to determine old version
+[2023-08-04 02:03:21] INFO root fetch - processPackages [symphony-duplicates]: Start processing: symphony-list
+[2023-08-04 02:03:21] INFO root fetch - main [MainThread]: End processing [symphony-duplicates] error
+[2023-08-04 02:03:21] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1691020994] Old Version: [1690934589]
+[2023-08-04 02:03:21] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.9.1a1641826769] Old Version: [0.9.1a1641824984]
+[2023-08-04 02:03:21] INFO root fetch - processPackages [symphony-familiarity]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 02:03:21] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 02:03:21] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 02:03:21] INFO root fetch - processPackages [netkiller-devops]: Downloading https://files.pythonhosted.org/packages/93/d6/ae182fc211ee1bba7cba75521c026d2f21a322be5f67d47cf29cb0de4bd2/netkiller-devops-0.6.8.tar.gz
+[2023-08-04 02:03:21] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 02:03:22] WARNING root fetch - processPackages [symphony-list]: Skipping, unable to determine old version
+[2023-08-04 02:03:22] INFO root fetch - main [MainThread]: End processing [symphony-list] error
+[2023-08-04 02:03:22] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: Downloading https://files.pythonhosted.org/packages/b3/94/b5ea6077727ca7fd5ab3d151ff5694076f697dfcfb7d8c2af80dce69c81f/symphony_binary_confusion_matrix-1.0.0.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/ac/d5/1adf4e68a248f89d72724fd9480b80ea98537d51d7dbdb893353a7e41ac8/torchdatasets-nightly-1690934589.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/89/ce/96408f528e6ba1eda1aea4b6573d97640f6288eac90da3e79f8e64f86ba8/pulumi_aws_native-0.9.1a1641824984.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [symphony-familiarity]: Downloading https://files.pythonhosted.org/packages/7a/ef/f1eb27811931854df11af927d2b0a12583d1810322fcd3e422d2a90f4071/symphony_familiarity-1.0.0.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 02:03:22] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 02:03:22] INFO root fetch - processPackages [netkiller-devops]: Downloading https://files.pythonhosted.org/packages/ce/91/1f51d10a8e8f6c7a28e675b4772809fc03f85769b309088029be64b7b960/netkiller-devops-0.6.9.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: Downloading https://files.pythonhosted.org/packages/67/60/6c46751aac60bbabed298234d9fe87c875f8431b9ce7d2dac5c2f4571adb/symphony_binary_confusion_matrix-1.0.1.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/c5/18/9e8b8df236b81bb0bae9bd78ac3551ff235749974974287ab4dd99269408/pulumi_aws_native-0.9.1a1641826769.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/1a/36/e8b84f205e7c26f78a4852a2f78095d6ea6201d5cfa4b979b91a5ecc8525/torchdatasets-nightly-1691020994.tar.gz
+[2023-08-04 02:03:22] INFO root fetch - processPackages [netkiller-devops]: executing diffoscope
+[2023-08-04 02:03:22] INFO root fetch - processPackages [netkiller-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netkiller-devops-0.6.8.tar.gz tmp/netkiller-devops-0.6.9.tar.gz --markdown 20230804/n/netkiller-devops/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-04 02:03:22] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-08-04 02:03:22] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1690934589.tar.gz tmp/torchdatasets-nightly-1691020994.tar.gz --markdown 20230804/t/torchdatasets-nightly/1690934589-1691020994/diff.md --exclude *.pyd
+[2023-08-04 02:03:22] INFO root fetch - processPackages [symphony-familiarity]: Downloading https://files.pythonhosted.org/packages/38/e7/072115b64e7838d27ecd745c3cc60824f8897932b0760593ea850272fb88/symphony_familiarity-1.0.1.tar.gz
+[2023-08-04 02:03:23] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2023-08-04 02:03:23] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz --markdown 20230804/p/pulumi-aws-native/0.9.1a1641824984-0.9.1a1641826769/diff.md --exclude *.pyd
+[2023-08-04 02:03:23] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: executing diffoscope
+[2023-08-04 02:03:23] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_binary_confusion_matrix-1.0.0.tar.gz tmp/symphony_binary_confusion_matrix-1.0.1.tar.gz --markdown 20230804/s/symphony-binary-confusion-matrix/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 02:03:23] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-04 02:03:23] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-04 02:03:23] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 02:03:23] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 02:03:23] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 02:03:23] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 02:03:24] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690934589.tar.gz]
+[2023-08-04 02:03:24] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1691020994.tar.gz]
+[2023-08-04 02:03:24] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-08-04 02:03:24] INFO root fetch - processPackages [netkiller-devops]: Remove: archive file [/home/abi/fetcher/tmp/netkiller-devops-0.6.8.tar.gz]
+[2023-08-04 02:03:24] INFO root fetch - processPackages [netkiller-devops]: Remove: archive file [/home/abi/fetcher/tmp/netkiller-devops-0.6.9.tar.gz]
+[2023-08-04 02:03:24] INFO root fetch - main [MainThread]: End processing [netkiller-devops]: success
+[2023-08-04 02:03:24] INFO root fetch - processPackages [symphony-familiarity]: executing diffoscope
+[2023-08-04 02:03:24] INFO root fetch - processPackages [symphony-familiarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_familiarity-1.0.0.tar.gz tmp/symphony_familiarity-1.0.1.tar.gz --markdown 20230804/s/symphony-familiarity/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 02:03:33] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: Remove: archive file [/home/abi/fetcher/tmp/symphony_binary_confusion_matrix-1.0.0.tar.gz]
+[2023-08-04 02:03:33] INFO root fetch - processPackages [symphony-binary-confusion-matrix]: Remove: archive file [/home/abi/fetcher/tmp/symphony_binary_confusion_matrix-1.0.1.tar.gz]
+[2023-08-04 02:03:33] INFO root fetch - main [MainThread]: End processing [symphony-binary-confusion-matrix]: success
+[2023-08-04 02:03:34] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641824984.tar.gz]
+[2023-08-04 02:03:34] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.9.1a1641826769.tar.gz]
+[2023-08-04 02:03:34] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2023-08-04 02:03:54] INFO root fetch - processPackages [symphony-familiarity]: Remove: archive file [/home/abi/fetcher/tmp/symphony_familiarity-1.0.0.tar.gz]
+[2023-08-04 02:03:54] INFO root fetch - processPackages [symphony-familiarity]: Remove: archive file [/home/abi/fetcher/tmp/symphony_familiarity-1.0.1.tar.gz]
+[2023-08-04 02:03:54] INFO root fetch - main [MainThread]: End processing [symphony-familiarity]: success
+[2023-08-04 02:03:54] INFO root fetch - main [MainThread]: Store serial: [19165986]
