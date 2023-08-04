@@ -13893,3 +13893,159 @@
 [2023-08-04 08:25:34] INFO root fetch - processPackages [veda-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip]
 [2023-08-04 08:25:34] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
 [2023-08-04 08:25:34] INFO root fetch - main [MainThread]: Store serial: [19170422]
+[2023-08-04 08:30:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170422]
+[2023-08-04 08:30:44] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veda-tensorflow
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: veda-tensorflow
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-ubl
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: veda-tensorflow
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: veda-tensorflow
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: veda-tensorflow
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-libvirt
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: veda-tensorflow
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domain-admin
+[2023-08-04 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: veda-tensorflow
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.3.post7] Old Version: [2.9.2.post5]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.3.post7] Old Version: [2.9.2.post5]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.3.post7] Old Version: [2.9.2.post5]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.3.post7] Old Version: [2.9.2.post5]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.3.post7] Old Version: [2.9.2.post5]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.3.post7] Old Version: [2.9.2.post5]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.3.post7] Old Version: [2.9.2.post5]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [odoo-addon-base-ubl]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.4]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.1a1691129106] Old Version: [0.4.1a1691041544]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [domain-admin]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/0a/c4/1d9e09ead7c0a74a9d8c9716d451461917af6ba02d8fd5286fa9fcebc185/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/0a/c4/1d9e09ead7c0a74a9d8c9716d451461917af6ba02d8fd5286fa9fcebc185/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/0a/c4/1d9e09ead7c0a74a9d8c9716d451461917af6ba02d8fd5286fa9fcebc185/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/0a/c4/1d9e09ead7c0a74a9d8c9716d451461917af6ba02d8fd5286fa9fcebc185/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/0a/c4/1d9e09ead7c0a74a9d8c9716d451461917af6ba02d8fd5286fa9fcebc185/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:44] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/0a/c4/1d9e09ead7c0a74a9d8c9716d451461917af6ba02d8fd5286fa9fcebc185/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:44] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/25/0b/a9b92b5caa63b3548be435abbd5d47941d851b352fe82541dc7ddd4aa8f3/pulumi_libvirt-0.4.1a1691041544.tar.gz
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/0a/c4/1d9e09ead7c0a74a9d8c9716d451461917af6ba02d8fd5286fa9fcebc185/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:45] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/46/7b/e59642c890a515c84decdbdc942bb85c0303c75495c7edf7ad62943bdb9b/domain-admin-1.5.8.tar.gz
+[2023-08-04 08:30:45] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/17/25/73824a0bd554428d23736c0ed50b5d48e963ce2228047f6ee7d104eb069f/odoo_addon_base_ubl-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/e5/7f/6ca72dec8b98c8c644d7c6ae03cc6b9c4153f5face4f921276c2608a7b64/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/e5/7f/6ca72dec8b98c8c644d7c6ae03cc6b9c4153f5face4f921276c2608a7b64/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/e5/7f/6ca72dec8b98c8c644d7c6ae03cc6b9c4153f5face4f921276c2608a7b64/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/e5/7f/6ca72dec8b98c8c644d7c6ae03cc6b9c4153f5face4f921276c2608a7b64/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/e5/7f/6ca72dec8b98c8c644d7c6ae03cc6b9c4153f5face4f921276c2608a7b64/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:45] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/8e/7e/7c20784c04e7902baf679ad7ef514a9764976334d290e3735e79fb4781b8/pulumi_libvirt-0.4.1a1691129106.tar.gz
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/e5/7f/6ca72dec8b98c8c644d7c6ae03cc6b9c4153f5face4f921276c2608a7b64/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/e5/7f/6ca72dec8b98c8c644d7c6ae03cc6b9c4153f5face4f921276c2608a7b64/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230804/v/veda-tensorflow/2.9.2.post5-2.9.3.post7/diff.md --exclude *.pyd
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230804/v/veda-tensorflow/2.9.2.post5-2.9.3.post7/diff.md --exclude *.pyd
+[2023-08-04 08:30:45] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2023-08-04 08:30:45] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.1a1691041544.tar.gz tmp/pulumi_libvirt-0.4.1a1691129106.tar.gz --markdown 20230804/p/pulumi-libvirt/0.4.1a1691041544-0.4.1a1691129106/diff.md --exclude *.pyd
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230804/v/veda-tensorflow/2.9.2.post5-2.9.3.post7/diff.md --exclude *.pyd
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230804/v/veda-tensorflow/2.9.2.post5-2.9.3.post7/diff.md --exclude *.pyd
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230804/v/veda-tensorflow/2.9.2.post5-2.9.3.post7/diff.md --exclude *.pyd
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230804/v/veda-tensorflow/2.9.2.post5-2.9.3.post7/diff.md --exclude *.pyd
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-08-04 08:30:45] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230804/v/veda-tensorflow/2.9.2.post5-2.9.3.post7/diff.md --exclude *.pyd
+[2023-08-04 08:30:46] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/d1/f5/0a0805e50c6f90a19ce30965443913d08e8ed6da9a129cc51a34b646f744/domain-admin-1.5.9.tar.gz
+[2023-08-04 08:30:46] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/4a/0b/f02e84fd1f07d97a642e50df7f50855a5f080f43617d17c2e21ebd5e4b09/odoo_addon_base_ubl-16.0.1.0.1-py3-none-any.whl
+[2023-08-04 08:30:46] INFO root fetch - processPackages [odoo-addon-base-ubl]: executing diffoscope
+[2023-08-04 08:30:46] INFO root fetch - processPackages [odoo-addon-base-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_ubl-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_ubl-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230804/o/odoo-addon-base-ubl/16.0.1.0.0.4-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-08-04 08:30:46] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-08-04 08:30:46] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.5.8.tar.gz tmp/domain-admin-1.5.9.tar.gz --markdown 20230804/d/domain-admin/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-08-04 08:30:47] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1691041544.tar.gz]
+[2023-08-04 08:30:47] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.4.1a1691129106.tar.gz]
+[2023-08-04 08:30:47] INFO root fetch - processPackages [pulumi-libvirt]: Start processing: hyfi
+[2023-08-04 08:30:47] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2023-08-04 08:30:47] INFO root fetch - processPackages [hyfi]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-04 08:30:47] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/0c/d5/2fbe9416a9203508f74c38267bf24cf38ed818a052d4711ab45e5c44cb06/hyfi-1.9.3.tar.gz
+[2023-08-04 08:30:48] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/e2/024fd591185726de091f0bca9a73624944543bd52f723541d967066ff8c9/hyfi-1.9.4.tar.gz
+[2023-08-04 08:30:48] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-08-04 08:30:48] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.9.3.tar.gz tmp/hyfi-1.9.4.tar.gz --markdown 20230804/h/hyfi/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-04 08:30:49] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.3.tar.gz]
+[2023-08-04 08:30:49] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
+[2023-08-04 08:30:49] INFO root fetch - processPackages [hyfi]: Start processing: cff2pages
+[2023-08-04 08:30:49] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-08-04 08:30:50] WARNING root fetch - processPackages [cff2pages]: Skipping, unable to determine old version
+[2023-08-04 08:30:50] INFO root fetch - processPackages [cff2pages]: Start processing: lendsmart-api
+[2023-08-04 08:30:50] INFO root fetch - main [MainThread]: End processing [cff2pages] error
+[2023-08-04 08:30:50] INFO root fetch - processPackages [lendsmart-api]: New version: [2.5] Old Version: [2.4]
+[2023-08-04 08:30:50] INFO root fetch - processPackages [lendsmart-api]: Downloading https://files.pythonhosted.org/packages/d0/fb/877418ac4fc3654b959c736cc78c25941c4fa5f2d1189f3d6c5d356ea6e6/lendsmart_api-2.4.tar.gz
+[2023-08-04 08:30:50] INFO root fetch - processPackages [lendsmart-api]: Downloading https://files.pythonhosted.org/packages/86/20/fab86db769ddb9e8b98cf7831c20dc486775ba196db669169ed588124224/lendsmart_api-2.5.tar.gz
+[2023-08-04 08:30:51] INFO root fetch - processPackages [lendsmart-api]: executing diffoscope
+[2023-08-04 08:30:51] INFO root fetch - processPackages [lendsmart-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_api-2.4.tar.gz tmp/lendsmart_api-2.5.tar.gz --markdown 20230804/l/lendsmart-api/2.4-2.5/diff.md --exclude *.pyd
+[2023-08-04 08:30:52] INFO root fetch - processPackages [veda-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip]
+[2023-08-04 08:30:52] INFO root fetch - processPackages [veda-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/veda_tensorflow-2.9.3.post7-py3-none-manylinux_2_17_x86_64.whl.zip]
+[2023-08-04 08:30:52] INFO root fetch - processPackages [veda-tensorflow]: Start processing: open-interpreter
+[2023-08-04 08:30:52] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-08-04 08:30:52] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.246] Old Version: [0.0.245]
+[2023-08-04 08:30:52] INFO root fetch - processPackages [veda-tensorflow]: Start processing: pulumi-keycloak
+[2023-08-04 08:30:52] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-08-04 08:30:52] INFO root fetch - processPackages [veda-tensorflow]: Start processing: pulumi-f5bigip
+[2023-08-04 08:30:52] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-08-04 08:30:52] INFO root fetch - processPackages [veda-tensorflow]: Start processing: gymnasium-connect-four
+[2023-08-04 08:30:52] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-08-04 08:30:52] INFO root fetch - processPackages [veda-tensorflow]: Start processing: raga-cli
+[2023-08-04 08:30:52] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-08-04 08:30:52] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2023-08-04 08:30:52] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-04 08:30:52] INFO root fetch - processPackages [veda-tensorflow]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-08-04 08:30:52] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-08-04 08:30:52] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.3.0a1691129020] Old Version: [5.3.0a1691041465]
+[2023-08-04 08:30:52] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 08:30:52] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/d6/44/15d95ddbdc1a7b0ed56a3665b8a5db15c129fb85ac0e47e1e34d40a75dc9/open_interpreter-0.0.245.tar.gz
+[2023-08-04 08:30:52] INFO root fetch - processPackages [lendsmart-api]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_api-2.4.tar.gz]
+[2023-08-04 08:30:52] INFO root fetch - processPackages [lendsmart-api]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_api-2.5.tar.gz]
+[2023-08-04 08:30:52] INFO root fetch - main [MainThread]: End processing [lendsmart-api]: success
+[2023-08-04 08:30:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-04 08:30:52] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/10/f4/defb331698a308599ed8b42d485055ad865716bbf775b2c81a05f638aeb3/gymnasium_connect_four-1.2.8.tar.gz
+[2023-08-04 08:30:52] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/80/30/a8f0c17436ad6bc5580473fb6cbaf5a135b8828a6bdaacc76510bfd52499/pulumi_f5bigip-3.9.0a1654086391.tar.gz
+[2023-08-04 08:30:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-08-04 08:30:52] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-08-04 08:30:52] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/d2/ea/d1ccda46a8af8bc6b58f98f1030d33847c918f8f16250774861bbf7a667d/pulumi_keycloak-5.3.0a1691041465.tar.gz
+[2023-08-04 08:30:52] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-08-04 08:30:52] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/89/82/db53e26c7ee24b313627d1d98a8e8a5e7b7a45aee6c81e8e50b060871db9/gymnasium_connect_four-1.2.9.tar.gz
+[2023-08-04 08:30:53] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/1d/fa/d655c3a046753aac1add7c9e7594bfb9f1cd5644389cfdaacf1318c1b84e/open_interpreter-0.0.246.tar.gz
+[2023-08-04 08:30:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-08-04 08:30:53] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-08-04 08:30:53] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.8.tar.gz tmp/gymnasium_connect_four-1.2.9.tar.gz --markdown 20230804/g/gymnasium-connect-four/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-04 08:30:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-08-04 08:30:53] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230804/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-04 08:30:53] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-04 08:30:53] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.245.tar.gz tmp/open_interpreter-0.0.246.tar.gz --markdown 20230804/o/open-interpreter/0.0.245-0.0.246/diff.md --exclude *.pyd
+[2023-08-04 08:30:53] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-08-04 08:30:53] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/8d/55/681dde053d2b863b221d684e1fd6a9599860f8bb3e6d98b1e865f496d92c/pulumi_keycloak-5.3.0a1691129020.tar.gz
+[2023-08-04 08:30:53] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-08-04 08:30:53] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230804/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 08:30:53] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-08-04 08:30:53] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.3.0a1691041465.tar.gz tmp/pulumi_keycloak-5.3.0a1691129020.tar.gz --markdown 20230804/p/pulumi-keycloak/5.3.0a1691041465-5.3.0a1691129020/diff.md --exclude *.pyd
+[2023-08-04 08:30:53] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/d9/48/9b104ca1340b985069c84fa75b1acc149cc375561d0e98bee7b09b74cb7f/pulumi_f5bigip-3.9.0a1661535806.tar.gz
+[2023-08-04 08:30:53] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2023-08-04 08:30:53] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20230804/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/diff.md --exclude *.pyd
+[2023-08-04 08:30:54] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.245.tar.gz]
+[2023-08-04 08:30:54] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.246.tar.gz]
+[2023-08-04 08:30:54] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-04 08:30:54] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.8.tar.gz]
+[2023-08-04 08:30:54] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.9.tar.gz]
+[2023-08-04 08:30:54] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-08-04 08:30:54] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-08-04 08:30:54] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-08-04 08:30:54] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-08-04 08:30:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-08-04 08:30:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-08-04 08:30:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-08-04 08:30:55] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1691041465.tar.gz]
+[2023-08-04 08:30:55] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.3.0a1691129020.tar.gz]
+[2023-08-04 08:30:55] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-08-04 08:30:56] INFO root fetch - processPackages [odoo-addon-base-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_ubl-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-04 08:30:56] INFO root fetch - processPackages [odoo-addon-base-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_ubl-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-04 08:30:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ubl]: success
+[2023-08-04 08:30:56] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz]
+[2023-08-04 08:30:56] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
+[2023-08-04 08:30:56] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2023-08-04 08:30:56] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.8.tar.gz]
+[2023-08-04 08:30:56] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.9.tar.gz]
+[2023-08-04 08:30:56] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-08-04 08:30:56] INFO root fetch - main [MainThread]: Store serial: [19170473]
