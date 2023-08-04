@@ -15709,3 +15709,213 @@
 [2023-08-04 10:02:07] INFO root fetch - processPackages [onestep]: Remove: archive file [/home/abi/fetcher/tmp/onestep-0.2.0.tar.gz]
 [2023-08-04 10:02:07] INFO root fetch - main [MainThread]: End processing [onestep]: success
 [2023-08-04 10:02:07] INFO root fetch - main [MainThread]: Store serial: [19171296]
+[2023-08-04 10:07:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171296]
+[2023-08-04 10:07:16] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-oci
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cards
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shareddata
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jcloud
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OBP-logging-v5
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decentralizedroutines
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OBP-monitoring-v2
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-user
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tidevice
+[2023-08-04 10:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OBP-reliability-pillar
+[2023-08-04 10:07:17] INFO root fetch - processPackages [shareddata]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [jcloud]: New version: [0.2.9.dev4] Old Version: [0.2.9.dev3]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [OBP-reliability-pillar]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/d7/ed/939b7386f9c23fe2d9f2a5f3f95769fde2e1e8c4d13f4733592afde08a59/shareddata-3.0.0.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [django-cards]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [OBP-logging-v5]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [tidevice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [pulumi-oci]: New version: [1.7.0a1691131089] Old Version: [1.7.0a1691043893]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [OBP-monitoring-v2]: New version: [0.1.1] Old Version: [0.0.4]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [decentralizedroutines]: New version: [3.0.3] Old Version: [3.0.1]
+[2023-08-04 10:07:17] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/1e/e9/2ee85f52ab6322d4a54c8cb7ecb15a40c220f775204569488ec63ad4e395/jcloud-0.2.9.dev3.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [OBP-logging-v5]: Downloading https://files.pythonhosted.org/packages/57/a7/534acc0722fcddedd792f7940a628ddd51243b2b9ec33000f2a7ec6b80cb/OBP_logging_v5-0.0.3.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/7e/0e/19ea2e42ade1eabe84a798efdbc795593327b3e7c6ea0da18fa5f3fbcc18/pulumi_oci-1.7.0a1691043893.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [OBP-reliability-pillar]: Downloading https://files.pythonhosted.org/packages/d5/ec/38521c75f41bea3c9e0817fae13a7e1039511a9400b36440f1f8f502ae63/OBP_reliability_pillar-0.1.4.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [tidevice]: Downloading https://files.pythonhosted.org/packages/56/86/dd8f7742c20194dce5edb12b48b80d8eebd0a33d93f39d36d07486e5d2ee/tidevice-0.9.8.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/f8/0a/f3694ee065321269d2237f52c47b9b28f38cf0ea4cb04b89ad19b1c6b360/decentralizedroutines-3.0.1.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/e6/db/fc25f3dbb28d4f7f5e6cde2cf2edc65f5b0ffa2a7da79923ebfe75197685/django-cards-0.9.3.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [jcloud]: Downloading https://files.pythonhosted.org/packages/bb/b0/d7ca100ca332b39b692bce70264e0ab3f4134daafc57ab3b397666234d61/jcloud-0.2.9.dev4.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [OBP-monitoring-v2]: Downloading https://files.pythonhosted.org/packages/ee/77/acd0d0520c55696766fc72562c03a3e158150710f1c34f2bee309a82e4a0/OBP_monitoring_v2-0.0.4.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-08-04 10:07:17] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/01/ff/2dc7058746183800601176189cb172e0c552cdf4c5c0b9e9c4043576f367/shareddata-3.0.1.tar.gz
+[2023-08-04 10:07:18] INFO root fetch - processPackages [jcloud]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [jcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcloud-0.2.9.dev3.tar.gz tmp/jcloud-0.2.9.dev4.tar.gz --markdown 20230804/j/jcloud/0.2.9.dev3-0.2.9.dev4/diff.md --exclude *.pyd
+[2023-08-04 10:07:18] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230804/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-04 10:07:18] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-3.0.0.tar.gz tmp/shareddata-3.0.1.tar.gz --markdown 20230804/s/shareddata/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-04 10:07:18] INFO root fetch - processPackages [OBP-reliability-pillar]: Downloading https://files.pythonhosted.org/packages/8b/17/dc153406cf2996bc9a00c943e67a4a24ec0114ef345ca094827a21f4fec2/OBP_reliability_pillar-0.2.0.tar.gz
+[2023-08-04 10:07:18] INFO root fetch - processPackages [OBP-logging-v5]: Downloading https://files.pythonhosted.org/packages/4f/e2/87742e49d8f95018ad156f8eb2534437881cc69af445c76b1288446bcf51/OBP_logging_v5-0.1.0.tar.gz
+[2023-08-04 10:07:18] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/88/57/68be55d9960e91331c767af96f60d73112e093a9ef7a834c725b78cf5f9e/decentralizedroutines-3.0.3.tar.gz
+[2023-08-04 10:07:18] INFO root fetch - processPackages [tidevice]: Downloading https://files.pythonhosted.org/packages/d0/2b/0785b0a9a84f8204b3554b13a0135ae6d21afc9840aaea71e9d3f1fbddb1/tidevice-0.9.9.tar.gz
+[2023-08-04 10:07:18] INFO root fetch - processPackages [OBP-monitoring-v2]: Downloading https://files.pythonhosted.org/packages/ed/bc/6ef156984092035df58c02992342d3f7c2942ae814f90b6ab9ade8fddfd9/OBP_monitoring_v2-0.1.1.tar.gz
+[2023-08-04 10:07:18] INFO root fetch - processPackages [OBP-reliability-pillar]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [OBP-reliability-pillar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OBP_reliability_pillar-0.1.4.tar.gz tmp/OBP_reliability_pillar-0.2.0.tar.gz --markdown 20230804/O/OBP-reliability-pillar/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 10:07:18] INFO root fetch - processPackages [django-cards]: Downloading https://files.pythonhosted.org/packages/1d/1e/b39b69be3c65c76e173d5135ffc8d205e340843848e0c040455c4385ad45/django-cards-0.9.4.tar.gz
+[2023-08-04 10:07:18] INFO root fetch - processPackages [OBP-logging-v5]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [OBP-logging-v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OBP_logging_v5-0.0.3.tar.gz tmp/OBP_logging_v5-0.1.0.tar.gz --markdown 20230804/O/OBP-logging-v5/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-08-04 10:07:18] INFO root fetch - processPackages [OBP-monitoring-v2]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [OBP-monitoring-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OBP_monitoring_v2-0.0.4.tar.gz tmp/OBP_monitoring_v2-0.1.1.tar.gz --markdown 20230804/O/OBP-monitoring-v2/0.0.4-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 10:07:18] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-3.0.1.tar.gz tmp/decentralizedroutines-3.0.3.tar.gz --markdown 20230804/d/decentralizedroutines/3.0.1-3.0.3/diff.md --exclude *.pyd
+[2023-08-04 10:07:18] INFO root fetch - processPackages [django-cards]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [django-cards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cards-0.9.3.tar.gz tmp/django-cards-0.9.4.tar.gz --markdown 20230804/d/django-cards/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-04 10:07:18] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/9e/97/2dc61003da8583388790f471f7c31e67827f13d53a886d4b71d385f0e6fc/pulumi_oci-1.7.0a1691131089.tar.gz
+[2023-08-04 10:07:18] INFO root fetch - processPackages [tidevice]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [tidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidevice-0.9.8.tar.gz tmp/tidevice-0.9.9.tar.gz --markdown 20230804/t/tidevice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-04 10:07:18] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-08-04 10:07:18] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.7.0a1691043893.tar.gz tmp/pulumi_oci-1.7.0a1691131089.tar.gz --markdown 20230804/p/pulumi-oci/1.7.0a1691043893-1.7.0a1691131089/diff.md --exclude *.pyd
+[2023-08-04 10:07:19] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev3.tar.gz]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [jcloud]: Remove: archive file [/home/abi/fetcher/tmp/jcloud-0.2.9.dev4.tar.gz]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [jcloud]: Start processing: uk-election-ids
+[2023-08-04 10:07:19] INFO root fetch - main [MainThread]: End processing [jcloud]: success
+[2023-08-04 10:07:19] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-3.0.0.tar.gz]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-3.0.1.tar.gz]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [shareddata]: Start processing: onestep
+[2023-08-04 10:07:19] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-08-04 10:07:19] INFO root fetch - processPackages [onestep]: New version: [0.2.0] Old Version: [0.1.81]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [uk-election-ids]: New version: [0.7.5] Old Version: [0.7.3]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [onestep]: Downloading https://files.pythonhosted.org/packages/02/27/738736ceeaa51e2501c52e1af47dc1377b1a4ed470d28d61fd87bbb8c5e1/onestep-0.1.81.tar.gz
+[2023-08-04 10:07:19] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [xj-user]: Start processing: openprotein-python
+[2023-08-04 10:07:19] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-08-04 10:07:19] INFO root fetch - processPackages [uk-election-ids]: Downloading https://files.pythonhosted.org/packages/44/26/439d1bb83e69f21d7dcfe9e1a313d522775055eee0d4423dac341010f316/uk_election_ids-0.7.3.tar.gz
+[2023-08-04 10:07:19] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.1b9] Old Version: [0.1.1b8]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [OBP-logging-v5]: Remove: archive file [/home/abi/fetcher/tmp/OBP_logging_v5-0.0.3.tar.gz]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [OBP-logging-v5]: Remove: archive file [/home/abi/fetcher/tmp/OBP_logging_v5-0.1.0.tar.gz]
+[2023-08-04 10:07:19] INFO root fetch - processPackages [OBP-logging-v5]: Start processing: ts-type
+[2023-08-04 10:07:19] INFO root fetch - main [MainThread]: End processing [OBP-logging-v5]: success
+[2023-08-04 10:07:20] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/e9/6e/79a800aaf2c11d4efdbeba810919006d5186c503d6120b7f026f7dc343ce/openprotein_python-0.1.1b8.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [onestep]: Downloading https://files.pythonhosted.org/packages/90/9e/5c36f2cde7f1c1d97be6d06edc6ef61ea3335b7ad8a62fc67ffd02fef386/onestep-0.2.0.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [ts-type]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [OBP-monitoring-v2]: Remove: archive file [/home/abi/fetcher/tmp/OBP_monitoring_v2-0.0.4.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [OBP-monitoring-v2]: Remove: archive file [/home/abi/fetcher/tmp/OBP_monitoring_v2-0.1.1.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [OBP-monitoring-v2]: Start processing: raga-cli
+[2023-08-04 10:07:20] INFO root fetch - main [MainThread]: End processing [OBP-monitoring-v2]: success
+[2023-08-04 10:07:20] INFO root fetch - processPackages [onestep]: executing diffoscope
+[2023-08-04 10:07:20] INFO root fetch - processPackages [onestep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onestep-0.1.81.tar.gz tmp/onestep-0.2.0.tar.gz --markdown 20230804/o/onestep/0.1.81-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 10:07:20] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [OBP-reliability-pillar]: Remove: archive file [/home/abi/fetcher/tmp/OBP_reliability_pillar-0.1.4.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [OBP-reliability-pillar]: Remove: archive file [/home/abi/fetcher/tmp/OBP_reliability_pillar-0.2.0.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [OBP-reliability-pillar]: Start processing: mercarius
+[2023-08-04 10:07:20] INFO root fetch - main [MainThread]: End processing [OBP-reliability-pillar]: success
+[2023-08-04 10:07:20] INFO root fetch - processPackages [uk-election-ids]: Downloading https://files.pythonhosted.org/packages/80/3a/d57aea6e7f4357a6cdc849421c6df3ecc20d8bf48d6d4218bd8ee29a1122/uk_election_ids-0.7.5.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [tidevice]: Remove: archive file [/home/abi/fetcher/tmp/tidevice-0.9.8.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [tidevice]: Remove: archive file [/home/abi/fetcher/tmp/tidevice-0.9.9.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [tidevice]: Start processing: OBP-devops
+[2023-08-04 10:07:20] INFO root fetch - main [MainThread]: End processing [tidevice]: success
+[2023-08-04 10:07:20] INFO root fetch - processPackages [ts-type]: Downloading https://files.pythonhosted.org/packages/fc/3b/f7a28407faf651fcd0b36e41619008df4158f620d771a06a765dd027bccc/ts_type-0.2.7.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [mercarius]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/9f/45/f4ffc69a92c21830f8a5169e9b19e0e769a88db78efe25ea425d70893371/openprotein_python-0.1.1b9.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [django-cards]: Remove: archive file [/home/abi/fetcher/tmp/django-cards-0.9.3.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-3.0.1.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [decentralizedroutines]: Remove: archive file [/home/abi/fetcher/tmp/decentralizedroutines-3.0.3.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [uk-election-ids]: executing diffoscope
+[2023-08-04 10:07:20] INFO root fetch - processPackages [django-cards]: Remove: archive file [/home/abi/fetcher/tmp/django-cards-0.9.4.tar.gz]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [decentralizedroutines]: Start processing: titan-iris
+[2023-08-04 10:07:20] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-08-04 10:07:20] INFO root fetch - processPackages [uk-election-ids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_election_ids-0.7.3.tar.gz tmp/uk_election_ids-0.7.5.tar.gz --markdown 20230804/u/uk-election-ids/0.7.3-0.7.5/diff.md --exclude *.pyd
+[2023-08-04 10:07:20] INFO root fetch - processPackages [django-cards]: Start processing: aws-obp-1
+[2023-08-04 10:07:20] INFO root fetch - main [MainThread]: End processing [django-cards]: success
+[2023-08-04 10:07:20] INFO root fetch - processPackages [OBP-devops]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 10:07:20] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.1b8.tar.gz tmp/openprotein_python-0.1.1b9.tar.gz --markdown 20230804/o/openprotein-python/0.1.1b8-0.1.1b9/diff.md --exclude *.pyd
+[2023-08-04 10:07:20] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [aws-obp-1]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-08-04 10:07:20] INFO root fetch - processPackages [mercarius]: Downloading https://files.pythonhosted.org/packages/4a/cb/c53a48a10ead982ce9000fed1cab9a461566c4a04c3c00647f01165d81f8/mercarius-1.0.0.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [OBP-devops]: Downloading https://files.pythonhosted.org/packages/ec/5c/280ed4f1152a512b6fde64e503bbdd316d668d19b613374fa0c046f3c781/OBP_devops-0.1.2.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [ts-type]: Downloading https://files.pythonhosted.org/packages/e1/3c/8aba93d5007bbb3cb93d122e1b1d65c2ddafda3b59ee36ada17c950b0b1c/ts_type-0.2.8.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [aws-obp-1]: Downloading https://files.pythonhosted.org/packages/e2/be/36225bd4113a3e08169b2bcba19837f353f0ebabe34404dcec7bf9f7de3c/aws_obp_1-0.0.3.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-04 10:07:20] INFO root fetch - processPackages [ts-type]: executing diffoscope
+[2023-08-04 10:07:20] INFO root fetch - processPackages [ts-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_type-0.2.7.tar.gz tmp/ts_type-0.2.8.tar.gz --markdown 20230804/t/ts-type/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-04 10:07:21] INFO root fetch - processPackages [mercarius]: Downloading https://files.pythonhosted.org/packages/64/54/fdb3f47b2cc4e31660179f2ea784d40ade394423cf2f7d517e000ffdaf2e/mercarius-1.0.1.tar.gz
+[2023-08-04 10:07:21] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-04 10:07:21] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230804/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-04 10:07:21] INFO root fetch - processPackages [OBP-devops]: Downloading https://files.pythonhosted.org/packages/b9/6b/1c78fca030f14c97aa342a6d4f07cdd3681e6012e41997db0fa05ffa3f5e/OBP_devops-0.2.0.tar.gz
+[2023-08-04 10:07:21] INFO root fetch - processPackages [mercarius]: executing diffoscope
+[2023-08-04 10:07:21] INFO root fetch - processPackages [mercarius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercarius-1.0.0.tar.gz tmp/mercarius-1.0.1.tar.gz --markdown 20230804/m/mercarius/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 10:07:21] INFO root fetch - processPackages [aws-obp-1]: Downloading https://files.pythonhosted.org/packages/9d/5a/ee72f039324b9f17bae8766b2e5c3efbb0bd5bdfc0aa9270fefe734c690e/aws_obp_1-0.1.0.tar.gz
+[2023-08-04 10:07:21] INFO root fetch - processPackages [OBP-devops]: executing diffoscope
+[2023-08-04 10:07:21] INFO root fetch - processPackages [OBP-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OBP_devops-0.1.2.tar.gz tmp/OBP_devops-0.2.0.tar.gz --markdown 20230804/O/OBP-devops/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 10:07:21] INFO root fetch - processPackages [aws-obp-1]: executing diffoscope
+[2023-08-04 10:07:21] INFO root fetch - processPackages [aws-obp-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_obp_1-0.0.3.tar.gz tmp/aws_obp_1-0.1.0.tar.gz --markdown 20230804/a/aws-obp-1/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-08-04 10:07:21] INFO root fetch - processPackages [onestep]: Remove: archive file [/home/abi/fetcher/tmp/onestep-0.1.81.tar.gz]
+[2023-08-04 10:07:21] INFO root fetch - processPackages [onestep]: Remove: archive file [/home/abi/fetcher/tmp/onestep-0.2.0.tar.gz]
+[2023-08-04 10:07:21] INFO root fetch - processPackages [onestep]: Start processing: pyglove
+[2023-08-04 10:07:21] INFO root fetch - main [MainThread]: End processing [onestep]: success
+[2023-08-04 10:07:21] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230803] Old Version: [0.4.3.dev20230802]
+[2023-08-04 10:07:21] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/85/02/0cbfea636276cdb7ffe318798e29d0a1a68e72042245cf969798890394f1/pyglove-0.4.3.dev20230802.tar.gz
+[2023-08-04 10:07:21] INFO root fetch - processPackages [uk-election-ids]: Remove: archive file [/home/abi/fetcher/tmp/uk_election_ids-0.7.3.tar.gz]
+[2023-08-04 10:07:21] INFO root fetch - processPackages [uk-election-ids]: Remove: archive file [/home/abi/fetcher/tmp/uk_election_ids-0.7.5.tar.gz]
+[2023-08-04 10:07:21] INFO root fetch - processPackages [uk-election-ids]: Start processing: webviz-subsurface
+[2023-08-04 10:07:21] INFO root fetch - main [MainThread]: End processing [uk-election-ids]: success
+[2023-08-04 10:07:21] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-08-04 10:07:21] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230804/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 10:07:21] INFO root fetch - processPackages [webviz-subsurface]: New version: [0.2.9rc0] Old Version: [0.2.9]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/0e/1d/ac373a925f739670a5c684c7aafc384c6348af622ec1029c32c4b8f93254/pyglove-0.4.3.dev20230803.tar.gz
+[2023-08-04 10:07:22] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/cb/b6/496b97d6e24433e8425adfc3e4ab3c08214fa937f58c70ff38f8097fe91a/webviz-subsurface-0.2.9.tar.gz
+[2023-08-04 10:07:22] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b8.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b9.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [openprotein-python]: Start processing: OBP-security-pillar
+[2023-08-04 10:07:22] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 10:07:22] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-08-04 10:07:22] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.3.dev20230802.tar.gz tmp/pyglove-0.4.3.dev20230803.tar.gz --markdown 20230804/p/pyglove/0.4.3.dev20230802-0.4.3.dev20230803/diff.md --exclude *.pyd
+[2023-08-04 10:07:22] INFO root fetch - processPackages [OBP-security-pillar]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [ts-type]: Remove: archive file [/home/abi/fetcher/tmp/ts_type-0.2.7.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [ts-type]: Remove: archive file [/home/abi/fetcher/tmp/ts_type-0.2.8.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [ts-type]: Start processing: postgrest
+[2023-08-04 10:07:22] INFO root fetch - main [MainThread]: End processing [ts-type]: success
+[2023-08-04 10:07:22] INFO root fetch - processPackages [mercarius]: Remove: archive file [/home/abi/fetcher/tmp/mercarius-1.0.0.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [mercarius]: Remove: archive file [/home/abi/fetcher/tmp/mercarius-1.0.1.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - main [MainThread]: End processing [mercarius]: success
+[2023-08-04 10:07:22] INFO root fetch - processPackages [postgrest]: New version: [0.10.7] Old Version: [0.10.6]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [OBP-security-pillar]: Downloading https://files.pythonhosted.org/packages/e7/a9/d76e0b8f3b70563a8cdd59957a0965aca198464e013396378ad3c253cd04/OBP_security_pillar-0.1.3.tar.gz
+[2023-08-04 10:07:22] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-04 10:07:22] INFO root fetch - processPackages [postgrest]: Downloading https://files.pythonhosted.org/packages/84/83/5d0eb3036482da62007b422a043cd849aafebf65c4dd6a1cbcfce4bb0e73/postgrest-0.10.6.tar.gz
+[2023-08-04 10:07:22] INFO root fetch - processPackages [OBP-devops]: Remove: archive file [/home/abi/fetcher/tmp/OBP_devops-0.1.2.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [OBP-devops]: Remove: archive file [/home/abi/fetcher/tmp/OBP_devops-0.2.0.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - main [MainThread]: End processing [OBP-devops]: success
+[2023-08-04 10:07:22] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/c4/4c/09f887372799ea7da993ba18f2595ecc1ab65b5b21a24e39383f41b193f7/webviz-subsurface-0.2.9rc0.tar.gz
+[2023-08-04 10:07:22] INFO root fetch - processPackages [aws-obp-1]: Remove: archive file [/home/abi/fetcher/tmp/aws_obp_1-0.0.3.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - processPackages [aws-obp-1]: Remove: archive file [/home/abi/fetcher/tmp/aws_obp_1-0.1.0.tar.gz]
+[2023-08-04 10:07:22] INFO root fetch - main [MainThread]: End processing [aws-obp-1]: success
+[2023-08-04 10:07:22] INFO root fetch - processPackages [OBP-security-pillar]: Downloading https://files.pythonhosted.org/packages/ef/d5/16174af6776904ffe0a065fcd24043412d9de491c8a970302aa398fef10b/OBP_security_pillar-0.2.0.tar.gz
+[2023-08-04 10:07:23] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-08-04 10:07:23] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-08-04 10:07:23] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-08-04 10:07:23] INFO root fetch - processPackages [webviz-subsurface]: executing diffoscope
+[2023-08-04 10:07:23] INFO root fetch - processPackages [webviz-subsurface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-subsurface-0.2.9.tar.gz tmp/webviz-subsurface-0.2.9rc0.tar.gz --markdown 20230804/w/webviz-subsurface/0.2.9-0.2.9rc0/diff.md --exclude *.pyd
+[2023-08-04 10:07:23] INFO root fetch - processPackages [OBP-security-pillar]: executing diffoscope
+[2023-08-04 10:07:23] INFO root fetch - processPackages [OBP-security-pillar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OBP_security_pillar-0.1.3.tar.gz tmp/OBP_security_pillar-0.2.0.tar.gz --markdown 20230804/O/OBP-security-pillar/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 10:07:23] INFO root fetch - processPackages [postgrest]: Downloading https://files.pythonhosted.org/packages/b8/b2/d4b1841d3d099cd3fdc445e0a2b618678393e96efa415c0297a4028294fd/postgrest-0.10.7.tar.gz
+[2023-08-04 10:07:23] INFO root fetch - processPackages [postgrest]: executing diffoscope
+[2023-08-04 10:07:23] INFO root fetch - processPackages [postgrest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgrest-0.10.6.tar.gz tmp/postgrest-0.10.7.tar.gz --markdown 20230804/p/postgrest/0.10.6-0.10.7/diff.md --exclude *.pyd
+[2023-08-04 10:07:24] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230802.tar.gz]
+[2023-08-04 10:07:24] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230803.tar.gz]
+[2023-08-04 10:07:24] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-08-04 10:07:24] INFO root fetch - processPackages [OBP-security-pillar]: Remove: archive file [/home/abi/fetcher/tmp/OBP_security_pillar-0.1.3.tar.gz]
+[2023-08-04 10:07:24] INFO root fetch - processPackages [OBP-security-pillar]: Remove: archive file [/home/abi/fetcher/tmp/OBP_security_pillar-0.2.0.tar.gz]
+[2023-08-04 10:07:24] INFO root fetch - main [MainThread]: End processing [OBP-security-pillar]: success
+[2023-08-04 10:07:24] INFO root fetch - processPackages [postgrest]: Remove: archive file [/home/abi/fetcher/tmp/postgrest-0.10.6.tar.gz]
+[2023-08-04 10:07:24] INFO root fetch - processPackages [postgrest]: Remove: archive file [/home/abi/fetcher/tmp/postgrest-0.10.7.tar.gz]
+[2023-08-04 10:07:24] INFO root fetch - main [MainThread]: End processing [postgrest]: success
+[2023-08-04 10:07:25] INFO root fetch - processPackages [webviz-subsurface]: Remove: archive file [/home/abi/fetcher/tmp/webviz-subsurface-0.2.9.tar.gz]
+[2023-08-04 10:07:25] INFO root fetch - processPackages [webviz-subsurface]: Remove: archive file [/home/abi/fetcher/tmp/webviz-subsurface-0.2.9rc0.tar.gz]
+[2023-08-04 10:07:25] INFO root fetch - main [MainThread]: End processing [webviz-subsurface]: success
+[2023-08-04 10:07:42] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.7.0a1691043893.tar.gz]
+[2023-08-04 10:07:42] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.7.0a1691131089.tar.gz]
+[2023-08-04 10:07:42] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-08-04 10:07:42] INFO root fetch - main [MainThread]: Store serial: [19171360]
