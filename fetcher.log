@@ -5710,3 +5710,51 @@
 [2023-08-04 02:58:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2023-08-04 02:58:00] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-08-04 02:58:00] INFO root fetch - main [MainThread]: Store serial: [19167137]
+[2023-08-04 03:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19167137]
+[2023-08-04 03:03:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-04 03:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logfunc
+[2023-08-04 03:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aemcmc-nightly
+[2023-08-04 03:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-08-04 03:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webmeter
+[2023-08-04 03:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hivedca
+[2023-08-04 03:03:09] INFO root fetch - processPackages [webmeter]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-04 03:03:09] INFO root fetch - processPackages [hivedca]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-04 03:03:09] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230803] Old Version: [0.0.8.dev20230802]
+[2023-08-04 03:03:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-04 03:03:09] INFO root fetch - processPackages [webmeter]: Downloading https://files.pythonhosted.org/packages/2d/48/2248dc9315cad53cd7edf508e9bbe87662a68cbadd45a1bb5ed9ff0d36c6/webmeter-1.0.3.tar.gz
+[2023-08-04 03:03:09] INFO root fetch - processPackages [logfunc]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-08-04 03:03:09] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/2e/86/c0e7c25f5c780d607687f14eae305d9ef2b3a893353bd8607ed4b79e1f8b/aemcmc-nightly-0.0.8.dev20230802.tar.gz
+[2023-08-04 03:03:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-08-04 03:03:09] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/c4/a7/931bebbfc52b8a6bee8a2f33c93069ecf2aca966d76b14366cc0cae55ced/hivedca-0.0.7.tar.gz
+[2023-08-04 03:03:09] INFO root fetch - processPackages [logfunc]: Downloading https://files.pythonhosted.org/packages/9e/dd/af7269a9e0c8cd28cf844d7b17f76aed4ea0fb99578dc60cd287dff61631/logfunc-1.4.1.tar.gz
+[2023-08-04 03:03:10] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/32/2c/03f11caf263a15ca74f0b39b3338d8b9318bac47d659057937b0e91a8a61/hivedca-0.0.8.tar.gz
+[2023-08-04 03:03:10] INFO root fetch - processPackages [webmeter]: Downloading https://files.pythonhosted.org/packages/37/d0/fee41af9558abd654e44131de4bd75e5b5279b399a7387d77cdde9e00496/webmeter-1.0.4.tar.gz
+[2023-08-04 03:03:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-08-04 03:03:10] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/fa/3f/6ad4eda2692cd3d9712b9492769523d15f804a5ed19ffc3d8b95f3daa710/aemcmc-nightly-0.0.8.dev20230803.tar.gz
+[2023-08-04 03:03:10] INFO root fetch - processPackages [hivedca]: executing diffoscope
+[2023-08-04 03:03:10] INFO root fetch - processPackages [hivedca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivedca-0.0.7.tar.gz tmp/hivedca-0.0.8.tar.gz --markdown 20230804/h/hivedca/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-04 03:03:10] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-08-04 03:03:10] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230802.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230803.tar.gz --markdown 20230804/a/aemcmc-nightly/0.0.8.dev20230802-0.0.8.dev20230803/diff.md --exclude *.pyd
+[2023-08-04 03:03:10] INFO root fetch - processPackages [webmeter]: executing diffoscope
+[2023-08-04 03:03:10] INFO root fetch - processPackages [webmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webmeter-1.0.3.tar.gz tmp/webmeter-1.0.4.tar.gz --markdown 20230804/w/webmeter/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-04 03:03:10] INFO root fetch - processPackages [logfunc]: Downloading https://files.pythonhosted.org/packages/20/72/fc15117f06d8b0ce68180e6c0eea6d3c5d9a8518612f0d1e5265af3fdd59/logfunc-1.5.0.tar.gz
+[2023-08-04 03:03:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-08-04 03:03:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230804/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-04 03:03:10] INFO root fetch - processPackages [logfunc]: executing diffoscope
+[2023-08-04 03:03:10] INFO root fetch - processPackages [logfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfunc-1.4.1.tar.gz tmp/logfunc-1.5.0.tar.gz --markdown 20230804/l/logfunc/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-08-04 03:03:11] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.7.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.8.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - main [MainThread]: End processing [hivedca]: success
+[2023-08-04 03:03:11] INFO root fetch - processPackages [webmeter]: Remove: archive file [/home/abi/fetcher/tmp/webmeter-1.0.3.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - processPackages [webmeter]: Remove: archive file [/home/abi/fetcher/tmp/webmeter-1.0.4.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - main [MainThread]: End processing [webmeter]: success
+[2023-08-04 03:03:11] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230802.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230803.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-08-04 03:03:11] INFO root fetch - processPackages [logfunc]: Remove: archive file [/home/abi/fetcher/tmp/logfunc-1.4.1.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - processPackages [logfunc]: Remove: archive file [/home/abi/fetcher/tmp/logfunc-1.5.0.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - main [MainThread]: End processing [logfunc]: success
+[2023-08-04 03:03:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-08-04 03:03:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-08-04 03:03:11] INFO root fetch - main [MainThread]: Store serial: [19167150]
