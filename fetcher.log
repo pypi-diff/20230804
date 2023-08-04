@@ -13632,3 +13632,78 @@
 [2023-08-04 08:09:49] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.9.tar.gz]
 [2023-08-04 08:09:49] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
 [2023-08-04 08:09:49] INFO root fetch - main [MainThread]: Store serial: [19170316]
+[2023-08-04 08:14:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170316]
+[2023-08-04 08:14:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s1282003-learn
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-nacos
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-image
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-operator
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symbolicai
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rebotics-sdk
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zakirpack
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyaud-plugins
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyg-nightly
+[2023-08-04 08:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opower
+[2023-08-04 08:14:58] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-04 08:14:58] WARNING root fetch - processPackages [zakirpack]: Skipping, unable to determine old version
+[2023-08-04 08:14:58] INFO root fetch - main [MainThread]: End processing [zakirpack] error
+[2023-08-04 08:14:58] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 08:14:58] INFO root fetch - processPackages [pyaud-plugins]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-04 08:14:58] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230803] Old Version: [2.4.0.dev20230802]
+[2023-08-04 08:14:58] WARNING root fetch - processPackages [test-nacos]: Skipping, unable to determine old version
+[2023-08-04 08:14:58] INFO root fetch - main [MainThread]: End processing [test-nacos] error
+[2023-08-04 08:14:58] WARNING root fetch - processPackages [s1282003-learn]: Skipping, unable to determine old version
+[2023-08-04 08:14:58] INFO root fetch - main [MainThread]: End processing [s1282003-learn] error
+[2023-08-04 08:14:58] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-04 08:14:58] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-08-04 08:14:58] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-08-04 08:14:58] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-04 08:14:58] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-08-04 08:14:58] INFO root fetch - processPackages [pyaud-plugins]: Downloading https://files.pythonhosted.org/packages/9b/cb/f0437756f91c79e23a2719dce162939a4e007676b5a4640330d670a3aedb/pyaud-plugins-0.8.0.tar.gz
+[2023-08-04 08:14:58] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/cc/e6/2fe4e750f7edd2b712d6aad6ba3a5efc3523d61ed24a21725040b66fde99/pyg_nightly-2.4.0.dev20230802.tar.gz
+[2023-08-04 08:14:58] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-08-04 08:14:58] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-08-04 08:14:58] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-08-04 08:14:59] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-08-04 08:14:59] INFO root fetch - processPackages [pyaud-plugins]: Downloading https://files.pythonhosted.org/packages/70/7c/228930375d77344cb43928f01652245060cf9d6bd3cb7ab9b6ba2ed0b92c/pyaud-plugins-0.9.0.tar.gz
+[2023-08-04 08:14:59] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-08-04 08:14:59] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-08-04 08:14:59] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-08-04 08:14:59] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230804/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-04 08:14:59] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230804/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 08:14:59] INFO root fetch - processPackages [pyaud-plugins]: executing diffoscope
+[2023-08-04 08:14:59] INFO root fetch - processPackages [pyaud-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaud-plugins-0.8.0.tar.gz tmp/pyaud-plugins-0.9.0.tar.gz --markdown 20230804/p/pyaud-plugins/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 08:14:59] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-08-04 08:14:59] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-08-04 08:14:59] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-08-04 08:14:59] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230804/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-04 08:14:59] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e4/d0/78fb3c772608daeb234604e5aa5f922dba007d3e5eb97a85bce9f69eb6d4/pyg_nightly-2.4.0.dev20230803.tar.gz
+[2023-08-04 08:14:59] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-08-04 08:14:59] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230804/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-04 08:14:59] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-08-04 08:14:59] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230802.tar.gz tmp/pyg_nightly-2.4.0.dev20230803.tar.gz --markdown 20230804/p/pyg-nightly/2.4.0.dev20230802-2.4.0.dev20230803/diff.md --exclude *.pyd
+[2023-08-04 08:15:00] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-08-04 08:15:00] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-08-04 08:15:00] INFO root fetch - processPackages [pyaud-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pyaud-plugins-0.8.0.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - processPackages [pyaud-plugins]: Remove: archive file [/home/abi/fetcher/tmp/pyaud-plugins-0.9.0.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - main [MainThread]: End processing [pyaud-plugins]: success
+[2023-08-04 08:15:00] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-08-04 08:15:00] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-08-04 08:15:00] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-08-04 08:15:00] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-08-04 08:15:01] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-08-04 08:15:01] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230804/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-08-04 08:15:02] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-08-04 08:15:02] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-08-04 08:15:02] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-08-04 08:15:02] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230802.tar.gz]
+[2023-08-04 08:15:02] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230803.tar.gz]
+[2023-08-04 08:15:02] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-08-04 08:15:02] INFO root fetch - main [MainThread]: Store serial: [19170352]
