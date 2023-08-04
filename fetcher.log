@@ -12318,3 +12318,104 @@
 [2023-08-04 06:20:15] INFO root fetch - processPackages [edc-refusal]: Remove: archive file [/home/abi/fetcher/tmp/edc-refusal-0.1.9.tar.gz]
 [2023-08-04 06:20:15] INFO root fetch - main [MainThread]: End processing [edc-refusal]: success
 [2023-08-04 06:20:15] INFO root fetch - main [MainThread]: Store serial: [19169703]
+[2023-08-04 06:25:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169703]
+[2023-08-04 06:25:23] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-subject-dashboard
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: non-iid
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MeUtils
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webint-live
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-utils
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: env-minion
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: key-switcheroo
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edc-visit-schedule
+[2023-08-04 06:25:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sharetop
+[2023-08-04 06:25:24] INFO root fetch - processPackages [key-switcheroo]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-08-04 06:25:24] INFO root fetch - processPackages [non-iid]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-04 06:25:24] INFO root fetch - processPackages [webint-live]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 06:25:24] INFO root fetch - processPackages [sharetop]: New version: [2.4.7] Old Version: [2.4.6]
+[2023-08-04 06:25:24] INFO root fetch - processPackages [edc-visit-schedule]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 06:25:24] INFO root fetch - processPackages [MeUtils]: New version: [2023.8.4.11.32.21] Old Version: [2023.8.2.13.20.11]
+[2023-08-04 06:25:24] WARNING root fetch - processPackages [env-minion]: Skipping, unable to determine old version
+[2023-08-04 06:25:24] INFO root fetch - processPackages [env-minion]: Start processing: zdatabase
+[2023-08-04 06:25:24] INFO root fetch - main [MainThread]: End processing [env-minion] error
+[2023-08-04 06:25:24] INFO root fetch - processPackages [edc-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 06:25:24] INFO root fetch - processPackages [edc-subject-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 06:25:24] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-08-04 06:25:24] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/88/30/bb3724cbb9ad640b4b9e715ac9bd4484a931a9fe81b423a6b613f0d0e104/key_switcheroo-0.0.9.tar.gz
+[2023-08-04 06:25:24] INFO root fetch - processPackages [webint-live]: Downloading https://files.pythonhosted.org/packages/0b/19/d5a77707596aff5f4baf92dbf56f233f02c3773923a99384e56e2d736cd0/webint_live-0.0.8.tar.gz
+[2023-08-04 06:25:24] INFO root fetch - processPackages [non-iid]: Downloading https://files.pythonhosted.org/packages/cb/b3/a354f0a000ee132e419a9b672f70c925870c5cf43f2ceacedf9507491f68/non_iid-0.1.1.tar.gz
+[2023-08-04 06:25:24] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/55/62/08b5eb66559fe5f11493a7403cf1549605588ac96f1433e68190de33a591/edc_visit_schedule-0.3.8-py3-none-any.whl
+[2023-08-04 06:25:24] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/1c/59/33ba4b505e0bfd4a3dfeac92b7800bb935548a1be9092dccb6828bd9d621/sharetop-2.4.6.tar.gz
+[2023-08-04 06:25:24] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/ea/0d/340150351a4c69bea52effcd5cb99f0a6520848f8a67543dba07b5ad6dfa/MeUtils-2023.8.2.13.20.11.tar.gz
+[2023-08-04 06:25:24] INFO root fetch - processPackages [zdatabase]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-04 06:25:24] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/e2/de/4ac899f759846a1ffcc6a6347a85e786c1b637d41680d2cae0a6c2007b55/edc_subject_dashboard-0.3.8-py3-none-any.whl
+[2023-08-04 06:25:24] INFO root fetch - processPackages [webint-live]: Downloading https://files.pythonhosted.org/packages/20/9a/f65def255dae7b73a23ef5acd66eb77b88d274db4ad514bc29195693bb72/webint_live-0.0.9.tar.gz
+[2023-08-04 06:25:24] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/94/3d/69441e8e1c58a80ab26bd595af3713e745860cb00a054b3cbdf1904609c1/cdktf-cdktf-provider-azurerm-9.0.5.tar.gz
+[2023-08-04 06:25:24] INFO root fetch - processPackages [non-iid]: Downloading https://files.pythonhosted.org/packages/e5/bb/8a090fe327eb491a2a30d9742f7f1826ad04cdb8c93444bf2920c5d1eae6/non_iid-0.1.2.tar.gz
+[2023-08-04 06:25:24] INFO root fetch - processPackages [edc-utils]: Downloading https://files.pythonhosted.org/packages/cb/66/e90e415e8707c8f9f9ecf4a54ed26779d1e117fff293baccdc450ea803b8/edc-utils-0.3.8.tar.gz
+[2023-08-04 06:25:24] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/d5/72/3df1323c5292ddeb8587bdab58504a97371317f435cce78a6e93a1c6561a/edc_visit_schedule-0.3.9-py3-none-any.whl
+[2023-08-04 06:25:24] INFO root fetch - processPackages [webint-live]: executing diffoscope
+[2023-08-04 06:25:24] INFO root fetch - processPackages [webint-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_live-0.0.8.tar.gz tmp/webint_live-0.0.9.tar.gz --markdown 20230804/w/webint-live/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 06:25:24] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/cb/ce/ade80400cf2bd8027c80b2cce4b2daabf78f1d5b2bb73af3031edb8f92e7/zdatabase-0.5.8.tar.gz
+[2023-08-04 06:25:25] INFO root fetch - processPackages [non-iid]: executing diffoscope
+[2023-08-04 06:25:25] INFO root fetch - processPackages [non-iid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/non_iid-0.1.1.tar.gz tmp/non_iid-0.1.2.tar.gz --markdown 20230804/n/non-iid/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-04 06:25:25] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/1e/cc/6008a79c57e2831f4db69d4bcd9fb316ce3906602c69b5439a32f9518df5/key_switcheroo-1.0.0.tar.gz
+[2023-08-04 06:25:25] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 31221726>=10485760
+[2023-08-04 06:25:25] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Start processing: quickstart-vdk
+[2023-08-04 06:25:25] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-08-04 06:25:25] INFO root fetch - processPackages [sharetop]: Downloading https://files.pythonhosted.org/packages/e5/df/a3cfaa85ea8a531e8e8829feb9a65c5b98d29db4c9fdca43b58d5f64a5c0/sharetop-2.4.7.tar.gz
+[2023-08-04 06:25:25] INFO root fetch - processPackages [edc-visit-schedule]: executing diffoscope
+[2023-08-04 06:25:25] INFO root fetch - processPackages [edc-visit-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip --markdown 20230804/e/edc-visit-schedule/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 06:25:25] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.955500861.dev12666] Old Version: [0.2.954571638.dev12638]
+[2023-08-04 06:25:25] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/dc/b2/f27cfd5946aaa1c7ae940b84f419cae29f450e721aac2786e84e4a456a12/edc_subject_dashboard-0.3.9-py3-none-any.whl
+[2023-08-04 06:25:25] INFO root fetch - processPackages [key-switcheroo]: executing diffoscope
+[2023-08-04 06:25:25] INFO root fetch - processPackages [key-switcheroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/key_switcheroo-0.0.9.tar.gz tmp/key_switcheroo-1.0.0.tar.gz --markdown 20230804/k/key-switcheroo/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-08-04 06:25:25] INFO root fetch - processPackages [sharetop]: executing diffoscope
+[2023-08-04 06:25:25] INFO root fetch - processPackages [sharetop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharetop-2.4.6.tar.gz tmp/sharetop-2.4.7.tar.gz --markdown 20230804/s/sharetop/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2023-08-04 06:25:25] INFO root fetch - processPackages [edc-utils]: Downloading https://files.pythonhosted.org/packages/38/72/edd21a261064b267d6be6d3bc34c287f2b6c399f749cb1826a2873c4553f/edc-utils-0.3.9.tar.gz
+[2023-08-04 06:25:25] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/05/65/0ad9c155463cd41287a14a1951663311eb952ea26e16ea043b872c1661f1/zdatabase-0.5.9.tar.gz
+[2023-08-04 06:25:25] INFO root fetch - processPackages [edc-subject-dashboard]: executing diffoscope
+[2023-08-04 06:25:25] INFO root fetch - processPackages [edc-subject-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip --markdown 20230804/e/edc-subject-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 06:25:25] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/05/4f/072cd2b19cc2dd14933bbea9bd91d38bdc0d4002e9c037f20f04e11c730c/quickstart-vdk-0.2.954571638.dev12638.tar.gz
+[2023-08-04 06:25:25] INFO root fetch - processPackages [edc-utils]: executing diffoscope
+[2023-08-04 06:25:25] INFO root fetch - processPackages [edc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-utils-0.3.8.tar.gz tmp/edc-utils-0.3.9.tar.gz --markdown 20230804/e/edc-utils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 06:25:25] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-08-04 06:25:25] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.5.8.tar.gz tmp/zdatabase-0.5.9.tar.gz --markdown 20230804/z/zdatabase/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-04 06:25:25] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/66/9a/290aa04d0bd0e2995d5c7bcefe7019803d91c4f821dd4733745dc952a1e7/MeUtils-2023.8.4.11.32.21.tar.gz
+[2023-08-04 06:25:25] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/91/ff/1960ed709dd9432ccfa1d5c93f00ceea9347bdd5eaf605aa4dd171f60c4f/quickstart-vdk-0.2.955500861.dev12666.tar.gz
+[2023-08-04 06:25:26] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-08-04 06:25:26] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.954571638.dev12638.tar.gz tmp/quickstart-vdk-0.2.955500861.dev12666.tar.gz --markdown 20230804/q/quickstart-vdk/0.2.954571638.dev12638-0.2.955500861.dev12666/diff.md --exclude *.pyd
+[2023-08-04 06:25:26] INFO root fetch - processPackages [webint-live]: Remove: archive file [/home/abi/fetcher/tmp/webint_live-0.0.8.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - processPackages [webint-live]: Remove: archive file [/home/abi/fetcher/tmp/webint_live-0.0.9.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - main [MainThread]: End processing [webint-live]: success
+[2023-08-04 06:25:26] INFO root fetch - processPackages [non-iid]: Remove: archive file [/home/abi/fetcher/tmp/non_iid-0.1.1.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - processPackages [non-iid]: Remove: archive file [/home/abi/fetcher/tmp/non_iid-0.1.2.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - main [MainThread]: End processing [non-iid]: success
+[2023-08-04 06:25:26] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.9.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-1.0.0.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - main [MainThread]: End processing [key-switcheroo]: success
+[2023-08-04 06:25:26] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-08-04 06:25:26] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.8.2.13.20.11.tar.gz tmp/MeUtils-2023.8.4.11.32.21.tar.gz --markdown 20230804/M/MeUtils/2023.8.2.13.20.11-2023.8.4.11.32.21/diff.md --exclude *.pyd
+[2023-08-04 06:25:26] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip]
+[2023-08-04 06:25:26] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip]
+[2023-08-04 06:25:26] INFO root fetch - main [MainThread]: End processing [edc-visit-schedule]: success
+[2023-08-04 06:25:26] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.8.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - processPackages [zdatabase]: Remove: archive file [/home/abi/fetcher/tmp/zdatabase-0.5.9.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-08-04 06:25:26] INFO root fetch - processPackages [edc-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc-utils-0.3.8.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - processPackages [edc-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc-utils-0.3.9.tar.gz]
+[2023-08-04 06:25:26] INFO root fetch - main [MainThread]: End processing [edc-utils]: success
+[2023-08-04 06:25:26] INFO root fetch - processPackages [edc-subject-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip]
+[2023-08-04 06:25:26] INFO root fetch - processPackages [edc-subject-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip]
+[2023-08-04 06:25:26] INFO root fetch - main [MainThread]: End processing [edc-subject-dashboard]: success
+[2023-08-04 06:25:27] INFO root fetch - processPackages [sharetop]: Remove: archive file [/home/abi/fetcher/tmp/sharetop-2.4.6.tar.gz]
+[2023-08-04 06:25:27] INFO root fetch - processPackages [sharetop]: Remove: archive file [/home/abi/fetcher/tmp/sharetop-2.4.7.tar.gz]
+[2023-08-04 06:25:27] INFO root fetch - main [MainThread]: End processing [sharetop]: success
+[2023-08-04 06:25:27] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.954571638.dev12638.tar.gz]
+[2023-08-04 06:25:27] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.955500861.dev12666.tar.gz]
+[2023-08-04 06:25:27] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-08-04 06:25:30] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.8.2.13.20.11.tar.gz]
+[2023-08-04 06:25:30] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.8.4.11.32.21.tar.gz]
+[2023-08-04 06:25:30] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-08-04 06:25:30] INFO root fetch - main [MainThread]: Store serial: [19169748]
