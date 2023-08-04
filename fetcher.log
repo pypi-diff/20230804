@@ -9880,3 +9880,81 @@
 [2023-08-04 04:08:48] INFO root fetch - processPackages [openmodelz]: Remove: archive file [/home/abi/fetcher/tmp/openmodelz-0.0.21.tar.gz]
 [2023-08-04 04:08:48] INFO root fetch - main [MainThread]: End processing [openmodelz]: success
 [2023-08-04 04:08:48] INFO root fetch - main [MainThread]: Store serial: [19168696]
+[2023-08-04 04:13:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19168696]
+[2023-08-04 04:13:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySide2-Material-Widgets
+[2023-08-04 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sotai
+[2023-08-04 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuto
+[2023-08-04 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: STEP.py
+[2023-08-04 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PySide6-Material-Widgets
+[2023-08-04 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydflow
+[2023-08-04 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linora
+[2023-08-04 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proto-clip-toolkit
+[2023-08-04 04:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spectrolib
+[2023-08-04 04:13:57] INFO root fetch - processPackages [sotai]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-08-04 04:13:57] INFO root fetch - processPackages [kuto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 04:13:57] INFO root fetch - processPackages [PySide6-Material-Widgets]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-08-04 04:13:57] INFO root fetch - processPackages [PySide2-Material-Widgets]: New version: [0.1.5] Old Version: [0.1.1]
+[2023-08-04 04:13:57] INFO root fetch - processPackages [linora]: New version: [2.0.0rc1] Old Version: [2.0.0rc0]
+[2023-08-04 04:13:57] INFO root fetch - processPackages [PySide6-Material-Widgets]: Downloading https://files.pythonhosted.org/packages/18/a7/1365fac59e1d025a24286f779adb43c1690c36cc4363ecf59eb3ee0d533a/PySide6-Material-Widgets-0.1.1.tar.gz
+[2023-08-04 04:13:57] WARNING root fetch - processPackages [spectrolib]: Skipping, unable to determine old version
+[2023-08-04 04:13:57] INFO root fetch - main [MainThread]: End processing [spectrolib] error
+[2023-08-04 04:13:57] INFO root fetch - processPackages [proto-clip-toolkit]: New version: [0.1.1] Old Version: [0.1]
+[2023-08-04 04:13:57] INFO root fetch - processPackages [STEP.py]: New version: [2.4] Old Version: [2.3]
+[2023-08-04 04:13:57] INFO root fetch - processPackages [sotai]: Downloading https://files.pythonhosted.org/packages/1b/63/8174e3b34c9e97e26cbf80e2b4c0b30f95fea17a0f057d84af08bf729de2/sotai-0.3.2.tar.gz
+[2023-08-04 04:13:57] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-08-04 04:13:57] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/32/2d/36a7adc8f0a826a28bf2de64180bb8f7b1a73846e5712acc6927388adf46/kuto-0.0.8-py3-none-any.whl
+[2023-08-04 04:13:58] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [PySide2-Material-Widgets]: Downloading https://files.pythonhosted.org/packages/7e/42/681e747a018ea6a2c644f71b00680f6c5f066f34097d0ee0c48d5cc72171/PySide2-Material-Widgets-0.1.1.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [STEP.py]: Downloading https://files.pythonhosted.org/packages/09/68/0d05d3a9283bbffd71ab931d66f74848bff689eccc1d8c582adf6b4cd1a7/STEP.py-2.3.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [linora]: Downloading https://files.pythonhosted.org/packages/37/ba/0c58c013ff08f2f93cbfe50308bbe3b603166cf42c3c0d4769a79c29faa3/linora-2.0.0rc0.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [PySide6-Material-Widgets]: Downloading https://files.pythonhosted.org/packages/16/6d/183f33fc184bac637288dfe8b687ee4496dcd78dca6001b872b723908706/PySide6-Material-Widgets-0.1.3.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [proto-clip-toolkit]: Downloading https://files.pythonhosted.org/packages/6c/c2/c0fd617de55282adc645b2540692d683f8140a3a8c23d8a38f22d376acb4/proto_clip_toolkit-0.1.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [sotai]: Downloading https://files.pythonhosted.org/packages/ca/08/b0d80a1836b4b62611593db88ca0a3169bea67f7801406858ec3a90fa65a/sotai-0.4.0.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [kuto]: Downloading https://files.pythonhosted.org/packages/44/22/ef926091281ffebdd1b36f86dd2bf9d42dae07fa46569cd788f675d0c2fd/kuto-0.0.9.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [PySide6-Material-Widgets]: executing diffoscope
+[2023-08-04 04:13:58] INFO root fetch - processPackages [PySide6-Material-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Material-Widgets-0.1.1.tar.gz tmp/PySide6-Material-Widgets-0.1.3.tar.gz --markdown 20230804/P/PySide6-Material-Widgets/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-08-04 04:13:58] INFO root fetch - processPackages [sotai]: executing diffoscope
+[2023-08-04 04:13:58] INFO root fetch - processPackages [sotai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotai-0.3.2.tar.gz tmp/sotai-0.4.0.tar.gz --markdown 20230804/s/sotai/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-08-04 04:13:58] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [kuto]: executing diffoscope
+[2023-08-04 04:13:58] INFO root fetch - processPackages [kuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuto-0.0.8-py3-none-any.whl.zip tmp/kuto-0.0.9.tar.gz --markdown 20230804/k/kuto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 04:13:58] INFO root fetch - processPackages [PySide2-Material-Widgets]: Downloading https://files.pythonhosted.org/packages/e7/0b/f51bc50592dc13d39e1b8b3d08bdc511c318e34522387aae052c3da3f422/PySide2-Material-Widgets-0.1.5.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-08-04 04:13:58] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230804/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-08-04 04:13:58] INFO root fetch - processPackages [STEP.py]: Downloading https://files.pythonhosted.org/packages/fa/db/7151eb6972e13c8f2aa6437111ea80c4ac33b3129a80614356f80d3d4361/STEP.py-2.4.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [linora]: Downloading https://files.pythonhosted.org/packages/dc/90/f16cf0ff9b3408594b39647fd6212acc8ba7e11dd90ed0328783f191a54d/linora-2.0.0rc1.tar.gz
+[2023-08-04 04:13:58] INFO root fetch - processPackages [proto-clip-toolkit]: Downloading https://files.pythonhosted.org/packages/a2/18/427fa3ba28022490913cdffe212cbf7762251a839cc3b46e807d45f00992/proto_clip_toolkit-0.1.1-py3-none-any.whl
+[2023-08-04 04:13:58] INFO root fetch - processPackages [PySide2-Material-Widgets]: executing diffoscope
+[2023-08-04 04:13:58] INFO root fetch - processPackages [PySide2-Material-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Material-Widgets-0.1.1.tar.gz tmp/PySide2-Material-Widgets-0.1.5.tar.gz --markdown 20230804/P/PySide2-Material-Widgets/0.1.1-0.1.5/diff.md --exclude *.pyd
+[2023-08-04 04:13:58] INFO root fetch - processPackages [STEP.py]: executing diffoscope
+[2023-08-04 04:13:58] INFO root fetch - processPackages [STEP.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STEP.py-2.3.tar.gz tmp/STEP.py-2.4.tar.gz --markdown 20230804/S/STEP.py/2.3-2.4/diff.md --exclude *.pyd
+[2023-08-04 04:13:58] INFO root fetch - processPackages [linora]: executing diffoscope
+[2023-08-04 04:13:58] INFO root fetch - processPackages [linora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linora-2.0.0rc0.tar.gz tmp/linora-2.0.0rc1.tar.gz --markdown 20230804/l/linora/2.0.0rc0-2.0.0rc1/diff.md --exclude *.pyd
+[2023-08-04 04:13:58] INFO root fetch - processPackages [proto-clip-toolkit]: executing diffoscope
+[2023-08-04 04:13:58] INFO root fetch - processPackages [proto-clip-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proto_clip_toolkit-0.1.tar.gz tmp/proto_clip_toolkit-0.1.1-py3-none-any.whl.zip --markdown 20230804/p/proto-clip-toolkit/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 04:13:59] INFO root fetch - processPackages [sotai]: Remove: archive file [/home/abi/fetcher/tmp/sotai-0.3.2.tar.gz]
+[2023-08-04 04:13:59] INFO root fetch - processPackages [sotai]: Remove: archive file [/home/abi/fetcher/tmp/sotai-0.4.0.tar.gz]
+[2023-08-04 04:13:59] INFO root fetch - main [MainThread]: End processing [sotai]: success
+[2023-08-04 04:13:59] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.8-py3-none-any.whl.zip]
+[2023-08-04 04:13:59] INFO root fetch - processPackages [kuto]: Remove: archive file [/home/abi/fetcher/tmp/kuto-0.0.9.tar.gz]
+[2023-08-04 04:13:59] INFO root fetch - main [MainThread]: End processing [kuto]: success
+[2023-08-04 04:14:00] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-08-04 04:14:00] INFO root fetch - processPackages [proto-clip-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/proto_clip_toolkit-0.1.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - processPackages [proto-clip-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/proto_clip_toolkit-0.1.1-py3-none-any.whl.zip]
+[2023-08-04 04:14:00] INFO root fetch - main [MainThread]: End processing [proto-clip-toolkit]: success
+[2023-08-04 04:14:00] INFO root fetch - processPackages [STEP.py]: Remove: archive file [/home/abi/fetcher/tmp/STEP.py-2.3.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - processPackages [STEP.py]: Remove: archive file [/home/abi/fetcher/tmp/STEP.py-2.4.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - main [MainThread]: End processing [STEP.py]: success
+[2023-08-04 04:14:00] INFO root fetch - processPackages [PySide6-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Material-Widgets-0.1.1.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - processPackages [PySide6-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Material-Widgets-0.1.3.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - main [MainThread]: End processing [PySide6-Material-Widgets]: success
+[2023-08-04 04:14:00] INFO root fetch - processPackages [linora]: Remove: archive file [/home/abi/fetcher/tmp/linora-2.0.0rc0.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - processPackages [linora]: Remove: archive file [/home/abi/fetcher/tmp/linora-2.0.0rc1.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - main [MainThread]: End processing [linora]: success
+[2023-08-04 04:14:00] INFO root fetch - processPackages [PySide2-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Material-Widgets-0.1.1.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - processPackages [PySide2-Material-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Material-Widgets-0.1.5.tar.gz]
+[2023-08-04 04:14:00] INFO root fetch - main [MainThread]: End processing [PySide2-Material-Widgets]: success
+[2023-08-04 04:14:00] INFO root fetch - main [MainThread]: Store serial: [19168724]
