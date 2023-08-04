@@ -19597,3 +19597,123 @@
 [2023-08-04 13:00:50] INFO root fetch - processPackages [resqpy]: Remove: archive file [/home/abi/fetcher/tmp/resqpy-4.9.5.tar.gz]
 [2023-08-04 13:00:50] INFO root fetch - main [MainThread]: End processing [resqpy]: success
 [2023-08-04 13:00:50] INFO root fetch - main [MainThread]: Store serial: [19172983]
+[2023-08-04 13:05:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172983]
+[2023-08-04 13:05:59] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serpyco-rs
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardsort
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-crosslink-plugin
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cosimtlk
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packitos
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvxreg
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graph-jsp-env
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlglot-doris
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: usetools
+[2023-08-04 13:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grai-source-looker
+[2023-08-04 13:06:00] INFO root fetch - processPackages [graph-jsp-env]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-04 13:06:00] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-08-04 13:06:00] INFO root fetch - processPackages [usetools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-04 13:06:00] WARNING root fetch - processPackages [mkdocs-crosslink-plugin]: Skipping, unable to determine old version
+[2023-08-04 13:06:00] INFO root fetch - processPackages [mkdocs-crosslink-plugin]: Start processing: vai-utils
+[2023-08-04 13:06:00] INFO root fetch - main [MainThread]: End processing [mkdocs-crosslink-plugin] error
+[2023-08-04 13:06:00] INFO root fetch - processPackages [graph-jsp-env]: Downloading https://files.pythonhosted.org/packages/d9/b3/3cfc3fc0e0be6a5e7f75e708aa5efce8ee9bf615a4daa10cdc0387551384/graph-jsp-env-0.2.1.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [cvxreg]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-04 13:06:00] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-08-04 13:06:00] WARNING root fetch - processPackages [cosimtlk]: Skipping, unable to determine old version
+[2023-08-04 13:06:00] INFO root fetch - processPackages [cosimtlk]: Start processing: pykebab
+[2023-08-04 13:06:00] INFO root fetch - main [MainThread]: End processing [cosimtlk] error
+[2023-08-04 13:06:00] INFO root fetch - processPackages [grai-source-looker]: New version: [0.0.1a5] Old Version: [0.0.1a3]
+[2023-08-04 13:06:00] WARNING root fetch - processPackages [sqlglot-doris]: Skipping, unable to determine old version
+[2023-08-04 13:06:00] INFO root fetch - processPackages [sqlglot-doris]: Start processing: mastsel
+[2023-08-04 13:06:00] INFO root fetch - main [MainThread]: End processing [sqlglot-doris] error
+[2023-08-04 13:06:00] INFO root fetch - processPackages [serpyco-rs]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-04 13:06:00] INFO root fetch - processPackages [packitos]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-04 13:06:00] INFO root fetch - processPackages [pykebab]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-04 13:06:00] INFO root fetch - processPackages [mastsel]: New version: [1.2] Old Version: [1.1]
+[2023-08-04 13:06:00] INFO root fetch - processPackages [vai-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 13:06:00] INFO root fetch - processPackages [usetools]: Downloading https://files.pythonhosted.org/packages/eb/3b/62d90a61d6f7993ec822d54f3718d55869821a1ddb5a6a0b59666a426e55/usetools-0.0.1.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/a9/53/b6200963f69f4a11eaf7d547de69cf8edca52312a12a0db346d866c2f909/mastsel-1.1.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/5c/47/2093b9d071eeb261fd2535a9da0230896be1d2f7238b23d00da98a2f18ab/packitos-0.8.1.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/8e/2b/9d915060b8fdbbd2c8d16aa314b0119879f8567c365ff0069ab18f9650b6/pykebab-0.8.3.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [cvxreg]: Downloading https://files.pythonhosted.org/packages/0c/3b/2705bf892be4167c3a067477f40f2883e9e2010bace321922f2169412259/cvxreg-0.1.7.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [grai-source-looker]: Downloading https://files.pythonhosted.org/packages/a6/cf/bf63238cd4768c1b0378af84a65e4d22b61cbaca35e5b8fd3835fe259c24/grai_source_looker-0.0.1a3.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/d9/45/94ce3f85179db4fac16aa2fe9d20adf17e5539bb7cd9289d14b3e1ffb8ec/serpyco_rs-0.9.2.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/2a/c5/b650201e1ea7e829855614f40907ef2defa39710f779531e35c319e50057/vai_utils-0.0.8.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [graph-jsp-env]: Downloading https://files.pythonhosted.org/packages/3c/96/000acef6b65194beacb5edfe37a026a244f7f947545665297f7fc7d00e3b/graph-jsp-env-0.3.0.tar.gz
+[2023-08-04 13:06:00] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-08-04 13:06:00] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230804/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-08-04 13:06:01] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/8b/5d/1f2e5feab4a8cace599bffc05cb002908472fc6de117ca3b604a9e0b4b1d/pykebab-0.9.0.tar.gz
+[2023-08-04 13:06:01] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/62/1f/ea9ace552b3afbef11be8a950e626964c35314cd2bb418d1f8ce78e57f8e/mastsel-1.2.tar.gz
+[2023-08-04 13:06:01] INFO root fetch - processPackages [usetools]: Downloading https://files.pythonhosted.org/packages/aa/3d/54a124483f6722ce41793429be10282e4367550605c59c4256e9dbb4c43a/usetools-0.0.2.tar.gz
+[2023-08-04 13:06:01] INFO root fetch - processPackages [graph-jsp-env]: executing diffoscope
+[2023-08-04 13:06:01] INFO root fetch - processPackages [graph-jsp-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-jsp-env-0.2.1.tar.gz tmp/graph-jsp-env-0.3.0.tar.gz --markdown 20230804/g/graph-jsp-env/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-04 13:06:01] INFO root fetch - processPackages [cvxreg]: Downloading https://files.pythonhosted.org/packages/70/0f/8685db25828a37cbfa6deae75c470c9bd762180d0ed27e5b2c0d56896fa3/cvxreg-0.1.8.tar.gz
+[2023-08-04 13:06:01] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-08-04 13:06:01] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.8.3.tar.gz tmp/pykebab-0.9.0.tar.gz --markdown 20230804/p/pykebab/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 13:06:01] INFO root fetch - processPackages [mastsel]: executing diffoscope
+[2023-08-04 13:06:01] INFO root fetch - processPackages [mastsel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastsel-1.1.tar.gz tmp/mastsel-1.2.tar.gz --markdown 20230804/m/mastsel/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-04 13:06:01] INFO root fetch - processPackages [grai-source-looker]: Downloading https://files.pythonhosted.org/packages/9d/98/7582c66121031bb033da6aee8581af5b57386935d029c7b38097ffdb45f0/grai_source_looker-0.0.1a5.tar.gz
+[2023-08-04 13:06:01] INFO root fetch - processPackages [usetools]: executing diffoscope
+[2023-08-04 13:06:01] INFO root fetch - processPackages [usetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usetools-0.0.1.tar.gz tmp/usetools-0.0.2.tar.gz --markdown 20230804/u/usetools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-04 13:06:01] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/0d/b3/c3f982b04acf7516afd38fbdc171988d718835fdd1e426e434d91d55611a/serpyco_rs-0.9.3.tar.gz
+[2023-08-04 13:06:01] INFO root fetch - processPackages [cvxreg]: executing diffoscope
+[2023-08-04 13:06:01] INFO root fetch - processPackages [cvxreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxreg-0.1.7.tar.gz tmp/cvxreg-0.1.8.tar.gz --markdown 20230804/c/cvxreg/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-04 13:06:01] INFO root fetch - processPackages [packitos]: Downloading https://files.pythonhosted.org/packages/6a/56/790e643af99b402baa93360e3fa6d152247c44a8a1c76ced1f6d099107ab/packitos-0.9.0.tar.gz
+[2023-08-04 13:06:01] INFO root fetch - processPackages [vai-utils]: Downloading https://files.pythonhosted.org/packages/50/d6/c8a89feec709275794b4ada17977186c2238b1c83c33a83b29230047b749/vai_utils-0.0.9.tar.gz
+[2023-08-04 13:06:01] INFO root fetch - processPackages [grai-source-looker]: executing diffoscope
+[2023-08-04 13:06:01] INFO root fetch - processPackages [grai-source-looker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_looker-0.0.1a3.tar.gz tmp/grai_source_looker-0.0.1a5.tar.gz --markdown 20230804/g/grai-source-looker/0.0.1a3-0.0.1a5/diff.md --exclude *.pyd
+[2023-08-04 13:06:01] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2023-08-04 13:06:01] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-0.9.2.tar.gz tmp/serpyco_rs-0.9.3.tar.gz --markdown 20230804/s/serpyco-rs/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-04 13:06:01] INFO root fetch - processPackages [packitos]: executing diffoscope
+[2023-08-04 13:06:01] INFO root fetch - processPackages [packitos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packitos-0.8.1.tar.gz tmp/packitos-0.9.0.tar.gz --markdown 20230804/p/packitos/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 13:06:01] INFO root fetch - processPackages [vai-utils]: executing diffoscope
+[2023-08-04 13:06:01] INFO root fetch - processPackages [vai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vai_utils-0.0.8.tar.gz tmp/vai_utils-0.0.9.tar.gz --markdown 20230804/v/vai-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 13:06:02] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [cardsort]: Start processing: power-grid-model
+[2023-08-04 13:06:02] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-08-04 13:06:02] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/b9/f0/bf07ef58bee593d886b1d59770e96e0e475f9fc0f91f482451ef56148b1e/power-grid-model-1.5.1.tar.gz
+[2023-08-04 13:06:02] INFO root fetch - processPackages [graph-jsp-env]: Remove: archive file [/home/abi/fetcher/tmp/graph-jsp-env-0.2.1.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [graph-jsp-env]: Remove: archive file [/home/abi/fetcher/tmp/graph-jsp-env-0.3.0.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [graph-jsp-env]: Start processing: pyEthioNews
+[2023-08-04 13:06:02] INFO root fetch - main [MainThread]: End processing [graph-jsp-env]: success
+[2023-08-04 13:06:02] INFO root fetch - processPackages [usetools]: Remove: archive file [/home/abi/fetcher/tmp/usetools-0.0.1.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [usetools]: Remove: archive file [/home/abi/fetcher/tmp/usetools-0.0.2.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - main [MainThread]: End processing [usetools]: success
+[2023-08-04 13:06:02] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.8.3.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.9.0.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-08-04 13:06:02] INFO root fetch - processPackages [pyEthioNews]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [cvxreg]: Remove: archive file [/home/abi/fetcher/tmp/cvxreg-0.1.7.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [cvxreg]: Remove: archive file [/home/abi/fetcher/tmp/cvxreg-0.1.8.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - main [MainThread]: End processing [cvxreg]: success
+[2023-08-04 13:06:02] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-1.1.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-1.2.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - main [MainThread]: End processing [mastsel]: success
+[2023-08-04 13:06:02] INFO root fetch - processPackages [grai-source-looker]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_looker-0.0.1a3.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - processPackages [grai-source-looker]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_looker-0.0.1a5.tar.gz]
+[2023-08-04 13:06:02] INFO root fetch - main [MainThread]: End processing [grai-source-looker]: success
+[2023-08-04 13:06:02] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/4b/76/62928c0fe1b287cbc1ba2a364275556fde2edeb9ae9bd9f232496ce1f9bc/power-grid-model-1.5.2.tar.gz
+[2023-08-04 13:06:03] INFO root fetch - processPackages [pyEthioNews]: Downloading https://files.pythonhosted.org/packages/03/98/a5af62b42f6633bf4f8e680f2c37a75baf8b38597d2378deee78f8e33c37/pyEthioNews-1.0.1.tar.gz
+[2023-08-04 13:06:03] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-08-04 13:06:03] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.1.tar.gz tmp/power-grid-model-1.5.2.tar.gz --markdown 20230804/p/power-grid-model/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-04 13:06:03] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.8.tar.gz]
+[2023-08-04 13:06:03] INFO root fetch - processPackages [vai-utils]: Remove: archive file [/home/abi/fetcher/tmp/vai_utils-0.0.9.tar.gz]
+[2023-08-04 13:06:03] INFO root fetch - main [MainThread]: End processing [vai-utils]: success
+[2023-08-04 13:06:03] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.2.tar.gz]
+[2023-08-04 13:06:03] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.3.tar.gz]
+[2023-08-04 13:06:03] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2023-08-04 13:06:03] INFO root fetch - processPackages [pyEthioNews]: Downloading https://files.pythonhosted.org/packages/74/34/325b0d646e225262f3639b1e0dfb3be50b52acf4aa11a7545f1051ee654c/pyEthioNews-1.0.2.tar.gz
+[2023-08-04 13:06:03] INFO root fetch - processPackages [pyEthioNews]: executing diffoscope
+[2023-08-04 13:06:03] INFO root fetch - processPackages [pyEthioNews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEthioNews-1.0.1.tar.gz tmp/pyEthioNews-1.0.2.tar.gz --markdown 20230804/p/pyEthioNews/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-04 13:06:04] INFO root fetch - processPackages [pyEthioNews]: Remove: archive file [/home/abi/fetcher/tmp/pyEthioNews-1.0.1.tar.gz]
+[2023-08-04 13:06:04] INFO root fetch - processPackages [pyEthioNews]: Remove: archive file [/home/abi/fetcher/tmp/pyEthioNews-1.0.2.tar.gz]
+[2023-08-04 13:06:04] INFO root fetch - main [MainThread]: End processing [pyEthioNews]: success
+[2023-08-04 13:06:04] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.8.1.tar.gz]
+[2023-08-04 13:06:04] INFO root fetch - processPackages [packitos]: Remove: archive file [/home/abi/fetcher/tmp/packitos-0.9.0.tar.gz]
+[2023-08-04 13:06:04] INFO root fetch - main [MainThread]: End processing [packitos]: success
+[2023-08-04 13:06:05] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.1.tar.gz]
+[2023-08-04 13:06:05] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.2.tar.gz]
+[2023-08-04 13:06:05] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-08-04 13:06:05] INFO root fetch - main [MainThread]: Store serial: [19173048]
