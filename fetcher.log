@@ -17328,3 +17328,115 @@
 [2023-08-04 11:16:23] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-08-04 11:16:23] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-08-04 11:16:23] INFO root fetch - main [MainThread]: Store serial: [19171998]
+[2023-08-04 11:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171998]
+[2023-08-04 11:21:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zimran-fastapi
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erpc
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openprotein-python
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: envd
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Swagger2Tests
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seqconverter
+[2023-08-04 11:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kili
+[2023-08-04 11:21:32] INFO root fetch - processPackages [seqconverter]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-08-04 11:21:32] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.2b2] Old Version: [0.1.2b1]
+[2023-08-04 11:21:32] INFO root fetch - processPackages [kcli]: New version: [99.0.202308032248] Old Version: [99.0.202308010800]
+[2023-08-04 11:21:32] INFO root fetch - processPackages [zimran-fastapi]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-04 11:21:32] WARNING root fetch - processPackages [Swagger2Tests]: Skipping, unable to determine old version
+[2023-08-04 11:21:32] INFO root fetch - processPackages [Swagger2Tests]: Start processing: construct-dataclasses
+[2023-08-04 11:21:32] INFO root fetch - main [MainThread]: End processing [Swagger2Tests] error
+[2023-08-04 11:21:32] INFO root fetch - processPackages [erpc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-04 11:21:32] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-04 11:21:32] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-08-04 11:21:32] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 11:21:32] INFO root fetch - processPackages [construct-dataclasses]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-04 11:21:32] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-04 11:21:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/27/2b/4b3d08d4683eb9ce365476636507b5922336df60f0b4361e460024561356/kcli-99.0.202308010800-py3-none-any.whl
+[2023-08-04 11:21:32] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/b4/61/211bf81a6293e992c01e999bdbecba36dc4cbefeebeddbf24229b4847cfe/openprotein_python-0.1.2b1.tar.gz
+[2023-08-04 11:21:32] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-08-04 11:21:32] INFO root fetch - processPackages [zimran-fastapi]: Downloading https://files.pythonhosted.org/packages/c5/b3/4c7561b0d0907b1e80524d13c8ce189247e5427875eb3743b7cf27c65bc1/zimran-fastapi-1.1.0.tar.gz
+[2023-08-04 11:21:32] INFO root fetch - processPackages [erpc]: Downloading https://files.pythonhosted.org/packages/88/b3/5cd981d84dea09a6b8e1a07430b7ac6984f35c7eed05636c959ef8809259/erpc-1.9.0.tar.gz
+[2023-08-04 11:21:32] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-04 11:21:32] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/74/b0/ff8a59e6781b5d3e5919026085be5d753078b0b477769779c67e9e213e9a/seqconverter-2.9.1.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [construct-dataclasses]: Downloading https://files.pythonhosted.org/packages/8c/fc/f34dbe37017e8ace81f204d8b97219f461f68d1d3befcf0d5abc9c3d242e/construct-dataclasses-1.1.2.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/6d/62/5e4c66d2ecb85a6ccc4d157e5a6604126815fc1061835bc5d05b080e10dc/kcli-99.0.202308032248-py3-none-any.whl
+[2023-08-04 11:21:33] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/86/eb/da1744620467c236b88022f7f49ef25f5e8563686c9ba8dd48f82e67d8e1/openprotein_python-0.1.2b2.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [zimran-fastapi]: Downloading https://files.pythonhosted.org/packages/10/44/e8babed65cd3916ddc872019478ffc9d1c0a2031ab97be2908a648d80989/zimran-fastapi-1.2.0.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [erpc]: Downloading https://files.pythonhosted.org/packages/fb/0d/7aa2bc9db801629ddff3d40154db0c81326e7e5adc06ec1701bb6e58324e/erpc-1.9.1.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [construct-dataclasses]: Downloading https://files.pythonhosted.org/packages/32/d6/73553a95fb1182e3f5aef1e4ab3a2b0dababf36e5f3ac78313ae4d265946/construct-dataclasses-1.1.3.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 11:21:33] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.2b1.tar.gz tmp/openprotein_python-0.1.2b2.tar.gz --markdown 20230804/o/openprotein-python/0.1.2b1-0.1.2b2/diff.md --exclude *.pyd
+[2023-08-04 11:21:33] INFO root fetch - processPackages [zimran-fastapi]: executing diffoscope
+[2023-08-04 11:21:33] INFO root fetch - processPackages [zimran-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimran-fastapi-1.1.0.tar.gz tmp/zimran-fastapi-1.2.0.tar.gz --markdown 20230804/z/zimran-fastapi/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-04 11:21:33] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-08-04 11:21:33] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230804/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-08-04 11:21:33] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [erpc]: executing diffoscope
+[2023-08-04 11:21:33] INFO root fetch - processPackages [erpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erpc-1.9.0.tar.gz tmp/erpc-1.9.1.tar.gz --markdown 20230804/e/erpc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-04 11:21:33] INFO root fetch - processPackages [construct-dataclasses]: executing diffoscope
+[2023-08-04 11:21:33] INFO root fetch - processPackages [construct-dataclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/construct-dataclasses-1.1.2.tar.gz tmp/construct-dataclasses-1.1.3.tar.gz --markdown 20230804/c/construct-dataclasses/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-04 11:21:33] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-08-04 11:21:33] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202308010800-py3-none-any.whl.zip tmp/kcli-99.0.202308032248-py3-none-any.whl.zip --markdown 20230804/k/kcli/99.0.202308010800-99.0.202308032248/diff.md --exclude *.pyd
+[2023-08-04 11:21:33] INFO root fetch - processPackages [seqconverter]: Downloading https://files.pythonhosted.org/packages/dc/1f/7033f6e42158f5dbd9ab26654c50b76445642a61b5257e6888ffd585c1e5/seqconverter-2.9.2.tar.gz
+[2023-08-04 11:21:33] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-04 11:21:33] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230804/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-04 11:21:33] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-04 11:21:33] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230804/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-04 11:21:34] INFO root fetch - processPackages [seqconverter]: executing diffoscope
+[2023-08-04 11:21:34] INFO root fetch - processPackages [seqconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqconverter-2.9.1.tar.gz tmp/seqconverter-2.9.2.tar.gz --markdown 20230804/s/seqconverter/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-08-04 11:21:35] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b1.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b2.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [openprotein-python]: Start processing: odoo12-addon-assets-management
+[2023-08-04 11:21:35] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 11:21:35] INFO root fetch - processPackages [zimran-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zimran-fastapi-1.1.0.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [zimran-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zimran-fastapi-1.2.0.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [zimran-fastapi]: Start processing: openprotein-python
+[2023-08-04 11:21:35] INFO root fetch - main [MainThread]: End processing [zimran-fastapi]: success
+[2023-08-04 11:21:35] INFO root fetch - processPackages [construct-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/construct-dataclasses-1.1.2.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [construct-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/construct-dataclasses-1.1.3.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - main [MainThread]: End processing [construct-dataclasses]: success
+[2023-08-04 11:21:35] INFO root fetch - processPackages [erpc]: Remove: archive file [/home/abi/fetcher/tmp/erpc-1.9.0.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [erpc]: Remove: archive file [/home/abi/fetcher/tmp/erpc-1.9.1.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - main [MainThread]: End processing [erpc]: success
+[2023-08-04 11:21:35] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.2b2] Old Version: [0.1.2b1]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-08-04 11:21:35] INFO root fetch - processPackages [odoo12-addon-assets-management]: New version: [12.0.1.0.1] Old Version: [12.0.1.0.0.99.dev8]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/b4/61/211bf81a6293e992c01e999bdbecba36dc4cbefeebeddbf24229b4847cfe/openprotein_python-0.1.2b1.tar.gz
+[2023-08-04 11:21:35] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-04 11:21:35] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-08-04 11:21:35] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.1.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - processPackages [seqconverter]: Remove: archive file [/home/abi/fetcher/tmp/seqconverter-2.9.2.tar.gz]
+[2023-08-04 11:21:35] INFO root fetch - main [MainThread]: End processing [seqconverter]: success
+[2023-08-04 11:21:35] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/86/eb/da1744620467c236b88022f7f49ef25f5e8563686c9ba8dd48f82e67d8e1/openprotein_python-0.1.2b2.tar.gz
+[2023-08-04 11:21:35] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/68/69/acc815cbed2250bd596a3ef7593e4afe4d29244b1124c409750cf387d6d9/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-08-04 11:21:35] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 11:21:35] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.2b1.tar.gz tmp/openprotein_python-0.1.2b2.tar.gz --markdown 20230804/o/openprotein-python/0.1.2b1-0.1.2b2/diff.md --exclude *.pyd
+[2023-08-04 11:21:35] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-04 11:21:36] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/dc/dd/26ec626571ab4fa233d0d3a3b5bde78b1ea99d5494e5061b82928b6b4627/odoo12_addon_assets_management-12.0.1.0.1-py3-none-any.whl
+[2023-08-04 11:21:36] INFO root fetch - processPackages [odoo12-addon-assets-management]: executing diffoscope
+[2023-08-04 11:21:36] INFO root fetch - processPackages [odoo12-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_assets_management-12.0.1.0.1-py3-none-any.whl.zip --markdown 20230804/o/odoo12-addon-assets-management/12.0.1.0.0.99.dev8-12.0.1.0.1/diff.md --exclude *.pyd
+[2023-08-04 11:21:36] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b1.tar.gz]
+[2023-08-04 11:21:36] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b2.tar.gz]
+[2023-08-04 11:21:36] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 11:21:37] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-08-04 11:21:37] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230804/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 11:21:37] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
+[2023-08-04 11:21:37] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-04 11:21:37] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
+[2023-08-04 11:21:37] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308010800-py3-none-any.whl.zip]
+[2023-08-04 11:21:37] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308032248-py3-none-any.whl.zip]
+[2023-08-04 11:21:37] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-08-04 11:22:34] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.8.tar.gz]
+[2023-08-04 11:22:34] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
+[2023-08-04 11:22:34] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-08-04 11:22:34] INFO root fetch - main [MainThread]: Store serial: [19172040]
