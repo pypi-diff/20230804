@@ -13411,3 +13411,51 @@
 [2023-08-04 07:49:02] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-7.1.3-py3-none-any.whl.zip]
 [2023-08-04 07:49:02] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
 [2023-08-04 07:49:02] INFO root fetch - main [MainThread]: Store serial: [19170231]
+[2023-08-04 07:54:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170231]
+[2023-08-04 07:54:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-04 07:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libmata
+[2023-08-04 07:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seeeye
+[2023-08-04 07:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jshmodule2
+[2023-08-04 07:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-nacos
+[2023-08-04 07:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-render
+[2023-08-04 07:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-cloudamqp
+[2023-08-04 07:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-cloudinit
+[2023-08-04 07:54:11] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.4.0a1691040093] Old Version: [1.4.0a1690467520]
+[2023-08-04 07:54:11] WARNING root fetch - processPackages [jshmodule2]: Skipping, unable to determine old version
+[2023-08-04 07:54:11] INFO root fetch - main [MainThread]: End processing [jshmodule2] error
+[2023-08-04 07:54:11] INFO root fetch - processPackages [seeeye]: New version: [0.0.4rc5758889904] Old Version: [0.0.3]
+[2023-08-04 07:54:11] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-08-04 07:54:11] INFO root fetch - processPackages [libmata]: New version: [0.90.0] Old Version: [0.89.0]
+[2023-08-04 07:54:11] WARNING root fetch - processPackages [test-nacos]: Skipping, unable to determine old version
+[2023-08-04 07:54:11] INFO root fetch - main [MainThread]: End processing [test-nacos] error
+[2023-08-04 07:54:11] WARNING root fetch - processPackages [streamlit-render]: Skipping, unable to determine old version
+[2023-08-04 07:54:11] INFO root fetch - main [MainThread]: End processing [streamlit-render] error
+[2023-08-04 07:54:11] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/16/3b/5ed2bd60a48155d01f0f51eab2f51b14d9ecce4930ccbea53f98da362db7/pulumi_cloudinit-1.4.0a1690467520.tar.gz
+[2023-08-04 07:54:11] INFO root fetch - processPackages [seeeye]: Downloading https://files.pythonhosted.org/packages/d1/7b/a3b581aad3d86f1e7ac0e3118b28b9ad3b5ce1ce104c2c43efe05df3c8c5/seeeye-0.0.3-py3-none-any.whl
+[2023-08-04 07:54:11] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/7c/00/8914d850da4a853a95d29dcfc7580410b87414c4169ce5a60fa0ebef4ef4/libmata-0.89.0.tar.gz
+[2023-08-04 07:54:11] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2023-08-04 07:54:11] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/a6/b5/0aa384eab20112fff1a3e2e9df0277e766aa9acb1186070caa02bb00f7ac/pulumi_cloudinit-1.4.0a1691040093.tar.gz
+[2023-08-04 07:54:11] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2023-08-04 07:54:12] INFO root fetch - processPackages [seeeye]: Downloading https://files.pythonhosted.org/packages/c5/6d/0434eabcaf1477ee8f5dde122ee4fc5bf8a8b26741535f8d88430ba81196/seeeye-0.0.4rc5758889904-py3-none-any.whl
+[2023-08-04 07:54:12] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2023-08-04 07:54:12] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.4.0a1690467520.tar.gz tmp/pulumi_cloudinit-1.4.0a1691040093.tar.gz --markdown 20230804/p/pulumi-cloudinit/1.4.0a1690467520-1.4.0a1691040093/diff.md --exclude *.pyd
+[2023-08-04 07:54:12] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2023-08-04 07:54:12] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20230804/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-08-04 07:54:12] INFO root fetch - processPackages [seeeye]: executing diffoscope
+[2023-08-04 07:54:12] INFO root fetch - processPackages [seeeye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeeye-0.0.3-py3-none-any.whl.zip tmp/seeeye-0.0.4rc5758889904-py3-none-any.whl.zip --markdown 20230804/s/seeeye/0.0.3-0.0.4rc5758889904/diff.md --exclude *.pyd
+[2023-08-04 07:54:12] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/fe/8c/6e796916312c03729f5a803ee70e5ef2bf082055bf64246d61fd99c47f7a/libmata-0.90.0.tar.gz
+[2023-08-04 07:54:12] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-08-04 07:54:12] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.89.0.tar.gz tmp/libmata-0.90.0.tar.gz --markdown 20230804/l/libmata/0.89.0-0.90.0/diff.md --exclude *.pyd
+[2023-08-04 07:54:13] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1690467520.tar.gz]
+[2023-08-04 07:54:13] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.4.0a1691040093.tar.gz]
+[2023-08-04 07:54:13] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2023-08-04 07:54:13] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2023-08-04 07:54:13] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2023-08-04 07:54:13] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2023-08-04 07:54:13] INFO root fetch - processPackages [seeeye]: Remove: archive file [/home/abi/fetcher/tmp/seeeye-0.0.3-py3-none-any.whl.zip]
+[2023-08-04 07:54:13] INFO root fetch - processPackages [seeeye]: Remove: archive file [/home/abi/fetcher/tmp/seeeye-0.0.4rc5758889904-py3-none-any.whl.zip]
+[2023-08-04 07:54:13] INFO root fetch - main [MainThread]: End processing [seeeye]: success
+[2023-08-04 07:54:15] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.89.0.tar.gz]
+[2023-08-04 07:54:15] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.90.0.tar.gz]
+[2023-08-04 07:54:15] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-08-04 07:54:15] INFO root fetch - main [MainThread]: Store serial: [19170252]
