@@ -18645,3 +18645,111 @@
 [2023-08-04 12:13:41] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701-2.7.0.tar.gz]
 [2023-08-04 12:13:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701]: success
 [2023-08-04 12:13:41] INFO root fetch - main [MainThread]: Store serial: [19172528]
+[2023-08-04 12:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172528]
+[2023-08-04 12:18:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chanfig
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metacluster
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-mystool
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astro-tiptop
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snusbase.py
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ewah
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pfgadgets
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tap-mssql
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gamium
+[2023-08-04 12:18:53] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-08-04 12:18:53] INFO root fetch - processPackages [gamium]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-08-04 12:18:53] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-08-04 12:18:53] INFO root fetch - processPackages [gamium]: Downloading https://files.pythonhosted.org/packages/0c/15/e40c21f81a917ac281b2c9ba77fbe05fcf194f7e338d35fdda9d1bad688d/gamium-2.0.2.tar.gz
+[2023-08-04 12:18:53] INFO root fetch - processPackages [snusbase.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-04 12:18:53] WARNING root fetch - processPackages [pfgadgets]: Skipping, unable to determine old version
+[2023-08-04 12:18:53] INFO root fetch - processPackages [pfgadgets]: Start processing: decodeDeepLearning
+[2023-08-04 12:18:53] INFO root fetch - main [MainThread]: End processing [pfgadgets] error
+[2023-08-04 12:18:53] WARNING root fetch - processPackages [metacluster]: Skipping, unable to determine old version
+[2023-08-04 12:18:53] INFO root fetch - processPackages [metacluster]: Start processing: django-autofixture-squad
+[2023-08-04 12:18:53] INFO root fetch - main [MainThread]: End processing [metacluster] error
+[2023-08-04 12:18:53] INFO root fetch - processPackages [astro-tiptop]: New version: [1.2] Old Version: [1.1]
+[2023-08-04 12:18:53] INFO root fetch - processPackages [tap-mssql]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-08-04 12:18:53] INFO root fetch - processPackages [nonebot-plugin-mystool]: New version: [1.2.0b1] Old Version: [1.2.0]
+[2023-08-04 12:18:53] INFO root fetch - processPackages [django-autofixture-squad]: New version: [0.12.3.dev1] Old Version: [0.12.2.dev1]
+[2023-08-04 12:18:53] INFO root fetch - processPackages [chanfig]: New version: [0.0.9.post7] Old Version: [0.0.9.post5]
+[2023-08-04 12:18:53] INFO root fetch - processPackages [ewah]: New version: [0.8.9] Old Version: [0.8.86]
+[2023-08-04 12:18:53] INFO root fetch - processPackages [decodeDeepLearning]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 12:18:53] INFO root fetch - processPackages [django-autofixture-squad]: Downloading https://files.pythonhosted.org/packages/62/7f/9bb1a215af67edae4289bc52ebf156bee22e637de271afbe33ed3dad589f/django-autofixture-squad-0.12.2.dev1.tar.gz
+[2023-08-04 12:18:53] INFO root fetch - processPackages [decodeDeepLearning]: Downloading https://files.pythonhosted.org/packages/91/ed/55955f4dd49e27c2c237dbda18c50d50b8ba1c6d43f64c7ab51d76682ddb/decodeDeepLearning-0.1.8.tar.gz
+[2023-08-04 12:18:53] INFO root fetch - processPackages [snusbase.py]: Downloading https://files.pythonhosted.org/packages/ec/cf/c098e2830a1e8ab3d1927b97536b48321f768367acf13b0d4937d100bb51/snusbase.py-1.0.1.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [tap-mssql]: Downloading https://files.pythonhosted.org/packages/d0/e6/d8c69d4776d79756383e81e56d082ee9987839ecb38f63f40ac5bcc13898/tap-mssql-2.0.2.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [astro-tiptop]: Downloading https://files.pythonhosted.org/packages/8b/0a/9d6b778e9cb3ff2612af6c101ef57be2a4d257dbe1a6a6b51817694bef1a/astro-tiptop-1.1.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [ewah]: Downloading https://files.pythonhosted.org/packages/4d/df/3184fb5022282f5af32105aeafe5d8f754c6aaea1c6810e49b8d1c66dd8c/ewah-0.8.86.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-08-04 12:18:54] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/9c/95/3464fcb2ce09549672e7ef758061448ee3c098e9227e8fd3d9ff272e3f1c/chanfig-0.0.9.post5.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/08/e2/74c15ab86956908dacee3bf12767064317ceb85228d3f6ffadac94729102/nonebot_plugin_mystool-1.2.0.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [gamium]: Downloading https://files.pythonhosted.org/packages/e9/0f/8e290e934f40a182e28463296e354d157528eb6117f117bb7fd3df3f1766/gamium-2.0.3.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [gamium]: executing diffoscope
+[2023-08-04 12:18:54] INFO root fetch - processPackages [gamium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamium-2.0.2.tar.gz tmp/gamium-2.0.3.tar.gz --markdown 20230804/g/gamium/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-08-04 12:18:54] INFO root fetch - processPackages [decodeDeepLearning]: Downloading https://files.pythonhosted.org/packages/e3/ea/559fe2eac0d25d199c02a6c4543abfde5da5d590bdddcfb97f6cdfb83850/decodeDeepLearning-0.1.9.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [django-autofixture-squad]: Downloading https://files.pythonhosted.org/packages/1f/6e/14874f8f5dbf50fbd4bf4ef40ce8b0dbc648dfe08d7751767f5a370b8516/django-autofixture-squad-0.12.3.dev1.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [tap-mssql]: Downloading https://files.pythonhosted.org/packages/ea/fe/3f4919e2aad2b690f83e2c58706fd5f8cac71a5d552f9ebea3e6b27a7018/tap_mssql-2.1.0.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [astro-tiptop]: Downloading https://files.pythonhosted.org/packages/d7/85/25b77a97680963c90f49cc235999138f8eef8de96f15794a351d23ea68cb/astro-tiptop-1.2.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/26/f7/8cf9d6514a86ab71fff2ca776830817227a348cba6ce585303e2280dbb03/nonebot_plugin_mystool-1.2.0b1.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [ewah]: Downloading https://files.pythonhosted.org/packages/d0/88/16c75881fe6562c22e0840c01ed24d61bf84884f3fdb38c92e4ee3d41176/ewah-0.8.9.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [snusbase.py]: Downloading https://files.pythonhosted.org/packages/7b/7b/7252c7c1d382542af4838edbfc86a0ae7d878aeb9bc429b02a1c49cf5ff0/snusbase.py-1.0.2.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [decodeDeepLearning]: executing diffoscope
+[2023-08-04 12:18:54] INFO root fetch - processPackages [decodeDeepLearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decodeDeepLearning-0.1.8.tar.gz tmp/decodeDeepLearning-0.1.9.tar.gz --markdown 20230804/d/decodeDeepLearning/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 12:18:54] INFO root fetch - processPackages [django-autofixture-squad]: executing diffoscope
+[2023-08-04 12:18:54] INFO root fetch - processPackages [django-autofixture-squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autofixture-squad-0.12.2.dev1.tar.gz tmp/django-autofixture-squad-0.12.3.dev1.tar.gz --markdown 20230804/d/django-autofixture-squad/0.12.2.dev1-0.12.3.dev1/diff.md --exclude *.pyd
+[2023-08-04 12:18:54] INFO root fetch - processPackages [tap-mssql]: executing diffoscope
+[2023-08-04 12:18:54] INFO root fetch - processPackages [tap-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-mssql-2.0.2.tar.gz tmp/tap_mssql-2.1.0.tar.gz --markdown 20230804/t/tap-mssql/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-08-04 12:18:54] INFO root fetch - processPackages [astro-tiptop]: executing diffoscope
+[2023-08-04 12:18:54] INFO root fetch - processPackages [astro-tiptop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-tiptop-1.1.tar.gz tmp/astro-tiptop-1.2.tar.gz --markdown 20230804/a/astro-tiptop/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-04 12:18:54] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/8c/b9/eed7fd81e144603e27c017fb099cfcb7eb4f36c186f1c76bd2eab7350b7f/chanfig-0.0.9.post7.tar.gz
+[2023-08-04 12:18:54] INFO root fetch - processPackages [nonebot-plugin-mystool]: executing diffoscope
+[2023-08-04 12:18:54] INFO root fetch - processPackages [nonebot-plugin-mystool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mystool-1.2.0.tar.gz tmp/nonebot_plugin_mystool-1.2.0b1.tar.gz --markdown 20230804/n/nonebot-plugin-mystool/1.2.0-1.2.0b1/diff.md --exclude *.pyd
+[2023-08-04 12:18:54] INFO root fetch - processPackages [snusbase.py]: executing diffoscope
+[2023-08-04 12:18:54] INFO root fetch - processPackages [snusbase.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snusbase.py-1.0.1.tar.gz tmp/snusbase.py-1.0.2.tar.gz --markdown 20230804/s/snusbase.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-04 12:18:55] INFO root fetch - processPackages [chanfig]: executing diffoscope
+[2023-08-04 12:18:55] INFO root fetch - processPackages [chanfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanfig-0.0.9.post5.tar.gz tmp/chanfig-0.0.9.post7.tar.gz --markdown 20230804/c/chanfig/0.0.9.post5-0.0.9.post7/diff.md --exclude *.pyd
+[2023-08-04 12:18:55] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-08-04 12:18:55] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230804/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-08-04 12:18:55] INFO root fetch - processPackages [ewah]: executing diffoscope
+[2023-08-04 12:18:55] INFO root fetch - processPackages [ewah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewah-0.8.86.tar.gz tmp/ewah-0.8.9.tar.gz --markdown 20230804/e/ewah/0.8.86-0.8.9/diff.md --exclude *.pyd
+[2023-08-04 12:18:56] INFO root fetch - processPackages [decodeDeepLearning]: Remove: archive file [/home/abi/fetcher/tmp/decodeDeepLearning-0.1.8.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [decodeDeepLearning]: Remove: archive file [/home/abi/fetcher/tmp/decodeDeepLearning-0.1.9.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [decodeDeepLearning]: Start processing: xata
+[2023-08-04 12:18:56] INFO root fetch - main [MainThread]: End processing [decodeDeepLearning]: success
+[2023-08-04 12:18:56] INFO root fetch - processPackages [gamium]: Remove: archive file [/home/abi/fetcher/tmp/gamium-2.0.2.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [gamium]: Remove: archive file [/home/abi/fetcher/tmp/gamium-2.0.3.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - main [MainThread]: End processing [gamium]: success
+[2023-08-04 12:18:56] INFO root fetch - processPackages [xata]: New version: [1.0.0a6] Old Version: [1.0.0a5]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [tap-mssql]: Remove: archive file [/home/abi/fetcher/tmp/tap-mssql-2.0.2.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [tap-mssql]: Remove: archive file [/home/abi/fetcher/tmp/tap_mssql-2.1.0.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - main [MainThread]: End processing [tap-mssql]: success
+[2023-08-04 12:18:56] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/72/1e/f2744898386cb41b3ee7dac6013976e8a045bb60e17b07265abefed3e9c6/xata-1.0.0a5.tar.gz
+[2023-08-04 12:18:56] INFO root fetch - processPackages [django-autofixture-squad]: Remove: archive file [/home/abi/fetcher/tmp/django-autofixture-squad-0.12.2.dev1.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [django-autofixture-squad]: Remove: archive file [/home/abi/fetcher/tmp/django-autofixture-squad-0.12.3.dev1.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - main [MainThread]: End processing [django-autofixture-squad]: success
+[2023-08-04 12:18:56] INFO root fetch - processPackages [snusbase.py]: Remove: archive file [/home/abi/fetcher/tmp/snusbase.py-1.0.1.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [snusbase.py]: Remove: archive file [/home/abi/fetcher/tmp/snusbase.py-1.0.2.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - main [MainThread]: End processing [snusbase.py]: success
+[2023-08-04 12:18:56] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.9.post5.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.9.post7.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - main [MainThread]: End processing [chanfig]: success
+[2023-08-04 12:18:56] INFO root fetch - processPackages [nonebot-plugin-mystool]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mystool-1.2.0.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [nonebot-plugin-mystool]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mystool-1.2.0b1.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mystool]: success
+[2023-08-04 12:18:56] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/d1/89/3cdaf9759bad7fd0a41dac93f6ccf3f29a40dc52f77c5bd2d3d5d7ed5720/xata-1.0.0a6.tar.gz
+[2023-08-04 12:18:56] INFO root fetch - processPackages [xata]: executing diffoscope
+[2023-08-04 12:18:56] INFO root fetch - processPackages [xata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xata-1.0.0a5.tar.gz tmp/xata-1.0.0a6.tar.gz --markdown 20230804/x/xata/1.0.0a5-1.0.0a6/diff.md --exclude *.pyd
+[2023-08-04 12:18:56] INFO root fetch - processPackages [astro-tiptop]: Remove: archive file [/home/abi/fetcher/tmp/astro-tiptop-1.1.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - processPackages [astro-tiptop]: Remove: archive file [/home/abi/fetcher/tmp/astro-tiptop-1.2.tar.gz]
+[2023-08-04 12:18:56] INFO root fetch - main [MainThread]: End processing [astro-tiptop]: success
+[2023-08-04 12:18:57] INFO root fetch - processPackages [ewah]: Remove: archive file [/home/abi/fetcher/tmp/ewah-0.8.86.tar.gz]
+[2023-08-04 12:18:57] INFO root fetch - processPackages [ewah]: Remove: archive file [/home/abi/fetcher/tmp/ewah-0.8.9.tar.gz]
+[2023-08-04 12:18:57] INFO root fetch - main [MainThread]: End processing [ewah]: success
+[2023-08-04 12:18:57] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-1.0.0a5.tar.gz]
+[2023-08-04 12:18:57] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-1.0.0a6.tar.gz]
+[2023-08-04 12:18:57] INFO root fetch - main [MainThread]: End processing [xata]: success
+[2023-08-04 12:18:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-08-04 12:18:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-08-04 12:18:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-08-04 12:18:58] INFO root fetch - main [MainThread]: Store serial: [19172568]
