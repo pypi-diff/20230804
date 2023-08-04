@@ -19896,3 +19896,114 @@
 [2023-08-04 13:16:33] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
 [2023-08-04 13:16:33] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
 [2023-08-04 13:16:33] INFO root fetch - main [MainThread]: Store serial: [19173112]
+[2023-08-04 13:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19173112]
+[2023-08-04 13:21:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iolanta
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pq-dataset
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rogue-tools
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-dynamodb
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: locust
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pqinput
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: har2tree
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roastedbyai
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tb-nightly
+[2023-08-04 13:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dl2050utils
+[2023-08-04 13:21:42] INFO root fetch - processPackages [pqinput]: New version: [0.0.5] Old Version: [0.0.409]
+[2023-08-04 13:21:42] INFO root fetch - processPackages [rogue-tools]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-04 13:21:42] INFO root fetch - processPackages [iolanta]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-04 13:21:42] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-08-04 13:21:42] INFO root fetch - processPackages [pq-dataset]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-04 13:21:42] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/84/46/90ac0673d2ece1b8f7d9b2d79cbfa1e27432c99bf51225c2f9fa1aae6c83/rogue_tools-1.1.1.tar.gz
+[2023-08-04 13:21:42] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-08-04 13:21:42] INFO root fetch - processPackages [mypy-boto3-dynamodb]: New version: [1.28.19] Old Version: [1.28.16]
+[2023-08-04 13:21:42] INFO root fetch - processPackages [roastedbyai]: New version: [1.0.1] Old Version: [0.1.1]
+[2023-08-04 13:21:42] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/5f/82/2222434745e9c6686b15ce76ac9f0f845dd93d18ec9fc8aa3ed8a187eae1/pqinput-0.0.409.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-04 13:21:43] INFO root fetch - processPackages [har2tree]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-04 13:21:43] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-08-04 13:21:43] INFO root fetch - processPackages [iolanta]: Downloading https://files.pythonhosted.org/packages/cd/60/71e5d384f17250e4d507470b9137f2a79c9f05430f34dd266b81df048ce1/iolanta-1.0.7.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [roastedbyai]: Downloading https://files.pythonhosted.org/packages/04/ef/e445795e5b9cbb7539ae48fe87edc7ef5a832aa9dd6ae8d645fed8e92cf6/roastedbyai-0.1.1.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/ac/6b/3f32a43a0d1a25935719be019c3109c7d86aca49a78998cf5f4d979981e9/mypy-boto3-dynamodb-1.28.16.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [pq-dataset]: Downloading https://files.pythonhosted.org/packages/57/d4/e329507ff999200a720920623b6de35692a6b365b304c353e17fca3ba636/pq_dataset-1.2.8.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/9e/be/d3720244e9662692ea66962967056020cf377ac80ed9240a8124d7e5c85e/rogue_tools-1.1.2.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/ab/1c/fa462b6fc68113b09310268a01e459e0c8d5e55039f3137af27181369e7a/har2tree-1.9.1.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/74/28/0a47eb8953e25de93f5e72aa16c016701c4cd62127e0e20171232afa4371/pqinput-0.0.5.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [rogue-tools]: executing diffoscope
+[2023-08-04 13:21:43] INFO root fetch - processPackages [rogue-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rogue_tools-1.1.1.tar.gz tmp/rogue_tools-1.1.2.tar.gz --markdown 20230804/r/rogue-tools/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-04 13:21:43] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [pqinput]: executing diffoscope
+[2023-08-04 13:21:43] INFO root fetch - processPackages [pqinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqinput-0.0.409.tar.gz tmp/pqinput-0.0.5.tar.gz --markdown 20230804/p/pqinput/0.0.409-0.0.5/diff.md --exclude *.pyd
+[2023-08-04 13:21:43] INFO root fetch - processPackages [roastedbyai]: Downloading https://files.pythonhosted.org/packages/53/05/30da6c44dd80230e7278818eb86fa832382d24f45047b5d995bffdf4c00b/roastedbyai-1.0.1.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Downloading https://files.pythonhosted.org/packages/ac/29/c17e149ab9f807f506ac8bebaabed834856cf0b3986498f9a06bc60ef610/mypy-boto3-dynamodb-1.28.19.tar.gz
+[2023-08-04 13:21:43] INFO root fetch - processPackages [pq-dataset]: Downloading https://files.pythonhosted.org/packages/af/c4/8bef05e064e35701601f0db140f890da6a3f633ac8f0ad9d4e41fa96ba5d/pq_dataset-1.2.9.tar.gz
+[2023-08-04 13:21:44] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-08-04 13:21:44] INFO root fetch - processPackages [roastedbyai]: executing diffoscope
+[2023-08-04 13:21:44] INFO root fetch - processPackages [roastedbyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roastedbyai-0.1.1.tar.gz tmp/roastedbyai-1.0.1.tar.gz --markdown 20230804/r/roastedbyai/0.1.1-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 13:21:44] INFO root fetch - processPackages [pq-dataset]: executing diffoscope
+[2023-08-04 13:21:44] INFO root fetch - processPackages [pq-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pq_dataset-1.2.8.tar.gz tmp/pq_dataset-1.2.9.tar.gz --markdown 20230804/p/pq-dataset/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-04 13:21:44] INFO root fetch - processPackages [iolanta]: Downloading https://files.pythonhosted.org/packages/5b/41/e9fcca456c9c1c27bbf3b5fdea8d54a43c391fc0b65244d2a619dcf76841/iolanta-1.0.8.tar.gz
+[2023-08-04 13:21:44] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-08-04 13:21:44] INFO root fetch - processPackages [mypy-boto3-dynamodb]: executing diffoscope
+[2023-08-04 13:21:44] INFO root fetch - processPackages [mypy-boto3-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-dynamodb-1.28.16.tar.gz tmp/mypy-boto3-dynamodb-1.28.19.tar.gz --markdown 20230804/m/mypy-boto3-dynamodb/1.28.16-1.28.19/diff.md --exclude *.pyd
+[2023-08-04 13:21:44] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-08-04 13:21:44] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230804/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-08-04 13:21:44] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-08-04 13:21:44] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230804/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-04 13:21:44] INFO root fetch - processPackages [har2tree]: Downloading https://files.pythonhosted.org/packages/d5/e7/2b2311330f353586a94cd7d47f1c1460458ed98491ec39c490b14a3955a0/har2tree-1.9.2.tar.gz
+[2023-08-04 13:21:44] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-08-04 13:21:44] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230804/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-08-04 13:21:44] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.1.1.tar.gz]
+[2023-08-04 13:21:44] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.1.2.tar.gz]
+[2023-08-04 13:21:44] INFO root fetch - processPackages [rogue-tools]: Start processing: propertize
+[2023-08-04 13:21:44] INFO root fetch - main [MainThread]: End processing [rogue-tools]: success
+[2023-08-04 13:21:44] INFO root fetch - processPackages [har2tree]: executing diffoscope
+[2023-08-04 13:21:44] INFO root fetch - processPackages [har2tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2tree-1.9.1.tar.gz tmp/har2tree-1.9.2.tar.gz --markdown 20230804/h/har2tree/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-04 13:21:44] INFO root fetch - processPackages [propertize]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-04 13:21:45] INFO root fetch - processPackages [pqinput]: Remove: archive file [/home/abi/fetcher/tmp/pqinput-0.0.409.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - processPackages [pqinput]: Remove: archive file [/home/abi/fetcher/tmp/pqinput-0.0.5.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - processPackages [pqinput]: Start processing: ptmethods
+[2023-08-04 13:21:45] INFO root fetch - main [MainThread]: End processing [pqinput]: success
+[2023-08-04 13:21:45] INFO root fetch - processPackages [iolanta]: executing diffoscope
+[2023-08-04 13:21:45] INFO root fetch - processPackages [iolanta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iolanta-1.0.7.tar.gz tmp/iolanta-1.0.8.tar.gz --markdown 20230804/i/iolanta/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-04 13:21:45] INFO root fetch - processPackages [propertize]: Downloading https://files.pythonhosted.org/packages/41/59/d54ff4fb3651b834434b6c6ad2970773fc11019479b2f98d15370957da84/propertize-0.0.1-py3-none-any.whl
+[2023-08-04 13:21:45] INFO root fetch - processPackages [ptmethods]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 13:21:45] INFO root fetch - processPackages [roastedbyai]: Remove: archive file [/home/abi/fetcher/tmp/roastedbyai-0.1.1.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - processPackages [roastedbyai]: Remove: archive file [/home/abi/fetcher/tmp/roastedbyai-1.0.1.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - main [MainThread]: End processing [roastedbyai]: success
+[2023-08-04 13:21:45] INFO root fetch - processPackages [propertize]: Downloading https://files.pythonhosted.org/packages/f0/4b/d4a6e1626b6fe2ec56a2b60da982b5cea328e23f4acc3e7301ec9e69a8c3/propertize-0.0.2.tar.gz
+[2023-08-04 13:21:45] INFO root fetch - processPackages [ptmethods]: Downloading https://files.pythonhosted.org/packages/89/88/f08857f0c93451c729c33452910ab3cf50a47e24a59dd4b716944662035b/ptmethods-1.0.0.tar.gz
+[2023-08-04 13:21:45] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-08-04 13:21:45] INFO root fetch - processPackages [pq-dataset]: Remove: archive file [/home/abi/fetcher/tmp/pq_dataset-1.2.8.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - processPackages [pq-dataset]: Remove: archive file [/home/abi/fetcher/tmp/pq_dataset-1.2.9.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - main [MainThread]: End processing [pq-dataset]: success
+[2023-08-04 13:21:45] INFO root fetch - processPackages [propertize]: executing diffoscope
+[2023-08-04 13:21:45] INFO root fetch - processPackages [propertize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propertize-0.0.1-py3-none-any.whl.zip tmp/propertize-0.0.2.tar.gz --markdown 20230804/p/propertize/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-04 13:21:45] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dynamodb-1.28.16.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - processPackages [mypy-boto3-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-dynamodb-1.28.19.tar.gz]
+[2023-08-04 13:21:45] INFO root fetch - main [MainThread]: End processing [mypy-boto3-dynamodb]: success
+[2023-08-04 13:21:45] INFO root fetch - processPackages [ptmethods]: Downloading https://files.pythonhosted.org/packages/0c/31/ddfa63a4933d6699db6751564fab722bf93d721df9e28809bc42790f8185/ptmethods-1.0.1.tar.gz
+[2023-08-04 13:21:46] INFO root fetch - processPackages [ptmethods]: executing diffoscope
+[2023-08-04 13:21:46] INFO root fetch - processPackages [ptmethods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptmethods-1.0.0.tar.gz tmp/ptmethods-1.0.1.tar.gz --markdown 20230804/p/ptmethods/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 13:21:46] INFO root fetch - processPackages [har2tree]: Remove: archive file [/home/abi/fetcher/tmp/har2tree-1.9.1.tar.gz]
+[2023-08-04 13:21:46] INFO root fetch - processPackages [har2tree]: Remove: archive file [/home/abi/fetcher/tmp/har2tree-1.9.2.tar.gz]
+[2023-08-04 13:21:46] INFO root fetch - main [MainThread]: End processing [har2tree]: success
+[2023-08-04 13:21:46] INFO root fetch - processPackages [iolanta]: Remove: archive file [/home/abi/fetcher/tmp/iolanta-1.0.7.tar.gz]
+[2023-08-04 13:21:46] INFO root fetch - processPackages [iolanta]: Remove: archive file [/home/abi/fetcher/tmp/iolanta-1.0.8.tar.gz]
+[2023-08-04 13:21:46] INFO root fetch - main [MainThread]: End processing [iolanta]: success
+[2023-08-04 13:21:46] INFO root fetch - processPackages [propertize]: Remove: archive file [/home/abi/fetcher/tmp/propertize-0.0.1-py3-none-any.whl.zip]
+[2023-08-04 13:21:46] INFO root fetch - processPackages [propertize]: Remove: archive file [/home/abi/fetcher/tmp/propertize-0.0.2.tar.gz]
+[2023-08-04 13:21:46] INFO root fetch - main [MainThread]: End processing [propertize]: success
+[2023-08-04 13:21:46] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2023-08-04 13:21:46] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2023-08-04 13:21:46] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-08-04 13:21:47] INFO root fetch - processPackages [ptmethods]: Remove: archive file [/home/abi/fetcher/tmp/ptmethods-1.0.0.tar.gz]
+[2023-08-04 13:21:47] INFO root fetch - processPackages [ptmethods]: Remove: archive file [/home/abi/fetcher/tmp/ptmethods-1.0.1.tar.gz]
+[2023-08-04 13:21:47] INFO root fetch - main [MainThread]: End processing [ptmethods]: success
+[2023-08-04 13:21:47] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-08-04 13:21:47] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-08-04 13:21:47] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-08-04 13:21:47] INFO root fetch - main [MainThread]: Store serial: [19173146]
