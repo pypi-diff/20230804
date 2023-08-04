@@ -18753,3 +18753,91 @@
 [2023-08-04 12:18:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-08-04 12:18:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-08-04 12:18:58] INFO root fetch - main [MainThread]: Store serial: [19172568]
+[2023-08-04 12:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172568]
+[2023-08-04 12:24:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xata
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-rke
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-degao
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-render
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorage
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coolpandas
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: drf-pydantic-openapi
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: danling
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-notifications-sdk-preview
+[2023-08-04 12:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-autofixture-squad
+[2023-08-04 12:24:07] INFO root fetch - processPackages [coolpandas]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-04 12:24:07] INFO root fetch - processPackages [xata]: New version: [1.0.0a7] Old Version: [1.0.0a6]
+[2023-08-04 12:24:07] INFO root fetch - processPackages [streamlit-render]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-08-04 12:24:07] INFO root fetch - processPackages [django-autofixture-squad]: New version: [0.12.4] Old Version: [0.12.3.dev1]
+[2023-08-04 12:24:07] INFO root fetch - processPackages [tensorage]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-08-04 12:24:07] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.805] Old Version: [0.1.804]
+[2023-08-04 12:24:07] INFO root fetch - processPackages [danling]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-04 12:24:07] WARNING root fetch - processPackages [test-degao]: Skipping, unable to determine old version
+[2023-08-04 12:24:07] INFO root fetch - processPackages [test-degao]: Start processing: meshlib
+[2023-08-04 12:24:07] INFO root fetch - main [MainThread]: End processing [test-degao] error
+[2023-08-04 12:24:07] INFO root fetch - processPackages [drf-pydantic-openapi]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-04 12:24:07] INFO root fetch - processPackages [pulumi-rke]: New version: [3.3.0a1691141841] Old Version: [3.3.0a1691131721]
+[2023-08-04 12:24:07] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/d1/89/3cdaf9759bad7fd0a41dac93f6ccf3f29a40dc52f77c5bd2d3d5d7ed5720/xata-1.0.0a6.tar.gz
+[2023-08-04 12:24:07] INFO root fetch - processPackages [streamlit-render]: Downloading https://files.pythonhosted.org/packages/b6/30/da71bd131f62d51cd0e4df2e478b88fc881284eac144865d1641b9b5d71c/streamlit-render-0.1.0.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [coolpandas]: Downloading https://files.pythonhosted.org/packages/fe/40/fb2e9bd0c3ef19563fb22edd116a24e27458210d8707de181950c10ec530/coolpandas-0.4.5.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [django-autofixture-squad]: Downloading https://files.pythonhosted.org/packages/1f/6e/14874f8f5dbf50fbd4bf4ef40ce8b0dbc648dfe08d7751767f5a370b8516/django-autofixture-squad-0.12.3.dev1.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/0e/b1/d6519f414448860d51daa191680d379fcde04c6bcf774fbb1557db59d74f/tensorage-0.0.9.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f1/58/a40fd5c114da25e5b61958bdacd9ea088c1ada34610aa31bc667e140df26/lusid-notifications-sdk-preview-0.1.804.tar.gz
+[2023-08-04 12:24:08] WARNING root fetch - processPackages [streamlit-render]: Skipping package: exceeds size limit 29955116>=10485760
+[2023-08-04 12:24:08] INFO root fetch - main [MainThread]: End processing [streamlit-render] error
+[2023-08-04 12:24:08] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/eb/fa/de5f2def4160a45b5f50b4af90280823b803f72d46787da91b47bee6be41/danling-0.2.8.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/8e/a4/5f5b9f0c79b58a8d557fc1def292feac6b0c6c597a9ef480e0d5b4f23417/pulumi_rke-3.3.0a1691131721.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [drf-pydantic-openapi]: Downloading https://files.pythonhosted.org/packages/49/76/557152a0e0c6a4d8da32c0b682b7152d690cb08534681a44486b1e2fcc69/drf_pydantic_openapi-0.4.1.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [coolpandas]: Downloading https://files.pythonhosted.org/packages/5e/ae/b5113a3546f1c00cfda3844af0e4f200ef9d567b3ed91a74e41c3eb965a4/coolpandas-0.4.6.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [meshlib]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-08-04 12:24:08] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/d0/4a/d3e7e4f4bc3338de1045e7e396e27806ce7d00239f11aeff891cc17088a3/xata-1.0.0a7.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/3b/27/c6ebd23f8a9d183b67c3a975e7f446a564986d38c8f79945b1a61b1f7c65/tensorage-0.1.0.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [django-autofixture-squad]: Downloading https://files.pythonhosted.org/packages/f5/2f/3cab7e34e44adf98a08b5f925f3b66c34b63ea6e3b004000e29aa798039f/django-autofixture-squad-0.12.4.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ca/ae/2fd1b60862f4557e66f6db2fd88e9f73e64904930246dbeb2238561f4f41/lusid-notifications-sdk-preview-0.1.805.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [coolpandas]: executing diffoscope
+[2023-08-04 12:24:08] INFO root fetch - processPackages [coolpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolpandas-0.4.5.tar.gz tmp/coolpandas-0.4.6.tar.gz --markdown 20230804/c/coolpandas/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-04 12:24:08] INFO root fetch - processPackages [xata]: executing diffoscope
+[2023-08-04 12:24:08] INFO root fetch - processPackages [xata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xata-1.0.0a6.tar.gz tmp/xata-1.0.0a7.tar.gz --markdown 20230804/x/xata/1.0.0a6-1.0.0a7/diff.md --exclude *.pyd
+[2023-08-04 12:24:08] INFO root fetch - processPackages [meshlib]: Downloading https://files.pythonhosted.org/packages/a4/01/0f02a7206a172ca8fd35d7da405b620bdb02d0d2014f6b8bf7877eb92e7c/meshlib-2.2.0-cp39-none-win_amd64.whl
+[2023-08-04 12:24:08] INFO root fetch - processPackages [drf-pydantic-openapi]: Downloading https://files.pythonhosted.org/packages/c5/21/351e67e7d4d298f64c5eecd7977334b0581e8f09391a4405c9005e7463f4/drf_pydantic_openapi-0.4.2.tar.gz
+[2023-08-04 12:24:08] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-08-04 12:24:08] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.9.tar.gz tmp/tensorage-0.1.0.tar.gz --markdown 20230804/t/tensorage/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-08-04 12:24:08] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/60/e4/767096ceab45180dbbbf543c5f70778b3ba40fc19d2f3774aa36f5b733b6/pulumi_rke-3.3.0a1691141841.tar.gz
+[2023-08-04 12:24:08] WARNING root fetch - processPackages [meshlib]: Skipping package: exceeds size limit 13196118>=10485760
+[2023-08-04 12:24:08] INFO root fetch - main [MainThread]: End processing [meshlib] error
+[2023-08-04 12:24:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-08-04 12:24:08] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.804.tar.gz tmp/lusid-notifications-sdk-preview-0.1.805.tar.gz --markdown 20230804/l/lusid-notifications-sdk-preview/0.1.804-0.1.805/diff.md --exclude *.pyd
+[2023-08-04 12:24:08] INFO root fetch - processPackages [django-autofixture-squad]: executing diffoscope
+[2023-08-04 12:24:08] INFO root fetch - processPackages [django-autofixture-squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autofixture-squad-0.12.3.dev1.tar.gz tmp/django-autofixture-squad-0.12.4.tar.gz --markdown 20230804/d/django-autofixture-squad/0.12.3.dev1-0.12.4/diff.md --exclude *.pyd
+[2023-08-04 12:24:08] INFO root fetch - processPackages [drf-pydantic-openapi]: executing diffoscope
+[2023-08-04 12:24:08] INFO root fetch - processPackages [drf-pydantic-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_pydantic_openapi-0.4.1.tar.gz tmp/drf_pydantic_openapi-0.4.2.tar.gz --markdown 20230804/d/drf-pydantic-openapi/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-04 12:24:08] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2023-08-04 12:24:08] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.3.0a1691131721.tar.gz tmp/pulumi_rke-3.3.0a1691141841.tar.gz --markdown 20230804/p/pulumi-rke/3.3.0a1691131721-3.3.0a1691141841/diff.md --exclude *.pyd
+[2023-08-04 12:24:09] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/73/a7/97b5a6bb02e949a47e52eeed99053b0ebe6a580018dc0ac4478973b528f2/danling-0.2.9.tar.gz
+[2023-08-04 12:24:10] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-1.0.0a6.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-1.0.0a7.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - main [MainThread]: End processing [xata]: success
+[2023-08-04 12:24:10] INFO root fetch - processPackages [coolpandas]: Remove: archive file [/home/abi/fetcher/tmp/coolpandas-0.4.5.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - processPackages [coolpandas]: Remove: archive file [/home/abi/fetcher/tmp/coolpandas-0.4.6.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - main [MainThread]: End processing [coolpandas]: success
+[2023-08-04 12:24:10] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1691131721.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1691141841.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2023-08-04 12:24:10] INFO root fetch - processPackages [django-autofixture-squad]: Remove: archive file [/home/abi/fetcher/tmp/django-autofixture-squad-0.12.3.dev1.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - processPackages [django-autofixture-squad]: Remove: archive file [/home/abi/fetcher/tmp/django-autofixture-squad-0.12.4.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - main [MainThread]: End processing [django-autofixture-squad]: success
+[2023-08-04 12:24:10] INFO root fetch - processPackages [drf-pydantic-openapi]: Remove: archive file [/home/abi/fetcher/tmp/drf_pydantic_openapi-0.4.1.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - processPackages [drf-pydantic-openapi]: Remove: archive file [/home/abi/fetcher/tmp/drf_pydantic_openapi-0.4.2.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - main [MainThread]: End processing [drf-pydantic-openapi]: success
+[2023-08-04 12:24:10] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.9.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.1.0.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-08-04 12:24:10] INFO root fetch - processPackages [danling]: executing diffoscope
+[2023-08-04 12:24:10] INFO root fetch - processPackages [danling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danling-0.2.8.tar.gz tmp/danling-0.2.9.tar.gz --markdown 20230804/d/danling/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-04 12:24:10] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.804.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.805.tar.gz]
+[2023-08-04 12:24:10] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-08-04 12:24:11] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.2.8.tar.gz]
+[2023-08-04 12:24:11] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.2.9.tar.gz]
+[2023-08-04 12:24:11] INFO root fetch - main [MainThread]: End processing [danling]: success
+[2023-08-04 12:24:11] INFO root fetch - main [MainThread]: Store serial: [19172607]
