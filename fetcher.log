@@ -13707,3 +13707,81 @@
 [2023-08-04 08:15:02] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230803.tar.gz]
 [2023-08-04 08:15:02] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-08-04 08:15:02] INFO root fetch - main [MainThread]: Store serial: [19170352]
+[2023-08-04 08:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170352]
+[2023-08-04 08:20:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gymnasium-connect-four
+[2023-08-04 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhmcclient
+[2023-08-04 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-ec
+[2023-08-04 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nemusicapi
+[2023-08-04 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretext
+[2023-08-04 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: httpdbg
+[2023-08-04 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mail-template-substitute
+[2023-08-04 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atooms-pp
+[2023-08-04 08:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: json-five
+[2023-08-04 08:20:12] INFO root fetch - processPackages [nemusicapi]: New version: [0.1.1a7] Old Version: [0.1.1a6]
+[2023-08-04 08:20:12] INFO root fetch - processPackages [atooms-pp]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-08-04 08:20:12] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-04 08:20:12] INFO root fetch - processPackages [pretext]: New version: [1.7.5.dev20230803] Old Version: [1.7.5.dev20230802]
+[2023-08-04 08:20:12] INFO root fetch - processPackages [httpdbg]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-08-04 08:20:12] INFO root fetch - processPackages [json-five]: New version: [1.1.0] Old Version: [1.0.0rc1]
+[2023-08-04 08:20:12] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1691128234] Old Version: [0.5.2a1691041082]
+[2023-08-04 08:20:12] INFO root fetch - processPackages [zhmcclient]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-04 08:20:12] WARNING root fetch - processPackages [odoo-addon-mail-template-substitute]: Skipping, unable to determine old version
+[2023-08-04 08:20:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-template-substitute] error
+[2023-08-04 08:20:12] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/1a/0c/48a51f30d8dab240bdb8b08c6de897d32054ea8541651ed7e6bbc2b78465/nemusicapi-0.1.1a6.tar.gz
+[2023-08-04 08:20:12] INFO root fetch - processPackages [atooms-pp]: Downloading https://files.pythonhosted.org/packages/54/3c/9d85cb471a9e9bc08176cc335b5424ff93c27933867fdfbd0ea28208ba68/atooms-pp-3.3.1.tar.gz
+[2023-08-04 08:20:12] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/10/f4/defb331698a308599ed8b42d485055ad865716bbf775b2c81a05f638aeb3/gymnasium_connect_four-1.2.8.tar.gz
+[2023-08-04 08:20:12] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/01/e6/84f675ac5d1a682050bc332eb7ce65feef2ec133aaea945a4a3072da79e9/pulumi_ec-0.5.2a1691041082.tar.gz
+[2023-08-04 08:20:12] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/cb/d1/964ae60792ae048f8a82cbc9e33e6c7dada1f23038f2d175a441c3ff1550/pretext-1.7.5.dev20230802.tar.gz
+[2023-08-04 08:20:12] INFO root fetch - processPackages [httpdbg]: Downloading https://files.pythonhosted.org/packages/1b/a3/7ed2c38b442075d27c204ae158c8a5530b5bc2a235e643230cc563cf6229/httpdbg-0.8.5.tar.gz
+[2023-08-04 08:20:12] INFO root fetch - processPackages [json-five]: Downloading https://files.pythonhosted.org/packages/3b/f7/ddcdc5e2ec36b89e5da1fb8a038e44c630a00e0f071ff5a6989701af0fce/json-five-1.0.0rc1.tar.gz
+[2023-08-04 08:20:12] INFO root fetch - processPackages [zhmcclient]: Downloading https://files.pythonhosted.org/packages/0e/0c/964970a0c6e1bbc3ab9c05b2d48d132b17e4df96f13e8a91fd396bd09d3a/zhmcclient-1.9.0.tar.gz
+[2023-08-04 08:20:13] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/08/06/530d2f66492e3ae5837ac5bae44c3657b46d68da1634a37ffdb46fa128b9/nemusicapi-0.1.1a7.tar.gz
+[2023-08-04 08:20:13] INFO root fetch - processPackages [atooms-pp]: Downloading https://files.pythonhosted.org/packages/61/93/3dfe91dc6ed79b5cc2bfc84c878a937aa95d05e83d189357fe1547d775cb/atooms-pp-3.3.2.tar.gz
+[2023-08-04 08:20:13] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-04 08:20:13] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.1.1a6.tar.gz tmp/nemusicapi-0.1.1a7.tar.gz --markdown 20230804/n/nemusicapi/0.1.1a6-0.1.1a7/diff.md --exclude *.pyd
+[2023-08-04 08:20:13] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/89/82/db53e26c7ee24b313627d1d98a8e8a5e7b7a45aee6c81e8e50b060871db9/gymnasium_connect_four-1.2.9.tar.gz
+[2023-08-04 08:20:13] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/5f/6d/dfb0a44f6798e6304995a43ce4fcfd439532efd170e0aaa869b2837c7e8c/pulumi_ec-0.5.2a1691128234.tar.gz
+[2023-08-04 08:20:13] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/40/06/061bc50fe4f98551c89f8984c278d3bdd14e2e59dfb33f8653a9fc8808d2/pretext-1.7.5.dev20230803.tar.gz
+[2023-08-04 08:20:13] INFO root fetch - processPackages [atooms-pp]: executing diffoscope
+[2023-08-04 08:20:13] INFO root fetch - processPackages [atooms-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atooms-pp-3.3.1.tar.gz tmp/atooms-pp-3.3.2.tar.gz --markdown 20230804/a/atooms-pp/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-08-04 08:20:13] INFO root fetch - processPackages [json-five]: Downloading https://files.pythonhosted.org/packages/1b/94/688006192dae9cefc565bf1721e18c04e9af288bb48d362ce3955bcc93bf/json-five-1.1.0.tar.gz
+[2023-08-04 08:20:13] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-08-04 08:20:13] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.8.tar.gz tmp/gymnasium_connect_four-1.2.9.tar.gz --markdown 20230804/g/gymnasium-connect-four/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-04 08:20:13] INFO root fetch - processPackages [httpdbg]: Downloading https://files.pythonhosted.org/packages/b7/73/efb34ac06e425eb86724d0adc4860d55bd8a6ef41114ccd9bd3d400e2dc7/httpdbg-0.9.0.tar.gz
+[2023-08-04 08:20:13] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-08-04 08:20:13] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1691041082.tar.gz tmp/pulumi_ec-0.5.2a1691128234.tar.gz --markdown 20230804/p/pulumi-ec/0.5.2a1691041082-0.5.2a1691128234/diff.md --exclude *.pyd
+[2023-08-04 08:20:13] INFO root fetch - processPackages [json-five]: executing diffoscope
+[2023-08-04 08:20:13] INFO root fetch - processPackages [json-five]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-five-1.0.0rc1.tar.gz tmp/json-five-1.1.0.tar.gz --markdown 20230804/j/json-five/1.0.0rc1-1.1.0/diff.md --exclude *.pyd
+[2023-08-04 08:20:13] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-08-04 08:20:13] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.5.dev20230802.tar.gz tmp/pretext-1.7.5.dev20230803.tar.gz --markdown 20230804/p/pretext/1.7.5.dev20230802-1.7.5.dev20230803/diff.md --exclude *.pyd
+[2023-08-04 08:20:13] INFO root fetch - processPackages [httpdbg]: executing diffoscope
+[2023-08-04 08:20:13] INFO root fetch - processPackages [httpdbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpdbg-0.8.5.tar.gz tmp/httpdbg-0.9.0.tar.gz --markdown 20230804/h/httpdbg/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 08:20:13] INFO root fetch - processPackages [zhmcclient]: Downloading https://files.pythonhosted.org/packages/ed/29/10ff2889bfdaf787fbe20b876c4f385ead83ab8bf1db279f7647d6613e38/zhmcclient-1.9.1.tar.gz
+[2023-08-04 08:20:13] INFO root fetch - processPackages [zhmcclient]: executing diffoscope
+[2023-08-04 08:20:13] INFO root fetch - processPackages [zhmcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmcclient-1.9.0.tar.gz tmp/zhmcclient-1.9.1.tar.gz --markdown 20230804/z/zhmcclient/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-04 08:20:14] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a6.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a7.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-04 08:20:14] INFO root fetch - processPackages [atooms-pp]: Remove: archive file [/home/abi/fetcher/tmp/atooms-pp-3.3.1.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - processPackages [atooms-pp]: Remove: archive file [/home/abi/fetcher/tmp/atooms-pp-3.3.2.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - main [MainThread]: End processing [atooms-pp]: success
+[2023-08-04 08:20:14] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.8.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.9.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-08-04 08:20:14] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1691041082.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.5.2a1691128234.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-08-04 08:20:14] INFO root fetch - processPackages [json-five]: Remove: archive file [/home/abi/fetcher/tmp/json-five-1.0.0rc1.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - processPackages [json-five]: Remove: archive file [/home/abi/fetcher/tmp/json-five-1.1.0.tar.gz]
+[2023-08-04 08:20:14] INFO root fetch - main [MainThread]: End processing [json-five]: success
+[2023-08-04 08:20:15] INFO root fetch - processPackages [zhmcclient]: Remove: archive file [/home/abi/fetcher/tmp/zhmcclient-1.9.0.tar.gz]
+[2023-08-04 08:20:15] INFO root fetch - processPackages [zhmcclient]: Remove: archive file [/home/abi/fetcher/tmp/zhmcclient-1.9.1.tar.gz]
+[2023-08-04 08:20:15] INFO root fetch - main [MainThread]: End processing [zhmcclient]: success
+[2023-08-04 08:20:15] INFO root fetch - processPackages [httpdbg]: Remove: archive file [/home/abi/fetcher/tmp/httpdbg-0.8.5.tar.gz]
+[2023-08-04 08:20:15] INFO root fetch - processPackages [httpdbg]: Remove: archive file [/home/abi/fetcher/tmp/httpdbg-0.9.0.tar.gz]
+[2023-08-04 08:20:15] INFO root fetch - main [MainThread]: End processing [httpdbg]: success
+[2023-08-04 08:20:17] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230802.tar.gz]
+[2023-08-04 08:20:17] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230803.tar.gz]
+[2023-08-04 08:20:17] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-08-04 08:20:17] INFO root fetch - main [MainThread]: Store serial: [19170378]
