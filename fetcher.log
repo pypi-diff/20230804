@@ -9328,3 +9328,125 @@
 [2023-08-04 03:31:57] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.94.tar.gz]
 [2023-08-04 03:31:57] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-08-04 03:31:57] INFO root fetch - main [MainThread]: Store serial: [19168387]
+[2023-08-04 03:37:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19168387]
+[2023-08-04 03:37:20] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unbeheader
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckdb
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deserve
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-stdlib
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hojichar
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pih
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modflow-devtools
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metrics-layer
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-numpy
+[2023-08-04 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graphstorm
+[2023-08-04 03:37:20] INFO root fetch - processPackages [modflow-devtools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-04 03:37:20] INFO root fetch - processPackages [pih]: New version: [1.48033] Old Version: [1.48032]
+[2023-08-04 03:37:20] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 03:37:20] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 03:37:20] INFO root fetch - processPackages [unbeheader]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-08-04 03:37:20] INFO root fetch - processPackages [hojichar]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-08-04 03:37:20] WARNING root fetch - processPackages [deserve]: Skipping, unable to determine old version
+[2023-08-04 03:37:20] INFO root fetch - processPackages [deserve]: Start processing: OnlySnarf
+[2023-08-04 03:37:20] INFO root fetch - main [MainThread]: End processing [deserve] error
+[2023-08-04 03:37:20] INFO root fetch - processPackages [graphstorm]: New version: [0.1.2] Old Version: [0.1.1rc2]
+[2023-08-04 03:37:20] INFO root fetch - processPackages [metrics-layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-04 03:37:20] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev2399] Old Version: [0.8.2.dev2356]
+[2023-08-04 03:37:20] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/94/8f/50a206f516d42472dabe45d32cb918144c2f0f6847e6cd2bf1a6f44957fa/pih-1.48032.tar.gz
+[2023-08-04 03:37:20] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-08-04 03:37:20] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-04 03:37:20] INFO root fetch - processPackages [modflow-devtools]: Downloading https://files.pythonhosted.org/packages/10/b1/aaf961cb2eb7596bc435dc4eaecefafba455a1b9774c6c5fb89e19699b59/modflow-devtools-0.2.0.tar.gz
+[2023-08-04 03:37:20] INFO root fetch - processPackages [OnlySnarf]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-08-04 03:37:20] INFO root fetch - processPackages [unbeheader]: Downloading https://files.pythonhosted.org/packages/b3/22/39f09a6eebc2299613cec805fa1952b41cfbb85c8f2f92f970d88f2bb169/unbeheader-1.0.2.tar.gz
+[2023-08-04 03:37:20] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/44/28/1469c43f4eda77463c12114635318f27a0dd66ef8f64d8cdbfca6e3b6c63/hojichar-0.8.0.tar.gz
+[2023-08-04 03:37:20] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2023-08-04 03:37:20] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/a9/1b/f7d033aa939bc71bd8b1efed5e624f815cb6ec0339522573248e15011f17/duckdb-0.8.2.dev2356.tar.gz
+[2023-08-04 03:37:20] INFO root fetch - processPackages [graphstorm]: Downloading https://files.pythonhosted.org/packages/cf/a3/d211e6f847bd8b6ffe543e5b3ab2e5c75260ce9667bd8f6447415ffee5d0/graphstorm-0.1.1rc2-py3-none-any.whl
+[2023-08-04 03:37:20] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/0f/f6/84fc889ebd85b8e3437cd9d2bf4e828b1eda878caf9d1e54a3870f8a94e5/OnlySnarf-4.5.8.tar.gz
+[2023-08-04 03:37:20] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10523440>=10485760
+[2023-08-04 03:37:20] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-08-04 03:37:20] INFO root fetch - processPackages [duckdb]: Start processing: nbdev-pandas
+[2023-08-04 03:37:20] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-08-04 03:37:21] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/5b/1e/e77453233c5276676c185524218850ae52365553cb8dc9bba7c1eff0c5af/pih-1.48033.tar.gz
+[2023-08-04 03:37:21] INFO root fetch - processPackages [modflow-devtools]: Downloading https://files.pythonhosted.org/packages/05/a4/47f585d7dff50454b3967521d935fec181b541e4821fba707610d9e1fc3e/modflow-devtools-0.3.0.tar.gz
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230804/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 03:37:21] INFO root fetch - processPackages [unbeheader]: Downloading https://files.pythonhosted.org/packages/7a/3d/c2c547534bedd17dd698a204c57f6820d7fee62af14516f586e37b9f7782/unbeheader-1.0.4.tar.gz
+[2023-08-04 03:37:21] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/89/27/e74a16abac4f326bd3116608b8e88b416676fc048b95724c90a16824542d/hojichar-0.8.1.tar.gz
+[2023-08-04 03:37:21] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48032.tar.gz tmp/pih-1.48033.tar.gz --markdown 20230804/p/pih/1.48032-1.48033/diff.md --exclude *.pyd
+[2023-08-04 03:37:21] INFO root fetch - processPackages [modflow-devtools]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [modflow-devtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modflow-devtools-0.2.0.tar.gz tmp/modflow-devtools-0.3.0.tar.gz --markdown 20230804/m/modflow-devtools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-08-04 03:37:21] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230804/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 03:37:21] INFO root fetch - processPackages [hojichar]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [hojichar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hojichar-0.8.0.tar.gz tmp/hojichar-0.8.1.tar.gz --markdown 20230804/h/hojichar/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-08-04 03:37:21] INFO root fetch - processPackages [OnlySnarf]: Downloading https://files.pythonhosted.org/packages/9e/ab/1754c617eb088da7b3bc2103d54f483540c6dafb49127cd16340878b1314/OnlySnarf-4.5.9.tar.gz
+[2023-08-04 03:37:21] INFO root fetch - processPackages [graphstorm]: Downloading https://files.pythonhosted.org/packages/3e/b8/2d3523a31f478181cfbf5262d1dc873639c0710006e912555206c17c165c/graphstorm-0.1.2-py3-none-any.whl
+[2023-08-04 03:37:21] INFO root fetch - processPackages [metrics-layer]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [metrics-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20230804/m/metrics-layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-04 03:37:21] INFO root fetch - processPackages [unbeheader]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [unbeheader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbeheader-1.0.2.tar.gz tmp/unbeheader-1.0.4.tar.gz --markdown 20230804/u/unbeheader/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-08-04 03:37:21] INFO root fetch - processPackages [OnlySnarf]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [OnlySnarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OnlySnarf-4.5.8.tar.gz tmp/OnlySnarf-4.5.9.tar.gz --markdown 20230804/O/OnlySnarf/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-08-04 03:37:21] INFO root fetch - processPackages [graphstorm]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [graphstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphstorm-0.1.1rc2-py3-none-any.whl.zip tmp/graphstorm-0.1.2-py3-none-any.whl.zip --markdown 20230804/g/graphstorm/0.1.1rc2-0.1.2/diff.md --exclude *.pyd
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-08-04 03:37:21] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230804/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 03:37:22] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48032.tar.gz]
+[2023-08-04 03:37:22] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48033.tar.gz]
+[2023-08-04 03:37:22] INFO root fetch - processPackages [pih]: Start processing: nbdev-pytorch
+[2023-08-04 03:37:22] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-04 03:37:22] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-08-04 03:37:22] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-08-04 03:37:22] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: sqlx-exec
+[2023-08-04 03:37:22] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-08-04 03:37:22] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 03:37:22] INFO root fetch - processPackages [sqlx-exec]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-08-04 03:37:22] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-04 03:37:22] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-04 03:37:22] INFO root fetch - processPackages [nbdev-numpy]: Start processing: gui-interface
+[2023-08-04 03:37:22] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-04 03:37:22] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.8.0.tar.gz]
+[2023-08-04 03:37:22] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.8.1.tar.gz]
+[2023-08-04 03:37:22] INFO root fetch - main [MainThread]: End processing [hojichar]: success
+[2023-08-04 03:37:22] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-08-04 03:37:23] WARNING root fetch - processPackages [gui-interface]: Skipping, unable to determine old version
+[2023-08-04 03:37:23] INFO root fetch - main [MainThread]: End processing [gui-interface] error
+[2023-08-04 03:37:23] INFO root fetch - processPackages [unbeheader]: Remove: archive file [/home/abi/fetcher/tmp/unbeheader-1.0.2.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - processPackages [unbeheader]: Remove: archive file [/home/abi/fetcher/tmp/unbeheader-1.0.4.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - main [MainThread]: End processing [unbeheader]: success
+[2023-08-04 03:37:23] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
+[2023-08-04 03:37:23] INFO root fetch - processPackages [modflow-devtools]: Remove: archive file [/home/abi/fetcher/tmp/modflow-devtools-0.2.0.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - processPackages [modflow-devtools]: Remove: archive file [/home/abi/fetcher/tmp/modflow-devtools-0.3.0.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - main [MainThread]: End processing [modflow-devtools]: success
+[2023-08-04 03:37:23] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/01/e0/eab0a4361ea40e4b2f7fbd28b8c107553860b527d69a42c036d122307f56/sqlx-exec-1.4.5.tar.gz
+[2023-08-04 03:37:23] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-08-04 03:37:23] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-08-04 03:37:23] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.8.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - processPackages [OnlySnarf]: Remove: archive file [/home/abi/fetcher/tmp/OnlySnarf-4.5.9.tar.gz]
+[2023-08-04 03:37:23] INFO root fetch - main [MainThread]: End processing [OnlySnarf]: success
+[2023-08-04 03:37:23] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-08-04 03:37:23] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230804/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 03:37:23] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/9d/01/2424f5e27a1313fd65f2252ffb71cae46b9edf551276a07093d3681f6462/sqlx-exec-1.4.6.tar.gz
+[2023-08-04 03:37:23] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-08-04 03:37:23] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.4.5.tar.gz tmp/sqlx-exec-1.4.6.tar.gz --markdown 20230804/s/sqlx-exec/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-08-04 03:37:23] INFO root fetch - processPackages [graphstorm]: Remove: archive file [/home/abi/fetcher/tmp/graphstorm-0.1.1rc2-py3-none-any.whl.zip]
+[2023-08-04 03:37:23] INFO root fetch - processPackages [graphstorm]: Remove: archive file [/home/abi/fetcher/tmp/graphstorm-0.1.2-py3-none-any.whl.zip]
+[2023-08-04 03:37:23] INFO root fetch - main [MainThread]: End processing [graphstorm]: success
+[2023-08-04 03:37:24] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-08-04 03:37:24] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-08-04 03:37:24] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-08-04 03:37:24] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.5.tar.gz]
+[2023-08-04 03:37:24] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.6.tar.gz]
+[2023-08-04 03:37:24] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-08-04 03:37:24] INFO root fetch - main [MainThread]: Store serial: [19168500]
