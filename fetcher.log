@@ -2495,3 +2495,150 @@
 [2023-08-04 02:03:54] INFO root fetch - processPackages [symphony-familiarity]: Remove: archive file [/home/abi/fetcher/tmp/symphony_familiarity-1.0.1.tar.gz]
 [2023-08-04 02:03:54] INFO root fetch - main [MainThread]: End processing [symphony-familiarity]: success
 [2023-08-04 02:03:54] INFO root fetch - main [MainThread]: Store serial: [19165986]
+[2023-08-04 02:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19165986]
+[2023-08-04 02:09:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symphony-list
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symphony-markdown
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: symphony-scatterplot
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: symphony-summary
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dvc-data
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: symphony-vega
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxkern-nightly
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywaterml
+[2023-08-04 02:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mecha
+[2023-08-04 02:09:07] WARNING root fetch - processPackages [symphony-summary]: Skipping, unable to determine old version
+[2023-08-04 02:09:07] INFO root fetch - processPackages [symphony-summary]: Start processing: jaxutils-nightly
+[2023-08-04 02:09:07] INFO root fetch - main [MainThread]: End processing [symphony-summary] error
+[2023-08-04 02:09:07] INFO root fetch - processPackages [mecha]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-04 02:09:07] WARNING root fetch - processPackages [symphony-vega]: Skipping, unable to determine old version
+[2023-08-04 02:09:07] INFO root fetch - processPackages [symphony-vega]: Start processing: async-fastapi-jwt-auth
+[2023-08-04 02:09:07] INFO root fetch - main [MainThread]: End processing [symphony-vega] error
+[2023-08-04 02:09:07] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-08-04 02:09:07] INFO root fetch - processPackages [dvc-data]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-08-04 02:09:07] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230803.post430] Old Version: [1.9.0.20230802.post405]
+[2023-08-04 02:09:07] INFO root fetch - processPackages [symphony-list]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 02:09:07] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/28/57/da22dd551f33f6b582c19b734b74b26aee1d4803dcb574a2f1364532ba4d/mecha-0.9.1.tar.gz
+[2023-08-04 02:09:07] INFO root fetch - processPackages [symphony-markdown]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 02:09:07] INFO root fetch - processPackages [pywaterml]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-04 02:09:07] INFO root fetch - processPackages [symphony-scatterplot]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 02:09:07] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-08-04 02:09:07] INFO root fetch - processPackages [async-fastapi-jwt-auth]: New version: [0.6] Old Version: [0.5.1]
+[2023-08-04 02:09:07] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230804] Old Version: [0.0.8.dev20230803]
+[2023-08-04 02:09:07] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/3a/01/1eb16026b61e74cf4dbd564a51839495edb9d74bb2ec635e4c237a03ccee/dvc-data-2.9.0.tar.gz
+[2023-08-04 02:09:07] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/da/de/7d31e9e873e1878321886d6ea6c43db05f3b1886a64ad048f5ba4fef8ff5/jaxutils-nightly-0.0.8.dev20230803.tar.gz
+[2023-08-04 02:09:07] INFO root fetch - processPackages [symphony-list]: Downloading https://files.pythonhosted.org/packages/2d/03/525df1798e8322cbbc585c952e58cb635418e4ecbe62532445eb7811c4b7/symphony_list-1.0.0.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/07/ed/194ff64c31bde235ec6ecf18904abe7c58312d4d7fb70ed38423a168120c/mct-nightly-1.9.0.20230802.post405.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [symphony-markdown]: Downloading https://files.pythonhosted.org/packages/c0/8d/00d4a725caaf41adc57c46403646a1172bbe107d00638e9bf2fbec115e7f/symphony_markdown-1.0.0.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [pywaterml]: Downloading https://files.pythonhosted.org/packages/ae/cc/3aa77e0cd73abcceadf696e057e84330b63c9a52de9ccfc1eb1293edf4fe/pywaterml-1.2.8.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [symphony-scatterplot]: Downloading https://files.pythonhosted.org/packages/5e/b4/11708b84d524c989a90620e6342078a37e3863f707a0cae0d3c40f420a16/symphony_scatterplot-1.0.0.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [async-fastapi-jwt-auth]: Downloading https://files.pythonhosted.org/packages/97/1c/03845297ea15655a4e4d06e8a27d45b2a7209f44194dd80a4618edaaa1a3/async_fastapi_jwt_auth-0.5.1.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/6f/a1/0f57164803886c9e226d6e5c23400fa86bc0a33db9e0dde0312bc627047f/mecha-0.9.2.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [dvc-data]: Downloading https://files.pythonhosted.org/packages/e3/05/abe23e9616d06c4974f814b4407b17fa0365e4745b76ee804484cad69120/dvc-data-2.9.1.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-08-04 02:09:08] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230804/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-08-04 02:09:08] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/31/88/a454dd936e6b031b2fbc529f80408753601f2c847d449a020b69d256d712/jaxutils-nightly-0.0.8.dev20230804.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [mecha]: executing diffoscope
+[2023-08-04 02:09:08] INFO root fetch - processPackages [mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecha-0.9.1.tar.gz tmp/mecha-0.9.2.tar.gz --markdown 20230804/m/mecha/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-04 02:09:08] INFO root fetch - processPackages [dvc-data]: executing diffoscope
+[2023-08-04 02:09:08] INFO root fetch - processPackages [dvc-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-data-2.9.0.tar.gz tmp/dvc-data-2.9.1.tar.gz --markdown 20230804/d/dvc-data/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-08-04 02:09:08] INFO root fetch - processPackages [async-fastapi-jwt-auth]: Downloading https://files.pythonhosted.org/packages/72/72/f76837872cfee59d21eccbfb537f297fce1160b18ba123f96e14c93fd6ba/async_fastapi_jwt_auth-0.6.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [symphony-list]: Downloading https://files.pythonhosted.org/packages/73/09/78199850d27b1d56bbe01d27f89a254cfe6d1cb2c332f659e62c1212a27c/symphony_list-1.0.1.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [symphony-markdown]: Downloading https://files.pythonhosted.org/packages/47/91/5397dc4df9185dcd041c0edd5a33a6972833b2ae49dcdc7e442c84e20ac1/symphony_markdown-1.0.1.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [pywaterml]: Downloading https://files.pythonhosted.org/packages/43/df/ee440e89bb799aacc6167f749c745d7080fd1b6d0163691ed2eb204787a7/pywaterml-1.2.9.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [symphony-scatterplot]: Downloading https://files.pythonhosted.org/packages/a9/0b/175d572b3d9b8ce71cf042f7016f2a6c621f9cba5056a858df6b6dedbee7/symphony_scatterplot-1.0.1.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/fd/dd/d9dff41a115bb56ef71f1d376f557748360929ae1aad47fb77b3788a472c/mct-nightly-1.9.0.20230803.post430.tar.gz
+[2023-08-04 02:09:08] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-08-04 02:09:08] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230803.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230804.tar.gz --markdown 20230804/j/jaxutils-nightly/0.0.8.dev20230803-0.0.8.dev20230804/diff.md --exclude *.pyd
+[2023-08-04 02:09:08] INFO root fetch - processPackages [async-fastapi-jwt-auth]: executing diffoscope
+[2023-08-04 02:09:08] INFO root fetch - processPackages [async-fastapi-jwt-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_fastapi_jwt_auth-0.5.1.tar.gz tmp/async_fastapi_jwt_auth-0.6.tar.gz --markdown 20230804/a/async-fastapi-jwt-auth/0.5.1-0.6/diff.md --exclude *.pyd
+[2023-08-04 02:09:08] INFO root fetch - processPackages [pywaterml]: executing diffoscope
+[2023-08-04 02:09:08] INFO root fetch - processPackages [pywaterml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywaterml-1.2.8.tar.gz tmp/pywaterml-1.2.9.tar.gz --markdown 20230804/p/pywaterml/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-04 02:09:08] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-08-04 02:09:08] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230802.post405.tar.gz tmp/mct-nightly-1.9.0.20230803.post430.tar.gz --markdown 20230804/m/mct-nightly/1.9.0.20230802.post405-1.9.0.20230803.post430/diff.md --exclude *.pyd
+[2023-08-04 02:09:09] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-08-04 02:09:09] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-08-04 02:09:09] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: onnxscript-preview
+[2023-08-04 02:09:09] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-08-04 02:09:09] INFO root fetch - processPackages [onnxscript-preview]: New version: [0.1.0.dev20230803] Old Version: [0.1.0.dev20230802]
+[2023-08-04 02:09:09] INFO root fetch - processPackages [onnxscript-preview]: Downloading https://files.pythonhosted.org/packages/b6/19/01866e953486a6eb36827d75e89458d3e3a508e6db350754dbb0d8c1fe26/onnxscript_preview-0.1.0.dev20230802-py3-none-any.whl
+[2023-08-04 02:09:09] INFO root fetch - processPackages [symphony-list]: executing diffoscope
+[2023-08-04 02:09:09] INFO root fetch - processPackages [symphony-markdown]: executing diffoscope
+[2023-08-04 02:09:09] INFO root fetch - processPackages [symphony-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_list-1.0.0.tar.gz tmp/symphony_list-1.0.1.tar.gz --markdown 20230804/s/symphony-list/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 02:09:09] INFO root fetch - processPackages [symphony-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_markdown-1.0.0.tar.gz tmp/symphony_markdown-1.0.1.tar.gz --markdown 20230804/s/symphony-markdown/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 02:09:09] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.9.1.tar.gz]
+[2023-08-04 02:09:09] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.9.2.tar.gz]
+[2023-08-04 02:09:09] INFO root fetch - processPackages [mecha]: Start processing: ml-compiler-opt
+[2023-08-04 02:09:09] INFO root fetch - main [MainThread]: End processing [mecha]: success
+[2023-08-04 02:09:09] INFO root fetch - processPackages [onnxscript-preview]: Downloading https://files.pythonhosted.org/packages/39/35/c37a35f3d96b051936e11a55674a271471a587f8560fb83185e66b052240/onnxscript_preview-0.1.0.dev20230803-py3-none-any.whl
+[2023-08-04 02:09:09] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230803.tar.gz]
+[2023-08-04 02:09:09] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230804.tar.gz]
+[2023-08-04 02:09:09] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: torchlayers-nightly
+[2023-08-04 02:09:09] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-08-04 02:09:09] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202308040007] Old Version: [0.0.1.dev202308030007]
+[2023-08-04 02:09:10] INFO root fetch - processPackages [pywaterml]: Remove: archive file [/home/abi/fetcher/tmp/pywaterml-1.2.8.tar.gz]
+[2023-08-04 02:09:10] INFO root fetch - processPackages [pywaterml]: Remove: archive file [/home/abi/fetcher/tmp/pywaterml-1.2.9.tar.gz]
+[2023-08-04 02:09:10] INFO root fetch - processPackages [pywaterml]: Start processing: eyeball-pp
+[2023-08-04 02:09:10] INFO root fetch - main [MainThread]: End processing [pywaterml]: success
+[2023-08-04 02:09:10] INFO root fetch - processPackages [symphony-scatterplot]: executing diffoscope
+[2023-08-04 02:09:10] INFO root fetch - processPackages [symphony-scatterplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symphony_scatterplot-1.0.0.tar.gz tmp/symphony_scatterplot-1.0.1.tar.gz --markdown 20230804/s/symphony-scatterplot/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 02:09:10] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/86/dd/7e14f47fd072412b458c045dbd532c4871e494a31639184a48fb882f35b5/ml-compiler-opt-0.0.1.dev202308030007.tar.gz
+[2023-08-04 02:09:10] INFO root fetch - processPackages [async-fastapi-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/async_fastapi_jwt_auth-0.5.1.tar.gz]
+[2023-08-04 02:09:10] INFO root fetch - processPackages [async-fastapi-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/async_fastapi_jwt_auth-0.6.tar.gz]
+[2023-08-04 02:09:10] INFO root fetch - processPackages [async-fastapi-jwt-auth]: Start processing: kicad-coil-maker
+[2023-08-04 02:09:10] INFO root fetch - main [MainThread]: End processing [async-fastapi-jwt-auth]: success
+[2023-08-04 02:09:10] INFO root fetch - processPackages [eyeball-pp]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-04 02:09:10] WARNING root fetch - processPackages [kicad-coil-maker]: Skipping, unable to determine old version
+[2023-08-04 02:09:10] INFO root fetch - processPackages [kicad-coil-maker]: Start processing: ece4078
+[2023-08-04 02:09:10] INFO root fetch - main [MainThread]: End processing [kicad-coil-maker] error
+[2023-08-04 02:09:10] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1691021244] Old Version: [1690934827]
+[2023-08-04 02:09:10] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.9.0.tar.gz]
+[2023-08-04 02:09:10] INFO root fetch - processPackages [dvc-data]: Remove: archive file [/home/abi/fetcher/tmp/dvc-data-2.9.1.tar.gz]
+[2023-08-04 02:09:10] INFO root fetch - main [MainThread]: End processing [dvc-data]: success
+[2023-08-04 02:09:10] INFO root fetch - processPackages [onnxscript-preview]: executing diffoscope
+[2023-08-04 02:09:10] INFO root fetch - processPackages [onnxscript-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript_preview-0.1.0.dev20230802-py3-none-any.whl.zip tmp/onnxscript_preview-0.1.0.dev20230803-py3-none-any.whl.zip --markdown 20230804/o/onnxscript-preview/0.1.0.dev20230802-0.1.0.dev20230803/diff.md --exclude *.pyd
+[2023-08-04 02:09:10] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/4f/0d/6335a8c30b7de30a93c051687bbf68cc2b9745cffaffe5c43980b4f19e63/torchlayers-nightly-1690934827.tar.gz
+[2023-08-04 02:09:10] INFO root fetch - processPackages [ece4078]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-04 02:09:10] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/ee/4f/ad7ce3dd4bcf62368e7c8fcea5c98a9a0a8cd4610f75614815fbe9036cf4/ml-compiler-opt-0.0.1.dev202308040007.tar.gz
+[2023-08-04 02:09:10] INFO root fetch - processPackages [ece4078]: Downloading https://files.pythonhosted.org/packages/4f/fa/31b36cdf83502350044f10234dfb61698d8466bc52b27018864acb0570a6/ece4078-1.0.8.tar.gz
+[2023-08-04 02:09:10] INFO root fetch - processPackages [eyeball-pp]: Downloading https://files.pythonhosted.org/packages/2b/1f/3e6bbdf1f078dbf8ef64783bf718d1c304c7af728c9cd9e528aac26ca231/eyeball_pp-0.0.6.tar.gz
+[2023-08-04 02:09:10] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/87/e0/584ab401dafa46448f1071c47e487d92b98c4e1ce4d0325ad68117cd5ee2/torchlayers-nightly-1691021244.tar.gz
+[2023-08-04 02:09:11] INFO root fetch - processPackages [eyeball-pp]: Downloading https://files.pythonhosted.org/packages/0e/ef/64d69db0890723a7eeb9c9bfc66ad3a6bc1f1997ad2b295e3c6bfb1100fe/eyeball_pp-0.0.7.tar.gz
+[2023-08-04 02:09:11] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-08-04 02:09:11] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202308030007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202308040007.tar.gz --markdown 20230804/m/ml-compiler-opt/0.0.1.dev202308030007-0.0.1.dev202308040007/diff.md --exclude *.pyd
+[2023-08-04 02:09:11] INFO root fetch - processPackages [eyeball-pp]: executing diffoscope
+[2023-08-04 02:09:11] INFO root fetch - processPackages [eyeball-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyeball_pp-0.0.6.tar.gz tmp/eyeball_pp-0.0.7.tar.gz --markdown 20230804/e/eyeball-pp/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-04 02:09:11] INFO root fetch - processPackages [ece4078]: Downloading https://files.pythonhosted.org/packages/60/ba/af1a8a5be31b531c96897fca8909d2866614cf2e097154d2280cd0d18d0b/ece4078-1.0.9.tar.gz
+[2023-08-04 02:09:11] INFO root fetch - processPackages [ece4078]: executing diffoscope
+[2023-08-04 02:09:11] INFO root fetch - processPackages [ece4078]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ece4078-1.0.8.tar.gz tmp/ece4078-1.0.9.tar.gz --markdown 20230804/e/ece4078/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-04 02:09:12] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-08-04 02:09:12] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1690934827.tar.gz tmp/torchlayers-nightly-1691021244.tar.gz --markdown 20230804/t/torchlayers-nightly/1690934827-1691021244/diff.md --exclude *.pyd
+[2023-08-04 02:09:12] INFO root fetch - processPackages [onnxscript-preview]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript_preview-0.1.0.dev20230802-py3-none-any.whl.zip]
+[2023-08-04 02:09:12] INFO root fetch - processPackages [onnxscript-preview]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript_preview-0.1.0.dev20230803-py3-none-any.whl.zip]
+[2023-08-04 02:09:12] INFO root fetch - main [MainThread]: End processing [onnxscript-preview]: success
+[2023-08-04 02:09:12] INFO root fetch - processPackages [eyeball-pp]: Remove: archive file [/home/abi/fetcher/tmp/eyeball_pp-0.0.6.tar.gz]
+[2023-08-04 02:09:12] INFO root fetch - processPackages [eyeball-pp]: Remove: archive file [/home/abi/fetcher/tmp/eyeball_pp-0.0.7.tar.gz]
+[2023-08-04 02:09:12] INFO root fetch - main [MainThread]: End processing [eyeball-pp]: success
+[2023-08-04 02:09:12] INFO root fetch - processPackages [ece4078]: Remove: archive file [/home/abi/fetcher/tmp/ece4078-1.0.8.tar.gz]
+[2023-08-04 02:09:12] INFO root fetch - processPackages [ece4078]: Remove: archive file [/home/abi/fetcher/tmp/ece4078-1.0.9.tar.gz]
+[2023-08-04 02:09:12] INFO root fetch - main [MainThread]: End processing [ece4078]: success
+[2023-08-04 02:09:12] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230802.post405.tar.gz]
+[2023-08-04 02:09:12] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230803.post430.tar.gz]
+[2023-08-04 02:09:12] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-08-04 02:09:12] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308030007.tar.gz]
+[2023-08-04 02:09:12] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308040007.tar.gz]
+[2023-08-04 02:09:12] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-08-04 02:09:13] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690934827.tar.gz]
+[2023-08-04 02:09:13] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1691021244.tar.gz]
+[2023-08-04 02:09:13] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-08-04 02:09:15] INFO root fetch - processPackages [symphony-list]: Remove: archive file [/home/abi/fetcher/tmp/symphony_list-1.0.0.tar.gz]
+[2023-08-04 02:09:15] INFO root fetch - processPackages [symphony-list]: Remove: archive file [/home/abi/fetcher/tmp/symphony_list-1.0.1.tar.gz]
+[2023-08-04 02:09:15] INFO root fetch - main [MainThread]: End processing [symphony-list]: success
+[2023-08-04 02:09:18] INFO root fetch - processPackages [symphony-markdown]: Remove: archive file [/home/abi/fetcher/tmp/symphony_markdown-1.0.0.tar.gz]
+[2023-08-04 02:09:18] INFO root fetch - processPackages [symphony-markdown]: Remove: archive file [/home/abi/fetcher/tmp/symphony_markdown-1.0.1.tar.gz]
+[2023-08-04 02:09:18] INFO root fetch - main [MainThread]: End processing [symphony-markdown]: success
+[2023-08-04 02:09:22] INFO root fetch - processPackages [symphony-scatterplot]: Remove: archive file [/home/abi/fetcher/tmp/symphony_scatterplot-1.0.0.tar.gz]
+[2023-08-04 02:09:22] INFO root fetch - processPackages [symphony-scatterplot]: Remove: archive file [/home/abi/fetcher/tmp/symphony_scatterplot-1.0.1.tar.gz]
+[2023-08-04 02:09:22] INFO root fetch - main [MainThread]: End processing [symphony-scatterplot]: success
+[2023-08-04 02:09:22] INFO root fetch - main [MainThread]: Store serial: [19166043]
