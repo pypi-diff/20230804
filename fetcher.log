@@ -15110,3 +15110,81 @@
 [2023-08-04 09:30:15] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.1.3.tar.gz]
 [2023-08-04 09:30:15] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-extras]: success
 [2023-08-04 09:30:15] INFO root fetch - main [MainThread]: Store serial: [19171003]
+[2023-08-04 09:35:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171003]
+[2023-08-04 09:35:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 09:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neco-f
+[2023-08-04 09:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrex
+[2023-08-04 09:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jennifer-python
+[2023-08-04 09:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bofire
+[2023-08-04 09:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micrologai
+[2023-08-04 09:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ciokatana
+[2023-08-04 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydra
+[2023-08-04 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: danbi
+[2023-08-04 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: payme-pkg
+[2023-08-04 09:35:24] INFO root fetch - processPackages [pydra]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-04 09:35:24] WARNING root fetch - processPackages [neco-f]: Skipping, unable to determine old version
+[2023-08-04 09:35:24] INFO root fetch - main [MainThread]: End processing [neco-f] error
+[2023-08-04 09:35:24] INFO root fetch - processPackages [ciokatana]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-04 09:35:24] INFO root fetch - processPackages [micrologai]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-04 09:35:24] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-04 09:35:24] INFO root fetch - processPackages [jennifer-python]: New version: [5.6.1.9] Old Version: [5.6.1.8]
+[2023-08-04 09:35:24] INFO root fetch - processPackages [cybrex]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-04 09:35:24] INFO root fetch - processPackages [pydra]: Downloading https://files.pythonhosted.org/packages/90/3b/9c76c084634307f62beb1216295ecf627b15a7dd247b4669f1d815d70ccd/pydra-0.9.1-py3-none-any.whl
+[2023-08-04 09:35:24] INFO root fetch - processPackages [bofire]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-04 09:35:24] INFO root fetch - processPackages [payme-pkg]: New version: [2.4] Old Version: [2.3]
+[2023-08-04 09:35:24] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/20/8c/4098098773e99add7ee9290d6ceb4b753ceb536baf9c03398db857f5e887/micrologai-1.3.8.tar.gz
+[2023-08-04 09:35:24] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/d9/2a/e8adb01c01e0358385eb20ba9e1242f6671e265e9c78891c32c24b669718/ciokatana-0.1.1-py2.py3-none-any.whl
+[2023-08-04 09:35:24] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-08-04 09:35:24] INFO root fetch - processPackages [bofire]: Downloading https://files.pythonhosted.org/packages/9c/6d/4d1c5293840587962e9e3eb32e3ebe24a61a5c82c551c476977009f7693f/bofire-0.0.4.tar.gz
+[2023-08-04 09:35:24] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/84/e3/9c582270919735d5262b2290d99baeb712cc7d9389196c14973ee923780b/jennifer_python-5.6.1.8-py3-none-any.whl
+[2023-08-04 09:35:24] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/9d/80/bc81c2c59465d0931bbb769ac001a6bcb38d8c7bdfd4c5d87d5e0cb4e979/cybrex-1.2.2.tar.gz
+[2023-08-04 09:35:24] INFO root fetch - processPackages [pydra]: Downloading https://files.pythonhosted.org/packages/35/f0/7be7da7ffde65e7839211320a90b4b0681bbda559d87611ed84595b94641/pydra-0.9.2-py3-none-any.whl
+[2023-08-04 09:35:24] INFO root fetch - processPackages [payme-pkg]: Downloading https://files.pythonhosted.org/packages/b4/34/f98845ae12bcd87292d1e031c4990048dd8f0f5217cea862aff61a5d879e/payme-pkg-2.3.tar.gz
+[2023-08-04 09:35:24] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-08-04 09:35:24] INFO root fetch - processPackages [pydra]: executing diffoscope
+[2023-08-04 09:35:24] INFO root fetch - processPackages [pydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydra-0.9.1-py3-none-any.whl.zip tmp/pydra-0.9.2-py3-none-any.whl.zip --markdown 20230804/p/pydra/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-04 09:35:24] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/36/c3/cfbedb5b3dd48e3b73700c71e03c449020c0ec3acac35f0057700937a42d/ciokatana-0.1.2-py2.py3-none-any.whl
+[2023-08-04 09:35:24] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-08-04 09:35:24] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230804/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-04 09:35:24] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/5f/ff/abdd943dffeb90d8622427d1fdb64da731c7bbfa2b83c524e10e39d834c2/micrologai-1.3.9.tar.gz
+[2023-08-04 09:35:25] INFO root fetch - processPackages [cybrex]: Downloading https://files.pythonhosted.org/packages/5c/16/831ca348747c5f468524606e1a34e53136cd47a6ef6e782cb1081d0eb3fd/cybrex-1.2.3.tar.gz
+[2023-08-04 09:35:25] INFO root fetch - processPackages [bofire]: Downloading https://files.pythonhosted.org/packages/a0/a2/4ab78efc4cdc0dceaf142041793e5f768007d7919d837054c38ac48b5436/bofire-0.0.5.tar.gz
+[2023-08-04 09:35:25] INFO root fetch - processPackages [payme-pkg]: Downloading https://files.pythonhosted.org/packages/3f/d2/08b4e44c9f4fe8b1689f47ea18f7355873ee194b6c8269f152728c475e8e/payme-pkg-2.4.tar.gz
+[2023-08-04 09:35:25] INFO root fetch - processPackages [ciokatana]: executing diffoscope
+[2023-08-04 09:35:25] INFO root fetch - processPackages [ciokatana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciokatana-0.1.1-py2.py3-none-any.whl.zip tmp/ciokatana-0.1.2-py2.py3-none-any.whl.zip --markdown 20230804/c/ciokatana/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-04 09:35:25] INFO root fetch - processPackages [payme-pkg]: executing diffoscope
+[2023-08-04 09:35:25] INFO root fetch - processPackages [payme-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payme-pkg-2.3.tar.gz tmp/payme-pkg-2.4.tar.gz --markdown 20230804/p/payme-pkg/2.3-2.4/diff.md --exclude *.pyd
+[2023-08-04 09:35:25] INFO root fetch - processPackages [cybrex]: executing diffoscope
+[2023-08-04 09:35:25] INFO root fetch - processPackages [cybrex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrex-1.2.2.tar.gz tmp/cybrex-1.2.3.tar.gz --markdown 20230804/c/cybrex/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-04 09:35:25] INFO root fetch - processPackages [micrologai]: executing diffoscope
+[2023-08-04 09:35:25] INFO root fetch - processPackages [micrologai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrologai-1.3.8.tar.gz tmp/micrologai-1.3.9.tar.gz --markdown 20230804/m/micrologai/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-04 09:35:25] INFO root fetch - processPackages [bofire]: executing diffoscope
+[2023-08-04 09:35:25] INFO root fetch - processPackages [bofire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bofire-0.0.4.tar.gz tmp/bofire-0.0.5.tar.gz --markdown 20230804/b/bofire/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-04 09:35:26] INFO root fetch - processPackages [pydra]: Remove: archive file [/home/abi/fetcher/tmp/pydra-0.9.1-py3-none-any.whl.zip]
+[2023-08-04 09:35:26] INFO root fetch - processPackages [pydra]: Remove: archive file [/home/abi/fetcher/tmp/pydra-0.9.2-py3-none-any.whl.zip]
+[2023-08-04 09:35:26] INFO root fetch - main [MainThread]: End processing [pydra]: success
+[2023-08-04 09:35:26] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-08-04 09:35:26] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-08-04 09:35:26] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-08-04 09:35:26] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.2.2.tar.gz]
+[2023-08-04 09:35:26] INFO root fetch - processPackages [cybrex]: Remove: archive file [/home/abi/fetcher/tmp/cybrex-1.2.3.tar.gz]
+[2023-08-04 09:35:26] INFO root fetch - main [MainThread]: End processing [cybrex]: success
+[2023-08-04 09:35:26] INFO root fetch - processPackages [payme-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payme-pkg-2.3.tar.gz]
+[2023-08-04 09:35:26] INFO root fetch - processPackages [payme-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payme-pkg-2.4.tar.gz]
+[2023-08-04 09:35:26] INFO root fetch - main [MainThread]: End processing [payme-pkg]: success
+[2023-08-04 09:35:26] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/07/a3/c5a6f754fe4a116f0f354d41ce768809ca3ec12d6a074d85545c82764e47/jennifer_python-5.6.1.9-py3-none-any.whl
+[2023-08-04 09:35:26] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.1-py2.py3-none-any.whl.zip]
+[2023-08-04 09:35:26] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.2-py2.py3-none-any.whl.zip]
+[2023-08-04 09:35:26] INFO root fetch - main [MainThread]: End processing [ciokatana]: success
+[2023-08-04 09:35:27] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.8.tar.gz]
+[2023-08-04 09:35:27] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.9.tar.gz]
+[2023-08-04 09:35:27] INFO root fetch - main [MainThread]: End processing [micrologai]: success
+[2023-08-04 09:35:27] INFO root fetch - processPackages [bofire]: Remove: archive file [/home/abi/fetcher/tmp/bofire-0.0.4.tar.gz]
+[2023-08-04 09:35:27] INFO root fetch - processPackages [bofire]: Remove: archive file [/home/abi/fetcher/tmp/bofire-0.0.5.tar.gz]
+[2023-08-04 09:35:27] INFO root fetch - main [MainThread]: End processing [bofire]: success
+[2023-08-04 09:35:28] INFO root fetch - processPackages [jennifer-python]: executing diffoscope
+[2023-08-04 09:35:28] INFO root fetch - processPackages [jennifer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip --markdown 20230804/j/jennifer-python/5.6.1.8-5.6.1.9/diff.md --exclude *.pyd
+[2023-08-04 09:35:49] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip]
+[2023-08-04 09:35:49] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip]
+[2023-08-04 09:35:49] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
+[2023-08-04 09:35:49] INFO root fetch - main [MainThread]: Store serial: [19171047]
