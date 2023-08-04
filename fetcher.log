@@ -10498,3 +10498,87 @@
 [2023-08-04 04:35:15] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.4.230803.1172738.tar.gz]
 [2023-08-04 04:35:15] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
 [2023-08-04 04:35:15] INFO root fetch - main [MainThread]: Store serial: [19168925]
+[2023-08-04 04:40:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19168925]
+[2023-08-04 04:40:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensees
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lucupy
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo10-addon-customer-outstanding-statement
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-partner-statement
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-partner-statement
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grpc-accesslog
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-partner-statement
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: typedhtml
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codelab-cookiecutter
+[2023-08-04 04:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: progrming0804
+[2023-08-04 04:40:24] INFO root fetch - processPackages [typedhtml]: New version: [0.2.18] Old Version: [0.2.17]
+[2023-08-04 04:40:24] INFO root fetch - processPackages [odoo10-addon-customer-outstanding-statement]: New version: [10.0.1.1.0.99.dev8] Old Version: [10.0.1.1.0.99.dev7]
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo12-addon-partner-statement]: New version: [12.0.1.0.5.99.dev9] Old Version: [12.0.1.0.5.99.dev8]
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo13-addon-partner-statement]: New version: [13.0.1.3.1.dev9] Old Version: [13.0.1.3.1.dev8]
+[2023-08-04 04:40:25] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 04:40:25] WARNING root fetch - processPackages [codelab-cookiecutter]: Skipping, unable to determine old version
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo-addon-partner-statement]: New version: [15.0.1.0.1.7] Old Version: [15.0.1.0.1.6]
+[2023-08-04 04:40:25] INFO root fetch - processPackages [codelab-cookiecutter]: Start processing: cntdrun
+[2023-08-04 04:40:25] INFO root fetch - main [MainThread]: End processing [codelab-cookiecutter] error
+[2023-08-04 04:40:25] WARNING root fetch - processPackages [cntdrun]: Skipping, unable to determine old version
+[2023-08-04 04:40:25] INFO root fetch - processPackages [cntdrun]: Start processing: pythia8mc
+[2023-08-04 04:40:25] INFO root fetch - main [MainThread]: End processing [cntdrun] error
+[2023-08-04 04:40:25] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/10/44/eddae42e142f8ea401e576e5e754a7523f00802444a0f0c4dd6a839fcd99/typedhtml-0.2.17.tar.gz
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo10-addon-customer-outstanding-statement]: Downloading https://files.pythonhosted.org/packages/31/e3/a3e0bbbad23e202840036fed4fe0aa5bb162755b0213751d01b832ec40ae/odoo10_addon_customer_outstanding_statement-10.0.1.1.0.99.dev7-py2-none-any.whl
+[2023-08-04 04:40:25] INFO root fetch - processPackages [grpc-accesslog]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-04 04:40:25] WARNING root fetch - processPackages [pythia8mc]: Skipping, unable to determine old version
+[2023-08-04 04:40:25] INFO root fetch - main [MainThread]: End processing [pythia8mc] error
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo12-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/5d/4c/a58698c52b5dd50e5ca5ed59fa03c03a360e9e93576c3dd1bfa242910d76/odoo12_addon_partner_statement-12.0.1.0.5.99.dev8-py3-none-any.whl
+[2023-08-04 04:40:25] WARNING root fetch - processPackages [progrming0804]: Skipping, unable to determine old version
+[2023-08-04 04:40:25] INFO root fetch - main [MainThread]: End processing [progrming0804] error
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/88/a4/b438ebe2b9df2762ff1297affa8de9d8652171f0f5e1bf2e86ea41244637/odoo_addon_partner_statement-15.0.1.0.1.6-py3-none-any.whl
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo13-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/57/c6/6c070f6389cd36eb1f9eead2434b58c6e01ec3818f13b801558bffb10b2c/odoo13_addon_partner_statement-13.0.1.3.1.dev8-py3-none-any.whl
+[2023-08-04 04:40:25] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-08-04 04:40:25] INFO root fetch - processPackages [grpc-accesslog]: Downloading https://files.pythonhosted.org/packages/d9/81/c0c38b92b9cf10f7520555a1ae4d686cb1d1f5aa40985f76892a634e31ac/grpc-accesslog-0.1.1.tar.gz
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo10-addon-customer-outstanding-statement]: Downloading https://files.pythonhosted.org/packages/17/c5/87304db114d454f4d718ec98602d7d4196fbdd21ef2a010911fa77a299f8/odoo10_addon_customer_outstanding_statement-10.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo12-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/ab/77/f281e686890f9ac64a2475f1119ac4323142f172e66f25fa819b57f46944/odoo12_addon_partner_statement-12.0.1.0.5.99.dev9-py3-none-any.whl
+[2023-08-04 04:40:25] INFO root fetch - processPackages [opensees]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 04:40:25] INFO root fetch - processPackages [grpc-accesslog]: Downloading https://files.pythonhosted.org/packages/99/24/fbab7a5b5f66180216e9725e9cb26f1341b59c28a791ec85172a7725df35/grpc_accesslog-0.2.0.tar.gz
+[2023-08-04 04:40:25] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/fb/50/fb7c3faff9bcf28137b9c1e0cccdf253b758834ea8df4208b919f0d35c54/typedhtml-0.2.18.tar.gz
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo10-addon-customer-outstanding-statement]: executing diffoscope
+[2023-08-04 04:40:25] INFO root fetch - processPackages [odoo10-addon-customer-outstanding-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_customer_outstanding_statement-10.0.1.1.0.99.dev7-py2-none-any.whl.zip tmp/odoo10_addon_customer_outstanding_statement-10.0.1.1.0.99.dev8-py2-none-any.whl.zip --markdown 20230804/o/odoo10-addon-customer-outstanding-statement/10.0.1.1.0.99.dev7-10.0.1.1.0.99.dev8/diff.md --exclude *.pyd
+[2023-08-04 04:40:26] INFO root fetch - processPackages [odoo12-addon-partner-statement]: executing diffoscope
+[2023-08-04 04:40:26] INFO root fetch - processPackages [odoo12-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_partner_statement-12.0.1.0.5.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_partner_statement-12.0.1.0.5.99.dev9-py3-none-any.whl.zip --markdown 20230804/o/odoo12-addon-partner-statement/12.0.1.0.5.99.dev8-12.0.1.0.5.99.dev9/diff.md --exclude *.pyd
+[2023-08-04 04:40:26] INFO root fetch - processPackages [odoo-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/1d/fc/60e13ef7a12ffd0b42c82a47a01655275b9475a30445f3903bfacdaa342e/odoo_addon_partner_statement-15.0.1.0.1.7-py3-none-any.whl
+[2023-08-04 04:40:26] INFO root fetch - processPackages [grpc-accesslog]: executing diffoscope
+[2023-08-04 04:40:26] INFO root fetch - processPackages [grpc-accesslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc-accesslog-0.1.1.tar.gz tmp/grpc_accesslog-0.2.0.tar.gz --markdown 20230804/g/grpc-accesslog/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 04:40:26] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/9a/43/b05787ae2e998169aa8db75ce509317ccef535b7a914658c612cef7ec841/opensees-0.0.8.tar.gz
+[2023-08-04 04:40:26] INFO root fetch - processPackages [typedhtml]: executing diffoscope
+[2023-08-04 04:40:26] INFO root fetch - processPackages [typedhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhtml-0.2.17.tar.gz tmp/typedhtml-0.2.18.tar.gz --markdown 20230804/t/typedhtml/0.2.17-0.2.18/diff.md --exclude *.pyd
+[2023-08-04 04:40:26] INFO root fetch - processPackages [odoo-addon-partner-statement]: executing diffoscope
+[2023-08-04 04:40:26] INFO root fetch - processPackages [odoo-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_statement-15.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_partner_statement-15.0.1.0.1.7-py3-none-any.whl.zip --markdown 20230804/o/odoo-addon-partner-statement/15.0.1.0.1.6-15.0.1.0.1.7/diff.md --exclude *.pyd
+[2023-08-04 04:40:26] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/89/07/b8f08c9d4567b2986131cfb7613ef5601c16b2a3c0ac5f22dd8e82eec99d/opensees-0.0.9.tar.gz
+[2023-08-04 04:40:26] WARNING root fetch - processPackages [opensees]: Skipping package: exceeds size limit 22392766>=10485760
+[2023-08-04 04:40:26] INFO root fetch - main [MainThread]: End processing [opensees] error
+[2023-08-04 04:40:26] INFO root fetch - processPackages [odoo10-addon-customer-outstanding-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_customer_outstanding_statement-10.0.1.1.0.99.dev7-py2-none-any.whl.zip]
+[2023-08-04 04:40:26] INFO root fetch - processPackages [odoo10-addon-customer-outstanding-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_customer_outstanding_statement-10.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-08-04 04:40:26] INFO root fetch - main [MainThread]: End processing [odoo10-addon-customer-outstanding-statement]: success
+[2023-08-04 04:40:27] INFO root fetch - processPackages [grpc-accesslog]: Remove: archive file [/home/abi/fetcher/tmp/grpc-accesslog-0.1.1.tar.gz]
+[2023-08-04 04:40:27] INFO root fetch - processPackages [grpc-accesslog]: Remove: archive file [/home/abi/fetcher/tmp/grpc_accesslog-0.2.0.tar.gz]
+[2023-08-04 04:40:27] INFO root fetch - main [MainThread]: End processing [grpc-accesslog]: success
+[2023-08-04 04:40:27] INFO root fetch - processPackages [odoo12-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_partner_statement-12.0.1.0.5.99.dev8-py3-none-any.whl.zip]
+[2023-08-04 04:40:27] INFO root fetch - processPackages [odoo12-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_partner_statement-12.0.1.0.5.99.dev9-py3-none-any.whl.zip]
+[2023-08-04 04:40:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-partner-statement]: success
+[2023-08-04 04:40:27] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-15.0.1.0.1.6-py3-none-any.whl.zip]
+[2023-08-04 04:40:27] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-15.0.1.0.1.7-py3-none-any.whl.zip]
+[2023-08-04 04:40:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-statement]: success
+[2023-08-04 04:40:27] INFO root fetch - processPackages [odoo13-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/18/95/31ff76b18763449c497f44fcc9e717f42f66274675234ac3d8ba4c679fb7/odoo13_addon_partner_statement-13.0.1.3.1.dev9-py3-none-any.whl
+[2023-08-04 04:40:27] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.2.17.tar.gz]
+[2023-08-04 04:40:27] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.2.18.tar.gz]
+[2023-08-04 04:40:27] INFO root fetch - main [MainThread]: End processing [typedhtml]: success
+[2023-08-04 04:40:27] INFO root fetch - processPackages [odoo13-addon-partner-statement]: executing diffoscope
+[2023-08-04 04:40:27] INFO root fetch - processPackages [odoo13-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_partner_statement-13.0.1.3.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_partner_statement-13.0.1.3.1.dev9-py3-none-any.whl.zip --markdown 20230804/o/odoo13-addon-partner-statement/13.0.1.3.1.dev8-13.0.1.3.1.dev9/diff.md --exclude *.pyd
+[2023-08-04 04:40:27] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-08-04 04:40:28] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-08-04 04:40:28] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230804/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 04:40:28] INFO root fetch - processPackages [odoo13-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_partner_statement-13.0.1.3.1.dev8-py3-none-any.whl.zip]
+[2023-08-04 04:40:28] INFO root fetch - processPackages [odoo13-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_partner_statement-13.0.1.3.1.dev9-py3-none-any.whl.zip]
+[2023-08-04 04:40:28] INFO root fetch - main [MainThread]: End processing [odoo13-addon-partner-statement]: success
+[2023-08-04 04:40:29] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.8.tar.gz]
+[2023-08-04 04:40:29] INFO root fetch - processPackages [lucupy]: Remove: archive file [/home/abi/fetcher/tmp/lucupy-0.1.9.tar.gz]
+[2023-08-04 04:40:29] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-08-04 04:40:29] INFO root fetch - main [MainThread]: Store serial: [19168963]
