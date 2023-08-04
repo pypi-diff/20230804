@@ -13549,3 +13549,86 @@
 [2023-08-04 08:04:38] INFO root fetch - processPackages [pythainlp]: Remove: archive file [/home/abi/fetcher/tmp/pythainlp-4.1.0b3.tar.gz]
 [2023-08-04 08:04:38] INFO root fetch - main [MainThread]: End processing [pythainlp]: success
 [2023-08-04 08:04:38] INFO root fetch - main [MainThread]: Store serial: [19170283]
+[2023-08-04 08:09:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170283]
+[2023-08-04 08:09:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oszsave
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litechain
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opensees
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-dnsimple
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gymnasium-connect-four
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: liveramp-automation
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-redis
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omnata-plugin-devkit
+[2023-08-04 08:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-grafana
+[2023-08-04 08:09:47] INFO root fetch - processPackages [opensees]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 08:09:47] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1691040671] Old Version: [3.5.0a1690968899]
+[2023-08-04 08:09:47] INFO root fetch - processPackages [litechain]: New version: [0.1.6.post1] Old Version: [0.1.6]
+[2023-08-04 08:09:47] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 08:09:47] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-04 08:09:47] INFO root fetch - processPackages [liveramp-automation]: New version: [0.2.2] Old Version: [0.1.7]
+[2023-08-04 08:09:47] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-04 08:09:47] WARNING root fetch - processPackages [oszsave]: Skipping, unable to determine old version
+[2023-08-04 08:09:47] INFO root fetch - main [MainThread]: End processing [oszsave] error
+[2023-08-04 08:09:47] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 08:09:47] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-04 08:09:47] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 08:09:47] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-08-04 08:09:47] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/1b/b4/70390ac177b174bdca12dfd155865084a66341bd1b9cec11be5cd08e9d98/liveramp_automation-0.1.7.tar.gz
+[2023-08-04 08:09:47] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/f5/13/bd1c76e89358feaeda45a3e3fcbdf184255d487bf4fe3f12b2ef43e9a8df/pulumi_dnsimple-3.5.0a1690968899.tar.gz
+[2023-08-04 08:09:47] INFO root fetch - processPackages [litechain]: Downloading https://files.pythonhosted.org/packages/77/fe/1fd9278259fd38074761d48d3f9f445fc0f5b7efc81eaa721834407f324f/litechain-0.1.6.tar.gz
+[2023-08-04 08:09:47] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/10/f4/defb331698a308599ed8b42d485055ad865716bbf775b2c81a05f638aeb3/gymnasium_connect_four-1.2.8.tar.gz
+[2023-08-04 08:09:47] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-08-04 08:09:47] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/89/07/b8f08c9d4567b2986131cfb7613ef5601c16b2a3c0ac5f22dd8e82eec99d/opensees-0.0.9.tar.gz
+[2023-08-04 08:09:47] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-08-04 08:09:47] WARNING root fetch - processPackages [opensees]: Skipping package: exceeds size limit 22392766>=10485760
+[2023-08-04 08:09:47] INFO root fetch - main [MainThread]: End processing [opensees] error
+[2023-08-04 08:09:48] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 08:09:48] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-08-04 08:09:48] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/32/42/a598c0a6c3f3cac0040a368b926ecf2544d5a5e2d02e6ddfb20769dc454b/pulumi_dnsimple-3.5.0a1691040671.tar.gz
+[2023-08-04 08:09:48] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/f8/10/38b2abc50af73c6d0903050117ceed44196c25733e30f4366139382f4768/liveramp_automation-0.2.2.tar.gz
+[2023-08-04 08:09:48] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 08:09:48] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 08:09:48] INFO root fetch - processPackages [litechain]: Downloading https://files.pythonhosted.org/packages/10/e1/eb0b4797c0032cd455e7626c878fbc7079ced974969b79e864ce52333721/litechain-0.1.6.post1.tar.gz
+[2023-08-04 08:09:48] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/89/82/db53e26c7ee24b313627d1d98a8e8a5e7b7a45aee6c81e8e50b060871db9/gymnasium_connect_four-1.2.9.tar.gz
+[2023-08-04 08:09:48] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2023-08-04 08:09:48] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1690968899.tar.gz tmp/pulumi_dnsimple-3.5.0a1691040671.tar.gz --markdown 20230804/p/pulumi-dnsimple/3.5.0a1690968899-3.5.0a1691040671/diff.md --exclude *.pyd
+[2023-08-04 08:09:48] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-08-04 08:09:48] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.1.7.tar.gz tmp/liveramp_automation-0.2.2.tar.gz --markdown 20230804/l/liveramp-automation/0.1.7-0.2.2/diff.md --exclude *.pyd
+[2023-08-04 08:09:48] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-08-04 08:09:48] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230804/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-04 08:09:48] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-08-04 08:09:48] INFO root fetch - processPackages [litechain]: executing diffoscope
+[2023-08-04 08:09:48] INFO root fetch - processPackages [litechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litechain-0.1.6.tar.gz tmp/litechain-0.1.6.post1.tar.gz --markdown 20230804/l/litechain/0.1.6-0.1.6.post1/diff.md --exclude *.pyd
+[2023-08-04 08:09:48] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-08-04 08:09:48] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.8.tar.gz tmp/gymnasium_connect_four-1.2.9.tar.gz --markdown 20230804/g/gymnasium-connect-four/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-04 08:09:48] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-08-04 08:09:48] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-08-04 08:09:48] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230804/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 08:09:48] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-08-04 08:09:48] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230804/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-04 08:09:49] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 08:09:49] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1690968899.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1691040671.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2023-08-04 08:09:49] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-08-04 08:09:49] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.1.7.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.2.2.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-08-04 08:09:49] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-08-04 08:09:49] INFO root fetch - processPackages [litechain]: Remove: archive file [/home/abi/fetcher/tmp/litechain-0.1.6.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - processPackages [litechain]: Remove: archive file [/home/abi/fetcher/tmp/litechain-0.1.6.post1.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - main [MainThread]: End processing [litechain]: success
+[2023-08-04 08:09:49] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-08-04 08:09:49] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.8.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.9.tar.gz]
+[2023-08-04 08:09:49] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-08-04 08:09:49] INFO root fetch - main [MainThread]: Store serial: [19170316]
