@@ -13134,3 +13134,66 @@
 [2023-08-04 07:17:53] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2023-08-04 07:17:53] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-08-04 07:17:53] INFO root fetch - main [MainThread]: Store serial: [19170057]
+[2023-08-04 07:23:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170057]
+[2023-08-04 07:23:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-04 07:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2023-08-04 07:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-he
+[2023-08-04 07:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peft-ser
+[2023-08-04 07:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inviz
+[2023-08-04 07:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafri
+[2023-08-04 07:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nci-fresco
+[2023-08-04 07:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webint-posts
+[2023-08-04 07:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reasoner-validator
+[2023-08-04 07:23:05] INFO root fetch - processPackages [edc-he]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 07:23:05] INFO root fetch - processPackages [inviz]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-04 07:23:05] WARNING root fetch - processPackages [nci-fresco]: Skipping, unable to determine old version
+[2023-08-04 07:23:05] INFO root fetch - main [MainThread]: End processing [nci-fresco] error
+[2023-08-04 07:23:05] WARNING root fetch - processPackages [peft-ser]: Skipping, unable to determine old version
+[2023-08-04 07:23:05] INFO root fetch - main [MainThread]: End processing [peft-ser] error
+[2023-08-04 07:23:05] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/f5/9d/4dd23bfddbfdc0709d9bcbac11c1d0e657a62b2c57e9d9fb0b6ec70d945a/inviz-0.2.5.tar.gz
+[2023-08-04 07:23:05] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/53/0c/e3d8392638346ebe4166d50001c323beca8448af4225c430ff78757657ea/edc-he-0.1.8.tar.gz
+[2023-08-04 07:23:05] INFO root fetch - processPackages [webint-posts]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 07:23:05] INFO root fetch - processPackages [adafri]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-08-04 07:23:05] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230804] Old Version: [0.5.4.dev20230803]
+[2023-08-04 07:23:05] INFO root fetch - processPackages [reasoner-validator]: New version: [3.7.6] Old Version: [3.7.5]
+[2023-08-04 07:23:05] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/b9/69/d3f518e2738693d3be57c90fa19c48654b258910bb8efa605f06e450cac8/adafri-0.0.72.tar.gz
+[2023-08-04 07:23:05] INFO root fetch - processPackages [webint-posts]: Downloading https://files.pythonhosted.org/packages/85/04/d45b8707be3739757105b8f8473468d4e198b3d1cd4e8115ad2ed50e576d/webint_posts-0.0.8.tar.gz
+[2023-08-04 07:23:05] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/c7/5f/78e0171030035fb4343e58035743ecc587cab6709a8550cbeb4a3dd60639/rapidpe_rift_pipe-0.5.4.dev20230803.tar.gz
+[2023-08-04 07:23:05] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/81/50/fe3c2fd651c82e8cdb1397d9331b9d914ded1d8e1f020127c71b81a43e95/edc-he-0.1.9.tar.gz
+[2023-08-04 07:23:05] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/a5/d3/a4166a7956f1dae8e35562042db48bcc4d42116df0357b7369971707407e/reasoner_validator-3.7.5.tar.gz
+[2023-08-04 07:23:05] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/00/29/45e76a1eae2877956faf2f829c33d90904ff445d7070b8d8aac780f376f4/inviz-0.2.6.tar.gz
+[2023-08-04 07:23:05] INFO root fetch - processPackages [edc-he]: executing diffoscope
+[2023-08-04 07:23:05] INFO root fetch - processPackages [edc-he]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-he-0.1.8.tar.gz tmp/edc-he-0.1.9.tar.gz --markdown 20230804/e/edc-he/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 07:23:06] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-08-04 07:23:06] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.2.5.tar.gz tmp/inviz-0.2.6.tar.gz --markdown 20230804/i/inviz/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-04 07:23:06] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/3d/66/fc51836fc02939908a4b7d096f48870fb0f4345e9ed922e1777e26eac76f/adafri-0.0.73.tar.gz
+[2023-08-04 07:23:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/58/39/dbec9967bcf71112208768cf458195ad3195c95debee121658b1939b4d16/rapidpe_rift_pipe-0.5.4.dev20230804.tar.gz
+[2023-08-04 07:23:06] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/58/a1/67cf1cc5e35873139457671066d7ecb85b5f6cc581fa3967833f3ce9fddc/reasoner_validator-3.7.6.tar.gz
+[2023-08-04 07:23:06] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-08-04 07:23:06] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.72.tar.gz tmp/adafri-0.0.73.tar.gz --markdown 20230804/a/adafri/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-08-04 07:23:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-08-04 07:23:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230803.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230804.tar.gz --markdown 20230804/r/rapidpe-rift-pipe/0.5.4.dev20230803-0.5.4.dev20230804/diff.md --exclude *.pyd
+[2023-08-04 07:23:06] INFO root fetch - processPackages [webint-posts]: Downloading https://files.pythonhosted.org/packages/f0/63/d5c230a5e7c5e715407bc503d8251879c9cd75dc164a30c0ae0b871c3f56/webint_posts-0.0.9.tar.gz
+[2023-08-04 07:23:06] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-08-04 07:23:06] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.7.5.tar.gz tmp/reasoner_validator-3.7.6.tar.gz --markdown 20230804/r/reasoner-validator/3.7.5-3.7.6/diff.md --exclude *.pyd
+[2023-08-04 07:23:06] INFO root fetch - processPackages [webint-posts]: executing diffoscope
+[2023-08-04 07:23:06] INFO root fetch - processPackages [webint-posts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_posts-0.0.8.tar.gz tmp/webint_posts-0.0.9.tar.gz --markdown 20230804/w/webint-posts/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 07:23:06] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.5.tar.gz]
+[2023-08-04 07:23:06] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.6.tar.gz]
+[2023-08-04 07:23:06] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-08-04 07:23:07] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.8.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.9.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - main [MainThread]: End processing [edc-he]: success
+[2023-08-04 07:23:07] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.72.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.73.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-08-04 07:23:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230803.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230804.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-08-04 07:23:07] INFO root fetch - processPackages [webint-posts]: Remove: archive file [/home/abi/fetcher/tmp/webint_posts-0.0.8.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - processPackages [webint-posts]: Remove: archive file [/home/abi/fetcher/tmp/webint_posts-0.0.9.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - main [MainThread]: End processing [webint-posts]: success
+[2023-08-04 07:23:07] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.7.5.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.7.6.tar.gz]
+[2023-08-04 07:23:07] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-08-04 07:23:07] INFO root fetch - main [MainThread]: Store serial: [19170085]
