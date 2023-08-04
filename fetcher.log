@@ -13095,3 +13095,42 @@
 [2023-08-04 07:12:27] INFO root fetch - main [MainThread]: End processing [tablediter]: success
 [2023-08-04 07:12:27] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-08-04 07:12:27] INFO root fetch - main [MainThread]: Store serial: [19170035]
+[2023-08-04 07:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170035]
+[2023-08-04 07:17:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-04 07:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jijmodeling-transpiler-quantum
+[2023-08-04 07:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phonenumberslite
+[2023-08-04 07:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phonenumbers
+[2023-08-04 07:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-runtime-nightly
+[2023-08-04 07:17:37] INFO root fetch - processPackages [phonenumbers]: New version: [8.9.9] Old Version: [8.9.8]
+[2023-08-04 07:17:37] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.15.0.dev20230802] Old Version: [2.14.0.dev20230730]
+[2023-08-04 07:17:37] INFO root fetch - processPackages [jijmodeling-transpiler-quantum]: New version: [0.1.0rc5] Old Version: [0.1.0rc3]
+[2023-08-04 07:17:37] INFO root fetch - processPackages [phonenumberslite]: New version: [8.9.9] Old Version: [8.9.8]
+[2023-08-04 07:17:37] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/80/05/1c24e72258100bc6a1fb62658892e628cf71c39e2a170eeeabc450449237/tflite_runtime_nightly-2.14.0.dev20230730-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-04 07:17:37] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/61/7b/90d90d52bf1a407405c8b13f5701c40d4ed9574fa05f456f232296b5390d/phonenumbers-8.9.8.tar.gz
+[2023-08-04 07:17:37] INFO root fetch - processPackages [jijmodeling-transpiler-quantum]: Downloading https://files.pythonhosted.org/packages/a4/6d/3b76ce3f74455d63991365bf66eb32e1e0719e2d1264ca2cbf46b2f1764f/jijmodeling_transpiler_quantum-0.1.0rc3.tar.gz
+[2023-08-04 07:17:37] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/d4/c9/aea682ded5712f6dbd7c506a16976f38224adb14c0b6d64bb6c4cdfd0aaf/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-04 07:17:37] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/2a/34/673df63018e24dd0e697c0c1d47fbaab6775c15d1798ed9e0b834b78ac65/phonenumberslite-8.9.8.tar.gz
+[2023-08-04 07:17:37] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-08-04 07:17:37] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230730-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20230804/t/tflite-runtime-nightly/2.14.0.dev20230730-2.15.0.dev20230802/diff.md --exclude *.pyd
+[2023-08-04 07:17:37] INFO root fetch - processPackages [jijmodeling-transpiler-quantum]: Downloading https://files.pythonhosted.org/packages/d9/36/1e19847c6635d85bc32a97709bd2e071e86711c2f5a197d76da4089621d6/jijmodeling_transpiler_quantum-0.1.0rc5.tar.gz
+[2023-08-04 07:17:37] INFO root fetch - processPackages [jijmodeling-transpiler-quantum]: executing diffoscope
+[2023-08-04 07:17:37] INFO root fetch - processPackages [jijmodeling-transpiler-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling_transpiler_quantum-0.1.0rc3.tar.gz tmp/jijmodeling_transpiler_quantum-0.1.0rc5.tar.gz --markdown 20230804/j/jijmodeling-transpiler-quantum/0.1.0rc3-0.1.0rc5/diff.md --exclude *.pyd
+[2023-08-04 07:17:37] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/1b/d2/a02b729fceb0f6e61adf61ac7dc258345c724815ff446e3d8204cae3e838/phonenumberslite-8.9.9.tar.gz
+[2023-08-04 07:17:38] INFO root fetch - processPackages [phonenumberslite]: executing diffoscope
+[2023-08-04 07:17:38] INFO root fetch - processPackages [phonenumberslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumberslite-8.9.8.tar.gz tmp/phonenumberslite-8.9.9.tar.gz --markdown 20230804/p/phonenumberslite/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2023-08-04 07:17:38] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/bc/2a/0ad24a36f6763be01df1b427f23a38456a351fdf205b0c19041499a9f82c/phonenumbers-8.9.9.tar.gz
+[2023-08-04 07:17:38] INFO root fetch - processPackages [jijmodeling-transpiler-quantum]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler_quantum-0.1.0rc3.tar.gz]
+[2023-08-04 07:17:38] INFO root fetch - processPackages [jijmodeling-transpiler-quantum]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler_quantum-0.1.0rc5.tar.gz]
+[2023-08-04 07:17:38] INFO root fetch - main [MainThread]: End processing [jijmodeling-transpiler-quantum]: success
+[2023-08-04 07:17:39] INFO root fetch - processPackages [phonenumbers]: executing diffoscope
+[2023-08-04 07:17:39] INFO root fetch - processPackages [phonenumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumbers-8.9.8.tar.gz tmp/phonenumbers-8.9.9.tar.gz --markdown 20230804/p/phonenumbers/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2023-08-04 07:17:41] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.8.tar.gz]
+[2023-08-04 07:17:41] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.9.tar.gz]
+[2023-08-04 07:17:41] INFO root fetch - main [MainThread]: End processing [phonenumberslite]: success
+[2023-08-04 07:17:44] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.8.tar.gz]
+[2023-08-04 07:17:44] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.9.tar.gz]
+[2023-08-04 07:17:44] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
+[2023-08-04 07:17:53] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230730-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-04 07:17:53] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-04 07:17:53] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-08-04 07:17:53] INFO root fetch - main [MainThread]: Store serial: [19170057]
