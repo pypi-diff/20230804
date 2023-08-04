@@ -20906,3 +20906,62 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-04 13:53:23] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308040918-py3-none-any.whl.zip]
 [2023-08-04 13:53:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-08-04 13:53:23] INFO root fetch - main [MainThread]: Store serial: [19173466]
+[2023-08-04 13:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19173466]
+[2023-08-04 13:58:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-04 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-08-04 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-08-04 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chartsworth
+[2023-08-04 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alfreds
+[2023-08-04 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: teneva-bm
+[2023-08-04 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-08-04 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alfreds
+[2023-08-04 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfish
+[2023-08-04 13:58:32] WARNING root fetch - processPackages [alfreds]: Skipping, unable to determine old version
+[2023-08-04 13:58:32] INFO root fetch - main [MainThread]: End processing [alfreds] error
+[2023-08-04 13:58:32] INFO root fetch - processPackages [kcli]: New version: [99.0.202308041151] Old Version: [99.0.202308040918]
+[2023-08-04 13:58:32] INFO root fetch - processPackages [chartsworth]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-04 13:58:32] WARNING root fetch - processPackages [alfreds]: Skipping, unable to determine old version
+[2023-08-04 13:58:32] INFO root fetch - main [MainThread]: End processing [alfreds] error
+[2023-08-04 13:58:32] INFO root fetch - processPackages [kfish]: New version: [99.0.202308040922] Old Version: [99.0.202308032252]
+[2023-08-04 13:58:32] INFO root fetch - processPackages [kfish]: New version: [99.0.202308040922] Old Version: [99.0.202308032252]
+[2023-08-04 13:58:32] INFO root fetch - processPackages [kfish]: New version: [99.0.202308040922] Old Version: [99.0.202308032252]
+[2023-08-04 13:58:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/19/f7/9057d0c49952562261a3314bd547fe65bcac6b41bb67aa0b6e674a8c4f71/kcli-99.0.202308040918-py3-none-any.whl
+[2023-08-04 13:58:32] INFO root fetch - processPackages [teneva-bm]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-04 13:58:32] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f8/d5/5a174f736b0e57430c7108aee16ec0634cc09aa32c9ed650d308745d743c/kfish-99.0.202308032252-py3-none-any.whl
+[2023-08-04 13:58:32] INFO root fetch - processPackages [chartsworth]: Downloading https://files.pythonhosted.org/packages/db/ef/94421e4f35f31d47812204a4346ed0aefdf269ca48e4cd099ef715f1ecff/chartsworth-0.3.0.tar.gz
+[2023-08-04 13:58:32] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f8/d5/5a174f736b0e57430c7108aee16ec0634cc09aa32c9ed650d308745d743c/kfish-99.0.202308032252-py3-none-any.whl
+[2023-08-04 13:58:32] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f8/d5/5a174f736b0e57430c7108aee16ec0634cc09aa32c9ed650d308745d743c/kfish-99.0.202308032252-py3-none-any.whl
+[2023-08-04 13:58:33] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/b3/93/35b603dfa5099e0698f409188a1ebd348cb31763adaf4818299101e665b8/teneva_bm-0.7.0.tar.gz
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d8/dd/2ed8a5bcc477d66f923fffbeb0a1c2a6c5fe40130ade8502f649ce395537/kfish-99.0.202308040922-py3-none-any.whl
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d8/dd/2ed8a5bcc477d66f923fffbeb0a1c2a6c5fe40130ade8502f649ce395537/kfish-99.0.202308040922-py3-none-any.whl
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d8/dd/2ed8a5bcc477d66f923fffbeb0a1c2a6c5fe40130ade8502f649ce395537/kfish-99.0.202308040922-py3-none-any.whl
+[2023-08-04 13:58:33] INFO root fetch - processPackages [chartsworth]: Downloading https://files.pythonhosted.org/packages/a0/06/e5223323e80c502d23186012fcf8426ca047a956370fea8db959499a3dda/chartsworth-0.4.0.tar.gz
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202308032252-py3-none-any.whl.zip tmp/kfish-99.0.202308040922-py3-none-any.whl.zip --markdown 20230804/k/kfish/99.0.202308032252-99.0.202308040922/diff.md --exclude *.pyd
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202308032252-py3-none-any.whl.zip tmp/kfish-99.0.202308040922-py3-none-any.whl.zip --markdown 20230804/k/kfish/99.0.202308032252-99.0.202308040922/diff.md --exclude *.pyd
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202308032252-py3-none-any.whl.zip tmp/kfish-99.0.202308040922-py3-none-any.whl.zip --markdown 20230804/k/kfish/99.0.202308032252-99.0.202308040922/diff.md --exclude *.pyd
+[2023-08-04 13:58:33] INFO root fetch - processPackages [teneva-bm]: Downloading https://files.pythonhosted.org/packages/5f/59/5fbea886b1f3191551a068760a48d79217aebe5c70ce54e4da5b76779873/teneva_bm-0.7.1.tar.gz
+[2023-08-04 13:58:33] INFO root fetch - processPackages [chartsworth]: executing diffoscope
+[2023-08-04 13:58:33] INFO root fetch - processPackages [chartsworth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartsworth-0.3.0.tar.gz tmp/chartsworth-0.4.0.tar.gz --markdown 20230804/c/chartsworth/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-04 13:58:33] INFO root fetch - processPackages [teneva-bm]: executing diffoscope
+[2023-08-04 13:58:33] INFO root fetch - processPackages [teneva-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teneva_bm-0.7.0.tar.gz tmp/teneva_bm-0.7.1.tar.gz --markdown 20230804/t/teneva-bm/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-04 13:58:33] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f6/b8/42e637b8218320e89f2692cd56db3e22e5523f3d313041169bccd154bea8/kcli-99.0.202308041151-py3-none-any.whl
+[2023-08-04 13:58:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308032252-py3-none-any.whl.zip]
+[2023-08-04 13:58:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308040922-py3-none-any.whl.zip]
+[2023-08-04 13:58:34] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-08-04 13:58:34] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-08-04 13:58:34] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-08-04 13:58:34] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202308040918-py3-none-any.whl.zip tmp/kcli-99.0.202308041151-py3-none-any.whl.zip --markdown 20230804/k/kcli/99.0.202308040918-99.0.202308041151/diff.md --exclude *.pyd
+[2023-08-04 13:58:34] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-08-04 13:58:34] INFO root fetch - processPackages [chartsworth]: Remove: archive file [/home/abi/fetcher/tmp/chartsworth-0.3.0.tar.gz]
+[2023-08-04 13:58:34] INFO root fetch - processPackages [chartsworth]: Remove: archive file [/home/abi/fetcher/tmp/chartsworth-0.4.0.tar.gz]
+[2023-08-04 13:58:34] INFO root fetch - main [MainThread]: End processing [chartsworth]: success
+[2023-08-04 13:58:34] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.7.0.tar.gz]
+[2023-08-04 13:58:34] INFO root fetch - processPackages [teneva-bm]: Remove: archive file [/home/abi/fetcher/tmp/teneva_bm-0.7.1.tar.gz]
+[2023-08-04 13:58:34] INFO root fetch - main [MainThread]: End processing [teneva-bm]: success
+[2023-08-04 13:58:37] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308040918-py3-none-any.whl.zip]
+[2023-08-04 13:58:37] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202308041151-py3-none-any.whl.zip]
+[2023-08-04 13:58:37] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-08-04 13:58:37] INFO root fetch - main [MainThread]: Store serial: [19173484]
