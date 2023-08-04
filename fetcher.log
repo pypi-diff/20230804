@@ -15360,3 +15360,122 @@
 [2023-08-04 09:46:23] INFO root fetch - processPackages [webviz-config]: Remove: archive file [/home/abi/fetcher/tmp/webviz-config-0.5.3a0.tar.gz]
 [2023-08-04 09:46:23] INFO root fetch - main [MainThread]: End processing [webviz-config]: success
 [2023-08-04 09:46:23] INFO root fetch - main [MainThread]: Store serial: [19171127]
+[2023-08-04 09:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171127]
+[2023-08-04 09:51:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rkvst-samples
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shortgpt
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mutual
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cytosim
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strmprivacy-api-definitions
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openprotein-python
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: words-tui
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-it-fatturapa-out
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: basebot22-basebot-JustinGuese
+[2023-08-04 09:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aanalyticsact
+[2023-08-04 09:51:32] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.1b8] Old Version: [0.1.1b7]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [cytosim]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: New version: [0.3.35] Old Version: [0.3.34]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [shortgpt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.1.38] Old Version: [0.0.1.37]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/95/34/aa734801182774ab6a811d1381d6bb34059d899356d04e82fd8e7989e959/openprotein_python-0.1.1b7.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [mutual]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [rkvst-samples]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [words-tui]: New version: [23.1] Old Version: [23.0]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [cytosim]: Downloading https://files.pythonhosted.org/packages/3d/1a/41154f261f6df712878385aa8cdd81da02475e0fe60b5a204f633350e2b8/cytosim-0.0.3.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: New version: [16.0.1.0.8] Old Version: [16.0.1.0.7.2]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [3.9.0] Old Version: [3.8.1]
+[2023-08-04 09:51:32] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Downloading https://files.pythonhosted.org/packages/c6/5a/95361ebfbfb47af2494219217f2e0988886c7c43471e2f07c97a55399ee4/basebot22-basebot_JustinGuese-0.3.34.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/7f/52/f5ae45640914c7c5c5135d573813ba2e34820313d8ca380090eb7a4e31d5/mutual-0.3.3.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/83/ce/a78675c880c1e4d89f80ab2f3c823416e8841f94fea5628617140b38b5dc/ShortGPT-0.0.1.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [rkvst-samples]: Downloading https://files.pythonhosted.org/packages/0d/a0/5a316a6155066ce810648d105dfed70839eed00bc11538223ba1f1e5174c/rkvst-samples-0.8.2.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/e9/6e/79a800aaf2c11d4efdbeba810919006d5186c503d6120b7f026f7dc343ce/openprotein_python-0.1.1b8.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/05/4e/ff525b4b22eff9ca06dbcf4108156d1ae5cd782d908e4f82d6873cc05b61/aanalyticsact-0.0.1.37.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [words-tui]: Downloading https://files.pythonhosted.org/packages/27/d7/75db2be93f35ac2fd194c71b9c8347f98491709c6c8dffc84d90d6d1b905/words_tui-23.0.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/92/dc/fb105d8c2ad15f1eb5a85f8c0d779b4c43784b3bc84f2b1dcdf287fe3e81/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.7.2-py3-none-any.whl
+[2023-08-04 09:51:32] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/10/a0/b58b17f3aa68a93f7ce91c6e57b082f13f8ec0b9e6bf3bf18c9d4b91c249/strmprivacy-api-definitions-3.8.1.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 09:51:32] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.1b7.tar.gz tmp/openprotein_python-0.1.1b8.tar.gz --markdown 20230804/o/openprotein-python/0.1.1b7-0.1.1b8/diff.md --exclude *.pyd
+[2023-08-04 09:51:32] INFO root fetch - processPackages [cytosim]: Downloading https://files.pythonhosted.org/packages/e3/e5/9c45aeb50a89dd79e9e4107d27d5b5b7f3a11e22d1a4f3039883332234d3/cytosim-0.0.4.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Downloading https://files.pythonhosted.org/packages/94/6f/c90a4f086510b4043ff4070c304fba1193b4a35756faf11de8c767dfea79/basebot22-basebot_JustinGuese-0.3.35.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [mutual]: Downloading https://files.pythonhosted.org/packages/f5/e4/bb02dd3d0765595076dd0350d25691ea259b8b2f44ea0d1202b8e9495ef2/mutual-0.3.4.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/ac/0f/e3d2233b77858fc8797ad6a93485fc1ac25e28c34165cb4881991d2ba9c0/shortgpt-0.0.2.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: executing diffoscope
+[2023-08-04 09:51:32] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basebot22-basebot_JustinGuese-0.3.34.tar.gz tmp/basebot22-basebot_JustinGuese-0.3.35.tar.gz --markdown 20230804/b/basebot22-basebot-JustinGuese/0.3.34-0.3.35/diff.md --exclude *.pyd
+[2023-08-04 09:51:32] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/49/e5/26e7cb0dc4c93b205d3c467beb228b3e5bda7fccff49da99ed73a5a0303c/aanalyticsact-0.0.1.38.tar.gz
+[2023-08-04 09:51:32] INFO root fetch - processPackages [words-tui]: Downloading https://files.pythonhosted.org/packages/5f/ec/1a63a2aac21835775bf47ca893791afe01a3957804d97f1929d20a048e58/words_tui-23.1.tar.gz
+[2023-08-04 09:51:33] INFO root fetch - processPackages [cytosim]: executing diffoscope
+[2023-08-04 09:51:33] INFO root fetch - processPackages [cytosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytosim-0.0.3.tar.gz tmp/cytosim-0.0.4.tar.gz --markdown 20230804/c/cytosim/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-04 09:51:33] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/16/55/5029840a9815dddb2d756ab8ad2f3956cae9a6c5fd1f94a6a899379457e8/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.8-py3-none-any.whl
+[2023-08-04 09:51:33] INFO root fetch - processPackages [mutual]: executing diffoscope
+[2023-08-04 09:51:33] INFO root fetch - processPackages [mutual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutual-0.3.3.tar.gz tmp/mutual-0.3.4.tar.gz --markdown 20230804/m/mutual/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-04 09:51:33] WARNING root fetch - processPackages [rkvst-samples]: Skipping package: exceeds size limit 13331472>=10485760
+[2023-08-04 09:51:33] INFO root fetch - processPackages [rkvst-samples]: Start processing: keras-nightly
+[2023-08-04 09:51:33] INFO root fetch - main [MainThread]: End processing [rkvst-samples] error
+[2023-08-04 09:51:33] INFO root fetch - processPackages [shortgpt]: executing diffoscope
+[2023-08-04 09:51:33] INFO root fetch - processPackages [shortgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShortGPT-0.0.1.tar.gz tmp/shortgpt-0.0.2.tar.gz --markdown 20230804/s/shortgpt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-04 09:51:33] INFO root fetch - processPackages [words-tui]: executing diffoscope
+[2023-08-04 09:51:33] INFO root fetch - processPackages [words-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/words_tui-23.0.tar.gz tmp/words_tui-23.1.tar.gz --markdown 20230804/w/words-tui/23.0-23.1/diff.md --exclude *.pyd
+[2023-08-04 09:51:33] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-08-04 09:51:33] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: executing diffoscope
+[2023-08-04 09:51:33] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.7.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.8-py3-none-any.whl.zip --markdown 20230804/o/odoo-addon-l10n-it-fatturapa-out/16.0.1.0.7.2-16.0.1.0.8/diff.md --exclude *.pyd
+[2023-08-04 09:51:33] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-08-04 09:51:33] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.1.37.tar.gz tmp/aanalyticsact-0.0.1.38.tar.gz --markdown 20230804/a/aanalyticsact/0.0.1.37-0.0.1.38/diff.md --exclude *.pyd
+[2023-08-04 09:51:33] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/31/d3/eba4f901fc1c6ed3fb10abe1cc19e77d6f8445686ea91e8f350a53652faf/strmprivacy-api-definitions-3.9.0.tar.gz
+[2023-08-04 09:51:33] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-08-04 09:51:33] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-08-04 09:51:33] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-3.8.1.tar.gz tmp/strmprivacy-api-definitions-3.9.0.tar.gz --markdown 20230804/s/strmprivacy-api-definitions/3.8.1-3.9.0/diff.md --exclude *.pyd
+[2023-08-04 09:51:33] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-08-04 09:51:34] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b7.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b8.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - processPackages [openprotein-python]: Start processing: tf-nightly-cpu
+[2023-08-04 09:51:34] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 09:51:34] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-08-04 09:51:34] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230804/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-08-04 09:51:34] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Remove: archive file [/home/abi/fetcher/tmp/basebot22-basebot_JustinGuese-0.3.34.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Remove: archive file [/home/abi/fetcher/tmp/basebot22-basebot_JustinGuese-0.3.35.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Start processing: usepy-plugin-rabbitmq
+[2023-08-04 09:51:34] INFO root fetch - main [MainThread]: End processing [basebot22-basebot-JustinGuese]: success
+[2023-08-04 09:51:34] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.15.0.dev20230804] Old Version: [2.15.0.dev20230803]
+[2023-08-04 09:51:34] WARNING root fetch - processPackages [usepy-plugin-rabbitmq]: Skipping, unable to determine old version
+[2023-08-04 09:51:34] INFO root fetch - processPackages [usepy-plugin-rabbitmq]: Start processing: tomni
+[2023-08-04 09:51:34] INFO root fetch - main [MainThread]: End processing [usepy-plugin-rabbitmq] error
+[2023-08-04 09:51:34] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.3.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - processPackages [mutual]: Remove: archive file [/home/abi/fetcher/tmp/mutual-0.3.4.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - main [MainThread]: End processing [mutual]: success
+[2023-08-04 09:51:34] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/cb/c7/7e53f452b5405b58d70ac7651c1d4049795a29367631bdd4dc363b89218f/tf_nightly_cpu-2.15.0.dev20230803-cp39-cp39-win_amd64.whl
+[2023-08-04 09:51:34] INFO root fetch - processPackages [tomni]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-08-04 09:51:34] INFO root fetch - processPackages [words-tui]: Remove: archive file [/home/abi/fetcher/tmp/words_tui-23.0.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - processPackages [words-tui]: Remove: archive file [/home/abi/fetcher/tmp/words_tui-23.1.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - main [MainThread]: End processing [words-tui]: success
+[2023-08-04 09:51:34] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.37.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - processPackages [aanalyticsact]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact-0.0.1.38.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-08-04 09:51:34] INFO root fetch - processPackages [tomni]: Downloading https://files.pythonhosted.org/packages/92/59/96ebb7c50cbc29b44baca0d5a57c069ea93a7a9bf4b95222a232ee268041/tomni-2.0.0b1.tar.gz
+[2023-08-04 09:51:34] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/e7/e7/4aadf5d3778a03906db15b149f790b695846d98b7c0596056e93e20bd746/tf_nightly_cpu-2.15.0.dev20230804-cp39-cp39-win_amd64.whl
+[2023-08-04 09:51:34] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/ShortGPT-0.0.1.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/shortgpt-0.0.2.tar.gz]
+[2023-08-04 09:51:34] INFO root fetch - main [MainThread]: End processing [shortgpt]: success
+[2023-08-04 09:51:35] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-08-04 09:51:35] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.15.0.dev20230803-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.15.0.dev20230804-cp39-cp39-win_amd64.whl.zip --markdown 20230804/t/tf-nightly-cpu/2.15.0.dev20230803-2.15.0.dev20230804/diff.md --exclude *.pyd
+[2023-08-04 09:51:35] INFO root fetch - processPackages [tomni]: Downloading https://files.pythonhosted.org/packages/c3/48/139619edf28f050cd918e0c1a269e3156a8af073ecc65f4aa8baa3b59296/tomni-2.0.0b2.tar.gz
+[2023-08-04 09:51:35] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.7.2-py3-none-any.whl.zip]
+[2023-08-04 09:51:35] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.8-py3-none-any.whl.zip]
+[2023-08-04 09:51:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-out]: success
+[2023-08-04 09:51:35] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.8.1.tar.gz]
+[2023-08-04 09:51:35] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.9.0.tar.gz]
+[2023-08-04 09:51:35] INFO root fetch - processPackages [tomni]: executing diffoscope
+[2023-08-04 09:51:35] INFO root fetch - processPackages [tomni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomni-2.0.0b1.tar.gz tmp/tomni-2.0.0b2.tar.gz --markdown 20230804/t/tomni/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-08-04 09:51:35] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-08-04 09:51:36] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.15.0.dev20230803-cp39-cp39-win_amd64.whl.zip]
+[2023-08-04 09:51:36] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.15.0.dev20230804-cp39-cp39-win_amd64.whl.zip]
+[2023-08-04 09:51:36] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-08-04 09:51:36] INFO root fetch - processPackages [tomni]: Remove: archive file [/home/abi/fetcher/tmp/tomni-2.0.0b1.tar.gz]
+[2023-08-04 09:51:36] INFO root fetch - processPackages [tomni]: Remove: archive file [/home/abi/fetcher/tmp/tomni-2.0.0b2.tar.gz]
+[2023-08-04 09:51:36] INFO root fetch - main [MainThread]: End processing [tomni]: success
+[2023-08-04 09:51:38] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-08-04 09:51:38] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-08-04 09:51:38] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-08-04 09:51:38] INFO root fetch - processPackages [cytosim]: Remove: archive file [/home/abi/fetcher/tmp/cytosim-0.0.3.tar.gz]
+[2023-08-04 09:51:38] INFO root fetch - processPackages [cytosim]: Remove: archive file [/home/abi/fetcher/tmp/cytosim-0.0.4.tar.gz]
+[2023-08-04 09:51:38] INFO root fetch - main [MainThread]: End processing [cytosim]: success
+[2023-08-04 09:51:38] INFO root fetch - main [MainThread]: Store serial: [19171170]
