@@ -13289,3 +13289,50 @@
 [2023-08-04 07:38:40] INFO root fetch - processPackages [waveforms]: Remove: archive file [/home/abi/fetcher/tmp/waveforms-1.6.9.tar.gz]
 [2023-08-04 07:38:40] INFO root fetch - main [MainThread]: End processing [waveforms]: success
 [2023-08-04 07:38:40] INFO root fetch - main [MainThread]: Store serial: [19170175]
+[2023-08-04 07:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170175]
+[2023-08-04 07:43:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-04 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huawei-file-transfer
+[2023-08-04 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyeball-pp
+[2023-08-04 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zensvi
+[2023-08-04 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartscheduler
+[2023-08-04 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nemusicapi
+[2023-08-04 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlh
+[2023-08-04 07:43:49] INFO root fetch - processPackages [nemusicapi]: New version: [0.1.1a6] Old Version: [0.1.1a5]
+[2023-08-04 07:43:49] INFO root fetch - processPackages [eyeball-pp]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-04 07:43:49] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/da/d2/f263ce81b4b06e27ee56916c87ee2ed485b218d65ce02df6d17d5949d67d/nemusicapi-0.1.1a5.tar.gz
+[2023-08-04 07:43:49] INFO root fetch - processPackages [eyeball-pp]: Downloading https://files.pythonhosted.org/packages/0e/ef/64d69db0890723a7eeb9c9bfc66ad3a6bc1f1997ad2b295e3c6bfb1100fe/eyeball_pp-0.0.7.tar.gz
+[2023-08-04 07:43:49] INFO root fetch - processPackages [smartscheduler]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-04 07:43:49] INFO root fetch - processPackages [mlh]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-04 07:43:49] WARNING root fetch - processPackages [huawei-file-transfer]: Skipping, unable to determine old version
+[2023-08-04 07:43:49] INFO root fetch - main [MainThread]: End processing [huawei-file-transfer] error
+[2023-08-04 07:43:49] INFO root fetch - processPackages [zensvi]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-04 07:43:49] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/16/d8/6b8b34e64274c8030a76e2f507c19cfec7f31f43d021be7daa7a20d3ead4/zensvi-0.8.1.tar.gz
+[2023-08-04 07:43:49] INFO root fetch - processPackages [smartscheduler]: Downloading https://files.pythonhosted.org/packages/a6/9d/42cce384a3775e4250ec8d0d0250c44ca68c0293cf0c2e37259d0e3b783e/smartscheduler-0.0.3.tar.gz
+[2023-08-04 07:43:49] INFO root fetch - processPackages [mlh]: Downloading https://files.pythonhosted.org/packages/86/19/5b012e1ce28566347ce8cb35a4a515db10be49c8ca98e3fd1eddd70118eb/mlh-0.0.7.tar.gz
+[2023-08-04 07:43:49] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/1a/0c/48a51f30d8dab240bdb8b08c6de897d32054ea8541651ed7e6bbc2b78465/nemusicapi-0.1.1a6.tar.gz
+[2023-08-04 07:43:49] WARNING root fetch - processPackages [smartscheduler]: Skipping package: exceeds size limit 17321253>=10485760
+[2023-08-04 07:43:49] INFO root fetch - main [MainThread]: End processing [smartscheduler] error
+[2023-08-04 07:43:49] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-04 07:43:49] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.1.1a5.tar.gz tmp/nemusicapi-0.1.1a6.tar.gz --markdown 20230804/n/nemusicapi/0.1.1a5-0.1.1a6/diff.md --exclude *.pyd
+[2023-08-04 07:43:49] INFO root fetch - processPackages [eyeball-pp]: Downloading https://files.pythonhosted.org/packages/94/cb/6946d53912ca011a35320867b097d7c3ddac1e12fa914ae06a43e315defa/eyeball_pp-0.0.8.tar.gz
+[2023-08-04 07:43:49] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/98/5f/4ab996e6a6f612c56121e3a6e5f428c572ec88b57c96de8ff3b713ddf5c8/zensvi-0.8.2.tar.gz
+[2023-08-04 07:43:49] INFO root fetch - processPackages [mlh]: Downloading https://files.pythonhosted.org/packages/a9/68/812fddbc0158d9da35fc7f9d2f4a8c3d0ad687d96f9705ab553881cd4bf6/mlh-0.0.8.tar.gz
+[2023-08-04 07:43:49] INFO root fetch - processPackages [eyeball-pp]: executing diffoscope
+[2023-08-04 07:43:49] INFO root fetch - processPackages [eyeball-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyeball_pp-0.0.7.tar.gz tmp/eyeball_pp-0.0.8.tar.gz --markdown 20230804/e/eyeball-pp/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-04 07:43:50] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-08-04 07:43:50] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.8.1.tar.gz tmp/zensvi-0.8.2.tar.gz --markdown 20230804/z/zensvi/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-04 07:43:50] INFO root fetch - processPackages [mlh]: executing diffoscope
+[2023-08-04 07:43:50] INFO root fetch - processPackages [mlh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlh-0.0.7.tar.gz tmp/mlh-0.0.8.tar.gz --markdown 20230804/m/mlh/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-04 07:43:50] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a5.tar.gz]
+[2023-08-04 07:43:50] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a6.tar.gz]
+[2023-08-04 07:43:50] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-04 07:43:50] INFO root fetch - processPackages [eyeball-pp]: Remove: archive file [/home/abi/fetcher/tmp/eyeball_pp-0.0.7.tar.gz]
+[2023-08-04 07:43:50] INFO root fetch - processPackages [eyeball-pp]: Remove: archive file [/home/abi/fetcher/tmp/eyeball_pp-0.0.8.tar.gz]
+[2023-08-04 07:43:50] INFO root fetch - main [MainThread]: End processing [eyeball-pp]: success
+[2023-08-04 07:43:50] INFO root fetch - processPackages [mlh]: Remove: archive file [/home/abi/fetcher/tmp/mlh-0.0.7.tar.gz]
+[2023-08-04 07:43:50] INFO root fetch - processPackages [mlh]: Remove: archive file [/home/abi/fetcher/tmp/mlh-0.0.8.tar.gz]
+[2023-08-04 07:43:50] INFO root fetch - main [MainThread]: End processing [mlh]: success
+[2023-08-04 07:43:51] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.8.1.tar.gz]
+[2023-08-04 07:43:51] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.8.2.tar.gz]
+[2023-08-04 07:43:51] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-08-04 07:43:51] INFO root fetch - main [MainThread]: Store serial: [19170195]
