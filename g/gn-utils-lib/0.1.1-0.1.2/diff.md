@@ -1,0 +1,124 @@
+# Comparing `tmp/gn_utils_lib-0.1.1.tar.gz` & `tmp/gn_utils_lib-0.1.2.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "gn_utils_lib-0.1.1.tar", max compression
++gzip compressed data, was "gn_utils_lib-0.1.2.tar", max compression
+```
+
+## Comparing `gn_utils_lib-0.1.1.tar` & `gn_utils_lib-0.1.2.tar`
+
+### file list
+
+```diff
+@@ -1,11 +1,11 @@
+--rw-r--r--   0        0        0     1491 2023-08-04 19:47:38.281885 gn_utils_lib-0.1.1/LICENSE
+--rw-r--r--   0        0        0     3975 2023-08-04 19:47:38.461104 gn_utils_lib-0.1.1/README.md
+--rw-r--r--   0        0        0     1670 2023-08-04 20:34:16.640039 gn_utils_lib-0.1.1/pyproject.toml
+--rw-r--r--   0        0        0        0 2023-03-21 15:31:23.218561 gn_utils_lib-0.1.1/src/gn_py_tracker/__init__.py
+--rw-r--r--   0        0        0     1951 2023-08-04 19:54:32.269689 gn_utils_lib-0.1.1/src/gn_py_tracker/event.py
+--rw-r--r--   0        0        0     3209 2023-08-04 19:56:38.037680 gn_utils_lib-0.1.1/src/gn_py_tracker/tracker.py
+--rw-r--r--   0        0        0        0 2023-08-04 20:14:04.928382 gn_utils_lib-0.1.1/src/ninja_snake_lib/__init__.py
+--rw-r--r--   0        0        0     1508 2023-08-04 19:54:32.266504 gn_utils_lib-0.1.1/src/ninja_snake_lib/decorators.py
+--rw-r--r--   0        0        0     6167 2023-08-04 19:57:59.855619 gn_utils_lib-0.1.1/src/ninja_snake_lib/json_formatter.py
+--rw-r--r--   0        0        0      770 2023-08-04 19:47:40.145907 gn_utils_lib-0.1.1/src/ninja_snake_lib/read_dotenv.py
+--rw-r--r--   0        0        0     4829 1970-01-01 00:00:00.000000 gn_utils_lib-0.1.1/PKG-INFO
++-rw-r--r--   0        0        0     1491 2023-08-04 19:47:38.281885 gn_utils_lib-0.1.2/LICENSE
++-rw-r--r--   0        0        0     3975 2023-08-04 19:47:38.461104 gn_utils_lib-0.1.2/README.md
++-rw-r--r--   0        0        0     1770 2023-08-04 20:44:37.603714 gn_utils_lib-0.1.2/pyproject.toml
++-rw-r--r--   0        0        0        0 2023-03-21 15:31:23.218561 gn_utils_lib-0.1.2/src/gn_py_tracker/__init__.py
++-rw-r--r--   0        0        0     1951 2023-08-04 19:54:32.269689 gn_utils_lib-0.1.2/src/gn_py_tracker/event.py
++-rw-r--r--   0        0        0     3209 2023-08-04 19:56:38.037680 gn_utils_lib-0.1.2/src/gn_py_tracker/tracker.py
++-rw-r--r--   0        0        0        0 2023-08-04 20:14:04.928382 gn_utils_lib-0.1.2/src/ninja_snake_lib/__init__.py
++-rw-r--r--   0        0        0     1508 2023-08-04 19:54:32.266504 gn_utils_lib-0.1.2/src/ninja_snake_lib/decorators.py
++-rw-r--r--   0        0        0     6167 2023-08-04 19:57:59.855619 gn_utils_lib-0.1.2/src/ninja_snake_lib/json_formatter.py
++-rw-r--r--   0        0        0      770 2023-08-04 19:47:40.145907 gn_utils_lib-0.1.2/src/ninja_snake_lib/read_dotenv.py
++-rw-r--r--   0        0        0     4837 1970-01-01 00:00:00.000000 gn_utils_lib-0.1.2/PKG-INFO
+```
+
+### Comparing `gn_utils_lib-0.1.1/LICENSE` & `gn_utils_lib-0.1.2/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `gn_utils_lib-0.1.1/README.md` & `gn_utils_lib-0.1.2/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `gn_utils_lib-0.1.1/pyproject.toml` & `gn_utils_lib-0.1.2/pyproject.toml`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -1,17 +1,19 @@
+ [tool.poetry]
+ name = "gn-utils-lib"
+-version = "0.1.1"
++version = "0.1.2"
+ description = "Biblioteca utilitaria para projetos Python no Getninjas"
+ authors = [
+     "Goncalo Franco <goncalo.franco@getninjas.com.br>",
++    "Bruno Scherer <bruno.scherer@getninjas.com.br>",
++    "Carlos Sa <carlos.sa@getninjas.com.br>",
+ ]
+ maintainers = [
+-    "Carlos Sa <carlos.sa@getninjas.com.br>",
+     "Bruno Scherer <bruno.scherer@getninjas.com.br>",
++    "Carlos Sa <carlos.sa@getninjas.com.br>",
+     "Goncalo Franco <goncalo.franco@getninjas.com.br>",
+ ]
+ license = "BSD"
+ readme = "README.md"
+ packages = [
+     {include = "gn_py_tracker", from="src"},
+     {include = "ninja_snake_lib", from="src"}
+```
+
+### Comparing `gn_utils_lib-0.1.1/src/gn_py_tracker/event.py` & `gn_utils_lib-0.1.2/src/gn_py_tracker/event.py`
+
+ * *Files identical despite different names*
+
+### Comparing `gn_utils_lib-0.1.1/src/gn_py_tracker/tracker.py` & `gn_utils_lib-0.1.2/src/gn_py_tracker/tracker.py`
+
+ * *Files identical despite different names*
+
+### Comparing `gn_utils_lib-0.1.1/src/ninja_snake_lib/decorators.py` & `gn_utils_lib-0.1.2/src/ninja_snake_lib/decorators.py`
+
+ * *Files identical despite different names*
+
+### Comparing `gn_utils_lib-0.1.1/src/ninja_snake_lib/json_formatter.py` & `gn_utils_lib-0.1.2/src/ninja_snake_lib/json_formatter.py`
+
+ * *Files identical despite different names*
+
+### Comparing `gn_utils_lib-0.1.1/src/ninja_snake_lib/read_dotenv.py` & `gn_utils_lib-0.1.2/src/ninja_snake_lib/read_dotenv.py`
+
+ * *Files identical despite different names*
+
+### Comparing `gn_utils_lib-0.1.1/PKG-INFO` & `gn_utils_lib-0.1.2/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,16 +1,16 @@
+ Metadata-Version: 2.1
+ Name: gn-utils-lib
+-Version: 0.1.1
++Version: 0.1.2
+ Summary: Biblioteca utilitaria para projetos Python no Getninjas
+ License: BSD
+ Author: Goncalo Franco
+ Author-email: goncalo.franco@getninjas.com.br
+-Maintainer: Carlos Sa
+-Maintainer-email: carlos.sa@getninjas.com.br
++Maintainer: Bruno Scherer
++Maintainer-email: bruno.scherer@getninjas.com.br
+ Requires-Python: >=3.10,<4.0
+ Classifier: License :: OSI Approved :: BSD License
+ Classifier: License :: Other/Proprietary License
+ Classifier: Programming Language :: Python
+ Classifier: Programming Language :: Python :: 3
+ Classifier: Programming Language :: Python :: 3.10
+ Classifier: Programming Language :: Python :: 3.11
+```
+
