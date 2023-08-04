@@ -10033,3 +10033,42 @@
 [2023-08-04 04:19:17] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2023-08-04 04:19:17] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2023-08-04 04:19:17] INFO root fetch - main [MainThread]: Store serial: [19168747]
+[2023-08-04 04:24:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19168747]
+[2023-08-04 04:24:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-04 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ciohoudini
+[2023-08-04 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-lab
+[2023-08-04 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: canopy-platform
+[2023-08-04 04:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linkml-runtime
+[2023-08-04 04:24:27] INFO root fetch - processPackages [edc-lab]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 04:24:27] INFO root fetch - processPackages [linkml-runtime]: New version: [1.6.0rc2] Old Version: [1.5.5]
+[2023-08-04 04:24:27] INFO root fetch - processPackages [ciohoudini]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-08-04 04:24:27] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-08-04 04:24:27] INFO root fetch - processPackages [edc-lab]: Downloading https://files.pythonhosted.org/packages/a7/85/79ac43d88d756948cc62062c3b1428c11fbd675f831a656891e076fa9ad9/edc_lab-0.3.8-py3-none-any.whl
+[2023-08-04 04:24:27] INFO root fetch - processPackages [canopy-platform]: Downloading https://files.pythonhosted.org/packages/01/07/f5cf35f2f764a8fb0ca1cf996c00e73d20af5680ac80c3238ebc2aed601c/canopy-platform-0.0.7.tar.gz
+[2023-08-04 04:24:27] INFO root fetch - processPackages [linkml-runtime]: Downloading https://files.pythonhosted.org/packages/53/4b/ef20768b69010b9d172f3ec372347320d355c5cf91fd3479e916e891f501/linkml_runtime-1.5.5.tar.gz
+[2023-08-04 04:24:27] INFO root fetch - processPackages [ciohoudini]: Downloading https://files.pythonhosted.org/packages/0a/65/7be155f1535eb16c76426d8b6f8f4d858d919a1670f737433bffc4c72735/ciohoudini-0.7.3-py2.py3-none-any.whl
+[2023-08-04 04:24:28] INFO root fetch - processPackages [canopy-platform]: Downloading https://files.pythonhosted.org/packages/2f/5d/2cd75caf7771ab5fe07dbe20dc3f66d04d9374a9627e548c923dd37a1f8f/canopy-platform-0.0.9.tar.gz
+[2023-08-04 04:24:28] INFO root fetch - processPackages [linkml-runtime]: Downloading https://files.pythonhosted.org/packages/73/71/af9f7b9c11cecdccf6a815674c349577df0566a3c911672c7f72332b019d/linkml_runtime-1.6.0rc2.tar.gz
+[2023-08-04 04:24:28] INFO root fetch - processPackages [edc-lab]: Downloading https://files.pythonhosted.org/packages/57/2a/2cf53e2d5a12609174f36cabceac51b9d64206272a6f3082ca18c484cb7e/edc_lab-0.3.9-py3-none-any.whl
+[2023-08-04 04:24:28] INFO root fetch - processPackages [ciohoudini]: Downloading https://files.pythonhosted.org/packages/b0/c1/1e28a91b429064145cb69005d6c6cb4485472d46f2dab702cb937e69fb7a/ciohoudini-0.7.4-py2.py3-none-any.whl
+[2023-08-04 04:24:28] INFO root fetch - processPackages [linkml-runtime]: executing diffoscope
+[2023-08-04 04:24:28] INFO root fetch - processPackages [linkml-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml_runtime-1.5.5.tar.gz tmp/linkml_runtime-1.6.0rc2.tar.gz --markdown 20230804/l/linkml-runtime/1.5.5-1.6.0rc2/diff.md --exclude *.pyd
+[2023-08-04 04:24:28] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-08-04 04:24:28] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230804/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 04:24:28] INFO root fetch - processPackages [ciohoudini]: executing diffoscope
+[2023-08-04 04:24:28] INFO root fetch - processPackages [ciohoudini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciohoudini-0.7.3-py2.py3-none-any.whl.zip tmp/ciohoudini-0.7.4-py2.py3-none-any.whl.zip --markdown 20230804/c/ciohoudini/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-08-04 04:24:28] INFO root fetch - processPackages [edc-lab]: executing diffoscope
+[2023-08-04 04:24:28] INFO root fetch - processPackages [edc-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_lab-0.3.8-py3-none-any.whl.zip tmp/edc_lab-0.3.9-py3-none-any.whl.zip --markdown 20230804/e/edc-lab/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 04:24:29] INFO root fetch - processPackages [canopy-platform]: Remove: archive file [/home/abi/fetcher/tmp/canopy-platform-0.0.7.tar.gz]
+[2023-08-04 04:24:29] INFO root fetch - processPackages [canopy-platform]: Remove: archive file [/home/abi/fetcher/tmp/canopy-platform-0.0.9.tar.gz]
+[2023-08-04 04:24:29] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-08-04 04:24:29] INFO root fetch - processPackages [ciohoudini]: Remove: archive file [/home/abi/fetcher/tmp/ciohoudini-0.7.3-py2.py3-none-any.whl.zip]
+[2023-08-04 04:24:29] INFO root fetch - processPackages [ciohoudini]: Remove: archive file [/home/abi/fetcher/tmp/ciohoudini-0.7.4-py2.py3-none-any.whl.zip]
+[2023-08-04 04:24:29] INFO root fetch - main [MainThread]: End processing [ciohoudini]: success
+[2023-08-04 04:24:29] INFO root fetch - processPackages [edc-lab]: Remove: archive file [/home/abi/fetcher/tmp/edc_lab-0.3.8-py3-none-any.whl.zip]
+[2023-08-04 04:24:29] INFO root fetch - processPackages [edc-lab]: Remove: archive file [/home/abi/fetcher/tmp/edc_lab-0.3.9-py3-none-any.whl.zip]
+[2023-08-04 04:24:29] INFO root fetch - main [MainThread]: End processing [edc-lab]: success
+[2023-08-04 04:24:30] INFO root fetch - processPackages [linkml-runtime]: Remove: archive file [/home/abi/fetcher/tmp/linkml_runtime-1.5.5.tar.gz]
+[2023-08-04 04:24:30] INFO root fetch - processPackages [linkml-runtime]: Remove: archive file [/home/abi/fetcher/tmp/linkml_runtime-1.6.0rc2.tar.gz]
+[2023-08-04 04:24:30] INFO root fetch - main [MainThread]: End processing [linkml-runtime]: success
+[2023-08-04 04:24:30] INFO root fetch - main [MainThread]: Store serial: [19168764]
