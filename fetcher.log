@@ -10897,3 +10897,38 @@
 [2023-08-04 05:01:22] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.2.19.tar.gz]
 [2023-08-04 05:01:22] INFO root fetch - main [MainThread]: End processing [typedhtml]: success
 [2023-08-04 05:01:22] INFO root fetch - main [MainThread]: Store serial: [19169118]
+[2023-08-04 05:06:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169118]
+[2023-08-04 05:06:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-04 05:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arr2img
+[2023-08-04 05:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gui-interface
+[2023-08-04 05:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlconstructor
+[2023-08-04 05:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zrouter
+[2023-08-04 05:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linkpreview
+[2023-08-04 05:06:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitsandbytes
+[2023-08-04 05:06:31] INFO root fetch - processPackages [zrouter]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-04 05:06:31] WARNING root fetch - processPackages [sqlconstructor]: Skipping, unable to determine old version
+[2023-08-04 05:06:31] INFO root fetch - main [MainThread]: End processing [sqlconstructor] error
+[2023-08-04 05:06:31] WARNING root fetch - processPackages [gui-interface]: Skipping, unable to determine old version
+[2023-08-04 05:06:31] INFO root fetch - main [MainThread]: End processing [gui-interface] error
+[2023-08-04 05:06:31] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/d5/0b/1f290ad77801699595dece205c803dfb3504d7dcf346aca22b6571ba76df/zrouter-0.5.8.tar.gz
+[2023-08-04 05:06:31] WARNING root fetch - processPackages [arr2img]: Skipping, unable to determine old version
+[2023-08-04 05:06:31] INFO root fetch - main [MainThread]: End processing [arr2img] error
+[2023-08-04 05:06:31] INFO root fetch - processPackages [bitsandbytes]: New version: [0.41.1] Old Version: [0.41.0]
+[2023-08-04 05:06:31] INFO root fetch - processPackages [linkpreview]: New version: [0.7.0] Old Version: [0.6.5]
+[2023-08-04 05:06:32] INFO root fetch - processPackages [linkpreview]: Downloading https://files.pythonhosted.org/packages/3d/6b/a52531157b38844d0dcc62a6be9a57f5b24204ec2cf4158390e6d53eae5f/linkpreview-0.6.5.tar.gz
+[2023-08-04 05:06:32] INFO root fetch - processPackages [bitsandbytes]: Downloading https://files.pythonhosted.org/packages/84/65/05cb06d964862f209dbec1caae62c22467f586751c2b4774d488391f0c29/bitsandbytes-0.41.0.tar.gz
+[2023-08-04 05:06:32] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/3a/e4/417f70f8094c6d31fd1faff0895532e1a4d04b19cbc43e81c717b632b079/zrouter-0.5.9.tar.gz
+[2023-08-04 05:06:32] WARNING root fetch - processPackages [bitsandbytes]: Skipping package: exceeds size limit 91071288>=10485760
+[2023-08-04 05:06:32] INFO root fetch - main [MainThread]: End processing [bitsandbytes] error
+[2023-08-04 05:06:32] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-08-04 05:06:32] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.5.8.tar.gz tmp/zrouter-0.5.9.tar.gz --markdown 20230804/z/zrouter/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-04 05:06:32] INFO root fetch - processPackages [linkpreview]: Downloading https://files.pythonhosted.org/packages/c6/f2/2c2b53d9458d1a9ccdd9bb87cdd0fcb74ef730b6e3629077310ea01cfba0/linkpreview-0.7.0.tar.gz
+[2023-08-04 05:06:32] INFO root fetch - processPackages [linkpreview]: executing diffoscope
+[2023-08-04 05:06:32] INFO root fetch - processPackages [linkpreview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkpreview-0.6.5.tar.gz tmp/linkpreview-0.7.0.tar.gz --markdown 20230804/l/linkpreview/0.6.5-0.7.0/diff.md --exclude *.pyd
+[2023-08-04 05:06:33] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.8.tar.gz]
+[2023-08-04 05:06:33] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.9.tar.gz]
+[2023-08-04 05:06:33] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-08-04 05:06:33] INFO root fetch - processPackages [linkpreview]: Remove: archive file [/home/abi/fetcher/tmp/linkpreview-0.6.5.tar.gz]
+[2023-08-04 05:06:33] INFO root fetch - processPackages [linkpreview]: Remove: archive file [/home/abi/fetcher/tmp/linkpreview-0.7.0.tar.gz]
+[2023-08-04 05:06:33] INFO root fetch - main [MainThread]: End processing [linkpreview]: success
+[2023-08-04 05:06:33] INFO root fetch - main [MainThread]: Store serial: [19169142]
