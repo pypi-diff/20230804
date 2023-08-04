@@ -9599,3 +9599,85 @@
 [2023-08-04 03:47:59] INFO root fetch - processPackages [weewx]: Remove: archive file [/home/abi/fetcher/tmp/weewx-5.0.0b9.tar.gz]
 [2023-08-04 03:47:59] INFO root fetch - main [MainThread]: End processing [weewx]: success
 [2023-08-04 03:47:59] INFO root fetch - main [MainThread]: Store serial: [19168566]
+[2023-08-04 03:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19168566]
+[2023-08-04 03:53:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 03:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiges
+[2023-08-04 03:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lares
+[2023-08-04 03:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lammps
+[2023-08-04 03:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lares
+[2023-08-04 03:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fluvii
+[2023-08-04 03:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-appointment
+[2023-08-04 03:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monas
+[2023-08-04 03:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlx-batis
+[2023-08-04 03:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edc-constants
+[2023-08-04 03:53:08] INFO root fetch - processPackages [aiges]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-08-04 03:53:08] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 03:53:08] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 03:53:08] INFO root fetch - processPackages [edc-appointment]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 03:53:08] INFO root fetch - processPackages [lammps]: New version: [2023.8.2.0.0] Old Version: [2022.6.23.4.0]
+[2023-08-04 03:53:08] INFO root fetch - processPackages [sqlx-batis]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-04 03:53:08] INFO root fetch - processPackages [fluvii]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-08-04 03:53:08] INFO root fetch - processPackages [monas]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-08-04 03:53:08] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/e9/5c/bf2d0d6fedce00e3446e524a5aa7201f7e1ed00162aa2cbbc57ca8c075de/aiges-0.8.8.tar.gz
+[2023-08-04 03:53:08] INFO root fetch - processPackages [edc-constants]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 03:53:08] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-04 03:53:08] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-04 03:53:08] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/f8/13/58ebbfd6de5f2213f4f7217b376f9cf74076ac8297a3033abf3e189f3a31/edc_appointment-0.3.8-py3-none-any.whl
+[2023-08-04 03:53:08] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/39/c8/6a973c4f2305a00e78dee26d9326a8b350d05158d779cb35cf19c57bdcf9/sqlx-batis-1.1.0.tar.gz
+[2023-08-04 03:53:08] INFO root fetch - processPackages [lammps]: Downloading https://files.pythonhosted.org/packages/ef/7d/77855139d5c00ea7170cb429e06058a07c12382ca58873796cec69dab413/lammps-2022.6.23.4.0.tar.gz
+[2023-08-04 03:53:08] INFO root fetch - processPackages [monas]: Downloading https://files.pythonhosted.org/packages/2a/eb/dfdccf77ff26ed45e365e6a690ffe61bffba9732047538a66e1ba8f65238/monas-0.0.3.tar.gz
+[2023-08-04 03:53:08] INFO root fetch - processPackages [fluvii]: Downloading https://files.pythonhosted.org/packages/dd/3c/9ca4f936d2dd47966256953a9d3c379c0fc8f1edd09ab65c38d4331dc8b7/fluvii-1.0.2.tar.gz
+[2023-08-04 03:53:08] INFO root fetch - processPackages [edc-constants]: Downloading https://files.pythonhosted.org/packages/e1/6e/b8edf4ad6fa5549d1b7e98a9cf2c8b4dc3242215cb886aaef19b64a9ccf9/edc_constants-0.3.8-py3-none-any.whl
+[2023-08-04 03:53:08] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-04 03:53:08] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-04 03:53:08] INFO root fetch - processPackages [edc-appointment]: Downloading https://files.pythonhosted.org/packages/10/c7/d34ba3e8a95cc8c2dd0b0dab4375371ad481c46f2b9edfe550ebcc8c8cbc/edc_appointment-0.3.9-py3-none-any.whl
+[2023-08-04 03:53:08] INFO root fetch - processPackages [aiges]: Downloading https://files.pythonhosted.org/packages/69/79/46d6a9d36c04e1b04b372af7578163390cb12d189453ec87c8ce910593b0/aiges-0.8.9.tar.gz
+[2023-08-04 03:53:09] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-04 03:53:09] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230804/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 03:53:09] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-04 03:53:09] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230804/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 03:53:09] INFO root fetch - processPackages [aiges]: executing diffoscope
+[2023-08-04 03:53:09] INFO root fetch - processPackages [aiges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiges-0.8.8.tar.gz tmp/aiges-0.8.9.tar.gz --markdown 20230804/a/aiges/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-08-04 03:53:09] INFO root fetch - processPackages [lammps]: Downloading https://files.pythonhosted.org/packages/55/e8/8f5bfce6cff085588ffc4e6cb4487f9c8595ac8fbe0bd7f3a696023da198/lammps-2023.8.2.0.0.tar.gz
+[2023-08-04 03:53:09] INFO root fetch - processPackages [edc-appointment]: executing diffoscope
+[2023-08-04 03:53:09] INFO root fetch - processPackages [edc-appointment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_appointment-0.3.8-py3-none-any.whl.zip tmp/edc_appointment-0.3.9-py3-none-any.whl.zip --markdown 20230804/e/edc-appointment/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 03:53:09] INFO root fetch - processPackages [monas]: Downloading https://files.pythonhosted.org/packages/6a/60/a7d8455345a31314f08b9eb57b6fdf9bf47b4afee843633c7cc60670cf5a/monas-0.1.0.tar.gz
+[2023-08-04 03:53:09] INFO root fetch - processPackages [sqlx-batis]: Downloading https://files.pythonhosted.org/packages/c4/1d/96cc15af023a17604816da8a57274aea1fbe8a1d21ece5506d79dd69fbc2/sqlx-batis-1.1.1.tar.gz
+[2023-08-04 03:53:09] INFO root fetch - processPackages [edc-constants]: Downloading https://files.pythonhosted.org/packages/a5/d1/9988cdbdb1f2e472539d91e620b2b13a958a8e477c1da4b977ad8aa7e185/edc_constants-0.3.9-py3-none-any.whl
+[2023-08-04 03:53:09] INFO root fetch - processPackages [fluvii]: Downloading https://files.pythonhosted.org/packages/c6/aa/0cc592b6d88d28a7eed97b33d2041a105d77d1cd46e4e6e527a8568d27d5/fluvii-1.1.0.tar.gz
+[2023-08-04 03:53:09] INFO root fetch - processPackages [sqlx-batis]: executing diffoscope
+[2023-08-04 03:53:09] INFO root fetch - processPackages [sqlx-batis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-batis-1.1.0.tar.gz tmp/sqlx-batis-1.1.1.tar.gz --markdown 20230804/s/sqlx-batis/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-04 03:53:09] INFO root fetch - processPackages [edc-constants]: executing diffoscope
+[2023-08-04 03:53:09] INFO root fetch - processPackages [edc-constants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_constants-0.3.8-py3-none-any.whl.zip tmp/edc_constants-0.3.9-py3-none-any.whl.zip --markdown 20230804/e/edc-constants/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 03:53:09] INFO root fetch - processPackages [monas]: executing diffoscope
+[2023-08-04 03:53:09] INFO root fetch - processPackages [monas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monas-0.0.3.tar.gz tmp/monas-0.1.0.tar.gz --markdown 20230804/m/monas/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-08-04 03:53:09] INFO root fetch - processPackages [lammps]: executing diffoscope
+[2023-08-04 03:53:09] INFO root fetch - processPackages [lammps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lammps-2022.6.23.4.0.tar.gz tmp/lammps-2023.8.2.0.0.tar.gz --markdown 20230804/l/lammps/2022.6.23.4.0-2023.8.2.0.0/diff.md --exclude *.pyd
+[2023-08-04 03:53:09] INFO root fetch - processPackages [fluvii]: executing diffoscope
+[2023-08-04 03:53:09] INFO root fetch - processPackages [fluvii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluvii-1.0.2.tar.gz tmp/fluvii-1.1.0.tar.gz --markdown 20230804/f/fluvii/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-08-04 03:53:10] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.8.tar.gz]
+[2023-08-04 03:53:10] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.9.tar.gz]
+[2023-08-04 03:53:10] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-04 03:53:10] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-04 03:53:10] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-1.1.0.tar.gz]
+[2023-08-04 03:53:10] INFO root fetch - processPackages [edc-constants]: Remove: archive file [/home/abi/fetcher/tmp/edc_constants-0.3.8-py3-none-any.whl.zip]
+[2023-08-04 03:53:10] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-1.1.1.tar.gz]
+[2023-08-04 03:53:10] INFO root fetch - processPackages [edc-constants]: Remove: archive file [/home/abi/fetcher/tmp/edc_constants-0.3.9-py3-none-any.whl.zip]
+[2023-08-04 03:53:10] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
+[2023-08-04 03:53:10] INFO root fetch - main [MainThread]: End processing [edc-constants]: success
+[2023-08-04 03:53:10] INFO root fetch - processPackages [monas]: Remove: archive file [/home/abi/fetcher/tmp/monas-0.0.3.tar.gz]
+[2023-08-04 03:53:10] INFO root fetch - processPackages [monas]: Remove: archive file [/home/abi/fetcher/tmp/monas-0.1.0.tar.gz]
+[2023-08-04 03:53:10] INFO root fetch - processPackages [aiges]: Remove: archive file [/home/abi/fetcher/tmp/aiges-0.8.8.tar.gz]
+[2023-08-04 03:53:10] INFO root fetch - main [MainThread]: End processing [monas]: success
+[2023-08-04 03:53:10] INFO root fetch - processPackages [aiges]: Remove: archive file [/home/abi/fetcher/tmp/aiges-0.8.9.tar.gz]
+[2023-08-04 03:53:10] INFO root fetch - main [MainThread]: End processing [aiges]: success
+[2023-08-04 03:53:11] INFO root fetch - processPackages [lammps]: Remove: archive file [/home/abi/fetcher/tmp/lammps-2022.6.23.4.0.tar.gz]
+[2023-08-04 03:53:11] INFO root fetch - processPackages [lammps]: Remove: archive file [/home/abi/fetcher/tmp/lammps-2023.8.2.0.0.tar.gz]
+[2023-08-04 03:53:11] INFO root fetch - main [MainThread]: End processing [lammps]: success
+[2023-08-04 03:53:11] INFO root fetch - processPackages [edc-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc_appointment-0.3.8-py3-none-any.whl.zip]
+[2023-08-04 03:53:11] INFO root fetch - processPackages [edc-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc_appointment-0.3.9-py3-none-any.whl.zip]
+[2023-08-04 03:53:11] INFO root fetch - main [MainThread]: End processing [edc-appointment]: success
+[2023-08-04 03:53:11] INFO root fetch - processPackages [fluvii]: Remove: archive file [/home/abi/fetcher/tmp/fluvii-1.0.2.tar.gz]
+[2023-08-04 03:53:11] INFO root fetch - processPackages [fluvii]: Remove: archive file [/home/abi/fetcher/tmp/fluvii-1.1.0.tar.gz]
+[2023-08-04 03:53:11] INFO root fetch - main [MainThread]: End processing [fluvii]: success
+[2023-08-04 03:53:11] INFO root fetch - main [MainThread]: Store serial: [19168598]
