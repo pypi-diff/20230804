@@ -19512,3 +19512,88 @@
 [2023-08-04 12:55:36] INFO root fetch - processPackages [erwin]: Remove: archive file [/home/abi/fetcher/tmp/erwin-1.1.0.tar.gz]
 [2023-08-04 12:55:36] INFO root fetch - main [MainThread]: End processing [erwin]: success
 [2023-08-04 12:55:36] INFO root fetch - main [MainThread]: Store serial: [19172953]
+[2023-08-04 13:00:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172953]
+[2023-08-04 13:00:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: femto-admin
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resqpy
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocean-contracts
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wizata-dsapi
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aityz
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snusbase.py
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: usetools
+[2023-08-04 13:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: citlalicue
+[2023-08-04 13:00:47] WARNING root fetch - processPackages [usetools]: Skipping, unable to determine old version
+[2023-08-04 13:00:47] INFO root fetch - main [MainThread]: End processing [usetools] error
+[2023-08-04 13:00:47] INFO root fetch - processPackages [snusbase.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-04 13:00:47] INFO root fetch - processPackages [femto-admin]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-08-04 13:00:47] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/16/21/49a66d0116ba8091c61cfd85ff06a1c3c9a2d4a2072f6f65a7dc7bb46d05/femto-admin-0.2.0.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [snusbase.py]: Downloading https://files.pythonhosted.org/packages/ec/cf/c098e2830a1e8ab3d1927b97536b48321f768367acf13b0d4937d100bb51/snusbase.py-1.0.1.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [citlalicue]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-04 13:00:47] INFO root fetch - processPackages [aityz]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-08-04 13:00:47] INFO root fetch - processPackages [ocean-contracts]: New version: [2.0.0a4] Old Version: [2.0.0a3]
+[2023-08-04 13:00:47] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-04 13:00:47] INFO root fetch - processPackages [resqpy]: New version: [4.9.5] Old Version: [4.9.4]
+[2023-08-04 13:00:47] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-04 13:00:47] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.3.1] Old Version: [0.2.9]
+[2023-08-04 13:00:47] INFO root fetch - processPackages [snusbase.py]: Downloading https://files.pythonhosted.org/packages/7b/7b/7252c7c1d382542af4838edbfc86a0ae7d878aeb9bc429b02a1c49cf5ff0/snusbase.py-1.0.2.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/d4/91/8b0f8d9ea4b5ae6a5491371f27e69372a8ffa6a2bd314550a3124fcc81d2/femto-admin-0.2.2.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [aityz]: Downloading https://files.pythonhosted.org/packages/91/3b/17efc50cbba1aaf1df9e5bc6f9b82a373462849675dbc4903ccd79512e1b/aityz-1.0.3.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [citlalicue]: Downloading https://files.pythonhosted.org/packages/95/0e/95ffba4cef4480be651adbd5d0720d307c38736dbfd530a3249dfad44cac/citlalicue-0.7.0.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/dc/de/6c8e7e051954db489e9fdd1304318afa9bc184d272993692ea6db5d906bf/ocean-contracts-2.0.0a3.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/00/2a/5ba7122ea3ae33e90d993229b2e27facaad2631f8c97c32ec65b92d655d2/resqpy-4.9.4.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/34/b4/a97291f24e4329cef1f8118b7899dc7237cbb87cff0c1817da3b47c66f39/wizata-dsapi-0.2.9.tar.gz
+[2023-08-04 13:00:47] INFO root fetch - processPackages [snusbase.py]: executing diffoscope
+[2023-08-04 13:00:47] INFO root fetch - processPackages [snusbase.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snusbase.py-1.0.1.tar.gz tmp/snusbase.py-1.0.2.tar.gz --markdown 20230804/s/snusbase.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-04 13:00:48] INFO root fetch - processPackages [aityz]: Downloading https://files.pythonhosted.org/packages/40/8e/bb7f29a74aee4c1bf6cd4e0fccc2a0ffd0dacf111dad76c7486c73ba9f2c/aityz-1.1.0.tar.gz
+[2023-08-04 13:00:48] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/a3/5a/5bf7d217307e9619b38b9c58b222a2a530b49b2a645dae36e4265ea37659/wizata-dsapi-0.3.1.tar.gz
+[2023-08-04 13:00:48] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/9f/1a/d5b64dea27802e02acd3a0fe2289a30ef2edd2182fb0f41ea29b55cc484f/resqpy-4.9.5.tar.gz
+[2023-08-04 13:00:48] INFO root fetch - processPackages [citlalicue]: Downloading https://files.pythonhosted.org/packages/ca/24/7054bfcb675fd708ff7000f87cc56b30e4d1ed4340e04193c86d2305c913/citlalicue-0.7.1.tar.gz
+[2023-08-04 13:00:48] INFO root fetch - processPackages [ocean-contracts]: Downloading https://files.pythonhosted.org/packages/f2/8f/dfccdecc9da2c601e00a6994a962a1eb0bab72274cc101dd842f319f4e73/ocean-contracts-2.0.0a4.tar.gz
+[2023-08-04 13:00:48] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-04 13:00:48] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-04 13:00:48] INFO root fetch - processPackages [aityz]: executing diffoscope
+[2023-08-04 13:00:48] INFO root fetch - processPackages [aityz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aityz-1.0.3.tar.gz tmp/aityz-1.1.0.tar.gz --markdown 20230804/a/aityz/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-08-04 13:00:48] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-04 13:00:48] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.9.tar.gz tmp/wizata-dsapi-0.3.1.tar.gz --markdown 20230804/w/wizata-dsapi/0.2.9-0.3.1/diff.md --exclude *.pyd
+[2023-08-04 13:00:48] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-04 13:00:48] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230804/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-04 13:00:48] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-04 13:00:48] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230804/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-04 13:00:48] INFO root fetch - processPackages [citlalicue]: executing diffoscope
+[2023-08-04 13:00:48] INFO root fetch - processPackages [citlalicue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citlalicue-0.7.0.tar.gz tmp/citlalicue-0.7.1.tar.gz --markdown 20230804/c/citlalicue/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-04 13:00:48] INFO root fetch - processPackages [femto-admin]: executing diffoscope
+[2023-08-04 13:00:48] INFO root fetch - processPackages [femto-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femto-admin-0.2.0.tar.gz tmp/femto-admin-0.2.2.tar.gz --markdown 20230804/f/femto-admin/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-08-04 13:00:48] INFO root fetch - processPackages [resqpy]: executing diffoscope
+[2023-08-04 13:00:48] INFO root fetch - processPackages [resqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resqpy-4.9.4.tar.gz tmp/resqpy-4.9.5.tar.gz --markdown 20230804/r/resqpy/4.9.4-4.9.5/diff.md --exclude *.pyd
+[2023-08-04 13:00:48] INFO root fetch - processPackages [ocean-contracts]: executing diffoscope
+[2023-08-04 13:00:48] INFO root fetch - processPackages [ocean-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocean-contracts-2.0.0a3.tar.gz tmp/ocean-contracts-2.0.0a4.tar.gz --markdown 20230804/o/ocean-contracts/2.0.0a3-2.0.0a4/diff.md --exclude *.pyd
+[2023-08-04 13:00:48] INFO root fetch - processPackages [snusbase.py]: Remove: archive file [/home/abi/fetcher/tmp/snusbase.py-1.0.1.tar.gz]
+[2023-08-04 13:00:48] INFO root fetch - processPackages [snusbase.py]: Remove: archive file [/home/abi/fetcher/tmp/snusbase.py-1.0.2.tar.gz]
+[2023-08-04 13:00:48] INFO root fetch - main [MainThread]: End processing [snusbase.py]: success
+[2023-08-04 13:00:49] INFO root fetch - processPackages [aityz]: Remove: archive file [/home/abi/fetcher/tmp/aityz-1.0.3.tar.gz]
+[2023-08-04 13:00:49] INFO root fetch - processPackages [aityz]: Remove: archive file [/home/abi/fetcher/tmp/aityz-1.1.0.tar.gz]
+[2023-08-04 13:00:49] INFO root fetch - main [MainThread]: End processing [aityz]: success
+[2023-08-04 13:00:49] INFO root fetch - processPackages [citlalicue]: Remove: archive file [/home/abi/fetcher/tmp/citlalicue-0.7.0.tar.gz]
+[2023-08-04 13:00:49] INFO root fetch - processPackages [citlalicue]: Remove: archive file [/home/abi/fetcher/tmp/citlalicue-0.7.1.tar.gz]
+[2023-08-04 13:00:49] INFO root fetch - main [MainThread]: End processing [citlalicue]: success
+[2023-08-04 13:00:49] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.9.tar.gz]
+[2023-08-04 13:00:49] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.3.1.tar.gz]
+[2023-08-04 13:00:49] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-04 13:00:49] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-04 13:00:49] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-04 13:00:49] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-04 13:00:50] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-04 13:00:50] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a3.tar.gz]
+[2023-08-04 13:00:50] INFO root fetch - processPackages [ocean-contracts]: Remove: archive file [/home/abi/fetcher/tmp/ocean-contracts-2.0.0a4.tar.gz]
+[2023-08-04 13:00:50] INFO root fetch - main [MainThread]: End processing [ocean-contracts]: success
+[2023-08-04 13:00:50] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.2.0.tar.gz]
+[2023-08-04 13:00:50] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.2.2.tar.gz]
+[2023-08-04 13:00:50] INFO root fetch - main [MainThread]: End processing [femto-admin]: success
+[2023-08-04 13:00:50] INFO root fetch - processPackages [resqpy]: Remove: archive file [/home/abi/fetcher/tmp/resqpy-4.9.4.tar.gz]
+[2023-08-04 13:00:50] INFO root fetch - processPackages [resqpy]: Remove: archive file [/home/abi/fetcher/tmp/resqpy-4.9.5.tar.gz]
+[2023-08-04 13:00:50] INFO root fetch - main [MainThread]: End processing [resqpy]: success
+[2023-08-04 13:00:50] INFO root fetch - main [MainThread]: Store serial: [19172983]
