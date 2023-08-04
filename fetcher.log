@@ -12655,3 +12655,99 @@
 [2023-08-04 06:41:09] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-08-04 06:41:09] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-08-04 06:41:09] INFO root fetch - main [MainThread]: Store serial: [19169878]
+[2023-08-04 06:46:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169878]
+[2023-08-04 06:46:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ez0th
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-metadata
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inviz
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omni-infer-api-account
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loguru-logging-intercept
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iCypress
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytranskit
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhids
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: universal-test-runner
+[2023-08-04 06:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nemusicapi
+[2023-08-04 06:46:18] INFO root fetch - processPackages [loguru-logging-intercept]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-04 06:46:18] INFO root fetch - processPackages [nemusicapi]: New version: [0.1.1a5] Old Version: [0.1.1a4]
+[2023-08-04 06:46:18] WARNING root fetch - processPackages [iCypress]: Skipping, unable to determine old version
+[2023-08-04 06:46:18] INFO root fetch - processPackages [iCypress]: Start processing: beam-sdk
+[2023-08-04 06:46:18] INFO root fetch - main [MainThread]: End processing [iCypress] error
+[2023-08-04 06:46:18] INFO root fetch - processPackages [pytranskit]: New version: [0.2.6] Old Version: [0.2.5.1]
+[2023-08-04 06:46:18] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 06:46:18] INFO root fetch - processPackages [omni-infer-api-account]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 06:46:18] INFO root fetch - processPackages [pyhids]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-08-04 06:46:19] INFO root fetch - processPackages [inviz]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-04 06:46:19] INFO root fetch - processPackages [universal-test-runner]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-04 06:46:19] INFO root fetch - processPackages [ez0th]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-04 06:46:19] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/7c/6d/161663c31ca190237360e24af00adb1ae2bd7d3b78e4d7aea85708ac81f8/nemusicapi-0.1.1a4.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [loguru-logging-intercept]: Downloading https://files.pythonhosted.org/packages/8c/92/5b04c17485a663db3323cf651ee4fc4a6599309d3f67427905c8d497ecd3/loguru-logging-intercept-0.1.1.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [pytranskit]: Downloading https://files.pythonhosted.org/packages/bf/ca/29ffb1b619848effe34784c0a67cae8290aeac33347c43a9c503a3d4d468/pytranskit-0.2.5.1.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/30/5c/2df41058326eecedb6edd93bbefe33b49fa2e3d6b864c98a6a09bf2df291/omni_infer_api_account-0.0.2-py3-none-any.whl
+[2023-08-04 06:46:19] INFO root fetch - processPackages [pyhids]: Downloading https://files.pythonhosted.org/packages/55/97/760c8ae06d551352068e642f60e064431b6bb6b927a550c14bf6dbffb260/pyhids-0.5.4.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-08-04 06:46:19] INFO root fetch - processPackages [beam-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-04 06:46:19] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/a2/b0/82879b7292019662e640d7a8e3c961d3a284e2285d3318cc184a0657397b/inviz-0.2.4.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/54/8a/5259e3ce3d0d32b2dbdfa5db9d1a5a52bfebc5b6f47f9824f9d57857aedf/ez0th-0.1.5.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [universal-test-runner]: Downloading https://files.pythonhosted.org/packages/14/c7/fa363f0a5b13e41ca25ca3b153e34422e30f3cdf776e6dd3b7164d9b2d3f/universal_test_runner-0.4.0.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [loguru-logging-intercept]: Downloading https://files.pythonhosted.org/packages/74/62/f01c7583bf12e183681b57315da52833c5aa2b4719f4a184e2bb7c40cd5d/loguru-logging-intercept-0.1.2.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/da/d2/f263ce81b4b06e27ee56916c87ee2ed485b218d65ce02df6d17d5949d67d/nemusicapi-0.1.1a5.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [pyhids]: Downloading https://files.pythonhosted.org/packages/48/d8/9e07cfd2d4488b8b557e593ca90ad9c0c7363a32e25922862ef0b0bdda7f/pyhids-0.6.0.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/d6/21/9666fc17e5c5d3b0f75cde3f0ad0a33e2fe3063aa155fc1fc4593572bb8d/beam-sdk-0.9.8.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [pytranskit]: Downloading https://files.pythonhosted.org/packages/84/ba/32e170f6fe923ce0e60d6b91b92954400311f9a902b8ebd730794d04d2b4/pytranskit-0.2.6.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-08-04 06:46:19] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/8c/a5/01af77b585ee0e2b4769b45d7d635faeaf0b6339847900149325f6d1c3bb/omni_infer_api_account-0.0.3-py3-none-any.whl
+[2023-08-04 06:46:19] INFO root fetch - processPackages [loguru-logging-intercept]: executing diffoscope
+[2023-08-04 06:46:19] INFO root fetch - processPackages [loguru-logging-intercept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loguru-logging-intercept-0.1.1.tar.gz tmp/loguru-logging-intercept-0.1.2.tar.gz --markdown 20230804/l/loguru-logging-intercept/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-04 06:46:19] INFO root fetch - processPackages [pyhids]: executing diffoscope
+[2023-08-04 06:46:19] INFO root fetch - processPackages [pyhids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhids-0.5.4.tar.gz tmp/pyhids-0.6.0.tar.gz --markdown 20230804/p/pyhids/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-08-04 06:46:19] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/f5/9d/4dd23bfddbfdc0709d9bcbac11c1d0e657a62b2c57e9d9fb0b6ec70d945a/inviz-0.2.5.tar.gz
+[2023-08-04 06:46:19] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-04 06:46:19] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.1.1a4.tar.gz tmp/nemusicapi-0.1.1a5.tar.gz --markdown 20230804/n/nemusicapi/0.1.1a4-0.1.1a5/diff.md --exclude *.pyd
+[2023-08-04 06:46:20] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-08-04 06:46:20] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230804/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 06:46:20] INFO root fetch - processPackages [universal-test-runner]: Downloading https://files.pythonhosted.org/packages/70/e3/48dd5fc0b5980cb87b9362f7894f05909104528d1059b22039c6cbac9b00/universal_test_runner-0.5.0.tar.gz
+[2023-08-04 06:46:20] INFO root fetch - processPackages [omni-infer-api-account]: executing diffoscope
+[2023-08-04 06:46:20] INFO root fetch - processPackages [omni-infer-api-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api_account-0.0.2-py3-none-any.whl.zip tmp/omni_infer_api_account-0.0.3-py3-none-any.whl.zip --markdown 20230804/o/omni-infer-api-account/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 06:46:20] INFO root fetch - processPackages [pytranskit]: executing diffoscope
+[2023-08-04 06:46:20] INFO root fetch - processPackages [pytranskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytranskit-0.2.5.1.tar.gz tmp/pytranskit-0.2.6.tar.gz --markdown 20230804/p/pytranskit/0.2.5.1-0.2.6/diff.md --exclude *.pyd
+[2023-08-04 06:46:20] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/f6/06/42fac767698b128d0f56488043b5e32b3f338767fdeb6fd0a0d6eed3cbbd/ez0th-0.1.6.tar.gz
+[2023-08-04 06:46:20] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-08-04 06:46:20] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.2.4.tar.gz tmp/inviz-0.2.5.tar.gz --markdown 20230804/i/inviz/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-04 06:46:20] INFO root fetch - processPackages [universal-test-runner]: executing diffoscope
+[2023-08-04 06:46:20] INFO root fetch - processPackages [universal-test-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal_test_runner-0.4.0.tar.gz tmp/universal_test_runner-0.5.0.tar.gz --markdown 20230804/u/universal-test-runner/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-04 06:46:20] INFO root fetch - processPackages [ez0th]: executing diffoscope
+[2023-08-04 06:46:20] INFO root fetch - processPackages [ez0th]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez0th-0.1.5.tar.gz tmp/ez0th-0.1.6.tar.gz --markdown 20230804/e/ez0th/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-04 06:46:20] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/64/d7/1ec63c342b9af2c5412a757ed5c8a6c98db462032364060ff95bda50e556/beam-sdk-0.9.9.tar.gz
+[2023-08-04 06:46:20] INFO root fetch - processPackages [beam-sdk]: executing diffoscope
+[2023-08-04 06:46:20] INFO root fetch - processPackages [beam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-sdk-0.9.8.tar.gz tmp/beam-sdk-0.9.9.tar.gz --markdown 20230804/b/beam-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-04 06:46:21] INFO root fetch - processPackages [loguru-logging-intercept]: Remove: archive file [/home/abi/fetcher/tmp/loguru-logging-intercept-0.1.1.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - processPackages [loguru-logging-intercept]: Remove: archive file [/home/abi/fetcher/tmp/loguru-logging-intercept-0.1.2.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - main [MainThread]: End processing [loguru-logging-intercept]: success
+[2023-08-04 06:46:21] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a4.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a5.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-04 06:46:21] INFO root fetch - processPackages [pyhids]: Remove: archive file [/home/abi/fetcher/tmp/pyhids-0.5.4.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - processPackages [pyhids]: Remove: archive file [/home/abi/fetcher/tmp/pyhids-0.6.0.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - main [MainThread]: End processing [pyhids]: success
+[2023-08-04 06:46:21] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.2-py3-none-any.whl.zip]
+[2023-08-04 06:46:21] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.3-py3-none-any.whl.zip]
+[2023-08-04 06:46:21] INFO root fetch - main [MainThread]: End processing [omni-infer-api-account]: success
+[2023-08-04 06:46:21] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.4.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.5.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-08-04 06:46:21] INFO root fetch - processPackages [universal-test-runner]: Remove: archive file [/home/abi/fetcher/tmp/universal_test_runner-0.4.0.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - processPackages [universal-test-runner]: Remove: archive file [/home/abi/fetcher/tmp/universal_test_runner-0.5.0.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - main [MainThread]: End processing [universal-test-runner]: success
+[2023-08-04 06:46:21] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.1.5.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.1.6.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - main [MainThread]: End processing [ez0th]: success
+[2023-08-04 06:46:21] INFO root fetch - processPackages [pytranskit]: Remove: archive file [/home/abi/fetcher/tmp/pytranskit-0.2.5.1.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - processPackages [pytranskit]: Remove: archive file [/home/abi/fetcher/tmp/pytranskit-0.2.6.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - main [MainThread]: End processing [pytranskit]: success
+[2023-08-04 06:46:21] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.8.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.9.tar.gz]
+[2023-08-04 06:46:21] INFO root fetch - main [MainThread]: End processing [beam-sdk]: success
+[2023-08-04 06:46:22] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.8-py3-none-any.whl.zip]
+[2023-08-04 06:46:22] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
+[2023-08-04 06:46:22] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-08-04 06:46:22] INFO root fetch - main [MainThread]: Store serial: [19169910]
