@@ -14919,3 +14919,128 @@
 [2023-08-04 09:19:39] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-08-04 09:19:39] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-08-04 09:19:39] INFO root fetch - main [MainThread]: Store serial: [19170908]
+[2023-08-04 09:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170908]
+[2023-08-04 09:24:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-vault
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tls
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WignerSymbol
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micrologai
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlab-pyflyby
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inviz
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phanos
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorage
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfq-nightly
+[2023-08-04 09:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydra
+[2023-08-04 09:24:48] INFO root fetch - processPackages [WignerSymbol]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-04 09:24:48] INFO root fetch - processPackages [tensorage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 09:24:48] INFO root fetch - processPackages [pulumi-vault]: New version: [5.9.0a1678382334] Old Version: [5.9.0a1678129627]
+[2023-08-04 09:24:48] INFO root fetch - processPackages [micrologai]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-04 09:24:48] INFO root fetch - processPackages [inviz]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-04 09:24:48] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1691045467] Old Version: [5.1.0a1690967682]
+[2023-08-04 09:24:48] INFO root fetch - processPackages [phanos]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-04 09:24:48] INFO root fetch - processPackages [jupyterlab-pyflyby]: New version: [5.0.0] Old Version: [4.3.0]
+[2023-08-04 09:24:48] INFO root fetch - processPackages [pydra]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-04 09:24:48] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230804] Old Version: [0.7.3.dev20230803]
+[2023-08-04 09:24:49] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/2c/33/94ed03d377a20f3e01082db7227f53c6ae29f5ef273e9437de8a9af8052a/WignerSymbol-0.0.6.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/e3/c9/65898499b67448eae06780fb3be448afa8cd40dece05d5bff04eb8c060fd/pulumi_vault-5.9.0a1678129627.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/00/29/45e76a1eae2877956faf2f829c33d90904ff445d7070b8d8aac780f376f4/inviz-0.2.6.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/44/be/d976b978c466bd49b1e198cc8ca28f0e29bdc3e893968d3c91ab0d009d20/pulumi_tls-5.1.0a1690967682.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/de/df/0b1cd70d41bccabec21ce79c9c21dc32c8d20ae5ae9eedcc1884e6002b96/tensorage-0.0.8.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/20/8c/4098098773e99add7ee9290d6ceb4b753ceb536baf9c03398db857f5e887/micrologai-1.3.8.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/ec/71/ca1d585913e823ba1a9d7f091c3384fe350cb3a801efde3bacfc59d831df/tfq_nightly-0.7.3.dev20230803-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-04 09:24:49] INFO root fetch - processPackages [jupyterlab-pyflyby]: Downloading https://files.pythonhosted.org/packages/5f/34/0394c822e1e8167d318cfe1a5b7e2a0b20ced98b3846e297e7f17040ea93/jupyterlab_pyflyby-4.3.0.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/68/c7/6dc6d30d4149366cfd81cb72cef549c6c8b8895b50dbd316b9e70eb95222/phanos-0.1.2.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [pydra]: Downloading https://files.pythonhosted.org/packages/90/3b/9c76c084634307f62beb1216295ecf627b15a7dd247b4669f1d815d70ccd/pydra-0.9.1-py3-none-any.whl
+[2023-08-04 09:24:49] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807262>=10485760
+[2023-08-04 09:24:49] INFO root fetch - processPackages [tfq-nightly]: Start processing: eis1600
+[2023-08-04 09:24:49] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-08-04 09:24:49] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/26/99/d95dfe3c0f0258208a9e5c5506a00fddab7c9a0eff000ffd42127ec792f9/WignerSymbol-0.0.7.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/56/4f/d50a5d8e965e3242a593d88ee12ec183ca3148d5a550996b93b675a8102d/pulumi_tls-5.1.0a1691045467.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/11/68/ee929bd80d4562e5d4916fbc26378a5a8c67fcce1bee74090ed2aaf7d11f/inviz-0.2.7.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [eis1600]: New version: [1.0.1] Old Version: [0.9.7]
+[2023-08-04 09:24:49] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/0e/b1/d6519f414448860d51daa191680d379fcde04c6bcf774fbb1557db59d74f/tensorage-0.0.9.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [WignerSymbol]: executing diffoscope
+[2023-08-04 09:24:49] INFO root fetch - processPackages [WignerSymbol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WignerSymbol-0.0.6.tar.gz tmp/WignerSymbol-0.0.7.tar.gz --markdown 20230804/W/WignerSymbol/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-04 09:24:49] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/ed/2f/d2dbb3407f0fdd01cc4ad94d930a70843270a50c7d8cc4597b5113561639/pulumi_vault-5.9.0a1678382334.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2023-08-04 09:24:49] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1690967682.tar.gz tmp/pulumi_tls-5.1.0a1691045467.tar.gz --markdown 20230804/p/pulumi-tls/5.1.0a1690967682-5.1.0a1691045467/diff.md --exclude *.pyd
+[2023-08-04 09:24:49] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-08-04 09:24:49] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.2.6.tar.gz tmp/inviz-0.2.7.tar.gz --markdown 20230804/i/inviz/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-04 09:24:49] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-08-04 09:24:49] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.8.tar.gz tmp/tensorage-0.0.9.tar.gz --markdown 20230804/t/tensorage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 09:24:49] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/62/f9/17b6112c29c366fe6aa7faa6851e8eb535a79db3d4bd4c1ae7a417345aec/phanos-0.1.3.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [jupyterlab-pyflyby]: Downloading https://files.pythonhosted.org/packages/78/6f/633076dad741fb713df230544551ea7830cbb3972d87a046b4d83c213829/jupyterlab_pyflyby-5.0.0.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/66/7b/b3e5accc58dcef716252f4f3123be50e5def851c622b6ea4df86be3ac483/eis1600-0.9.7.tar.gz
+[2023-08-04 09:24:49] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2023-08-04 09:24:49] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-5.9.0a1678129627.tar.gz tmp/pulumi_vault-5.9.0a1678382334.tar.gz --markdown 20230804/p/pulumi-vault/5.9.0a1678129627-5.9.0a1678382334/diff.md --exclude *.pyd
+[2023-08-04 09:24:49] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-08-04 09:24:49] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.1.2.tar.gz tmp/phanos-0.1.3.tar.gz --markdown 20230804/p/phanos/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-04 09:24:49] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/5f/ff/abdd943dffeb90d8622427d1fdb64da731c7bbfa2b83c524e10e39d834c2/micrologai-1.3.9.tar.gz
+[2023-08-04 09:24:50] INFO root fetch - processPackages [jupyterlab-pyflyby]: executing diffoscope
+[2023-08-04 09:24:50] INFO root fetch - processPackages [jupyterlab-pyflyby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_pyflyby-4.3.0.tar.gz tmp/jupyterlab_pyflyby-5.0.0.tar.gz --markdown 20230804/j/jupyterlab-pyflyby/4.3.0-5.0.0/diff.md --exclude *.pyd
+[2023-08-04 09:24:50] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/d6/69/f785d2cb3800c0fb7f550bced42b39e09a399d5de0873f44b050a7e17f8d/eis1600-1.0.1.tar.gz
+[2023-08-04 09:24:50] INFO root fetch - processPackages [micrologai]: executing diffoscope
+[2023-08-04 09:24:50] INFO root fetch - processPackages [micrologai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrologai-1.3.8.tar.gz tmp/micrologai-1.3.9.tar.gz --markdown 20230804/m/micrologai/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-04 09:24:50] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-08-04 09:24:50] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.9.7.tar.gz tmp/eis1600-1.0.1.tar.gz --markdown 20230804/e/eis1600/0.9.7-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 09:24:50] INFO root fetch - processPackages [pydra]: Downloading https://files.pythonhosted.org/packages/35/f0/7be7da7ffde65e7839211320a90b4b0681bbda559d87611ed84595b94641/pydra-0.9.2-py3-none-any.whl
+[2023-08-04 09:24:51] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.6.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.7.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [inviz]: Start processing: lusid-sdk
+[2023-08-04 09:24:51] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-08-04 09:24:51] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.6.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.7.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [WignerSymbol]: Start processing: mozrunner
+[2023-08-04 09:24:51] INFO root fetch - main [MainThread]: End processing [WignerSymbol]: success
+[2023-08-04 09:24:51] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.8.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.9.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [tensorage]: Start processing: lusid-sdk-preview
+[2023-08-04 09:24:51] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-08-04 09:24:51] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1690967682.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1691045467.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2023-08-04 09:24:51] INFO root fetch - processPackages [mozrunner]: New version: [8.3.0] Old Version: [8.2.1]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-08-04 09:24:51] INFO root fetch - processPackages [pydra]: executing diffoscope
+[2023-08-04 09:24:51] INFO root fetch - processPackages [pydra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydra-0.9.1-py3-none-any.whl.zip tmp/pydra-0.9.2-py3-none-any.whl.zip --markdown 20230804/p/pydra/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-04 09:24:51] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.1.2.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.1.3.tar.gz]
+[2023-08-04 09:24:51] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-08-04 09:24:51] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-08-04 09:24:51] INFO root fetch - processPackages [mozrunner]: Downloading https://files.pythonhosted.org/packages/76/ae/0922c23455f6aa04895a4fd589fcc80f6134f294f90b566043486d3a7805/mozrunner-8.2.1.tar.gz
+[2023-08-04 09:24:51] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-08-04 09:24:51] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-08-04 09:24:51] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-08-04 09:24:51] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230804/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-08-04 09:24:51] INFO root fetch - processPackages [mozrunner]: Downloading https://files.pythonhosted.org/packages/b8/b4/09f538704dcfd85dcb0b62555485394bf1906fdc0916b93dc9141621fc10/mozrunner-8.3.0.tar.gz
+[2023-08-04 09:24:51] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-08-04 09:24:52] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-08-04 09:24:52] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230804/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-08-04 09:24:52] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-0.9.7.tar.gz]
+[2023-08-04 09:24:52] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.0.1.tar.gz]
+[2023-08-04 09:24:52] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-08-04 09:24:52] INFO root fetch - processPackages [mozrunner]: executing diffoscope
+[2023-08-04 09:24:52] INFO root fetch - processPackages [mozrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozrunner-8.2.1.tar.gz tmp/mozrunner-8.3.0.tar.gz --markdown 20230804/m/mozrunner/8.2.1-8.3.0/diff.md --exclude *.pyd
+[2023-08-04 09:24:52] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.8.tar.gz]
+[2023-08-04 09:24:52] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.9.tar.gz]
+[2023-08-04 09:24:52] INFO root fetch - main [MainThread]: End processing [micrologai]: success
+[2023-08-04 09:24:52] INFO root fetch - processPackages [pydra]: Remove: archive file [/home/abi/fetcher/tmp/pydra-0.9.1-py3-none-any.whl.zip]
+[2023-08-04 09:24:52] INFO root fetch - processPackages [pydra]: Remove: archive file [/home/abi/fetcher/tmp/pydra-0.9.2-py3-none-any.whl.zip]
+[2023-08-04 09:24:52] INFO root fetch - main [MainThread]: End processing [pydra]: success
+[2023-08-04 09:24:52] INFO root fetch - processPackages [jupyterlab-pyflyby]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pyflyby-4.3.0.tar.gz]
+[2023-08-04 09:24:52] INFO root fetch - processPackages [jupyterlab-pyflyby]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_pyflyby-5.0.0.tar.gz]
+[2023-08-04 09:24:52] INFO root fetch - main [MainThread]: End processing [jupyterlab-pyflyby]: success
+[2023-08-04 09:24:52] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678129627.tar.gz]
+[2023-08-04 09:24:52] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-5.9.0a1678382334.tar.gz]
+[2023-08-04 09:24:52] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2023-08-04 09:24:53] INFO root fetch - processPackages [mozrunner]: Remove: archive file [/home/abi/fetcher/tmp/mozrunner-8.2.1.tar.gz]
+[2023-08-04 09:24:53] INFO root fetch - processPackages [mozrunner]: Remove: archive file [/home/abi/fetcher/tmp/mozrunner-8.3.0.tar.gz]
+[2023-08-04 09:24:53] INFO root fetch - main [MainThread]: End processing [mozrunner]: success
+[2023-08-04 09:25:00] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-08-04 09:25:00] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-08-04 09:25:00] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-08-04 09:25:04] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-08-04 09:25:04] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-08-04 09:25:04] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-08-04 09:25:04] INFO root fetch - main [MainThread]: Store serial: [19170977]
