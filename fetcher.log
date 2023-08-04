@@ -2642,3 +2642,127 @@
 [2023-08-04 02:09:22] INFO root fetch - processPackages [symphony-scatterplot]: Remove: archive file [/home/abi/fetcher/tmp/symphony_scatterplot-1.0.1.tar.gz]
 [2023-08-04 02:09:22] INFO root fetch - main [MainThread]: End processing [symphony-scatterplot]: success
 [2023-08-04 02:09:22] INFO root fetch - main [MainThread]: Store serial: [19166043]
+[2023-08-04 02:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19166043]
+[2023-08-04 02:14:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vesselapi
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aws-discord-notifiers
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tccli
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-nightly
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-quantizers-nightly
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-iot-core-certificates
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.codepipeline-extensions
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localstack-core
+[2023-08-04 02:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dosmaster
+[2023-08-04 02:14:36] INFO root fetch - processPackages [cdk-iot-core-certificates]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-04 02:14:36] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.2.0.20230803.post1046] Old Version: [1.2.0.20230802.post1016]
+[2023-08-04 02:14:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 02:14:36] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-08-04 02:14:36] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230803210641] Old Version: [2.2.1.dev20230803194833]
+[2023-08-04 02:14:36] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 02:14:36] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-04 02:14:36] WARNING root fetch - processPackages [dosmaster]: Skipping, unable to determine old version
+[2023-08-04 02:14:36] INFO root fetch - processPackages [dosmaster]: Start processing: speakeasy-client-sdk-python
+[2023-08-04 02:14:36] INFO root fetch - main [MainThread]: End processing [dosmaster] error
+[2023-08-04 02:14:36] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.44.0]
+[2023-08-04 02:14:36] INFO root fetch - processPackages [openbb-nightly]: New version: [3.2.0.dev20230804] Old Version: [3.2.0.dev20230803]
+[2023-08-04 02:14:36] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-04 02:14:36] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-08-04 02:14:36] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/f9/3a/11678fcacc9a26643437d84919789043bb31517789527c063bec8da27e8e/cdk-iot-core-certificates-1.0.8.tar.gz
+[2023-08-04 02:14:36] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7e/ec/7b3ab295b9ba58348b58c7582619b9869a812dba3f54918c0c0338ef5f09/localstack-core-2.2.1.dev20230803194833.tar.gz
+[2023-08-04 02:14:36] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/40/ac/6681584f9b2af05f6e64dd9033a2f065577e2d98bbcb02461cd9c578a4bc/mct-quantizers-nightly-1.2.0.20230802.post1016.tar.gz
+[2023-08-04 02:14:36] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-08-04 02:14:36] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/51/73/c74332634e8130c6b89c1c8307ea722240a132020fa5c51bd7f7854b0c05/speakeasy-client-sdk-python-1.9.0.tar.gz
+[2023-08-04 02:14:36] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-08-04 02:14:36] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-08-04 02:14:36] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/0f/f4/9430f7e57f5ff0080a2bd28324827c000955f0105df5bac512c9aa00b8b9/openbb_nightly-3.2.0.dev20230803.tar.gz
+[2023-08-04 02:14:36] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/96/ea/bb9ad59ba9edcb795f43cef359ec774dfa2472938ee0d634f6d110c61008/vesselapi-3.44.0.tar.gz
+[2023-08-04 02:14:36] WARNING root fetch - processPackages [openbb-nightly]: Skipping package: exceeds size limit 20889807>=10485760
+[2023-08-04 02:14:36] INFO root fetch - processPackages [openbb-nightly]: Start processing: always-updates
+[2023-08-04 02:14:36] INFO root fetch - main [MainThread]: End processing [openbb-nightly] error
+[2023-08-04 02:14:36] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-08-04 02:14:36] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: pulumi-awsx
+[2023-08-04 02:14:36] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-08-04 02:14:37] INFO root fetch - processPackages [cdk-iot-core-certificates]: Downloading https://files.pythonhosted.org/packages/4a/43/39180d2063c944a0f8d32557a55dc2ed201b2244a615cecd4ba0e33dee1a/cdk-iot-core-certificates-1.0.9.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [pulumi-awsx]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-04 02:14:37] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-04 02:14:37] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/cd/67/3ecf3bb3043983706d61eae702e7223caa952fbeea42559262c0ea8e2397/mct-quantizers-nightly-1.2.0.20230803.post1046.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/ec/17/af09933815cbb33c06f585554b6a5963756ed5573cefe2151dde0046ce62/speakeasy-client-sdk-python-1.9.1.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/71/a7/2fe120418306c1a96515ceab10da3460f0f5e8f23c6bc18e7030743aad32/localstack-core-2.2.1.dev20230803210641.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/pulumi_awsx-1.0.2.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [cdk-iot-core-certificates]: executing diffoscope
+[2023-08-04 02:14:37] INFO root fetch - processPackages [cdk-iot-core-certificates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-iot-core-certificates-1.0.8.tar.gz tmp/cdk-iot-core-certificates-1.0.9.tar.gz --markdown 20230804/c/cdk-iot-core-certificates/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-04 02:14:37] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2023-08-04 02:14:37] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.2.0.20230802.post1016.tar.gz tmp/mct-quantizers-nightly-1.2.0.20230803.post1046.tar.gz --markdown 20230804/m/mct-quantizers-nightly/1.2.0.20230802.post1016-1.2.0.20230803.post1046/diff.md --exclude *.pyd
+[2023-08-04 02:14:37] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-08-04 02:14:37] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230804/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-04 02:14:37] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-08-04 02:14:37] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230804/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-08-04 02:14:37] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-04 02:14:37] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230803194833.tar.gz tmp/localstack-core-2.2.1.dev20230803210641.tar.gz --markdown 20230804/l/localstack-core/2.2.1.dev20230803194833-2.2.1.dev20230803210641/diff.md --exclude *.pyd
+[2023-08-04 02:14:37] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-04 02:14:37] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230804/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-04 02:14:37] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-08-04 02:14:37] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230804/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 02:14:37] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-08-04 02:14:37] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.44.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230804/v/vesselapi/3.44.0-3.5.2/diff.md --exclude *.pyd
+[2023-08-04 02:14:37] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/a3/98/b5ed6e6c3925279a19db1d0ccd1b2a7e28b45741856a7ebd470bc9064450/pulumi_awsx-1.0.3.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-08-04 02:14:37] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2023-08-04 02:14:37] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-1.0.2.tar.gz tmp/pulumi_awsx-1.0.3.tar.gz --markdown 20230804/p/pulumi-awsx/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-04 02:14:38] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.8.tar.gz]
+[2023-08-04 02:14:38] INFO root fetch - processPackages [cdk-iot-core-certificates]: Remove: archive file [/home/abi/fetcher/tmp/cdk-iot-core-certificates-1.0.9.tar.gz]
+[2023-08-04 02:14:38] INFO root fetch - processPackages [cdk-iot-core-certificates]: Start processing: cdk-events-notify
+[2023-08-04 02:14:38] INFO root fetch - main [MainThread]: End processing [cdk-iot-core-certificates]: success
+[2023-08-04 02:14:38] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-04 02:14:38] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b0/d8/d2deadc998a01ba26de7ffd230a5224483b3d116e10e36cb05f79b441303/cdk-events-notify-2.0.98.tar.gz
+[2023-08-04 02:14:38] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.0.tar.gz]
+[2023-08-04 02:14:38] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-1.9.1.tar.gz]
+[2023-08-04 02:14:38] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Start processing: cdktf-gitlab-runner
+[2023-08-04 02:14:38] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230804/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-04 02:14:39] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-04 02:14:39] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-04 02:14:39] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/3d/55/4372c391faf1ce75366fa988d26fee510d2d3c2b01a27ad4c21f14ace31c/cdk-events-notify-2.0.99.tar.gz
+[2023-08-04 02:14:39] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230802.post1016.tar.gz]
+[2023-08-04 02:14:39] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.2.0.20230803.post1046.tar.gz]
+[2023-08-04 02:14:39] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-08-04 02:14:39] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230804/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-08-04 02:14:39] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230804/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-04 02:14:39] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.2.tar.gz]
+[2023-08-04 02:14:39] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.3.tar.gz]
+[2023-08-04 02:14:39] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2023-08-04 02:14:40] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.44.0.tar.gz]
+[2023-08-04 02:14:40] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-08-04 02:14:40] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-08-04 02:14:40] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-08-04 02:14:40] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-08-04 02:14:40] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-08-04 02:14:40] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.98.tar.gz]
+[2023-08-04 02:14:40] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.0.99.tar.gz]
+[2023-08-04 02:14:40] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-08-04 02:14:40] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2023-08-04 02:14:40] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2023-08-04 02:14:40] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-08-04 02:14:41] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-08-04 02:14:41] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-08-04 02:14:41] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-08-04 02:14:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230803194833.tar.gz]
+[2023-08-04 02:14:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230803210641.tar.gz]
+[2023-08-04 02:14:42] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-04 02:14:42] INFO root fetch - main [MainThread]: Store serial: [19166085]
