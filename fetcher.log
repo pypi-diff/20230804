@@ -11975,3 +11975,84 @@
 [2023-08-04 05:59:22] INFO root fetch - processPackages [edc-lab-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-dashboard-0.3.9.tar.gz]
 [2023-08-04 05:59:22] INFO root fetch - main [MainThread]: End processing [edc-lab-dashboard]: success
 [2023-08-04 05:59:22] INFO root fetch - main [MainThread]: Store serial: [19169573]
+[2023-08-04 06:04:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169573]
+[2023-08-04 06:04:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-listboard
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evals-nightly
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk-preview
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-it-fatturapa-sale
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-it-fatturapa
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ghast-scanner
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-metadata
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pbm-liumou-Stable
+[2023-08-04 06:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onnx-safetensors
+[2023-08-04 06:04:32] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230802] Old Version: [1.0.3.dev20230801]
+[2023-08-04 06:04:32] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/07/5b/ef0f515581f29a66617150db7be2378908c2763084c82bc18c705ba37228/evals-nightly-1.0.3.dev20230801.tar.gz
+[2023-08-04 06:04:32] WARNING root fetch - processPackages [pbm-liumou-Stable]: Skipping, unable to determine old version
+[2023-08-04 06:04:32] INFO root fetch - main [MainThread]: End processing [pbm-liumou-Stable] error
+[2023-08-04 06:04:32] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-08-04 06:04:32] INFO root fetch - processPackages [onnx-safetensors]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 06:04:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-sale]: New version: [14.0.1.0.4.dev2] Old Version: [14.0.1.0.3]
+[2023-08-04 06:04:32] INFO root fetch - processPackages [edc-listboard]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 06:04:32] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 06:04:32] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-08-04 06:04:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: New version: [14.0.2.1.3.dev1] Old Version: [14.0.2.1.2]
+[2023-08-04 06:04:33] WARNING root fetch - processPackages [ghast-scanner]: Skipping, unable to determine old version
+[2023-08-04 06:04:33] INFO root fetch - main [MainThread]: End processing [ghast-scanner] error
+[2023-08-04 06:04:33] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-08-04 06:04:33] INFO root fetch - processPackages [edc-listboard]: Downloading https://files.pythonhosted.org/packages/44/da/9378ed95f6e91ff4cfd958e2962897c6f3779cfdaeee7da8f5694ceb0f2d/edc-listboard-0.1.8.tar.gz
+[2023-08-04 06:04:33] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-08-04 06:04:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-sale]: Downloading https://files.pythonhosted.org/packages/cb/13/f24359c1e8414af8cd50ebc8970a2a347c576102ccb4f9f8085efa034dad/odoo14_addon_l10n_it_fatturapa_sale-14.0.1.0.3-py3-none-any.whl
+[2023-08-04 06:04:33] INFO root fetch - processPackages [onnx-safetensors]: Downloading https://files.pythonhosted.org/packages/f2/73/5850b1bc7cdaa888b67ca686e201025208d19a01b3951faf7c541c8c61d9/onnx-safetensors-0.1.0.tar.gz
+[2023-08-04 06:04:33] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-08-04 06:04:33] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/fd/d2/7d8db55a9d89548bfc4b9554635a304490aea98721bbbfac4e43a0cbf808/evals-nightly-1.0.3.dev20230802.tar.gz
+[2023-08-04 06:04:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/56/7a/c88fd1ab0f2cf8627f8a61d0320b8d2484876daf80ac5e8e741191b7303b/odoo14_addon_l10n_it_fatturapa-14.0.2.1.2-py3-none-any.whl
+[2023-08-04 06:04:33] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-08-04 06:04:33] INFO root fetch - processPackages [edc-listboard]: Downloading https://files.pythonhosted.org/packages/84/bc/1c7a5bec5a284a08fa57262f7da55208fe9e196d6cc02fbb483562dee2cc/edc-listboard-0.1.9.tar.gz
+[2023-08-04 06:04:33] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-08-04 06:04:33] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230804/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-04 06:04:33] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-08-04 06:04:33] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230801.tar.gz tmp/evals-nightly-1.0.3.dev20230802.tar.gz --markdown 20230804/e/evals-nightly/1.0.3.dev20230801-1.0.3.dev20230802/diff.md --exclude *.pyd
+[2023-08-04 06:04:33] INFO root fetch - processPackages [onnx-safetensors]: Downloading https://files.pythonhosted.org/packages/e7/68/15730fd72c7ecd52f1a7947af2eb77ecc860f05b0164b2ee944b81bf3235/onnx-safetensors-0.1.1.tar.gz
+[2023-08-04 06:04:33] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-08-04 06:04:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-sale]: Downloading https://files.pythonhosted.org/packages/6c/5d/7b66309684baac6dc78092f7706883b3d80a5e18f2d93c968b6fdf92e7e1/odoo14_addon_l10n_it_fatturapa_sale-14.0.1.0.4.dev2-py3-none-any.whl
+[2023-08-04 06:04:33] INFO root fetch - processPackages [edc-listboard]: executing diffoscope
+[2023-08-04 06:04:33] INFO root fetch - processPackages [edc-listboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-listboard-0.1.8.tar.gz tmp/edc-listboard-0.1.9.tar.gz --markdown 20230804/e/edc-listboard/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 06:04:33] INFO root fetch - processPackages [onnx-safetensors]: executing diffoscope
+[2023-08-04 06:04:33] INFO root fetch - processPackages [onnx-safetensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx-safetensors-0.1.0.tar.gz tmp/onnx-safetensors-0.1.1.tar.gz --markdown 20230804/o/onnx-safetensors/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 06:04:33] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-08-04 06:04:33] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230804/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-08-04 06:04:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: Downloading https://files.pythonhosted.org/packages/c2/41/692c9fdb0b78d7041f8722d7a96bc95cfc22384b1013d0ef950956fda6be/odoo14_addon_l10n_it_fatturapa-14.0.2.1.3.dev1-py3-none-any.whl
+[2023-08-04 06:04:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-sale]: executing diffoscope
+[2023-08-04 06:04:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa_sale-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa_sale-14.0.1.0.4.dev2-py3-none-any.whl.zip --markdown 20230804/o/odoo14-addon-l10n-it-fatturapa-sale/14.0.1.0.3-14.0.1.0.4.dev2/diff.md --exclude *.pyd
+[2023-08-04 06:04:33] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-08-04 06:04:34] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: executing diffoscope
+[2023-08-04 06:04:34] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.1.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.1.3.dev1-py3-none-any.whl.zip --markdown 20230804/o/odoo14-addon-l10n-it-fatturapa/14.0.2.1.2-14.0.2.1.3.dev1/diff.md --exclude *.pyd
+[2023-08-04 06:04:34] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-08-04 06:04:34] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-08-04 06:04:34] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-08-04 06:04:34] INFO root fetch - processPackages [onnx-safetensors]: Remove: archive file [/home/abi/fetcher/tmp/onnx-safetensors-0.1.0.tar.gz]
+[2023-08-04 06:04:34] INFO root fetch - processPackages [onnx-safetensors]: Remove: archive file [/home/abi/fetcher/tmp/onnx-safetensors-0.1.1.tar.gz]
+[2023-08-04 06:04:34] INFO root fetch - main [MainThread]: End processing [onnx-safetensors]: success
+[2023-08-04 06:04:34] INFO root fetch - processPackages [edc-listboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-listboard-0.1.8.tar.gz]
+[2023-08-04 06:04:34] INFO root fetch - processPackages [edc-listboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-listboard-0.1.9.tar.gz]
+[2023-08-04 06:04:34] INFO root fetch - main [MainThread]: End processing [edc-listboard]: success
+[2023-08-04 06:04:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_sale-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-08-04 06:04:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa_sale-14.0.1.0.4.dev2-py3-none-any.whl.zip]
+[2023-08-04 06:04:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-sale]: success
+[2023-08-04 06:04:35] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-08-04 06:04:35] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-08-04 06:04:35] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-08-04 06:04:35] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-08-04 06:04:35] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230804/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 06:04:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.1.2-py3-none-any.whl.zip]
+[2023-08-04 06:04:35] INFO root fetch - processPackages [odoo14-addon-l10n-it-fatturapa]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_fatturapa-14.0.2.1.3.dev1-py3-none-any.whl.zip]
+[2023-08-04 06:04:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa]: success
+[2023-08-04 06:04:35] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230801.tar.gz]
+[2023-08-04 06:04:35] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230802.tar.gz]
+[2023-08-04 06:04:35] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-08-04 06:04:36] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.8-py3-none-any.whl.zip]
+[2023-08-04 06:04:36] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
+[2023-08-04 06:04:36] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-08-04 06:04:36] INFO root fetch - main [MainThread]: Store serial: [19169606]
