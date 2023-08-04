@@ -12968,3 +12968,54 @@
 [2023-08-04 07:02:02] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-08-04 07:02:02] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-08-04 07:02:02] INFO root fetch - main [MainThread]: Store serial: [19169984]
+[2023-08-04 07:07:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169984]
+[2023-08-04 07:07:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-04 07:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doodleverse-utils
+[2023-08-04 07:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danbi
+[2023-08-04 07:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awkexercises
+[2023-08-04 07:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc
+[2023-08-04 07:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2023-08-04 07:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepmatch
+[2023-08-04 07:07:11] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-04 07:07:11] INFO root fetch - processPackages [dvc]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-04 07:07:11] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230803] Old Version: [0.1.1.dev20230802]
+[2023-08-04 07:07:11] INFO root fetch - processPackages [doodleverse-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 07:07:11] WARNING root fetch - processPackages [awkexercises]: Skipping, unable to determine old version
+[2023-08-04 07:07:11] INFO root fetch - main [MainThread]: End processing [awkexercises] error
+[2023-08-04 07:07:11] INFO root fetch - processPackages [pepmatch]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-08-04 07:07:11] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/8d/43/fead01b07b1d811317db2624dc07ba4f13cf8ee1a62655f5cad565926bc1/rapid_pe-0.1.1.dev20230802.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/bd/2b/d427d0c781a0f09d653c7b90a0d9b792232769c21d0147c154b00cd75a2d/dvc-3.9.0.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [doodleverse-utils]: Downloading https://files.pythonhosted.org/packages/3d/a2/fb512b646c69853e26e8b32c8493ed87fa0d3cb0c4156e2ef2f881108896/doodleverse-utils-0.0.8.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [pepmatch]: Downloading https://files.pythonhosted.org/packages/f0/a5/d693fc5f0dba2cbd92a4b5e48ebc95e14196dbf3499387fa68841dc159eb/pepmatch-0.9.3.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0c/85/dbab015c44b6e3cbfc1e938c95243f492423ca42b996e49db2a84a75b0af/rapid_pe-0.1.1.dev20230803.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-08-04 07:07:12] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230802.tar.gz tmp/rapid_pe-0.1.1.dev20230803.tar.gz --markdown 20230804/r/rapid-pe/0.1.1.dev20230802-0.1.1.dev20230803/diff.md --exclude *.pyd
+[2023-08-04 07:07:12] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/30/3c/4d47accc46da04fafb05c09836ec780d0c7ca2dcfe17bdd5f659a2e9c9a2/dvc-3.9.1.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-08-04 07:07:12] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230804/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-04 07:07:12] INFO root fetch - processPackages [pepmatch]: Downloading https://files.pythonhosted.org/packages/f2/9c/0f8fdf42d7b0f5e792715468c33d388394e0c5b19c40971feda793cc68f5/pepmatch-0.9.4.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-08-04 07:07:12] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.9.0.tar.gz tmp/dvc-3.9.1.tar.gz --markdown 20230804/d/dvc/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-04 07:07:12] INFO root fetch - processPackages [doodleverse-utils]: Downloading https://files.pythonhosted.org/packages/4e/f5/6ed72cbccecf6cb77775fa0a8352ddf2477d69b4f96f8bc00c415f7e350e/doodleverse-utils-0.0.9.tar.gz
+[2023-08-04 07:07:12] INFO root fetch - processPackages [pepmatch]: executing diffoscope
+[2023-08-04 07:07:12] INFO root fetch - processPackages [pepmatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepmatch-0.9.3.tar.gz tmp/pepmatch-0.9.4.tar.gz --markdown 20230804/p/pepmatch/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-08-04 07:07:12] INFO root fetch - processPackages [doodleverse-utils]: executing diffoscope
+[2023-08-04 07:07:12] INFO root fetch - processPackages [doodleverse-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doodleverse-utils-0.0.8.tar.gz tmp/doodleverse-utils-0.0.9.tar.gz --markdown 20230804/d/doodleverse-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 07:07:13] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230802.tar.gz]
+[2023-08-04 07:07:13] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230803.tar.gz]
+[2023-08-04 07:07:13] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-08-04 07:07:13] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-08-04 07:07:13] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-08-04 07:07:13] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-08-04 07:07:13] INFO root fetch - processPackages [pepmatch]: Remove: archive file [/home/abi/fetcher/tmp/pepmatch-0.9.3.tar.gz]
+[2023-08-04 07:07:13] INFO root fetch - processPackages [pepmatch]: Remove: archive file [/home/abi/fetcher/tmp/pepmatch-0.9.4.tar.gz]
+[2023-08-04 07:07:13] INFO root fetch - main [MainThread]: End processing [pepmatch]: success
+[2023-08-04 07:07:13] INFO root fetch - processPackages [doodleverse-utils]: Remove: archive file [/home/abi/fetcher/tmp/doodleverse-utils-0.0.8.tar.gz]
+[2023-08-04 07:07:13] INFO root fetch - processPackages [doodleverse-utils]: Remove: archive file [/home/abi/fetcher/tmp/doodleverse-utils-0.0.9.tar.gz]
+[2023-08-04 07:07:13] INFO root fetch - main [MainThread]: End processing [doodleverse-utils]: success
+[2023-08-04 07:07:16] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.0.tar.gz]
+[2023-08-04 07:07:16] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
+[2023-08-04 07:07:16] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-08-04 07:07:16] INFO root fetch - main [MainThread]: Store serial: [19170006]
