@@ -17595,3 +17595,114 @@
 [2023-08-04 11:28:03] INFO root fetch - processPackages [declearn]: Remove: archive file [/home/abi/fetcher/tmp/declearn-2.2.1.tar.gz]
 [2023-08-04 11:28:03] INFO root fetch - main [MainThread]: End processing [declearn]: success
 [2023-08-04 11:28:03] INFO root fetch - main [MainThread]: Store serial: [19172091]
+[2023-08-04 11:33:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172091]
+[2023-08-04 11:33:13] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jijzeptlab-client
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlscholar
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MDbrew
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-mermaid2-plugin
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Remilia
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiogram-widgets
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cbcbeat
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyracf
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-ke-utils-fastapi
+[2023-08-04 11:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-contributor-assets
+[2023-08-04 11:33:13] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: New version: [1.0.5] Old Version: [1.0.1]
+[2023-08-04 11:33:13] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post937] Old Version: [1.0.0.post936]
+[2023-08-04 11:33:13] INFO root fetch - processPackages [aiogram-widgets]: New version: [1.2.2] Old Version: [1.1.0]
+[2023-08-04 11:33:13] INFO root fetch - processPackages [MDbrew]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-08-04 11:33:13] INFO root fetch - processPackages [py-ke-utils-fastapi]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-08-04 11:33:13] INFO root fetch - processPackages [cbcbeat]: New version: [2023.1.1] Old Version: [2023.1.0]
+[2023-08-04 11:33:13] INFO root fetch - processPackages [Remilia]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-04 11:33:13] WARNING root fetch - processPackages [mlscholar]: Skipping, unable to determine old version
+[2023-08-04 11:33:13] INFO root fetch - processPackages [mlscholar]: Start processing: shawn-api
+[2023-08-04 11:33:13] INFO root fetch - main [MainThread]: End processing [mlscholar] error
+[2023-08-04 11:33:13] INFO root fetch - processPackages [pyracf]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-08-04 11:33:13] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/82/47/fccddae376fe0db2e0543c51dad897df3b19f2912e630a651c44af97a8b6/nucliadb_contributor_assets-1.0.0.post936-py3-none-any.whl
+[2023-08-04 11:33:13] INFO root fetch - processPackages [aiogram-widgets]: Downloading https://files.pythonhosted.org/packages/29/e8/879241ced7f2878808617483bffc6a90a4118e984798cc9e752f5af210cb/aiogram_widgets-1.1.0.tar.gz
+[2023-08-04 11:33:13] INFO root fetch - processPackages [jijzeptlab-client]: New version: [0.4.0rc1] Old Version: [0.3.7]
+[2023-08-04 11:33:13] WARNING root fetch - processPackages [shawn-api]: Skipping, unable to determine old version
+[2023-08-04 11:33:13] INFO root fetch - processPackages [shawn-api]: Start processing: sungrow-http-config
+[2023-08-04 11:33:13] INFO root fetch - main [MainThread]: End processing [shawn-api] error
+[2023-08-04 11:33:13] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/f8/3d/0ae5fab6b27062771281a8c8dc0f8cb92b1f64cbdeea0c5906c98f5b16ea/MDbrew-2.3.8.tar.gz
+[2023-08-04 11:33:13] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: Downloading https://files.pythonhosted.org/packages/75/9d/318777c2df2e48c43efef8700c7b29b3b79620593ba5b1e2f834184c65c4/mkdocs-mermaid2-plugin-1.0.1.tar.gz
+[2023-08-04 11:33:13] INFO root fetch - processPackages [py-ke-utils-fastapi]: Downloading https://files.pythonhosted.org/packages/71/8b/8209960ae83c5ff13b4f1ae5465c43f0e69256d233270871d663bb583e1e/py-ke-utils-fastapi-2.0.2.tar.gz
+[2023-08-04 11:33:13] INFO root fetch - processPackages [sungrow-http-config]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-04 11:33:13] INFO root fetch - processPackages [cbcbeat]: Downloading https://files.pythonhosted.org/packages/37/1f/8799532bbb82d4deba7cc541eed197c34bd06611332f87704d668a171a70/cbcbeat-2023.1.0.tar.gz
+[2023-08-04 11:33:13] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/89/5a/0939807e46958e4edd477a4682354bc4bf83d85be0db58ed7a26485074a5/jijzeptlab_client-0.3.7-cp39-cp39-win_amd64.whl
+[2023-08-04 11:33:13] INFO root fetch - processPackages [Remilia]: Downloading https://files.pythonhosted.org/packages/fe/26/bd8ec05655885f01b81d376ea66e8237b719f902c3150524d69252bd0d42/remilia-1.2.0.tar.gz
+[2023-08-04 11:33:13] INFO root fetch - processPackages [aiogram-widgets]: Downloading https://files.pythonhosted.org/packages/d0/9f/eee13037ad153b8a6619c680551d627b892815c8a4dd37126bfc449c0ed4/aiogram_widgets-1.2.2.tar.gz
+[2023-08-04 11:33:13] INFO root fetch - processPackages [pyracf]: Downloading https://files.pythonhosted.org/packages/cc/40/597f71c74d1a2811f69b6a14b2200075fa3591df029a862d85e321d96d88/pyracf-0.6.2.tar.gz
+[2023-08-04 11:33:13] INFO root fetch - processPackages [sungrow-http-config]: Downloading https://files.pythonhosted.org/packages/e6/94/c5cb36a6da8114b01fd39580cf32f2d7ac5054c40b84c8ad5cc0a0d414a7/sungrow_http_config-0.0.4.tar.gz
+[2023-08-04 11:33:13] INFO root fetch - processPackages [aiogram-widgets]: executing diffoscope
+[2023-08-04 11:33:13] INFO root fetch - processPackages [aiogram-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram_widgets-1.1.0.tar.gz tmp/aiogram_widgets-1.2.2.tar.gz --markdown 20230804/a/aiogram-widgets/1.1.0-1.2.2/diff.md --exclude *.pyd
+[2023-08-04 11:33:13] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/17/88/fd1a8cf276f9c898aaa1fc67ecf46279256dcf966e770714b41a408fc42c/MDbrew-2.3.9.tar.gz
+[2023-08-04 11:33:14] INFO root fetch - processPackages [py-ke-utils-fastapi]: Downloading https://files.pythonhosted.org/packages/fc/80/207fb325a2b12e4e58d08266f8089782abbc67e857fec9aedbd202b0d559/py-ke-utils-fastapi-2.1.0.tar.gz
+[2023-08-04 11:33:14] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-08-04 11:33:14] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.3.8.tar.gz tmp/MDbrew-2.3.9.tar.gz --markdown 20230804/M/MDbrew/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-08-04 11:33:14] INFO root fetch - processPackages [cbcbeat]: Downloading https://files.pythonhosted.org/packages/05/f0/9f9d89535a6dd60bc32e169f52e47fe9db77c32f8b6b1cfbb7a579b17ace/cbcbeat-2023.1.1.tar.gz
+[2023-08-04 11:33:14] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/7d/e5/10d1829b667343247f7fb5b643fe142e243097a4d6c621262a7b4f867ce5/nucliadb_contributor_assets-1.0.0.post937-py3-none-any.whl
+[2023-08-04 11:33:14] INFO root fetch - processPackages [py-ke-utils-fastapi]: executing diffoscope
+[2023-08-04 11:33:14] INFO root fetch - processPackages [py-ke-utils-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ke-utils-fastapi-2.0.2.tar.gz tmp/py-ke-utils-fastapi-2.1.0.tar.gz --markdown 20230804/p/py-ke-utils-fastapi/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-08-04 11:33:14] INFO root fetch - processPackages [jijzeptlab-client]: Downloading https://files.pythonhosted.org/packages/ae/20/e55b0136f2b77ef08ebdbafdf29c617bd059490536131116caba06f4b979/jijzeptlab_client-0.4.0rc1-cp39-cp39-win_amd64.whl
+[2023-08-04 11:33:14] INFO root fetch - processPackages [pyracf]: Downloading https://files.pythonhosted.org/packages/cf/66/fcf5d61fb753a7ee62ac939278dbaef2a6d71fcb636ab8426f19a6b7d226/pyracf-0.6.3.tar.gz
+[2023-08-04 11:33:14] INFO root fetch - processPackages [Remilia]: Downloading https://files.pythonhosted.org/packages/c1/f2/9fdc93f5aa9cdae3b48cd09dce7b161e435f8d6515e835174539d5b13827/remilia-1.2.1.tar.gz
+[2023-08-04 11:33:14] INFO root fetch - processPackages [sungrow-http-config]: Downloading https://files.pythonhosted.org/packages/0f/2d/f49c8bfe4a8e2f30c3a34556690a4ddafd3ffa3192d354b165e3629c188b/sungrow_http_config-0.0.5.tar.gz
+[2023-08-04 11:33:14] INFO root fetch - processPackages [cbcbeat]: executing diffoscope
+[2023-08-04 11:33:14] INFO root fetch - processPackages [cbcbeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcbeat-2023.1.0.tar.gz tmp/cbcbeat-2023.1.1.tar.gz --markdown 20230804/c/cbcbeat/2023.1.0-2023.1.1/diff.md --exclude *.pyd
+[2023-08-04 11:33:14] INFO root fetch - processPackages [pyracf]: executing diffoscope
+[2023-08-04 11:33:14] INFO root fetch - processPackages [pyracf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracf-0.6.2.tar.gz tmp/pyracf-0.6.3.tar.gz --markdown 20230804/p/pyracf/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-08-04 11:33:14] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-08-04 11:33:14] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post936-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post937-py3-none-any.whl.zip --markdown 20230804/n/nucliadb-contributor-assets/1.0.0.post936-1.0.0.post937/diff.md --exclude *.pyd
+[2023-08-04 11:33:14] INFO root fetch - processPackages [jijzeptlab-client]: executing diffoscope
+[2023-08-04 11:33:14] INFO root fetch - processPackages [jijzeptlab-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzeptlab_client-0.3.7-cp39-cp39-win_amd64.whl.zip tmp/jijzeptlab_client-0.4.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230804/j/jijzeptlab-client/0.3.7-0.4.0rc1/diff.md --exclude *.pyd
+[2023-08-04 11:33:14] INFO root fetch - processPackages [Remilia]: executing diffoscope
+[2023-08-04 11:33:14] INFO root fetch - processPackages [Remilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remilia-1.2.0.tar.gz tmp/remilia-1.2.1.tar.gz --markdown 20230804/R/Remilia/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-04 11:33:14] INFO root fetch - processPackages [sungrow-http-config]: executing diffoscope
+[2023-08-04 11:33:14] INFO root fetch - processPackages [sungrow-http-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sungrow_http_config-0.0.4.tar.gz tmp/sungrow_http_config-0.0.5.tar.gz --markdown 20230804/s/sungrow-http-config/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-04 11:33:14] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: Downloading https://files.pythonhosted.org/packages/ce/44/5be55b6d3f65075452473848d489e243ac8c3eecf4290e60d695c51fca1c/mkdocs-mermaid2-plugin-1.0.5.tar.gz
+[2023-08-04 11:33:14] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: executing diffoscope
+[2023-08-04 11:33:14] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-mermaid2-plugin-1.0.1.tar.gz tmp/mkdocs-mermaid2-plugin-1.0.5.tar.gz --markdown 20230804/m/mkdocs-mermaid2-plugin/1.0.1-1.0.5/diff.md --exclude *.pyd
+[2023-08-04 11:33:15] INFO root fetch - processPackages [aiogram-widgets]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_widgets-1.1.0.tar.gz]
+[2023-08-04 11:33:15] INFO root fetch - processPackages [aiogram-widgets]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_widgets-1.2.2.tar.gz]
+[2023-08-04 11:33:15] INFO root fetch - processPackages [aiogram-widgets]: Start processing: shawn-api
+[2023-08-04 11:33:15] INFO root fetch - main [MainThread]: End processing [aiogram-widgets]: success
+[2023-08-04 11:33:15] INFO root fetch - processPackages [shawn-api]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-04 11:33:15] INFO root fetch - processPackages [shawn-api]: Downloading https://files.pythonhosted.org/packages/8e/a8/2c3f62879ff897e30bfa22f1f74f9658e96558b5ac9d81456f2fbd91bac1/shawn_api-0.3.1.tar.gz
+[2023-08-04 11:33:15] INFO root fetch - processPackages [MDbrew]: Remove: archive file [/home/abi/fetcher/tmp/MDbrew-2.3.8.tar.gz]
+[2023-08-04 11:33:15] INFO root fetch - processPackages [MDbrew]: Remove: archive file [/home/abi/fetcher/tmp/MDbrew-2.3.9.tar.gz]
+[2023-08-04 11:33:15] INFO root fetch - processPackages [MDbrew]: Start processing: pulumiverse-pulumi-esxi-native
+[2023-08-04 11:33:15] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-08-04 11:33:15] WARNING root fetch - processPackages [pulumiverse-pulumi-esxi-native]: Skipping, unable to determine old version
+[2023-08-04 11:33:15] INFO root fetch - main [MainThread]: End processing [pulumiverse-pulumi-esxi-native] error
+[2023-08-04 11:33:15] INFO root fetch - processPackages [shawn-api]: Downloading https://files.pythonhosted.org/packages/3e/4d/8bcf44aae0f3ff531ae99fdb6525906ffa8bc89555dbdb117fc1fec6c0fb/shawn_api-0.3.2.tar.gz
+[2023-08-04 11:33:15] INFO root fetch - processPackages [py-ke-utils-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/py-ke-utils-fastapi-2.0.2.tar.gz]
+[2023-08-04 11:33:15] INFO root fetch - processPackages [py-ke-utils-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/py-ke-utils-fastapi-2.1.0.tar.gz]
+[2023-08-04 11:33:15] INFO root fetch - main [MainThread]: End processing [py-ke-utils-fastapi]: success
+[2023-08-04 11:33:15] INFO root fetch - processPackages [shawn-api]: executing diffoscope
+[2023-08-04 11:33:15] INFO root fetch - processPackages [shawn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shawn_api-0.3.1.tar.gz tmp/shawn_api-0.3.2.tar.gz --markdown 20230804/s/shawn-api/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-04 11:33:15] INFO root fetch - processPackages [cbcbeat]: Remove: archive file [/home/abi/fetcher/tmp/cbcbeat-2023.1.0.tar.gz]
+[2023-08-04 11:33:15] INFO root fetch - processPackages [cbcbeat]: Remove: archive file [/home/abi/fetcher/tmp/cbcbeat-2023.1.1.tar.gz]
+[2023-08-04 11:33:15] INFO root fetch - main [MainThread]: End processing [cbcbeat]: success
+[2023-08-04 11:33:16] INFO root fetch - processPackages [sungrow-http-config]: Remove: archive file [/home/abi/fetcher/tmp/sungrow_http_config-0.0.4.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - processPackages [sungrow-http-config]: Remove: archive file [/home/abi/fetcher/tmp/sungrow_http_config-0.0.5.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - main [MainThread]: End processing [sungrow-http-config]: success
+[2023-08-04 11:33:16] INFO root fetch - processPackages [Remilia]: Remove: archive file [/home/abi/fetcher/tmp/remilia-1.2.0.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - processPackages [Remilia]: Remove: archive file [/home/abi/fetcher/tmp/remilia-1.2.1.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - main [MainThread]: End processing [Remilia]: success
+[2023-08-04 11:33:16] INFO root fetch - processPackages [pyracf]: Remove: archive file [/home/abi/fetcher/tmp/pyracf-0.6.2.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - processPackages [pyracf]: Remove: archive file [/home/abi/fetcher/tmp/pyracf-0.6.3.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - main [MainThread]: End processing [pyracf]: success
+[2023-08-04 11:33:16] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-mermaid2-plugin-1.0.1.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - processPackages [mkdocs-mermaid2-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-mermaid2-plugin-1.0.5.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - main [MainThread]: End processing [mkdocs-mermaid2-plugin]: success
+[2023-08-04 11:33:16] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.3.7-cp39-cp39-win_amd64.whl.zip]
+[2023-08-04 11:33:16] INFO root fetch - processPackages [jijzeptlab-client]: Remove: archive file [/home/abi/fetcher/tmp/jijzeptlab_client-0.4.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-04 11:33:16] INFO root fetch - main [MainThread]: End processing [jijzeptlab-client]: success
+[2023-08-04 11:33:16] INFO root fetch - processPackages [shawn-api]: Remove: archive file [/home/abi/fetcher/tmp/shawn_api-0.3.1.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - processPackages [shawn-api]: Remove: archive file [/home/abi/fetcher/tmp/shawn_api-0.3.2.tar.gz]
+[2023-08-04 11:33:16] INFO root fetch - main [MainThread]: End processing [shawn-api]: success
+[2023-08-04 11:33:27] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post936-py3-none-any.whl.zip]
+[2023-08-04 11:33:27] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post937-py3-none-any.whl.zip]
+[2023-08-04 11:33:28] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-08-04 11:33:28] INFO root fetch - main [MainThread]: Store serial: [19172168]
