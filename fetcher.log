@@ -14428,3 +14428,117 @@
 [2023-08-04 08:52:02] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2023-08-04 08:52:02] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-08-04 08:52:02] INFO root fetch - main [MainThread]: Store serial: [19170712]
+[2023-08-04 08:57:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170712]
+[2023-08-04 08:57:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-es-ticketbai-pos
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protool
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s1282003-learn
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-purchase-order-line-sequence
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notebook
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-odoo-implementation-project
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MeUtils
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-ssi-odoo-implementation
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyPhasesML
+[2023-08-04 08:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepsearch-glm
+[2023-08-04 08:57:12] INFO root fetch - processPackages [s1282003-learn]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-04 08:57:12] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-sequence]: New version: [14.0.2.0.0] Old Version: [14.0.1.0.1.dev5]
+[2023-08-04 08:57:12] INFO root fetch - processPackages [pyPhasesML]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-04 08:57:12] INFO root fetch - processPackages [MeUtils]: New version: [2023.8.4.12.20.26] Old Version: [2023.8.4.11.32.21]
+[2023-08-04 08:57:12] WARNING root fetch - processPackages [odoo14-addon-ssi-odoo-implementation]: Skipping, unable to determine old version
+[2023-08-04 08:57:12] INFO root fetch - processPackages [odoo14-addon-ssi-odoo-implementation]: Start processing: yocto
+[2023-08-04 08:57:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-odoo-implementation] error
+[2023-08-04 08:57:12] INFO root fetch - processPackages [deepsearch-glm]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-04 08:57:12] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: New version: [14.0.1.1.4] Old Version: [14.0.1.1.3]
+[2023-08-04 08:57:12] INFO root fetch - processPackages [protool]: New version: [2.0.0] Old Version: [1.1.2]
+[2023-08-04 08:57:12] WARNING root fetch - processPackages [odoo14-addon-ssi-odoo-implementation-project]: Skipping, unable to determine old version
+[2023-08-04 08:57:12] INFO root fetch - processPackages [odoo14-addon-ssi-odoo-implementation-project]: Start processing: BharatLock
+[2023-08-04 08:57:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-odoo-implementation-project] error
+[2023-08-04 08:57:12] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/39/36/a676e4ec583e13d6f54f06adf221f52893f1eeddc0b2f91fb3e76814a457/pyPhasesML-0.7.8.tar.gz
+[2023-08-04 08:57:12] INFO root fetch - processPackages [notebook]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-08-04 08:57:12] WARNING root fetch - processPackages [yocto]: Skipping, unable to determine old version
+[2023-08-04 08:57:12] INFO root fetch - processPackages [yocto]: Start processing: pulumi-random
+[2023-08-04 08:57:12] INFO root fetch - main [MainThread]: End processing [yocto] error
+[2023-08-04 08:57:12] INFO root fetch - processPackages [s1282003-learn]: Downloading https://files.pythonhosted.org/packages/a8/5c/5e8a91b13cfd85098c0d616cb319b7462816231460c6b8d394c23f09f74a/s1282003_learn-2023.8.3.tar.gz
+[2023-08-04 08:57:12] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-sequence]: Downloading https://files.pythonhosted.org/packages/51/ed/0b3b8f2e4fa6f4e565bf63fd3dca0db722f7b30e986e575f7261882e22e7/odoo14_addon_purchase_order_line_sequence-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-08-04 08:57:12] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/66/9a/290aa04d0bd0e2995d5c7bcefe7019803d91c4f821dd4733745dc952a1e7/MeUtils-2023.8.4.11.32.21.tar.gz
+[2023-08-04 08:57:12] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2023-08-04 08:57:12] WARNING root fetch - processPackages [BharatLock]: Skipping, unable to determine old version
+[2023-08-04 08:57:12] INFO root fetch - processPackages [BharatLock]: Start processing: nucliadb-contributor-assets
+[2023-08-04 08:57:12] INFO root fetch - main [MainThread]: End processing [BharatLock] error
+[2023-08-04 08:57:13] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/9c/78/053738c858bfb89499e6692569eb11f604ea81024c4a5b00981b82151fb3/deepsearch_glm-0.2.2.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [protool]: Downloading https://files.pythonhosted.org/packages/f3/e1/b02960a7bf6a91eb14aff719915bfb60b5638458c4eeca3ea0fcec81a797/protool-1.1.2.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/3e/eb/94b6b7aafda367d69f30af2adaa0e9680e5ae3b5f5f7ad5edd2012135f55/notebook-7.0.1.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/a6/c8/f3995afdc85eff7795fc81743dc682e447293a6ebbf5ba842c242e26d440/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.3-py3-none-any.whl
+[2023-08-04 08:57:13] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post936] Old Version: [1.0.0.post935]
+[2023-08-04 08:57:13] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/08/5d/6d722d3f8eeb16105992b2555570838125f3f6d6af124f0afdb6e7c325b9/pyPhasesML-0.7.9.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/a1/91/f015e8a21ec5b8bdc1fd210606348a1b3913bc2226d1ea22fab8dfba0e7e/nucliadb_contributor_assets-1.0.0.post935-py3-none-any.whl
+[2023-08-04 08:57:13] INFO root fetch - processPackages [s1282003-learn]: Downloading https://files.pythonhosted.org/packages/69/81/25a4555f8379be56b3c38d245c9585135887890073cc4748fe4c7c03b464/s1282003_learn-2023.8.4.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-sequence]: Downloading https://files.pythonhosted.org/packages/2a/d9/072d678c7d2f2054dabcba92db6b0e023d79d8e6bcd377a651f79fc9d55a/odoo14_addon_purchase_order_line_sequence-14.0.2.0.0-py3-none-any.whl
+[2023-08-04 08:57:13] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-08-04 08:57:13] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.7.8.tar.gz tmp/pyPhasesML-0.7.9.tar.gz --markdown 20230804/p/pyPhasesML/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-04 08:57:13] INFO root fetch - processPackages [s1282003-learn]: executing diffoscope
+[2023-08-04 08:57:13] INFO root fetch - processPackages [s1282003-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s1282003_learn-2023.8.3.tar.gz tmp/s1282003_learn-2023.8.4.tar.gz --markdown 20230804/s/s1282003-learn/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-04 08:57:13] INFO root fetch - processPackages [protool]: Downloading https://files.pythonhosted.org/packages/91/68/085d4d683a30c305b5b38b1eff1fd2254b5cf815f39692ab386104c29e5d/protool-2.0.0.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-sequence]: executing diffoscope
+[2023-08-04 08:57:13] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_order_line_sequence-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_purchase_order_line_sequence-14.0.2.0.0-py3-none-any.whl.zip --markdown 20230804/o/odoo14-addon-purchase-order-line-sequence/14.0.1.0.1.dev5-14.0.2.0.0/diff.md --exclude *.pyd
+[2023-08-04 08:57:13] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/0f/15/757945fe724920c31cb0632193f75b5eed9010c60ba3ed3c7f2b56753a6b/MeUtils-2023.8.4.12.20.26.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/4b/29/fa8d13a4ed1f3e8f93f8a29f85ed93bc8b130da650461536eca89b10e34c/deepsearch_glm-0.2.3.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/10/9c/9cde05ef24e322dfb88115656b00d3ad60b4d1d33553681071cb0ed194eb/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.4-py3-none-any.whl
+[2023-08-04 08:57:13] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/82/47/fccddae376fe0db2e0543c51dad897df3b19f2912e630a651c44af97a8b6/nucliadb_contributor_assets-1.0.0.post936-py3-none-any.whl
+[2023-08-04 08:57:13] INFO root fetch - processPackages [protool]: executing diffoscope
+[2023-08-04 08:57:13] INFO root fetch - processPackages [protool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protool-1.1.2.tar.gz tmp/protool-2.0.0.tar.gz --markdown 20230804/p/protool/1.1.2-2.0.0/diff.md --exclude *.pyd
+[2023-08-04 08:57:13] INFO root fetch - processPackages [deepsearch-glm]: executing diffoscope
+[2023-08-04 08:57:13] INFO root fetch - processPackages [deepsearch-glm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_glm-0.2.2.tar.gz tmp/deepsearch_glm-0.2.3.tar.gz --markdown 20230804/d/deepsearch-glm/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-04 08:57:13] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/54/01/5a5d9de953c1a4b4c5b6d43f6a75246a860a8e933705c490d1586540c1a1/notebook-7.0.2.tar.gz
+[2023-08-04 08:57:13] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: executing diffoscope
+[2023-08-04 08:57:13] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.4-py3-none-any.whl.zip --markdown 20230804/o/odoo14-addon-l10n-es-ticketbai-pos/14.0.1.1.3-14.0.1.1.4/diff.md --exclude *.pyd
+[2023-08-04 08:57:13] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2023-08-04 08:57:13] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20230804/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/diff.md --exclude *.pyd
+[2023-08-04 08:57:13] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-08-04 08:57:13] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post935-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post936-py3-none-any.whl.zip --markdown 20230804/n/nucliadb-contributor-assets/1.0.0.post935-1.0.0.post936/diff.md --exclude *.pyd
+[2023-08-04 08:57:14] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2023-08-04 08:57:14] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.0.1.tar.gz tmp/notebook-7.0.2.tar.gz --markdown 20230804/n/notebook/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-08-04 08:57:14] INFO root fetch - processPackages [s1282003-learn]: Remove: archive file [/home/abi/fetcher/tmp/s1282003_learn-2023.8.3.tar.gz]
+[2023-08-04 08:57:14] INFO root fetch - processPackages [s1282003-learn]: Remove: archive file [/home/abi/fetcher/tmp/s1282003_learn-2023.8.4.tar.gz]
+[2023-08-04 08:57:14] INFO root fetch - processPackages [s1282003-learn]: Start processing: charset-mnbvc
+[2023-08-04 08:57:14] INFO root fetch - main [MainThread]: End processing [s1282003-learn]: success
+[2023-08-04 08:57:14] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-08-04 08:57:14] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.8.4.11.32.21.tar.gz tmp/MeUtils-2023.8.4.12.20.26.tar.gz --markdown 20230804/M/MeUtils/2023.8.4.11.32.21-2023.8.4.12.20.26/diff.md --exclude *.pyd
+[2023-08-04 08:57:14] INFO root fetch - processPackages [charset-mnbvc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 08:57:14] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.8.tar.gz]
+[2023-08-04 08:57:14] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.9.tar.gz]
+[2023-08-04 08:57:14] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-08-04 08:57:15] INFO root fetch - processPackages [protool]: Remove: archive file [/home/abi/fetcher/tmp/protool-1.1.2.tar.gz]
+[2023-08-04 08:57:15] INFO root fetch - processPackages [protool]: Remove: archive file [/home/abi/fetcher/tmp/protool-2.0.0.tar.gz]
+[2023-08-04 08:57:15] INFO root fetch - main [MainThread]: End processing [protool]: success
+[2023-08-04 08:57:15] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_order_line_sequence-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-08-04 08:57:15] INFO root fetch - processPackages [odoo14-addon-purchase-order-line-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_order_line_sequence-14.0.2.0.0-py3-none-any.whl.zip]
+[2023-08-04 08:57:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-order-line-sequence]: success
+[2023-08-04 08:57:15] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/35/3e/aabc51aaa2b5bf163795ac339b8128ee8d3d3cbb2a41fbc4502711649408/charset_mnbvc-0.0.8.tar.gz
+[2023-08-04 08:57:15] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.2.2.tar.gz]
+[2023-08-04 08:57:15] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.2.3.tar.gz]
+[2023-08-04 08:57:15] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
+[2023-08-04 08:57:15] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2023-08-04 08:57:15] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2023-08-04 08:57:15] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2023-08-04 08:57:15] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/e2/4c/2e9fe70a87082bfb0cd533b91f202bf64048af3056c95cd34907f0873fc2/charset_mnbvc-0.0.9.tar.gz
+[2023-08-04 08:57:15] INFO root fetch - processPackages [charset-mnbvc]: executing diffoscope
+[2023-08-04 08:57:15] INFO root fetch - processPackages [charset-mnbvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charset_mnbvc-0.0.8.tar.gz tmp/charset_mnbvc-0.0.9.tar.gz --markdown 20230804/c/charset-mnbvc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 08:57:15] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post935-py3-none-any.whl.zip]
+[2023-08-04 08:57:15] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post936-py3-none-any.whl.zip]
+[2023-08-04 08:57:15] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-08-04 08:57:16] INFO root fetch - processPackages [charset-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/charset_mnbvc-0.0.8.tar.gz]
+[2023-08-04 08:57:16] INFO root fetch - processPackages [charset-mnbvc]: Remove: archive file [/home/abi/fetcher/tmp/charset_mnbvc-0.0.9.tar.gz]
+[2023-08-04 08:57:16] INFO root fetch - main [MainThread]: End processing [charset-mnbvc]: success
+[2023-08-04 08:57:18] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.8.4.11.32.21.tar.gz]
+[2023-08-04 08:57:18] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.8.4.12.20.26.tar.gz]
+[2023-08-04 08:57:18] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-08-04 08:57:22] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.3-py3-none-any.whl.zip]
+[2023-08-04 08:57:22] INFO root fetch - processPackages [odoo14-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_ticketbai_pos-14.0.1.1.4-py3-none-any.whl.zip]
+[2023-08-04 08:57:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-ticketbai-pos]: success
+[2023-08-04 08:57:52] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.1.tar.gz]
+[2023-08-04 08:57:52] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.2.tar.gz]
+[2023-08-04 08:57:52] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2023-08-04 08:57:52] INFO root fetch - main [MainThread]: Store serial: [19170760]
