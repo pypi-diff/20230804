@@ -22581,3 +22581,76 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-04 14:20:06] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.21.3.tar.gz]
 [2023-08-04 14:20:06] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
 [2023-08-04 14:20:06] INFO root fetch - main [MainThread]: Store serial: [19174038]
+[2023-08-04 14:25:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19174038]
+[2023-08-04 14:25:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-04 14:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: microsoft-kiota-abstractions
+[2023-08-04 14:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wafermap-clustering
+[2023-08-04 14:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjt
+[2023-08-04 14:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-trackstats
+[2023-08-04 14:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-rke
+[2023-08-04 14:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyjt
+[2023-08-04 14:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptsecurixt
+[2023-08-04 14:25:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yams
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-04 14:25:16] INFO root fetch - processPackages [ptsecurixt]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pulumi-rke]: New version: [3.3.0a1691147386] Old Version: [3.3.0a1691141841]
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-04 14:25:16] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 14:25:16] INFO root fetch - processPackages [django-trackstats]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/c0/69/6340f85d5463baaa0d518ce47d79cbd908d72b4341f133eb36cfd1dc9629/pyjt-0.4.3.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [microsoft-kiota-abstractions]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-04 14:25:16] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/76/17/bd012b86e5f7b5cacf9d0a3fd9e59d16563c8d5cbd34afc311193d870737/wafermap-clustering-0.3.8.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [yams]: New version: [0.50.2] Old Version: [0.50.1]
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/c0/69/6340f85d5463baaa0d518ce47d79cbd908d72b4341f133eb36cfd1dc9629/pyjt-0.4.3.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/60/e4/767096ceab45180dbbbf543c5f70778b3ba40fc19d2f3774aa36f5b733b6/pulumi_rke-3.3.0a1691141841.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [yams]: Downloading https://files.pythonhosted.org/packages/4e/5d/76d52997ecd139dccf365eb145acda49f9aa321d8dfff576bd310d0462a2/yams-0.50.1.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [django-trackstats]: Downloading https://files.pythonhosted.org/packages/8c/51/7d84ce15c65ffbf5a558cf0bf02219df06f87bfacf5c7de2370a84ee1734/django-trackstats-0.6.2.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Downloading https://files.pythonhosted.org/packages/02/82/e7a0d60c3bd0ca015caa4d8142febf57b1d3f5a2d984b1907a556a6c0b0a/microsoft_kiota_abstractions-0.6.0.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/6f/7e/89e84aabdfa91b3f2263a5eff4d4b90aa43c4f105ebd8439b4876e59f9ba/wafermap-clustering-0.3.9.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [ptsecurixt]: Downloading https://files.pythonhosted.org/packages/66/27/5975b0af5566a342fa349b744f1ac5697cb598a05711e625fd370524d143/ptsecurixt-0.0.2.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/14/be/0bb5ab03b7702c65e2f0be197e0cdeed11ff19b7df4ec351bff82d8a1d20/pyjt-0.4.4.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/14/be/0bb5ab03b7702c65e2f0be197e0cdeed11ff19b7df4ec351bff82d8a1d20/pyjt-0.4.4.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/ac/10/5b2d461c7fc6bcb98e37ec119f819b2a9256899c074d9f5f0a79588bc2cb/pulumi_rke-3.3.0a1691147386.tar.gz
+[2023-08-04 14:25:16] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-08-04 14:25:16] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.8.tar.gz tmp/wafermap-clustering-0.3.9.tar.gz --markdown 20230804/w/wafermap-clustering/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: executing diffoscope
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjt-0.4.3.tar.gz tmp/pyjt-0.4.4.tar.gz --markdown 20230804/p/pyjt/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: executing diffoscope
+[2023-08-04 14:25:16] INFO root fetch - processPackages [pyjt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjt-0.4.3.tar.gz tmp/pyjt-0.4.4.tar.gz --markdown 20230804/p/pyjt/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-04 14:25:17] INFO root fetch - processPackages [django-trackstats]: Downloading https://files.pythonhosted.org/packages/bd/f5/057c5c4e377cf4cb95a07b93f558f263232f5d907a13ff06109b751450c7/django-trackstats-0.7.0.tar.gz
+[2023-08-04 14:25:17] INFO root fetch - processPackages [yams]: Downloading https://files.pythonhosted.org/packages/c0/dd/1b0a581d5d3d5e885bdc57f32f4d760123bb8102a9e7ad9499cee2511ba4/yams-0.50.2.tar.gz
+[2023-08-04 14:25:17] INFO root fetch - processPackages [ptsecurixt]: Downloading https://files.pythonhosted.org/packages/f3/fe/680e63f26a7fb805f6a8382b6377aa9ffe61afa64ece9358d2d197112bb8/ptsecurixt-1.0.0.tar.gz
+[2023-08-04 14:25:17] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2023-08-04 14:25:17] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.3.0a1691141841.tar.gz tmp/pulumi_rke-3.3.0a1691147386.tar.gz --markdown 20230804/p/pulumi-rke/3.3.0a1691141841-3.3.0a1691147386/diff.md --exclude *.pyd
+[2023-08-04 14:25:17] INFO root fetch - processPackages [django-trackstats]: executing diffoscope
+[2023-08-04 14:25:17] INFO root fetch - processPackages [django-trackstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-trackstats-0.6.2.tar.gz tmp/django-trackstats-0.7.0.tar.gz --markdown 20230804/d/django-trackstats/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-08-04 14:25:17] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Downloading https://files.pythonhosted.org/packages/8a/20/7e33115c05926741607ca2a822e356c04042432e6a8f2f0bacafd2bd3af0/microsoft_kiota_abstractions-0.7.0.tar.gz
+[2023-08-04 14:25:17] INFO root fetch - processPackages [ptsecurixt]: executing diffoscope
+[2023-08-04 14:25:17] INFO root fetch - processPackages [ptsecurixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptsecurixt-0.0.2.tar.gz tmp/ptsecurixt-1.0.0.tar.gz --markdown 20230804/p/ptsecurixt/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-08-04 14:25:17] INFO root fetch - processPackages [yams]: executing diffoscope
+[2023-08-04 14:25:17] INFO root fetch - processPackages [yams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yams-0.50.1.tar.gz tmp/yams-0.50.2.tar.gz --markdown 20230804/y/yams/0.50.1-0.50.2/diff.md --exclude *.pyd
+[2023-08-04 14:25:17] INFO root fetch - processPackages [microsoft-kiota-abstractions]: executing diffoscope
+[2023-08-04 14:25:17] INFO root fetch - processPackages [microsoft-kiota-abstractions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microsoft_kiota_abstractions-0.6.0.tar.gz tmp/microsoft_kiota_abstractions-0.7.0.tar.gz --markdown 20230804/m/microsoft-kiota-abstractions/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-04 14:25:18] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.8.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.9.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-08-04 14:25:18] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.4.3.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.4.4.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - main [MainThread]: End processing [pyjt]: success
+[2023-08-04 14:25:18] INFO root fetch - main [MainThread]: End processing [pyjt]: success
+[2023-08-04 14:25:18] INFO root fetch - processPackages [ptsecurixt]: Remove: archive file [/home/abi/fetcher/tmp/ptsecurixt-0.0.2.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - processPackages [ptsecurixt]: Remove: archive file [/home/abi/fetcher/tmp/ptsecurixt-1.0.0.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - main [MainThread]: End processing [ptsecurixt]: success
+[2023-08-04 14:25:18] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1691141841.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.3.0a1691147386.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2023-08-04 14:25:18] INFO root fetch - processPackages [django-trackstats]: Remove: archive file [/home/abi/fetcher/tmp/django-trackstats-0.6.2.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - processPackages [django-trackstats]: Remove: archive file [/home/abi/fetcher/tmp/django-trackstats-0.7.0.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - main [MainThread]: End processing [django-trackstats]: success
+[2023-08-04 14:25:18] INFO root fetch - processPackages [yams]: Remove: archive file [/home/abi/fetcher/tmp/yams-0.50.1.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - processPackages [yams]: Remove: archive file [/home/abi/fetcher/tmp/yams-0.50.2.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - main [MainThread]: End processing [yams]: success
+[2023-08-04 14:25:18] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_abstractions-0.6.0.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - processPackages [microsoft-kiota-abstractions]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_abstractions-0.7.0.tar.gz]
+[2023-08-04 14:25:18] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-abstractions]: success
+[2023-08-04 14:25:18] INFO root fetch - main [MainThread]: Store serial: [19174072]
