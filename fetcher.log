@@ -16283,3 +16283,117 @@
 [2023-08-04 10:23:44] INFO root fetch - processPackages [IronPdf]: Remove: archive file [/home/abi/fetcher/tmp/IronPdf-2023.8.6-py37-none-any.whl.zip]
 [2023-08-04 10:23:44] INFO root fetch - main [MainThread]: End processing [IronPdf]: success
 [2023-08-04 10:23:44] INFO root fetch - main [MainThread]: Store serial: [19171531]
+[2023-08-04 10:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171531]
+[2023-08-04 10:28:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-user
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: check-shapes
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: connect-reports-core
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zerod
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: danbi
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peft-ser
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redis-metric-helper
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openprotein-python
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raga-cli
+[2023-08-04 10:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: telebirrTxChecker
+[2023-08-04 10:28:54] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.1b9] Old Version: [0.1.1b8]
+[2023-08-04 10:28:54] INFO root fetch - processPackages [redis-metric-helper]: New version: [0.3.1] Old Version: [0.3]
+[2023-08-04 10:28:54] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 10:28:54] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-04 10:28:54] WARNING root fetch - processPackages [zerod]: Skipping, unable to determine old version
+[2023-08-04 10:28:54] INFO root fetch - processPackages [zerod]: Start processing: fusionlab
+[2023-08-04 10:28:54] INFO root fetch - main [MainThread]: End processing [zerod] error
+[2023-08-04 10:28:54] INFO root fetch - processPackages [connect-reports-core]: New version: [29.0] Old Version: [26.0.0]
+[2023-08-04 10:28:54] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-04 10:28:54] INFO root fetch - processPackages [peft-ser]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 10:28:54] INFO root fetch - processPackages [telebirrTxChecker]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-04 10:28:54] INFO root fetch - processPackages [check-shapes]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-04 10:28:54] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/e9/6e/79a800aaf2c11d4efdbeba810919006d5186c503d6120b7f026f7dc343ce/openprotein_python-0.1.1b8.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [redis-metric-helper]: Downloading https://files.pythonhosted.org/packages/2c/93/e04381b35c1e254e0f606eae589c2dd259d9ae9115cc94f045589dd1a2e2/redis-metric-helper-0.3.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [fusionlab]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-04 10:28:54] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [connect-reports-core]: Downloading https://files.pythonhosted.org/packages/cc/0d/cd86d047ed691c0a60e57b29411e12602ab97aae4e848e3065d9707986a9/connect-reports-core-26.0.0.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [telebirrTxChecker]: Downloading https://files.pythonhosted.org/packages/53/99/de4e2033fc3668d88db5731cc2fe02fe14cf4c09c980347d8cfc9b5cc82a/telebirrTxChecker-0.0.3.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [check-shapes]: Downloading https://files.pythonhosted.org/packages/dd/6c/608fd669a27c83c46a2ea07d50d4eee643b5dde04f01f4b473187e6adf9d/check_shapes-1.1.0.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [peft-ser]: Downloading https://files.pythonhosted.org/packages/c2/b9/669e65fcabe5b37df613656f6d2adce3dca0127e4756901402e99d7e89b6/peft-ser-0.0.2.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [fusionlab]: Downloading https://files.pythonhosted.org/packages/a9/33/792d907f14b8fe6fdf564c486d43f5676dbb1f634d10d4e2e6f36d55efd1/fusionlab-0.1.5.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/9f/45/f4ffc69a92c21830f8a5169e9b19e0e769a88db78efe25ea425d70893371/openprotein_python-0.1.1b9.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-08-04 10:28:54] INFO root fetch - processPackages [redis-metric-helper]: Downloading https://files.pythonhosted.org/packages/ad/8a/b62de1bad4a298cb931d1281ba3f471339541635ea26f462406a1ec45362/redis-metric-helper-0.3.1.tar.gz
+[2023-08-04 10:28:55] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230804/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 10:28:55] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.1b8.tar.gz tmp/openprotein_python-0.1.1b9.tar.gz --markdown 20230804/o/openprotein-python/0.1.1b8-0.1.1b9/diff.md --exclude *.pyd
+[2023-08-04 10:28:55] INFO root fetch - processPackages [connect-reports-core]: Downloading https://files.pythonhosted.org/packages/7f/3c/4c43ec289f3a39cc6403d0df5af783f25d04bf8ccdc5bf4d327e00440d6c/connect_reports_core-29.0.tar.gz
+[2023-08-04 10:28:55] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230804/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-04 10:28:55] INFO root fetch - processPackages [redis-metric-helper]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [redis-metric-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-metric-helper-0.3.tar.gz tmp/redis-metric-helper-0.3.1.tar.gz --markdown 20230804/r/redis-metric-helper/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-08-04 10:28:55] INFO root fetch - processPackages [check-shapes]: Downloading https://files.pythonhosted.org/packages/21/88/3d87f9d96acd5fbcf88cb27bc690da0a57f51a05dfabd570d413818be215/check_shapes-1.1.1.tar.gz
+[2023-08-04 10:28:55] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-08-04 10:28:55] INFO root fetch - processPackages [peft-ser]: Downloading https://files.pythonhosted.org/packages/d5/85/fbf49bf147b2c99b89cc4ad6697e2596e1aa0cb4ef7d2db1718363b518f3/peft_ser-0.0.3-py3-none-any.whl
+[2023-08-04 10:28:55] INFO root fetch - processPackages [telebirrTxChecker]: Downloading https://files.pythonhosted.org/packages/fe/5d/600d2bf529742b3c48b1b84118c969b952354426c4b5b44f9bd881517732/telebirrTxChecker-0.0.4.tar.gz
+[2023-08-04 10:28:55] INFO root fetch - processPackages [connect-reports-core]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [connect-reports-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect-reports-core-26.0.0.tar.gz tmp/connect_reports_core-29.0.tar.gz --markdown 20230804/c/connect-reports-core/26.0.0-29.0/diff.md --exclude *.pyd
+[2023-08-04 10:28:55] INFO root fetch - processPackages [check-shapes]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [check-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/check_shapes-1.1.0.tar.gz tmp/check_shapes-1.1.1.tar.gz --markdown 20230804/c/check-shapes/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-04 10:28:55] INFO root fetch - processPackages [fusionlab]: Downloading https://files.pythonhosted.org/packages/2f/b3/a2617c8ee69e61c8bae05f058ef70dcad5cde4e3816c020fa585baef9bd3/fusionlab-0.1.6.tar.gz
+[2023-08-04 10:28:55] INFO root fetch - processPackages [telebirrTxChecker]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [telebirrTxChecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebirrTxChecker-0.0.3.tar.gz tmp/telebirrTxChecker-0.0.4.tar.gz --markdown 20230804/t/telebirrTxChecker/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-04 10:28:55] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230804/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-04 10:28:55] INFO root fetch - processPackages [peft-ser]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [peft-ser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peft-ser-0.0.2.tar.gz tmp/peft_ser-0.0.3-py3-none-any.whl.zip --markdown 20230804/p/peft-ser/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 10:28:55] INFO root fetch - processPackages [fusionlab]: executing diffoscope
+[2023-08-04 10:28:55] INFO root fetch - processPackages [fusionlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusionlab-0.1.5.tar.gz tmp/fusionlab-0.1.6.tar.gz --markdown 20230804/f/fusionlab/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-04 10:28:56] INFO root fetch - processPackages [redis-metric-helper]: Remove: archive file [/home/abi/fetcher/tmp/redis-metric-helper-0.3.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [redis-metric-helper]: Remove: archive file [/home/abi/fetcher/tmp/redis-metric-helper-0.3.1.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [redis-metric-helper]: Start processing: alibabacloud-linkcard20210520-py2
+[2023-08-04 10:28:56] INFO root fetch - main [MainThread]: End processing [redis-metric-helper]: success
+[2023-08-04 10:28:56] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [raga-cli]: Start processing: alibabacloud-linkcard20210520
+[2023-08-04 10:28:56] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-08-04 10:28:56] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b8.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b9.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 10:28:56] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-08-04 10:28:56] INFO root fetch - processPackages [telebirrTxChecker]: Remove: archive file [/home/abi/fetcher/tmp/telebirrTxChecker-0.0.3.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [telebirrTxChecker]: Remove: archive file [/home/abi/fetcher/tmp/telebirrTxChecker-0.0.4.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - main [MainThread]: End processing [telebirrTxChecker]: success
+[2023-08-04 10:28:56] INFO root fetch - processPackages [peft-ser]: Remove: archive file [/home/abi/fetcher/tmp/peft-ser-0.0.2.tar.gz]
+[2023-08-04 10:28:56] INFO root fetch - processPackages [peft-ser]: Remove: archive file [/home/abi/fetcher/tmp/peft_ser-0.0.3-py3-none-any.whl.zip]
+[2023-08-04 10:28:56] INFO root fetch - main [MainThread]: End processing [peft-ser]: success
+[2023-08-04 10:28:57] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: Downloading https://files.pythonhosted.org/packages/23/07/f08479d81af4688240a62f0380fdd561812e3ec806d2e44688f1ee6803f0/alibabacloud_linkcard20210520-1.0.8.tar.gz
+[2023-08-04 10:28:57] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: Downloading https://files.pythonhosted.org/packages/9f/83/81b893247280eb48a49ce1f0e67d0b1c8ff75221827649f6edbbe52d4741/alibabacloud_linkcard20210520_py2-1.0.8.tar.gz
+[2023-08-04 10:28:57] INFO root fetch - processPackages [connect-reports-core]: Remove: archive file [/home/abi/fetcher/tmp/connect-reports-core-26.0.0.tar.gz]
+[2023-08-04 10:28:57] INFO root fetch - processPackages [connect-reports-core]: Remove: archive file [/home/abi/fetcher/tmp/connect_reports_core-29.0.tar.gz]
+[2023-08-04 10:28:57] INFO root fetch - main [MainThread]: End processing [connect-reports-core]: success
+[2023-08-04 10:28:57] INFO root fetch - processPackages [check-shapes]: Remove: archive file [/home/abi/fetcher/tmp/check_shapes-1.1.0.tar.gz]
+[2023-08-04 10:28:57] INFO root fetch - processPackages [check-shapes]: Remove: archive file [/home/abi/fetcher/tmp/check_shapes-1.1.1.tar.gz]
+[2023-08-04 10:28:57] INFO root fetch - main [MainThread]: End processing [check-shapes]: success
+[2023-08-04 10:28:57] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-08-04 10:28:57] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-08-04 10:28:57] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-08-04 10:28:57] INFO root fetch - processPackages [fusionlab]: Remove: archive file [/home/abi/fetcher/tmp/fusionlab-0.1.5.tar.gz]
+[2023-08-04 10:28:57] INFO root fetch - processPackages [fusionlab]: Remove: archive file [/home/abi/fetcher/tmp/fusionlab-0.1.6.tar.gz]
+[2023-08-04 10:28:57] INFO root fetch - main [MainThread]: End processing [fusionlab]: success
+[2023-08-04 10:28:57] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: Downloading https://files.pythonhosted.org/packages/70/f1/273d35694977c25d60e5d7d5601db8adf40ca4a44a3e89703461dbc96b9a/alibabacloud_linkcard20210520-1.0.9.tar.gz
+[2023-08-04 10:28:57] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: Downloading https://files.pythonhosted.org/packages/81/3a/18c52c2bc218c477867ba3c8be480a1693c7d608be37f45e44114b7f2cb8/alibabacloud_linkcard20210520_py2-1.0.9.tar.gz
+[2023-08-04 10:28:57] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: executing diffoscope
+[2023-08-04 10:28:57] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkcard20210520_py2-1.0.8.tar.gz tmp/alibabacloud_linkcard20210520_py2-1.0.9.tar.gz --markdown 20230804/a/alibabacloud-linkcard20210520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-04 10:28:57] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: executing diffoscope
+[2023-08-04 10:28:57] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkcard20210520-1.0.8.tar.gz tmp/alibabacloud_linkcard20210520-1.0.9.tar.gz --markdown 20230804/a/alibabacloud-linkcard20210520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-04 10:28:58] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkcard20210520_py2-1.0.8.tar.gz]
+[2023-08-04 10:28:58] INFO root fetch - processPackages [alibabacloud-linkcard20210520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkcard20210520_py2-1.0.9.tar.gz]
+[2023-08-04 10:28:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkcard20210520-py2]: success
+[2023-08-04 10:28:58] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkcard20210520-1.0.8.tar.gz]
+[2023-08-04 10:28:58] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkcard20210520-1.0.9.tar.gz]
+[2023-08-04 10:28:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkcard20210520]: success
+[2023-08-04 10:28:58] INFO root fetch - main [MainThread]: Store serial: [19171570]
