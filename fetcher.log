@@ -11503,3 +11503,51 @@
 [2023-08-04 05:28:03] INFO root fetch - processPackages [statmorph]: Remove: archive file [/home/abi/fetcher/tmp/statmorph-0.5.2.tar.gz]
 [2023-08-04 05:28:03] INFO root fetch - main [MainThread]: End processing [statmorph]: success
 [2023-08-04 05:28:03] INFO root fetch - main [MainThread]: Store serial: [19169348]
+[2023-08-04 05:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169348]
+[2023-08-04 05:33:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-04 05:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openprotein-python
+[2023-08-04 05:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microservice-utils
+[2023-08-04 05:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rwkv
+[2023-08-04 05:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbat
+[2023-08-04 05:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2023-08-04 05:33:14] INFO root fetch - processPackages [microservice-utils]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-04 05:33:14] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.1b5] Old Version: [0.1.1b4]
+[2023-08-04 05:33:14] INFO root fetch - processPackages [rwkv]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-08-04 05:33:14] INFO root fetch - processPackages [MeUtils]: New version: [2023.8.4.11.32.21] Old Version: [2023.8.2.13.20.11]
+[2023-08-04 05:33:14] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/85/74/7a3fc1c52c654a57b45d0e138e126a11254f3c02ee5749d2a539508d7bef/openprotein_python-0.1.1b4.tar.gz
+[2023-08-04 05:33:14] INFO root fetch - processPackages [bbat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-04 05:33:14] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/33/5b/67c615375507790cf5ba7d524afc4618eedd88952d082e33856c465bb36e/rwkv-0.8.7.tar.gz
+[2023-08-04 05:33:14] INFO root fetch - processPackages [microservice-utils]: Downloading https://files.pythonhosted.org/packages/b2/7d/1264cfd81445af4cf7dd84da8b95666821b38d3cc7ec8372453c15c3d377/microservice-utils-0.9.2.tar.gz
+[2023-08-04 05:33:14] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/ea/0d/340150351a4c69bea52effcd5cb99f0a6520848f8a67543dba07b5ad6dfa/MeUtils-2023.8.2.13.20.11.tar.gz
+[2023-08-04 05:33:14] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/df/13/929e72634d1229b0cc1a85b5931cb46a9a197ae1f574c9205049b6b43192/bbat-0.2.1.tar.gz
+[2023-08-04 05:33:15] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/e2/bd/c54f6d5598ad4d8cdf0ec4a533113b4d019ec8c158a50a8ba79e1b4c5eda/openprotein_python-0.1.1b5.tar.gz
+[2023-08-04 05:33:15] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/1d/7d/6a406912dbf0c83f57ba53b08790f54283440fa016cbcf35e46963c385ac/rwkv-0.8.8.tar.gz
+[2023-08-04 05:33:15] INFO root fetch - processPackages [microservice-utils]: Downloading https://files.pythonhosted.org/packages/78/0e/771e366be405ee708351eb84d2512acfcfc0c9bb88209869d1f5bb988262/microservice-utils-0.9.3.tar.gz
+[2023-08-04 05:33:15] INFO root fetch - processPackages [bbat]: Downloading https://files.pythonhosted.org/packages/db/a0/ed4e1374581a45bb41be3c96a8ca43a1cea3b15bdbb0eeaee529ff95225a/bbat-0.2.2.tar.gz
+[2023-08-04 05:33:15] INFO root fetch - processPackages [microservice-utils]: executing diffoscope
+[2023-08-04 05:33:15] INFO root fetch - processPackages [microservice-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microservice-utils-0.9.2.tar.gz tmp/microservice-utils-0.9.3.tar.gz --markdown 20230804/m/microservice-utils/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-04 05:33:15] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 05:33:15] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.1b4.tar.gz tmp/openprotein_python-0.1.1b5.tar.gz --markdown 20230804/o/openprotein-python/0.1.1b4-0.1.1b5/diff.md --exclude *.pyd
+[2023-08-04 05:33:15] INFO root fetch - processPackages [rwkv]: executing diffoscope
+[2023-08-04 05:33:15] INFO root fetch - processPackages [rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwkv-0.8.7.tar.gz tmp/rwkv-0.8.8.tar.gz --markdown 20230804/r/rwkv/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-08-04 05:33:15] INFO root fetch - processPackages [bbat]: executing diffoscope
+[2023-08-04 05:33:15] INFO root fetch - processPackages [bbat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbat-0.2.1.tar.gz tmp/bbat-0.2.2.tar.gz --markdown 20230804/b/bbat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-04 05:33:15] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/66/9a/290aa04d0bd0e2995d5c7bcefe7019803d91c4f821dd4733745dc952a1e7/MeUtils-2023.8.4.11.32.21.tar.gz
+[2023-08-04 05:33:15] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-08-04 05:33:15] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.8.2.13.20.11.tar.gz tmp/MeUtils-2023.8.4.11.32.21.tar.gz --markdown 20230804/M/MeUtils/2023.8.2.13.20.11-2023.8.4.11.32.21/diff.md --exclude *.pyd
+[2023-08-04 05:33:16] INFO root fetch - processPackages [microservice-utils]: Remove: archive file [/home/abi/fetcher/tmp/microservice-utils-0.9.2.tar.gz]
+[2023-08-04 05:33:16] INFO root fetch - processPackages [microservice-utils]: Remove: archive file [/home/abi/fetcher/tmp/microservice-utils-0.9.3.tar.gz]
+[2023-08-04 05:33:16] INFO root fetch - main [MainThread]: End processing [microservice-utils]: success
+[2023-08-04 05:33:16] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b4.tar.gz]
+[2023-08-04 05:33:16] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b5.tar.gz]
+[2023-08-04 05:33:16] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 05:33:16] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.8.7.tar.gz]
+[2023-08-04 05:33:16] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.8.8.tar.gz]
+[2023-08-04 05:33:16] INFO root fetch - main [MainThread]: End processing [rwkv]: success
+[2023-08-04 05:33:16] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-0.2.1.tar.gz]
+[2023-08-04 05:33:16] INFO root fetch - processPackages [bbat]: Remove: archive file [/home/abi/fetcher/tmp/bbat-0.2.2.tar.gz]
+[2023-08-04 05:33:16] INFO root fetch - main [MainThread]: End processing [bbat]: success
+[2023-08-04 05:33:19] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.8.2.13.20.11.tar.gz]
+[2023-08-04 05:33:19] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.8.4.11.32.21.tar.gz]
+[2023-08-04 05:33:19] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-08-04 05:33:19] INFO root fetch - main [MainThread]: Store serial: [19169367]
