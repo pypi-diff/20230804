@@ -11901,3 +11901,77 @@
 [2023-08-04 05:54:10] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
 [2023-08-04 05:54:10] INFO root fetch - main [MainThread]: End processing [xj-user]: success
 [2023-08-04 05:54:10] INFO root fetch - main [MainThread]: Store serial: [19169542]
+[2023-08-04 05:59:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169542]
+[2023-08-04 05:59:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 05:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: varman
+[2023-08-04 05:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zrouter
+[2023-08-04 05:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lares
+[2023-08-04 05:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kimariplot
+[2023-08-04 05:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotframework-requestspro
+[2023-08-04 05:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openxlab
+[2023-08-04 05:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-lab-dashboard
+[2023-08-04 05:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: extrapolation
+[2023-08-04 05:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: databend
+[2023-08-04 05:59:19] INFO root fetch - processPackages [zrouter]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-04 05:59:19] INFO root fetch - processPackages [varman]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 05:59:19] INFO root fetch - processPackages [lares]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 05:59:19] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-08-04 05:59:19] INFO root fetch - processPackages [kimariplot]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-08-04 05:59:19] WARNING root fetch - processPackages [extrapolation]: Skipping, unable to determine old version
+[2023-08-04 05:59:19] INFO root fetch - main [MainThread]: End processing [extrapolation] error
+[2023-08-04 05:59:19] INFO root fetch - processPackages [edc-lab-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 05:59:19] INFO root fetch - processPackages [openxlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 05:59:20] INFO root fetch - processPackages [robotframework-requestspro]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-04 05:59:20] INFO root fetch - processPackages [varman]: Downloading https://files.pythonhosted.org/packages/66/ca/447b67b6c624472c8727207475c314094f4d44f7f2bea03d6a14cf650fe6/varman-0.1.0.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/d5/0b/1f290ad77801699595dece205c803dfb3504d7dcf346aca22b6571ba76df/zrouter-0.5.8.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-04 05:59:20] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/ed/d3/a415d1a0cbe9ee2ce57e0c2b13d5b3f2e99f5078e1f0a250fd02e4f5c6e6/lares-0.0.8.tar.gz
+[2023-08-04 05:59:20] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-08-04 05:59:20] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-08-04 05:59:20] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/ba/77/3d8e7e79c036f380b42285bd92339f887348daa2da867c27eb1c6893163a/kimariplot-1.2.5.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [robotframework-requestspro]: Downloading https://files.pythonhosted.org/packages/ab/7b/a597a01e9dddc564258128734f4585a80f72e494d8295a114f6d39dd4d25/robotframework-requestspro-1.1.8.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [edc-lab-dashboard]: Downloading https://files.pythonhosted.org/packages/6d/7e/0ff412c0e150ddd0ca3d3d0504f88ff3bbc2a00d36f63cfc89e985fd56d4/edc-lab-dashboard-0.3.8.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/15/30/be441387afb790b5918a8734ea88959308fed6671e1c66c27dd9f26eb28c/openxlab-0.0.8.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [varman]: Downloading https://files.pythonhosted.org/packages/51/9e/164438a3cc3c09892ce42e0235480989678e5acb4ea3d467d6d94608dac7/varman-0.1.1.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/3a/e4/417f70f8094c6d31fd1faff0895532e1a4d04b19cbc43e81c717b632b079/zrouter-0.5.9.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [lares]: Downloading https://files.pythonhosted.org/packages/5e/05/682ba5607ba4f0aadb4abaf81eeaf6941382909c9ee2ae36eb992d91c91a/lares-0.0.9.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-08-04 05:59:20] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.5.8.tar.gz tmp/zrouter-0.5.9.tar.gz --markdown 20230804/z/zrouter/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-04 05:59:20] INFO root fetch - processPackages [varman]: executing diffoscope
+[2023-08-04 05:59:20] INFO root fetch - processPackages [varman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varman-0.1.0.tar.gz tmp/varman-0.1.1.tar.gz --markdown 20230804/v/varman/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 05:59:20] INFO root fetch - processPackages [robotframework-requestspro]: Downloading https://files.pythonhosted.org/packages/57/fe/ecfac02aed45e6ef83ee4ba1ea0c77d21ab13b795bbe839f7df0d854a1f1/robotframework-requestspro-1.1.9.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [lares]: executing diffoscope
+[2023-08-04 05:59:20] INFO root fetch - processPackages [lares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lares-0.0.8.tar.gz tmp/lares-0.0.9.tar.gz --markdown 20230804/l/lares/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 05:59:20] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/10/d7/68666f15f2038453bfe1adaa0062f8995082154c869bf0f608ea903f2c90/kimariplot-1.3.0.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [robotframework-requestspro]: executing diffoscope
+[2023-08-04 05:59:20] INFO root fetch - processPackages [robotframework-requestspro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-requestspro-1.1.8.tar.gz tmp/robotframework-requestspro-1.1.9.tar.gz --markdown 20230804/r/robotframework-requestspro/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-04 05:59:20] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/6a/1d/5228aeb4ea0ccbdd809515190411e99f89a35bd35fc8834087f7052355b5/openxlab-0.0.9.tar.gz
+[2023-08-04 05:59:20] INFO root fetch - processPackages [kimariplot]: executing diffoscope
+[2023-08-04 05:59:20] INFO root fetch - processPackages [kimariplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariplot-1.2.5.tar.gz tmp/kimariplot-1.3.0.tar.gz --markdown 20230804/k/kimariplot/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-08-04 05:59:20] INFO root fetch - processPackages [edc-lab-dashboard]: Downloading https://files.pythonhosted.org/packages/45/bc/7a009373422bab28737b9ce29fb23ea5a54af5b145548e18c104ad3a1542/edc-lab-dashboard-0.3.9.tar.gz
+[2023-08-04 05:59:21] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2023-08-04 05:59:21] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.8.tar.gz tmp/openxlab-0.0.9.tar.gz --markdown 20230804/o/openxlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 05:59:21] INFO root fetch - processPackages [edc-lab-dashboard]: executing diffoscope
+[2023-08-04 05:59:21] INFO root fetch - processPackages [edc-lab-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-lab-dashboard-0.3.8.tar.gz tmp/edc-lab-dashboard-0.3.9.tar.gz --markdown 20230804/e/edc-lab-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 05:59:21] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.8.tar.gz]
+[2023-08-04 05:59:21] INFO root fetch - processPackages [lares]: Remove: archive file [/home/abi/fetcher/tmp/lares-0.0.9.tar.gz]
+[2023-08-04 05:59:21] INFO root fetch - main [MainThread]: End processing [lares]: success
+[2023-08-04 05:59:21] INFO root fetch - processPackages [varman]: Remove: archive file [/home/abi/fetcher/tmp/varman-0.1.0.tar.gz]
+[2023-08-04 05:59:21] INFO root fetch - processPackages [varman]: Remove: archive file [/home/abi/fetcher/tmp/varman-0.1.1.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - main [MainThread]: End processing [varman]: success
+[2023-08-04 05:59:22] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.8.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.9.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-08-04 05:59:22] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.2.5.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.3.0.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - main [MainThread]: End processing [kimariplot]: success
+[2023-08-04 05:59:22] INFO root fetch - processPackages [robotframework-requestspro]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requestspro-1.1.8.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - processPackages [robotframework-requestspro]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requestspro-1.1.9.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - main [MainThread]: End processing [robotframework-requestspro]: success
+[2023-08-04 05:59:22] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.8.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.9.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2023-08-04 05:59:22] INFO root fetch - processPackages [edc-lab-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-dashboard-0.3.8.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - processPackages [edc-lab-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-dashboard-0.3.9.tar.gz]
+[2023-08-04 05:59:22] INFO root fetch - main [MainThread]: End processing [edc-lab-dashboard]: success
+[2023-08-04 05:59:22] INFO root fetch - main [MainThread]: Store serial: [19169573]
