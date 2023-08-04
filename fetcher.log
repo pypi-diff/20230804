@@ -16106,3 +16106,180 @@
 [2023-08-04 10:18:21] INFO root fetch - processPackages [veda]: Remove: archive file [/home/abi/fetcher/tmp/veda-2.0.2-py3-none-manylinux_2_17_x86_64.whl.zip]
 [2023-08-04 10:18:21] INFO root fetch - main [MainThread]: End processing [veda]: success
 [2023-08-04 10:18:21] INFO root fetch - main [MainThread]: Store serial: [19171450]
+[2023-08-04 10:23:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171450]
+[2023-08-04 10:23:36] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timer-for-python
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: junoplatform
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-dependents-info
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhousf-lib
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bardclient
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-serve
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: specmatic
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tts-gen
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RWAPIMicroservicePython
+[2023-08-04 10:23:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lexikanon
+[2023-08-04 10:23:36] INFO root fetch - processPackages [zhousf-lib]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-04 10:23:36] WARNING root fetch - processPackages [bardclient]: Skipping, unable to determine old version
+[2023-08-04 10:23:36] INFO root fetch - processPackages [bardclient]: Start processing: storage3
+[2023-08-04 10:23:36] INFO root fetch - main [MainThread]: End processing [bardclient] error
+[2023-08-04 10:23:36] INFO root fetch - processPackages [tts-gen]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-08-04 10:23:36] INFO root fetch - processPackages [RWAPIMicroservicePython]: New version: [3.0.0b5] Old Version: [3.0.0b4]
+[2023-08-04 10:23:36] INFO root fetch - processPackages [github-dependents-info]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-04 10:23:36] INFO root fetch - processPackages [specmatic]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-04 10:23:36] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-08-04 10:23:36] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/14/1e/f25f956ea54a3714ce63a14f1a00ec311a7b9e1898ecde31074216056941/zhousf-lib-0.9.2.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 10:23:36] INFO root fetch - processPackages [timer-for-python]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-04 10:23:36] INFO root fetch - processPackages [lexikanon]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-04 10:23:36] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/67/e7/a649b134fb49edc783b25084ae93963cfc4422b04f0bf938dbf3c07def50/RWAPIMicroservicePython-3.0.0b4.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [tts-gen]: Downloading https://files.pythonhosted.org/packages/7b/29/67e82dba3b4a921267ff2a87123fb5d6b52d016b65a2ec6a5f0db1f61a1c/tts-gen-1.2.4.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [storage3]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-08-04 10:23:36] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [github-dependents-info]: Downloading https://files.pythonhosted.org/packages/73/92/1d01d2e9657b9235bc222862ec96c29de21de8b1f66aab8df5628dfd49ca/github_dependents_info-1.1.0.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [storage3]: Downloading https://files.pythonhosted.org/packages/85/47/c676730c34639e945b94c66feebcdf6bbd54d1b2ac2fce8353b3784bcd08/storage3-0.5.3.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/9a/45/3c1a6ed88fbd10f3366eb99a47f15605c8d55fd09589100d9f0d74be7940/specmatic-0.9.0.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/92/02/79427da1708ebc2e790b862bdaee56495769c6beeb784f4ba8f701c1aea0/lexikanon-0.4.1.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [timer-for-python]: Downloading https://files.pythonhosted.org/packages/bd/34/e3bdc5e81f13f8827c5565fb4cb3ce906ca02a03b51168d12be96accc7f5/timer-for-python-0.7.0.tar.gz
+[2023-08-04 10:23:36] INFO root fetch - processPackages [tts-gen]: Downloading https://files.pythonhosted.org/packages/b7/27/618cc105bbe55d6ebe0de16cb64ed58315de736a0f9fce50c784e071769e/tts-gen-1.3.0.tar.gz
+[2023-08-04 10:23:37] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/38/df/266b559325670e5699c937c620daa7aa32e1a2832b39bfd26be0ca27f126/RWAPIMicroservicePython-3.0.0b5.tar.gz
+[2023-08-04 10:23:37] INFO root fetch - processPackages [tts-gen]: executing diffoscope
+[2023-08-04 10:23:37] INFO root fetch - processPackages [tts-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tts-gen-1.2.4.tar.gz tmp/tts-gen-1.3.0.tar.gz --markdown 20230804/t/tts-gen/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-08-04 10:23:37] INFO root fetch - processPackages [github-dependents-info]: Downloading https://files.pythonhosted.org/packages/9f/d8/b2f1ef3e8991de03b4cf842275fd727c7087262998dfe245bc56b761aa98/github_dependents_info-1.2.0.tar.gz
+[2023-08-04 10:23:37] INFO root fetch - processPackages [RWAPIMicroservicePython]: executing diffoscope
+[2023-08-04 10:23:37] INFO root fetch - processPackages [RWAPIMicroservicePython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RWAPIMicroservicePython-3.0.0b4.tar.gz tmp/RWAPIMicroservicePython-3.0.0b5.tar.gz --markdown 20230804/R/RWAPIMicroservicePython/3.0.0b4-3.0.0b5/diff.md --exclude *.pyd
+[2023-08-04 10:23:37] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-04 10:23:37] INFO root fetch - processPackages [storage3]: Downloading https://files.pythonhosted.org/packages/01/a3/0a9e2909b01329b40ba54715ed987794bc26c8af7bb015656a3c0e64fccc/storage3-0.5.4.tar.gz
+[2023-08-04 10:23:37] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-08-04 10:23:37] INFO root fetch - processPackages [github-dependents-info]: executing diffoscope
+[2023-08-04 10:23:37] INFO root fetch - processPackages [github-dependents-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_dependents_info-1.1.0.tar.gz tmp/github_dependents_info-1.2.0.tar.gz --markdown 20230804/g/github-dependents-info/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-04 10:23:37] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/cd/7b/8ad7560331af80349043055b6cfa62c927639e79a574010a220ed36a2bf7/zhousf-lib-0.9.3.tar.gz
+[2023-08-04 10:23:37] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-04 10:23:37] INFO root fetch - processPackages [timer-for-python]: Downloading https://files.pythonhosted.org/packages/1a/09/9c74dfca40c0093b67b8686c4eb3421a12c6905fbb5e3620b33ad510f2cb/timer-for-python-0.7.1.tar.gz
+[2023-08-04 10:23:37] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230804/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 10:23:37] INFO root fetch - processPackages [storage3]: executing diffoscope
+[2023-08-04 10:23:37] INFO root fetch - processPackages [storage3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage3-0.5.3.tar.gz tmp/storage3-0.5.4.tar.gz --markdown 20230804/s/storage3/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-08-04 10:23:37] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-08-04 10:23:37] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230804/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-08-04 10:23:37] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/01/f7/741439d2aeb2a550896a6ec27711e26f15d494e1cd5076e0c745a8dbbeb9/lexikanon-0.4.2.tar.gz
+[2023-08-04 10:23:37] INFO root fetch - processPackages [timer-for-python]: executing diffoscope
+[2023-08-04 10:23:37] INFO root fetch - processPackages [timer-for-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timer-for-python-0.7.0.tar.gz tmp/timer-for-python-0.7.1.tar.gz --markdown 20230804/t/timer-for-python/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-04 10:23:37] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-08-04 10:23:37] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.4.1.tar.gz tmp/lexikanon-0.4.2.tar.gz --markdown 20230804/l/lexikanon/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-04 10:23:37] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79091199>=10485760
+[2023-08-04 10:23:37] INFO root fetch - processPackages [specmatic]: Start processing: codefast
+[2023-08-04 10:23:37] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-08-04 10:23:37] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-08-04 10:23:37] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.9.2.tar.gz tmp/zhousf-lib-0.9.3.tar.gz --markdown 20230804/z/zhousf-lib/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-04 10:23:37] INFO root fetch - processPackages [codefast]: New version: [23.8.4.8] Old Version: [23.7.23.11]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/81/61/7cf801a8c70f7a7d357833c0deac642bc4b3fcfd5d043e779719f96f74ab/codefast-23.7.23.11.tar.gz
+[2023-08-04 10:23:38] INFO root fetch - processPackages [tts-gen]: Remove: archive file [/home/abi/fetcher/tmp/tts-gen-1.2.4.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0b4.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [tts-gen]: Remove: archive file [/home/abi/fetcher/tmp/tts-gen-1.3.0.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0b5.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [tts-gen]: Start processing: md4-fileo
+[2023-08-04 10:23:38] INFO root fetch - main [MainThread]: End processing [tts-gen]: success
+[2023-08-04 10:23:38] INFO root fetch - processPackages [RWAPIMicroservicePython]: Start processing: zeroe
+[2023-08-04 10:23:38] INFO root fetch - main [MainThread]: End processing [RWAPIMicroservicePython]: success
+[2023-08-04 10:23:38] WARNING root fetch - processPackages [md4-fileo]: Skipping, unable to determine old version
+[2023-08-04 10:23:38] INFO root fetch - processPackages [md4-fileo]: Start processing: pyroscopegriddingcpu
+[2023-08-04 10:23:38] INFO root fetch - main [MainThread]: End processing [md4-fileo] error
+[2023-08-04 10:23:38] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/0d/45/ac03172413359422d5dc182dd712401200095c9b2f04c3daacf970997c83/codefast-23.8.4.8.tar.gz
+[2023-08-04 10:23:38] WARNING root fetch - processPackages [zeroe]: Skipping, unable to determine old version
+[2023-08-04 10:23:38] INFO root fetch - processPackages [zeroe]: Start processing: IronPdf
+[2023-08-04 10:23:38] INFO root fetch - main [MainThread]: End processing [zeroe] error
+[2023-08-04 10:23:38] INFO root fetch - processPackages [pyroscopegriddingcpu]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [codefast]: executing diffoscope
+[2023-08-04 10:23:38] INFO root fetch - processPackages [codefast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefast-23.7.23.11.tar.gz tmp/codefast-23.8.4.8.tar.gz --markdown 20230804/c/codefast/23.7.23.11-23.8.4.8/diff.md --exclude *.pyd
+[2023-08-04 10:23:38] INFO root fetch - processPackages [IronPdf]: New version: [2023.8.6] Old Version: [2023.7.9]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [github-dependents-info]: Remove: archive file [/home/abi/fetcher/tmp/github_dependents_info-1.1.0.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [github-dependents-info]: Remove: archive file [/home/abi/fetcher/tmp/github_dependents_info-1.2.0.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [github-dependents-info]: Start processing: raga-cli
+[2023-08-04 10:23:38] INFO root fetch - main [MainThread]: End processing [github-dependents-info]: success
+[2023-08-04 10:23:38] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [junoplatform]: Start processing: pyEthioJobs
+[2023-08-04 10:23:38] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-04 10:23:38] INFO root fetch - processPackages [storage3]: Remove: archive file [/home/abi/fetcher/tmp/storage3-0.5.3.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [storage3]: Remove: archive file [/home/abi/fetcher/tmp/storage3-0.5.4.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [storage3]: Start processing: autotrain-advanced
+[2023-08-04 10:23:38] INFO root fetch - main [MainThread]: End processing [storage3]: success
+[2023-08-04 10:23:38] INFO root fetch - processPackages [pyroscopegriddingcpu]: Downloading https://files.pythonhosted.org/packages/ad/c8/31504e35ceb9b41ee2b645ed4324f9cd8b274e1b6e7aa6d72c6efcffc6dd/pyroscopegriddingcpu-0.0.0.7.tar.gz
+[2023-08-04 10:23:38] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [pyEthioJobs]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [timer-for-python]: Remove: archive file [/home/abi/fetcher/tmp/timer-for-python-0.7.0.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [timer-for-python]: Remove: archive file [/home/abi/fetcher/tmp/timer-for-python-0.7.1.tar.gz]
+[2023-08-04 10:23:38] INFO root fetch - processPackages [timer-for-python]: Start processing: tf-model-optimization-nightly
+[2023-08-04 10:23:38] INFO root fetch - main [MainThread]: End processing [timer-for-python]: success
+[2023-08-04 10:23:38] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/c1/53/cc5efcf41c4c05eaf29e5d7b8e275ee146724fb17f1e1bfe092f13ca72ff/raga-cli-0.1.8.tar.gz
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-04 10:23:39] INFO root fetch - processPackages [IronPdf]: Downloading https://files.pythonhosted.org/packages/29/e1/1b240c2685aa2b06d14c8f3eacd08ec5612f2d79e4b4d645d827055b3efa/IronPdf-2023.7.9-py37-none-any.whl
+[2023-08-04 10:23:39] INFO root fetch - processPackages [pyEthioJobs]: Downloading https://files.pythonhosted.org/packages/9f/68/dd6f07bcd80eb76ab15dbe03b32fc8423e82cba1be9ef16c89c65be70888/pyEthioJobs-0.0.6.tar.gz
+[2023-08-04 10:23:39] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230804] Old Version: [0.7.5.dev20230730]
+[2023-08-04 10:23:39] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-08-04 10:23:39] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-08-04 10:23:39] INFO root fetch - processPackages [langchain-serve]: Start processing: autotrain-advanced
+[2023-08-04 10:23:39] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-04 10:23:39] INFO root fetch - processPackages [pyroscopegriddingcpu]: Downloading https://files.pythonhosted.org/packages/1c/36/e76d93247deda6653ad0c920c7c1715edc2b4935521d7e2798c41494c16e/pyroscopegriddingcpu-0.0.0.8.tar.gz
+[2023-08-04 10:23:39] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/3e/dd/43266982ab7fcc72f99fde19db03705a244869f669ae7ae096cbfc9ed3e7/raga-cli-0.1.9.tar.gz
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/75/7c/6b0cd90ad86802c991fea1f78d18440f49659e585adf8b446047cbb24189/autotrain-advanced-0.6.8.tar.gz
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/75/7c/6b0cd90ad86802c991fea1f78d18440f49659e585adf8b446047cbb24189/autotrain-advanced-0.6.8.tar.gz
+[2023-08-04 10:23:39] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.4.1.tar.gz]
+[2023-08-04 10:23:39] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.4.2.tar.gz]
+[2023-08-04 10:23:39] INFO root fetch - processPackages [lexikanon]: Start processing: t3qai-client
+[2023-08-04 10:23:39] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-08-04 10:23:39] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/a0/72/dd624a823a55f287ab651fc749500f505160cded3f3125faeba729ff16b0/tf_model_optimization_nightly-0.7.5.dev20230730-py2.py3-none-any.whl
+[2023-08-04 10:23:39] INFO root fetch - processPackages [pyroscopegriddingcpu]: executing diffoscope
+[2023-08-04 10:23:39] INFO root fetch - processPackages [pyroscopegriddingcpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroscopegriddingcpu-0.0.0.7.tar.gz tmp/pyroscopegriddingcpu-0.0.0.8.tar.gz --markdown 20230804/p/pyroscopegriddingcpu/0.0.0.7-0.0.0.8/diff.md --exclude *.pyd
+[2023-08-04 10:23:39] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-08-04 10:23:39] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230804/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 10:23:39] INFO root fetch - processPackages [pyEthioJobs]: Downloading https://files.pythonhosted.org/packages/f2/9a/3273ba13e4568485c5cd8555444da8f06859dd4e90e7f96a77fd4f96268e/pyEthioJobs-0.0.7.tar.gz
+[2023-08-04 10:23:39] INFO root fetch - processPackages [t3qai-client]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-04 10:23:39] INFO root fetch - processPackages [pyEthioJobs]: executing diffoscope
+[2023-08-04 10:23:39] INFO root fetch - processPackages [pyEthioJobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEthioJobs-0.0.6.tar.gz tmp/pyEthioJobs-0.0.7.tar.gz --markdown 20230804/p/pyEthioJobs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/87/79/c6f84b3427bfa3ae6a282317e936b560d1d714838ec7fbab4cf4295a8cc3/autotrain-advanced-0.6.9.tar.gz
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/87/79/c6f84b3427bfa3ae6a282317e936b560d1d714838ec7fbab4cf4295a8cc3/autotrain-advanced-0.6.9.tar.gz
+[2023-08-04 10:23:39] INFO root fetch - processPackages [IronPdf]: Downloading https://files.pythonhosted.org/packages/ad/99/2ae00e2adeab290cbc604eb8911ba63a33bd4d6051efdf2ba31451e728cf/IronPdf-2023.8.6-py37-none-any.whl
+[2023-08-04 10:23:39] INFO root fetch - processPackages [t3qai-client]: Downloading https://files.pythonhosted.org/packages/5c/c9/9cfab31e386937936316337fd29be1e8b280e9858e305e233dc03ff72bc4/t3qai_client-1.1.3-py3-none-any.whl
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.6.8.tar.gz tmp/autotrain-advanced-0.6.9.tar.gz --markdown 20230804/a/autotrain-advanced/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-04 10:23:39] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/9a/dc/0f51564fe1549d418dad3357ede9e1dfaa08fc55f8ecad71ee40967ecade/tf_model_optimization_nightly-0.7.5.dev20230804-py2.py3-none-any.whl
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2023-08-04 10:23:39] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.6.8.tar.gz tmp/autotrain-advanced-0.6.9.tar.gz --markdown 20230804/a/autotrain-advanced/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-04 10:23:39] INFO root fetch - processPackages [codefast]: Remove: archive file [/home/abi/fetcher/tmp/codefast-23.7.23.11.tar.gz]
+[2023-08-04 10:23:39] INFO root fetch - processPackages [codefast]: Remove: archive file [/home/abi/fetcher/tmp/codefast-23.8.4.8.tar.gz]
+[2023-08-04 10:23:39] INFO root fetch - main [MainThread]: End processing [codefast]: success
+[2023-08-04 10:23:40] INFO root fetch - processPackages [t3qai-client]: Downloading https://files.pythonhosted.org/packages/41/ee/14d8179b85de20fc7ebf06d317b2d269eebd54a8acf6ad6cb8cf6ff284ea/t3qai_client-1.1.4-py3-none-any.whl
+[2023-08-04 10:23:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-08-04 10:23:40] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230730-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230804-py2.py3-none-any.whl.zip --markdown 20230804/t/tf-model-optimization-nightly/0.7.5.dev20230730-0.7.5.dev20230804/diff.md --exclude *.pyd
+[2023-08-04 10:23:40] INFO root fetch - processPackages [IronPdf]: executing diffoscope
+[2023-08-04 10:23:40] INFO root fetch - processPackages [IronPdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IronPdf-2023.7.9-py37-none-any.whl.zip tmp/IronPdf-2023.8.6-py37-none-any.whl.zip --markdown 20230804/I/IronPdf/2023.7.9-2023.8.6/diff.md --exclude *.pyd
+[2023-08-04 10:23:40] INFO root fetch - processPackages [t3qai-client]: executing diffoscope
+[2023-08-04 10:23:40] INFO root fetch - processPackages [t3qai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t3qai_client-1.1.3-py3-none-any.whl.zip tmp/t3qai_client-1.1.4-py3-none-any.whl.zip --markdown 20230804/t/t3qai-client/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-04 10:23:40] INFO root fetch - processPackages [pyroscopegriddingcpu]: Remove: archive file [/home/abi/fetcher/tmp/pyroscopegriddingcpu-0.0.0.7.tar.gz]
+[2023-08-04 10:23:40] INFO root fetch - processPackages [pyroscopegriddingcpu]: Remove: archive file [/home/abi/fetcher/tmp/pyroscopegriddingcpu-0.0.0.8.tar.gz]
+[2023-08-04 10:23:40] INFO root fetch - main [MainThread]: End processing [pyroscopegriddingcpu]: success
+[2023-08-04 10:23:40] INFO root fetch - processPackages [pyEthioJobs]: Remove: archive file [/home/abi/fetcher/tmp/pyEthioJobs-0.0.6.tar.gz]
+[2023-08-04 10:23:40] INFO root fetch - processPackages [pyEthioJobs]: Remove: archive file [/home/abi/fetcher/tmp/pyEthioJobs-0.0.7.tar.gz]
+[2023-08-04 10:23:40] INFO root fetch - main [MainThread]: End processing [pyEthioJobs]: success
+[2023-08-04 10:23:40] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.8.tar.gz]
+[2023-08-04 10:23:40] INFO root fetch - processPackages [raga-cli]: Remove: archive file [/home/abi/fetcher/tmp/raga-cli-0.1.9.tar.gz]
+[2023-08-04 10:23:40] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-08-04 10:23:41] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.9.2.tar.gz]
+[2023-08-04 10:23:41] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.9.3.tar.gz]
+[2023-08-04 10:23:41] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-08-04 10:23:41] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.8.tar.gz]
+[2023-08-04 10:23:41] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.6.9.tar.gz]
+[2023-08-04 10:23:41] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2023-08-04 10:23:41] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2023-08-04 10:23:41] INFO root fetch - processPackages [t3qai-client]: Remove: archive file [/home/abi/fetcher/tmp/t3qai_client-1.1.3-py3-none-any.whl.zip]
+[2023-08-04 10:23:41] INFO root fetch - processPackages [t3qai-client]: Remove: archive file [/home/abi/fetcher/tmp/t3qai_client-1.1.4-py3-none-any.whl.zip]
+[2023-08-04 10:23:41] INFO root fetch - main [MainThread]: End processing [t3qai-client]: success
+[2023-08-04 10:23:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230730-py2.py3-none-any.whl.zip]
+[2023-08-04 10:23:41] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230804-py2.py3-none-any.whl.zip]
+[2023-08-04 10:23:41] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-08-04 10:23:44] INFO root fetch - processPackages [IronPdf]: Remove: archive file [/home/abi/fetcher/tmp/IronPdf-2023.7.9-py37-none-any.whl.zip]
+[2023-08-04 10:23:44] INFO root fetch - processPackages [IronPdf]: Remove: archive file [/home/abi/fetcher/tmp/IronPdf-2023.8.6-py37-none-any.whl.zip]
+[2023-08-04 10:23:44] INFO root fetch - main [MainThread]: End processing [IronPdf]: success
+[2023-08-04 10:23:44] INFO root fetch - main [MainThread]: Store serial: [19171531]
