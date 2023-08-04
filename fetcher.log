@@ -18903,3 +18903,149 @@
 [2023-08-04 12:29:23] INFO root fetch - processPackages [metacluster]: Remove: archive file [/home/abi/fetcher/tmp/metacluster-0.2.0.tar.gz]
 [2023-08-04 12:29:23] INFO root fetch - main [MainThread]: End processing [metacluster]: success
 [2023-08-04 12:29:23] INFO root fetch - main [MainThread]: Store serial: [19172724]
+[2023-08-04 12:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172724]
+[2023-08-04 12:34:35] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thingsvision
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xblock-problem-builder
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-render
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alpaca-eval
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: caloutils
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysdot
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: signxai
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: first-package-ip
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytenzir
+[2023-08-04 12:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omni-infer-api-account
+[2023-08-04 12:34:35] INFO root fetch - processPackages [streamlit-render]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-04 12:34:35] INFO root fetch - processPackages [omni-infer-api-account]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-04 12:34:35] WARNING root fetch - processPackages [first-package-ip]: Skipping, unable to determine old version
+[2023-08-04 12:34:35] INFO root fetch - processPackages [first-package-ip]: Start processing: bagbag
+[2023-08-04 12:34:35] INFO root fetch - main [MainThread]: End processing [first-package-ip] error
+[2023-08-04 12:34:35] INFO root fetch - processPackages [thingsvision]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-08-04 12:34:35] INFO root fetch - processPackages [caloutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 12:34:35] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/4f/c0/f71f6109f121f38984b80d096d25da08469c21bee7b8de223431d3f9913d/omni_infer_api_account-0.0.5-py3-none-any.whl
+[2023-08-04 12:34:36] INFO root fetch - processPackages [pytenzir]: New version: [4.0.0rc9] Old Version: [4.0.0rc12]
+[2023-08-04 12:34:36] INFO root fetch - processPackages [xblock-problem-builder]: New version: [5.1.4] Old Version: [5.1.3]
+[2023-08-04 12:34:36] INFO root fetch - processPackages [pysdot]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-04 12:34:36] INFO root fetch - processPackages [signxai]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-04 12:34:36] INFO root fetch - processPackages [alpaca-eval]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-04 12:34:36] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-08-04 12:34:36] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/ec/5e/2f8459bd6b574f343047c25c49da13a0c0553f9603e456d0d3db7ffa2736/thingsvision-2.3.8.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [streamlit-render]: Downloading https://files.pythonhosted.org/packages/76/58/03cd631e5a60805477349e6dc64e77e4f3efceb7790b6a703d077570b6a7/streamlit-render-0.1.2.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [pytenzir]: Downloading https://files.pythonhosted.org/packages/81/b8/850707431cc28e754a1ad5d33c1b2e553c04b870fd3b924a3b83012b79b7/pytenzir-4.0.0rc12.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [caloutils]: Downloading https://files.pythonhosted.org/packages/0d/1d/7db4d5e3c6144898baeffb5d0de5d782bab68517714971a4a95183c422c3/caloutils-0.0.8.tar.gz
+[2023-08-04 12:34:36] WARNING root fetch - processPackages [streamlit-render]: Skipping package: exceeds size limit 29956433>=10485760
+[2023-08-04 12:34:36] INFO root fetch - processPackages [streamlit-render]: Start processing: openxlab
+[2023-08-04 12:34:36] INFO root fetch - main [MainThread]: End processing [streamlit-render] error
+[2023-08-04 12:34:36] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/58/c8/07a56a466b82e7f91faaaed1e412c855bbb21a4da376ec56718ee02e2df7/pysdot-0.2.7.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [openxlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 12:34:36] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/f5/1c/84e4c00f0292b528eaf9fede6c037301aea373eb90a877e97b605718f31d/signxai-1.0.1.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [xblock-problem-builder]: Downloading https://files.pythonhosted.org/packages/78/8d/3fa8998f71246b7c111541584d322c13b95b11963083282d17c8047e88e9/xblock-problem-builder-5.1.3.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/aa/38/a6efa2a335953ee4a62d29bb0a5dcc4c24f015e83ec58a9327b46c77fc51/alpaca_eval-0.2.7.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/8a/48/ceb02b6ebc29ca021abe8673fcee839b79771ad925c31796e32e1836ead9/omni_infer_api_account-0.0.6-py3-none-any.whl
+[2023-08-04 12:34:36] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/15/30/be441387afb790b5918a8734ea88959308fed6671e1c66c27dd9f26eb28c/openxlab-0.0.8.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/76/17/f173eaefee854bfa8c1878c712e801e2ee25b00be57df0d85987fa4604f2/thingsvision-2.3.9.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [omni-infer-api-account]: executing diffoscope
+[2023-08-04 12:34:36] INFO root fetch - processPackages [omni-infer-api-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api_account-0.0.5-py3-none-any.whl.zip tmp/omni_infer_api_account-0.0.6-py3-none-any.whl.zip --markdown 20230804/o/omni-infer-api-account/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-04 12:34:36] INFO root fetch - processPackages [thingsvision]: executing diffoscope
+[2023-08-04 12:34:36] INFO root fetch - processPackages [thingsvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsvision-2.3.8.tar.gz tmp/thingsvision-2.3.9.tar.gz --markdown 20230804/t/thingsvision/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-08-04 12:34:36] INFO root fetch - processPackages [pytenzir]: Downloading https://files.pythonhosted.org/packages/9a/db/9ab888f439994c0888982c167d6c28e4535eb5c9de37a965a5aabac76d39/pytenzir-4.0.0rc9.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/13/97/8fcde2da6b06276a9ef7c3fea9e816e5e0cd9025cfe13a8053a4435c66ae/pysdot-0.2.8.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [caloutils]: Downloading https://files.pythonhosted.org/packages/e8/de/ad461f910765888d911ed1d321e0569e5d8c6f9badffeeaf2cd7cea6b6f8/caloutils-0.0.9.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/06/34/22ea493d2ae7e3fb6e6b58641b921c516621a1d572e681e4b44358c18d6d/signxai-1.1.0.tar.gz
+[2023-08-04 12:34:36] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/65/bf/28254d345bbf58e0c99b292a86ac05caf82eafec88b7bc1e1a03f18c0b5f/alpaca_eval-0.2.8.tar.gz
+[2023-08-04 12:34:37] INFO root fetch - processPackages [xblock-problem-builder]: Downloading https://files.pythonhosted.org/packages/dc/34/0886c735f4834cb5fa33e5765e801360c9a52f326f59584c726de0952776/xblock-problem-builder-5.1.4.tar.gz
+[2023-08-04 12:34:37] INFO root fetch - processPackages [pytenzir]: executing diffoscope
+[2023-08-04 12:34:37] INFO root fetch - processPackages [pytenzir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytenzir-4.0.0rc12.tar.gz tmp/pytenzir-4.0.0rc9.tar.gz --markdown 20230804/p/pytenzir/4.0.0rc12-4.0.0rc9/diff.md --exclude *.pyd
+[2023-08-04 12:34:37] INFO root fetch - processPackages [openxlab]: Downloading https://files.pythonhosted.org/packages/6a/1d/5228aeb4ea0ccbdd809515190411e99f89a35bd35fc8834087f7052355b5/openxlab-0.0.9.tar.gz
+[2023-08-04 12:34:37] INFO root fetch - processPackages [caloutils]: executing diffoscope
+[2023-08-04 12:34:37] INFO root fetch - processPackages [caloutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caloutils-0.0.8.tar.gz tmp/caloutils-0.0.9.tar.gz --markdown 20230804/c/caloutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 12:34:37] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-08-04 12:34:37] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230804/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-08-04 12:34:37] INFO root fetch - processPackages [signxai]: executing diffoscope
+[2023-08-04 12:34:37] INFO root fetch - processPackages [signxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxai-1.0.1.tar.gz tmp/signxai-1.1.0.tar.gz --markdown 20230804/s/signxai/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-04 12:34:37] INFO root fetch - processPackages [alpaca-eval]: executing diffoscope
+[2023-08-04 12:34:37] INFO root fetch - processPackages [alpaca-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_eval-0.2.7.tar.gz tmp/alpaca_eval-0.2.8.tar.gz --markdown 20230804/a/alpaca-eval/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-04 12:34:37] INFO root fetch - processPackages [xblock-problem-builder]: executing diffoscope
+[2023-08-04 12:34:37] INFO root fetch - processPackages [xblock-problem-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xblock-problem-builder-5.1.3.tar.gz tmp/xblock-problem-builder-5.1.4.tar.gz --markdown 20230804/x/xblock-problem-builder/5.1.3-5.1.4/diff.md --exclude *.pyd
+[2023-08-04 12:34:37] INFO root fetch - processPackages [openxlab]: executing diffoscope
+[2023-08-04 12:34:37] INFO root fetch - processPackages [openxlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openxlab-0.0.8.tar.gz tmp/openxlab-0.0.9.tar.gz --markdown 20230804/o/openxlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 12:34:37] INFO root fetch - processPackages [pysdot]: executing diffoscope
+[2023-08-04 12:34:37] INFO root fetch - processPackages [pysdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdot-0.2.7.tar.gz tmp/pysdot-0.2.8.tar.gz --markdown 20230804/p/pysdot/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-04 12:34:37] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.5-py3-none-any.whl.zip]
+[2023-08-04 12:34:37] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.6-py3-none-any.whl.zip]
+[2023-08-04 12:34:37] INFO root fetch - processPackages [omni-infer-api-account]: Start processing: CosmoTech-SupplyChain
+[2023-08-04 12:34:37] INFO root fetch - main [MainThread]: End processing [omni-infer-api-account]: success
+[2023-08-04 12:34:38] INFO root fetch - processPackages [CosmoTech-SupplyChain]: New version: [5.1.0] Old Version: [5.0.1]
+[2023-08-04 12:34:38] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Downloading https://files.pythonhosted.org/packages/b4/77/9d4717730ca1716e936ff5e6d79c16ed6cda4ab901cc83f5d52e1fc75656/CosmoTech-SupplyChain-5.0.1.tar.gz
+[2023-08-04 12:34:38] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.3.8.tar.gz]
+[2023-08-04 12:34:38] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.3.9.tar.gz]
+[2023-08-04 12:34:38] INFO root fetch - processPackages [thingsvision]: Start processing: zimran-fastapi
+[2023-08-04 12:34:38] INFO root fetch - main [MainThread]: End processing [thingsvision]: success
+[2023-08-04 12:34:38] INFO root fetch - processPackages [zimran-fastapi]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-04 12:34:38] INFO root fetch - processPackages [pytenzir]: Remove: archive file [/home/abi/fetcher/tmp/pytenzir-4.0.0rc12.tar.gz]
+[2023-08-04 12:34:38] INFO root fetch - processPackages [pytenzir]: Remove: archive file [/home/abi/fetcher/tmp/pytenzir-4.0.0rc9.tar.gz]
+[2023-08-04 12:34:38] INFO root fetch - processPackages [pytenzir]: Start processing: citrusdb
+[2023-08-04 12:34:38] INFO root fetch - main [MainThread]: End processing [pytenzir]: success
+[2023-08-04 12:34:38] INFO root fetch - processPackages [citrusdb]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-04 12:34:38] INFO root fetch - processPackages [zimran-fastapi]: Downloading https://files.pythonhosted.org/packages/c5/b3/4c7561b0d0907b1e80524d13c8ce189247e5427875eb3743b7cf27c65bc1/zimran-fastapi-1.1.0.tar.gz
+[2023-08-04 12:34:38] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/d8/13/f609f92812ae57451d1cef3193450b065ea8fb6ecb6fbd9fab058fd634d1/citrusdb-0.5.1.tar.gz
+[2023-08-04 12:34:38] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Downloading https://files.pythonhosted.org/packages/04/6c/cdf24fdf0a9bfa23bdade8963463cba193b5508070424cf4be0bda78d75f/CosmoTech-SupplyChain-5.1.0.tar.gz
+[2023-08-04 12:34:38] INFO root fetch - processPackages [caloutils]: Remove: archive file [/home/abi/fetcher/tmp/caloutils-0.0.8.tar.gz]
+[2023-08-04 12:34:38] INFO root fetch - processPackages [caloutils]: Remove: archive file [/home/abi/fetcher/tmp/caloutils-0.0.9.tar.gz]
+[2023-08-04 12:34:38] INFO root fetch - processPackages [caloutils]: Start processing: Swagger2Tests
+[2023-08-04 12:34:38] INFO root fetch - main [MainThread]: End processing [caloutils]: success
+[2023-08-04 12:34:38] INFO root fetch - processPackages [zimran-fastapi]: Downloading https://files.pythonhosted.org/packages/10/44/e8babed65cd3916ddc872019478ffc9d1c0a2031ab97be2908a648d80989/zimran-fastapi-1.2.0.tar.gz
+[2023-08-04 12:34:38] INFO root fetch - processPackages [CosmoTech-SupplyChain]: executing diffoscope
+[2023-08-04 12:34:38] INFO root fetch - processPackages [CosmoTech-SupplyChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech-SupplyChain-5.0.1.tar.gz tmp/CosmoTech-SupplyChain-5.1.0.tar.gz --markdown 20230804/C/CosmoTech-SupplyChain/5.0.1-5.1.0/diff.md --exclude *.pyd
+[2023-08-04 12:34:38] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/ac/6a/c465feb488f1bb37852655a8f19df80ad464540b7aaa7160eb45d911f345/citrusdb-0.5.2.tar.gz
+[2023-08-04 12:34:39] INFO root fetch - processPackages [Swagger2Tests]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-04 12:34:39] INFO root fetch - processPackages [zimran-fastapi]: executing diffoscope
+[2023-08-04 12:34:39] INFO root fetch - processPackages [zimran-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimran-fastapi-1.1.0.tar.gz tmp/zimran-fastapi-1.2.0.tar.gz --markdown 20230804/z/zimran-fastapi/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-04 12:34:39] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.7.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.8.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - processPackages [pysdot]: Start processing: RWAPIMicroservicePython
+[2023-08-04 12:34:39] INFO root fetch - main [MainThread]: End processing [pysdot]: success
+[2023-08-04 12:34:39] INFO root fetch - processPackages [RWAPIMicroservicePython]: New version: [3.0.0rc1] Old Version: [3.0.0b6]
+[2023-08-04 12:34:39] INFO root fetch - processPackages [citrusdb]: executing diffoscope
+[2023-08-04 12:34:39] INFO root fetch - processPackages [citrusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citrusdb-0.5.1.tar.gz tmp/citrusdb-0.5.2.tar.gz --markdown 20230804/c/citrusdb/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-04 12:34:39] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-1.0.1.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-1.1.0.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - main [MainThread]: End processing [signxai]: success
+[2023-08-04 12:34:39] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.8.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - processPackages [openxlab]: Remove: archive file [/home/abi/fetcher/tmp/openxlab-0.0.9.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - main [MainThread]: End processing [openxlab]: success
+[2023-08-04 12:34:39] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/aa/5e/e4f6faae8e4d6ad43eed68a1767ea99afe2adcc9259496040aa7e14a98aa/RWAPIMicroservicePython-3.0.0b6.tar.gz
+[2023-08-04 12:34:39] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/cb/00/133de4f66121933d986e159b8b90c8a288ce725012f9c9cb380cb8f01a07/Swagger2Tests-1.0.3.tar.gz
+[2023-08-04 12:34:39] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/82/11/298c3029e3c64709904e4c78acbdeb9efe35f6fdef722ea9e8174078b13d/RWAPIMicroservicePython-3.0.0rc1.tar.gz
+[2023-08-04 12:34:39] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.2.7.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - processPackages [RWAPIMicroservicePython]: executing diffoscope
+[2023-08-04 12:34:39] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.2.8.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - processPackages [RWAPIMicroservicePython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RWAPIMicroservicePython-3.0.0b6.tar.gz tmp/RWAPIMicroservicePython-3.0.0rc1.tar.gz --markdown 20230804/R/RWAPIMicroservicePython/3.0.0b6-3.0.0rc1/diff.md --exclude *.pyd
+[2023-08-04 12:34:39] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/20/e7/9c0bec54313796025d0052de0c8854c6097f0e2da9e863f23cfa6cd3d339/Swagger2Tests-1.0.4.tar.gz
+[2023-08-04 12:34:39] INFO root fetch - main [MainThread]: End processing [alpaca-eval]: success
+[2023-08-04 12:34:39] INFO root fetch - processPackages [Swagger2Tests]: executing diffoscope
+[2023-08-04 12:34:39] INFO root fetch - processPackages [Swagger2Tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Swagger2Tests-1.0.3.tar.gz tmp/Swagger2Tests-1.0.4.tar.gz --markdown 20230804/S/Swagger2Tests/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-04 12:34:39] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-08-04 12:34:39] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-08-04 12:34:40] INFO root fetch - processPackages [xblock-problem-builder]: Remove: archive file [/home/abi/fetcher/tmp/xblock-problem-builder-5.1.3.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - processPackages [xblock-problem-builder]: Remove: archive file [/home/abi/fetcher/tmp/xblock-problem-builder-5.1.4.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - main [MainThread]: End processing [xblock-problem-builder]: success
+[2023-08-04 12:34:40] INFO root fetch - processPackages [zimran-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zimran-fastapi-1.1.0.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - processPackages [zimran-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zimran-fastapi-1.2.0.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - main [MainThread]: End processing [zimran-fastapi]: success
+[2023-08-04 12:34:40] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech-SupplyChain-5.0.1.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech-SupplyChain-5.1.0.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - main [MainThread]: End processing [CosmoTech-SupplyChain]: success
+[2023-08-04 12:34:40] INFO root fetch - processPackages [citrusdb]: Remove: archive file [/home/abi/fetcher/tmp/citrusdb-0.5.1.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - processPackages [citrusdb]: Remove: archive file [/home/abi/fetcher/tmp/citrusdb-0.5.2.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - main [MainThread]: End processing [citrusdb]: success
+[2023-08-04 12:34:40] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0b6.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0rc1.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - main [MainThread]: End processing [RWAPIMicroservicePython]: success
+[2023-08-04 12:34:40] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.3.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.4.tar.gz]
+[2023-08-04 12:34:40] INFO root fetch - main [MainThread]: End processing [Swagger2Tests]: success
+[2023-08-04 12:34:40] INFO root fetch - main [MainThread]: Store serial: [19172786]
