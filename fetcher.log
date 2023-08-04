@@ -12514,3 +12514,81 @@
 [2023-08-04 06:30:43] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.3.3.tar.gz]
 [2023-08-04 06:30:43] INFO root fetch - main [MainThread]: End processing [busy]: success
 [2023-08-04 06:30:43] INFO root fetch - main [MainThread]: Store serial: [19169792]
+[2023-08-04 06:35:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169792]
+[2023-08-04 06:35:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-workflows
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WignerSymbol
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intecomm-form-validators
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-requestspro
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytranskit
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AdroitFisherman
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-starter
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: danbi
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: periflow-client
+[2023-08-04 06:35:53] INFO root fetch - processPackages [robotframework-requestspro]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-04 06:35:53] INFO root fetch - processPackages [pytranskit]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-04 06:35:53] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-04 06:35:53] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 06:35:53] INFO root fetch - processPackages [WignerSymbol]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-04 06:35:53] WARNING root fetch - processPackages [AdroitFisherman]: Skipping, unable to determine old version
+[2023-08-04 06:35:53] INFO root fetch - main [MainThread]: End processing [AdroitFisherman] error
+[2023-08-04 06:35:53] INFO root fetch - processPackages [periflow-client]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-04 06:35:53] INFO root fetch - processPackages [ml-starter]: New version: [0.1.46] Old Version: [0.1.45]
+[2023-08-04 06:35:53] INFO root fetch - processPackages [robotframework-requestspro]: Downloading https://files.pythonhosted.org/packages/ab/7b/a597a01e9dddc564258128734f4585a80f72e494d8295a114f6d39dd4d25/robotframework-requestspro-1.1.8.tar.gz
+[2023-08-04 06:35:53] INFO root fetch - processPackages [np-workflows]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-04 06:35:53] INFO root fetch - processPackages [pytranskit]: Downloading https://files.pythonhosted.org/packages/40/67/16407c4b29bd0006145ae83f483469fe86ac608b1f9be491aafe188a5900/pytranskit-0.2.4.tar.gz
+[2023-08-04 06:35:53] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/2c/33/94ed03d377a20f3e01082db7227f53c6ae29f5ef273e9437de8a9af8052a/WignerSymbol-0.0.6.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/88/24/19fe4bb637d7447e5ccd48a049a837d448fb311b9bb7f8ebb732bd05bb9b/periflow_client-0.1.4.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [pytranskit]: Downloading https://files.pythonhosted.org/packages/27/47/0531077f4f542f856ac6d4b2dc856de1ef1bd7e75dbf35f59ef56002dc8d/pytranskit-0.2.5.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/e8/f8/d4b4117e222e0557ead4ca934337043ba495f9eefa9f1771a5d4651d2d8a/ml-starter-0.1.45.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [robotframework-requestspro]: Downloading https://files.pythonhosted.org/packages/57/fe/ecfac02aed45e6ef83ee4ba1ea0c77d21ab13b795bbe839f7df0d854a1f1/robotframework-requestspro-1.1.9.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [pytranskit]: executing diffoscope
+[2023-08-04 06:35:54] INFO root fetch - processPackages [pytranskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytranskit-0.2.4.tar.gz tmp/pytranskit-0.2.5.tar.gz --markdown 20230804/p/pytranskit/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-04 06:35:54] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-08-04 06:35:54] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230804/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-04 06:35:54] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [WignerSymbol]: Downloading https://files.pythonhosted.org/packages/26/99/d95dfe3c0f0258208a9e5c5506a00fddab7c9a0eff000ffd42127ec792f9/WignerSymbol-0.0.7.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [robotframework-requestspro]: executing diffoscope
+[2023-08-04 06:35:54] INFO root fetch - processPackages [robotframework-requestspro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-requestspro-1.1.8.tar.gz tmp/robotframework-requestspro-1.1.9.tar.gz --markdown 20230804/r/robotframework-requestspro/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-04 06:35:54] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/05/62/275a44dc5283e77e2458c988f7e62f66de20aec642e199ac552d65de27f3/ml-starter-0.1.46.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/22/99/1d9bd467267c7857762e4b9683759e82d21a0e8fc1b3850ae9710f4f7866/np_workflows-1.6.9.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [periflow-client]: Downloading https://files.pythonhosted.org/packages/01/d8/970d44ad12ef8df5b3b749687a842ddabf9d6958df88d98496e8214572ae/periflow_client-0.1.5.tar.gz
+[2023-08-04 06:35:54] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-08-04 06:35:54] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230804/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 06:35:54] INFO root fetch - processPackages [WignerSymbol]: executing diffoscope
+[2023-08-04 06:35:54] INFO root fetch - processPackages [WignerSymbol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WignerSymbol-0.0.6.tar.gz tmp/WignerSymbol-0.0.7.tar.gz --markdown 20230804/W/WignerSymbol/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-04 06:35:54] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-08-04 06:35:54] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.8.tar.gz tmp/np_workflows-1.6.9.tar.gz --markdown 20230804/n/np-workflows/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-04 06:35:54] INFO root fetch - processPackages [periflow-client]: executing diffoscope
+[2023-08-04 06:35:54] INFO root fetch - processPackages [periflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periflow_client-0.1.4.tar.gz tmp/periflow_client-0.1.5.tar.gz --markdown 20230804/p/periflow-client/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-04 06:35:54] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-08-04 06:35:54] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.45.tar.gz tmp/ml-starter-0.1.46.tar.gz --markdown 20230804/m/ml-starter/0.1.45-0.1.46/diff.md --exclude *.pyd
+[2023-08-04 06:35:55] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-08-04 06:35:55] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-08-04 06:35:55] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-08-04 06:35:55] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.6.tar.gz]
+[2023-08-04 06:35:55] INFO root fetch - processPackages [WignerSymbol]: Remove: archive file [/home/abi/fetcher/tmp/WignerSymbol-0.0.7.tar.gz]
+[2023-08-04 06:35:55] INFO root fetch - main [MainThread]: End processing [WignerSymbol]: success
+[2023-08-04 06:35:55] INFO root fetch - processPackages [robotframework-requestspro]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requestspro-1.1.8.tar.gz]
+[2023-08-04 06:35:55] INFO root fetch - processPackages [robotframework-requestspro]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requestspro-1.1.9.tar.gz]
+[2023-08-04 06:35:55] INFO root fetch - main [MainThread]: End processing [robotframework-requestspro]: success
+[2023-08-04 06:35:55] INFO root fetch - processPackages [pytranskit]: Remove: archive file [/home/abi/fetcher/tmp/pytranskit-0.2.4.tar.gz]
+[2023-08-04 06:35:55] INFO root fetch - processPackages [pytranskit]: Remove: archive file [/home/abi/fetcher/tmp/pytranskit-0.2.5.tar.gz]
+[2023-08-04 06:35:55] INFO root fetch - main [MainThread]: End processing [pytranskit]: success
+[2023-08-04 06:35:56] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-08-04 06:35:56] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-08-04 06:35:56] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-08-04 06:35:56] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2023-08-04 06:35:56] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
+[2023-08-04 06:35:56] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-08-04 06:35:56] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.4.tar.gz]
+[2023-08-04 06:35:56] INFO root fetch - processPackages [periflow-client]: Remove: archive file [/home/abi/fetcher/tmp/periflow_client-0.1.5.tar.gz]
+[2023-08-04 06:35:56] INFO root fetch - main [MainThread]: End processing [periflow-client]: success
+[2023-08-04 06:35:56] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.45.tar.gz]
+[2023-08-04 06:35:56] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.46.tar.gz]
+[2023-08-04 06:35:56] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-08-04 06:35:56] INFO root fetch - main [MainThread]: Store serial: [19169854]
