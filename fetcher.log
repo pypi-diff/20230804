@@ -22499,3 +22499,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-04 14:14:51] INFO root fetch - processPackages [patch-denoise]: Remove: archive file [/home/abi/fetcher/tmp/patch-denoise-1.4.1.tar.gz]
 [2023-08-04 14:14:51] INFO root fetch - main [MainThread]: End processing [patch-denoise]: success
 [2023-08-04 14:14:51] INFO root fetch - main [MainThread]: Store serial: [19174011]
+[2023-08-04 14:19:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19174011]
+[2023-08-04 14:20:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 14:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2023-08-04 14:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s
+[2023-08-04 14:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjt
+[2023-08-04 14:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dissect.cstruct
+[2023-08-04 14:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slxjsonrpc
+[2023-08-04 14:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micrOSDevToolKit
+[2023-08-04 14:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: planqk-quantum
+[2023-08-04 14:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: totolo
+[2023-08-04 14:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qudi-hira-analysis
+[2023-08-04 14:20:01] INFO root fetch - processPackages [pyjt]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-04 14:20:01] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-04 14:20:01] INFO root fetch - processPackages [slxjsonrpc]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-04 14:20:01] INFO root fetch - processPackages [qudi-hira-analysis]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-08-04 14:20:01] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.21.3] Old Version: [1.21.2]
+[2023-08-04 14:20:01] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-04 14:20:01] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-08-04 14:20:01] INFO root fetch - processPackages [dissect.cstruct]: New version: [3.9.dev3] Old Version: [3.9.dev2]
+[2023-08-04 14:20:01] INFO root fetch - processPackages [totolo]: New version: [1.1] Old Version: [1.0]
+[2023-08-04 14:20:01] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/e9/36/193a9be288567c37327834406e273fc9f109395dd58155dfbfc53810c6c1/pyjt-0.4.2.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [slxjsonrpc]: Downloading https://files.pythonhosted.org/packages/9b/ef/f466088768108048aca0c37918f16854806a046a131b40513d02fe3b2855/slxjsonrpc-0.8.1.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/68/87/22f8ec441f10ca6442ecbea8ab4fea665f7f4bfbcb9fca06e73fe7c264ff/micrOSDevToolKit-1.21.2.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/a3/c2/73376bc58cd62cae0a192760c170726bed1c10d3c56cfe2269f49407d67b/qudi_hira_analysis-1.4.9.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/ed/3b/a0f1c8c09bf6885ed6b93a16fec56a98c796f25dbc49ac2da82a6df499e3/dissect.cstruct-3.9.dev2.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/f2/17/3084490d1a1e5c55a046267e3aace1cebbc3e223024895499ee4bea0ed20/totolo-1.0.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [slxjsonrpc]: Downloading https://files.pythonhosted.org/packages/43/40/2d3c540d5a3843de7bf9b106d734818064642010c971eda7ab5a8d328eb2/slxjsonrpc-0.9.0.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/c0/69/6340f85d5463baaa0d518ce47d79cbd908d72b4341f133eb36cfd1dc9629/pyjt-0.4.3.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/36/8d/43ac80bf8ba55c9c96b0ac29ea17091549da965922239fdf3afd943c77c3/qudi_hira_analysis-1.5.0.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [pyjt]: executing diffoscope
+[2023-08-04 14:20:01] INFO root fetch - processPackages [pyjt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjt-0.4.2.tar.gz tmp/pyjt-0.4.3.tar.gz --markdown 20230804/p/pyjt/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-04 14:20:01] INFO root fetch - processPackages [slxjsonrpc]: executing diffoscope
+[2023-08-04 14:20:01] INFO root fetch - processPackages [slxjsonrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slxjsonrpc-0.8.1.tar.gz tmp/slxjsonrpc-0.9.0.tar.gz --markdown 20230804/s/slxjsonrpc/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 14:20:01] INFO root fetch - processPackages [qudi-hira-analysis]: executing diffoscope
+[2023-08-04 14:20:01] INFO root fetch - processPackages [qudi-hira-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qudi_hira_analysis-1.4.9.tar.gz tmp/qudi_hira_analysis-1.5.0.tar.gz --markdown 20230804/q/qudi-hira-analysis/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-08-04 14:20:01] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/16/27/a59d96f441aca0f08ca9b923a0c2f7c01d5ba0ad0fb10daf3a1d5280cb04/dissect.cstruct-3.9.dev3.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-08-04 14:20:01] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-08-04 14:20:02] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-08-04 14:20:02] INFO root fetch - processPackages [dissect.cstruct]: executing diffoscope
+[2023-08-04 14:20:02] INFO root fetch - processPackages [dissect.cstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.cstruct-3.9.dev2.tar.gz tmp/dissect.cstruct-3.9.dev3.tar.gz --markdown 20230804/d/dissect.cstruct/3.9.dev2-3.9.dev3/diff.md --exclude *.pyd
+[2023-08-04 14:20:02] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-08-04 14:20:02] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230804/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-08-04 14:20:02] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-08-04 14:20:02] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230804/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-04 14:20:02] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-08-04 14:20:02] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230804/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-04 14:20:02] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/96/50/49483c04704ecac90d1c838a0b355297394ca554dd4b37eae5ee86aaa229/totolo-1.1.tar.gz
+[2023-08-04 14:20:03] INFO root fetch - processPackages [slxjsonrpc]: Remove: archive file [/home/abi/fetcher/tmp/slxjsonrpc-0.8.1.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - processPackages [slxjsonrpc]: Remove: archive file [/home/abi/fetcher/tmp/slxjsonrpc-0.9.0.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - main [MainThread]: End processing [slxjsonrpc]: success
+[2023-08-04 14:20:03] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.4.2.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.4.3.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - main [MainThread]: End processing [pyjt]: success
+[2023-08-04 14:20:03] INFO root fetch - processPackages [totolo]: executing diffoscope
+[2023-08-04 14:20:03] INFO root fetch - processPackages [totolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totolo-1.0.tar.gz tmp/totolo-1.1.tar.gz --markdown 20230804/t/totolo/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-04 14:20:03] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/92/07/02e0541493c4ae6d555097debef9f30274cc3b8ac4bdd8db40d6e0ccef08/micrOSDevToolKit-1.21.3.tar.gz
+[2023-08-04 14:20:03] INFO root fetch - processPackages [qudi-hira-analysis]: Remove: archive file [/home/abi/fetcher/tmp/qudi_hira_analysis-1.4.9.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - processPackages [qudi-hira-analysis]: Remove: archive file [/home/abi/fetcher/tmp/qudi_hira_analysis-1.5.0.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - main [MainThread]: End processing [qudi-hira-analysis]: success
+[2023-08-04 14:20:03] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-08-04 14:20:03] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-08-04 14:20:03] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-08-04 14:20:03] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cstruct-3.9.dev2.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cstruct-3.9.dev3.tar.gz]
+[2023-08-04 14:20:03] INFO root fetch - main [MainThread]: End processing [dissect.cstruct]: success
+[2023-08-04 14:20:04] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-1.0.tar.gz]
+[2023-08-04 14:20:04] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-1.1.tar.gz]
+[2023-08-04 14:20:04] INFO root fetch - main [MainThread]: End processing [totolo]: success
+[2023-08-04 14:20:04] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-08-04 14:20:04] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.21.2.tar.gz tmp/micrOSDevToolKit-1.21.3.tar.gz --markdown 20230804/m/micrOSDevToolKit/1.21.2-1.21.3/diff.md --exclude *.pyd
+[2023-08-04 14:20:06] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.21.2.tar.gz]
+[2023-08-04 14:20:06] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.21.3.tar.gz]
+[2023-08-04 14:20:06] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-08-04 14:20:06] INFO root fetch - main [MainThread]: Store serial: [19174038]
