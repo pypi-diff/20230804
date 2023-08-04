@@ -18841,3 +18841,65 @@
 [2023-08-04 12:24:11] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.2.9.tar.gz]
 [2023-08-04 12:24:11] INFO root fetch - main [MainThread]: End processing [danling]: success
 [2023-08-04 12:24:11] INFO root fetch - main [MainThread]: Store serial: [19172607]
+[2023-08-04 12:29:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172607]
+[2023-08-04 12:29:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 12:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wkbparse
+[2023-08-04 12:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GenIce2
+[2023-08-04 12:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cafaeval
+[2023-08-04 12:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrestoolbox
+[2023-08-04 12:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonomy
+[2023-08-04 12:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Swagger2Tests
+[2023-08-04 12:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metacluster
+[2023-08-04 12:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vehicle-lang
+[2023-08-04 12:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-autofixture-squad
+[2023-08-04 12:29:20] INFO root fetch - processPackages [GenIce2]: New version: [2.1b4] Old Version: [2.1b3]
+[2023-08-04 12:29:20] INFO root fetch - processPackages [Swagger2Tests]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-04 12:29:20] INFO root fetch - processPackages [django-autofixture-squad]: New version: [0.12.5] Old Version: [0.12.4]
+[2023-08-04 12:29:20] WARNING root fetch - processPackages [jsonomy]: Skipping, unable to determine old version
+[2023-08-04 12:29:20] INFO root fetch - main [MainThread]: End processing [jsonomy] error
+[2023-08-04 12:29:20] WARNING root fetch - processPackages [wkbparse]: Skipping, unable to determine old version
+[2023-08-04 12:29:20] INFO root fetch - main [MainThread]: End processing [wkbparse] error
+[2023-08-04 12:29:20] INFO root fetch - processPackages [django-autofixture-squad]: Downloading https://files.pythonhosted.org/packages/f5/2f/3cab7e34e44adf98a08b5f925f3b66c34b63ea6e3b004000e29aa798039f/django-autofixture-squad-0.12.4.tar.gz
+[2023-08-04 12:29:20] INFO root fetch - processPackages [GenIce2]: Downloading https://files.pythonhosted.org/packages/98/13/a8dbe8a6f1833e50e45668fd6677882903fc6a64740b22b5b9f4eac71804/GenIce2-2.1b3.tar.gz
+[2023-08-04 12:29:20] INFO root fetch - processPackages [metacluster]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-04 12:29:20] INFO root fetch - processPackages [pyrestoolbox]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-04 12:29:20] WARNING root fetch - processPackages [cafaeval]: Skipping, unable to determine old version
+[2023-08-04 12:29:20] INFO root fetch - main [MainThread]: End processing [cafaeval] error
+[2023-08-04 12:29:20] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/4f/ba/5c48ec444b30a62fbd8a4c972d3a3b0349b0b188b2b5391e0e8b3ce95b85/Swagger2Tests-1.0.1.tar.gz
+[2023-08-04 12:29:21] INFO root fetch - processPackages [vehicle-lang]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-04 12:29:21] INFO root fetch - processPackages [metacluster]: Downloading https://files.pythonhosted.org/packages/e7/ef/c313400b0528915f92dd4456e5edcb9764f2b2f5570f4cb3189c00bd852b/metacluster-0.1.0.tar.gz
+[2023-08-04 12:29:21] INFO root fetch - processPackages [pyrestoolbox]: Downloading https://files.pythonhosted.org/packages/bc/d9/b00d2f67d1f122671e45137e059a05a704a9516fa50ac510444ff81f2695/pyrestoolbox-1.4.0.tar.gz
+[2023-08-04 12:29:21] INFO root fetch - processPackages [GenIce2]: Downloading https://files.pythonhosted.org/packages/b5/dd/12db58d45107dd9d9b3b6d977657bbceabcce6135e48aff601be247fcc05/GenIce2-2.1b4.tar.gz
+[2023-08-04 12:29:21] INFO root fetch - processPackages [django-autofixture-squad]: Downloading https://files.pythonhosted.org/packages/9b/a8/643081f70933a63b26837c338434d08deff76046d18763fe00ecf625e4e6/django-autofixture-squad-0.12.5.tar.gz
+[2023-08-04 12:29:21] INFO root fetch - processPackages [vehicle-lang]: Downloading https://files.pythonhosted.org/packages/c2/1b/52b636efacd4e6afd6c6236685895ca935bfd2a35997f052ec125a95e762/vehicle_lang-0.8.0-cp39-cp39-win_amd64.whl
+[2023-08-04 12:29:21] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/22/c5/e65dae07bcba20be9b463cc9267cbd3631cced4a4ed11b53d7bf6c864385/Swagger2Tests-1.0.2.tar.gz
+[2023-08-04 12:29:21] INFO root fetch - processPackages [django-autofixture-squad]: executing diffoscope
+[2023-08-04 12:29:21] INFO root fetch - processPackages [django-autofixture-squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autofixture-squad-0.12.4.tar.gz tmp/django-autofixture-squad-0.12.5.tar.gz --markdown 20230804/d/django-autofixture-squad/0.12.4-0.12.5/diff.md --exclude *.pyd
+[2023-08-04 12:29:21] INFO root fetch - processPackages [GenIce2]: executing diffoscope
+[2023-08-04 12:29:21] INFO root fetch - processPackages [GenIce2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenIce2-2.1b3.tar.gz tmp/GenIce2-2.1b4.tar.gz --markdown 20230804/G/GenIce2/2.1b3-2.1b4/diff.md --exclude *.pyd
+[2023-08-04 12:29:21] INFO root fetch - processPackages [Swagger2Tests]: executing diffoscope
+[2023-08-04 12:29:21] INFO root fetch - processPackages [Swagger2Tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Swagger2Tests-1.0.1.tar.gz tmp/Swagger2Tests-1.0.2.tar.gz --markdown 20230804/S/Swagger2Tests/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-04 12:29:21] INFO root fetch - processPackages [pyrestoolbox]: Downloading https://files.pythonhosted.org/packages/7e/6d/5d9da12ca7a3441ce8908dbb7d6ccdaeb8723ec4c3d1ec8bb298a690381a/pyrestoolbox-1.4.1.tar.gz
+[2023-08-04 12:29:21] WARNING root fetch - processPackages [vehicle-lang]: Skipping package: exceeds size limit 12112368>=10485760
+[2023-08-04 12:29:21] INFO root fetch - main [MainThread]: End processing [vehicle-lang] error
+[2023-08-04 12:29:21] INFO root fetch - processPackages [pyrestoolbox]: executing diffoscope
+[2023-08-04 12:29:21] INFO root fetch - processPackages [pyrestoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestoolbox-1.4.0.tar.gz tmp/pyrestoolbox-1.4.1.tar.gz --markdown 20230804/p/pyrestoolbox/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-04 12:29:21] INFO root fetch - processPackages [metacluster]: Downloading https://files.pythonhosted.org/packages/84/5b/d50402e37e543c8bea8033a01c47cfd5ad00dfc228b00e4f9879c3df6871/metacluster-0.2.0.tar.gz
+[2023-08-04 12:29:21] INFO root fetch - processPackages [metacluster]: executing diffoscope
+[2023-08-04 12:29:21] INFO root fetch - processPackages [metacluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metacluster-0.1.0.tar.gz tmp/metacluster-0.2.0.tar.gz --markdown 20230804/m/metacluster/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 12:29:22] INFO root fetch - processPackages [django-autofixture-squad]: Remove: archive file [/home/abi/fetcher/tmp/django-autofixture-squad-0.12.4.tar.gz]
+[2023-08-04 12:29:22] INFO root fetch - processPackages [django-autofixture-squad]: Remove: archive file [/home/abi/fetcher/tmp/django-autofixture-squad-0.12.5.tar.gz]
+[2023-08-04 12:29:22] INFO root fetch - main [MainThread]: End processing [django-autofixture-squad]: success
+[2023-08-04 12:29:22] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.1.tar.gz]
+[2023-08-04 12:29:22] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.2.tar.gz]
+[2023-08-04 12:29:22] INFO root fetch - main [MainThread]: End processing [Swagger2Tests]: success
+[2023-08-04 12:29:22] INFO root fetch - processPackages [pyrestoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyrestoolbox-1.4.0.tar.gz]
+[2023-08-04 12:29:22] INFO root fetch - processPackages [pyrestoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyrestoolbox-1.4.1.tar.gz]
+[2023-08-04 12:29:22] INFO root fetch - main [MainThread]: End processing [pyrestoolbox]: success
+[2023-08-04 12:29:23] INFO root fetch - processPackages [GenIce2]: Remove: archive file [/home/abi/fetcher/tmp/GenIce2-2.1b3.tar.gz]
+[2023-08-04 12:29:23] INFO root fetch - processPackages [GenIce2]: Remove: archive file [/home/abi/fetcher/tmp/GenIce2-2.1b4.tar.gz]
+[2023-08-04 12:29:23] INFO root fetch - main [MainThread]: End processing [GenIce2]: success
+[2023-08-04 12:29:23] INFO root fetch - processPackages [metacluster]: Remove: archive file [/home/abi/fetcher/tmp/metacluster-0.1.0.tar.gz]
+[2023-08-04 12:29:23] INFO root fetch - processPackages [metacluster]: Remove: archive file [/home/abi/fetcher/tmp/metacluster-0.2.0.tar.gz]
+[2023-08-04 12:29:23] INFO root fetch - main [MainThread]: End processing [metacluster]: success
+[2023-08-04 12:29:23] INFO root fetch - main [MainThread]: Store serial: [19172724]
