@@ -10745,3 +10745,95 @@
 [2023-08-04 04:50:55] INFO root fetch - processPackages [roapipy]: Remove: archive file [/home/abi/fetcher/tmp/roapipy-1.0.9.tar.gz]
 [2023-08-04 04:50:55] INFO root fetch - main [MainThread]: End processing [roapipy]: success
 [2023-08-04 04:50:55] INFO root fetch - main [MainThread]: Store serial: [19169065]
+[2023-08-04 04:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169065]
+[2023-08-04 04:56:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiling
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gdpy
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ciohoudini
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: varman
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webint-live
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-move-base-import
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pynacos-test
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psychoanalyze
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo10-addon-account-payment-order
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-account-payment-order
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ciohoudini]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-08-04 04:56:04] WARNING root fetch - processPackages [pynacos-test]: Skipping, unable to determine old version
+[2023-08-04 04:56:04] INFO root fetch - processPackages [pynacos-test]: Start processing: core-universal
+[2023-08-04 04:56:04] INFO root fetch - main [MainThread]: End processing [pynacos-test] error
+[2023-08-04 04:56:04] INFO root fetch - processPackages [ciohoudini]: Downloading https://files.pythonhosted.org/packages/0a/65/7be155f1535eb16c76426d8b6f8f4d858d919a1670f737433bffc4c72735/ciohoudini-0.7.3-py2.py3-none-any.whl
+[2023-08-04 04:56:04] INFO root fetch - processPackages [gdpy]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-08-04 04:56:04] INFO root fetch - processPackages [qiling]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-08-04 04:56:04] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: New version: [10.0.1.7.0.99.dev9] Old Version: [10.0.1.7.0.99.dev8]
+[2023-08-04 04:56:04] INFO root fetch - processPackages [varman]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-08-04 04:56:04] INFO root fetch - processPackages [webint-live]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 04:56:04] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-08-04 04:56:04] INFO root fetch - processPackages [psychoanalyze]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-08-04 04:56:04] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: New version: [14.0.2.0.5.dev1] Old Version: [14.0.2.0.4.dev5]
+[2023-08-04 04:56:05] INFO root fetch - processPackages [core-universal]: New version: [3.6.6] Old Version: [3.6.4]
+[2023-08-04 04:56:05] INFO root fetch - processPackages [ciohoudini]: Downloading https://files.pythonhosted.org/packages/b0/c1/1e28a91b429064145cb69005d6c6cb4485472d46f2dab702cb937e69fb7a/ciohoudini-0.7.4-py2.py3-none-any.whl
+[2023-08-04 04:56:05] INFO root fetch - processPackages [webint-live]: Downloading https://files.pythonhosted.org/packages/0b/19/d5a77707596aff5f4baf92dbf56f233f02c3773923a99384e56e2d736cd0/webint_live-0.0.8.tar.gz
+[2023-08-04 04:56:05] INFO root fetch - processPackages [gdpy]: Downloading https://files.pythonhosted.org/packages/f0/10/52858b54e95b021479b24287aae23174de949843caf7319a7e629ee61e22/gdpy-0.1.7.tar.gz
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/1b/d7/3147e0176554574d82d1cd5c3bec416d9ec5cea72e538cfa033a8d87ff96/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev8-py2-none-any.whl
+[2023-08-04 04:56:05] INFO root fetch - processPackages [varman]: Downloading https://files.pythonhosted.org/packages/ed/4a/f5e1408160356843aaf17967d5a9b6e1b90f4fa3ca48a59daa602cabe949/varman-0.0.5.tar.gz
+[2023-08-04 04:56:05] INFO root fetch - processPackages [qiling]: Downloading https://files.pythonhosted.org/packages/10/49/7b8aec99bf42b315ac6e75e31898e088478fd1c8cbd29fb52a90f5ee5c33/qiling-1.4.5.tar.gz
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/16/5f/7892802482d8e877d138b9f12c20c189f2ba65c08d8245d9490873f91996/odoo14_addon_account_payment_order-14.0.2.0.4.dev5-py3-none-any.whl
+[2023-08-04 04:56:05] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/88/06/9919300e5bfcb130bbb30f098c737185ad85edde0c60346277fa567487fe/psychoanalyze-0.8.5.tar.gz
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/e9/0c/718c37d0c94ecbe2a810b92e8abc73eddb459f1faff2958fbcaf12449d61/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl
+[2023-08-04 04:56:05] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/34/a3/f4b4e0f790f780b2ef43f1fb415418a09f9708824f1dfdeabc0aef368f1b/core_universal-3.6.4-py2.py3-none-win_amd64.whl
+[2023-08-04 04:56:05] INFO root fetch - processPackages [ciohoudini]: executing diffoscope
+[2023-08-04 04:56:05] INFO root fetch - processPackages [ciohoudini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciohoudini-0.7.3-py2.py3-none-any.whl.zip tmp/ciohoudini-0.7.4-py2.py3-none-any.whl.zip --markdown 20230804/c/ciohoudini/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-08-04 04:56:05] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 24880876>=10485760
+[2023-08-04 04:56:05] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2023-08-04 04:56:05] INFO root fetch - processPackages [webint-live]: Downloading https://files.pythonhosted.org/packages/20/9a/f65def255dae7b73a23ef5acd66eb77b88d274db4ad514bc29195693bb72/webint_live-0.0.9.tar.gz
+[2023-08-04 04:56:05] INFO root fetch - processPackages [varman]: Downloading https://files.pythonhosted.org/packages/66/ca/447b67b6c624472c8727207475c314094f4d44f7f2bea03d6a14cf650fe6/varman-0.1.0.tar.gz
+[2023-08-04 04:56:05] INFO root fetch - processPackages [gdpy]: Downloading https://files.pythonhosted.org/packages/1a/bf/1f955851799475252405e1a13a46d58748bc1209994aa49dba080297f6aa/gdpy-0.1.9-py2.py3-none-any.whl
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/c7/1f/2c4cd529463187f4f2aa631aa1069a756ad997d3652220d14f5fb8572b17/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev9-py2-none-any.whl
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/a1/4f/7f682abc0368d7e3e453f0423eef57cfc223bfb0cd5a2c2b2228b641389b/odoo14_addon_account_payment_order-14.0.2.0.5.dev1-py3-none-any.whl
+[2023-08-04 04:56:05] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/4e/43/ff730fa764d123df68373af8a98d57a823bec72756f85b2c0aecbf46add7/psychoanalyze-0.8.6.tar.gz
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/4a/69/5efcd2e48f11ff30e7f159eb7bee37b1717bf7a8622c39acf7a474711650/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl
+[2023-08-04 04:56:05] INFO root fetch - processPackages [webint-live]: executing diffoscope
+[2023-08-04 04:56:05] INFO root fetch - processPackages [webint-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_live-0.0.8.tar.gz tmp/webint_live-0.0.9.tar.gz --markdown 20230804/w/webint-live/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 04:56:05] INFO root fetch - processPackages [gdpy]: executing diffoscope
+[2023-08-04 04:56:05] INFO root fetch - processPackages [gdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdpy-0.1.7.tar.gz tmp/gdpy-0.1.9-py2.py3-none-any.whl.zip --markdown 20230804/g/gdpy/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 04:56:05] INFO root fetch - processPackages [varman]: executing diffoscope
+[2023-08-04 04:56:05] INFO root fetch - processPackages [varman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varman-0.0.5.tar.gz tmp/varman-0.1.0.tar.gz --markdown 20230804/v/varman/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: executing diffoscope
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_order-14.0.2.0.4.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_order-14.0.2.0.5.dev1-py3-none-any.whl.zip --markdown 20230804/o/odoo14-addon-account-payment-order/14.0.2.0.4.dev5-14.0.2.0.5.dev1/diff.md --exclude *.pyd
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: executing diffoscope
+[2023-08-04 04:56:05] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev9-py2-none-any.whl.zip --markdown 20230804/o/odoo10-addon-account-payment-order/10.0.1.7.0.99.dev8-10.0.1.7.0.99.dev9/diff.md --exclude *.pyd
+[2023-08-04 04:56:05] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-08-04 04:56:05] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.8.5.tar.gz tmp/psychoanalyze-0.8.6.tar.gz --markdown 20230804/p/psychoanalyze/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-08-04 04:56:06] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: executing diffoscope
+[2023-08-04 04:56:06] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230804/o/odoo-addon-account-move-base-import/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-08-04 04:56:06] INFO root fetch - processPackages [qiling]: Downloading https://files.pythonhosted.org/packages/c3/8c/21a31dd90d89bfd183a1cd554ad718d611f9f6aa95c503cdb9b7f915444f/qiling-1.4.6.tar.gz
+[2023-08-04 04:56:06] INFO root fetch - processPackages [ciohoudini]: Remove: archive file [/home/abi/fetcher/tmp/ciohoudini-0.7.3-py2.py3-none-any.whl.zip]
+[2023-08-04 04:56:06] INFO root fetch - processPackages [ciohoudini]: Remove: archive file [/home/abi/fetcher/tmp/ciohoudini-0.7.4-py2.py3-none-any.whl.zip]
+[2023-08-04 04:56:06] INFO root fetch - main [MainThread]: End processing [ciohoudini]: success
+[2023-08-04 04:56:06] INFO root fetch - processPackages [qiling]: executing diffoscope
+[2023-08-04 04:56:06] INFO root fetch - processPackages [qiling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiling-1.4.5.tar.gz tmp/qiling-1.4.6.tar.gz --markdown 20230804/q/qiling/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-08-04 04:56:07] INFO root fetch - processPackages [gdpy]: Remove: archive file [/home/abi/fetcher/tmp/gdpy-0.1.7.tar.gz]
+[2023-08-04 04:56:07] INFO root fetch - processPackages [gdpy]: Remove: archive file [/home/abi/fetcher/tmp/gdpy-0.1.9-py2.py3-none-any.whl.zip]
+[2023-08-04 04:56:07] INFO root fetch - main [MainThread]: End processing [gdpy]: success
+[2023-08-04 04:56:07] INFO root fetch - processPackages [webint-live]: Remove: archive file [/home/abi/fetcher/tmp/webint_live-0.0.8.tar.gz]
+[2023-08-04 04:56:07] INFO root fetch - processPackages [webint-live]: Remove: archive file [/home/abi/fetcher/tmp/webint_live-0.0.9.tar.gz]
+[2023-08-04 04:56:07] INFO root fetch - main [MainThread]: End processing [webint-live]: success
+[2023-08-04 04:56:07] INFO root fetch - processPackages [varman]: Remove: archive file [/home/abi/fetcher/tmp/varman-0.0.5.tar.gz]
+[2023-08-04 04:56:07] INFO root fetch - processPackages [varman]: Remove: archive file [/home/abi/fetcher/tmp/varman-0.1.0.tar.gz]
+[2023-08-04 04:56:07] INFO root fetch - main [MainThread]: End processing [varman]: success
+[2023-08-04 04:56:07] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.5.tar.gz]
+[2023-08-04 04:56:07] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.6.tar.gz]
+[2023-08-04 04:56:07] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-08-04 04:56:07] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_order-14.0.2.0.4.dev5-py3-none-any.whl.zip]
+[2023-08-04 04:56:07] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_order-14.0.2.0.5.dev1-py3-none-any.whl.zip]
+[2023-08-04 04:56:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
+[2023-08-04 04:56:07] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-08-04 04:56:07] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-08-04 04:56:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-base-import]: success
+[2023-08-04 04:56:07] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev8-py2-none-any.whl.zip]
+[2023-08-04 04:56:07] INFO root fetch - processPackages [odoo10-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_account_payment_order-10.0.1.7.0.99.dev9-py2-none-any.whl.zip]
+[2023-08-04 04:56:07] INFO root fetch - main [MainThread]: End processing [odoo10-addon-account-payment-order]: success
+[2023-08-04 04:56:11] INFO root fetch - processPackages [qiling]: Remove: archive file [/home/abi/fetcher/tmp/qiling-1.4.5.tar.gz]
+[2023-08-04 04:56:11] INFO root fetch - processPackages [qiling]: Remove: archive file [/home/abi/fetcher/tmp/qiling-1.4.6.tar.gz]
+[2023-08-04 04:56:11] INFO root fetch - main [MainThread]: End processing [qiling]: success
+[2023-08-04 04:56:11] INFO root fetch - main [MainThread]: Store serial: [19169098]
