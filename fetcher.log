@@ -12890,3 +12890,81 @@
 [2023-08-04 06:56:47] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2023-08-04 06:56:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
 [2023-08-04 06:56:47] INFO root fetch - main [MainThread]: Store serial: [19169959]
+[2023-08-04 07:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169959]
+[2023-08-04 07:01:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 07:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: borgmatic
+[2023-08-04 07:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-procurement-batch-generator
+[2023-08-04 07:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fileformats
+[2023-08-04 07:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-request
+[2023-08-04 07:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AdroitFisherman
+[2023-08-04 07:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oloren
+[2023-08-04 07:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tpdk
+[2023-08-04 07:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jsonargparse
+[2023-08-04 07:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: busy
+[2023-08-04 07:01:56] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-08-04 07:01:56] WARNING root fetch - processPackages [AdroitFisherman]: Skipping, unable to determine old version
+[2023-08-04 07:01:56] INFO root fetch - main [MainThread]: End processing [AdroitFisherman] error
+[2023-08-04 07:01:56] INFO root fetch - processPackages [busy]: New version: [5.3.3] Old Version: [5.3.2]
+[2023-08-04 07:01:56] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 07:01:56] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/8e/89/c33368b2f4ded99972244364d8910251fb06ce52c594020efc1973045a9c/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl
+[2023-08-04 07:01:56] INFO root fetch - processPackages [tpdk]: New version: [2.0.9] Old Version: [2.0.7]
+[2023-08-04 07:01:56] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-08-04 07:01:56] INFO root fetch - processPackages [fileformats]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-08-04 07:01:56] INFO root fetch - processPackages [borgmatic]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-04 07:01:56] INFO root fetch - processPackages [jsonargparse]: New version: [4.9.0] Old Version: [4.8.0.dev2]
+[2023-08-04 07:01:56] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/67/bd/27cc0a504be5575f807c46087d79fcefc672b242dc0bae9bb83911765909/busy-5.3.2.tar.gz
+[2023-08-04 07:01:56] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-08-04 07:01:56] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: Downloading https://files.pythonhosted.org/packages/a5/cc/544c0ec42bc813b8404e89f6c47bbd2a211e1674daf06f34fdf958aec9da/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-08-04 07:01:56] INFO root fetch - processPackages [tpdk]: Downloading https://files.pythonhosted.org/packages/70/81/e121b7b38740d11be47e153d625331a22c721d2d82ae35770d7e740c3bae/tpdk-2.0.7.tar.gz
+[2023-08-04 07:01:56] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/be/69/677d28976232396cf302f48b136c14e0b3af3fc91573002d2370e45f4c39/fileformats-0.8.4.tar.gz
+[2023-08-04 07:01:56] INFO root fetch - processPackages [borgmatic]: Downloading https://files.pythonhosted.org/packages/bd/47/70038b678e12181a28959d3ca3a7f3dcacb0b01da217550ab710a453e34d/borgmatic-1.8.0.tar.gz
+[2023-08-04 07:01:56] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/0d/d1/4e43b9e658f256b20633846c736938767c0d80a2abd356e00d6d293485e7/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl
+[2023-08-04 07:01:57] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/16/9b/6278a964472d726663deec1a73e681b459dd3cf253683239e2ed27c01622/jsonargparse-4.8.0.dev2.tar.gz
+[2023-08-04 07:01:57] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/38/c0/486ddabb1309c043a3abd635d5518f15dad2a913e6d98707b265b28e4b78/busy-5.3.3.tar.gz
+[2023-08-04 07:01:57] INFO root fetch - processPackages [busy]: executing diffoscope
+[2023-08-04 07:01:57] INFO root fetch - processPackages [busy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busy-5.3.2.tar.gz tmp/busy-5.3.3.tar.gz --markdown 20230804/b/busy/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2023-08-04 07:01:57] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-08-04 07:01:57] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-08-04 07:01:57] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230804/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-08-04 07:01:57] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: Downloading https://files.pythonhosted.org/packages/d9/ac/7c3253da312d169209b0025252508294bda9147860d8ddcde08b3fdf7359/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-08-04 07:01:57] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/54/a5/dbd6d9018d3ce56bb87aab9d3d6d43213dbaff523d92e797e7dab286cc2c/fileformats-0.8.5.tar.gz
+[2023-08-04 07:01:57] INFO root fetch - processPackages [tpdk]: Downloading https://files.pythonhosted.org/packages/a6/ea/e5f1d3db107392073f50b557171431872542a0656435ed8faa0d93c45a29/tpdk-2.0.9.tar.gz
+[2023-08-04 07:01:57] INFO root fetch - processPackages [borgmatic]: Downloading https://files.pythonhosted.org/packages/bd/6f/10307178af97bfa4473f07303b03b53002e6d37336cc5618253849894628/borgmatic-1.8.1.tar.gz
+[2023-08-04 07:01:57] INFO root fetch - processPackages [jsonargparse]: Downloading https://files.pythonhosted.org/packages/4b/46/493ba47ed28265c51702c94daf00111d2b5a5ade193250ac089165563e58/jsonargparse-4.9.0.tar.gz
+[2023-08-04 07:01:57] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2023-08-04 07:01:57] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.8.4.tar.gz tmp/fileformats-0.8.5.tar.gz --markdown 20230804/f/fileformats/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-08-04 07:01:57] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: executing diffoscope
+[2023-08-04 07:01:57] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230804/o/odoo14-addon-procurement-batch-generator/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-08-04 07:01:57] INFO root fetch - processPackages [borgmatic]: executing diffoscope
+[2023-08-04 07:01:57] INFO root fetch - processPackages [borgmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borgmatic-1.8.0.tar.gz tmp/borgmatic-1.8.1.tar.gz --markdown 20230804/b/borgmatic/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-04 07:01:57] INFO root fetch - processPackages [tpdk]: executing diffoscope
+[2023-08-04 07:01:57] INFO root fetch - processPackages [tpdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpdk-2.0.7.tar.gz tmp/tpdk-2.0.9.tar.gz --markdown 20230804/t/tpdk/2.0.7-2.0.9/diff.md --exclude *.pyd
+[2023-08-04 07:01:58] INFO root fetch - processPackages [jsonargparse]: executing diffoscope
+[2023-08-04 07:01:58] INFO root fetch - processPackages [jsonargparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonargparse-4.8.0.dev2.tar.gz tmp/jsonargparse-4.9.0.tar.gz --markdown 20230804/j/jsonargparse/4.8.0.dev2-4.9.0/diff.md --exclude *.pyd
+[2023-08-04 07:01:58] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-08-04 07:01:58] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230804/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 07:01:58] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.3.2.tar.gz]
+[2023-08-04 07:01:58] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.3.3.tar.gz]
+[2023-08-04 07:01:58] INFO root fetch - main [MainThread]: End processing [busy]: success
+[2023-08-04 07:01:59] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.8.4.tar.gz]
+[2023-08-04 07:01:59] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.8.5.tar.gz]
+[2023-08-04 07:01:59] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2023-08-04 07:01:59] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-08-04 07:01:59] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-08-04 07:01:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-08-04 07:01:59] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-08-04 07:01:59] INFO root fetch - processPackages [odoo14-addon-procurement-batch-generator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_procurement_batch_generator-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-08-04 07:01:59] INFO root fetch - main [MainThread]: End processing [odoo14-addon-procurement-batch-generator]: success
+[2023-08-04 07:01:59] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.8.0.dev2.tar.gz]
+[2023-08-04 07:01:59] INFO root fetch - processPackages [jsonargparse]: Remove: archive file [/home/abi/fetcher/tmp/jsonargparse-4.9.0.tar.gz]
+[2023-08-04 07:01:59] INFO root fetch - main [MainThread]: End processing [jsonargparse]: success
+[2023-08-04 07:02:00] INFO root fetch - processPackages [borgmatic]: Remove: archive file [/home/abi/fetcher/tmp/borgmatic-1.8.0.tar.gz]
+[2023-08-04 07:02:00] INFO root fetch - processPackages [borgmatic]: Remove: archive file [/home/abi/fetcher/tmp/borgmatic-1.8.1.tar.gz]
+[2023-08-04 07:02:00] INFO root fetch - main [MainThread]: End processing [borgmatic]: success
+[2023-08-04 07:02:00] INFO root fetch - processPackages [tpdk]: Remove: archive file [/home/abi/fetcher/tmp/tpdk-2.0.7.tar.gz]
+[2023-08-04 07:02:00] INFO root fetch - processPackages [tpdk]: Remove: archive file [/home/abi/fetcher/tmp/tpdk-2.0.9.tar.gz]
+[2023-08-04 07:02:00] INFO root fetch - main [MainThread]: End processing [tpdk]: success
+[2023-08-04 07:02:02] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-08-04 07:02:02] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-08-04 07:02:02] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-08-04 07:02:02] INFO root fetch - main [MainThread]: Store serial: [19169984]
