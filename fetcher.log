@@ -12828,3 +12828,65 @@
 [2023-08-04 06:51:35] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
 [2023-08-04 06:51:35] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-08-04 06:51:35] INFO root fetch - main [MainThread]: Store serial: [19169942]
+[2023-08-04 06:56:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169942]
+[2023-08-04 06:56:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-04 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-aws
+[2023-08-04 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-awsx
+[2023-08-04 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-purchase-request
+[2023-08-04 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-purchase-request
+[2023-08-04 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-purchase-request
+[2023-08-04 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cabinet
+[2023-08-04 06:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-purchase-request
+[2023-08-04 06:56:44] INFO root fetch - processPackages [pulumi-awsx]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-04 06:56:44] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/22/54/076af0e5d0b6ffde29af3abe2bab657b240779ce0cb71b26ebb5c1b7a31d/pulumi_awsx-1.0.2.tar.gz
+[2023-08-04 06:56:44] INFO root fetch - processPackages [odoo14-addon-purchase-request]: New version: [14.0.2.1.2.dev9] Old Version: [14.0.2.1.2.dev8]
+[2023-08-04 06:56:44] INFO root fetch - processPackages [cabinet]: New version: [2023.8.3.1] Old Version: [2023.7.2.1]
+[2023-08-04 06:56:44] INFO root fetch - processPackages [odoo13-addon-purchase-request]: New version: [13.0.4.3.1.dev9] Old Version: [13.0.4.3.1.dev7]
+[2023-08-04 06:56:44] INFO root fetch - processPackages [odoo12-addon-purchase-request]: New version: [12.0.5.3.1.99.dev9] Old Version: [12.0.5.3.1.99.dev8]
+[2023-08-04 06:56:44] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-08-04 06:56:44] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-08-04 06:56:44] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/a3/98/b5ed6e6c3925279a19db1d0ccd1b2a7e28b45741856a7ebd470bc9064450/pulumi_awsx-1.0.3.tar.gz
+[2023-08-04 06:56:44] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/f4/9c/cd3d6167a7e7b45057ed5d539a4fe7ffb2aeceb968ec7a3bc0b8912e7f05/cabinet-2023.7.2.1.tar.gz
+[2023-08-04 06:56:44] INFO root fetch - processPackages [odoo14-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/10/23/fc96268277cc4f0ea2e7a6189ae9657360919e93f5b2c13e4cd9e7888ea2/odoo14_addon_purchase_request-14.0.2.1.2.dev8-py3-none-any.whl
+[2023-08-04 06:56:44] INFO root fetch - processPackages [cdktf-cdktf-provider-aws]: Downloading https://files.pythonhosted.org/packages/aa/2e/834bb9d56f903b34743b3b8d5766864ad4e2a039b6c88e65b6d835c946e4/cdktf-cdktf-provider-aws-9.0.8.tar.gz
+[2023-08-04 06:56:44] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2023-08-04 06:56:44] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-1.0.2.tar.gz tmp/pulumi_awsx-1.0.3.tar.gz --markdown 20230804/p/pulumi-awsx/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/8e/89/c33368b2f4ded99972244364d8910251fb06ce52c594020efc1973045a9c/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/e8/d9/abd7242c7e6a2a6028581dd577cabb7eb48eb9682f10b368f5fe84dfd8d9/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo13-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/31/3d/2ef21782ad94f8f377ffb18e19fe23b1cd34cb3fdc23d599769c20e19688/odoo13_addon_purchase_request-13.0.4.3.1.dev7-py3-none-any.whl
+[2023-08-04 06:56:45] WARNING root fetch - processPackages [cdktf-cdktf-provider-aws]: Skipping package: exceeds size limit 23814479>=10485760
+[2023-08-04 06:56:45] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-aws] error
+[2023-08-04 06:56:45] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/d5/5d/0845358dc72a230f17d8274d03a5a5a39ff8547a10a49d5b34f96367b1a2/cabinet-2023.8.3.1.tar.gz
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo14-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/c2/d6/2b731473f3c86e6b7e6095f848c7c04fe479962bb1e01d761e24d24a7fba/odoo14_addon_purchase_request-14.0.2.1.2.dev9-py3-none-any.whl
+[2023-08-04 06:56:45] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-08-04 06:56:45] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.7.2.1.tar.gz tmp/cabinet-2023.8.3.1.tar.gz --markdown 20230804/c/cabinet/2023.7.2.1-2023.8.3.1/diff.md --exclude *.pyd
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo13-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/9d/9d/2b4348dad0180400f8763fcd0fbed4fd5f9c75c6db98470e0a2167bd6d55/odoo13_addon_purchase_request-13.0.4.3.1.dev9-py3-none-any.whl
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/f5/48/6e22a348e37f58f638a45b4b54cd20f78e391f87be769fe36f28c939593f/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/0d/d1/4e43b9e658f256b20633846c736938767c0d80a2abd356e00d6d293485e7/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo14-addon-purchase-request]: executing diffoscope
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo14-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_request-14.0.2.1.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_purchase_request-14.0.2.1.2.dev9-py3-none-any.whl.zip --markdown 20230804/o/odoo14-addon-purchase-request/14.0.2.1.2.dev8-14.0.2.1.2.dev9/diff.md --exclude *.pyd
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo13-addon-purchase-request]: executing diffoscope
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo13-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev9-py3-none-any.whl.zip --markdown 20230804/o/odoo13-addon-purchase-request/13.0.4.3.1.dev7-13.0.4.3.1.dev9/diff.md --exclude *.pyd
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo12-addon-purchase-request]: executing diffoscope
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo12-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip --markdown 20230804/o/odoo12-addon-purchase-request/12.0.5.3.1.99.dev8-12.0.5.3.1.99.dev9/diff.md --exclude *.pyd
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-08-04 06:56:45] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230804/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-08-04 06:56:46] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.2.tar.gz]
+[2023-08-04 06:56:46] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-1.0.3.tar.gz]
+[2023-08-04 06:56:46] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2023-08-04 06:56:46] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.7.2.1.tar.gz]
+[2023-08-04 06:56:46] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.8.3.1.tar.gz]
+[2023-08-04 06:56:46] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-08-04 06:56:47] INFO root fetch - processPackages [odoo13-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev7-py3-none-any.whl.zip]
+[2023-08-04 06:56:47] INFO root fetch - processPackages [odoo13-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_request-13.0.4.3.1.dev9-py3-none-any.whl.zip]
+[2023-08-04 06:56:47] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-request]: success
+[2023-08-04 06:56:47] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip]
+[2023-08-04 06:56:47] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip]
+[2023-08-04 06:56:47] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
+[2023-08-04 06:56:47] INFO root fetch - processPackages [odoo14-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_request-14.0.2.1.2.dev8-py3-none-any.whl.zip]
+[2023-08-04 06:56:47] INFO root fetch - processPackages [odoo14-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_request-14.0.2.1.2.dev9-py3-none-any.whl.zip]
+[2023-08-04 06:56:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-request]: success
+[2023-08-04 06:56:47] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-08-04 06:56:47] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-08-04 06:56:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-08-04 06:56:47] INFO root fetch - main [MainThread]: Store serial: [19169959]
