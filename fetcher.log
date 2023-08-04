@@ -20234,3 +20234,102 @@
 [2023-08-04 13:27:04] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.9.tar.gz]
 [2023-08-04 13:27:04] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
 [2023-08-04 13:27:04] INFO root fetch - main [MainThread]: Store serial: [19173220]
+[2023-08-04 13:32:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19173220]
+[2023-08-04 13:32:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchx-nightly
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foo-bar-lib-probe
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weasel
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: t-val
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mvf
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdmx1
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cefeste
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-sdk-experimental
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dissect.util
+[2023-08-04 13:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autoworker
+[2023-08-04 13:32:13] INFO root fetch - processPackages [autoworker]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-04 13:32:13] WARNING root fetch - processPackages [foo-bar-lib-probe]: Skipping, unable to determine old version
+[2023-08-04 13:32:13] INFO root fetch - processPackages [foo-bar-lib-probe]: Start processing: formal-sdk
+[2023-08-04 13:32:13] INFO root fetch - main [MainThread]: End processing [foo-bar-lib-probe] error
+[2023-08-04 13:32:13] INFO root fetch - processPackages [mvf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 13:32:14] WARNING root fetch - processPackages [t-val]: Skipping, unable to determine old version
+[2023-08-04 13:32:14] INFO root fetch - processPackages [t-val]: Start processing: analysis-engine
+[2023-08-04 13:32:14] INFO root fetch - main [MainThread]: End processing [t-val] error
+[2023-08-04 13:32:14] INFO root fetch - processPackages [cognite-sdk-experimental]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-04 13:32:14] INFO root fetch - processPackages [cefeste]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-04 13:32:14] INFO root fetch - processPackages [autoworker]: Downloading https://files.pythonhosted.org/packages/08/a3/b65431eee3e42b5dc3aa743cec386f28647833ecc46242c2af3f812eb4f9/autoworker-0.8.0.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [weasel]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-04 13:32:14] INFO root fetch - processPackages [sdmx1]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-04 13:32:14] INFO root fetch - processPackages [dissect.util]: New version: [3.9.dev4] Old Version: [3.9.dev3]
+[2023-08-04 13:32:14] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-04 13:32:14] INFO root fetch - processPackages [analysis-engine]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-04 13:32:14] INFO root fetch - processPackages [formal-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-04 13:32:14] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/ec/46/218119b311de91583a4d4e3441fcac6ac1f0ba72cf1304ddd1954dd37bc7/mvf-0.0.8.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [analysis-engine]: Downloading https://files.pythonhosted.org/packages/8a/d3/2b4ad9ea7a450e3782c1d84bb671e583cc2ac5c939ccd16e845a18276fb0/analysis_engine-2.0.8.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/d2/4e/f9983065e8ad5db325fe418f049df121d2a4c9a3f2c2fde338a11907b09c/dissect.util-3.9.dev3.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/93/50/521de7a825ba8b7a48ce52888f484457c876b5556f389e6a8fcb5b27e405/formal-sdk-1.0.4.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [autoworker]: Downloading https://files.pythonhosted.org/packages/e4/58/acb756c2c01b67eb073c32d3623e08466d411677e7869f731370a5a6d478/autoworker-0.9.0.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [cognite-sdk-experimental]: Downloading https://files.pythonhosted.org/packages/38/13/ad0923915b3cbf4fe7c0577fc8cd4195dc7103fba9a2a7dbc603f3129176/cognite-sdk-experimental-0.98.0.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/1a/ef/88301679a3cd44621a7b0b6d414e340e38c8a29b94c81dd950dc1032ca4d/cefeste-1.1.8.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/e1/2f/2cf930164b12f93ff6c0e1739054784311abd14c2c9c3c65a63f7524b22a/mvf-0.0.9.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/04/15/01940433956af5017e666eaee0411c21c63dd906efac35642a0061494dab/weasel-0.1.1.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [sdmx1]: Downloading https://files.pythonhosted.org/packages/44/4b/374eba00e995541ce5d1a150b39ace8bdb28759085c5dfa8424c82ed2e4e/sdmx1-2.8.0.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/6a/21/ec20ea9a2ede19402548892f273fd4b733f804f5cd1b00b09e4068c7945d/torchx_nightly-2023.8.3-py3-none-any.whl
+[2023-08-04 13:32:14] INFO root fetch - processPackages [autoworker]: executing diffoscope
+[2023-08-04 13:32:14] INFO root fetch - processPackages [autoworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoworker-0.8.0.tar.gz tmp/autoworker-0.9.0.tar.gz --markdown 20230804/a/autoworker/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 13:32:14] INFO root fetch - processPackages [mvf]: executing diffoscope
+[2023-08-04 13:32:14] INFO root fetch - processPackages [mvf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvf-0.0.8.tar.gz tmp/mvf-0.0.9.tar.gz --markdown 20230804/m/mvf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 13:32:14] INFO root fetch - processPackages [analysis-engine]: Downloading https://files.pythonhosted.org/packages/e1/62/9dab7df46643efdd0e8f349f472256e54dff4221e46ffae244b1dcd7ff87/analysis_engine-2.0.9.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/33/77/79460f1efd224b56f47fe48c7fb07060620557051c8e900acc293cfc2abb/formal-sdk-1.0.5.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/45/f4/2951657672559b5014e7705318e4d4f0b822b949a4dbe1e5296c8d20eb1e/dissect.util-3.9.dev4.tar.gz
+[2023-08-04 13:32:14] INFO root fetch - processPackages [analysis-engine]: executing diffoscope
+[2023-08-04 13:32:14] INFO root fetch - processPackages [analysis-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysis_engine-2.0.8.tar.gz tmp/analysis_engine-2.0.9.tar.gz --markdown 20230804/a/analysis-engine/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-04 13:32:15] INFO root fetch - processPackages [cognite-sdk-experimental]: Downloading https://files.pythonhosted.org/packages/c8/14/a4154ec3c6e7cec5cde322f9be77d7d1ab979ae9f4ad5de8c946c528d0a6/cognite-sdk-experimental-0.99.0.tar.gz
+[2023-08-04 13:32:15] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/08/fa/565201929ffe3f44807b0fccd102edcce0822257c848d0c04b15e69128d0/weasel-0.2.0.tar.gz
+[2023-08-04 13:32:15] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-08-04 13:32:15] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-1.0.4.tar.gz tmp/formal-sdk-1.0.5.tar.gz --markdown 20230804/f/formal-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-04 13:32:15] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/e1/3a/6b5f22999234e088b243c5f44471b108d0ba8c7859fed4911f55d1dcbe42/cefeste-1.1.9.tar.gz
+[2023-08-04 13:32:15] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/82/63/0017720b20b22c6fa76e096cd7a1e767ec12dfac25153c8d9d3996d19a80/torchx_nightly-2023.8.4-py3-none-any.whl
+[2023-08-04 13:32:15] INFO root fetch - processPackages [dissect.util]: executing diffoscope
+[2023-08-04 13:32:15] INFO root fetch - processPackages [dissect.util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.util-3.9.dev3.tar.gz tmp/dissect.util-3.9.dev4.tar.gz --markdown 20230804/d/dissect.util/3.9.dev3-3.9.dev4/diff.md --exclude *.pyd
+[2023-08-04 13:32:15] INFO root fetch - processPackages [sdmx1]: Downloading https://files.pythonhosted.org/packages/d4/74/474d459265382856a9124916f8b6b603ef57757e6127c94a76cee6f31de9/sdmx1-2.9.0.tar.gz
+[2023-08-04 13:32:15] INFO root fetch - processPackages [weasel]: executing diffoscope
+[2023-08-04 13:32:15] INFO root fetch - processPackages [weasel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weasel-0.1.1.tar.gz tmp/weasel-0.2.0.tar.gz --markdown 20230804/w/weasel/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 13:32:15] INFO root fetch - processPackages [cognite-sdk-experimental]: executing diffoscope
+[2023-08-04 13:32:15] INFO root fetch - processPackages [cognite-sdk-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite-sdk-experimental-0.98.0.tar.gz tmp/cognite-sdk-experimental-0.99.0.tar.gz --markdown 20230804/c/cognite-sdk-experimental/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-04 13:32:15] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2023-08-04 13:32:15] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.1.8.tar.gz tmp/cefeste-1.1.9.tar.gz --markdown 20230804/c/cefeste/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-04 13:32:15] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-08-04 13:32:15] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.8.3-py3-none-any.whl.zip tmp/torchx_nightly-2023.8.4-py3-none-any.whl.zip --markdown 20230804/t/torchx-nightly/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-04 13:32:15] INFO root fetch - processPackages [sdmx1]: executing diffoscope
+[2023-08-04 13:32:15] INFO root fetch - processPackages [sdmx1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdmx1-2.8.0.tar.gz tmp/sdmx1-2.9.0.tar.gz --markdown 20230804/s/sdmx1/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-04 13:32:15] INFO root fetch - processPackages [autoworker]: Remove: archive file [/home/abi/fetcher/tmp/autoworker-0.8.0.tar.gz]
+[2023-08-04 13:32:15] INFO root fetch - processPackages [autoworker]: Remove: archive file [/home/abi/fetcher/tmp/autoworker-0.9.0.tar.gz]
+[2023-08-04 13:32:15] INFO root fetch - main [MainThread]: End processing [autoworker]: success
+[2023-08-04 13:32:16] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.8.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.9.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - main [MainThread]: End processing [mvf]: success
+[2023-08-04 13:32:16] INFO root fetch - processPackages [dissect.util]: Remove: archive file [/home/abi/fetcher/tmp/dissect.util-3.9.dev3.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - processPackages [dissect.util]: Remove: archive file [/home/abi/fetcher/tmp/dissect.util-3.9.dev4.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - main [MainThread]: End processing [dissect.util]: success
+[2023-08-04 13:32:16] INFO root fetch - processPackages [analysis-engine]: Remove: archive file [/home/abi/fetcher/tmp/analysis_engine-2.0.8.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - processPackages [analysis-engine]: Remove: archive file [/home/abi/fetcher/tmp/analysis_engine-2.0.9.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - main [MainThread]: End processing [analysis-engine]: success
+[2023-08-04 13:32:16] INFO root fetch - processPackages [cognite-sdk-experimental]: Remove: archive file [/home/abi/fetcher/tmp/cognite-sdk-experimental-0.98.0.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - processPackages [cognite-sdk-experimental]: Remove: archive file [/home/abi/fetcher/tmp/cognite-sdk-experimental-0.99.0.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - main [MainThread]: End processing [cognite-sdk-experimental]: success
+[2023-08-04 13:32:16] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.1.8.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - processPackages [cefeste]: Remove: archive file [/home/abi/fetcher/tmp/cefeste-1.1.9.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2023-08-04 13:32:16] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.1.1.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.2.0.tar.gz]
+[2023-08-04 13:32:16] INFO root fetch - main [MainThread]: End processing [weasel]: success
+[2023-08-04 13:32:17] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.8.3-py3-none-any.whl.zip]
+[2023-08-04 13:32:17] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.8.4-py3-none-any.whl.zip]
+[2023-08-04 13:32:17] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-08-04 13:32:17] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-1.0.4.tar.gz]
+[2023-08-04 13:32:17] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-1.0.5.tar.gz]
+[2023-08-04 13:32:17] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-08-04 13:32:17] INFO root fetch - processPackages [sdmx1]: Remove: archive file [/home/abi/fetcher/tmp/sdmx1-2.8.0.tar.gz]
+[2023-08-04 13:32:17] INFO root fetch - processPackages [sdmx1]: Remove: archive file [/home/abi/fetcher/tmp/sdmx1-2.9.0.tar.gz]
+[2023-08-04 13:32:17] INFO root fetch - main [MainThread]: End processing [sdmx1]: success
+[2023-08-04 13:32:17] INFO root fetch - main [MainThread]: Store serial: [19173259]
