@@ -14542,3 +14542,102 @@
 [2023-08-04 08:57:52] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.2.tar.gz]
 [2023-08-04 08:57:52] INFO root fetch - main [MainThread]: End processing [notebook]: success
 [2023-08-04 08:57:52] INFO root fetch - main [MainThread]: Store serial: [19170760]
+[2023-08-04 09:02:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170760]
+[2023-08-04 09:03:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-worksdone-utils
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tagmaps
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jshmodule2
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-signalfx
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vertica-python
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optuna-integration
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-migrate
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-license-manager
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qudi-hira-analysis
+[2023-08-04 09:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BharatunLock
+[2023-08-04 09:03:01] INFO root fetch - processPackages [xj-migrate]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-04 09:03:01] INFO root fetch - processPackages [python-license-manager]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-04 09:03:01] INFO root fetch - processPackages [pulumi-signalfx]: New version: [6.2.0a1691044148] Old Version: [6.1.0]
+[2023-08-04 09:03:01] INFO root fetch - processPackages [qudi-hira-analysis]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-08-04 09:03:01] WARNING root fetch - processPackages [BharatunLock]: Skipping, unable to determine old version
+[2023-08-04 09:03:01] INFO root fetch - processPackages [BharatunLock]: Start processing: spotify-codegen
+[2023-08-04 09:03:01] INFO root fetch - main [MainThread]: End processing [BharatunLock] error
+[2023-08-04 09:03:01] WARNING root fetch - processPackages [jshmodule2]: Skipping, unable to determine old version
+[2023-08-04 09:03:01] INFO root fetch - processPackages [jshmodule2]: Start processing: seqio-nightly
+[2023-08-04 09:03:01] INFO root fetch - main [MainThread]: End processing [jshmodule2] error
+[2023-08-04 09:03:01] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/0a/18/c04c2a2695b90b59d399132911810ff9516094a848d91cc65beb7e8d7f14/pulumi_signalfx-6.1.0.tar.gz
+[2023-08-04 09:03:01] INFO root fetch - processPackages [optuna-integration]: New version: [3.3.0] Old Version: [3.2.0b0]
+[2023-08-04 09:03:01] INFO root fetch - processPackages [py-worksdone-utils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-04 09:03:01] INFO root fetch - processPackages [tagmaps]: New version: [0.22.5] Old Version: [0.22.4]
+[2023-08-04 09:03:01] INFO root fetch - processPackages [vertica-python]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-04 09:03:01] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-08-04 09:03:01] INFO root fetch - processPackages [python-license-manager]: Downloading https://files.pythonhosted.org/packages/07/61/ccc1a3d695ad0868871344159f3d5b918b7ca4a15b34fc9c527ad02da966/python_license_manager-0.2.8-py3-none-any.whl
+[2023-08-04 09:03:02] INFO root fetch - processPackages [xj-migrate]: Downloading https://files.pythonhosted.org/packages/79/b7/47163ebd89814453fcce295a069a99a94a491cda828cff3e5d52196cfdfc/xj-migrate-1.0.6.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [spotify-codegen]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-04 09:03:02] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/a3/c2/73376bc58cd62cae0a192760c170726bed1c10d3c56cfe2269f49407d67b/qudi_hira_analysis-1.4.9.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/8e/87/f2c5bbf4389b934cbab53a1be32e61dff9b01cdc956d33cb4e348d816e22/py-worksdone-utils-1.0.2.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [optuna-integration]: Downloading https://files.pythonhosted.org/packages/83/d6/113b53f4a3ccc3720ab557a379bd962d0a100f50526ece081042d631c218/optuna-integration-3.2.0b0.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [tagmaps]: Downloading https://files.pythonhosted.org/packages/1b/05/fc3e1b5a2ac179fde379d3d3d8ed4a2b8c38aef9875e43ac4f74bafe09ef/tagmaps-0.22.4.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [vertica-python]: Downloading https://files.pythonhosted.org/packages/9e/f7/6b59d56757330bb97b47a830f412057d170fc7848ae99f4a69a278a69aa5/vertica-python-1.3.3.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/67/e4/eb8535d3c5950966fbd75207e1a6ef0d5c37e0f180563b6472f54a643d1b/pulumi_signalfx-6.2.0a1691044148.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [python-license-manager]: Downloading https://files.pythonhosted.org/packages/79/9e/354aac86af09069edacb6c9be211a3eed36e035f421def3bf1c5b48e4c5e/python_license_manager-0.2.9-py3-none-any.whl
+[2023-08-04 09:03:02] INFO root fetch - processPackages [spotify-codegen]: Downloading https://files.pythonhosted.org/packages/d6/8a/0c44450a3b8f6666ffc6995a84da9ff67791b4ef598bd6e0cb47c082293e/spotify_codegen-0.3.3.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [xj-migrate]: Downloading https://files.pythonhosted.org/packages/89/7e/95932d51ad1672d645b9f606bc82feca1410dabaede7772d5fcf195134f6/xj-migrate-1.0.7.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [python-license-manager]: executing diffoscope
+[2023-08-04 09:03:02] INFO root fetch - processPackages [python-license-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_license_manager-0.2.8-py3-none-any.whl.zip tmp/python_license_manager-0.2.9-py3-none-any.whl.zip --markdown 20230804/p/python-license-manager/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-04 09:03:02] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-08-04 09:03:02] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-6.1.0.tar.gz tmp/pulumi_signalfx-6.2.0a1691044148.tar.gz --markdown 20230804/p/pulumi-signalfx/6.1.0-6.2.0a1691044148/diff.md --exclude *.pyd
+[2023-08-04 09:03:02] INFO root fetch - processPackages [xj-migrate]: executing diffoscope
+[2023-08-04 09:03:02] INFO root fetch - processPackages [xj-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj-migrate-1.0.6.tar.gz tmp/xj-migrate-1.0.7.tar.gz --markdown 20230804/x/xj-migrate/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-04 09:03:02] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/36/8d/43ac80bf8ba55c9c96b0ac29ea17091549da965922239fdf3afd943c77c3/qudi_hira_analysis-1.5.0.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/f6/06/ffa160cc7d51ab5728a5010f093d545cbcd536f1f91ba3f2e20c2527e316/py-worksdone-utils-1.0.3.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [optuna-integration]: Downloading https://files.pythonhosted.org/packages/65/5c/c722a5eb971744f82ac0ab4540781403640520d6c53c54f023725e83f5b7/optuna-integration-3.3.0.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [tagmaps]: Downloading https://files.pythonhosted.org/packages/12/e0/74e85b59f479aab9234536c58168e3c62d4e19d07a8d184d58677f5d04fb/tagmaps-0.22.5.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-08-04 09:03:02] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230804/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-08-04 09:03:02] INFO root fetch - processPackages [vertica-python]: Downloading https://files.pythonhosted.org/packages/72/60/c90db4daab08ebf044af8a3c70eba1a76ca6759802dbeaa22294669c5991/vertica-python-1.3.4.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [spotify-codegen]: Downloading https://files.pythonhosted.org/packages/11/db/70ed43c1360454e4f776a79cd759410f47d5562cd92f012da7b0d76fecdc/spotify_codegen-0.3.4.tar.gz
+[2023-08-04 09:03:02] INFO root fetch - processPackages [py-worksdone-utils]: executing diffoscope
+[2023-08-04 09:03:02] INFO root fetch - processPackages [py-worksdone-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-worksdone-utils-1.0.2.tar.gz tmp/py-worksdone-utils-1.0.3.tar.gz --markdown 20230804/p/py-worksdone-utils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-04 09:03:02] INFO root fetch - processPackages [qudi-hira-analysis]: executing diffoscope
+[2023-08-04 09:03:02] INFO root fetch - processPackages [qudi-hira-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qudi_hira_analysis-1.4.9.tar.gz tmp/qudi_hira_analysis-1.5.0.tar.gz --markdown 20230804/q/qudi-hira-analysis/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-08-04 09:03:03] INFO root fetch - processPackages [optuna-integration]: executing diffoscope
+[2023-08-04 09:03:03] INFO root fetch - processPackages [optuna-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optuna-integration-3.2.0b0.tar.gz tmp/optuna-integration-3.3.0.tar.gz --markdown 20230804/o/optuna-integration/3.2.0b0-3.3.0/diff.md --exclude *.pyd
+[2023-08-04 09:03:03] INFO root fetch - processPackages [tagmaps]: executing diffoscope
+[2023-08-04 09:03:03] INFO root fetch - processPackages [tagmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagmaps-0.22.4.tar.gz tmp/tagmaps-0.22.5.tar.gz --markdown 20230804/t/tagmaps/0.22.4-0.22.5/diff.md --exclude *.pyd
+[2023-08-04 09:03:03] INFO root fetch - processPackages [spotify-codegen]: executing diffoscope
+[2023-08-04 09:03:03] INFO root fetch - processPackages [spotify-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_codegen-0.3.3.tar.gz tmp/spotify_codegen-0.3.4.tar.gz --markdown 20230804/s/spotify-codegen/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-04 09:03:03] INFO root fetch - processPackages [vertica-python]: executing diffoscope
+[2023-08-04 09:03:03] INFO root fetch - processPackages [vertica-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertica-python-1.3.3.tar.gz tmp/vertica-python-1.3.4.tar.gz --markdown 20230804/v/vertica-python/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-04 09:03:04] INFO root fetch - processPackages [python-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_license_manager-0.2.8-py3-none-any.whl.zip]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [python-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_license_manager-0.2.9-py3-none-any.whl.zip]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [python-license-manager]: success
+[2023-08-04 09:03:04] INFO root fetch - processPackages [xj-migrate]: Remove: archive file [/home/abi/fetcher/tmp/xj-migrate-1.0.6.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [xj-migrate]: Remove: archive file [/home/abi/fetcher/tmp/xj-migrate-1.0.7.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [xj-migrate]: success
+[2023-08-04 09:03:04] INFO root fetch - processPackages [py-worksdone-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-worksdone-utils-1.0.2.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [py-worksdone-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-worksdone-utils-1.0.3.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [py-worksdone-utils]: success
+[2023-08-04 09:03:04] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-6.1.0.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-6.2.0a1691044148.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-08-04 09:03:04] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-08-04 09:03:04] INFO root fetch - processPackages [spotify-codegen]: Remove: archive file [/home/abi/fetcher/tmp/spotify_codegen-0.3.3.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [spotify-codegen]: Remove: archive file [/home/abi/fetcher/tmp/spotify_codegen-0.3.4.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [spotify-codegen]: success
+[2023-08-04 09:03:04] INFO root fetch - processPackages [qudi-hira-analysis]: Remove: archive file [/home/abi/fetcher/tmp/qudi_hira_analysis-1.4.9.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [qudi-hira-analysis]: Remove: archive file [/home/abi/fetcher/tmp/qudi_hira_analysis-1.5.0.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [qudi-hira-analysis]: success
+[2023-08-04 09:03:04] INFO root fetch - processPackages [optuna-integration]: Remove: archive file [/home/abi/fetcher/tmp/optuna-integration-3.2.0b0.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [optuna-integration]: Remove: archive file [/home/abi/fetcher/tmp/optuna-integration-3.3.0.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [optuna-integration]: success
+[2023-08-04 09:03:04] INFO root fetch - processPackages [tagmaps]: Remove: archive file [/home/abi/fetcher/tmp/tagmaps-0.22.4.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [tagmaps]: Remove: archive file [/home/abi/fetcher/tmp/tagmaps-0.22.5.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [tagmaps]: success
+[2023-08-04 09:03:04] INFO root fetch - processPackages [vertica-python]: Remove: archive file [/home/abi/fetcher/tmp/vertica-python-1.3.3.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - processPackages [vertica-python]: Remove: archive file [/home/abi/fetcher/tmp/vertica-python-1.3.4.tar.gz]
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: End processing [vertica-python]: success
+[2023-08-04 09:03:04] INFO root fetch - main [MainThread]: Store serial: [19170801]
