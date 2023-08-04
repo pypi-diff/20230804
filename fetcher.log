@@ -20333,3 +20333,85 @@
 [2023-08-04 13:32:17] INFO root fetch - processPackages [sdmx1]: Remove: archive file [/home/abi/fetcher/tmp/sdmx1-2.9.0.tar.gz]
 [2023-08-04 13:32:17] INFO root fetch - main [MainThread]: End processing [sdmx1]: success
 [2023-08-04 13:32:17] INFO root fetch - main [MainThread]: Store serial: [19173259]
+[2023-08-04 13:37:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19173259]
+[2023-08-04 13:37:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 13:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sherpa-ncnn
+[2023-08-04 13:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyracer
+[2023-08-04 13:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flexible-dict
+[2023-08-04 13:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robocorp
+[2023-08-04 13:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-08-04 13:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chartsworth
+[2023-08-04 13:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdmx1
+[2023-08-04 13:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chartsworth
+[2023-08-04 13:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chaosgarden
+[2023-08-04 13:37:26] INFO root fetch - processPackages [sdmx1]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-04 13:37:26] INFO root fetch - processPackages [pyracer]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-08-04 13:37:26] INFO root fetch - processPackages [chartsworth]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-04 13:37:26] INFO root fetch - processPackages [chartsworth]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-04 13:37:26] INFO root fetch - processPackages [flexible-dict]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-04 13:37:26] INFO root fetch - processPackages [robocorp]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-08-04 13:37:26] INFO root fetch - processPackages [sdmx1]: Downloading https://files.pythonhosted.org/packages/44/4b/374eba00e995541ce5d1a150b39ace8bdb28759085c5dfa8424c82ed2e4e/sdmx1-2.8.0.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [sherpa-ncnn]: New version: [2.0.5] Old Version: [2.0.2]
+[2023-08-04 13:37:27] INFO root fetch - processPackages [chaosgarden]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-04 13:37:27] INFO root fetch - processPackages [cg]: New version: [40.4.0] Old Version: [40.3.3]
+[2023-08-04 13:37:27] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/d8/8f/150cfd94eb28bec904bb23f972bf8ada277275ff09b473e7a27dc49260d1/pyracer-1.1.3.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [chartsworth]: Downloading https://files.pythonhosted.org/packages/4e/88/407aa8c423fc1889f7d6b6743e403aa7181b5afeec2f1fd9bdb5ad1d0b9b/chartsworth-0.1.0.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [chartsworth]: Downloading https://files.pythonhosted.org/packages/4e/88/407aa8c423fc1889f7d6b6743e403aa7181b5afeec2f1fd9bdb5ad1d0b9b/chartsworth-0.1.0.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [robocorp]: Downloading https://files.pythonhosted.org/packages/eb/07/f4a655bf0a866dc900f83784c5cd2e99f7ed84f0b26538497d6b8ffd861c/robocorp-0.8.2.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/05/6b/0d632a42f58c1403f1a660ddd41405b146385432a0330b416f3eb2ab3982/flexible_dict-1.1.1.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [sherpa-ncnn]: Downloading https://files.pythonhosted.org/packages/f5/ec/92fa4557f9f7785c97b2d379b647f79bb0038699b6c15345e9f2a0f87611/sherpa_ncnn-2.0.2-cp39-cp39-win_amd64.whl
+[2023-08-04 13:37:27] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d5/a7/dcba9237e6fb7a891af7ed4bbe488711d307055dbe4617d53120dfe051d6/cg-40.3.3.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [chaosgarden]: Downloading https://files.pythonhosted.org/packages/94/5f/c3c4930a1793b28e7a55e9c9d4228a7890b6bb358c5e1dbd1e99ae54951c/chaosgarden-0.2.5.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [sdmx1]: Downloading https://files.pythonhosted.org/packages/d4/74/474d459265382856a9124916f8b6b603ef57757e6127c94a76cee6f31de9/sdmx1-2.9.0.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [sdmx1]: executing diffoscope
+[2023-08-04 13:37:27] INFO root fetch - processPackages [sdmx1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdmx1-2.8.0.tar.gz tmp/sdmx1-2.9.0.tar.gz --markdown 20230804/s/sdmx1/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-04 13:37:27] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/7a/22/53ec4aade926783f8db9ea81f797a507ff9d3c3894e22dfcef416b8e2226/pyracer-1.2.0.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [chartsworth]: Downloading https://files.pythonhosted.org/packages/64/41/f371aa1a6f52ac5894f174b05014d2c36cd057896d0ba342be4bd847c4ee/chartsworth-0.2.0.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/b1/2f/7b832e27a021c56f90dd18163e5a497407446b9fc9e1a26ae513b7bb3fa4/flexible_dict-1.1.2.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [chartsworth]: Downloading https://files.pythonhosted.org/packages/64/41/f371aa1a6f52ac5894f174b05014d2c36cd057896d0ba342be4bd847c4ee/chartsworth-0.2.0.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [robocorp]: Downloading https://files.pythonhosted.org/packages/b2/55/72f2ea63a166d5524f6f2947a6e2e891a039837e38ab08dd9d82ec6f226e/robocorp-0.9.0.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [pyracer]: executing diffoscope
+[2023-08-04 13:37:27] INFO root fetch - processPackages [pyracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracer-1.1.3.tar.gz tmp/pyracer-1.2.0.tar.gz --markdown 20230804/p/pyracer/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-08-04 13:37:27] INFO root fetch - processPackages [flexible-dict]: executing diffoscope
+[2023-08-04 13:37:27] INFO root fetch - processPackages [flexible-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_dict-1.1.1.tar.gz tmp/flexible_dict-1.1.2.tar.gz --markdown 20230804/f/flexible-dict/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-04 13:37:27] INFO root fetch - processPackages [chaosgarden]: Downloading https://files.pythonhosted.org/packages/b5/4f/60e645c8a41b87f081388be8adc03c8053792aa5497606d043a45658d037/chaosgarden-0.2.6.tar.gz
+[2023-08-04 13:37:27] INFO root fetch - processPackages [robocorp]: executing diffoscope
+[2023-08-04 13:37:27] INFO root fetch - processPackages [robocorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp-0.8.2.tar.gz tmp/robocorp-0.9.0.tar.gz --markdown 20230804/r/robocorp/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 13:37:28] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/41/45/b0b7149a8303b829a73109b54c93dbf3b0b458e5e6496647f8d2a0dea228/cg-40.4.0.tar.gz
+[2023-08-04 13:37:28] INFO root fetch - processPackages [chartsworth]: executing diffoscope
+[2023-08-04 13:37:28] INFO root fetch - processPackages [chartsworth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartsworth-0.1.0.tar.gz tmp/chartsworth-0.2.0.tar.gz --markdown 20230804/c/chartsworth/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 13:37:28] INFO root fetch - processPackages [chartsworth]: executing diffoscope
+[2023-08-04 13:37:28] INFO root fetch - processPackages [chartsworth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartsworth-0.1.0.tar.gz tmp/chartsworth-0.2.0.tar.gz --markdown 20230804/c/chartsworth/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 13:37:28] INFO root fetch - processPackages [chaosgarden]: executing diffoscope
+[2023-08-04 13:37:28] INFO root fetch - processPackages [chaosgarden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaosgarden-0.2.5.tar.gz tmp/chaosgarden-0.2.6.tar.gz --markdown 20230804/c/chaosgarden/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-04 13:37:28] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-08-04 13:37:28] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.3.3.tar.gz tmp/cg-40.4.0.tar.gz --markdown 20230804/c/cg/40.3.3-40.4.0/diff.md --exclude *.pyd
+[2023-08-04 13:37:29] INFO root fetch - processPackages [sherpa-ncnn]: Downloading https://files.pythonhosted.org/packages/ce/ff/842bc83b6bd628a77e7e227d2f7d085478dfc14c3105f1938acb8cc0bf58/sherpa_ncnn-2.0.5-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-08-04 13:37:29] INFO root fetch - processPackages [robocorp]: Remove: archive file [/home/abi/fetcher/tmp/robocorp-0.8.2.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - processPackages [robocorp]: Remove: archive file [/home/abi/fetcher/tmp/robocorp-0.9.0.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - main [MainThread]: End processing [robocorp]: success
+[2023-08-04 13:37:29] INFO root fetch - processPackages [chartsworth]: Remove: archive file [/home/abi/fetcher/tmp/chartsworth-0.1.0.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - processPackages [chartsworth]: Remove: archive file [/home/abi/fetcher/tmp/chartsworth-0.2.0.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - main [MainThread]: End processing [chartsworth]: success
+[2023-08-04 13:37:29] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.1.1.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.1.2.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
+[2023-08-04 13:37:29] INFO root fetch - main [MainThread]: End processing [chartsworth]: success
+[2023-08-04 13:37:29] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.1.3.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.2.0.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - main [MainThread]: End processing [pyracer]: success
+[2023-08-04 13:37:29] INFO root fetch - processPackages [sdmx1]: Remove: archive file [/home/abi/fetcher/tmp/sdmx1-2.8.0.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - processPackages [sdmx1]: Remove: archive file [/home/abi/fetcher/tmp/sdmx1-2.9.0.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - main [MainThread]: End processing [sdmx1]: success
+[2023-08-04 13:37:29] INFO root fetch - processPackages [chaosgarden]: Remove: archive file [/home/abi/fetcher/tmp/chaosgarden-0.2.5.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - processPackages [chaosgarden]: Remove: archive file [/home/abi/fetcher/tmp/chaosgarden-0.2.6.tar.gz]
+[2023-08-04 13:37:29] INFO root fetch - main [MainThread]: End processing [chaosgarden]: success
+[2023-08-04 13:37:29] INFO root fetch - processPackages [sherpa-ncnn]: executing diffoscope
+[2023-08-04 13:37:29] INFO root fetch - processPackages [sherpa-ncnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa_ncnn-2.0.2-cp39-cp39-win_amd64.whl.zip tmp/sherpa_ncnn-2.0.5-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230804/s/sherpa-ncnn/2.0.2-2.0.5/diff.md --exclude *.pyd
+[2023-08-04 13:37:31] INFO root fetch - processPackages [sherpa-ncnn]: Remove: archive file [/home/abi/fetcher/tmp/sherpa_ncnn-2.0.2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-04 13:37:31] INFO root fetch - processPackages [sherpa-ncnn]: Remove: archive file [/home/abi/fetcher/tmp/sherpa_ncnn-2.0.5-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-08-04 13:37:31] INFO root fetch - main [MainThread]: End processing [sherpa-ncnn]: success
+[2023-08-04 13:37:34] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.3.3.tar.gz]
+[2023-08-04 13:37:34] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.4.0.tar.gz]
+[2023-08-04 13:37:34] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-08-04 13:37:34] INFO root fetch - main [MainThread]: Store serial: [19173292]
