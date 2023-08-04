@@ -19049,3 +19049,151 @@
 [2023-08-04 12:34:40] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.4.tar.gz]
 [2023-08-04 12:34:40] INFO root fetch - main [MainThread]: End processing [Swagger2Tests]: success
 [2023-08-04 12:34:40] INFO root fetch - main [MainThread]: Store serial: [19172786]
+[2023-08-04 12:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172786]
+[2023-08-04 12:39:49] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-threedee
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mass-analytics
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: analysis-engine
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bagbag
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-material-merore
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gitlab-runner-tart-driver
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Swagger2Tests
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-al
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xinference
+[2023-08-04 12:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bagbag
+[2023-08-04 12:39:49] INFO root fetch - processPackages [Swagger2Tests]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-04 12:39:50] INFO root fetch - processPackages [mass-analytics]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-04 12:39:50] INFO root fetch - processPackages [xinference]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 12:39:50] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-08-04 12:39:50] INFO root fetch - processPackages [bagbag]: New version: [0.61.9] Old Version: [0.61.8]
+[2023-08-04 12:39:50] INFO root fetch - processPackages [gitlab-runner-tart-driver]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-08-04 12:39:50] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 12:39:50] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/cb/00/133de4f66121933d986e159b8b90c8a288ce725012f9c9cb380cb8f01a07/Swagger2Tests-1.0.3.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [analysis-engine]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-04 12:39:50] WARNING root fetch - processPackages [mkdocs-material-merore]: Skipping, unable to determine old version
+[2023-08-04 12:39:50] INFO root fetch - processPackages [napari-threedee]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 12:39:50] INFO root fetch - processPackages [mkdocs-material-merore]: Start processing: alpaca-farm
+[2023-08-04 12:39:50] INFO root fetch - main [MainThread]: End processing [mkdocs-material-merore] error
+[2023-08-04 12:39:50] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/61/ed/58425a069d44d1af81ec10abe1a59ec8813158a69bbabe0d27e62c3dca06/xinference-0.1.0.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/91/ed/69a1a184aaad7267ed67f71d0b45cf1555f76f61df527a0a80e49919a420/mass_analytics-1.0.9.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/8c/89/cc59ec85ceb84655e5594f6eeef7ec3c8016e0af7a17bf380d7dc103d848/bagbag-0.61.8.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/58/0f/8d772f2ab7678fc3adf986030b4f6d6bd900db83ac673a21d3da324ceed5/gitlab-runner-tart-driver-0.2.0.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [alpaca-farm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 12:39:50] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/3b/70/4e892251e0c8510fee507d7cbc0832629ed70e29e75ca555e1f782195d87/napari-threedee-0.0.8.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/00/ff/0265b46739a07cf58484dc51fe41178d87bc570c08adaaa7a91cf8f583be/nonebot_plugin_al-0.3.8.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/6c/b3/60042a17fd83f4a260b3d921e4e0b7f320ee42b009df1c7389eba37503be/xinference-0.1.1.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [analysis-engine]: Downloading https://files.pythonhosted.org/packages/8a/d3/2b4ad9ea7a450e3782c1d84bb671e583cc2ac5c939ccd16e845a18276fb0/analysis_engine-2.0.8.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/20/e7/9c0bec54313796025d0052de0c8854c6097f0e2da9e863f23cfa6cd3d339/Swagger2Tests-1.0.4.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/fb/58/f5ca29d807666556a43f975cb3d44dcb5abd3b628cd9e902f64626051fab/bagbag-0.61.9.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/17/02/3c910844f07130ef0930c2d000eb1950718955e6265f2a6bc194c5622ea9/mass_analytics-1.1.0.tar.gz
+[2023-08-04 12:39:50] INFO root fetch - processPackages [xinference]: executing diffoscope
+[2023-08-04 12:39:50] INFO root fetch - processPackages [xinference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinference-0.1.0.tar.gz tmp/xinference-0.1.1.tar.gz --markdown 20230804/x/xinference/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 12:39:50] INFO root fetch - processPackages [Swagger2Tests]: executing diffoscope
+[2023-08-04 12:39:50] INFO root fetch - processPackages [Swagger2Tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Swagger2Tests-1.0.3.tar.gz tmp/Swagger2Tests-1.0.4.tar.gz --markdown 20230804/S/Swagger2Tests/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-04 12:39:51] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-08-04 12:39:51] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230804/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-08-04 12:39:51] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-08-04 12:39:51] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.8.tar.gz tmp/bagbag-0.61.9.tar.gz --markdown 20230804/b/bagbag/0.61.8-0.61.9/diff.md --exclude *.pyd
+[2023-08-04 12:39:51] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/8b/42/bc8cdbb629bc531b2df5a47673b91fdfe10da1c6617596d435714e87625d/alpaca_farm-0.1.8.tar.gz
+[2023-08-04 12:39:51] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/79/ee/b9fe09ac946c4fcf382482ac8f876b6a48517933a30c99fae18a865a5b9a/gitlab-runner-tart-driver-0.2.2.tar.gz
+[2023-08-04 12:39:51] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-08-04 12:39:51] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.0.9.tar.gz tmp/mass_analytics-1.1.0.tar.gz --markdown 20230804/m/mass-analytics/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-04 12:39:51] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/83/f6/2fbd320c40beff0f28632beac434c275748b88360e44bc24361f6374d459/nonebot_plugin_al-0.3.9.tar.gz
+[2023-08-04 12:39:51] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/81/1f/82e3d9c32140273bc57be3c479e8e5ee885204a3dca7be7d2476b777ac72/napari-threedee-0.0.9.tar.gz
+[2023-08-04 12:39:51] INFO root fetch - processPackages [analysis-engine]: Downloading https://files.pythonhosted.org/packages/e1/62/9dab7df46643efdd0e8f349f472256e54dff4221e46ffae244b1dcd7ff87/analysis_engine-2.0.9.tar.gz
+[2023-08-04 12:39:51] INFO root fetch - processPackages [gitlab-runner-tart-driver]: executing diffoscope
+[2023-08-04 12:39:51] INFO root fetch - processPackages [gitlab-runner-tart-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab-runner-tart-driver-0.2.0.tar.gz tmp/gitlab-runner-tart-driver-0.2.2.tar.gz --markdown 20230804/g/gitlab-runner-tart-driver/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-08-04 12:39:51] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-08-04 12:39:51] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.3.8.tar.gz tmp/nonebot_plugin_al-0.3.9.tar.gz --markdown 20230804/n/nonebot-plugin-al/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 12:39:51] INFO root fetch - processPackages [napari-threedee]: executing diffoscope
+[2023-08-04 12:39:51] INFO root fetch - processPackages [napari-threedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-threedee-0.0.8.tar.gz tmp/napari-threedee-0.0.9.tar.gz --markdown 20230804/n/napari-threedee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 12:39:51] INFO root fetch - processPackages [analysis-engine]: executing diffoscope
+[2023-08-04 12:39:51] INFO root fetch - processPackages [analysis-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysis_engine-2.0.8.tar.gz tmp/analysis_engine-2.0.9.tar.gz --markdown 20230804/a/analysis-engine/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-04 12:39:51] INFO root fetch - processPackages [alpaca-farm]: Downloading https://files.pythonhosted.org/packages/51/da/667322bf02c9f75007d63f00e952155814f76345c6d1d1bcf89742e81762/alpaca_farm-0.1.9.tar.gz
+[2023-08-04 12:39:51] INFO root fetch - processPackages [alpaca-farm]: executing diffoscope
+[2023-08-04 12:39:51] INFO root fetch - processPackages [alpaca-farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_farm-0.1.8.tar.gz tmp/alpaca_farm-0.1.9.tar.gz --markdown 20230804/a/alpaca-farm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 12:39:52] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.3.tar.gz]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.4.tar.gz]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [Swagger2Tests]: Start processing: ler
+[2023-08-04 12:39:52] INFO root fetch - main [MainThread]: End processing [Swagger2Tests]: success
+[2023-08-04 12:39:52] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.9.tar.gz]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.1.0.tar.gz]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [mass-analytics]: Start processing: mknodes
+[2023-08-04 12:39:52] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-08-04 12:39:52] INFO root fetch - processPackages [ler]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [ler]: Downloading https://files.pythonhosted.org/packages/54/29/0b95e91e7d0bd2f5bd2ee6999d083d3f2c7a30366e6dcda51f1aa1c30543/ler-0.1.9-py2.py3-none-any.whl
+[2023-08-04 12:39:52] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-08-04 12:39:52] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.8.tar.gz]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.9.tar.gz]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [nonebot-plugin-al]: Start processing: sumake
+[2023-08-04 12:39:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-08-04 12:39:52] INFO root fetch - processPackages [xinference]: Remove: archive file [/home/abi/fetcher/tmp/xinference-0.1.0.tar.gz]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [xinference]: Remove: archive file [/home/abi/fetcher/tmp/xinference-0.1.1.tar.gz]
+[2023-08-04 12:39:52] INFO root fetch - processPackages [xinference]: Start processing: Jakit
+[2023-08-04 12:39:52] INFO root fetch - main [MainThread]: End processing [xinference]: success
+[2023-08-04 12:39:53] INFO root fetch - processPackages [Jakit]: New version: [0.3] Old Version: [0.2]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-runner-tart-driver-0.2.0.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-runner-tart-driver-0.2.2.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Start processing: jeeves-yeti-pyproject
+[2023-08-04 12:39:53] INFO root fetch - main [MainThread]: End processing [gitlab-runner-tart-driver]: success
+[2023-08-04 12:39:53] INFO root fetch - processPackages [sumake]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [analysis-engine]: Remove: archive file [/home/abi/fetcher/tmp/analysis_engine-2.0.8.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [analysis-engine]: Remove: archive file [/home/abi/fetcher/tmp/analysis_engine-2.0.9.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [analysis-engine]: Start processing: gwsnr
+[2023-08-04 12:39:53] INFO root fetch - main [MainThread]: End processing [analysis-engine]: success
+[2023-08-04 12:39:53] INFO root fetch - processPackages [jeeves-yeti-pyproject]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-08-04 12:39:53] INFO root fetch - processPackages [Jakit]: Downloading https://files.pythonhosted.org/packages/07/a1/b32ac9a4dc06695a096f8b70bf56e21910266da02f4238c43207ae07a6db/Jakit-0.2.tar.gz
+[2023-08-04 12:39:53] INFO root fetch - processPackages [ler]: Downloading https://files.pythonhosted.org/packages/8e/18/d20d68b34157d43e0503b00703438fe7d17c25077d70523368a486d87cba/ler-0.2.0.tar.gz
+[2023-08-04 12:39:53] INFO root fetch - processPackages [sumake]: Downloading https://files.pythonhosted.org/packages/30/cc/9caba167f11654686161af494991539e7f5d2e5bce7ddbf1d6c29768b112/sumake-0.0.2.tar.gz
+[2023-08-04 12:39:53] INFO root fetch - processPackages [gwsnr]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-08-04 12:39:53] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230804/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 12:39:53] INFO root fetch - processPackages [jeeves-yeti-pyproject]: Downloading https://files.pythonhosted.org/packages/c1/41/37bfa2e83697124c6662341b5c8a7f47bcd29d0090aef6b389224c2e251d/jeeves_yeti_pyproject-0.2.8.tar.gz
+[2023-08-04 12:39:53] INFO root fetch - processPackages [ler]: executing diffoscope
+[2023-08-04 12:39:53] INFO root fetch - processPackages [ler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ler-0.1.9-py2.py3-none-any.whl.zip tmp/ler-0.2.0.tar.gz --markdown 20230804/l/ler/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 12:39:53] INFO root fetch - processPackages [gwsnr]: Downloading https://files.pythonhosted.org/packages/eb/55/b803478991f2495b2247ff2996b12e8bddfc8b85c616508d3ddaba353e91/gwsnr-0.1.1.tar.gz
+[2023-08-04 12:39:53] INFO root fetch - processPackages [Jakit]: Downloading https://files.pythonhosted.org/packages/15/83/b01093e8de0cfc7554b1d752089f508e3594eb701680b12371fe0d27f2ca/Jakit-0.3.tar.gz
+[2023-08-04 12:39:53] INFO root fetch - processPackages [napari-threedee]: Remove: archive file [/home/abi/fetcher/tmp/napari-threedee-0.0.8.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [napari-threedee]: Remove: archive file [/home/abi/fetcher/tmp/napari-threedee-0.0.9.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - main [MainThread]: End processing [napari-threedee]: success
+[2023-08-04 12:39:53] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.8.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [alpaca-farm]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_farm-0.1.9.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - main [MainThread]: End processing [alpaca-farm]: success
+[2023-08-04 12:39:53] INFO root fetch - processPackages [sumake]: Downloading https://files.pythonhosted.org/packages/77/b5/1158fcf81947728a065b892cb15809df9779ccfd53006f60c1f0f290ad58/sumake-0.0.3.tar.gz
+[2023-08-04 12:39:53] INFO root fetch - processPackages [Jakit]: executing diffoscope
+[2023-08-04 12:39:53] INFO root fetch - processPackages [Jakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jakit-0.2.tar.gz tmp/Jakit-0.3.tar.gz --markdown 20230804/J/Jakit/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-04 12:39:53] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.8.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.9.tar.gz]
+[2023-08-04 12:39:53] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-08-04 12:39:53] INFO root fetch - processPackages [sumake]: executing diffoscope
+[2023-08-04 12:39:53] INFO root fetch - processPackages [sumake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumake-0.0.2.tar.gz tmp/sumake-0.0.3.tar.gz --markdown 20230804/s/sumake/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 12:39:53] INFO root fetch - processPackages [gwsnr]: Downloading https://files.pythonhosted.org/packages/e6/5f/b97a12b792ac72bc3b94ea9c966551e71cccd6320d8c251dbe2254cd5932/gwsnr-0.1.2.tar.gz
+[2023-08-04 12:39:53] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-08-04 12:39:54] INFO root fetch - processPackages [jeeves-yeti-pyproject]: Downloading https://files.pythonhosted.org/packages/ae/0e/cc0e1cc23cbec7ce27f62a718ecd7d090ca1f621a4ca3b72621b204489a3/jeeves_yeti_pyproject-0.2.9.tar.gz
+[2023-08-04 12:39:54] INFO root fetch - processPackages [gwsnr]: executing diffoscope
+[2023-08-04 12:39:54] INFO root fetch - processPackages [gwsnr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwsnr-0.1.1.tar.gz tmp/gwsnr-0.1.2.tar.gz --markdown 20230804/g/gwsnr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-04 12:39:54] INFO root fetch - processPackages [jeeves-yeti-pyproject]: executing diffoscope
+[2023-08-04 12:39:54] INFO root fetch - processPackages [jeeves-yeti-pyproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeeves_yeti_pyproject-0.2.8.tar.gz tmp/jeeves_yeti_pyproject-0.2.9.tar.gz --markdown 20230804/j/jeeves-yeti-pyproject/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-04 12:39:54] INFO root fetch - processPackages [ler]: Remove: archive file [/home/abi/fetcher/tmp/ler-0.1.9-py2.py3-none-any.whl.zip]
+[2023-08-04 12:39:54] INFO root fetch - processPackages [ler]: Remove: archive file [/home/abi/fetcher/tmp/ler-0.2.0.tar.gz]
+[2023-08-04 12:39:54] INFO root fetch - main [MainThread]: End processing [ler]: success
+[2023-08-04 12:39:54] INFO root fetch - processPackages [Jakit]: Remove: archive file [/home/abi/fetcher/tmp/Jakit-0.2.tar.gz]
+[2023-08-04 12:39:54] INFO root fetch - processPackages [Jakit]: Remove: archive file [/home/abi/fetcher/tmp/Jakit-0.3.tar.gz]
+[2023-08-04 12:39:54] INFO root fetch - main [MainThread]: End processing [Jakit]: success
+[2023-08-04 12:39:54] INFO root fetch - processPackages [sumake]: Remove: archive file [/home/abi/fetcher/tmp/sumake-0.0.2.tar.gz]
+[2023-08-04 12:39:54] INFO root fetch - processPackages [sumake]: Remove: archive file [/home/abi/fetcher/tmp/sumake-0.0.3.tar.gz]
+[2023-08-04 12:39:54] INFO root fetch - main [MainThread]: End processing [sumake]: success
+[2023-08-04 12:39:55] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-08-04 12:39:55] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-08-04 12:39:55] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-08-04 12:39:55] INFO root fetch - processPackages [gwsnr]: Remove: archive file [/home/abi/fetcher/tmp/gwsnr-0.1.1.tar.gz]
+[2023-08-04 12:39:55] INFO root fetch - processPackages [gwsnr]: Remove: archive file [/home/abi/fetcher/tmp/gwsnr-0.1.2.tar.gz]
+[2023-08-04 12:39:55] INFO root fetch - main [MainThread]: End processing [gwsnr]: success
+[2023-08-04 12:39:55] INFO root fetch - processPackages [jeeves-yeti-pyproject]: Remove: archive file [/home/abi/fetcher/tmp/jeeves_yeti_pyproject-0.2.8.tar.gz]
+[2023-08-04 12:39:55] INFO root fetch - processPackages [jeeves-yeti-pyproject]: Remove: archive file [/home/abi/fetcher/tmp/jeeves_yeti_pyproject-0.2.9.tar.gz]
+[2023-08-04 12:39:55] INFO root fetch - main [MainThread]: End processing [jeeves-yeti-pyproject]: success
+[2023-08-04 12:39:55] INFO root fetch - main [MainThread]: Store serial: [19172844]
