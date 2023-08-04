@@ -18150,3 +18150,159 @@
 [2023-08-04 11:49:13] INFO root fetch - processPackages [GenIce2]: Remove: archive file [/home/abi/fetcher/tmp/GenIce2-2.1b4.tar.gz]
 [2023-08-04 11:49:13] INFO root fetch - main [MainThread]: End processing [GenIce2]: success
 [2023-08-04 11:49:13] INFO root fetch - main [MainThread]: Store serial: [19172344]
+[2023-08-04 11:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172344]
+[2023-08-04 11:54:22] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openghg
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaboatrace.models
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thingsvision
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typer-common-functions
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mitmproxy
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-user
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shawn-api
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gama-client
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: liangutil
+[2023-08-04 11:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: radarpipeline
+[2023-08-04 11:54:22] INFO root fetch - processPackages [metaboatrace.models]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [shawn-api]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [typer-common-functions]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [liangutil]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [openghg]: New version: [1.0.0] Old Version: [0.6.1]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [gama-client]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/d2/0e/17decfa7f68b7689b20fed84b2aaa9736119872be9bcc6844c142d3a0a66/metaboatrace_models-0.4.0.tar.gz
+[2023-08-04 11:54:22] INFO root fetch - processPackages [shawn-api]: Downloading https://files.pythonhosted.org/packages/8e/a8/2c3f62879ff897e30bfa22f1f74f9658e96558b5ac9d81456f2fbd91bac1/shawn_api-0.3.1.tar.gz
+[2023-08-04 11:54:22] INFO root fetch - processPackages [radarpipeline]: New version: [2.0.1b0] Old Version: [2.0.1a0]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [mitmproxy]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [thingsvision]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-08-04 11:54:22] INFO root fetch - processPackages [typer-common-functions]: Downloading https://files.pythonhosted.org/packages/0c/0d/5ea233fa00c58f99a3b6b65887b55c1d8b154c63eb296f38b088f57c610b/typer_common_functions-0.0.3.tar.gz
+[2023-08-04 11:54:22] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-08-04 11:54:22] INFO root fetch - processPackages [openghg]: Downloading https://files.pythonhosted.org/packages/33/03/f12a701dead3de23a93f0514321cac5622929becbe4674e1592ffa76d533/openghg-0.6.1.tar.gz
+[2023-08-04 11:54:22] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/35/cb/e8e138c1e02b2ce5d43402d21998c35b68dd35cae576fc519bb2e71c9498/liangutil-0.1.3.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [gama-client]: Downloading https://files.pythonhosted.org/packages/92/e2/f2993d1463a66ffef482a53bac0175e357a572df34c9a42df05d08689b6b/gama_client-1.1.3.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [mitmproxy]: Downloading https://files.pythonhosted.org/packages/5e/fd/a1a7b57e120db2623ba9ce470867b52eb1e9d56dd9bb74100aee0f0a5b6c/mitmproxy-9.0.0-py3-none-any.whl
+[2023-08-04 11:54:23] INFO root fetch - processPackages [radarpipeline]: Downloading https://files.pythonhosted.org/packages/34/44/3cf4900e49b18eb452233fa50238e79ae923cb1d8590a3cb89e45bd0ad15/radarpipeline-2.0.1a0.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/ec/5e/2f8459bd6b574f343047c25c49da13a0c0553f9603e456d0d3db7ffa2736/thingsvision-2.3.8.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [shawn-api]: Downloading https://files.pythonhosted.org/packages/3e/4d/8bcf44aae0f3ff531ae99fdb6525906ffa8bc89555dbdb117fc1fec6c0fb/shawn_api-0.3.2.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [typer-common-functions]: Downloading https://files.pythonhosted.org/packages/53/f4/afb54ca3b4623dc21ae8e7ce8684c43b7052ed3dd4aa68311514f02ae713/typer_common_functions-0.0.4.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/01/64/e26dbca0b524b2f0c8302273b8ba9f14333c802502777015d7c74c990bee/metaboatrace_models-0.5.0.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [shawn-api]: executing diffoscope
+[2023-08-04 11:54:23] INFO root fetch - processPackages [shawn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shawn_api-0.3.1.tar.gz tmp/shawn_api-0.3.2.tar.gz --markdown 20230804/s/shawn-api/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-04 11:54:23] INFO root fetch - processPackages [typer-common-functions]: executing diffoscope
+[2023-08-04 11:54:23] INFO root fetch - processPackages [typer-common-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_common_functions-0.0.3.tar.gz tmp/typer_common_functions-0.0.4.tar.gz --markdown 20230804/t/typer-common-functions/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-04 11:54:23] INFO root fetch - processPackages [metaboatrace.models]: executing diffoscope
+[2023-08-04 11:54:23] INFO root fetch - processPackages [metaboatrace.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaboatrace_models-0.4.0.tar.gz tmp/metaboatrace_models-0.5.0.tar.gz --markdown 20230804/m/metaboatrace.models/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-04 11:54:23] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-08-04 11:54:23] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230804/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-04 11:54:23] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/e7/fe/db0d7552467424a54ac328af142aab9327024b6941cd5583566c8f1cc0a7/liangutil-0.1.4.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [gama-client]: Downloading https://files.pythonhosted.org/packages/29/3c/6a9dcc731ed9cfc6fdf83b8a5a7e649349cf1299cf86b50bf234e998882f/gama_client-1.1.4.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [openghg]: Downloading https://files.pythonhosted.org/packages/1f/53/b626f84a9f9301ddb9877d6a3c63a5eba6f17040b4373036d103f2799939/openghg-1.0.0.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [radarpipeline]: Downloading https://files.pythonhosted.org/packages/a4/93/2f97178cf462a59c021b9e91f05e9e36caec6d96e81444bfcd0164f884a8/radarpipeline-2.0.1b0.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [liangutil]: executing diffoscope
+[2023-08-04 11:54:23] INFO root fetch - processPackages [liangutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liangutil-0.1.3.tar.gz tmp/liangutil-0.1.4.tar.gz --markdown 20230804/l/liangutil/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-04 11:54:23] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/76/17/f173eaefee854bfa8c1878c712e801e2ee25b00be57df0d85987fa4604f2/thingsvision-2.3.9.tar.gz
+[2023-08-04 11:54:23] INFO root fetch - processPackages [mitmproxy]: Downloading https://files.pythonhosted.org/packages/19/a2/e557f9583373977ee239e516b29af5a9fd12dbf665cfef8a78d9ab92fb5c/mitmproxy-9.0.1-py3-none-any.whl
+[2023-08-04 11:54:23] INFO root fetch - processPackages [gama-client]: executing diffoscope
+[2023-08-04 11:54:23] INFO root fetch - processPackages [gama-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_client-1.1.3.tar.gz tmp/gama_client-1.1.4.tar.gz --markdown 20230804/g/gama-client/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-04 11:54:23] INFO root fetch - processPackages [openghg]: executing diffoscope
+[2023-08-04 11:54:23] INFO root fetch - processPackages [openghg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openghg-0.6.1.tar.gz tmp/openghg-1.0.0.tar.gz --markdown 20230804/o/openghg/0.6.1-1.0.0/diff.md --exclude *.pyd
+[2023-08-04 11:54:23] INFO root fetch - processPackages [radarpipeline]: executing diffoscope
+[2023-08-04 11:54:23] INFO root fetch - processPackages [radarpipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radarpipeline-2.0.1a0.tar.gz tmp/radarpipeline-2.0.1b0.tar.gz --markdown 20230804/r/radarpipeline/2.0.1a0-2.0.1b0/diff.md --exclude *.pyd
+[2023-08-04 11:54:24] INFO root fetch - processPackages [mitmproxy]: executing diffoscope
+[2023-08-04 11:54:24] INFO root fetch - processPackages [thingsvision]: executing diffoscope
+[2023-08-04 11:54:24] INFO root fetch - processPackages [mitmproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitmproxy-9.0.0-py3-none-any.whl.zip tmp/mitmproxy-9.0.1-py3-none-any.whl.zip --markdown 20230804/m/mitmproxy/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2023-08-04 11:54:24] INFO root fetch - processPackages [thingsvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsvision-2.3.8.tar.gz tmp/thingsvision-2.3.9.tar.gz --markdown 20230804/t/thingsvision/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-08-04 11:54:24] INFO root fetch - processPackages [typer-common-functions]: Remove: archive file [/home/abi/fetcher/tmp/typer_common_functions-0.0.3.tar.gz]
+[2023-08-04 11:54:24] INFO root fetch - processPackages [typer-common-functions]: Remove: archive file [/home/abi/fetcher/tmp/typer_common_functions-0.0.4.tar.gz]
+[2023-08-04 11:54:24] INFO root fetch - processPackages [typer-common-functions]: Start processing: proctracer
+[2023-08-04 11:54:24] INFO root fetch - main [MainThread]: End processing [typer-common-functions]: success
+[2023-08-04 11:54:24] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.4.0.tar.gz]
+[2023-08-04 11:54:24] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.5.0.tar.gz]
+[2023-08-04 11:54:24] INFO root fetch - processPackages [metaboatrace.models]: Start processing: Finance-Hermes
+[2023-08-04 11:54:24] INFO root fetch - main [MainThread]: End processing [metaboatrace.models]: success
+[2023-08-04 11:54:25] INFO root fetch - processPackages [Finance-Hermes]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [shawn-api]: Remove: archive file [/home/abi/fetcher/tmp/shawn_api-0.3.1.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [shawn-api]: Remove: archive file [/home/abi/fetcher/tmp/shawn_api-0.3.2.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [shawn-api]: Start processing: asqlcell
+[2023-08-04 11:54:25] INFO root fetch - main [MainThread]: End processing [shawn-api]: success
+[2023-08-04 11:54:25] INFO root fetch - processPackages [proctracer]: New version: [0.0.25] Old Version: [0.0.23]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/c1/6a/a730fc8bade1cd013bb9e73707e7b22001014bf80f92e112c8b62609b589/Finance-Hermes-0.3.1.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [asqlcell]: New version: [0.2.1] Old Version: [0.2.0.1]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.1.3.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.1.4.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [liangutil]: Start processing: pyoptas
+[2023-08-04 11:54:25] INFO root fetch - main [MainThread]: End processing [liangutil]: success
+[2023-08-04 11:54:25] INFO root fetch - processPackages [gama-client]: Remove: archive file [/home/abi/fetcher/tmp/gama_client-1.1.3.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [gama-client]: Remove: archive file [/home/abi/fetcher/tmp/gama_client-1.1.4.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [gama-client]: Start processing: pyfireconsole
+[2023-08-04 11:54:25] INFO root fetch - main [MainThread]: End processing [gama-client]: success
+[2023-08-04 11:54:25] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/5b/b7/db093fdf11a25f8079ff730579e681c11345754896001822ee3c0f2dbbf1/proctracer-0.0.23.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [xj-user]: Start processing: shawn-api
+[2023-08-04 11:54:25] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-08-04 11:54:25] INFO root fetch - processPackages [pyoptas]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [shawn-api]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/88/2c/24e1169f1041e2c0ac4f00e75b78817a3f0781e71ed91e5d095059d560da/Finance-Hermes-0.3.2.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [pyoptas]: Downloading https://files.pythonhosted.org/packages/7b/66/cd6fd3951358b51c02aa563bf538473e757ab04f7623e4fa8dfe0739867a/pyoptas-1.0.5.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [pyfireconsole]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [asqlcell]: Downloading https://files.pythonhosted.org/packages/df/fe/ad2528de956f056d44d0009a9f531af5a28ef7b17a4b20bb009bad172496/asqlcell-0.2.0.1-py2.py3-none-any.whl
+[2023-08-04 11:54:25] INFO root fetch - processPackages [radarpipeline]: Remove: archive file [/home/abi/fetcher/tmp/radarpipeline-2.0.1a0.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [radarpipeline]: Remove: archive file [/home/abi/fetcher/tmp/radarpipeline-2.0.1b0.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [radarpipeline]: Start processing: cardsort
+[2023-08-04 11:54:25] INFO root fetch - main [MainThread]: End processing [radarpipeline]: success
+[2023-08-04 11:54:25] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [shawn-api]: Downloading https://files.pythonhosted.org/packages/7a/06/f7a392a6f2a53e60f129dd7d00d3cc757452139948f9fcbace45544883fe/shawn_api-0.3.3.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [Finance-Hermes]: executing diffoscope
+[2023-08-04 11:54:25] INFO root fetch - processPackages [Finance-Hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Hermes-0.3.1.tar.gz tmp/Finance-Hermes-0.3.2.tar.gz --markdown 20230804/F/Finance-Hermes/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-04 11:54:25] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [proctracer]: Downloading https://files.pythonhosted.org/packages/23/6f/8dd8f796bdf90472abf59b32b0d4215a43c49bfbc1cfff438518e0e36557/proctracer-0.0.25.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [pyoptas]: Downloading https://files.pythonhosted.org/packages/79/3e/f4c79f866025178337b98f7a5a5d0002d2fc0e6aa7c6ed90a433924f5570/pyoptas-1.0.6.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [proctracer]: executing diffoscope
+[2023-08-04 11:54:25] INFO root fetch - processPackages [proctracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proctracer-0.0.23.tar.gz tmp/proctracer-0.0.25.tar.gz --markdown 20230804/p/proctracer/0.0.23-0.0.25/diff.md --exclude *.pyd
+[2023-08-04 11:54:25] INFO root fetch - processPackages [pyoptas]: executing diffoscope
+[2023-08-04 11:54:25] INFO root fetch - processPackages [pyoptas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoptas-1.0.5.tar.gz tmp/pyoptas-1.0.6.tar.gz --markdown 20230804/p/pyoptas/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-04 11:54:25] INFO root fetch - processPackages [pyfireconsole]: Downloading https://files.pythonhosted.org/packages/f3/6f/e299cee8661b08b325cee3b61e3d481d63832e4b145e5ae9116a8a1b0036/pyfireconsole-0.0.2.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-08-04 11:54:25] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.3.8.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.3.9.tar.gz]
+[2023-08-04 11:54:25] INFO root fetch - main [MainThread]: End processing [thingsvision]: success
+[2023-08-04 11:54:26] INFO root fetch - processPackages [shawn-api]: Downloading https://files.pythonhosted.org/packages/8e/c9/f60712114fca59e57d0b65c2c2f2bd88dc36b9bac5b23b96762aa36e0b1a/shawn_api-0.3.4.tar.gz
+[2023-08-04 11:54:26] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-08-04 11:54:26] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230804/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-08-04 11:54:26] INFO root fetch - processPackages [openghg]: Remove: archive file [/home/abi/fetcher/tmp/openghg-0.6.1.tar.gz]
+[2023-08-04 11:54:26] INFO root fetch - processPackages [openghg]: Remove: archive file [/home/abi/fetcher/tmp/openghg-1.0.0.tar.gz]
+[2023-08-04 11:54:26] INFO root fetch - main [MainThread]: End processing [openghg]: success
+[2023-08-04 11:54:26] INFO root fetch - processPackages [asqlcell]: Downloading https://files.pythonhosted.org/packages/72/8a/cb42b3b1d9cc9fb0be19770078158d84a6d8e0b06a9ed89896f8484cd0bb/asqlcell-0.2.1-py2.py3-none-any.whl
+[2023-08-04 11:54:26] INFO root fetch - processPackages [shawn-api]: executing diffoscope
+[2023-08-04 11:54:26] INFO root fetch - processPackages [shawn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shawn_api-0.3.3.tar.gz tmp/shawn_api-0.3.4.tar.gz --markdown 20230804/s/shawn-api/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-04 11:54:26] INFO root fetch - processPackages [pyfireconsole]: Downloading https://files.pythonhosted.org/packages/6f/f8/80a2d95c48204269a053247b04d862c4c235d254e9d27af840f78eaad292/pyfireconsole-0.0.3.tar.gz
+[2023-08-04 11:54:26] INFO root fetch - processPackages [pyfireconsole]: executing diffoscope
+[2023-08-04 11:54:26] INFO root fetch - processPackages [pyfireconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfireconsole-0.0.2.tar.gz tmp/pyfireconsole-0.0.3.tar.gz --markdown 20230804/p/pyfireconsole/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 11:54:26] INFO root fetch - processPackages [asqlcell]: executing diffoscope
+[2023-08-04 11:54:26] INFO root fetch - processPackages [asqlcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asqlcell-0.2.0.1-py2.py3-none-any.whl.zip tmp/asqlcell-0.2.1-py2.py3-none-any.whl.zip --markdown 20230804/a/asqlcell/0.2.0.1-0.2.1/diff.md --exclude *.pyd
+[2023-08-04 11:54:27] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.3.1.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.3.2.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - main [MainThread]: End processing [Finance-Hermes]: success
+[2023-08-04 11:54:27] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-08-04 11:54:27] INFO root fetch - processPackages [pyoptas]: Remove: archive file [/home/abi/fetcher/tmp/pyoptas-1.0.5.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - processPackages [pyoptas]: Remove: archive file [/home/abi/fetcher/tmp/pyoptas-1.0.6.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - main [MainThread]: End processing [pyoptas]: success
+[2023-08-04 11:54:27] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.23.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - processPackages [proctracer]: Remove: archive file [/home/abi/fetcher/tmp/proctracer-0.0.25.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - main [MainThread]: End processing [proctracer]: success
+[2023-08-04 11:54:27] INFO root fetch - processPackages [mitmproxy]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy-9.0.0-py3-none-any.whl.zip]
+[2023-08-04 11:54:27] INFO root fetch - processPackages [mitmproxy]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy-9.0.1-py3-none-any.whl.zip]
+[2023-08-04 11:54:27] INFO root fetch - main [MainThread]: End processing [mitmproxy]: success
+[2023-08-04 11:54:27] INFO root fetch - processPackages [shawn-api]: Remove: archive file [/home/abi/fetcher/tmp/shawn_api-0.3.3.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - processPackages [shawn-api]: Remove: archive file [/home/abi/fetcher/tmp/shawn_api-0.3.4.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - main [MainThread]: End processing [shawn-api]: success
+[2023-08-04 11:54:27] INFO root fetch - processPackages [pyfireconsole]: Remove: archive file [/home/abi/fetcher/tmp/pyfireconsole-0.0.2.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - processPackages [pyfireconsole]: Remove: archive file [/home/abi/fetcher/tmp/pyfireconsole-0.0.3.tar.gz]
+[2023-08-04 11:54:27] INFO root fetch - main [MainThread]: End processing [pyfireconsole]: success
+[2023-08-04 11:57:25] INFO root fetch - processPackages [asqlcell]: Remove: archive file [/home/abi/fetcher/tmp/asqlcell-0.2.0.1-py2.py3-none-any.whl.zip]
+[2023-08-04 11:57:25] INFO root fetch - processPackages [asqlcell]: Remove: archive file [/home/abi/fetcher/tmp/asqlcell-0.2.1-py2.py3-none-any.whl.zip]
+[2023-08-04 11:57:25] INFO root fetch - main [MainThread]: End processing [asqlcell]: success
+[2023-08-04 11:57:25] INFO root fetch - main [MainThread]: Store serial: [19172393]
