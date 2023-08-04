@@ -16397,3 +16397,60 @@
 [2023-08-04 10:28:58] INFO root fetch - processPackages [alibabacloud-linkcard20210520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkcard20210520-1.0.9.tar.gz]
 [2023-08-04 10:28:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkcard20210520]: success
 [2023-08-04 10:28:58] INFO root fetch - main [MainThread]: Store serial: [19171570]
+[2023-08-04 10:34:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171570]
+[2023-08-04 10:34:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-04 10:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-08-04 10:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syslabappsdk
+[2023-08-04 10:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vnac
+[2023-08-04 10:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slxjsonrpc
+[2023-08-04 10:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: importer-local
+[2023-08-04 10:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-es-aeat-mod390
+[2023-08-04 10:34:07] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: New version: [16.0.2.2.0.4] Old Version: [16.0.2.2.0.3]
+[2023-08-04 10:34:07] INFO root fetch - processPackages [importer-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 10:34:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/f5/34/2b9a8c698cec853c8e06b31249ab625b3e47119f78dc6cda8d675128b067/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.3-py3-none-any.whl
+[2023-08-04 10:34:08] INFO root fetch - processPackages [slxjsonrpc]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-04 10:34:08] INFO root fetch - processPackages [syslabappsdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 10:34:08] INFO root fetch - processPackages [vnac]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 10:34:08] INFO root fetch - processPackages [lollms]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-08-04 10:34:08] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/3b/68/0b10215ac7859421c193cd0df3aab70a0aef2e2db5f22c14a5a2fd7bd732/importer-local-0.0.8.tar.gz
+[2023-08-04 10:34:08] INFO root fetch - processPackages [vnac]: Downloading https://files.pythonhosted.org/packages/9c/5e/21d5149c1b6f6ba129a3c037acd01922e77a54d43338496b92f4b73e3a16/vnac-0.1.0.tar.gz
+[2023-08-04 10:34:08] INFO root fetch - processPackages [syslabappsdk]: Downloading https://files.pythonhosted.org/packages/c6/8f/1439fb7831fdfbcd8f32af80f357143730fe27c470dded15a08f6953e3f4/syslabappsdk-0.1.0.tar.gz
+[2023-08-04 10:34:08] INFO root fetch - processPackages [slxjsonrpc]: Downloading https://files.pythonhosted.org/packages/9b/ef/f466088768108048aca0c37918f16854806a046a131b40513d02fe3b2855/slxjsonrpc-0.8.1.tar.gz
+[2023-08-04 10:34:08] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/10/c3/4acb42105c09af55ded63a0d2d71a363228dc15a9307fa75a4fd5a5c97c0/lollms-2.3.0.tar.gz
+[2023-08-04 10:34:08] INFO root fetch - processPackages [importer-local]: Downloading https://files.pythonhosted.org/packages/80/33/939765aa01c27931d172ea899fb7307071569b4fc595e6ec107018aabc97/importer-local-0.0.9.tar.gz
+[2023-08-04 10:34:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/e8/34/77e54ffe4dda320249302909a9194daef311e58f091387e344fbfe90c81d/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.4-py3-none-any.whl
+[2023-08-04 10:34:08] INFO root fetch - processPackages [importer-local]: executing diffoscope
+[2023-08-04 10:34:08] INFO root fetch - processPackages [importer-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importer-local-0.0.8.tar.gz tmp/importer-local-0.0.9.tar.gz --markdown 20230804/i/importer-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 10:34:08] INFO root fetch - processPackages [vnac]: Downloading https://files.pythonhosted.org/packages/db/f1/7d6130c1a1de5387af9f4e1d910111a5a53e183c40472448d591d8f2db2a/vnac-0.1.1.tar.gz
+[2023-08-04 10:34:08] INFO root fetch - processPackages [syslabappsdk]: Downloading https://files.pythonhosted.org/packages/3e/31/ac85b5d2ca3158dac53c5373891519b7ffddd834c00693c3eca1837e0b9c/syslabappsdk-0.1.1.tar.gz
+[2023-08-04 10:34:08] INFO root fetch - processPackages [slxjsonrpc]: Downloading https://files.pythonhosted.org/packages/43/40/2d3c540d5a3843de7bf9b106d734818064642010c971eda7ab5a8d328eb2/slxjsonrpc-0.9.0.tar.gz
+[2023-08-04 10:34:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: executing diffoscope
+[2023-08-04 10:34:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.4-py3-none-any.whl.zip --markdown 20230804/o/odoo-addon-l10n-es-aeat-mod390/16.0.2.2.0.3-16.0.2.2.0.4/diff.md --exclude *.pyd
+[2023-08-04 10:34:08] INFO root fetch - processPackages [syslabappsdk]: executing diffoscope
+[2023-08-04 10:34:08] INFO root fetch - processPackages [syslabappsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syslabappsdk-0.1.0.tar.gz tmp/syslabappsdk-0.1.1.tar.gz --markdown 20230804/s/syslabappsdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 10:34:08] INFO root fetch - processPackages [slxjsonrpc]: executing diffoscope
+[2023-08-04 10:34:08] INFO root fetch - processPackages [slxjsonrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slxjsonrpc-0.8.1.tar.gz tmp/slxjsonrpc-0.9.0.tar.gz --markdown 20230804/s/slxjsonrpc/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 10:34:08] INFO root fetch - processPackages [vnac]: executing diffoscope
+[2023-08-04 10:34:08] INFO root fetch - processPackages [vnac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnac-0.1.0.tar.gz tmp/vnac-0.1.1.tar.gz --markdown 20230804/v/vnac/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 10:34:08] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/10/d2/b8e9629dfa158c5c9f34012396f6e3c17a49e834d1ef511d555f9f390b71/lollms-2.3.1.tar.gz
+[2023-08-04 10:34:09] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-08-04 10:34:09] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.3.0.tar.gz tmp/lollms-2.3.1.tar.gz --markdown 20230804/l/lollms/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-08-04 10:34:09] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.8.tar.gz]
+[2023-08-04 10:34:09] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
+[2023-08-04 10:34:09] INFO root fetch - main [MainThread]: End processing [importer-local]: success
+[2023-08-04 10:34:09] INFO root fetch - processPackages [vnac]: Remove: archive file [/home/abi/fetcher/tmp/vnac-0.1.0.tar.gz]
+[2023-08-04 10:34:09] INFO root fetch - processPackages [vnac]: Remove: archive file [/home/abi/fetcher/tmp/vnac-0.1.1.tar.gz]
+[2023-08-04 10:34:09] INFO root fetch - main [MainThread]: End processing [vnac]: success
+[2023-08-04 10:34:09] INFO root fetch - processPackages [slxjsonrpc]: Remove: archive file [/home/abi/fetcher/tmp/slxjsonrpc-0.8.1.tar.gz]
+[2023-08-04 10:34:09] INFO root fetch - processPackages [slxjsonrpc]: Remove: archive file [/home/abi/fetcher/tmp/slxjsonrpc-0.9.0.tar.gz]
+[2023-08-04 10:34:09] INFO root fetch - main [MainThread]: End processing [slxjsonrpc]: success
+[2023-08-04 10:34:09] INFO root fetch - processPackages [syslabappsdk]: Remove: archive file [/home/abi/fetcher/tmp/syslabappsdk-0.1.0.tar.gz]
+[2023-08-04 10:34:09] INFO root fetch - processPackages [syslabappsdk]: Remove: archive file [/home/abi/fetcher/tmp/syslabappsdk-0.1.1.tar.gz]
+[2023-08-04 10:34:09] INFO root fetch - main [MainThread]: End processing [syslabappsdk]: success
+[2023-08-04 10:34:10] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.3.0.tar.gz]
+[2023-08-04 10:34:10] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.3.1.tar.gz]
+[2023-08-04 10:34:10] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-08-04 10:34:10] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.3-py3-none-any.whl.zip]
+[2023-08-04 10:34:10] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.2.0.4-py3-none-any.whl.zip]
+[2023-08-04 10:34:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod390]: success
+[2023-08-04 10:34:10] INFO root fetch - main [MainThread]: Store serial: [19171587]
