@@ -15592,3 +15592,120 @@
 [2023-08-04 09:56:54] INFO root fetch - processPackages [flydra-analysis]: Remove: archive file [/home/abi/fetcher/tmp/flydra_analysis-0.7.15.tar.gz]
 [2023-08-04 09:56:54] INFO root fetch - main [MainThread]: End processing [flydra-analysis]: success
 [2023-08-04 09:56:54] INFO root fetch - main [MainThread]: Store serial: [19171241]
+[2023-08-04 10:01:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171241]
+[2023-08-04 10:02:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bardclient
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastmessage
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huhk
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ernie
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neco-f
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi_amis_admin
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-ads-report
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anvil-app-server
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-graph-builder
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vnac
+[2023-08-04 10:02:03] INFO root fetch - processPackages [fastmessage]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 10:02:03] INFO root fetch - processPackages [dbt-graph-builder]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-04 10:02:03] INFO root fetch - processPackages [neco-f]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-08-04 10:02:03] INFO root fetch - processPackages [huhk]: New version: [1.9.8] Old Version: [1.9.7]
+[2023-08-04 10:02:03] WARNING root fetch - processPackages [bardclient]: Skipping, unable to determine old version
+[2023-08-04 10:02:03] INFO root fetch - processPackages [bardclient]: Start processing: waffle-box
+[2023-08-04 10:02:03] INFO root fetch - main [MainThread]: End processing [bardclient] error
+[2023-08-04 10:02:03] INFO root fetch - processPackages [anvil-app-server]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-04 10:02:03] INFO root fetch - processPackages [ernie]: New version: [1.2308.1] Old Version: [1.2308.0]
+[2023-08-04 10:02:03] INFO root fetch - processPackages [fastmessage]: Downloading https://files.pythonhosted.org/packages/a4/08/3657683a1910abed7c982bf902f1c988ff682fdb00dd6b7e43fa73f97ead/fastmessage-0.0.2.tar.gz
+[2023-08-04 10:02:03] INFO root fetch - processPackages [fastapi_amis_admin]: New version: [0.6.3a1] Old Version: [0.6.2a1]
+[2023-08-04 10:02:03] INFO root fetch - processPackages [google-ads-report]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-04 10:02:03] WARNING root fetch - processPackages [vnac]: Skipping, unable to determine old version
+[2023-08-04 10:02:03] INFO root fetch - processPackages [vnac]: Start processing: gammarer.aws-secure-bucket
+[2023-08-04 10:02:03] INFO root fetch - main [MainThread]: End processing [vnac] error
+[2023-08-04 10:02:03] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/1c/d2/01948ac98bf6a73a7d35dfca13d66457e4f2ac9ea6155f9a12e04ec55f44/huhk-1.9.7.tar.gz
+[2023-08-04 10:02:03] INFO root fetch - processPackages [waffle-box]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-04 10:02:03] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-04 10:02:03] INFO root fetch - processPackages [neco-f]: Downloading https://files.pythonhosted.org/packages/b0/9e/65a4438301da48dbf0edf6aa3f4104b16906f90e7edb1175f076dc05fc1d/neco_f-0.0.1.tar.gz
+[2023-08-04 10:02:03] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/43/1d/420f20aa5bf45fafcc07097de3cd1a76bcc3abb1902fa0e2137bcf66fa4f/dbt-graph-builder-0.6.1.tar.gz
+[2023-08-04 10:02:03] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/e5/38/5b420860f93794e18802eacf479e833a4db9e09459fe2a4186487210f680/gammarer.aws-secure-bucket-0.9.8.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [anvil-app-server]: Downloading https://files.pythonhosted.org/packages/97/08/4f9013a516a0f496842670251f183b128ed1e3ced96873cd96b27c1d03a6/anvil-app-server-1.8.0.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [ernie]: Downloading https://files.pythonhosted.org/packages/2d/07/e03055254978fdbee93edcefd54861159fede2193c7cd79727be41e4989a/ernie-1.2308.0-py3-none-any.whl
+[2023-08-04 10:02:04] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/2a/de/ffd8328015a4309b81fdfd2f19f06aafdb43b2ebecae528e99ec35ae611f/fastapi_amis_admin-0.6.2a1.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [google-ads-report]: Downloading https://files.pythonhosted.org/packages/81/a3/dc5eee370f01d22c459ae6dfc1818750f09c6ef6023109e3be8428e3f5e1/google_ads_report-0.2.0.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [waffle-box]: Downloading https://files.pythonhosted.org/packages/f9/9a/1d2c92c3862065931862a6ad3a3958292d764aca82d35bfcbbd38256041e/waffle_box-0.1.0.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [fastmessage]: Downloading https://files.pythonhosted.org/packages/54/52/0d45cc5ac4b945b2804778114c4c7cffb794ef782f54d007b77f1b34ba7c/fastmessage-0.0.3.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/3b/4e/1f661d6b2d55d07d1afdef6b1b3efb199bbd33b2773d0f0acb2861a1fbc0/huhk-1.9.8.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [fastmessage]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [fastmessage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmessage-0.0.2.tar.gz tmp/fastmessage-0.0.3.tar.gz --markdown 20230804/f/fastmessage/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 10:02:04] INFO root fetch - processPackages [neco-f]: Downloading https://files.pythonhosted.org/packages/00/22/d0442bc52e1aabf80e7079dbdac8378f19938e9af18294fcc127fb312b8c/neco_f-0.0.3.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/e7/01/35754717c4247777fc8ab838388706f31b43247bf97dae35be644bbd9509/dbt-graph-builder-0.6.2.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/36/90/e611ddc1c76866489b8236c7bc76c65f47dd2d74abf84c84dc89478cee6c/gammarer.aws-secure-bucket-0.9.9.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.9.7.tar.gz tmp/huhk-1.9.8.tar.gz --markdown 20230804/h/huhk/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2023-08-04 10:02:04] INFO root fetch - processPackages [ernie]: Downloading https://files.pythonhosted.org/packages/d1/a7/52fb0ddb395cce6c944d5fb08f4f96d4648131b7beb1a53bda70100148f1/ernie-1.2308.1-py3-none-any.whl
+[2023-08-04 10:02:04] INFO root fetch - processPackages [google-ads-report]: Downloading https://files.pythonhosted.org/packages/bf/ee/790bdb54b7cfab0bbd347ee93cecd4369f1ff88acec8fa27807383bbf154/google_ads_report-0.2.1.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [dbt-graph-builder]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [dbt-graph-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-graph-builder-0.6.1.tar.gz tmp/dbt-graph-builder-0.6.2.tar.gz --markdown 20230804/d/dbt-graph-builder/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-04 10:02:04] INFO root fetch - processPackages [waffle-box]: Downloading https://files.pythonhosted.org/packages/0e/a1/eedd77d066f9ffe69a08ac1c869d305e7bc2f2e44139be7edf1752204b0f/waffle_box-0.2.0.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz --markdown 20230804/g/gammarer.aws-secure-bucket/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-04 10:02:04] INFO root fetch - processPackages [anvil-app-server]: Downloading https://files.pythonhosted.org/packages/89/e3/2ec8e821dd87b527319b1f5f235f4eba67027c14fd6ea59b1263e93ae11b/anvil-app-server-1.9.0.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/7a/9c/dad6580e522289a5678a3d5994b419029f0332b914c2355e8b7e595098db/fastapi_amis_admin-0.6.3a1.tar.gz
+[2023-08-04 10:02:04] INFO root fetch - processPackages [neco-f]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [neco-f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neco_f-0.0.1.tar.gz tmp/neco_f-0.0.3.tar.gz --markdown 20230804/n/neco-f/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 10:02:04] INFO root fetch - processPackages [google-ads-report]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [google-ads-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_ads_report-0.2.0.tar.gz tmp/google_ads_report-0.2.1.tar.gz --markdown 20230804/g/google-ads-report/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-04 10:02:04] INFO root fetch - processPackages [ernie]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [ernie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ernie-1.2308.0-py3-none-any.whl.zip tmp/ernie-1.2308.1-py3-none-any.whl.zip --markdown 20230804/e/ernie/1.2308.0-1.2308.1/diff.md --exclude *.pyd
+[2023-08-04 10:02:04] INFO root fetch - processPackages [waffle-box]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [waffle-box]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_box-0.1.0.tar.gz tmp/waffle_box-0.2.0.tar.gz --markdown 20230804/w/waffle-box/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 10:02:04] INFO root fetch - processPackages [anvil-app-server]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [anvil-app-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anvil-app-server-1.8.0.tar.gz tmp/anvil-app-server-1.9.0.tar.gz --markdown 20230804/a/anvil-app-server/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-04 10:02:04] INFO root fetch - processPackages [fastapi_amis_admin]: executing diffoscope
+[2023-08-04 10:02:04] INFO root fetch - processPackages [fastapi_amis_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin-0.6.2a1.tar.gz tmp/fastapi_amis_admin-0.6.3a1.tar.gz --markdown 20230804/f/fastapi_amis_admin/0.6.2a1-0.6.3a1/diff.md --exclude *.pyd
+[2023-08-04 10:02:05] INFO root fetch - processPackages [fastmessage]: Remove: archive file [/home/abi/fetcher/tmp/fastmessage-0.0.2.tar.gz]
+[2023-08-04 10:02:05] INFO root fetch - processPackages [fastmessage]: Remove: archive file [/home/abi/fetcher/tmp/fastmessage-0.0.3.tar.gz]
+[2023-08-04 10:02:05] INFO root fetch - processPackages [fastmessage]: Start processing: oarepo-ui
+[2023-08-04 10:02:05] INFO root fetch - main [MainThread]: End processing [fastmessage]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.6.1.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.6.2.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [dbt-graph-builder]: Start processing: onestep
+[2023-08-04 10:02:06] INFO root fetch - main [MainThread]: End processing [dbt-graph-builder]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/49/3c/5d87e2fb479ef282c83cc818b68215fe52a28115915aa8288ecf89dd107c/oarepo-ui-5.0.8.tar.gz
+[2023-08-04 10:02:06] INFO root fetch - processPackages [onestep]: New version: [0.2.0] Old Version: [0.1.81]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.8.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-0.9.9.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [neco-f]: Remove: archive file [/home/abi/fetcher/tmp/neco_f-0.0.1.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [neco-f]: Remove: archive file [/home/abi/fetcher/tmp/neco_f-0.0.3.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - main [MainThread]: End processing [neco-f]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [google-ads-report]: Remove: archive file [/home/abi/fetcher/tmp/google_ads_report-0.2.0.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [google-ads-report]: Remove: archive file [/home/abi/fetcher/tmp/google_ads_report-0.2.1.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - main [MainThread]: End processing [google-ads-report]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [ernie]: Remove: archive file [/home/abi/fetcher/tmp/ernie-1.2308.0-py3-none-any.whl.zip]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [ernie]: Remove: archive file [/home/abi/fetcher/tmp/ernie-1.2308.1-py3-none-any.whl.zip]
+[2023-08-04 10:02:06] INFO root fetch - main [MainThread]: End processing [ernie]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.7.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.8.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [onestep]: Downloading https://files.pythonhosted.org/packages/02/27/738736ceeaa51e2501c52e1af47dc1377b1a4ed470d28d61fd87bbb8c5e1/onestep-0.1.81.tar.gz
+[2023-08-04 10:02:06] INFO root fetch - processPackages [waffle-box]: Remove: archive file [/home/abi/fetcher/tmp/waffle_box-0.1.0.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [waffle-box]: Remove: archive file [/home/abi/fetcher/tmp/waffle_box-0.2.0.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - main [MainThread]: End processing [waffle-box]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.2a1.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.3a1.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - main [MainThread]: End processing [fastapi_amis_admin]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/3f/5a/7fecedd4e7c29ba8d68233c490b8b3e39ffb36289b9fbb4183058fc02342/oarepo-ui-5.0.9.tar.gz
+[2023-08-04 10:02:06] INFO root fetch - processPackages [anvil-app-server]: Remove: archive file [/home/abi/fetcher/tmp/anvil-app-server-1.8.0.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - processPackages [anvil-app-server]: Remove: archive file [/home/abi/fetcher/tmp/anvil-app-server-1.9.0.tar.gz]
+[2023-08-04 10:02:06] INFO root fetch - main [MainThread]: End processing [anvil-app-server]: success
+[2023-08-04 10:02:06] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-08-04 10:02:06] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230804/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-08-04 10:02:06] INFO root fetch - processPackages [onestep]: Downloading https://files.pythonhosted.org/packages/90/9e/5c36f2cde7f1c1d97be6d06edc6ef61ea3335b7ad8a62fc67ffd02fef386/onestep-0.2.0.tar.gz
+[2023-08-04 10:02:07] INFO root fetch - processPackages [onestep]: executing diffoscope
+[2023-08-04 10:02:07] INFO root fetch - processPackages [onestep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onestep-0.1.81.tar.gz tmp/onestep-0.2.0.tar.gz --markdown 20230804/o/onestep/0.1.81-0.2.0/diff.md --exclude *.pyd
+[2023-08-04 10:02:07] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.8.tar.gz]
+[2023-08-04 10:02:07] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.0.9.tar.gz]
+[2023-08-04 10:02:07] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-08-04 10:02:07] INFO root fetch - processPackages [onestep]: Remove: archive file [/home/abi/fetcher/tmp/onestep-0.1.81.tar.gz]
+[2023-08-04 10:02:07] INFO root fetch - processPackages [onestep]: Remove: archive file [/home/abi/fetcher/tmp/onestep-0.2.0.tar.gz]
+[2023-08-04 10:02:07] INFO root fetch - main [MainThread]: End processing [onestep]: success
+[2023-08-04 10:02:07] INFO root fetch - main [MainThread]: Store serial: [19171296]
