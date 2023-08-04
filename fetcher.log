@@ -18306,3 +18306,141 @@
 [2023-08-04 11:57:25] INFO root fetch - processPackages [asqlcell]: Remove: archive file [/home/abi/fetcher/tmp/asqlcell-0.2.1-py2.py3-none-any.whl.zip]
 [2023-08-04 11:57:25] INFO root fetch - main [MainThread]: End processing [asqlcell]: success
 [2023-08-04 11:57:25] INFO root fetch - main [MainThread]: Store serial: [19172393]
+[2023-08-04 12:02:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172393]
+[2023-08-04 12:02:35] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amid
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-p3
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrtid
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omni-infer-api-account
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-ke-utils-fastapi
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-adapter-red
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wowipy
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RWAPIMicroservicePython
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: musiclang
+[2023-08-04 12:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-dogu-sdk
+[2023-08-04 12:02:36] INFO root fetch - processPackages [wowipy]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-08-04 12:02:36] INFO root fetch - processPackages [amid]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-04 12:02:36] INFO root fetch - processPackages [py-ke-utils-fastapi]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-08-04 12:02:36] INFO root fetch - processPackages [musiclang]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-04 12:02:36] INFO root fetch - processPackages [pytest-dogu-sdk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-04 12:02:36] WARNING root fetch - processPackages [nonebot-adapter-red]: Skipping, unable to determine old version
+[2023-08-04 12:02:36] INFO root fetch - processPackages [nonebot-adapter-red]: Start processing: py-ke-utils-fastapi
+[2023-08-04 12:02:36] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-red] error
+[2023-08-04 12:02:36] WARNING root fetch - processPackages [pyrtid]: Skipping, unable to determine old version
+[2023-08-04 12:02:36] INFO root fetch - processPackages [RWAPIMicroservicePython]: New version: [3.0.0rc1] Old Version: [3.0.0b6]
+[2023-08-04 12:02:36] INFO root fetch - processPackages [astro-p3]: New version: [1.2] Old Version: [1.1]
+[2023-08-04 12:02:36] INFO root fetch - processPackages [pyrtid]: Start processing: review-bot
+[2023-08-04 12:02:36] INFO root fetch - main [MainThread]: End processing [pyrtid] error
+[2023-08-04 12:02:36] INFO root fetch - processPackages [omni-infer-api-account]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-04 12:02:36] INFO root fetch - processPackages [py-ke-utils-fastapi]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-08-04 12:02:36] INFO root fetch - processPackages [amid]: Downloading https://files.pythonhosted.org/packages/63/b6/7b8fbac0e861e9709a550fb10b182f206e9daf576813d1ab075397ecd4bc/amid-0.9.0.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [py-ke-utils-fastapi]: Downloading https://files.pythonhosted.org/packages/d8/9e/2ff2e8de43e217943854acb5ffec34db97557b4587cb7919df1eec2c519b/py-ke-utils-fastapi-2.1.2.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/2b/d9/64c21d6e4e93395e9572edd152c5e117fb4f258637232d80c309214e8f12/wowipy-1.1.7.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [pytest-dogu-sdk]: Downloading https://files.pythonhosted.org/packages/54/e5/054d170d7ca73bce862f9ab8c5dfbc90b4e100ef3550952d6d3d132c8280/pytest_dogu_sdk-1.0.2.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [py-ke-utils-fastapi]: Downloading https://files.pythonhosted.org/packages/d8/9e/2ff2e8de43e217943854acb5ffec34db97557b4587cb7919df1eec2c519b/py-ke-utils-fastapi-2.1.2.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [astro-p3]: Downloading https://files.pythonhosted.org/packages/7e/4c/10266937b5ffa38ede6ae5afa06cc53bc991b51e4e7361d00b9d40b48c3a/astro-p3-1.1.tar.gz
+[2023-08-04 12:02:36] WARNING root fetch - processPackages [review-bot]: Skipping, unable to determine old version
+[2023-08-04 12:02:36] INFO root fetch - processPackages [review-bot]: Start processing: astro-seeing
+[2023-08-04 12:02:36] INFO root fetch - main [MainThread]: End processing [review-bot] error
+[2023-08-04 12:02:36] INFO root fetch - processPackages [musiclang]: Downloading https://files.pythonhosted.org/packages/ce/b8/ebd6ace55d3e94beab410e5bcaf30617e7a0bc4d4c56979db7804c6b4e72/musiclang-0.8.9.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/aa/5e/e4f6faae8e4d6ad43eed68a1767ea99afe2adcc9259496040aa7e14a98aa/RWAPIMicroservicePython-3.0.0b6.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/da/20/c7303241f44725f747febc645654ea1432d40b749b99596d3ab5489e7eba/omni_infer_api_account-0.0.4-py3-none-any.whl
+[2023-08-04 12:02:36] INFO root fetch - processPackages [astro-seeing]: New version: [1.1] Old Version: [1.0]
+[2023-08-04 12:02:36] INFO root fetch - processPackages [py-ke-utils-fastapi]: Downloading https://files.pythonhosted.org/packages/c1/f5/5730e278aca693535e962ecf38d6db2faee07bcaaef42890ebd215dfe99e/py-ke-utils-fastapi-2.1.3.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [py-ke-utils-fastapi]: Downloading https://files.pythonhosted.org/packages/c1/f5/5730e278aca693535e962ecf38d6db2faee07bcaaef42890ebd215dfe99e/py-ke-utils-fastapi-2.1.3.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/a2/f4/dcb4ad2e5d49511fbbeecd3416ea7ad8cbc2cd652725055ceeab94dcb38f/wowipy-1.1.8.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [amid]: Downloading https://files.pythonhosted.org/packages/0b/92/30a29361e79dfdb9bd10412e1465fd6fb5e780e40a34f24dc5f071fc07bc/amid-0.9.1.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [pytest-dogu-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3a/d6079f13a723295ec3a2d7168e35f4c8a5fe81651257cd065c70b4598582/pytest_dogu_sdk-1.0.3.tar.gz
+[2023-08-04 12:02:36] INFO root fetch - processPackages [astro-seeing]: Downloading https://files.pythonhosted.org/packages/dc/12/b95d901af79e493d269736d01a16c61b4d78a34f6d8688c0439230c45385/astro-seeing-1.0.tar.gz
+[2023-08-04 12:02:37] INFO root fetch - processPackages [RWAPIMicroservicePython]: Downloading https://files.pythonhosted.org/packages/82/11/298c3029e3c64709904e4c78acbdeb9efe35f6fdef722ea9e8174078b13d/RWAPIMicroservicePython-3.0.0rc1.tar.gz
+[2023-08-04 12:02:37] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/4f/c0/f71f6109f121f38984b80d096d25da08469c21bee7b8de223431d3f9913d/omni_infer_api_account-0.0.5-py3-none-any.whl
+[2023-08-04 12:02:37] INFO root fetch - processPackages [py-ke-utils-fastapi]: executing diffoscope
+[2023-08-04 12:02:37] INFO root fetch - processPackages [py-ke-utils-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ke-utils-fastapi-2.1.2.tar.gz tmp/py-ke-utils-fastapi-2.1.3.tar.gz --markdown 20230804/p/py-ke-utils-fastapi/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-08-04 12:02:37] INFO root fetch - processPackages [py-ke-utils-fastapi]: executing diffoscope
+[2023-08-04 12:02:37] INFO root fetch - processPackages [py-ke-utils-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ke-utils-fastapi-2.1.2.tar.gz tmp/py-ke-utils-fastapi-2.1.3.tar.gz --markdown 20230804/p/py-ke-utils-fastapi/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-08-04 12:02:37] INFO root fetch - processPackages [musiclang]: Downloading https://files.pythonhosted.org/packages/d4/5a/a2e334f6601cb06ef981157ac2e64ddb698b5a57f278d3b9c10a5b21df87/musiclang-0.9.0.tar.gz
+[2023-08-04 12:02:37] INFO root fetch - processPackages [pytest-dogu-sdk]: executing diffoscope
+[2023-08-04 12:02:37] INFO root fetch - processPackages [pytest-dogu-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_dogu_sdk-1.0.2.tar.gz tmp/pytest_dogu_sdk-1.0.3.tar.gz --markdown 20230804/p/pytest-dogu-sdk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-04 12:02:37] INFO root fetch - processPackages [wowipy]: executing diffoscope
+[2023-08-04 12:02:37] INFO root fetch - processPackages [wowipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowipy-1.1.7.tar.gz tmp/wowipy-1.1.8.tar.gz --markdown 20230804/w/wowipy/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-08-04 12:02:37] INFO root fetch - processPackages [omni-infer-api-account]: executing diffoscope
+[2023-08-04 12:02:37] INFO root fetch - processPackages [omni-infer-api-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api_account-0.0.4-py3-none-any.whl.zip tmp/omni_infer_api_account-0.0.5-py3-none-any.whl.zip --markdown 20230804/o/omni-infer-api-account/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-04 12:02:37] INFO root fetch - processPackages [RWAPIMicroservicePython]: executing diffoscope
+[2023-08-04 12:02:37] INFO root fetch - processPackages [RWAPIMicroservicePython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RWAPIMicroservicePython-3.0.0b6.tar.gz tmp/RWAPIMicroservicePython-3.0.0rc1.tar.gz --markdown 20230804/R/RWAPIMicroservicePython/3.0.0b6-3.0.0rc1/diff.md --exclude *.pyd
+[2023-08-04 12:02:37] INFO root fetch - processPackages [amid]: executing diffoscope
+[2023-08-04 12:02:37] INFO root fetch - processPackages [amid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amid-0.9.0.tar.gz tmp/amid-0.9.1.tar.gz --markdown 20230804/a/amid/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-04 12:02:37] INFO root fetch - processPackages [musiclang]: executing diffoscope
+[2023-08-04 12:02:37] INFO root fetch - processPackages [musiclang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musiclang-0.8.9.tar.gz tmp/musiclang-0.9.0.tar.gz --markdown 20230804/m/musiclang/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 12:02:37] INFO root fetch - processPackages [astro-p3]: Downloading https://files.pythonhosted.org/packages/1f/3c/f963ceed961e0054fad16a807f8225ff232d5c060b69c07344ca4bcab9b3/astro-p3-1.2.tar.gz
+[2023-08-04 12:02:37] INFO root fetch - processPackages [astro-seeing]: Downloading https://files.pythonhosted.org/packages/d8/52/1d2e292738057bb738f8be3f3ef1e43b0479536b09aa7073f7b17461746a/astro-seeing-1.1.tar.gz
+[2023-08-04 12:02:37] INFO root fetch - processPackages [astro-seeing]: executing diffoscope
+[2023-08-04 12:02:37] INFO root fetch - processPackages [astro-seeing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-seeing-1.0.tar.gz tmp/astro-seeing-1.1.tar.gz --markdown 20230804/a/astro-seeing/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-04 12:02:38] INFO root fetch - processPackages [astro-p3]: executing diffoscope
+[2023-08-04 12:02:38] INFO root fetch - processPackages [astro-p3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-p3-1.1.tar.gz tmp/astro-p3-1.2.tar.gz --markdown 20230804/a/astro-p3/1.1-1.2/diff.md --exclude *.pyd
+[2023-08-04 12:02:38] INFO root fetch - processPackages [py-ke-utils-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/py-ke-utils-fastapi-2.1.2.tar.gz]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [py-ke-utils-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/py-ke-utils-fastapi-2.1.3.tar.gz]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [py-ke-utils-fastapi]: Start processing: sphractal
+[2023-08-04 12:02:38] INFO root fetch - main [MainThread]: End processing [py-ke-utils-fastapi]: success
+[2023-08-04 12:02:38] INFO root fetch - processPackages [sphractal]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [pytest-dogu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dogu_sdk-1.0.2.tar.gz]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [pytest-dogu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dogu_sdk-1.0.3.tar.gz]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [pytest-dogu-sdk]: Start processing: loongchain
+[2023-08-04 12:02:38] INFO root fetch - main [MainThread]: End processing [pytest-dogu-sdk]: success
+[2023-08-04 12:02:38] INFO root fetch - processPackages [py-ke-utils-fastapi]: Start processing: codeinterpreterapi-warren
+[2023-08-04 12:02:38] INFO root fetch - main [MainThread]: End processing [py-ke-utils-fastapi]: success
+[2023-08-04 12:02:38] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.4-py3-none-any.whl.zip]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.5-py3-none-any.whl.zip]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [omni-infer-api-account]: Start processing: cardsort
+[2023-08-04 12:02:38] INFO root fetch - main [MainThread]: End processing [omni-infer-api-account]: success
+[2023-08-04 12:02:38] WARNING root fetch - processPackages [loongchain]: Skipping, unable to determine old version
+[2023-08-04 12:02:38] INFO root fetch - processPackages [loongchain]: Start processing: confection
+[2023-08-04 12:02:38] INFO root fetch - main [MainThread]: End processing [loongchain] error
+[2023-08-04 12:02:38] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0b6.tar.gz]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [RWAPIMicroservicePython]: Remove: archive file [/home/abi/fetcher/tmp/RWAPIMicroservicePython-3.0.0rc1.tar.gz]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [RWAPIMicroservicePython]: Start processing: huhk
+[2023-08-04 12:02:38] INFO root fetch - main [MainThread]: End processing [RWAPIMicroservicePython]: success
+[2023-08-04 12:02:38] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/6d/156256fa9e3fa7de2df2059d47e10f9622e16808846d88bf7a096397ad36/sphractal-0.9.0.tar.gz
+[2023-08-04 12:02:38] INFO root fetch - processPackages [huhk]: New version: [2.1.1] Old Version: [1.9.9]
+[2023-08-04 12:02:38] WARNING root fetch - processPackages [codeinterpreterapi-warren]: Skipping, unable to determine old version
+[2023-08-04 12:02:38] INFO root fetch - main [MainThread]: End processing [codeinterpreterapi-warren] error
+[2023-08-04 12:02:38] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-08-04 12:02:38] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.7.tar.gz]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.8.tar.gz]
+[2023-08-04 12:02:38] INFO root fetch - main [MainThread]: End processing [wowipy]: success
+[2023-08-04 12:02:38] INFO root fetch - processPackages [confection]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 12:02:38] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/86/64/87b2533b30e1c3e4a50dbef4f7cf2f5537c96e4cc1a3dfa214f61dcce52e/huhk-1.9.9.tar.gz
+[2023-08-04 12:02:39] WARNING root fetch - processPackages [huhk]: Skipping package: exceeds size limit 17064681>=10485760
+[2023-08-04 12:02:39] INFO root fetch - main [MainThread]: End processing [huhk] error
+[2023-08-04 12:02:39] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-08-04 12:02:39] INFO root fetch - processPackages [amid]: Remove: archive file [/home/abi/fetcher/tmp/amid-0.9.0.tar.gz]
+[2023-08-04 12:02:39] INFO root fetch - processPackages [amid]: Remove: archive file [/home/abi/fetcher/tmp/amid-0.9.1.tar.gz]
+[2023-08-04 12:02:39] INFO root fetch - main [MainThread]: End processing [amid]: success
+[2023-08-04 12:02:39] INFO root fetch - processPackages [confection]: Downloading https://files.pythonhosted.org/packages/11/84/339d4abb58f432f357c464b8d9c4adcfe581a1c3cdd7d368260ea1422786/confection-0.1.0.tar.gz
+[2023-08-04 12:02:39] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-08-04 12:02:39] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230804/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-08-04 12:02:39] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b7/3c/357fa6f2eda84dc8aff5499145b341ad2d8a7162270a504b401c65b633a3/sphractal-0.9.1.tar.gz
+[2023-08-04 12:02:39] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-08-04 12:02:39] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.9.0.tar.gz tmp/sphractal-0.9.1.tar.gz --markdown 20230804/s/sphractal/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-04 12:02:39] INFO root fetch - processPackages [astro-seeing]: Remove: archive file [/home/abi/fetcher/tmp/astro-seeing-1.0.tar.gz]
+[2023-08-04 12:02:39] INFO root fetch - processPackages [astro-seeing]: Remove: archive file [/home/abi/fetcher/tmp/astro-seeing-1.1.tar.gz]
+[2023-08-04 12:02:39] INFO root fetch - main [MainThread]: End processing [astro-seeing]: success
+[2023-08-04 12:02:39] INFO root fetch - processPackages [confection]: Downloading https://files.pythonhosted.org/packages/ab/c2/b96f3b9865761265c1fb73d81e2c10ff3dd5b8ea08c449c2577174112fdd/confection-0.1.1.tar.gz
+[2023-08-04 12:02:39] INFO root fetch - processPackages [musiclang]: Remove: archive file [/home/abi/fetcher/tmp/musiclang-0.8.9.tar.gz]
+[2023-08-04 12:02:39] INFO root fetch - processPackages [confection]: executing diffoscope
+[2023-08-04 12:02:39] INFO root fetch - processPackages [confection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confection-0.1.0.tar.gz tmp/confection-0.1.1.tar.gz --markdown 20230804/c/confection/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 12:02:39] INFO root fetch - processPackages [musiclang]: Remove: archive file [/home/abi/fetcher/tmp/musiclang-0.9.0.tar.gz]
+[2023-08-04 12:02:39] INFO root fetch - main [MainThread]: End processing [musiclang]: success
+[2023-08-04 12:02:40] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-08-04 12:02:40] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-08-04 12:02:40] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-08-04 12:02:40] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.0.tar.gz]
+[2023-08-04 12:02:40] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.9.1.tar.gz]
+[2023-08-04 12:02:40] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-08-04 12:02:40] INFO root fetch - processPackages [confection]: Remove: archive file [/home/abi/fetcher/tmp/confection-0.1.0.tar.gz]
+[2023-08-04 12:02:40] INFO root fetch - processPackages [confection]: Remove: archive file [/home/abi/fetcher/tmp/confection-0.1.1.tar.gz]
+[2023-08-04 12:02:40] INFO root fetch - main [MainThread]: End processing [confection]: success
+[2023-08-04 12:02:44] INFO root fetch - processPackages [astro-p3]: Remove: archive file [/home/abi/fetcher/tmp/astro-p3-1.1.tar.gz]
+[2023-08-04 12:02:44] INFO root fetch - processPackages [astro-p3]: Remove: archive file [/home/abi/fetcher/tmp/astro-p3-1.2.tar.gz]
+[2023-08-04 12:02:44] INFO root fetch - main [MainThread]: End processing [astro-p3]: success
+[2023-08-04 12:02:44] INFO root fetch - main [MainThread]: Store serial: [19172458]
