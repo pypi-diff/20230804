@@ -20605,3 +20605,148 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-04 13:42:50] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-08-04 13:42:50] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-08-04 13:42:50] INFO root fetch - main [MainThread]: Store serial: [19173345]
+[2023-08-04 13:47:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19173345]
+[2023-08-04 13:47:59] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cosimtlk
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: t-val
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyre-check-nightly
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: padic
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonapi-pydantic
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: propertize
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utbot-executor
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: async-wrapper
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tracebloc-package-dev
+[2023-08-04 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-sdk
+[2023-08-04 13:47:59] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [async-wrapper]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [cognite-sdk]: New version: [6.9.0] Old Version: [6.8.7]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [jsonapi-pydantic]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [t-val]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [propertize]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [cosimtlk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [padic]: New version: [0.2.3.1] Old Version: [0.2.3]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/a6/6e/b3572ec28428f7fa10de2a91a553a574f4163fb36a4b61ef6ea3dd854ac0/async_wrapper-0.4.2.tar.gz
+[2023-08-04 13:47:59] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101691147578] Old Version: [0.0.101691061253]
+[2023-08-04 13:47:59] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/78/2a/28d91cf6eb642a8d6c362100bf353e9fe16ae3c12d44d7bf02683979e066/cognite_sdk-6.8.7.tar.gz
+[2023-08-04 13:47:59] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/43/d1/3498b21e6332df747db757ec82d2ef4eaf0ae568632fc3ba770918a4917e/utbot_executor-1.6.2.tar.gz
+[2023-08-04 13:47:59] INFO root fetch - processPackages [t-val]: Downloading https://files.pythonhosted.org/packages/40/5c/f0b3f2c1d45d866afacf0253ca2bae7ab24bdaa8f11cf15cae1000d022e9/t_val-0.0.1.tar.gz
+[2023-08-04 13:47:59] INFO root fetch - processPackages [propertize]: Downloading https://files.pythonhosted.org/packages/f0/4b/d4a6e1626b6fe2ec56a2b60da982b5cea328e23f4acc3e7301ec9e69a8c3/propertize-0.0.2.tar.gz
+[2023-08-04 13:47:59] INFO root fetch - processPackages [jsonapi-pydantic]: Downloading https://files.pythonhosted.org/packages/c8/aa/b9393c775c838d8bc78b86256792f322b923885fb8ad34b874a3cbc09811/jsonapi-pydantic-0.1.4.tar.gz
+[2023-08-04 13:47:59] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/bd/a6/fc9fa635e66f74a5f5a003c57d865804e65091f8f110a3e86610315675bf/pyre-check-nightly-0.0.101691061253.tar.gz
+[2023-08-04 13:47:59] INFO root fetch - processPackages [padic]: Downloading https://files.pythonhosted.org/packages/23/99/bc01964ffa48ecfe93e02aa09ff1f69c74c16b6611d93421f10587b1818d/padic-0.2.3.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [cosimtlk]: Downloading https://files.pythonhosted.org/packages/f4/e0/66b1ebcff7fc221ea0e5a6522442e497d47d257c35a8af703919a7e4d60a/cosimtlk-0.1.0.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/2d/f5/6c57c9e23fc876e1cb0b4245b791c86c7f1a6145a14923e8f8f1e313b0b4/tracebloc_package-dev-0.5.4.tar.gz
+[2023-08-04 13:48:00] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23739449>=10485760
+[2023-08-04 13:48:00] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: DmxOscServer
+[2023-08-04 13:48:00] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-08-04 13:48:00] INFO root fetch - processPackages [utbot-executor]: Downloading https://files.pythonhosted.org/packages/d3/d5/eedae354add65867448b3062ce5d9971a93da9e8272a05276ecd1a9bdb13/utbot_executor-1.6.3.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/b5/0d/573145fea6a8b2dcb6c45f6cdb0d41e3f362253f619f8d150206fce1f23a/async_wrapper-0.4.3.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [t-val]: Downloading https://files.pythonhosted.org/packages/9e/62/c9043a448821fe5dc7aa8f2814f53c3a6e530543a442df77c8b756d75cd4/t_val-0.0.2.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [DmxOscServer]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-04 13:48:00] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-08-04 13:48:00] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.2.tar.gz tmp/utbot_executor-1.6.3.tar.gz --markdown 20230804/u/utbot-executor/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-08-04 13:48:00] INFO root fetch - processPackages [propertize]: Downloading https://files.pythonhosted.org/packages/b1/95/dd8ba0919d8748142b788afbe1a43663df881eabe031637e037a2bcb1cfa/propertize-0.0.3.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [async-wrapper]: executing diffoscope
+[2023-08-04 13:48:00] INFO root fetch - processPackages [async-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_wrapper-0.4.2.tar.gz tmp/async_wrapper-0.4.3.tar.gz --markdown 20230804/a/async-wrapper/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-04 13:48:00] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/ee/0f/6b014b445f08f43cc544922b182c361674f897642deae49079706e127ce0/cognite_sdk-6.9.0.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [jsonapi-pydantic]: Downloading https://files.pythonhosted.org/packages/d8/75/dc8e25f228a670235b746a8fa6ecd59fe1318b9f5c78d65a0d26a0a0e0af/jsonapi-pydantic-0.1.5.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [t-val]: executing diffoscope
+[2023-08-04 13:48:00] INFO root fetch - processPackages [t-val]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_val-0.0.1.tar.gz tmp/t_val-0.0.2.tar.gz --markdown 20230804/t/t-val/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-04 13:48:00] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/66/11/9501f8bd15e649400acd5e3fadb2171f23b847ef4e5dfd3980c49c56605d/tracebloc_package-dev-0.5.5.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [cosimtlk]: Downloading https://files.pythonhosted.org/packages/cf/db/589f40fa2f87fe641ea8a78543f1fe19fbfc4415f1f9926a77b1850698fa/cosimtlk-0.1.1.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [propertize]: executing diffoscope
+[2023-08-04 13:48:00] INFO root fetch - processPackages [propertize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propertize-0.0.2.tar.gz tmp/propertize-0.0.3.tar.gz --markdown 20230804/p/propertize/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-04 13:48:00] INFO root fetch - processPackages [jsonapi-pydantic]: executing diffoscope
+[2023-08-04 13:48:00] INFO root fetch - processPackages [jsonapi-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonapi-pydantic-0.1.4.tar.gz tmp/jsonapi-pydantic-0.1.5.tar.gz --markdown 20230804/j/jsonapi-pydantic/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-04 13:48:00] INFO root fetch - processPackages [padic]: Downloading https://files.pythonhosted.org/packages/a1/52/bd066c07168aac5318a93a26c28a4dec32ca9db39b6c0a401f0905a685e4/padic-0.2.3.1.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-08-04 13:48:00] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.8.7.tar.gz tmp/cognite_sdk-6.9.0.tar.gz --markdown 20230804/c/cognite-sdk/6.8.7-6.9.0/diff.md --exclude *.pyd
+[2023-08-04 13:48:00] INFO root fetch - processPackages [DmxOscServer]: Downloading https://files.pythonhosted.org/packages/d8/e7/738fda4b339f325ee7bfbc3141cd38ed6d72cec530f4bf4fb11a89c69215/DmxOscServer-1.0.2.tar.gz
+[2023-08-04 13:48:00] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-08-04 13:48:00] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.4.tar.gz tmp/tracebloc_package-dev-0.5.5.tar.gz --markdown 20230804/t/tracebloc-package-dev/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-08-04 13:48:00] INFO root fetch - processPackages [cosimtlk]: executing diffoscope
+[2023-08-04 13:48:00] INFO root fetch - processPackages [cosimtlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosimtlk-0.1.0.tar.gz tmp/cosimtlk-0.1.1.tar.gz --markdown 20230804/c/cosimtlk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-04 13:48:00] INFO root fetch - processPackages [padic]: executing diffoscope
+[2023-08-04 13:48:00] INFO root fetch - processPackages [padic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padic-0.2.3.tar.gz tmp/padic-0.2.3.1.tar.gz --markdown 20230804/p/padic/0.2.3-0.2.3.1/diff.md --exclude *.pyd
+[2023-08-04 13:48:00] INFO root fetch - processPackages [DmxOscServer]: Downloading https://files.pythonhosted.org/packages/a6/74/b4a0c64f9609d0a6202559750e36c6757073348fa229fe7104702d5383af/DmxOscServer-1.0.3.tar.gz
+[2023-08-04 13:48:01] INFO root fetch - processPackages [DmxOscServer]: executing diffoscope
+[2023-08-04 13:48:01] INFO root fetch - processPackages [DmxOscServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DmxOscServer-1.0.2.tar.gz tmp/DmxOscServer-1.0.3.tar.gz --markdown 20230804/D/DmxOscServer/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-04 13:48:01] INFO root fetch - processPackages [t-val]: Remove: archive file [/home/abi/fetcher/tmp/t_val-0.0.1.tar.gz]
+[2023-08-04 13:48:01] INFO root fetch - processPackages [t-val]: Remove: archive file [/home/abi/fetcher/tmp/t_val-0.0.2.tar.gz]
+[2023-08-04 13:48:01] INFO root fetch - processPackages [t-val]: Start processing: boa-contrast
+[2023-08-04 13:48:01] INFO root fetch - main [MainThread]: End processing [t-val]: success
+[2023-08-04 13:48:01] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.2.tar.gz]
+[2023-08-04 13:48:01] INFO root fetch - processPackages [utbot-executor]: Remove: archive file [/home/abi/fetcher/tmp/utbot_executor-1.6.3.tar.gz]
+[2023-08-04 13:48:01] INFO root fetch - processPackages [utbot-executor]: Start processing: sqlakeyset
+[2023-08-04 13:48:01] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-08-04 13:48:01] INFO root fetch - processPackages [boa-contrast]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-04 13:48:01] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.4.2.tar.gz]
+[2023-08-04 13:48:01] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.4.3.tar.gz]
+[2023-08-04 13:48:01] INFO root fetch - processPackages [async-wrapper]: Start processing: chartsworth
+[2023-08-04 13:48:01] INFO root fetch - main [MainThread]: End processing [async-wrapper]: success
+[2023-08-04 13:48:01] INFO root fetch - processPackages [propertize]: Remove: archive file [/home/abi/fetcher/tmp/propertize-0.0.2.tar.gz]
+[2023-08-04 13:48:01] INFO root fetch - processPackages [propertize]: Remove: archive file [/home/abi/fetcher/tmp/propertize-0.0.3.tar.gz]
+[2023-08-04 13:48:01] INFO root fetch - processPackages [propertize]: Start processing: pypackageherbert
+[2023-08-04 13:48:01] INFO root fetch - main [MainThread]: End processing [propertize]: success
+[2023-08-04 13:48:01] INFO root fetch - processPackages [chartsworth]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [sqlakeyset]: New version: [2.0.1691149549] Old Version: [2.0.1687912386]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [chartsworth]: Downloading https://files.pythonhosted.org/packages/64/41/f371aa1a6f52ac5894f174b05014d2c36cd057896d0ba342be4bd847c4ee/chartsworth-0.2.0.tar.gz
+[2023-08-04 13:48:02] WARNING root fetch - processPackages [pypackageherbert]: Skipping, unable to determine old version
+[2023-08-04 13:48:02] INFO root fetch - processPackages [pypackageherbert]: Start processing: acryl-datahub-airflow-plugin
+[2023-08-04 13:48:02] INFO root fetch - main [MainThread]: End processing [pypackageherbert] error
+[2023-08-04 13:48:02] INFO root fetch - processPackages [boa-contrast]: Downloading https://files.pythonhosted.org/packages/38/8a/9b541d237ae760b8ad1497e9b6dae4189504aabc8eac21f7f894413cde72/boa_contrast-0.1.2.tar.gz
+[2023-08-04 13:48:02] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [sqlakeyset]: Downloading https://files.pythonhosted.org/packages/6e/9d/513c615223f44ad840d9e64a6199e989632239607434b9b56d9148f2a8ff/sqlakeyset-2.0.1687912386.tar.gz
+[2023-08-04 13:48:02] WARNING root fetch - processPackages [boa-contrast]: Skipping package: exceeds size limit 11631830>=10485760
+[2023-08-04 13:48:02] INFO root fetch - processPackages [boa-contrast]: Start processing: acryl-datahub
+[2023-08-04 13:48:02] INFO root fetch - main [MainThread]: End processing [boa-contrast] error
+[2023-08-04 13:48:02] INFO root fetch - processPackages [jsonapi-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/jsonapi-pydantic-0.1.4.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [jsonapi-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/jsonapi-pydantic-0.1.5.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [jsonapi-pydantic]: Start processing: pyunitsystem
+[2023-08-04 13:48:02] INFO root fetch - main [MainThread]: End processing [jsonapi-pydantic]: success
+[2023-08-04 13:48:02] INFO root fetch - processPackages [cosimtlk]: Remove: archive file [/home/abi/fetcher/tmp/cosimtlk-0.1.0.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [cosimtlk]: Remove: archive file [/home/abi/fetcher/tmp/cosimtlk-0.1.1.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - main [MainThread]: End processing [cosimtlk]: success
+[2023-08-04 13:48:02] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-08-04 13:48:02] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [chartsworth]: Downloading https://files.pythonhosted.org/packages/db/ef/94421e4f35f31d47812204a4346ed0aefdf269ca48e4cd099ef715f1ecff/chartsworth-0.3.0.tar.gz
+[2023-08-04 13:48:02] WARNING root fetch - processPackages [pyunitsystem]: Skipping, unable to determine old version
+[2023-08-04 13:48:02] INFO root fetch - main [MainThread]: End processing [pyunitsystem] error
+[2023-08-04 13:48:02] INFO root fetch - processPackages [DmxOscServer]: Remove: archive file [/home/abi/fetcher/tmp/DmxOscServer-1.0.2.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [DmxOscServer]: Remove: archive file [/home/abi/fetcher/tmp/DmxOscServer-1.0.3.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - main [MainThread]: End processing [DmxOscServer]: success
+[2023-08-04 13:48:02] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.4.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.5.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-08-04 13:48:02] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-08-04 13:48:02] INFO root fetch - processPackages [padic]: Remove: archive file [/home/abi/fetcher/tmp/padic-0.2.3.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [padic]: Remove: archive file [/home/abi/fetcher/tmp/padic-0.2.3.1.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - main [MainThread]: End processing [padic]: success
+[2023-08-04 13:48:02] INFO root fetch - processPackages [chartsworth]: executing diffoscope
+[2023-08-04 13:48:02] INFO root fetch - processPackages [chartsworth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chartsworth-0.2.0.tar.gz tmp/chartsworth-0.3.0.tar.gz --markdown 20230804/c/chartsworth/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-04 13:48:02] INFO root fetch - processPackages [sqlakeyset]: Downloading https://files.pythonhosted.org/packages/e9/1f/d79a9a9c0fc9783b59a20c90dbe17ca17f97577e991729327a95a6ce77e8/sqlakeyset-2.0.1691149549.tar.gz
+[2023-08-04 13:48:02] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-08-04 13:48:02] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.7.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.9.0.tar.gz]
+[2023-08-04 13:48:02] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-08-04 13:48:02] INFO root fetch - processPackages [sqlakeyset]: executing diffoscope
+[2023-08-04 13:48:02] INFO root fetch - processPackages [sqlakeyset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlakeyset-2.0.1687912386.tar.gz tmp/sqlakeyset-2.0.1691149549.tar.gz --markdown 20230804/s/sqlakeyset/2.0.1687912386-2.0.1691149549/diff.md --exclude *.pyd
+[2023-08-04 13:48:02] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-08-04 13:48:02] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-08-04 13:48:02] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230804/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-08-04 13:48:03] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-08-04 13:48:03] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230804/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-08-04 13:48:03] INFO root fetch - processPackages [chartsworth]: Remove: archive file [/home/abi/fetcher/tmp/chartsworth-0.2.0.tar.gz]
+[2023-08-04 13:48:03] INFO root fetch - processPackages [chartsworth]: Remove: archive file [/home/abi/fetcher/tmp/chartsworth-0.3.0.tar.gz]
+[2023-08-04 13:48:03] INFO root fetch - main [MainThread]: End processing [chartsworth]: success
+[2023-08-04 13:48:03] INFO root fetch - processPackages [sqlakeyset]: Remove: archive file [/home/abi/fetcher/tmp/sqlakeyset-2.0.1687912386.tar.gz]
+[2023-08-04 13:48:03] INFO root fetch - processPackages [sqlakeyset]: Remove: archive file [/home/abi/fetcher/tmp/sqlakeyset-2.0.1691149549.tar.gz]
+[2023-08-04 13:48:03] INFO root fetch - main [MainThread]: End processing [sqlakeyset]: success
+[2023-08-04 13:48:03] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-08-04 13:48:03] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-08-04 13:48:03] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-08-04 13:48:06] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-08-04 13:48:06] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-08-04 13:48:06] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-08-04 13:48:06] INFO root fetch - main [MainThread]: Store serial: [19173404]
