@@ -18558,3 +18558,90 @@
 [2023-08-04 12:08:28] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-08-04 12:08:28] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-08-04 12:08:28] INFO root fetch - main [MainThread]: Store serial: [19172496]
+[2023-08-04 12:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172496]
+[2023-08-04 12:13:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artigraph
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: covdrugsim
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omni-infer-api-account
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dehb
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-notifications-sdk-preview
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: titan-iris
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorage
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-ccc20200701-py2
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-ccc20200701
+[2023-08-04 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-gong
+[2023-08-04 12:13:38] INFO root fetch - processPackages [omni-infer-api-account]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-04 12:13:38] INFO root fetch - processPackages [artigraph]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-04 12:13:38] INFO root fetch - processPackages [tensorage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 12:13:38] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-04 12:13:38] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.804] Old Version: [0.1.803]
+[2023-08-04 12:13:38] INFO root fetch - processPackages [dehb]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-04 12:13:38] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-08-04 12:13:38] INFO root fetch - processPackages [covdrugsim]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-04 12:13:38] WARNING root fetch - processPackages [airbyte-source-gong]: Skipping, unable to determine old version
+[2023-08-04 12:13:38] INFO root fetch - main [MainThread]: End processing [airbyte-source-gong] error
+[2023-08-04 12:13:38] INFO root fetch - processPackages [alibabacloud-ccc20200701]: New version: [2.7.0] Old Version: [2.4.1]
+[2023-08-04 12:13:38] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/d5/23/90280c1d391b4dbfb8b2b7aa116c61f6dcce32afde8a427821b2f0988006/artigraph-0.0.4.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/de/df/0b1cd70d41bccabec21ce79c9c21dc32c8d20ae5ae9eedcc1884e6002b96/tensorage-0.0.8.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/4f/c0/f71f6109f121f38984b80d096d25da08469c21bee7b8de223431d3f9913d/omni_infer_api_account-0.0.5-py3-none-any.whl
+[2023-08-04 12:13:38] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a8/88/6cad0db0da8d1abd362b012c35efa3693dd0ef5c6836e5af796fba902605/lusid-notifications-sdk-preview-0.1.803.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/09/12/025a21e95235e3c2b925173ee2e08823e92e857debb94b5aad25270817d9/covdrugsim-0.4.1.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [dehb]: Downloading https://files.pythonhosted.org/packages/13/26/3ee2a752037d8447890d8dbcd97bd9982dba60705c2e1d18ddf82118facb/dehb-0.0.5.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/74/f3/4a27ffb49ff6106c1e90417aba0122ab5b2e7cbd09d5792aad2455cda0db/alibabacloud_ccc20200701-2.4.1.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Downloading https://files.pythonhosted.org/packages/c1/d6/3e0e0be36b25ed5c201357338b83145969796364de6049f39a96a1b25688/alibabacloud_ccc20200701_py2-2.4.0.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [artigraph]: Downloading https://files.pythonhosted.org/packages/1e/6e/58dc4aa7a9b647e4556155a0b989fa72994a36ed1f9f3fe58e1be8ebc963/artigraph-0.0.5.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [tensorage]: Downloading https://files.pythonhosted.org/packages/0e/b1/d6519f414448860d51daa191680d379fcde04c6bcf774fbb1557db59d74f/tensorage-0.0.9.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [omni-infer-api-account]: Downloading https://files.pythonhosted.org/packages/8a/48/ceb02b6ebc29ca021abe8673fcee839b79771ad925c31796e32e1836ead9/omni_infer_api_account-0.0.6-py3-none-any.whl
+[2023-08-04 12:13:38] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f1/58/a40fd5c114da25e5b61958bdacd9ea088c1ada34610aa31bc667e140df26/lusid-notifications-sdk-preview-0.1.804.tar.gz
+[2023-08-04 12:13:38] INFO root fetch - processPackages [artigraph]: executing diffoscope
+[2023-08-04 12:13:38] INFO root fetch - processPackages [tensorage]: executing diffoscope
+[2023-08-04 12:13:38] INFO root fetch - processPackages [artigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artigraph-0.0.4.tar.gz tmp/artigraph-0.0.5.tar.gz --markdown 20230804/a/artigraph/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-04 12:13:38] INFO root fetch - processPackages [tensorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorage-0.0.8.tar.gz tmp/tensorage-0.0.9.tar.gz --markdown 20230804/t/tensorage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 12:13:39] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-04 12:13:39] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230804/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-04 12:13:39] INFO root fetch - processPackages [dehb]: Downloading https://files.pythonhosted.org/packages/df/be/6bac6552416137bdb26f92884b26a0a79b8f13a5a6de9bc53ad85c572a36/dehb-0.0.6.tar.gz
+[2023-08-04 12:13:39] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-08-04 12:13:39] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.803.tar.gz tmp/lusid-notifications-sdk-preview-0.1.804.tar.gz --markdown 20230804/l/lusid-notifications-sdk-preview/0.1.803-0.1.804/diff.md --exclude *.pyd
+[2023-08-04 12:13:39] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/d0/25/a7584571fb4acbdaac5a90572964a34eb31d1acc949e36c93c2bcc253d3c/alibabacloud_ccc20200701-2.7.0.tar.gz
+[2023-08-04 12:13:39] INFO root fetch - processPackages [omni-infer-api-account]: executing diffoscope
+[2023-08-04 12:13:39] INFO root fetch - processPackages [omni-infer-api-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omni_infer_api_account-0.0.5-py3-none-any.whl.zip tmp/omni_infer_api_account-0.0.6-py3-none-any.whl.zip --markdown 20230804/o/omni-infer-api-account/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-04 12:13:39] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Downloading https://files.pythonhosted.org/packages/4a/0d/8aa773cb797a5dc5ffbfac2c1f1d706ff5da84782e2e0766baaa310d2f80/alibabacloud_ccc20200701_py2-2.4.1.tar.gz
+[2023-08-04 12:13:39] INFO root fetch - processPackages [dehb]: executing diffoscope
+[2023-08-04 12:13:39] INFO root fetch - processPackages [dehb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dehb-0.0.5.tar.gz tmp/dehb-0.0.6.tar.gz --markdown 20230804/d/dehb/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-04 12:13:39] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/ad/de/ddb567c625d403590bdeb1372b6d3395379a6af45cf6754a57adfca876c0/covdrugsim-0.4.2.tar.gz
+[2023-08-04 12:13:39] INFO root fetch - processPackages [alibabacloud-ccc20200701]: executing diffoscope
+[2023-08-04 12:13:39] INFO root fetch - processPackages [alibabacloud-ccc20200701]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701-2.4.1.tar.gz tmp/alibabacloud_ccc20200701-2.7.0.tar.gz --markdown 20230804/a/alibabacloud-ccc20200701/2.4.1-2.7.0/diff.md --exclude *.pyd
+[2023-08-04 12:13:39] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: executing diffoscope
+[2023-08-04 12:13:39] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701_py2-2.4.0.tar.gz tmp/alibabacloud_ccc20200701_py2-2.4.1.tar.gz --markdown 20230804/a/alibabacloud-ccc20200701-py2/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-08-04 12:13:39] INFO root fetch - processPackages [covdrugsim]: executing diffoscope
+[2023-08-04 12:13:39] INFO root fetch - processPackages [covdrugsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covdrugsim-0.4.1.tar.gz tmp/covdrugsim-0.4.2.tar.gz --markdown 20230804/c/covdrugsim/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-04 12:13:40] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.8.tar.gz]
+[2023-08-04 12:13:40] INFO root fetch - processPackages [tensorage]: Remove: archive file [/home/abi/fetcher/tmp/tensorage-0.0.9.tar.gz]
+[2023-08-04 12:13:40] INFO root fetch - main [MainThread]: End processing [tensorage]: success
+[2023-08-04 12:13:40] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.5-py3-none-any.whl.zip]
+[2023-08-04 12:13:40] INFO root fetch - processPackages [omni-infer-api-account]: Remove: archive file [/home/abi/fetcher/tmp/omni_infer_api_account-0.0.6-py3-none-any.whl.zip]
+[2023-08-04 12:13:40] INFO root fetch - main [MainThread]: End processing [omni-infer-api-account]: success
+[2023-08-04 12:13:40] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.4.tar.gz]
+[2023-08-04 12:13:40] INFO root fetch - processPackages [artigraph]: Remove: archive file [/home/abi/fetcher/tmp/artigraph-0.0.5.tar.gz]
+[2023-08-04 12:13:40] INFO root fetch - main [MainThread]: End processing [artigraph]: success
+[2023-08-04 12:13:40] INFO root fetch - processPackages [dehb]: Remove: archive file [/home/abi/fetcher/tmp/dehb-0.0.5.tar.gz]
+[2023-08-04 12:13:40] INFO root fetch - processPackages [dehb]: Remove: archive file [/home/abi/fetcher/tmp/dehb-0.0.6.tar.gz]
+[2023-08-04 12:13:40] INFO root fetch - main [MainThread]: End processing [dehb]: success
+[2023-08-04 12:13:40] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-04 12:13:40] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-04 12:13:40] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-04 12:13:41] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.803.tar.gz]
+[2023-08-04 12:13:41] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.804.tar.gz]
+[2023-08-04 12:13:41] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-08-04 12:13:41] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.4.1.tar.gz]
+[2023-08-04 12:13:41] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.4.2.tar.gz]
+[2023-08-04 12:13:41] INFO root fetch - main [MainThread]: End processing [covdrugsim]: success
+[2023-08-04 12:13:41] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701_py2-2.4.0.tar.gz]
+[2023-08-04 12:13:41] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701_py2-2.4.1.tar.gz]
+[2023-08-04 12:13:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701-py2]: success
+[2023-08-04 12:13:41] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701-2.4.1.tar.gz]
+[2023-08-04 12:13:41] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701-2.7.0.tar.gz]
+[2023-08-04 12:13:41] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701]: success
+[2023-08-04 12:13:41] INFO root fetch - main [MainThread]: Store serial: [19172528]
