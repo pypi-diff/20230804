@@ -12276,3 +12276,45 @@
 [2023-08-04 06:15:03] INFO root fetch - processPackages [edc-protocol-incident]: Remove: archive file [/home/abi/fetcher/tmp/edc-protocol-incident-0.1.28.tar.gz]
 [2023-08-04 06:15:03] INFO root fetch - main [MainThread]: End processing [edc-protocol-incident]: success
 [2023-08-04 06:15:03] INFO root fetch - main [MainThread]: Store serial: [19169683]
+[2023-08-04 06:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169683]
+[2023-08-04 06:20:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-04 06:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-refusal
+[2023-08-04 06:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nemusicapi
+[2023-08-04 06:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-rx
+[2023-08-04 06:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsukiyo
+[2023-08-04 06:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: salinic
+[2023-08-04 06:20:13] INFO root fetch - processPackages [nemusicapi]: New version: [0.1.1a4] Old Version: [0.1.1a3]
+[2023-08-04 06:20:13] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/64/07/346ce5c30d94bd72959fe6e190d317b51e35837289849b79efb3458f2a5a/nemusicapi-0.1.1a3.tar.gz
+[2023-08-04 06:20:13] WARNING root fetch - processPackages [tsukiyo]: Skipping, unable to determine old version
+[2023-08-04 06:20:13] INFO root fetch - main [MainThread]: End processing [tsukiyo] error
+[2023-08-04 06:20:13] INFO root fetch - processPackages [salinic]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-04 06:20:13] INFO root fetch - processPackages [edc-rx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 06:20:14] INFO root fetch - processPackages [salinic]: Downloading https://files.pythonhosted.org/packages/c7/25/f6c9163411efbc166b44399fe32860ab14a22cd4067c2a2f5f0609ab4a64/salinic-0.2.2.tar.gz
+[2023-08-04 06:20:14] INFO root fetch - processPackages [edc-rx]: Downloading https://files.pythonhosted.org/packages/a1/3f/7b71ba32fb32a05939e2eb6a7fa75f67f3a790f97c489d32b4c6f923f65f/edc-rx-0.1.8.tar.gz
+[2023-08-04 06:20:14] INFO root fetch - processPackages [edc-refusal]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 06:20:14] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/7c/6d/161663c31ca190237360e24af00adb1ae2bd7d3b78e4d7aea85708ac81f8/nemusicapi-0.1.1a4.tar.gz
+[2023-08-04 06:20:14] INFO root fetch - processPackages [edc-refusal]: Downloading https://files.pythonhosted.org/packages/85/2f/9360dbb5c9d3c4c8f59bd00d126e0effd3ac40e39e18b9cfae9c1dbe14bd/edc-refusal-0.1.8.tar.gz
+[2023-08-04 06:20:14] INFO root fetch - processPackages [edc-rx]: Downloading https://files.pythonhosted.org/packages/53/24/783842e1d7f994eec2a4e8c219d9cc3604590518a3f0752c1d46d482c37c/edc-rx-0.1.9.tar.gz
+[2023-08-04 06:20:14] INFO root fetch - processPackages [salinic]: Downloading https://files.pythonhosted.org/packages/93/de/5fafaedf922fe51385cd08e4a7ffb5a3ad458c93df65e6b4050bbd2d8b8c/salinic-0.2.3.tar.gz
+[2023-08-04 06:20:14] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-04 06:20:14] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.1.1a3.tar.gz tmp/nemusicapi-0.1.1a4.tar.gz --markdown 20230804/n/nemusicapi/0.1.1a3-0.1.1a4/diff.md --exclude *.pyd
+[2023-08-04 06:20:14] INFO root fetch - processPackages [edc-rx]: executing diffoscope
+[2023-08-04 06:20:14] INFO root fetch - processPackages [edc-rx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-rx-0.1.8.tar.gz tmp/edc-rx-0.1.9.tar.gz --markdown 20230804/e/edc-rx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 06:20:14] INFO root fetch - processPackages [salinic]: executing diffoscope
+[2023-08-04 06:20:14] INFO root fetch - processPackages [salinic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salinic-0.2.2.tar.gz tmp/salinic-0.2.3.tar.gz --markdown 20230804/s/salinic/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-04 06:20:14] INFO root fetch - processPackages [edc-refusal]: Downloading https://files.pythonhosted.org/packages/f9/dd/3af8a57aa77f54dfafdaf716406e4f887df2fc34091c28a47516798ff7bd/edc-refusal-0.1.9.tar.gz
+[2023-08-04 06:20:15] INFO root fetch - processPackages [edc-refusal]: executing diffoscope
+[2023-08-04 06:20:15] INFO root fetch - processPackages [edc-refusal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-refusal-0.1.8.tar.gz tmp/edc-refusal-0.1.9.tar.gz --markdown 20230804/e/edc-refusal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 06:20:15] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a3.tar.gz]
+[2023-08-04 06:20:15] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.1.1a4.tar.gz]
+[2023-08-04 06:20:15] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-04 06:20:15] INFO root fetch - processPackages [salinic]: Remove: archive file [/home/abi/fetcher/tmp/salinic-0.2.2.tar.gz]
+[2023-08-04 06:20:15] INFO root fetch - processPackages [salinic]: Remove: archive file [/home/abi/fetcher/tmp/salinic-0.2.3.tar.gz]
+[2023-08-04 06:20:15] INFO root fetch - main [MainThread]: End processing [salinic]: success
+[2023-08-04 06:20:15] INFO root fetch - processPackages [edc-rx]: Remove: archive file [/home/abi/fetcher/tmp/edc-rx-0.1.8.tar.gz]
+[2023-08-04 06:20:15] INFO root fetch - processPackages [edc-rx]: Remove: archive file [/home/abi/fetcher/tmp/edc-rx-0.1.9.tar.gz]
+[2023-08-04 06:20:15] INFO root fetch - main [MainThread]: End processing [edc-rx]: success
+[2023-08-04 06:20:15] INFO root fetch - processPackages [edc-refusal]: Remove: archive file [/home/abi/fetcher/tmp/edc-refusal-0.1.8.tar.gz]
+[2023-08-04 06:20:15] INFO root fetch - processPackages [edc-refusal]: Remove: archive file [/home/abi/fetcher/tmp/edc-refusal-0.1.9.tar.gz]
+[2023-08-04 06:20:15] INFO root fetch - main [MainThread]: End processing [edc-refusal]: success
+[2023-08-04 06:20:15] INFO root fetch - main [MainThread]: Store serial: [19169703]
