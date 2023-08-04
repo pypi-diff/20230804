@@ -22419,3 +22419,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-04 14:09:39] INFO root fetch - processPackages [engression]: Remove: archive file [/home/abi/fetcher/tmp/engression-0.1.0.tar.gz]
 [2023-08-04 14:09:39] INFO root fetch - main [MainThread]: End processing [engression]: success
 [2023-08-04 14:09:39] INFO root fetch - main [MainThread]: Store serial: [19173983]
+[2023-08-04 14:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19173983]
+[2023-08-04 14:14:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-04 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: patch-denoise
+[2023-08-04 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lexikanon
+[2023-08-04 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psychoanalyze
+[2023-08-04 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykebab
+[2023-08-04 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyopstools
+[2023-08-04 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flexible-dict
+[2023-08-04 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nearest-advocate
+[2023-08-04 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyjt
+[2023-08-04 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seaplane
+[2023-08-04 14:14:49] INFO root fetch - processPackages [pyjt]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-04 14:14:49] INFO root fetch - processPackages [lexikanon]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-04 14:14:49] INFO root fetch - processPackages [flexible-dict]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-04 14:14:49] INFO root fetch - processPackages [pykebab]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-04 14:14:49] INFO root fetch - processPackages [psychoanalyze]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-08-04 14:14:49] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.89b2]
+[2023-08-04 14:14:49] INFO root fetch - processPackages [nearest-advocate]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-04 14:14:49] INFO root fetch - processPackages [pyopstools]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-08-04 14:14:49] INFO root fetch - processPackages [patch-denoise]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-04 14:14:49] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/88/f7/00c893c5214f49a2cfb118291be1651f2027dd0d27c765732675f9aafd48/pyjt-0.4.1.tar.gz
+[2023-08-04 14:14:49] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/05/6b/0d632a42f58c1403f1a660ddd41405b146385432a0330b416f3eb2ab3982/flexible_dict-1.1.1.tar.gz
+[2023-08-04 14:14:49] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/92/02/79427da1708ebc2e790b862bdaee56495769c6beeb784f4ba8f701c1aea0/lexikanon-0.4.1.tar.gz
+[2023-08-04 14:14:49] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/4e/43/ff730fa764d123df68373af8a98d57a823bec72756f85b2c0aecbf46add7/psychoanalyze-0.8.6.tar.gz
+[2023-08-04 14:14:49] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/fb/2b/c9f53a37d88644d3fba3cf78bc8c992f7304a3ea8a0e6e465121acc076e0/seaplane-0.3.89b2.tar.gz
+[2023-08-04 14:14:49] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/8b/5d/1f2e5feab4a8cace599bffc05cb002908472fc6de117ca3b604a9e0b4b1d/pykebab-0.9.0.tar.gz
+[2023-08-04 14:14:49] INFO root fetch - processPackages [nearest-advocate]: Downloading https://files.pythonhosted.org/packages/b1/cc/589d83cd962de00ba0763e81e92f54e798d32eb5f1a389dc94cd71e80c7d/nearest_advocate-0.1.7.tar.gz
+[2023-08-04 14:14:49] INFO root fetch - processPackages [pyopstools]: Downloading https://files.pythonhosted.org/packages/52/0f/9ae45742b37a40a2e84084108990a5f9c975a1a653800841ab9b6b9c989f/pyopstools-0.3.1.tar.gz
+[2023-08-04 14:14:49] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/e9/36/193a9be288567c37327834406e273fc9f109395dd58155dfbfc53810c6c1/pyjt-0.4.2.tar.gz
+[2023-08-04 14:14:49] INFO root fetch - processPackages [patch-denoise]: Downloading https://files.pythonhosted.org/packages/3c/eb/eaac9c99dde7a0bad6b8d07f105d88a8b935bd716cccc57229360e5d7d0a/patch-denoise-1.4.0.tar.gz
+[2023-08-04 14:14:50] INFO root fetch - processPackages [lexikanon]: Downloading https://files.pythonhosted.org/packages/01/f7/741439d2aeb2a550896a6ec27711e26f15d494e1cd5076e0c745a8dbbeb9/lexikanon-0.4.2.tar.gz
+[2023-08-04 14:14:50] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/b1/2f/7b832e27a021c56f90dd18163e5a497407446b9fc9e1a26ae513b7bb3fa4/flexible_dict-1.1.2.tar.gz
+[2023-08-04 14:14:50] INFO root fetch - processPackages [pyjt]: executing diffoscope
+[2023-08-04 14:14:50] INFO root fetch - processPackages [pyjt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjt-0.4.1.tar.gz tmp/pyjt-0.4.2.tar.gz --markdown 20230804/p/pyjt/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-04 14:14:50] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/30/f4/7d5f2d0f5447aeb5caaaa3d4d78b3ca375cd5f058b4c27f2783eddd9d278/psychoanalyze-0.8.7.tar.gz
+[2023-08-04 14:14:50] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-08-04 14:14:50] INFO root fetch - processPackages [patch-denoise]: Downloading https://files.pythonhosted.org/packages/06/e4/7df34268328251b3602a0e78f2e145aac291b2ef7cfa9079293adc633b50/patch-denoise-1.4.1.tar.gz
+[2023-08-04 14:14:50] INFO root fetch - processPackages [pyopstools]: Downloading https://files.pythonhosted.org/packages/b3/c0/165de0c90c642de1b9d9bafb2d92a8e22c69c2c06b69d28c6134fee5c66b/pyopstools-0.4.0.tar.gz
+[2023-08-04 14:14:50] INFO root fetch - processPackages [flexible-dict]: executing diffoscope
+[2023-08-04 14:14:50] INFO root fetch - processPackages [flexible-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_dict-1.1.1.tar.gz tmp/flexible_dict-1.1.2.tar.gz --markdown 20230804/f/flexible-dict/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-04 14:14:50] INFO root fetch - processPackages [lexikanon]: executing diffoscope
+[2023-08-04 14:14:50] INFO root fetch - processPackages [lexikanon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikanon-0.4.1.tar.gz tmp/lexikanon-0.4.2.tar.gz --markdown 20230804/l/lexikanon/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-04 14:14:50] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/71/82/d1057df36df2ce2c39f5ca4c34529e5bc80563429b92eefe1d2dcb547f92/pykebab-0.9.1.tar.gz
+[2023-08-04 14:14:50] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-08-04 14:14:50] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.8.6.tar.gz tmp/psychoanalyze-0.8.7.tar.gz --markdown 20230804/p/psychoanalyze/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-08-04 14:14:50] WARNING root fetch - processPackages [nearest-advocate]: Skipping package: exceeds size limit 21084624>=10485760
+[2023-08-04 14:14:50] INFO root fetch - main [MainThread]: End processing [nearest-advocate] error
+[2023-08-04 14:14:50] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-08-04 14:14:50] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.89b2.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230804/s/seaplane/0.3.89b2-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 14:14:50] INFO root fetch - processPackages [pyopstools]: executing diffoscope
+[2023-08-04 14:14:50] INFO root fetch - processPackages [pyopstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopstools-0.3.1.tar.gz tmp/pyopstools-0.4.0.tar.gz --markdown 20230804/p/pyopstools/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-08-04 14:14:50] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-08-04 14:14:50] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.9.0.tar.gz tmp/pykebab-0.9.1.tar.gz --markdown 20230804/p/pykebab/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-04 14:14:50] INFO root fetch - processPackages [patch-denoise]: executing diffoscope
+[2023-08-04 14:14:50] INFO root fetch - processPackages [patch-denoise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patch-denoise-1.4.0.tar.gz tmp/patch-denoise-1.4.1.tar.gz --markdown 20230804/p/patch-denoise/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-04 14:14:51] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.4.1.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.4.2.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - main [MainThread]: End processing [pyjt]: success
+[2023-08-04 14:14:51] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.1.1.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.1.2.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
+[2023-08-04 14:14:51] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.4.1.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - processPackages [lexikanon]: Remove: archive file [/home/abi/fetcher/tmp/lexikanon-0.4.2.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - main [MainThread]: End processing [lexikanon]: success
+[2023-08-04 14:14:51] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.89b2.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-08-04 14:14:51] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.9.0.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.9.1.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-08-04 14:14:51] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.6.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.8.7.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-08-04 14:14:51] INFO root fetch - processPackages [pyopstools]: Remove: archive file [/home/abi/fetcher/tmp/pyopstools-0.3.1.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - processPackages [pyopstools]: Remove: archive file [/home/abi/fetcher/tmp/pyopstools-0.4.0.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - main [MainThread]: End processing [pyopstools]: success
+[2023-08-04 14:14:51] INFO root fetch - processPackages [patch-denoise]: Remove: archive file [/home/abi/fetcher/tmp/patch-denoise-1.4.0.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - processPackages [patch-denoise]: Remove: archive file [/home/abi/fetcher/tmp/patch-denoise-1.4.1.tar.gz]
+[2023-08-04 14:14:51] INFO root fetch - main [MainThread]: End processing [patch-denoise]: success
+[2023-08-04 14:14:51] INFO root fetch - main [MainThread]: Store serial: [19174011]
