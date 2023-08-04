@@ -16834,3 +16834,123 @@
 [2023-08-04 10:55:08] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
 [2023-08-04 10:55:08] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-08-04 10:55:08] INFO root fetch - main [MainThread]: Store serial: [19171731]
+[2023-08-04 11:00:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171731]
+[2023-08-04 11:00:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shawn-api
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bounded-pool
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cardsort
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scikit-hep
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyjt
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plone.mls.core
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ts-type
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lecore
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: overhave
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: another-sd-client
+[2023-08-04 11:00:17] INFO root fetch - processPackages [lecore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ts-type]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-04 11:00:17] INFO root fetch - processPackages [another-sd-client]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-08-04 11:00:17] INFO root fetch - processPackages [pyjt]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-04 11:00:17] WARNING root fetch - processPackages [bounded-pool]: Skipping, unable to determine old version
+[2023-08-04 11:00:17] INFO root fetch - processPackages [bounded-pool]: Start processing: jina
+[2023-08-04 11:00:17] INFO root fetch - main [MainThread]: End processing [bounded-pool] error
+[2023-08-04 11:00:17] WARNING root fetch - processPackages [shawn-api]: Skipping, unable to determine old version
+[2023-08-04 11:00:17] INFO root fetch - processPackages [shawn-api]: Start processing: offlinerllib
+[2023-08-04 11:00:17] INFO root fetch - main [MainThread]: End processing [shawn-api] error
+[2023-08-04 11:00:17] INFO root fetch - processPackages [cardsort]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-08-04 11:00:17] INFO root fetch - processPackages [plone.mls.core]: New version: [0.7.1] Old Version: [0.7]
+[2023-08-04 11:00:17] INFO root fetch - processPackages [scikit-hep]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-08-04 11:00:17] INFO root fetch - processPackages [overhave]: New version: [5.0.0] Old Version: [4.1.3]
+[2023-08-04 11:00:17] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/15/d6/2bfc7a69bc07c79251d02396b8517524a9da0be01c1657e050a509b547af/pyjt-0.3.0.tar.gz
+[2023-08-04 11:00:17] INFO root fetch - processPackages [another-sd-client]: Downloading https://files.pythonhosted.org/packages/c3/ba/7da1bc8c15c9555c0366aeae169525905e7fd68c77f64c5dc2950f53e82e/another_sd_client-1.6.0.tar.gz
+[2023-08-04 11:00:17] INFO root fetch - processPackages [ts-type]: Downloading https://files.pythonhosted.org/packages/fc/3b/f7a28407faf651fcd0b36e41619008df4158f620d771a06a765dd027bccc/ts_type-0.2.7.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/18/ea/1732f7ad5dca51a7c6234ef2b007e3cef68429b810c4a751ec28dc6e8534/lecore-0.1.8.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [offlinerllib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 11:00:18] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/8c/82/06dbf49ac635bfa2725f587d34b0cd77a3d4582497035737b16e18dc873a/overhave-4.1.3.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [scikit-hep]: Downloading https://files.pythonhosted.org/packages/70/fb/af7ec0763785d092869449c83a3e92c5b4050b1ec410a2fb208b08337254/scikit-hep-5.1.0.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/d9/a8/944c8101fd7e31ac21b19e24dd64f2b35317d6ae920c99dad3bbb1beba8f/cardsort-0.2.4.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [plone.mls.core]: Downloading https://files.pythonhosted.org/packages/58/45/f47b5627191204775784107e36a53ccfa52b8b08780323982ff1c2a5a442/plone.mls.core-0.7.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [offlinerllib]: Downloading https://files.pythonhosted.org/packages/c5/c1/65856646e82d4d87838a1d57a79802de8531610a2f28995a73a097857ac4/offlinerllib-0.0.8.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [ts-type]: Downloading https://files.pythonhosted.org/packages/e1/3c/8aba93d5007bbb3cb93d122e1b1d65c2ddafda3b59ee36ada17c950b0b1c/ts_type-0.2.8.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-08-04 11:00:18] INFO root fetch - processPackages [another-sd-client]: Downloading https://files.pythonhosted.org/packages/0b/fd/58982d32fada354fb4f3c3fcaeec64bd1a578ae994f7b1a45f2c1d823b4d/another_sd_client-1.6.1.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [pyjt]: Downloading https://files.pythonhosted.org/packages/0e/4d/feaeedeb9b38b768c4304e6bd7c70c67c94d60c36f1280d82c3b829a1909/pyjt-0.3.1.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [ts-type]: executing diffoscope
+[2023-08-04 11:00:18] INFO root fetch - processPackages [ts-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_type-0.2.7.tar.gz tmp/ts_type-0.2.8.tar.gz --markdown 20230804/t/ts-type/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-04 11:00:18] INFO root fetch - processPackages [cardsort]: Downloading https://files.pythonhosted.org/packages/38/b3/86f783ce48ef147aec4dd7894dcc3bac6fa44d500ddad06fdeca3da4e3b8/cardsort-0.2.6.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [another-sd-client]: executing diffoscope
+[2023-08-04 11:00:18] INFO root fetch - processPackages [another-sd-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/another_sd_client-1.6.0.tar.gz tmp/another_sd_client-1.6.1.tar.gz --markdown 20230804/a/another-sd-client/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-08-04 11:00:18] INFO root fetch - processPackages [cardsort]: executing diffoscope
+[2023-08-04 11:00:18] INFO root fetch - processPackages [cardsort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardsort-0.2.4.tar.gz tmp/cardsort-0.2.6.tar.gz --markdown 20230804/c/cardsort/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-08-04 11:00:18] INFO root fetch - processPackages [plone.mls.core]: Downloading https://files.pythonhosted.org/packages/19/d3/4def5eb6ea16ae214c352cae5c04c0fd8f351db752a290408fab2592b9d4/plone.mls.core-0.7.1.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [pyjt]: executing diffoscope
+[2023-08-04 11:00:18] INFO root fetch - processPackages [pyjt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjt-0.3.0.tar.gz tmp/pyjt-0.3.1.tar.gz --markdown 20230804/p/pyjt/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-04 11:00:18] INFO root fetch - processPackages [scikit-hep]: Downloading https://files.pythonhosted.org/packages/9e/0f/926fdaaa1b993888d9d8ca8fa54297f5644336e278bcd28e16a08bfcbe2c/scikit-hep-5.1.1.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/8f/06/5a868d159d6aac79174bc22af7f07a0570093c8075b876ca83a705835a59/overhave-5.0.0.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/56/da/0be3bd39ce8ddea3485ed8c701705fd8fda1ae0bef057fc39cca0f34ea92/lecore-0.1.9.tar.gz
+[2023-08-04 11:00:18] INFO root fetch - processPackages [offlinerllib]: Downloading https://files.pythonhosted.org/packages/f4/07/6b8080ad582351cd9531a0cdbaf6b1b6da15625233e2c602290773b07c21/offlinerllib-0.0.9.tar.gz
+[2023-08-04 11:00:19] INFO root fetch - processPackages [plone.mls.core]: executing diffoscope
+[2023-08-04 11:00:19] INFO root fetch - processPackages [plone.mls.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.mls.core-0.7.tar.gz tmp/plone.mls.core-0.7.1.tar.gz --markdown 20230804/p/plone.mls.core/0.7-0.7.1/diff.md --exclude *.pyd
+[2023-08-04 11:00:19] INFO root fetch - processPackages [scikit-hep]: executing diffoscope
+[2023-08-04 11:00:19] INFO root fetch - processPackages [scikit-hep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-hep-5.1.0.tar.gz tmp/scikit-hep-5.1.1.tar.gz --markdown 20230804/s/scikit-hep/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-08-04 11:00:19] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-08-04 11:00:19] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.8.tar.gz tmp/lecore-0.1.9.tar.gz --markdown 20230804/l/lecore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 11:00:19] INFO root fetch - processPackages [offlinerllib]: executing diffoscope
+[2023-08-04 11:00:19] INFO root fetch - processPackages [offlinerllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offlinerllib-0.0.8.tar.gz tmp/offlinerllib-0.0.9.tar.gz --markdown 20230804/o/offlinerllib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 11:00:19] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2023-08-04 11:00:19] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-08-04 11:00:19] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230804/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-08-04 11:00:19] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-08-04 11:00:19] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-4.1.3.tar.gz tmp/overhave-5.0.0.tar.gz --markdown 20230804/o/overhave/4.1.3-5.0.0/diff.md --exclude *.pyd
+[2023-08-04 11:00:19] INFO root fetch - processPackages [ts-type]: Remove: archive file [/home/abi/fetcher/tmp/ts_type-0.2.7.tar.gz]
+[2023-08-04 11:00:19] INFO root fetch - processPackages [ts-type]: Remove: archive file [/home/abi/fetcher/tmp/ts_type-0.2.8.tar.gz]
+[2023-08-04 11:00:19] INFO root fetch - processPackages [ts-type]: Start processing: whoisdomain
+[2023-08-04 11:00:19] INFO root fetch - main [MainThread]: End processing [ts-type]: success
+[2023-08-04 11:00:20] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230804.2] Old Version: [1.20230720.2]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.4.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [cardsort]: Remove: archive file [/home/abi/fetcher/tmp/cardsort-0.2.6.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [cardsort]: Start processing: supermark
+[2023-08-04 11:00:20] INFO root fetch - main [MainThread]: End processing [cardsort]: success
+[2023-08-04 11:00:20] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/bb/3f/b12afd79c2fd142a8fbfe7e632a2b97f044f4aff4c2376b0a369360e0414/whoisdomain-1.20230720.2.tar.gz
+[2023-08-04 11:00:20] INFO root fetch - processPackages [another-sd-client]: Remove: archive file [/home/abi/fetcher/tmp/another_sd_client-1.6.0.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [another-sd-client]: Remove: archive file [/home/abi/fetcher/tmp/another_sd_client-1.6.1.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [another-sd-client]: Start processing: example-package-devforma
+[2023-08-04 11:00:20] INFO root fetch - main [MainThread]: End processing [another-sd-client]: success
+[2023-08-04 11:00:20] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.3.0.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [pyjt]: Remove: archive file [/home/abi/fetcher/tmp/pyjt-0.3.1.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - main [MainThread]: End processing [pyjt]: success
+[2023-08-04 11:00:20] INFO root fetch - processPackages [supermark]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 11:00:20] WARNING root fetch - processPackages [example-package-devforma]: Skipping, unable to determine old version
+[2023-08-04 11:00:20] INFO root fetch - main [MainThread]: End processing [example-package-devforma] error
+[2023-08-04 11:00:20] INFO root fetch - processPackages [supermark]: Downloading https://files.pythonhosted.org/packages/8c/e6/8a83738e9f34e3eb27da702c6c4668a39ccacedb6382780724b2c568145f/supermark-0.3.8.tar.gz
+[2023-08-04 11:00:20] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.8.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.9.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [scikit-hep]: Remove: archive file [/home/abi/fetcher/tmp/scikit-hep-5.1.0.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-08-04 11:00:20] INFO root fetch - processPackages [scikit-hep]: Remove: archive file [/home/abi/fetcher/tmp/scikit-hep-5.1.1.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - main [MainThread]: End processing [scikit-hep]: success
+[2023-08-04 11:00:20] INFO root fetch - processPackages [offlinerllib]: Remove: archive file [/home/abi/fetcher/tmp/offlinerllib-0.0.8.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [offlinerllib]: Remove: archive file [/home/abi/fetcher/tmp/offlinerllib-0.0.9.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - main [MainThread]: End processing [offlinerllib]: success
+[2023-08-04 11:00:20] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/c8/f4/0b65536bab7f43ecb08f4b2530375ce560c47605fe9183280ac2f90eb2de/whoisdomain-1.20230804.2.tar.gz
+[2023-08-04 11:00:20] INFO root fetch - processPackages [plone.mls.core]: Remove: archive file [/home/abi/fetcher/tmp/plone.mls.core-0.7.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - processPackages [plone.mls.core]: Remove: archive file [/home/abi/fetcher/tmp/plone.mls.core-0.7.1.tar.gz]
+[2023-08-04 11:00:20] INFO root fetch - main [MainThread]: End processing [plone.mls.core]: success
+[2023-08-04 11:00:20] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-08-04 11:00:20] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230720.2.tar.gz tmp/whoisdomain-1.20230804.2.tar.gz --markdown 20230804/w/whoisdomain/1.20230720.2-1.20230804.2/diff.md --exclude *.pyd
+[2023-08-04 11:00:21] INFO root fetch - processPackages [supermark]: Downloading https://files.pythonhosted.org/packages/ad/f7/55ff543f2ecf87348eab22020ecaec5683e0d1eed74ce29bf341594ed24d/supermark-0.3.9.tar.gz
+[2023-08-04 11:00:21] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2023-08-04 11:00:21] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2023-08-04 11:00:21] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-08-04 11:00:21] INFO root fetch - processPackages [supermark]: executing diffoscope
+[2023-08-04 11:00:21] INFO root fetch - processPackages [supermark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supermark-0.3.8.tar.gz tmp/supermark-0.3.9.tar.gz --markdown 20230804/s/supermark/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 11:00:21] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.1.3.tar.gz]
+[2023-08-04 11:00:21] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-5.0.0.tar.gz]
+[2023-08-04 11:00:21] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-08-04 11:00:21] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230720.2.tar.gz]
+[2023-08-04 11:00:21] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230804.2.tar.gz]
+[2023-08-04 11:00:21] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-08-04 11:00:22] INFO root fetch - processPackages [supermark]: Remove: archive file [/home/abi/fetcher/tmp/supermark-0.3.8.tar.gz]
+[2023-08-04 11:00:22] INFO root fetch - processPackages [supermark]: Remove: archive file [/home/abi/fetcher/tmp/supermark-0.3.9.tar.gz]
+[2023-08-04 11:00:22] INFO root fetch - main [MainThread]: End processing [supermark]: success
+[2023-08-04 11:00:22] INFO root fetch - main [MainThread]: Store serial: [19171790]
