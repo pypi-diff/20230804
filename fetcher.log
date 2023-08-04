@@ -17440,3 +17440,158 @@
 [2023-08-04 11:22:34] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
 [2023-08-04 11:22:34] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-08-04 11:22:34] INFO root fetch - main [MainThread]: Store serial: [19172040]
+[2023-08-04 11:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172040]
+[2023-08-04 11:27:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openprotein-python
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspacer
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-data
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-common
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swh.lister
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kinms-fitter
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oarepo-vocabularies
+[2023-08-04 11:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aurori
+[2023-08-04 11:27:57] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.2b2] Old Version: [0.1.2b1]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [kinms-fitter]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/b4/61/211bf81a6293e992c01e999bdbecba36dc4cbefeebeddbf24229b4847cfe/openprotein_python-0.1.2b1.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [aurori]: New version: [1.0.1] Old Version: [0.1.4]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [pyspacer]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [swh.lister]: New version: [5.9.5] Old Version: [5.9.4]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [kfish]: New version: [99.0.202308040922] Old Version: [99.0.202308032252]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-08-04 11:27:57] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [kinms-fitter]: Downloading https://files.pythonhosted.org/packages/63/ea/c004af29089ea1fac016c8662d1cfa89f5c2c468858f537599a014d5607c/kinms_fitter-0.4.9.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/a6/70/88ece87e80c478604f0271a0ca1cbf83ac391c6c6a9f92b267a6f29016af/swh.lister-5.9.4.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [aurori]: Downloading https://files.pythonhosted.org/packages/24/70/4397d77153d8e9d51bba5d15d9df51fef4bd3b619276039d27c5c32966f8/aurori-0.1.4.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [pyspacer]: Downloading https://files.pythonhosted.org/packages/e6/90/be461312e4ac5f1138f1f269b73c506e8093645d1046f8ee0bb5ba86a55f/pyspacer-0.4.0.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/c8/85/d226a87c13bac2b8adbbc3209ced5c7c91f172401dce35ad52a4026cc59a/oarepo-vocabularies-2.0.7.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/86/eb/da1744620467c236b88022f7f49ef25f5e8563686c9ba8dd48f82e67d8e1/openprotein_python-0.1.2b2.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f8/d5/5a174f736b0e57430c7108aee16ec0634cc09aa32c9ed650d308745d743c/kfish-99.0.202308032252-py3-none-any.whl
+[2023-08-04 11:27:57] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-04 11:27:57] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 11:27:57] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.2b1.tar.gz tmp/openprotein_python-0.1.2b2.tar.gz --markdown 20230804/o/openprotein-python/0.1.2b1-0.1.2b2/diff.md --exclude *.pyd
+[2023-08-04 11:27:58] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-04 11:27:58] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230804/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-04 11:27:58] INFO root fetch - processPackages [kinms-fitter]: Downloading https://files.pythonhosted.org/packages/f1/98/2c1e74e9352a37e8a095246cfdf62f51a95e768d12f4f54af0437830d4dd/kinms_fitter-0.5.0.tar.gz
+[2023-08-04 11:27:58] INFO root fetch - processPackages [kinms-fitter]: executing diffoscope
+[2023-08-04 11:27:58] INFO root fetch - processPackages [kinms-fitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kinms_fitter-0.4.9.tar.gz tmp/kinms_fitter-0.5.0.tar.gz --markdown 20230804/k/kinms-fitter/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-08-04 11:27:58] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d8/dd/2ed8a5bcc477d66f923fffbeb0a1c2a6c5fe40130ade8502f649ce395537/kfish-99.0.202308040922-py3-none-any.whl
+[2023-08-04 11:27:58] INFO root fetch - processPackages [aurori]: Downloading https://files.pythonhosted.org/packages/27/b2/6f3f9bff19f4f45247ac6f21d4b201fd15dfef443dcdfc74eaef1e413980/aurori-1.0.1.tar.gz
+[2023-08-04 11:27:58] INFO root fetch - processPackages [pyspacer]: Downloading https://files.pythonhosted.org/packages/c0/69/f1c14f0d8c46fd965f66ee7b44f3e1579897fe6f4bae95ae60aee7c5a6dd/pyspacer-0.4.1.tar.gz
+[2023-08-04 11:27:58] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-08-04 11:27:58] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/f0/82/3a98c81c695595757f93abb6899a511d6ff7a0ed284e652eb6d1c5222f41/swh.lister-5.9.5.tar.gz
+[2023-08-04 11:27:58] INFO root fetch - processPackages [aurori]: executing diffoscope
+[2023-08-04 11:27:58] INFO root fetch - processPackages [aurori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurori-0.1.4.tar.gz tmp/aurori-1.0.1.tar.gz --markdown 20230804/a/aurori/0.1.4-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 11:27:58] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-08-04 11:27:58] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202308032252-py3-none-any.whl.zip tmp/kfish-99.0.202308040922-py3-none-any.whl.zip --markdown 20230804/k/kfish/99.0.202308032252-99.0.202308040922/diff.md --exclude *.pyd
+[2023-08-04 11:27:58] INFO root fetch - processPackages [pyspacer]: executing diffoscope
+[2023-08-04 11:27:58] INFO root fetch - processPackages [pyspacer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspacer-0.4.0.tar.gz tmp/pyspacer-0.4.1.tar.gz --markdown 20230804/p/pyspacer/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-08-04 11:27:58] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-08-04 11:27:58] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230804/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-04 11:27:58] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-08-04 11:27:58] INFO root fetch - processPackages [swh.lister]: executing diffoscope
+[2023-08-04 11:27:58] INFO root fetch - processPackages [swh.lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.lister-5.9.4.tar.gz tmp/swh.lister-5.9.5.tar.gz --markdown 20230804/s/swh.lister/5.9.4-5.9.5/diff.md --exclude *.pyd
+[2023-08-04 11:27:58] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/fb/2d/b70fc2116fca8ab4e5bde924c172a421f6f3c158320375063e55d04b39bd/oarepo-vocabularies-2.0.8.tar.gz
+[2023-08-04 11:27:58] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-08-04 11:27:58] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230804/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-08-04 11:27:58] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2023-08-04 11:27:58] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-vocabularies-2.0.7.tar.gz tmp/oarepo-vocabularies-2.0.8.tar.gz --markdown 20230804/o/oarepo-vocabularies/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-08-04 11:27:59] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b1.tar.gz]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.2b2.tar.gz]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [openprotein-python]: Start processing: dagster-polars
+[2023-08-04 11:27:59] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 11:27:59] INFO root fetch - processPackages [dagster-polars]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [yeref]: Start processing: arcane-tasks
+[2023-08-04 11:27:59] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-04 11:27:59] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/de/cd/2a8bf9aaddfef8ef807655d416d188aa7b0fe1779c2ef3a03cbecb6664f0/dagster_polars-0.0.6.tar.gz
+[2023-08-04 11:27:59] INFO root fetch - processPackages [arcane-tasks]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [kinms-fitter]: Remove: archive file [/home/abi/fetcher/tmp/kinms_fitter-0.4.9.tar.gz]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [kinms-fitter]: Remove: archive file [/home/abi/fetcher/tmp/kinms_fitter-0.5.0.tar.gz]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [kinms-fitter]: Start processing: finbourne-insights-sdk-preview
+[2023-08-04 11:27:59] INFO root fetch - main [MainThread]: End processing [kinms-fitter]: success
+[2023-08-04 11:27:59] INFO root fetch - processPackages [dagster-polars]: Downloading https://files.pythonhosted.org/packages/b7/c5/6f5ee855bc7b592c2d6733cb27b979c48be67455ad1262679d4ff8ceae76/dagster_polars-0.0.7.tar.gz
+[2023-08-04 11:27:59] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.720] Old Version: [0.0.719]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [arcane-tasks]: Downloading https://files.pythonhosted.org/packages/9c/a4/8f023ce03466376cfda5789a802edc75908cb83f649e902ce41b91d24170/arcane-tasks-0.4.1.tar.gz
+[2023-08-04 11:27:59] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308032252-py3-none-any.whl.zip]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [dagster-polars]: executing diffoscope
+[2023-08-04 11:27:59] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202308040922-py3-none-any.whl.zip]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [dagster-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_polars-0.0.6.tar.gz tmp/dagster_polars-0.0.7.tar.gz --markdown 20230804/d/dagster-polars/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-04 11:27:59] INFO root fetch - processPackages [kfish]: Start processing: declearn
+[2023-08-04 11:27:59] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-08-04 11:27:59] INFO root fetch - processPackages [declearn]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-08-04 11:27:59] INFO root fetch - processPackages [leadguru-common]: Start processing: alex-ber-utils
+[2023-08-04 11:27:59] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-08-04 11:27:59] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/e9/91/c323cf71bae636f7fc86b502b8d1078b3f455e7727acc71698335610ddc5/declearn-2.1.0.tar.gz
+[2023-08-04 11:27:59] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/66/46/981b024affe6f9d77d5c0861901cb90b7aed9f387a55ca33351382c59aae/finbourne-insights-sdk-preview-0.0.719.tar.gz
+[2023-08-04 11:28:00] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [leadguru-data]: Start processing: declearn
+[2023-08-04 11:28:00] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-08-04 11:28:00] INFO root fetch - processPackages [alex-ber-utils]: New version: [0.6.7] Old Version: [0.6.6b3]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [arcane-tasks]: Downloading https://files.pythonhosted.org/packages/ca/2a/abcd3456372380bfe2155010046671556fd0d8274efdaf7946d115f94667/arcane_tasks-0.5.0.tar.gz
+[2023-08-04 11:28:00] INFO root fetch - processPackages [declearn]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/05/4a/15aaee81d130d6f25cb1b876d79ae7e230ed551b6ed2481bf304abb1a315/declearn-2.2.0.tar.gz
+[2023-08-04 11:28:00] INFO root fetch - processPackages [arcane-tasks]: executing diffoscope
+[2023-08-04 11:28:00] INFO root fetch - processPackages [arcane-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcane-tasks-0.4.1.tar.gz tmp/arcane_tasks-0.5.0.tar.gz --markdown 20230804/a/arcane-tasks/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-08-04 11:28:00] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/05/4a/15aaee81d130d6f25cb1b876d79ae7e230ed551b6ed2481bf304abb1a315/declearn-2.2.0.tar.gz
+[2023-08-04 11:28:00] INFO root fetch - processPackages [pyspacer]: Remove: archive file [/home/abi/fetcher/tmp/pyspacer-0.4.0.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [pyspacer]: Remove: archive file [/home/abi/fetcher/tmp/pyspacer-0.4.1.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [pyspacer]: Start processing: todoman
+[2023-08-04 11:28:00] INFO root fetch - main [MainThread]: End processing [pyspacer]: success
+[2023-08-04 11:28:00] INFO root fetch - processPackages [aurori]: Remove: archive file [/home/abi/fetcher/tmp/aurori-0.1.4.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [aurori]: Remove: archive file [/home/abi/fetcher/tmp/aurori-1.0.1.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - main [MainThread]: End processing [aurori]: success
+[2023-08-04 11:28:00] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/23/55/12219c90f2a1ecc356c810ffced039705591d79973174b8d2addf9e90de4/alex_ber_utils-0.6.6b3.tar.gz
+[2023-08-04 11:28:00] INFO root fetch - processPackages [declearn]: executing diffoscope
+[2023-08-04 11:28:00] INFO root fetch - processPackages [declearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/declearn-2.1.0.tar.gz tmp/declearn-2.2.0.tar.gz --markdown 20230804/d/declearn/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-04 11:28:00] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/9d/72/3fe1246e55da38f72cf836129aa4ba3e96596b19182c4c99d581617e20bf/finbourne-insights-sdk-preview-0.0.720.tar.gz
+[2023-08-04 11:28:00] INFO root fetch - processPackages [todoman]: New version: [4.3.1] Old Version: [4.2.1]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.7.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-vocabularies-2.0.8.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2023-08-04 11:28:00] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2023-08-04 11:28:00] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.719.tar.gz tmp/finbourne-insights-sdk-preview-0.0.720.tar.gz --markdown 20230804/f/finbourne-insights-sdk-preview/0.0.719-0.0.720/diff.md --exclude *.pyd
+[2023-08-04 11:28:00] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/46/f7/fc219f95f121ca99a82919d73010a57878297212ecdb8d25b0cfcea3e35d/declearn-2.2.1.tar.gz
+[2023-08-04 11:28:00] INFO root fetch - processPackages [todoman]: Downloading https://files.pythonhosted.org/packages/6c/0e/5a3ed2a34251625f8483f844ba0dba4bf903b0db8b63e87a70666eea7ee7/todoman-4.2.1.tar.gz
+[2023-08-04 11:28:00] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/28/3e/1b756ca016fc6e4d461aaa9058a8be2b495d82571941911332c136b7e214/alex_ber_utils-0.6.7.tar.gz
+[2023-08-04 11:28:00] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.6.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [alex-ber-utils]: executing diffoscope
+[2023-08-04 11:28:00] INFO root fetch - processPackages [dagster-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster_polars-0.0.7.tar.gz]
+[2023-08-04 11:28:00] INFO root fetch - processPackages [alex-ber-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alex_ber_utils-0.6.6b3.tar.gz tmp/alex_ber_utils-0.6.7.tar.gz --markdown 20230804/a/alex-ber-utils/0.6.6b3-0.6.7/diff.md --exclude *.pyd
+[2023-08-04 11:28:00] INFO root fetch - main [MainThread]: End processing [dagster-polars]: success
+[2023-08-04 11:28:00] INFO root fetch - processPackages [declearn]: executing diffoscope
+[2023-08-04 11:28:00] INFO root fetch - processPackages [declearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/declearn-2.2.0.tar.gz tmp/declearn-2.2.1.tar.gz --markdown 20230804/d/declearn/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-08-04 11:28:01] INFO root fetch - processPackages [todoman]: Downloading https://files.pythonhosted.org/packages/5c/18/25c3aa629d9894e2d4631385ea776414f29254936c42b4c5b6f19d228504/todoman-4.3.1.tar.gz
+[2023-08-04 11:28:01] INFO root fetch - processPackages [arcane-tasks]: Remove: archive file [/home/abi/fetcher/tmp/arcane-tasks-0.4.1.tar.gz]
+[2023-08-04 11:28:01] INFO root fetch - processPackages [arcane-tasks]: Remove: archive file [/home/abi/fetcher/tmp/arcane_tasks-0.5.0.tar.gz]
+[2023-08-04 11:28:01] INFO root fetch - main [MainThread]: End processing [arcane-tasks]: success
+[2023-08-04 11:28:01] INFO root fetch - processPackages [todoman]: executing diffoscope
+[2023-08-04 11:28:01] INFO root fetch - processPackages [todoman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todoman-4.2.1.tar.gz tmp/todoman-4.3.1.tar.gz --markdown 20230804/t/todoman/4.2.1-4.3.1/diff.md --exclude *.pyd
+[2023-08-04 11:28:02] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.719.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.720.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2023-08-04 11:28:02] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.6.6b3.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.6.7.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - main [MainThread]: End processing [alex-ber-utils]: success
+[2023-08-04 11:28:02] INFO root fetch - processPackages [todoman]: Remove: archive file [/home/abi/fetcher/tmp/todoman-4.2.1.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - processPackages [todoman]: Remove: archive file [/home/abi/fetcher/tmp/todoman-4.3.1.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - main [MainThread]: End processing [todoman]: success
+[2023-08-04 11:28:02] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.9.4.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.9.5.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
+[2023-08-04 11:28:02] INFO root fetch - processPackages [declearn]: Remove: archive file [/home/abi/fetcher/tmp/declearn-2.1.0.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - processPackages [declearn]: Remove: archive file [/home/abi/fetcher/tmp/declearn-2.2.0.tar.gz]
+[2023-08-04 11:28:02] INFO root fetch - main [MainThread]: End processing [declearn]: success
+[2023-08-04 11:28:03] INFO root fetch - processPackages [declearn]: Remove: archive file [/home/abi/fetcher/tmp/declearn-2.2.1.tar.gz]
+[2023-08-04 11:28:03] INFO root fetch - main [MainThread]: End processing [declearn]: success
+[2023-08-04 11:28:03] INFO root fetch - main [MainThread]: Store serial: [19172091]
