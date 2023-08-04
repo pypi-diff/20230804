@@ -19197,3 +19197,131 @@
 [2023-08-04 12:39:55] INFO root fetch - processPackages [jeeves-yeti-pyproject]: Remove: archive file [/home/abi/fetcher/tmp/jeeves_yeti_pyproject-0.2.9.tar.gz]
 [2023-08-04 12:39:55] INFO root fetch - main [MainThread]: End processing [jeeves-yeti-pyproject]: success
 [2023-08-04 12:39:55] INFO root fetch - main [MainThread]: Store serial: [19172844]
+[2023-08-04 12:44:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19172844]
+[2023-08-04 12:45:04] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamindb_setup
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: relaxed
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skypilot-nightly
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Swagger2Tests
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-plugin-dns
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: contrast-agent
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: referencing
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-airflow-factory
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lnschema_core
+[2023-08-04 12:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mongodb-python-manager
+[2023-08-04 12:45:04] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230803] Old Version: [1.0.0.dev20230802]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [Swagger2Tests]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [lamindb_setup]: New version: [0.49.3] Old Version: [0.49.2]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [referencing]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [netbox-plugin-dns]: New version: [0.18.7] Old Version: [0.18.6]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [relaxed]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [mongodb-python-manager]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [dbt-airflow-factory]: New version: [0.33.0] Old Version: [0.32.0]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [contrast-agent]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-08-04 12:45:04] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/20/e7/9c0bec54313796025d0052de0c8854c6097f0e2da9e863f23cfa6cd3d339/Swagger2Tests-1.0.4.tar.gz
+[2023-08-04 12:45:04] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/e3/75/4c3feb218fd1eaef6ec1cf8fefd1b9af0664e04a2ca1278831f1aeef22d3/skypilot-nightly-1.0.0.dev20230802.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/1a/67/bba3fab2d29a1e28e8c0b6cc2e4671c4b4226970925ac1579dd3e1ac9a4a/netbox_plugin_dns-0.18.6.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/d1/9c/2a0ee3c45b2ffc3e83cbc799e182893bb1269affa313ac9125876d715cf1/lamindb_setup-0.49.2.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/2b/ed/f98bc7032a95aa20012ccefb729c1908f6acc9c6c6f88e038ac0a93750cb/referencing-0.8.9.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [mongodb-python-manager]: Downloading https://files.pythonhosted.org/packages/3c/2a/447d6c2924e7b6563bdab7f6d0a4b0c5a9bd0d43162778bb3cbed9b4e8a5/mongodb_python_manager-1.5.8.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [contrast-agent]: Downloading https://files.pythonhosted.org/packages/fa/4f/561dff848ab959988cacc16c02374f870dfce30cde6aa7b8bb1e9d9a7b11/contrast-agent-5.9.0.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [dbt-airflow-factory]: Downloading https://files.pythonhosted.org/packages/54/56/46c92713767b262f1679ca02725235fe8a1cc70d213886a2437f30b98f10/dbt-airflow-factory-0.32.0.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [relaxed]: Downloading https://files.pythonhosted.org/packages/12/72/0985287399f0c9e431bdce818830ad2f253898d52f26bd5ae8b30c3924e3/relaxed-0.3.0.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/45/6e/a44b615af6b27e4ca0743df4b7bf054138effe28991cb2bcf0d402e8cbf2/Swagger2Tests-1.0.5.tar.gz
+[2023-08-04 12:45:05] WARNING root fetch - processPackages [contrast-agent]: Skipping package: exceeds size limit 10668876>=10485760
+[2023-08-04 12:45:05] INFO root fetch - processPackages [contrast-agent]: Start processing: camSort
+[2023-08-04 12:45:05] INFO root fetch - main [MainThread]: End processing [contrast-agent] error
+[2023-08-04 12:45:05] INFO root fetch - processPackages [camSort]: New version: [0.3.1] Old Version: [0.3]
+[2023-08-04 12:45:05] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-08-04 12:45:05] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230804/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 12:45:05] INFO root fetch - processPackages [Swagger2Tests]: executing diffoscope
+[2023-08-04 12:45:05] INFO root fetch - processPackages [Swagger2Tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Swagger2Tests-1.0.4.tar.gz tmp/Swagger2Tests-1.0.5.tar.gz --markdown 20230804/S/Swagger2Tests/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-04 12:45:05] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/45/e2/4f0d1292846cb7cfcb2509c065c5b0d6bf2cbeb4eaf06c0eac178518f519/camSort-0.3.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/85/c8/2fbd59ea7ff652660cc7ecc7bdd711dd11c209831e50f4ffe61f76d8fd8c/netbox_plugin_dns-0.18.7.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [mongodb-python-manager]: Downloading https://files.pythonhosted.org/packages/da/60/f420e2b0c6b191874f161fe5b4f0f8374507b8bb15793ff4f3d639e25aad/mongodb_python_manager-1.5.9.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/1a/75/5e5598d10abf0147235b73b9c89aa3890fcc8f8f70f13d6f2e9d70430f03/skypilot-nightly-1.0.0.dev20230803.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [dbt-airflow-factory]: Downloading https://files.pythonhosted.org/packages/ea/db/d835a7ae0a80f0d694c78e1b787cec41689f9a104eaf6d8b2d7fb7c8b9d7/dbt-airflow-factory-0.33.0.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [netbox-plugin-dns]: executing diffoscope
+[2023-08-04 12:45:05] INFO root fetch - processPackages [netbox-plugin-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_dns-0.18.6.tar.gz tmp/netbox_plugin_dns-0.18.7.tar.gz --markdown 20230804/n/netbox-plugin-dns/0.18.6-0.18.7/diff.md --exclude *.pyd
+[2023-08-04 12:45:05] INFO root fetch - processPackages [relaxed]: Downloading https://files.pythonhosted.org/packages/8e/65/3eda46da10c14d9817fbff06c2fbd72389130cc956811a8f4b9a7b851d99/relaxed-0.4.0.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [mongodb-python-manager]: executing diffoscope
+[2023-08-04 12:45:05] INFO root fetch - processPackages [mongodb-python-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_python_manager-1.5.8.tar.gz tmp/mongodb_python_manager-1.5.9.tar.gz --markdown 20230804/m/mongodb-python-manager/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-08-04 12:45:05] INFO root fetch - processPackages [dbt-airflow-factory]: executing diffoscope
+[2023-08-04 12:45:05] INFO root fetch - processPackages [dbt-airflow-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-airflow-factory-0.32.0.tar.gz tmp/dbt-airflow-factory-0.33.0.tar.gz --markdown 20230804/d/dbt-airflow-factory/0.32.0-0.33.0/diff.md --exclude *.pyd
+[2023-08-04 12:45:05] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-08-04 12:45:05] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230802.tar.gz tmp/skypilot-nightly-1.0.0.dev20230803.tar.gz --markdown 20230804/s/skypilot-nightly/1.0.0.dev20230802-1.0.0.dev20230803/diff.md --exclude *.pyd
+[2023-08-04 12:45:05] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/5e/21/1bc2d7d69ec7e92ffa351e6b8618e6b949ecc1223e454627d53fc87ee76c/lamindb_setup-0.49.3.tar.gz
+[2023-08-04 12:45:05] INFO root fetch - processPackages [relaxed]: executing diffoscope
+[2023-08-04 12:45:05] INFO root fetch - processPackages [relaxed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relaxed-0.3.0.tar.gz tmp/relaxed-0.4.0.tar.gz --markdown 20230804/r/relaxed/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-04 12:45:06] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/dc/1e/513896f5d9c68560845897d0960bc605f6cdd047dd7dd9f401946d685e82/camSort-0.3.1.tar.gz
+[2023-08-04 12:45:06] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-08-04 12:45:06] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.49.2.tar.gz tmp/lamindb_setup-0.49.3.tar.gz --markdown 20230804/l/lamindb_setup/0.49.2-0.49.3/diff.md --exclude *.pyd
+[2023-08-04 12:45:06] INFO root fetch - processPackages [camSort]: executing diffoscope
+[2023-08-04 12:45:06] INFO root fetch - processPackages [camSort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camSort-0.3.tar.gz tmp/camSort-0.3.1.tar.gz --markdown 20230804/c/camSort/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-08-04 12:45:06] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/3a/2c/6c5c6451d2818adfd99b87a8aa1c5147f6d9097d31cfee6a020418f9b02c/referencing-0.9.2.tar.gz
+[2023-08-04 12:45:06] INFO root fetch - processPackages [referencing]: executing diffoscope
+[2023-08-04 12:45:06] INFO root fetch - processPackages [referencing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing-0.8.9.tar.gz tmp/referencing-0.9.2.tar.gz --markdown 20230804/r/referencing/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-08-04 12:45:07] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.4.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.5.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [Swagger2Tests]: Start processing: cellar-extractor
+[2023-08-04 12:45:07] INFO root fetch - main [MainThread]: End processing [Swagger2Tests]: success
+[2023-08-04 12:45:07] INFO root fetch - processPackages [mongodb-python-manager]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_python_manager-1.5.8.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [mongodb-python-manager]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_python_manager-1.5.9.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [mongodb-python-manager]: Start processing: fileformats-extras
+[2023-08-04 12:45:07] INFO root fetch - main [MainThread]: End processing [mongodb-python-manager]: success
+[2023-08-04 12:45:07] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [lnschema_core]: Start processing: MT-PY-API-Suite-jwt
+[2023-08-04 12:45:07] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-08-04 12:45:07] INFO root fetch - processPackages [cellar-extractor]: New version: [1.0.55] Old Version: [1.0.54]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [fileformats-extras]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [dbt-airflow-factory]: Remove: archive file [/home/abi/fetcher/tmp/dbt-airflow-factory-0.32.0.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [dbt-airflow-factory]: Remove: archive file [/home/abi/fetcher/tmp/dbt-airflow-factory-0.33.0.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [dbt-airflow-factory]: Start processing: hydrodataset
+[2023-08-04 12:45:07] INFO root fetch - main [MainThread]: End processing [dbt-airflow-factory]: success
+[2023-08-04 12:45:07] WARNING root fetch - processPackages [MT-PY-API-Suite-jwt]: Skipping, unable to determine old version
+[2023-08-04 12:45:07] INFO root fetch - main [MainThread]: End processing [MT-PY-API-Suite-jwt] error
+[2023-08-04 12:45:07] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.18.6.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.18.7.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - main [MainThread]: End processing [netbox-plugin-dns]: success
+[2023-08-04 12:45:07] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/6d/1d/8e80d0d1e00116875cfc85e742de4e3ac71cda1b349d5c8918ff976d205d/cellar_extractor-1.0.54.tar.gz
+[2023-08-04 12:45:07] INFO root fetch - processPackages [hydrodataset]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [relaxed]: Remove: archive file [/home/abi/fetcher/tmp/relaxed-0.3.0.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [relaxed]: Remove: archive file [/home/abi/fetcher/tmp/relaxed-0.4.0.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - main [MainThread]: End processing [relaxed]: success
+[2023-08-04 12:45:07] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.3.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.3.1.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - main [MainThread]: End processing [camSort]: success
+[2023-08-04 12:45:07] INFO root fetch - processPackages [fileformats-extras]: Downloading https://files.pythonhosted.org/packages/b6/5f/8dcb9b4ea9a24a57c3bd474092cce47cc97be0b6be8768005a5e3eed4e37/fileformats_extras-0.2.0.tar.gz
+[2023-08-04 12:45:07] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.2.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.3.tar.gz]
+[2023-08-04 12:45:07] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-08-04 12:45:07] INFO root fetch - processPackages [hydrodataset]: Downloading https://files.pythonhosted.org/packages/8b/78/f670a7a6c286e563a16dd26ac3320c3b8c2b5b6b77ccc421a25495113b30/hydrodataset-0.1.2.tar.gz
+[2023-08-04 12:45:07] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/87/f5/0a25e756368770cf0734e8ef6eae21d38b2979e563bb73da7fa5cda49973/cellar_extractor-1.0.55.tar.gz
+[2023-08-04 12:45:07] INFO root fetch - processPackages [cellar-extractor]: executing diffoscope
+[2023-08-04 12:45:07] INFO root fetch - processPackages [cellar-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellar_extractor-1.0.54.tar.gz tmp/cellar_extractor-1.0.55.tar.gz --markdown 20230804/c/cellar-extractor/1.0.54-1.0.55/diff.md --exclude *.pyd
+[2023-08-04 12:45:08] INFO root fetch - processPackages [fileformats-extras]: Downloading https://files.pythonhosted.org/packages/08/a1/d04528828e8cd53523ef85d869fb3777793a603e01fde5a082e8b9d67b6e/fileformats_extras-0.2.1.tar.gz
+[2023-08-04 12:45:08] INFO root fetch - processPackages [referencing]: Remove: archive file [/home/abi/fetcher/tmp/referencing-0.8.9.tar.gz]
+[2023-08-04 12:45:08] INFO root fetch - processPackages [referencing]: Remove: archive file [/home/abi/fetcher/tmp/referencing-0.9.2.tar.gz]
+[2023-08-04 12:45:08] INFO root fetch - main [MainThread]: End processing [referencing]: success
+[2023-08-04 12:45:08] INFO root fetch - processPackages [fileformats-extras]: executing diffoscope
+[2023-08-04 12:45:08] INFO root fetch - processPackages [fileformats-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_extras-0.2.0.tar.gz tmp/fileformats_extras-0.2.1.tar.gz --markdown 20230804/f/fileformats-extras/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-04 12:45:08] INFO root fetch - processPackages [hydrodataset]: Downloading https://files.pythonhosted.org/packages/75/a4/d18a764b119f317622747552e237e3114c88a7dc0af2762794bc6b5672f0/hydrodataset-0.1.3.tar.gz
+[2023-08-04 12:45:08] INFO root fetch - processPackages [hydrodataset]: executing diffoscope
+[2023-08-04 12:45:08] INFO root fetch - processPackages [hydrodataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrodataset-0.1.2.tar.gz tmp/hydrodataset-0.1.3.tar.gz --markdown 20230804/h/hydrodataset/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-04 12:45:08] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230802.tar.gz]
+[2023-08-04 12:45:08] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230803.tar.gz]
+[2023-08-04 12:45:08] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-08-04 12:45:08] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.54.tar.gz]
+[2023-08-04 12:45:08] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.55.tar.gz]
+[2023-08-04 12:45:08] INFO root fetch - main [MainThread]: End processing [cellar-extractor]: success
+[2023-08-04 12:45:08] INFO root fetch - processPackages [fileformats-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_extras-0.2.0.tar.gz]
+[2023-08-04 12:45:08] INFO root fetch - processPackages [fileformats-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_extras-0.2.1.tar.gz]
+[2023-08-04 12:45:08] INFO root fetch - main [MainThread]: End processing [fileformats-extras]: success
+[2023-08-04 12:45:09] INFO root fetch - processPackages [hydrodataset]: Remove: archive file [/home/abi/fetcher/tmp/hydrodataset-0.1.2.tar.gz]
+[2023-08-04 12:45:09] INFO root fetch - processPackages [hydrodataset]: Remove: archive file [/home/abi/fetcher/tmp/hydrodataset-0.1.3.tar.gz]
+[2023-08-04 12:45:09] INFO root fetch - main [MainThread]: End processing [hydrodataset]: success
+[2023-08-04 12:45:09] INFO root fetch - main [MainThread]: Store serial: [19172888]
