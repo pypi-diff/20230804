@@ -20007,3 +20007,230 @@
 [2023-08-04 13:21:47] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-08-04 13:21:47] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-08-04 13:21:47] INFO root fetch - main [MainThread]: Store serial: [19173146]
+[2023-08-04 13:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19173146]
+[2023-08-04 13:26:56] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grobid-client-python
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytranskit
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hepcrawl
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-lambda
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy-boto3-sqs
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3-cloudformation
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-boto3-s3
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: viggofiscal
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-boto3-ec2
+[2023-08-04 13:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypy-boto3-rds
+[2023-08-04 13:26:56] INFO root fetch - processPackages [mypy-boto3-sqs]: New version: [1.28.16] Old Version: [1.28.15.post1]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [mypy-boto3-ec2]: New version: [1.28.4] Old Version: [1.28.3.post2]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [grobid-client-python]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [pytranskit]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [hepcrawl]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [viggofiscal]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [mypy-boto3-lambda]: New version: [1.28.19] Old Version: [1.28.16]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [mypy-boto3-cloudformation]: New version: [1.28.19] Old Version: [1.28.16]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [mypy-boto3-rds]: New version: [1.28.9] Old Version: [1.28.19]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [mypy-boto3-s3]: New version: [1.28.8] Old Version: [1.28.3.post2]
+[2023-08-04 13:26:56] INFO root fetch - processPackages [mypy-boto3-ec2]: Downloading https://files.pythonhosted.org/packages/cd/0d/a4985a07fcaef8710d455dc62f817451ffebc9124ef5118a3555e4dec6a2/mypy-boto3-ec2-1.28.3.post2.tar.gz
+[2023-08-04 13:26:56] INFO root fetch - processPackages [mypy-boto3-sqs]: Downloading https://files.pythonhosted.org/packages/2a/c0/b831ce6de6b609df5d008b1edf495c38a971e761069c997684354ae179db/mypy-boto3-sqs-1.28.15.post1.tar.gz
+[2023-08-04 13:26:56] INFO root fetch - processPackages [pytranskit]: Downloading https://files.pythonhosted.org/packages/95/d1/b5287e0a8022f65546aa3a054e2a44a10287f8ce07b9be3352aa3682827d/pytranskit-0.2.7.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [grobid-client-python]: Downloading https://files.pythonhosted.org/packages/b7/2d/12706bb7f1447b49891b899a4f638dd607059df7bbb150b9d94ab3c736e8/grobid_client_python-0.0.6.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-rds]: Downloading https://files.pythonhosted.org/packages/57/13/97cd03d918e8283d5d153938ae3f863a4ab2836352251782b13c192af47d/mypy-boto3-rds-1.28.19.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/8d/89/8dacdfec19a48398e7d7539ed23492f5454c5d92d33451b3751d59b66822/viggofiscal-1.6.8.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-lambda]: Downloading https://files.pythonhosted.org/packages/4a/50/fdda35757c086e59ea047cfaf272161ae287c700c34c4f146fd2b6e371ec/mypy-boto3-lambda-1.28.16.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-cloudformation]: Downloading https://files.pythonhosted.org/packages/c2/21/31ab223c6bab0cb94fa564150a9193b64b2978c4bed4959d3986ace97ce1/mypy-boto3-cloudformation-1.28.16.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-s3]: Downloading https://files.pythonhosted.org/packages/8f/f6/f13931886901b628fa85f3472ce67449a92bf5e3d30f5f4e22e5e58d2ed9/mypy-boto3-s3-1.28.3.post2.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [hepcrawl]: Downloading https://files.pythonhosted.org/packages/16/71/71bcaa4a7b3644c8a11ad566e2fff3c606999c0dedc58f3cb3ccba4971d6/hepcrawl-9.0.8.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-ec2]: Downloading https://files.pythonhosted.org/packages/1f/ee/e92ac155ddefceb9d0bed984ff7ab729f92d2f1ce6f324558a94b3dcac5c/mypy-boto3-ec2-1.28.4.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-sqs]: Downloading https://files.pythonhosted.org/packages/14/95/e4b155db06b130079b64c544a74f805191ddc47ba1a4526794e1e9198078/mypy-boto3-sqs-1.28.16.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [pytranskit]: Downloading https://files.pythonhosted.org/packages/e1/1f/e59063b88de2cddc5226adaaa57b18d549c3eecb0bf5d0f5ab788bfc4c1d/pytranskit-0.2.8.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [grobid-client-python]: Downloading https://files.pythonhosted.org/packages/81/bb/ac532abc691ea0b5b7aa191456b96cdb1ee02911beaa7a3b7354fa618e3c/grobid_client_python-0.0.7-py3-none-any.whl
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-lambda]: Downloading https://files.pythonhosted.org/packages/d8/95/0d9e0604016356242c9746f1ac7cee5d0c069bf15a71ca30bf57bd9c4ccd/mypy-boto3-lambda-1.28.19.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-ec2]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-ec2-1.28.3.post2.tar.gz tmp/mypy-boto3-ec2-1.28.4.tar.gz --markdown 20230804/m/mypy-boto3-ec2/1.28.3.post2-1.28.4/diff.md --exclude *.pyd
+[2023-08-04 13:26:57] INFO root fetch - processPackages [viggofiscal]: Downloading https://files.pythonhosted.org/packages/de/7d/b312ca4773cc7809461f7a79e027eefc1fd97e36f4dde14477b917491abf/viggofiscal-1.6.9.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-cloudformation]: Downloading https://files.pythonhosted.org/packages/61/3d/85ac19d0b5b28d95e705b5489fbac86b883918946d5cbd40832ca3d502d1/mypy-boto3-cloudformation-1.28.19.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-sqs]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-sqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sqs-1.28.15.post1.tar.gz tmp/mypy-boto3-sqs-1.28.16.tar.gz --markdown 20230804/m/mypy-boto3-sqs/1.28.15.post1-1.28.16/diff.md --exclude *.pyd
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-s3]: Downloading https://files.pythonhosted.org/packages/dc/49/96ee9487b67d265eae32f21910416bc65d0827cd24831eb64812596202ca/mypy-boto3-s3-1.28.8.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-rds]: Downloading https://files.pythonhosted.org/packages/19/52/c65a32fdd853e054991a6ef1c6cd3f7438074c9df4d04a8e60334ae5bba0/mypy-boto3-rds-1.28.9.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [hepcrawl]: Downloading https://files.pythonhosted.org/packages/d1/4f/ea55e8de26f777726dac7e49ccd5cf1014c4c2e161d0c8241828f8bb454f/hepcrawl-9.0.9.tar.gz
+[2023-08-04 13:26:57] INFO root fetch - processPackages [grobid-client-python]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [grobid-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grobid_client_python-0.0.6.tar.gz tmp/grobid_client_python-0.0.7-py3-none-any.whl.zip --markdown 20230804/g/grobid-client-python/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-04 13:26:57] INFO root fetch - processPackages [viggofiscal]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [viggofiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggofiscal-1.6.8.tar.gz tmp/viggofiscal-1.6.9.tar.gz --markdown 20230804/v/viggofiscal/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-04 13:26:57] INFO root fetch - processPackages [pytranskit]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [pytranskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytranskit-0.2.7.tar.gz tmp/pytranskit-0.2.8.tar.gz --markdown 20230804/p/pytranskit/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-s3]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-s3-1.28.3.post2.tar.gz tmp/mypy-boto3-s3-1.28.8.tar.gz --markdown 20230804/m/mypy-boto3-s3/1.28.3.post2-1.28.8/diff.md --exclude *.pyd
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-rds]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-rds-1.28.19.tar.gz tmp/mypy-boto3-rds-1.28.9.tar.gz --markdown 20230804/m/mypy-boto3-rds/1.28.19-1.28.9/diff.md --exclude *.pyd
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-lambda]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-lambda-1.28.16.tar.gz tmp/mypy-boto3-lambda-1.28.19.tar.gz --markdown 20230804/m/mypy-boto3-lambda/1.28.16-1.28.19/diff.md --exclude *.pyd
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-cloudformation]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [mypy-boto3-cloudformation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-cloudformation-1.28.16.tar.gz tmp/mypy-boto3-cloudformation-1.28.19.tar.gz --markdown 20230804/m/mypy-boto3-cloudformation/1.28.16-1.28.19/diff.md --exclude *.pyd
+[2023-08-04 13:26:57] INFO root fetch - processPackages [hepcrawl]: executing diffoscope
+[2023-08-04 13:26:57] INFO root fetch - processPackages [hepcrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepcrawl-9.0.8.tar.gz tmp/hepcrawl-9.0.9.tar.gz --markdown 20230804/h/hepcrawl/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-08-04 13:26:59] INFO root fetch - processPackages [grobid-client-python]: Remove: archive file [/home/abi/fetcher/tmp/grobid_client_python-0.0.6.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [grobid-client-python]: Remove: archive file [/home/abi/fetcher/tmp/grobid_client_python-0.0.7-py3-none-any.whl.zip]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [grobid-client-python]: Start processing: django-gcp
+[2023-08-04 13:26:59] INFO root fetch - main [MainThread]: End processing [grobid-client-python]: success
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-sqs]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sqs-1.28.15.post1.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-sqs]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sqs-1.28.16.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-sqs]: Start processing: ptcrossd
+[2023-08-04 13:26:59] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sqs]: success
+[2023-08-04 13:26:59] INFO root fetch - processPackages [django-gcp]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [ptcrossd]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [pytranskit]: Remove: archive file [/home/abi/fetcher/tmp/pytranskit-0.2.7.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [pytranskit]: Remove: archive file [/home/abi/fetcher/tmp/pytranskit-0.2.8.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [pytranskit]: Start processing: autora-experimentalist-sampler-leverage
+[2023-08-04 13:26:59] INFO root fetch - main [MainThread]: End processing [pytranskit]: success
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-lambda]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-lambda-1.28.16.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-lambda]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-lambda-1.28.19.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-lambda]: Start processing: EasyGlobals
+[2023-08-04 13:26:59] INFO root fetch - main [MainThread]: End processing [mypy-boto3-lambda]: success
+[2023-08-04 13:26:59] INFO root fetch - processPackages [EasyGlobals]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [django-gcp]: Downloading https://files.pythonhosted.org/packages/fa/1e/7977cdd9436a23d951ec20889acda7f77200169515120aa05a84c7209f1c/django_gcp-0.9.2.tar.gz
+[2023-08-04 13:26:59] WARNING root fetch - processPackages [autora-experimentalist-sampler-leverage]: Skipping, unable to determine old version
+[2023-08-04 13:26:59] INFO root fetch - processPackages [autora-experimentalist-sampler-leverage]: Start processing: pckit
+[2023-08-04 13:26:59] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-sampler-leverage] error
+[2023-08-04 13:26:59] INFO root fetch - processPackages [ptcrossd]: Downloading https://files.pythonhosted.org/packages/16/8c/e7c976aa7e8aaf4ec4a9213d28e76bea1169be10e8224672a8c6d312f299/ptcrossd-1.0.1.tar.gz
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-rds]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-rds-1.28.19.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-rds]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-rds-1.28.9.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-rds]: Start processing: Jakit
+[2023-08-04 13:26:59] INFO root fetch - main [MainThread]: End processing [mypy-boto3-rds]: success
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-cloudformation]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cloudformation-1.28.16.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-cloudformation]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cloudformation-1.28.19.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-cloudformation]: Start processing: pysubnettree
+[2023-08-04 13:26:59] INFO root fetch - main [MainThread]: End processing [mypy-boto3-cloudformation]: success
+[2023-08-04 13:26:59] INFO root fetch - processPackages [pckit]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [Jakit]: New version: [0.4] Old Version: [0.3]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-s3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-s3-1.28.3.post2.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-s3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-s3-1.28.8.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [mypy-boto3-s3]: Start processing: emnify-sdk
+[2023-08-04 13:26:59] INFO root fetch - main [MainThread]: End processing [mypy-boto3-s3]: success
+[2023-08-04 13:26:59] INFO root fetch - processPackages [viggofiscal]: Remove: archive file [/home/abi/fetcher/tmp/viggofiscal-1.6.8.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [viggofiscal]: Remove: archive file [/home/abi/fetcher/tmp/viggofiscal-1.6.9.tar.gz]
+[2023-08-04 13:26:59] INFO root fetch - processPackages [viggofiscal]: Start processing: locust
+[2023-08-04 13:26:59] INFO root fetch - main [MainThread]: End processing [viggofiscal]: success
+[2023-08-04 13:26:59] INFO root fetch - processPackages [EasyGlobals]: Downloading https://files.pythonhosted.org/packages/7d/4b/5319e4a61da6880ba648dae263c5964a23b4733b8eecd73d3c061f0ed2a8/easyglobals-0.0.5.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-08-04 13:27:00] INFO root fetch - processPackages [Jakit]: Downloading https://files.pythonhosted.org/packages/15/83/b01093e8de0cfc7554b1d752089f508e3594eb701680b12371fe0d27f2ca/Jakit-0.3.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [django-gcp]: Downloading https://files.pythonhosted.org/packages/a3/ea/a0ba2534d8540b5905ac4a62ff379270051f18b10e85af024aafde36b9d2/django_gcp-0.9.3.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [pysubnettree]: New version: [0.37] Old Version: [0.35]
+[2023-08-04 13:27:00] INFO root fetch - processPackages [emnify-sdk]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-04 13:27:00] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [pckit]: Downloading https://files.pythonhosted.org/packages/38/9b/675a2399eb46d3a8c218deea2d5892ed4e1ff745d997bf6c43f099448547/pckit-0.2.2.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [mypy-boto3-ec2]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-ec2-1.28.3.post2.tar.gz]
+[2023-08-04 13:27:00] INFO root fetch - processPackages [mypy-boto3-ec2]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-ec2-1.28.4.tar.gz]
+[2023-08-04 13:27:00] INFO root fetch - processPackages [mypy-boto3-ec2]: Start processing: torchtnt-nightly
+[2023-08-04 13:27:00] INFO root fetch - main [MainThread]: End processing [mypy-boto3-ec2]: success
+[2023-08-04 13:27:00] INFO root fetch - processPackages [ptcrossd]: Downloading https://files.pythonhosted.org/packages/bd/fb/fc557f947a9b239e718e6cd9f20409e7d3d2e8c85dfb6d55c9853ec1d0c6/ptcrossd-1.0.2.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [django-gcp]: executing diffoscope
+[2023-08-04 13:27:00] INFO root fetch - processPackages [django-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_gcp-0.9.2.tar.gz tmp/django_gcp-0.9.3.tar.gz --markdown 20230804/d/django-gcp/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-04 13:27:00] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.8.3] Old Version: [2023.8.2]
+[2023-08-04 13:27:00] INFO root fetch - processPackages [ptcrossd]: executing diffoscope
+[2023-08-04 13:27:00] INFO root fetch - processPackages [ptcrossd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcrossd-1.0.1.tar.gz tmp/ptcrossd-1.0.2.tar.gz --markdown 20230804/p/ptcrossd/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-04 13:27:00] INFO root fetch - processPackages [pysubnettree]: Downloading https://files.pythonhosted.org/packages/3d/32/ffa0e8150c2a455bb202e1a1ca384ff3e6ea746968d92f5a53bfd6e4b368/pysubnettree-0.35.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [emnify-sdk]: Downloading https://files.pythonhosted.org/packages/79/96/f56b6c8d9f2637f0f61f215fefb5ffe5af21711e4e30f7daa914cbdb8328/emnify-sdk-0.3.1.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [EasyGlobals]: Downloading https://files.pythonhosted.org/packages/d4/67/27878e8efe148df5104362950162811b75aab73872d3c3b2f4128fbdda39/easyglobals-0.0.6.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/7a/a9/91e155dea65b61cb732a62d37d5f29c37652ee564e7a67cfd70c22b9c437/torchtnt-nightly-2023.8.2.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [Jakit]: Downloading https://files.pythonhosted.org/packages/c6/22/68e6181900fe5eb18b800939b13d89cb868f882ed1afb360d8ba79a28d95/Jakit-0.4.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [pckit]: Downloading https://files.pythonhosted.org/packages/cd/2e/a44d9bb1261ef13114a10cc9807acfa689d818ff1f010d56c3b4551f7d18/pckit-0.3.0.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [EasyGlobals]: executing diffoscope
+[2023-08-04 13:27:00] INFO root fetch - processPackages [EasyGlobals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyglobals-0.0.5.tar.gz tmp/easyglobals-0.0.6.tar.gz --markdown 20230804/E/EasyGlobals/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-04 13:27:00] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [Jakit]: executing diffoscope
+[2023-08-04 13:27:00] INFO root fetch - processPackages [Jakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jakit-0.3.tar.gz tmp/Jakit-0.4.tar.gz --markdown 20230804/J/Jakit/0.3-0.4/diff.md --exclude *.pyd
+[2023-08-04 13:27:00] INFO root fetch - processPackages [pckit]: executing diffoscope
+[2023-08-04 13:27:00] INFO root fetch - processPackages [pckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pckit-0.2.2.tar.gz tmp/pckit-0.3.0.tar.gz --markdown 20230804/p/pckit/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-04 13:27:00] INFO root fetch - processPackages [pysubnettree]: Downloading https://files.pythonhosted.org/packages/6c/8f/51033e6d98418de21ce4e829b198cca62f28d9f6f9969e16e4f5d0e3b360/pysubnettree-0.37.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-08-04 13:27:00] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230804/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-08-04 13:27:00] INFO root fetch - processPackages [emnify-sdk]: Downloading https://files.pythonhosted.org/packages/d3/6a/9850084d1dda0e4192e14e6b3d398d5d99993c9aa4bd74dc39e5cc435bb1/emnify-sdk-0.3.2.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/4e/89/7cd77383778c84d915b98fed9bdf9f872c0e55d32f654a8367c91d8d7075/torchtnt-nightly-2023.8.3.tar.gz
+[2023-08-04 13:27:00] INFO root fetch - processPackages [pysubnettree]: executing diffoscope
+[2023-08-04 13:27:00] INFO root fetch - processPackages [pysubnettree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysubnettree-0.35.tar.gz tmp/pysubnettree-0.37.tar.gz --markdown 20230804/p/pysubnettree/0.35-0.37/diff.md --exclude *.pyd
+[2023-08-04 13:27:01] INFO root fetch - processPackages [emnify-sdk]: executing diffoscope
+[2023-08-04 13:27:01] INFO root fetch - processPackages [emnify-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emnify-sdk-0.3.1.tar.gz tmp/emnify-sdk-0.3.2.tar.gz --markdown 20230804/e/emnify-sdk/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-04 13:27:01] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-08-04 13:27:01] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.8.2.tar.gz tmp/torchtnt-nightly-2023.8.3.tar.gz --markdown 20230804/t/torchtnt-nightly/2023.8.2-2023.8.3/diff.md --exclude *.pyd
+[2023-08-04 13:27:01] INFO root fetch - processPackages [django-gcp]: Remove: archive file [/home/abi/fetcher/tmp/django_gcp-0.9.2.tar.gz]
+[2023-08-04 13:27:01] INFO root fetch - processPackages [django-gcp]: Remove: archive file [/home/abi/fetcher/tmp/django_gcp-0.9.3.tar.gz]
+[2023-08-04 13:27:01] INFO root fetch - processPackages [django-gcp]: Start processing: torchserve-nightly
+[2023-08-04 13:27:01] INFO root fetch - main [MainThread]: End processing [django-gcp]: success
+[2023-08-04 13:27:01] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.8.3] Old Version: [2023.8.2]
+[2023-08-04 13:27:01] INFO root fetch - processPackages [ptcrossd]: Remove: archive file [/home/abi/fetcher/tmp/ptcrossd-1.0.1.tar.gz]
+[2023-08-04 13:27:01] INFO root fetch - processPackages [ptcrossd]: Remove: archive file [/home/abi/fetcher/tmp/ptcrossd-1.0.2.tar.gz]
+[2023-08-04 13:27:01] INFO root fetch - processPackages [ptcrossd]: Start processing: torch-model-archiver-nightly
+[2023-08-04 13:27:01] INFO root fetch - main [MainThread]: End processing [ptcrossd]: success
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8d/d9/0b46e5f346fc97516b9aee5115ec17bbd2f9a3f03b9491faf176cc55db1f/torchserve_nightly-2023.8.2-py3-none-any.whl
+[2023-08-04 13:27:02] INFO root fetch - processPackages [Jakit]: Remove: archive file [/home/abi/fetcher/tmp/Jakit-0.3.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [Jakit]: Remove: archive file [/home/abi/fetcher/tmp/Jakit-0.4.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [Jakit]: Start processing: torch-workflow-archiver-nightly
+[2023-08-04 13:27:02] INFO root fetch - main [MainThread]: End processing [Jakit]: success
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-04 13:27:02] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750261>=10485760
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torchserve-nightly]: Start processing: dl2050utils
+[2023-08-04 13:27:02] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.8.3] Old Version: [2023.8.2]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [pckit]: Remove: archive file [/home/abi/fetcher/tmp/pckit-0.2.2.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [pckit]: Remove: archive file [/home/abi/fetcher/tmp/pckit-0.3.0.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [pckit]: Start processing: wafermap-clustering
+[2023-08-04 13:27:02] INFO root fetch - main [MainThread]: End processing [pckit]: success
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/6d/b9/c764d17563562f39cf6026658ca5c049d2e96d6ccf4f9bb43accc6e6d17d/torch_workflow_archiver_nightly-2023.8.2-py3-none-any.whl
+[2023-08-04 13:27:02] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-08-04 13:27:02] INFO root fetch - processPackages [EasyGlobals]: Remove: archive file [/home/abi/fetcher/tmp/easyglobals-0.0.5.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [EasyGlobals]: Remove: archive file [/home/abi/fetcher/tmp/easyglobals-0.0.6.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [EasyGlobals]: Start processing: mypy-upgrade
+[2023-08-04 13:27:02] INFO root fetch - main [MainThread]: End processing [EasyGlobals]: success
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/e4/72/1b1bc870135a123fad66ae7062343eda79e3fe105ca4d25a4b2be44eade1/torch_model_archiver_nightly-2023.8.3-py3-none-any.whl
+[2023-08-04 13:27:02] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/76/17/bd012b86e5f7b5cacf9d0a3fd9e59d16563c8d5cbd34afc311193d870737/wafermap-clustering-0.3.8.tar.gz
+[2023-08-04 13:27:02] INFO root fetch - processPackages [emnify-sdk]: Remove: archive file [/home/abi/fetcher/tmp/emnify-sdk-0.3.1.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [emnify-sdk]: Remove: archive file [/home/abi/fetcher/tmp/emnify-sdk-0.3.2.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - main [MainThread]: End processing [emnify-sdk]: success
+[2023-08-04 13:27:02] INFO root fetch - processPackages [mypy-upgrade]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [pysubnettree]: Remove: archive file [/home/abi/fetcher/tmp/pysubnettree-0.35.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [pysubnettree]: Remove: archive file [/home/abi/fetcher/tmp/pysubnettree-0.37.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - main [MainThread]: End processing [pysubnettree]: success
+[2023-08-04 13:27:02] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b5/f8/b83425554c9316aff8ebeab95f6bc1c8533d12f1b2717eea45aefeaad0e2/torch_workflow_archiver_nightly-2023.8.3-py3-none-any.whl
+[2023-08-04 13:27:02] INFO root fetch - processPackages [hepcrawl]: Remove: archive file [/home/abi/fetcher/tmp/hepcrawl-9.0.8.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [hepcrawl]: Remove: archive file [/home/abi/fetcher/tmp/hepcrawl-9.0.9.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - main [MainThread]: End processing [hepcrawl]: success
+[2023-08-04 13:27:02] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.2.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230804/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.3.tar.gz]
+[2023-08-04 13:27:02] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/12/5f/9e0942855814c910846bd202d454a3794b2be83ad872abc42bc1811d5564/torch_model_archiver_nightly-2023.8.4-py3-none-any.whl
+[2023-08-04 13:27:02] INFO root fetch - processPackages [mypy-upgrade]: Downloading https://files.pythonhosted.org/packages/63/73/d0d73e423e4a1ce48c3b7d8ac172c773446810a77d1c6ca8604edc175510/mypy_upgrade-0.0.1a2.tar.gz
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.8.2-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.8.3-py3-none-any.whl.zip --markdown 20230804/t/torch-workflow-archiver-nightly/2023.8.2-2023.8.3/diff.md --exclude *.pyd
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-08-04 13:27:02] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.8.3-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.8.4-py3-none-any.whl.zip --markdown 20230804/t/torch-model-archiver-nightly/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-04 13:27:03] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/6f/7e/89e84aabdfa91b3f2263a5eff4d4b90aa43c4f105ebd8439b4876e59f9ba/wafermap-clustering-0.3.9.tar.gz
+[2023-08-04 13:27:03] INFO root fetch - processPackages [mypy-upgrade]: Downloading https://files.pythonhosted.org/packages/34/dd/0b63eec41b9f5cb501b4b4beaf769a8f0388136eba24dd308ca628249a9d/mypy_upgrade-0.0.1a3.tar.gz
+[2023-08-04 13:27:03] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-08-04 13:27:03] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.8.tar.gz tmp/wafermap-clustering-0.3.9.tar.gz --markdown 20230804/w/wafermap-clustering/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 13:27:03] INFO root fetch - processPackages [mypy-upgrade]: executing diffoscope
+[2023-08-04 13:27:03] INFO root fetch - processPackages [mypy-upgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_upgrade-0.0.1a2.tar.gz tmp/mypy_upgrade-0.0.1a3.tar.gz --markdown 20230804/m/mypy-upgrade/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-08-04 13:27:03] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2023-08-04 13:27:03] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2023-08-04 13:27:03] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-08-04 13:27:03] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-08-04 13:27:03] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-08-04 13:27:03] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-08-04 13:27:03] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.8.2-py3-none-any.whl.zip]
+[2023-08-04 13:27:03] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.8.3-py3-none-any.whl.zip]
+[2023-08-04 13:27:03] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-08-04 13:27:03] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.8.3-py3-none-any.whl.zip]
+[2023-08-04 13:27:03] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.8.4-py3-none-any.whl.zip]
+[2023-08-04 13:27:03] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-08-04 13:27:04] INFO root fetch - processPackages [mypy-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/mypy_upgrade-0.0.1a2.tar.gz]
+[2023-08-04 13:27:04] INFO root fetch - processPackages [mypy-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/mypy_upgrade-0.0.1a3.tar.gz]
+[2023-08-04 13:27:04] INFO root fetch - main [MainThread]: End processing [mypy-upgrade]: success
+[2023-08-04 13:27:04] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.8.tar.gz]
+[2023-08-04 13:27:04] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.9.tar.gz]
+[2023-08-04 13:27:04] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-08-04 13:27:04] INFO root fetch - main [MainThread]: Store serial: [19173220]
