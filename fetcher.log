@@ -5508,3 +5508,92 @@
 [2023-08-04 02:42:19] INFO root fetch - processPackages [xml2rfc]: Remove: archive file [/home/abi/fetcher/tmp/xml2rfc-3.9.1.tar.gz]
 [2023-08-04 02:42:19] INFO root fetch - main [MainThread]: End processing [xml2rfc]: success
 [2023-08-04 02:42:19] INFO root fetch - main [MainThread]: Store serial: [19167062]
+[2023-08-04 02:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19167062]
+[2023-08-04 02:47:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hivedca
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weathermap
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retakesearch
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ream2
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webmeter
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yog
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rime-sdk
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zeroconf
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-l4d2-server
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-comprehend-s3olap
+[2023-08-04 02:47:28] INFO root fetch - processPackages [retakesearch]: New version: [0.1.28] Old Version: [0.1.27]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [webmeter]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [weathermap]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [hivedca]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc8] Old Version: [2.2.0rc7]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [webmeter]: Downloading https://files.pythonhosted.org/packages/f9/32/33ba871b9ff955b54d422e2f6fb447a192ea4f722951ea0c9650d9aaaa89/webmeter-1.0.2.tar.gz
+[2023-08-04 02:47:28] INFO root fetch - processPackages [yog]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.6.1.0] Old Version: [0.6.0.3]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [ream2]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [zeroconf]: New version: [0.74.0] Old Version: [0.73.0]
+[2023-08-04 02:47:28] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/74/4b/72e2f2fbe4f9d009f8d1ffae71acd1d5a0c85c0b24f1ae28f3653b3ee810/retakesearch-0.1.27.tar.gz
+[2023-08-04 02:47:28] INFO root fetch - processPackages [weathermap]: Downloading https://files.pythonhosted.org/packages/76/1f/2605dcac8fb59dc450dcb227fdbea6f36a7cd76821a1449088a677b89204/weathermap-1.0.0.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/5c/8b/531b0604155e62ebe328e4a13173ae73cd26c03d2cae7abd2d62b21da03a/rime_sdk-2.2.0rc7.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/c4/a7/931bebbfc52b8a6bee8a2f33c93069ecf2aca966d76b14366cc0cae55ced/hivedca-0.0.7.tar.gz
+[2023-08-04 02:47:29] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-08-04 02:47:29] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-08-04 02:47:29] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/e7/e8/2e60fa0aa825ec30ea180c5eb0e0bc7ac580d40d5092e7efcb23f75685d9/nonebot_plugin_l4d2_server-0.6.0.3.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/8a/49/c781f4dd6f8f6d83896190456075fb4e485e7b2b233312fb769d131ee737/yog-2.2.4.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/5c/ef/d5da9f4ae7fddd7c14d6cda1a9fc688917c17024c42f890d0b7de28ed4c8/ream2-2.9.0.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/f8/0b/de23865d5ddc3a5c7ea97601a32018c4bd89a553ece3fe2c7fc95e372c7b/zeroconf-0.73.0.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [weathermap]: Downloading https://files.pythonhosted.org/packages/ec/50/a7f102d064bcdb04c11bd6a5f8cb09a6a37dac573f1c34370bf4acdfaf81/weathermap-1.0.1.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/c0/a8/0b9d9e1fa94772cf4deaffadf88b8f3bdc284311eab3bfc2fad3a116aff0/rime_sdk-2.2.0rc8.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [webmeter]: Downloading https://files.pythonhosted.org/packages/2d/48/2248dc9315cad53cd7edf508e9bbe87662a68cbadd45a1bb5ed9ff0d36c6/webmeter-1.0.3.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/03/3e/5fe40e07d70a5c2ca3de3f915aee3499753bbd150aa195868166c59177ea/retakesearch-0.1.28.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/32/2c/03f11caf263a15ca74f0b39b3338d8b9318bac47d659057937b0e91a8a61/hivedca-0.0.8.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [retakesearch]: executing diffoscope
+[2023-08-04 02:47:29] INFO root fetch - processPackages [retakesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-0.1.27.tar.gz tmp/retakesearch-0.1.28.tar.gz --markdown 20230804/r/retakesearch/0.1.27-0.1.28/diff.md --exclude *.pyd
+[2023-08-04 02:47:29] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-08-04 02:47:29] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.2.0rc7.tar.gz tmp/rime_sdk-2.2.0rc8.tar.gz --markdown 20230804/r/rime-sdk/2.2.0rc7-2.2.0rc8/diff.md --exclude *.pyd
+[2023-08-04 02:47:29] INFO root fetch - processPackages [weathermap]: executing diffoscope
+[2023-08-04 02:47:29] INFO root fetch - processPackages [weathermap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weathermap-1.0.0.tar.gz tmp/weathermap-1.0.1.tar.gz --markdown 20230804/w/weathermap/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 02:47:29] INFO root fetch - processPackages [webmeter]: executing diffoscope
+[2023-08-04 02:47:29] INFO root fetch - processPackages [webmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webmeter-1.0.2.tar.gz tmp/webmeter-1.0.3.tar.gz --markdown 20230804/w/webmeter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-04 02:47:29] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/b4/6b/73abb671bf3715c0d6f5d5ba97b85d971de462b65a35590420236c81bba3/yog-2.2.5.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [hivedca]: executing diffoscope
+[2023-08-04 02:47:29] INFO root fetch - processPackages [hivedca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivedca-0.0.7.tar.gz tmp/hivedca-0.0.8.tar.gz --markdown 20230804/h/hivedca/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-04 02:47:29] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/55/2b/d3f35651b9264a3e317a63e2b0963208fd7bb7453de46de149b6a90c59a5/zeroconf-0.74.0.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/4b/89/0ef036831047fc64048b2b798ca2d68fc9703c432b69418a2340d76832f9/nonebot_plugin_l4d2_server-0.6.1.0.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/87/f4/ae92473c49108a0f9e62764c20ea1b65c84f8b6305313fd7d35c57a4d9f4/ream2-2.9.1.tar.gz
+[2023-08-04 02:47:29] INFO root fetch - processPackages [yog]: executing diffoscope
+[2023-08-04 02:47:29] INFO root fetch - processPackages [yog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yog-2.2.4.tar.gz tmp/yog-2.2.5.tar.gz --markdown 20230804/y/yog/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-08-04 02:47:29] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-08-04 02:47:29] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.73.0.tar.gz tmp/zeroconf-0.74.0.tar.gz --markdown 20230804/z/zeroconf/0.73.0-0.74.0/diff.md --exclude *.pyd
+[2023-08-04 02:47:30] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-08-04 02:47:30] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.6.0.3.tar.gz tmp/nonebot_plugin_l4d2_server-0.6.1.0.tar.gz --markdown 20230804/n/nonebot-plugin-l4d2-server/0.6.0.3-0.6.1.0/diff.md --exclude *.pyd
+[2023-08-04 02:47:30] INFO root fetch - processPackages [ream2]: executing diffoscope
+[2023-08-04 02:47:30] INFO root fetch - processPackages [ream2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ream2-2.9.0.tar.gz tmp/ream2-2.9.1.tar.gz --markdown 20230804/r/ream2/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-08-04 02:47:31] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.27.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.28.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - main [MainThread]: End processing [retakesearch]: success
+[2023-08-04 02:47:31] INFO root fetch - processPackages [webmeter]: Remove: archive file [/home/abi/fetcher/tmp/webmeter-1.0.2.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - processPackages [webmeter]: Remove: archive file [/home/abi/fetcher/tmp/webmeter-1.0.3.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - main [MainThread]: End processing [webmeter]: success
+[2023-08-04 02:47:31] INFO root fetch - processPackages [weathermap]: Remove: archive file [/home/abi/fetcher/tmp/weathermap-1.0.0.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - processPackages [weathermap]: Remove: archive file [/home/abi/fetcher/tmp/weathermap-1.0.1.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - main [MainThread]: End processing [weathermap]: success
+[2023-08-04 02:47:31] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.7.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.8.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - main [MainThread]: End processing [hivedca]: success
+[2023-08-04 02:47:31] INFO root fetch - processPackages [yog]: Remove: archive file [/home/abi/fetcher/tmp/yog-2.2.4.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - processPackages [yog]: Remove: archive file [/home/abi/fetcher/tmp/yog-2.2.5.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - main [MainThread]: End processing [yog]: success
+[2023-08-04 02:47:31] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.9.0.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.9.1.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - main [MainThread]: End processing [ream2]: success
+[2023-08-04 02:47:31] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.73.0.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.74.0.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-08-04 02:47:31] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.6.0.3.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.6.1.0.tar.gz]
+[2023-08-04 02:47:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-08-04 02:47:33] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc7.tar.gz]
+[2023-08-04 02:47:33] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc8.tar.gz]
+[2023-08-04 02:47:33] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-08-04 02:47:33] INFO root fetch - main [MainThread]: Store serial: [19167093]
