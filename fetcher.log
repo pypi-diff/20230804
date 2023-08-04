@@ -10932,3 +10932,105 @@
 [2023-08-04 05:06:33] INFO root fetch - processPackages [linkpreview]: Remove: archive file [/home/abi/fetcher/tmp/linkpreview-0.7.0.tar.gz]
 [2023-08-04 05:06:33] INFO root fetch - main [MainThread]: End processing [linkpreview]: success
 [2023-08-04 05:06:33] INFO root fetch - main [MainThread]: Store serial: [19169142]
+[2023-08-04 05:11:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169142]
+[2023-08-04 05:11:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-service-client
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assemblyline-service-server
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assemblyline-ui
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-v4-service
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-core
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyapp-flow
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zrouter
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pykebab
+[2023-08-04 05:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pmcx
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [zrouter]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [pykebab]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [pyapp-flow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [pmcx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-08-04 05:11:42] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/d5/0b/1f290ad77801699595dece205c803dfb3504d7dcf346aca22b6571ba76df/zrouter-0.5.8.tar.gz
+[2023-08-04 05:11:42] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/8e/2b/9d915060b8fdbbd2c8d16aa314b0119879f8567c365ff0069ab18f9650b6/pykebab-0.8.3.tar.gz
+[2023-08-04 05:11:42] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-08-04 05:11:42] INFO root fetch - processPackages [pmcx]: Downloading https://files.pythonhosted.org/packages/cd/d1/294927be534ca277a9eccdae0028a58c44a7a10476d8e5f19f094243346e/pmcx-0.0.8-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-04 05:11:42] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/53/87/1efc290f9bb68a9cceff43028608a3e89fcd1f6119434010259c73294707/pyapp-flow-0.8.0.tar.gz
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-08-04 05:11:43] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/3a/e4/417f70f8094c6d31fd1faff0895532e1a4d04b19cbc43e81c717b632b079/zrouter-0.5.9.tar.gz
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230804/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-08-04 05:11:43] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-08-04 05:11:43] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.5.8.tar.gz tmp/zrouter-0.5.9.tar.gz --markdown 20230804/z/zrouter/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-04 05:11:43] INFO root fetch - processPackages [pykebab]: Downloading https://files.pythonhosted.org/packages/8b/5d/1f2e5feab4a8cace599bffc05cb002908472fc6de117ca3b604a9e0b4b1d/pykebab-0.9.0.tar.gz
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230804/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230804/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230804/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 05:11:43] INFO root fetch - processPackages [pykebab]: executing diffoscope
+[2023-08-04 05:11:43] INFO root fetch - processPackages [pykebab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykebab-0.8.3.tar.gz tmp/pykebab-0.9.0.tar.gz --markdown 20230804/p/pykebab/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230804/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-08-04 05:11:43] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230804/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-08-04 05:11:43] INFO root fetch - processPackages [pyapp-flow]: Downloading https://files.pythonhosted.org/packages/76/0a/afcf5faf502ffe35479eb84cff6e0526f4e49c11a766c2290b8543a65f75/pyapp-flow-0.9.0.tar.gz
+[2023-08-04 05:11:43] INFO root fetch - processPackages [pyapp-flow]: executing diffoscope
+[2023-08-04 05:11:43] INFO root fetch - processPackages [pyapp-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapp-flow-0.8.0.tar.gz tmp/pyapp-flow-0.9.0.tar.gz --markdown 20230804/p/pyapp-flow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-04 05:11:44] INFO root fetch - processPackages [pmcx]: Downloading https://files.pythonhosted.org/packages/de/b9/e06c4e88e30710ffb8b086a27887b4ff822c9aaab9b97c97d815ed8be511/pmcx-0.0.9-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-04 05:11:44] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.8.tar.gz]
+[2023-08-04 05:11:44] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.9.tar.gz]
+[2023-08-04 05:11:44] INFO root fetch - processPackages [zrouter]: Start processing: sqlconstructor
+[2023-08-04 05:11:44] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-08-04 05:11:44] INFO root fetch - processPackages [sqlconstructor]: New version: [1.0.16] Old Version: [1.0.15]
+[2023-08-04 05:11:44] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-04 05:11:44] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-04 05:11:44] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-08-04 05:11:44] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.8.3.tar.gz]
+[2023-08-04 05:11:44] INFO root fetch - processPackages [pykebab]: Remove: archive file [/home/abi/fetcher/tmp/pykebab-0.9.0.tar.gz]
+[2023-08-04 05:11:44] INFO root fetch - main [MainThread]: End processing [pykebab]: success
+[2023-08-04 05:11:45] INFO root fetch - processPackages [sqlconstructor]: Downloading https://files.pythonhosted.org/packages/a5/1e/704a59d0a10cf2d6bc42cace0e6b39cfa89875b1b7ab18eb30cb8fe1ad90/sqlconstructor-1.0.15.tar.gz
+[2023-08-04 05:11:45] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-04 05:11:45] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-04 05:11:45] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-08-04 05:11:45] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-04 05:11:45] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-04 05:11:45] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-08-04 05:11:45] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-08-04 05:11:45] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-08-04 05:11:45] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-08-04 05:11:45] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.8.0.tar.gz]
+[2023-08-04 05:11:45] INFO root fetch - processPackages [pyapp-flow]: Remove: archive file [/home/abi/fetcher/tmp/pyapp-flow-0.9.0.tar.gz]
+[2023-08-04 05:11:45] INFO root fetch - main [MainThread]: End processing [pyapp-flow]: success
+[2023-08-04 05:11:45] INFO root fetch - processPackages [sqlconstructor]: Downloading https://files.pythonhosted.org/packages/18/91/0e9cc326eac9755258f9a43e2a501b1129eadc22a1be98853eeda00ff338/sqlconstructor-1.0.16.tar.gz
+[2023-08-04 05:11:45] INFO root fetch - processPackages [pmcx]: executing diffoscope
+[2023-08-04 05:11:45] INFO root fetch - processPackages [pmcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmcx-0.0.8-pp39-pypy39_pp73-win_amd64.whl.zip tmp/pmcx-0.0.9-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230804/p/pmcx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 05:11:45] INFO root fetch - processPackages [sqlconstructor]: executing diffoscope
+[2023-08-04 05:11:45] INFO root fetch - processPackages [sqlconstructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlconstructor-1.0.15.tar.gz tmp/sqlconstructor-1.0.16.tar.gz --markdown 20230804/s/sqlconstructor/1.0.15-1.0.16/diff.md --exclude *.pyd
+[2023-08-04 05:11:45] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-08-04 05:11:45] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-08-04 05:11:45] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-08-04 05:11:46] INFO root fetch - processPackages [pmcx]: Remove: archive file [/home/abi/fetcher/tmp/pmcx-0.0.8-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-04 05:11:46] INFO root fetch - processPackages [pmcx]: Remove: archive file [/home/abi/fetcher/tmp/pmcx-0.0.9-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-04 05:11:46] INFO root fetch - main [MainThread]: End processing [pmcx]: success
+[2023-08-04 05:11:46] INFO root fetch - processPackages [sqlconstructor]: Remove: archive file [/home/abi/fetcher/tmp/sqlconstructor-1.0.15.tar.gz]
+[2023-08-04 05:11:46] INFO root fetch - processPackages [sqlconstructor]: Remove: archive file [/home/abi/fetcher/tmp/sqlconstructor-1.0.16.tar.gz]
+[2023-08-04 05:11:46] INFO root fetch - main [MainThread]: End processing [sqlconstructor]: success
+[2023-08-04 05:11:46] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-08-04 05:11:46] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-08-04 05:11:46] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-08-04 05:11:46] INFO root fetch - main [MainThread]: Store serial: [19169179]
