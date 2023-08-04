@@ -9801,3 +9801,82 @@
 [2023-08-04 04:03:35] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-08-04 04:03:35] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-08-04 04:03:35] INFO root fetch - main [MainThread]: Store serial: [19168664]
+[2023-08-04 04:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19168664]
+[2023-08-04 04:08:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-docs-theme
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-fieldsets
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hivedca
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cntdrun
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: planetscope
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openmodelz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pih
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: danbi
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pih-mio
+[2023-08-04 04:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hivedca
+[2023-08-04 04:08:45] INFO root fetch - processPackages [hivedca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 04:08:45] INFO root fetch - processPackages [python-docs-theme]: New version: [2023.5] Old Version: [2023.3.1]
+[2023-08-04 04:08:45] INFO root fetch - processPackages [openmodelz]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-08-04 04:08:45] WARNING root fetch - processPackages [cntdrun]: Skipping, unable to determine old version
+[2023-08-04 04:08:45] INFO root fetch - main [MainThread]: End processing [cntdrun] error
+[2023-08-04 04:08:45] INFO root fetch - processPackages [hivedca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 04:08:45] INFO root fetch - processPackages [pih-mio]: New version: [1.48025] Old Version: [1.48024]
+[2023-08-04 04:08:45] INFO root fetch - processPackages [edc-fieldsets]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 04:08:45] INFO root fetch - processPackages [pih]: New version: [1.48034] Old Version: [1.48033]
+[2023-08-04 04:08:45] INFO root fetch - processPackages [danbi]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-04 04:08:45] WARNING root fetch - processPackages [planetscope]: Skipping, unable to determine old version
+[2023-08-04 04:08:45] INFO root fetch - main [MainThread]: End processing [planetscope] error
+[2023-08-04 04:08:45] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/32/2c/03f11caf263a15ca74f0b39b3338d8b9318bac47d659057937b0e91a8a61/hivedca-0.0.8.tar.gz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [openmodelz]: Downloading https://files.pythonhosted.org/packages/de/1a/cb947b3f335590b30f595c343c52e5ab71d8f3587722aee6c29af21bf639/openmodelz-0.0.20.tar.gz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [edc-fieldsets]: Downloading https://files.pythonhosted.org/packages/14/2d/86a7f9e81ff1e4d83d1d97979df341373864f058a8e67c14d853de8dc6f3/edc-fieldsets-0.3.8.tar.gz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/32/2c/03f11caf263a15ca74f0b39b3338d8b9318bac47d659057937b0e91a8a61/hivedca-0.0.8.tar.gz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/5b/1e/e77453233c5276676c185524218850ae52365553cb8dc9bba7c1eff0c5af/pih-1.48033.tar.gz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [python-docs-theme]: Downloading https://files.pythonhosted.org/packages/9e/d9/2c7e63a47b6787ef4762e596fbb0a7ac1270c08739c83d2851e16e43fc72/python-docs-theme-2023.3.1.tar.gz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/03/26/b079f8efdeb3bc518cea5cf9e09e1c97b6ddcf605815910a2d86d88daaf5/pih-mio-1.48024.tar.gz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/c2/72/22ba0c3509479f69f5ffc3941df78acc0abfcc40698187c42ce4a3ddcc73/danbi-0.2.98.tar.gz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [edc-fieldsets]: Downloading https://files.pythonhosted.org/packages/71/bc/8e39f243334bd635c481bc3974be4caff970c6622e29acc1a12bf73c8a1a/edc-fieldsets-0.3.9.tar.gz
+[2023-08-04 04:08:45] INFO root fetch - processPackages [openmodelz]: Downloading https://files.pythonhosted.org/packages/4b/e8/22e8e9bd4b6313095530f75068640c221bc5206100aa37d4f07d2192554e/openmodelz-0.0.21.tar.gz
+[2023-08-04 04:08:46] INFO root fetch - processPackages [edc-fieldsets]: executing diffoscope
+[2023-08-04 04:08:46] INFO root fetch - processPackages [edc-fieldsets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-fieldsets-0.3.8.tar.gz tmp/edc-fieldsets-0.3.9.tar.gz --markdown 20230804/e/edc-fieldsets/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 04:08:46] INFO root fetch - processPackages [openmodelz]: executing diffoscope
+[2023-08-04 04:08:46] INFO root fetch - processPackages [openmodelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodelz-0.0.20.tar.gz tmp/openmodelz-0.0.21.tar.gz --markdown 20230804/o/openmodelz/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-08-04 04:08:46] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/5c/16/67df7981e9cb3f8e6c6779e61fcc6cfc80bbafc92133fafb924b4d7c4b6c/hivedca-0.0.9.tar.gz
+[2023-08-04 04:08:46] INFO root fetch - processPackages [hivedca]: Downloading https://files.pythonhosted.org/packages/5c/16/67df7981e9cb3f8e6c6779e61fcc6cfc80bbafc92133fafb924b4d7c4b6c/hivedca-0.0.9.tar.gz
+[2023-08-04 04:08:46] INFO root fetch - processPackages [python-docs-theme]: Downloading https://files.pythonhosted.org/packages/c7/b1/031bec5fdce3239a9a41cb3d4ceb1133ae41501b6aac22279442251bc628/python-docs-theme-2023.5.tar.gz
+[2023-08-04 04:08:46] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/02/2a/4778cb5a751720747d7891251065bf549c3d1b590368894cf8f912ee16a0/pih-1.48034.tar.gz
+[2023-08-04 04:08:46] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/61/3b/7b3f323e28b002c16d140ad37700170973ac96b5228c6492855637326ae3/pih-mio-1.48025.tar.gz
+[2023-08-04 04:08:46] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/08/67/6ca29911c73cded25c25e0725cecb295a7ffb7284383910591bbccccb9bf/danbi-0.2.99.tar.gz
+[2023-08-04 04:08:46] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2023-08-04 04:08:46] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.98.tar.gz tmp/danbi-0.2.99.tar.gz --markdown 20230804/d/danbi/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-04 04:08:46] INFO root fetch - processPackages [hivedca]: executing diffoscope
+[2023-08-04 04:08:46] INFO root fetch - processPackages [hivedca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivedca-0.0.8.tar.gz tmp/hivedca-0.0.9.tar.gz --markdown 20230804/h/hivedca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 04:08:46] INFO root fetch - processPackages [python-docs-theme]: executing diffoscope
+[2023-08-04 04:08:46] INFO root fetch - processPackages [python-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-docs-theme-2023.3.1.tar.gz tmp/python-docs-theme-2023.5.tar.gz --markdown 20230804/p/python-docs-theme/2023.3.1-2023.5/diff.md --exclude *.pyd
+[2023-08-04 04:08:46] INFO root fetch - processPackages [hivedca]: executing diffoscope
+[2023-08-04 04:08:46] INFO root fetch - processPackages [hivedca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivedca-0.0.8.tar.gz tmp/hivedca-0.0.9.tar.gz --markdown 20230804/h/hivedca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 04:08:46] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-08-04 04:08:46] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48024.tar.gz tmp/pih-mio-1.48025.tar.gz --markdown 20230804/p/pih-mio/1.48024-1.48025/diff.md --exclude *.pyd
+[2023-08-04 04:08:46] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-04 04:08:46] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48033.tar.gz tmp/pih-1.48034.tar.gz --markdown 20230804/p/pih/1.48033-1.48034/diff.md --exclude *.pyd
+[2023-08-04 04:08:47] INFO root fetch - processPackages [edc-fieldsets]: Remove: archive file [/home/abi/fetcher/tmp/edc-fieldsets-0.3.8.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - processPackages [edc-fieldsets]: Remove: archive file [/home/abi/fetcher/tmp/edc-fieldsets-0.3.9.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - main [MainThread]: End processing [edc-fieldsets]: success
+[2023-08-04 04:08:47] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.8.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - processPackages [hivedca]: Remove: archive file [/home/abi/fetcher/tmp/hivedca-0.0.9.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - main [MainThread]: End processing [hivedca]: success
+[2023-08-04 04:08:47] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48033.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48034.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-04 04:08:47] INFO root fetch - main [MainThread]: End processing [hivedca]: success
+[2023-08-04 04:08:47] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48024.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48025.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-08-04 04:08:47] INFO root fetch - processPackages [python-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/python-docs-theme-2023.3.1.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - processPackages [python-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/python-docs-theme-2023.5.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - main [MainThread]: End processing [python-docs-theme]: success
+[2023-08-04 04:08:47] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.98.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.99.tar.gz]
+[2023-08-04 04:08:47] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2023-08-04 04:08:48] INFO root fetch - processPackages [openmodelz]: Remove: archive file [/home/abi/fetcher/tmp/openmodelz-0.0.20.tar.gz]
+[2023-08-04 04:08:48] INFO root fetch - processPackages [openmodelz]: Remove: archive file [/home/abi/fetcher/tmp/openmodelz-0.0.21.tar.gz]
+[2023-08-04 04:08:48] INFO root fetch - main [MainThread]: End processing [openmodelz]: success
+[2023-08-04 04:08:48] INFO root fetch - main [MainThread]: Store serial: [19168696]
