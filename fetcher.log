@@ -13785,3 +13785,111 @@
 [2023-08-04 08:20:17] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230803.tar.gz]
 [2023-08-04 08:20:17] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-08-04 08:20:17] INFO root fetch - main [MainThread]: Store serial: [19170378]
+[2023-08-04 08:25:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170378]
+[2023-08-04 08:25:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-github
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandasmemuc
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tablediter
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: newpychromedriver
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easyllm
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moniplot
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pmcx
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fake-bpy-module-latest
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: st-btn-group
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-hcloud
+[2023-08-04 08:25:26] WARNING root fetch - processPackages [newpychromedriver]: Skipping, unable to determine old version
+[2023-08-04 08:25:26] INFO root fetch - processPackages [newpychromedriver]: Start processing: ortei
+[2023-08-04 08:25:26] INFO root fetch - main [MainThread]: End processing [newpychromedriver] error
+[2023-08-04 08:25:26] INFO root fetch - processPackages [st-btn-group]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 08:25:26] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-08-04 08:25:26] INFO root fetch - processPackages [tablediter]: New version: [3.8.3] Old Version: [3.8.1]
+[2023-08-04 08:25:26] INFO root fetch - processPackages [pandasmemuc]: New version: [0.13] Old Version: [0.12]
+[2023-08-04 08:25:26] INFO root fetch - processPackages [moniplot]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-04 08:25:26] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230803] Old Version: [20230802]
+[2023-08-04 08:25:26] INFO root fetch - processPackages [easyllm]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-04 08:25:26] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-08-04 08:25:26] INFO root fetch - processPackages [pmcx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-04 08:25:26] WARNING root fetch - processPackages [ortei]: Skipping, unable to determine old version
+[2023-08-04 08:25:26] INFO root fetch - processPackages [ortei]: Start processing: gymnasium-connect-four
+[2023-08-04 08:25:26] INFO root fetch - main [MainThread]: End processing [ortei] error
+[2023-08-04 08:25:26] INFO root fetch - processPackages [moniplot]: Downloading https://files.pythonhosted.org/packages/4c/50/982ab8c7a767e8eab151e2f0f0c60f7343dad3797dba85a1039ec9c02ec0/moniplot-0.5.8.tar.gz
+[2023-08-04 08:25:26] INFO root fetch - processPackages [st-btn-group]: Downloading https://files.pythonhosted.org/packages/40/86/73ce5cdf4aca83a99e7ab06489850e59e6d286d13cddbcea9e9a6b5d9170/st_btn_group-0.0.8-py3-none-any.whl
+[2023-08-04 08:25:26] INFO root fetch - processPackages [pandasmemuc]: Downloading https://files.pythonhosted.org/packages/f3/ac/d8aa4d34d811e5d567a914603f5273e0e469626bfe585df58fd829d1a823/pandasmemuc-0.12.tar.gz
+[2023-08-04 08:25:26] INFO root fetch - processPackages [tablediter]: Downloading https://files.pythonhosted.org/packages/b0/f1/7938f8692d39bc4541b9550ed883040f72ac0745aabb03fe1f14c3710e59/tablediter-3.8.1.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/86/2e/90386b75ed0e3f598b81b9fc141b3cafb343cbd43cd892e839b088844fc7/fake-bpy-module-latest-20230802.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-04 08:25:27] INFO root fetch - processPackages [easyllm]: Downloading https://files.pythonhosted.org/packages/33/8f/0100992ec3ab180fae0577bd8ebca41c6d990e2b4ee603eb04b4c2ee4f1a/easyllm-0.2.0.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/10/f4/defb331698a308599ed8b42d485055ad865716bbf775b2c81a05f638aeb3/gymnasium_connect_four-1.2.8.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pmcx]: Downloading https://files.pythonhosted.org/packages/cd/d1/294927be534ca277a9eccdae0028a58c44a7a10476d8e5f19f094243346e/pmcx-0.0.8-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [tablediter]: Downloading https://files.pythonhosted.org/packages/98/80/558c26b89ca1867a68db640b97c950b839bebe542c382dfbf1b429bf88c5/tablediter-3.8.3.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pandasmemuc]: Downloading https://files.pythonhosted.org/packages/d5/53/25545625ddb9e51df6697e0e429ba2e72b7f00b825260e97147777d5dbef/pandasmemuc-0.13.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/89/82/db53e26c7ee24b313627d1d98a8e8a5e7b7a45aee6c81e8e50b060871db9/gymnasium_connect_four-1.2.9.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [st-btn-group]: Downloading https://files.pythonhosted.org/packages/5a/fe/739c82268162776fb735c1e90b290b390102b425186b8aba7179b10cdcd5/st_btn_group-0.0.9-py3-none-any.whl
+[2023-08-04 08:25:27] INFO root fetch - processPackages [easyllm]: Downloading https://files.pythonhosted.org/packages/f6/8b/1c8272b09cb7dfaea082c7062ab40afc0453341e99433af1f3fe23c9a150/easyllm-0.3.0.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230804/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-08-04 08:25:27] INFO root fetch - processPackages [tablediter]: executing diffoscope
+[2023-08-04 08:25:27] INFO root fetch - processPackages [tablediter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablediter-3.8.1.tar.gz tmp/tablediter-3.8.3.tar.gz --markdown 20230804/t/tablediter/3.8.1-3.8.3/diff.md --exclude *.pyd
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pandasmemuc]: executing diffoscope
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pandasmemuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasmemuc-0.12.tar.gz tmp/pandasmemuc-0.13.tar.gz --markdown 20230804/p/pandasmemuc/0.12-0.13/diff.md --exclude *.pyd
+[2023-08-04 08:25:27] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/f0/c3/4b1457edc7033ff01f78a659cdd954e15e3bb82276ccc4e68c37d331f9f8/fake-bpy-module-latest-20230803.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-08-04 08:25:27] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-08-04 08:25:27] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.8.tar.gz tmp/gymnasium_connect_four-1.2.9.tar.gz --markdown 20230804/g/gymnasium-connect-four/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-04 08:25:27] INFO root fetch - processPackages [easyllm]: executing diffoscope
+[2023-08-04 08:25:27] INFO root fetch - processPackages [easyllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyllm-0.2.0.tar.gz tmp/easyllm-0.3.0.tar.gz --markdown 20230804/e/easyllm/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-04 08:25:27] INFO root fetch - processPackages [moniplot]: Downloading https://files.pythonhosted.org/packages/fe/5d/48ed1c2911268171aaedd566633fc8c0c16a15c9ab1dcaa2f9c877c279ec/moniplot-0.5.9.tar.gz
+[2023-08-04 08:25:28] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-08-04 08:25:28] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230804/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-08-04 08:25:28] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-08-04 08:25:28] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230802.tar.gz tmp/fake-bpy-module-latest-20230803.tar.gz --markdown 20230804/f/fake-bpy-module-latest/20230802-20230803/diff.md --exclude *.pyd
+[2023-08-04 08:25:28] INFO root fetch - processPackages [st-btn-group]: executing diffoscope
+[2023-08-04 08:25:28] INFO root fetch - processPackages [st-btn-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_btn_group-0.0.8-py3-none-any.whl.zip tmp/st_btn_group-0.0.9-py3-none-any.whl.zip --markdown 20230804/s/st-btn-group/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 08:25:28] INFO root fetch - processPackages [pmcx]: Downloading https://files.pythonhosted.org/packages/de/b9/e06c4e88e30710ffb8b086a27887b4ff822c9aaab9b97c97d815ed8be511/pmcx-0.0.9-pp39-pypy39_pp73-win_amd64.whl
+[2023-08-04 08:25:28] INFO root fetch - processPackages [moniplot]: executing diffoscope
+[2023-08-04 08:25:28] INFO root fetch - processPackages [moniplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moniplot-0.5.8.tar.gz tmp/moniplot-0.5.9.tar.gz --markdown 20230804/m/moniplot/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-04 08:25:28] INFO root fetch - processPackages [pmcx]: executing diffoscope
+[2023-08-04 08:25:28] INFO root fetch - processPackages [pmcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmcx-0.0.8-pp39-pypy39_pp73-win_amd64.whl.zip tmp/pmcx-0.0.9-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230804/p/pmcx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-04 08:25:28] INFO root fetch - processPackages [pandasmemuc]: Remove: archive file [/home/abi/fetcher/tmp/pandasmemuc-0.12.tar.gz]
+[2023-08-04 08:25:28] INFO root fetch - processPackages [pandasmemuc]: Remove: archive file [/home/abi/fetcher/tmp/pandasmemuc-0.13.tar.gz]
+[2023-08-04 08:25:28] INFO root fetch - processPackages [pandasmemuc]: Start processing: veda-tensorflow
+[2023-08-04 08:25:28] INFO root fetch - main [MainThread]: End processing [pandasmemuc]: success
+[2023-08-04 08:25:29] INFO root fetch - processPackages [tablediter]: Remove: archive file [/home/abi/fetcher/tmp/tablediter-3.8.1.tar.gz]
+[2023-08-04 08:25:29] INFO root fetch - processPackages [tablediter]: Remove: archive file [/home/abi/fetcher/tmp/tablediter-3.8.3.tar.gz]
+[2023-08-04 08:25:29] INFO root fetch - main [MainThread]: End processing [tablediter]: success
+[2023-08-04 08:25:29] INFO root fetch - processPackages [veda-tensorflow]: New version: [2.9.2.post5] Old Version: [2.8.3.post5]
+[2023-08-04 08:25:29] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.8.tar.gz]
+[2023-08-04 08:25:29] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.9.tar.gz]
+[2023-08-04 08:25:29] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-08-04 08:25:29] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/f8/b2/135f5c5ab6db7944653be71313ba60dffa5bbbcb2fe472a7d82233c49e31/veda_tensorflow-2.8.3.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:25:29] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2023-08-04 08:25:29] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2023-08-04 08:25:29] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-08-04 08:25:29] INFO root fetch - processPackages [easyllm]: Remove: archive file [/home/abi/fetcher/tmp/easyllm-0.2.0.tar.gz]
+[2023-08-04 08:25:29] INFO root fetch - processPackages [easyllm]: Remove: archive file [/home/abi/fetcher/tmp/easyllm-0.3.0.tar.gz]
+[2023-08-04 08:25:29] INFO root fetch - main [MainThread]: End processing [easyllm]: success
+[2023-08-04 08:25:29] INFO root fetch - processPackages [pmcx]: Remove: archive file [/home/abi/fetcher/tmp/pmcx-0.0.8-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-04 08:25:29] INFO root fetch - processPackages [pmcx]: Remove: archive file [/home/abi/fetcher/tmp/pmcx-0.0.9-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-08-04 08:25:29] INFO root fetch - main [MainThread]: End processing [pmcx]: success
+[2023-08-04 08:25:30] INFO root fetch - processPackages [veda-tensorflow]: Downloading https://files.pythonhosted.org/packages/0a/c4/1d9e09ead7c0a74a9d8c9716d451461917af6ba02d8fd5286fa9fcebc185/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl
+[2023-08-04 08:25:30] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-08-04 08:25:30] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-08-04 08:25:30] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-08-04 08:25:30] INFO root fetch - processPackages [veda-tensorflow]: executing diffoscope
+[2023-08-04 08:25:30] INFO root fetch - processPackages [veda-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_tensorflow-2.8.3.post5-py3-none-manylinux_2_17_x86_64.whl.zip tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip --markdown 20230804/v/veda-tensorflow/2.8.3.post5-2.9.2.post5/diff.md --exclude *.pyd
+[2023-08-04 08:25:30] INFO root fetch - processPackages [moniplot]: Remove: archive file [/home/abi/fetcher/tmp/moniplot-0.5.8.tar.gz]
+[2023-08-04 08:25:30] INFO root fetch - processPackages [moniplot]: Remove: archive file [/home/abi/fetcher/tmp/moniplot-0.5.9.tar.gz]
+[2023-08-04 08:25:30] INFO root fetch - main [MainThread]: End processing [moniplot]: success
+[2023-08-04 08:25:30] INFO root fetch - processPackages [st-btn-group]: Remove: archive file [/home/abi/fetcher/tmp/st_btn_group-0.0.8-py3-none-any.whl.zip]
+[2023-08-04 08:25:30] INFO root fetch - processPackages [st-btn-group]: Remove: archive file [/home/abi/fetcher/tmp/st_btn_group-0.0.9-py3-none-any.whl.zip]
+[2023-08-04 08:25:30] INFO root fetch - main [MainThread]: End processing [st-btn-group]: success
+[2023-08-04 08:25:32] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230802.tar.gz]
+[2023-08-04 08:25:32] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230803.tar.gz]
+[2023-08-04 08:25:32] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-08-04 08:25:34] INFO root fetch - processPackages [veda-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/veda_tensorflow-2.8.3.post5-py3-none-manylinux_2_17_x86_64.whl.zip]
+[2023-08-04 08:25:34] INFO root fetch - processPackages [veda-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/veda_tensorflow-2.9.2.post5-py3-none-manylinux_2_17_x86_64.whl.zip]
+[2023-08-04 08:25:34] INFO root fetch - main [MainThread]: End processing [veda-tensorflow]: success
+[2023-08-04 08:25:34] INFO root fetch - main [MainThread]: Store serial: [19170422]
