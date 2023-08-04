@@ -12419,3 +12419,98 @@
 [2023-08-04 06:25:30] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.8.4.11.32.21.tar.gz]
 [2023-08-04 06:25:30] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-08-04 06:25:30] INFO root fetch - main [MainThread]: Store serial: [19169748]
+[2023-08-04 06:30:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19169748]
+[2023-08-04 06:30:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tlds
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loguru-logging-intercept
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: permetrics
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: busy
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moderne-visualizations-misc
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satori-playbook-validator
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zrouter
+[2023-08-04 06:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrlutils
+[2023-08-04 06:30:40] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230803.19.29.687811] Old Version: [20230803.17.59.312723]
+[2023-08-04 06:30:40] WARNING root fetch - processPackages [pyrlutils]: Skipping, unable to determine old version
+[2023-08-04 06:30:40] INFO root fetch - processPackages [loguru-logging-intercept]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-04 06:30:40] INFO root fetch - processPackages [pyrlutils]: Start processing: env-minion
+[2023-08-04 06:30:40] INFO root fetch - main [MainThread]: End processing [pyrlutils] error
+[2023-08-04 06:30:40] INFO root fetch - processPackages [satori-playbook-validator]: New version: [3.2.0] Old Version: [3.1.7]
+[2023-08-04 06:30:40] INFO root fetch - processPackages [permetrics]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-04 06:30:40] INFO root fetch - processPackages [tlds]: New version: [2023080200] Old Version: [2023072502]
+[2023-08-04 06:30:40] WARNING root fetch - processPackages [env-minion]: Skipping, unable to determine old version
+[2023-08-04 06:30:40] INFO root fetch - processPackages [env-minion]: Start processing: edc-metadata
+[2023-08-04 06:30:40] INFO root fetch - main [MainThread]: End processing [env-minion] error
+[2023-08-04 06:30:40] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-04 06:30:40] INFO root fetch - processPackages [moderne-visualizations-misc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-04 06:30:40] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/e2/5a/68687e05d924fff28316ed2b9a4b376f18e7bbac6cfc4b0a1a0056dd16d4/certora-cli-alpha-master-20230803.17.59.312723.tar.gz
+[2023-08-04 06:30:40] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/bc/6f/4263bca1d812e7dae4451ff2f027cb3ffafec635a4e9b2627f8d6650cbd6/moderne_visualizations_misc-0.1.8.tar.gz
+[2023-08-04 06:30:40] INFO root fetch - processPackages [loguru-logging-intercept]: Downloading https://files.pythonhosted.org/packages/8c/92/5b04c17485a663db3323cf651ee4fc4a6599309d3f67427905c8d497ecd3/loguru-logging-intercept-0.1.1.tar.gz
+[2023-08-04 06:30:40] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-08-04 06:30:40] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/55/37/ed8146d9e639f9e96cf7809b3bc6859a994ac0d9b96a32f6900df6e45d11/satori_playbook_validator-3.1.7.tar.gz
+[2023-08-04 06:30:40] INFO root fetch - processPackages [permetrics]: Downloading https://files.pythonhosted.org/packages/fa/58/2e96c2bcfd71f276228d61f8f0930347428bd673254acee6375f2c392930/permetrics-1.4.0.tar.gz
+[2023-08-04 06:30:40] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37829878>=10485760
+[2023-08-04 06:30:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-04 06:30:40] INFO root fetch - processPackages [tlds]: Downloading https://files.pythonhosted.org/packages/50/72/30f80881eea9c5f295333d28603f38057f928332d7ac23677c6c6d70c93a/tlds-2023072502.tar.gz
+[2023-08-04 06:30:40] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-08-04 06:30:40] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/34/32/528a5e18cb25868dcad90492d4d0ddd89399aa872c92d27599e98db2e52d/moderne_visualizations_misc-0.1.9.tar.gz
+[2023-08-04 06:30:40] INFO root fetch - processPackages [loguru-logging-intercept]: Downloading https://files.pythonhosted.org/packages/74/62/f01c7583bf12e183681b57315da52833c5aa2b4719f4a184e2bb7c40cd5d/loguru-logging-intercept-0.1.2.tar.gz
+[2023-08-04 06:30:40] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-08-04 06:30:40] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230804/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-04 06:30:40] INFO root fetch - processPackages [moderne-visualizations-misc]: executing diffoscope
+[2023-08-04 06:30:40] INFO root fetch - processPackages [moderne-visualizations-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moderne_visualizations_misc-0.1.8.tar.gz tmp/moderne_visualizations_misc-0.1.9.tar.gz --markdown 20230804/m/moderne-visualizations-misc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-04 06:30:41] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/de/a7/65b3828db42eea5d1b787c934768d17cfa978f553b15f2f84b6ca584268e/satori_playbook_validator-3.2.0.tar.gz
+[2023-08-04 06:30:41] INFO root fetch - processPackages [permetrics]: Downloading https://files.pythonhosted.org/packages/25/f4/ea1a818604835cc57a303c5a2a69a13d5423130f863d32486d29ef404863/permetrics-1.4.1.tar.gz
+[2023-08-04 06:30:41] INFO root fetch - processPackages [loguru-logging-intercept]: executing diffoscope
+[2023-08-04 06:30:41] INFO root fetch - processPackages [loguru-logging-intercept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loguru-logging-intercept-0.1.1.tar.gz tmp/loguru-logging-intercept-0.1.2.tar.gz --markdown 20230804/l/loguru-logging-intercept/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-04 06:30:41] INFO root fetch - processPackages [zrouter]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-04 06:30:41] INFO root fetch - processPackages [tlds]: Downloading https://files.pythonhosted.org/packages/a4/12/c272673d3cb0745352452d88100c7650a058b8c9be12e97577a5d915ac1d/tlds-2023080200.tar.gz
+[2023-08-04 06:30:41] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-04 06:30:41] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-08-04 06:30:41] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-3.1.7.tar.gz tmp/satori_playbook_validator-3.2.0.tar.gz --markdown 20230804/s/satori-playbook-validator/3.1.7-3.2.0/diff.md --exclude *.pyd
+[2023-08-04 06:30:41] INFO root fetch - processPackages [busy]: New version: [5.3.3] Old Version: [5.3.2]
+[2023-08-04 06:30:41] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/d5/0b/1f290ad77801699595dece205c803dfb3504d7dcf346aca22b6571ba76df/zrouter-0.5.8.tar.gz
+[2023-08-04 06:30:41] INFO root fetch - processPackages [permetrics]: executing diffoscope
+[2023-08-04 06:30:41] INFO root fetch - processPackages [permetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permetrics-1.4.0.tar.gz tmp/permetrics-1.4.1.tar.gz --markdown 20230804/p/permetrics/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-04 06:30:41] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-04 06:30:41] INFO root fetch - processPackages [tlds]: executing diffoscope
+[2023-08-04 06:30:41] INFO root fetch - processPackages [tlds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlds-2023072502.tar.gz tmp/tlds-2023080200.tar.gz --markdown 20230804/t/tlds/2023072502-2023080200/diff.md --exclude *.pyd
+[2023-08-04 06:30:41] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-04 06:30:41] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/67/bd/27cc0a504be5575f807c46087d79fcefc672b242dc0bae9bb83911765909/busy-5.3.2.tar.gz
+[2023-08-04 06:30:41] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/3a/e4/417f70f8094c6d31fd1faff0895532e1a4d04b19cbc43e81c717b632b079/zrouter-0.5.9.tar.gz
+[2023-08-04 06:30:41] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-04 06:30:41] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230804/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-04 06:30:41] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-08-04 06:30:41] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.5.8.tar.gz tmp/zrouter-0.5.9.tar.gz --markdown 20230804/z/zrouter/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-04 06:30:41] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/38/c0/486ddabb1309c043a3abd635d5518f15dad2a913e6d98707b265b28e4b78/busy-5.3.3.tar.gz
+[2023-08-04 06:30:42] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.8.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.9.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - main [MainThread]: End processing [moderne-visualizations-misc]: success
+[2023-08-04 06:30:42] INFO root fetch - processPackages [busy]: executing diffoscope
+[2023-08-04 06:30:42] INFO root fetch - processPackages [busy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busy-5.3.2.tar.gz tmp/busy-5.3.3.tar.gz --markdown 20230804/b/busy/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2023-08-04 06:30:42] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-3.1.7.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-3.2.0.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-08-04 06:30:42] INFO root fetch - processPackages [loguru-logging-intercept]: Remove: archive file [/home/abi/fetcher/tmp/loguru-logging-intercept-0.1.1.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - processPackages [loguru-logging-intercept]: Remove: archive file [/home/abi/fetcher/tmp/loguru-logging-intercept-0.1.2.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - main [MainThread]: End processing [loguru-logging-intercept]: success
+[2023-08-04 06:30:42] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-04 06:30:42] INFO root fetch - processPackages [permetrics]: Remove: archive file [/home/abi/fetcher/tmp/permetrics-1.4.0.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-04 06:30:42] INFO root fetch - processPackages [permetrics]: Remove: archive file [/home/abi/fetcher/tmp/permetrics-1.4.1.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-04 06:30:42] INFO root fetch - main [MainThread]: End processing [permetrics]: success
+[2023-08-04 06:30:42] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.8-py3-none-any.whl.zip]
+[2023-08-04 06:30:42] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
+[2023-08-04 06:30:42] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-08-04 06:30:42] INFO root fetch - processPackages [tlds]: Remove: archive file [/home/abi/fetcher/tmp/tlds-2023072502.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - processPackages [tlds]: Remove: archive file [/home/abi/fetcher/tmp/tlds-2023080200.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - main [MainThread]: End processing [tlds]: success
+[2023-08-04 06:30:42] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.8.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.5.9.tar.gz]
+[2023-08-04 06:30:42] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-08-04 06:30:43] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.3.2.tar.gz]
+[2023-08-04 06:30:43] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.3.3.tar.gz]
+[2023-08-04 06:30:43] INFO root fetch - main [MainThread]: End processing [busy]: success
+[2023-08-04 06:30:43] INFO root fetch - main [MainThread]: Store serial: [19169792]
