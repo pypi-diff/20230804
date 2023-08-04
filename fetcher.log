@@ -14160,3 +14160,88 @@
 [2023-08-04 08:36:11] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
 [2023-08-04 08:36:11] INFO root fetch - main [MainThread]: End processing [mynacode]: success
 [2023-08-04 08:36:11] INFO root fetch - main [MainThread]: Store serial: [19170506]
+[2023-08-04 08:41:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170506]
+[2023-08-04 08:41:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wavelink
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: layernext
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wbutils
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mongodbatlas
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-worksdone-utils
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-mysql
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tech-spec
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyfi-absa
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-nomad
+[2023-08-04 08:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py-worksdone-utils
+[2023-08-04 08:41:20] INFO root fetch - processPackages [wavelink]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-08-04 08:41:20] INFO root fetch - processPackages [pulumi-nomad]: New version: [0.4.2a1691042031] Old Version: [0.4.2a1690908751]
+[2023-08-04 08:41:20] INFO root fetch - processPackages [wbutils]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-08-04 08:41:20] INFO root fetch - processPackages [hyfi-absa]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-04 08:41:20] WARNING root fetch - processPackages [tech-spec]: Skipping, unable to determine old version
+[2023-08-04 08:41:20] INFO root fetch - main [MainThread]: End processing [tech-spec] error
+[2023-08-04 08:41:20] INFO root fetch - processPackages [layernext]: New version: [1.1.0] Old Version: [1.0.0b0]
+[2023-08-04 08:41:20] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.2.0a1691129584] Old Version: [3.2.0a1691041880]
+[2023-08-04 08:41:20] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-08-04 08:41:20] INFO root fetch - processPackages [py-worksdone-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 08:41:20] INFO root fetch - processPackages [py-worksdone-utils]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-04 08:41:21] INFO root fetch - processPackages [wavelink]: Downloading https://files.pythonhosted.org/packages/f5/6a/7d318ba8dd54ba9fa5a3b1c42ab508a653c902218ff76858d20aefecb4a9/Wavelink-2.6.0.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/2c/7d/8c578dafa3f6deec2c768a0ace25df343936d720dca58300847615f9fb81/pulumi_nomad-0.4.2a1690908751.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [wbutils]: Downloading https://files.pythonhosted.org/packages/23/6e/f0db5e520fc2479875bd28ebc32b3e873b46ed8c016115727b92db4e1f4e/wbutils-0.0.2.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [hyfi-absa]: Downloading https://files.pythonhosted.org/packages/d7/70/c2da46def6c8b3a402946fa4e346e4294928e203ea6f40b94584a28d80cd/hyfi_absa-0.3.0.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [layernext]: Downloading https://files.pythonhosted.org/packages/74/11/f4fcd2fdebdf6a5b3d55783a92778dc9b858e9dda801d0cd21a1743f6b98/layernext-1.0.0b0.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/99/65/a2991b0f4b7763ca9dc6a92f53ba560fa9e88afcea1b8353d45e04c97998/pulumi_mysql-3.2.0a1691041880.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/6d/1b/47cc7bd7f6048b6f7e37520231428076e26fd34add0a08eeb5b8eb1f4f9e/py-worksdone-utils-1.0.0.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/6d/1b/47cc7bd7f6048b6f7e37520231428076e26fd34add0a08eeb5b8eb1f4f9e/py-worksdone-utils-1.0.0.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/c5/91/9f8c4a6af72fd8b9eb301a73094f6982a7ee7555f56514464dff2e0a8996/pulumi_nomad-0.4.2a1691042031.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [wbutils]: Downloading https://files.pythonhosted.org/packages/db/4a/cd4625bd6f6e20dfb78e0c7e77e5455537e654349c049bd44e9bbe7d16c8/wbutils-0.0.4.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [hyfi-absa]: Downloading https://files.pythonhosted.org/packages/53/a7/4a663c40d8a408dcbb374db78e0c5543b2a34cce67d7e3a7e75f75668b41/hyfi_absa-0.3.1.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-0.4.2a1690908751.tar.gz tmp/pulumi_nomad-0.4.2a1691042031.tar.gz --markdown 20230804/p/pulumi-nomad/0.4.2a1690908751-0.4.2a1691042031/diff.md --exclude *.pyd
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/ae/04/7dd9eb906598621c4094f9aad223fc5d5a1a5981b0edb1c4fd95c1507ceb/pulumi_mysql-3.2.0a1691129584.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [wbutils]: executing diffoscope
+[2023-08-04 08:41:21] INFO root fetch - processPackages [wbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbutils-0.0.2.tar.gz tmp/wbutils-0.0.4.tar.gz --markdown 20230804/w/wbutils/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-08-04 08:41:21] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/86/9e/af639ab389e20ba531feb173da5ef58eee5f4cb8d98ad0adb9b8ae77fb83/py-worksdone-utils-1.0.1.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [py-worksdone-utils]: Downloading https://files.pythonhosted.org/packages/86/9e/af639ab389e20ba531feb173da5ef58eee5f4cb8d98ad0adb9b8ae77fb83/py-worksdone-utils-1.0.1.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [layernext]: Downloading https://files.pythonhosted.org/packages/a7/25/dfd2cfdb9d7d382b7c2493dad7e7b0398dc612d48a942422fe36f8c4e6cc/layernext-1.1.0.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [hyfi-absa]: executing diffoscope
+[2023-08-04 08:41:21] INFO root fetch - processPackages [hyfi-absa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_absa-0.3.0.tar.gz tmp/hyfi_absa-0.3.1.tar.gz --markdown 20230804/h/hyfi-absa/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.2.0a1691041880.tar.gz tmp/pulumi_mysql-3.2.0a1691129584.tar.gz --markdown 20230804/p/pulumi-mysql/3.2.0a1691041880-3.2.0a1691129584/diff.md --exclude *.pyd
+[2023-08-04 08:41:21] INFO root fetch - processPackages [layernext]: executing diffoscope
+[2023-08-04 08:41:21] INFO root fetch - processPackages [layernext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layernext-1.0.0b0.tar.gz tmp/layernext-1.1.0.tar.gz --markdown 20230804/l/layernext/1.0.0b0-1.1.0/diff.md --exclude *.pyd
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-08-04 08:41:21] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20230804/p/pulumi-mongodbatlas/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-08-04 08:41:22] INFO root fetch - processPackages [py-worksdone-utils]: executing diffoscope
+[2023-08-04 08:41:22] INFO root fetch - processPackages [py-worksdone-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-worksdone-utils-1.0.0.tar.gz tmp/py-worksdone-utils-1.0.1.tar.gz --markdown 20230804/p/py-worksdone-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 08:41:22] INFO root fetch - processPackages [py-worksdone-utils]: executing diffoscope
+[2023-08-04 08:41:22] INFO root fetch - processPackages [py-worksdone-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-worksdone-utils-1.0.0.tar.gz tmp/py-worksdone-utils-1.0.1.tar.gz --markdown 20230804/p/py-worksdone-utils/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-04 08:41:22] INFO root fetch - processPackages [wavelink]: Downloading https://files.pythonhosted.org/packages/9f/19/824bbf4014afb6a9ccde7903f11a769adcea99d1ede55f07ad915f63fc24/wavelink-2.6.1.tar.gz
+[2023-08-04 08:41:22] INFO root fetch - processPackages [wavelink]: executing diffoscope
+[2023-08-04 08:41:22] INFO root fetch - processPackages [wavelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Wavelink-2.6.0.tar.gz tmp/wavelink-2.6.1.tar.gz --markdown 20230804/w/wavelink/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-08-04 08:41:22] INFO root fetch - processPackages [wbutils]: Remove: archive file [/home/abi/fetcher/tmp/wbutils-0.0.2.tar.gz]
+[2023-08-04 08:41:22] INFO root fetch - processPackages [wbutils]: Remove: archive file [/home/abi/fetcher/tmp/wbutils-0.0.4.tar.gz]
+[2023-08-04 08:41:22] INFO root fetch - main [MainThread]: End processing [wbutils]: success
+[2023-08-04 08:41:23] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1690908751.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-0.4.2a1691042031.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2023-08-04 08:41:23] INFO root fetch - processPackages [hyfi-absa]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_absa-0.3.0.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - processPackages [hyfi-absa]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_absa-0.3.1.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - main [MainThread]: End processing [hyfi-absa]: success
+[2023-08-04 08:41:23] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1691041880.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.2.0a1691129584.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2023-08-04 08:41:23] INFO root fetch - processPackages [py-worksdone-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-worksdone-utils-1.0.0.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - processPackages [py-worksdone-utils]: Remove: archive file [/home/abi/fetcher/tmp/py-worksdone-utils-1.0.1.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - main [MainThread]: End processing [py-worksdone-utils]: success
+[2023-08-04 08:41:23] INFO root fetch - processPackages [layernext]: Remove: archive file [/home/abi/fetcher/tmp/layernext-1.0.0b0.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - processPackages [layernext]: Remove: archive file [/home/abi/fetcher/tmp/layernext-1.1.0.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - main [MainThread]: End processing [layernext]: success
+[2023-08-04 08:41:23] INFO root fetch - main [MainThread]: End processing [py-worksdone-utils]: success
+[2023-08-04 08:41:23] INFO root fetch - processPackages [wavelink]: Remove: archive file [/home/abi/fetcher/tmp/Wavelink-2.6.0.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - processPackages [wavelink]: Remove: archive file [/home/abi/fetcher/tmp/wavelink-2.6.1.tar.gz]
+[2023-08-04 08:41:23] INFO root fetch - main [MainThread]: End processing [wavelink]: success
+[2023-08-04 08:41:24] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2023-08-04 08:41:24] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2023-08-04 08:41:24] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-08-04 08:41:24] INFO root fetch - main [MainThread]: Store serial: [19170551]
