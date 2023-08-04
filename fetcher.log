@@ -16551,3 +16551,115 @@
 [2023-08-04 10:39:22] INFO root fetch - processPackages [ctrlb-heimdall]: Remove: archive file [/home/abi/fetcher/tmp/ctrlb_heimdall-1.0.5-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
 [2023-08-04 10:39:22] INFO root fetch - main [MainThread]: End processing [ctrlb-heimdall]: success
 [2023-08-04 10:39:22] INFO root fetch - main [MainThread]: Store serial: [19171623]
+[2023-08-04 10:44:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19171623]
+[2023-08-04 10:44:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mofmt
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyPhasesML
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Alphakit
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openprotein-python
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: log21
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openprotein-python
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shawn-api
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: declearn
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo11-addon-l10n-es-ticketbai-pos
+[2023-08-04 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: md4-fileo
+[2023-08-04 10:44:31] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.1b9] Old Version: [0.1.1b8]
+[2023-08-04 10:44:31] INFO root fetch - processPackages [md4-fileo]: New version: [0.9.48] Old Version: [0.9.47]
+[2023-08-04 10:44:31] INFO root fetch - processPackages [pyPhasesML]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-08-04 10:44:31] INFO root fetch - processPackages [Alphakit]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-08-04 10:44:31] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.1b9] Old Version: [0.1.1b8]
+[2023-08-04 10:44:31] INFO root fetch - processPackages [log21]: New version: [2.6.0] Old Version: [2.5.4]
+[2023-08-04 10:44:31] INFO root fetch - processPackages [odoo11-addon-l10n-es-ticketbai-pos]: New version: [11.0.0.6.3] Old Version: [11.0.0.6.2]
+[2023-08-04 10:44:31] INFO root fetch - processPackages [declearn]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-04 10:44:31] INFO root fetch - processPackages [mofmt]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-04 10:44:31] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/e9/6e/79a800aaf2c11d4efdbeba810919006d5186c503d6120b7f026f7dc343ce/openprotein_python-0.1.1b8.tar.gz
+[2023-08-04 10:44:31] WARNING root fetch - processPackages [shawn-api]: Skipping, unable to determine old version
+[2023-08-04 10:44:31] INFO root fetch - processPackages [shawn-api]: Start processing: idefix-cli
+[2023-08-04 10:44:31] INFO root fetch - main [MainThread]: End processing [shawn-api] error
+[2023-08-04 10:44:31] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/39/36/a676e4ec583e13d6f54f06adf221f52893f1eeddc0b2f91fb3e76814a457/pyPhasesML-0.7.8.tar.gz
+[2023-08-04 10:44:31] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/e9/6e/79a800aaf2c11d4efdbeba810919006d5186c503d6120b7f026f7dc343ce/openprotein_python-0.1.1b8.tar.gz
+[2023-08-04 10:44:31] INFO root fetch - processPackages [idefix-cli]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-08-04 10:44:32] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/57/93/e414460631933e40882e5ece7788db9c52e807988e277da26d3f504f6f4f/Alphakit-1.2.3.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [md4-fileo]: Downloading https://files.pythonhosted.org/packages/95/37/70179d02102123260cd0635fbe65536c6cee49a03033262537233eab4f39/md4_fileo-0.9.47.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/60/b2/38ef80da0debc695da9e37b8b22449d067188e5997b351e770529bfb66d5/log21-2.5.4.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [odoo11-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/0c/5b/ce0a3589ffc49b013e855d208aa85334b141a30c41505558d9cc2747d99a/odoo11_addon_l10n_es_ticketbai_pos-11.0.0.6.2-py2.py3-none-any.whl
+[2023-08-04 10:44:32] INFO root fetch - processPackages [idefix-cli]: Downloading https://files.pythonhosted.org/packages/2c/37/2f55af5110513183d4c13fe7bf0f819e90a1e5022c77c473ac6a5ee7e54d/idefix_cli-3.0.0.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [mofmt]: Downloading https://files.pythonhosted.org/packages/1e/a5/4fbc91b6439a51d5f791669bd2d3677145117a974f87c35617d64328be2f/mofmt-0.2.1-py3-none-any.whl
+[2023-08-04 10:44:32] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/e9/91/c323cf71bae636f7fc86b502b8d1078b3f455e7727acc71698335610ddc5/declearn-2.1.0.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/9f/45/f4ffc69a92c21830f8a5169e9b19e0e769a88db78efe25ea425d70893371/openprotein_python-0.1.1b9.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [pyPhasesML]: Downloading https://files.pythonhosted.org/packages/08/5d/6d722d3f8eeb16105992b2555570838125f3f6d6af124f0afdb6e7c325b9/pyPhasesML-0.7.9.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/9f/45/f4ffc69a92c21830f8a5169e9b19e0e769a88db78efe25ea425d70893371/openprotein_python-0.1.1b9.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 10:44:32] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.1b8.tar.gz tmp/openprotein_python-0.1.1b9.tar.gz --markdown 20230804/o/openprotein-python/0.1.1b8-0.1.1b9/diff.md --exclude *.pyd
+[2023-08-04 10:44:32] INFO root fetch - processPackages [md4-fileo]: Downloading https://files.pythonhosted.org/packages/67/6c/02de5946d9938593a96da3eeee78f1b710cd2b63843d15c4265d5865769b/md4_fileo-0.9.48.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [pyPhasesML]: executing diffoscope
+[2023-08-04 10:44:32] INFO root fetch - processPackages [pyPhasesML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhasesML-0.7.8.tar.gz tmp/pyPhasesML-0.7.9.tar.gz --markdown 20230804/p/pyPhasesML/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-08-04 10:44:32] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 10:44:32] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.1b8.tar.gz tmp/openprotein_python-0.1.1b9.tar.gz --markdown 20230804/o/openprotein-python/0.1.1b8-0.1.1b9/diff.md --exclude *.pyd
+[2023-08-04 10:44:32] INFO root fetch - processPackages [Alphakit]: Downloading https://files.pythonhosted.org/packages/b0/35/a5d4310c368773fc0d290b7622ad2266a7f4d6b9a247523b46966700bade/Alphakit-1.2.4.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/2e/85/48ffae0f81bbd95548c9fd8d38b7786b5205f404eb681568e26aee226e86/log21-2.6.0.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [odoo11-addon-l10n-es-ticketbai-pos]: Downloading https://files.pythonhosted.org/packages/6a/dd/e14690080d11c27364524afa894c30e7684ba6f91fbcd7875daf07d402b1/odoo11_addon_l10n_es_ticketbai_pos-11.0.0.6.3-py2.py3-none-any.whl
+[2023-08-04 10:44:32] INFO root fetch - processPackages [idefix-cli]: Downloading https://files.pythonhosted.org/packages/e9/0c/e4ac064feb16f070e3094f1eb8b9f7880e419b66bbcb56b4bf2c1407b80c/idefix_cli-3.0.1.tar.gz
+[2023-08-04 10:44:32] INFO root fetch - processPackages [mofmt]: Downloading https://files.pythonhosted.org/packages/dc/48/8a59bf3e5d1ea7cddf0a834ed82868959737a6f1dbd2a4be2dbef9c6733b/mofmt-0.2.2-py3-none-any.whl
+[2023-08-04 10:44:32] INFO root fetch - processPackages [Alphakit]: executing diffoscope
+[2023-08-04 10:44:32] INFO root fetch - processPackages [Alphakit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alphakit-1.2.3.tar.gz tmp/Alphakit-1.2.4.tar.gz --markdown 20230804/A/Alphakit/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-08-04 10:44:32] INFO root fetch - processPackages [md4-fileo]: executing diffoscope
+[2023-08-04 10:44:32] INFO root fetch - processPackages [md4-fileo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md4_fileo-0.9.47.tar.gz tmp/md4_fileo-0.9.48.tar.gz --markdown 20230804/m/md4-fileo/0.9.47-0.9.48/diff.md --exclude *.pyd
+[2023-08-04 10:44:32] INFO root fetch - processPackages [log21]: executing diffoscope
+[2023-08-04 10:44:32] INFO root fetch - processPackages [log21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log21-2.5.4.tar.gz tmp/log21-2.6.0.tar.gz --markdown 20230804/l/log21/2.5.4-2.6.0/diff.md --exclude *.pyd
+[2023-08-04 10:44:32] INFO root fetch - processPackages [idefix-cli]: executing diffoscope
+[2023-08-04 10:44:32] INFO root fetch - processPackages [idefix-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idefix_cli-3.0.0.tar.gz tmp/idefix_cli-3.0.1.tar.gz --markdown 20230804/i/idefix-cli/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-04 10:44:32] INFO root fetch - processPackages [mofmt]: executing diffoscope
+[2023-08-04 10:44:32] INFO root fetch - processPackages [odoo11-addon-l10n-es-ticketbai-pos]: executing diffoscope
+[2023-08-04 10:44:32] INFO root fetch - processPackages [mofmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mofmt-0.2.1-py3-none-any.whl.zip tmp/mofmt-0.2.2-py3-none-any.whl.zip --markdown 20230804/m/mofmt/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-04 10:44:32] INFO root fetch - processPackages [odoo11-addon-l10n-es-ticketbai-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_es_ticketbai_pos-11.0.0.6.2-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_es_ticketbai_pos-11.0.0.6.3-py2.py3-none-any.whl.zip --markdown 20230804/o/odoo11-addon-l10n-es-ticketbai-pos/11.0.0.6.2-11.0.0.6.3/diff.md --exclude *.pyd
+[2023-08-04 10:44:33] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/05/4a/15aaee81d130d6f25cb1b876d79ae7e230ed551b6ed2481bf304abb1a315/declearn-2.2.0.tar.gz
+[2023-08-04 10:44:33] INFO root fetch - processPackages [declearn]: executing diffoscope
+[2023-08-04 10:44:33] INFO root fetch - processPackages [declearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/declearn-2.1.0.tar.gz tmp/declearn-2.2.0.tar.gz --markdown 20230804/d/declearn/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-04 10:44:34] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.8.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [pyPhasesML]: Remove: archive file [/home/abi/fetcher/tmp/pyPhasesML-0.7.9.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [pyPhasesML]: Start processing: openprotein-python
+[2023-08-04 10:44:34] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
+[2023-08-04 10:44:34] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b8.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b9.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [openprotein-python]: Start processing: diffoscope
+[2023-08-04 10:44:34] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 10:44:34] INFO root fetch - processPackages [openprotein-python]: New version: [0.1.1b9] Old Version: [0.1.1b8]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/e9/6e/79a800aaf2c11d4efdbeba810919006d5186c503d6120b7f026f7dc343ce/openprotein_python-0.1.1b8.tar.gz
+[2023-08-04 10:44:34] INFO root fetch - processPackages [diffoscope]: New version: [99] Old Version: [98]
+[2023-08-04 10:44:34] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 10:44:34] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/3a/3e/308a04b435a6c8c9956656b7f2a66d6ed38d5972df453d70202834c4ff43/diffoscope-98.tar.gz
+[2023-08-04 10:44:34] INFO root fetch - processPackages [idefix-cli]: Remove: archive file [/home/abi/fetcher/tmp/idefix_cli-3.0.0.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [idefix-cli]: Remove: archive file [/home/abi/fetcher/tmp/idefix_cli-3.0.1.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - main [MainThread]: End processing [idefix-cli]: success
+[2023-08-04 10:44:34] INFO root fetch - processPackages [openprotein-python]: Downloading https://files.pythonhosted.org/packages/9f/45/f4ffc69a92c21830f8a5169e9b19e0e769a88db78efe25ea425d70893371/openprotein_python-0.1.1b9.tar.gz
+[2023-08-04 10:44:34] INFO root fetch - processPackages [mofmt]: Remove: archive file [/home/abi/fetcher/tmp/mofmt-0.2.1-py3-none-any.whl.zip]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [mofmt]: Remove: archive file [/home/abi/fetcher/tmp/mofmt-0.2.2-py3-none-any.whl.zip]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.5.4.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - main [MainThread]: End processing [mofmt]: success
+[2023-08-04 10:44:34] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.6.0.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - main [MainThread]: End processing [log21]: success
+[2023-08-04 10:44:34] INFO root fetch - processPackages [openprotein-python]: executing diffoscope
+[2023-08-04 10:44:34] INFO root fetch - processPackages [openprotein-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openprotein_python-0.1.1b8.tar.gz tmp/openprotein_python-0.1.1b9.tar.gz --markdown 20230804/o/openprotein-python/0.1.1b8-0.1.1b9/diff.md --exclude *.pyd
+[2023-08-04 10:44:34] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.3.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [Alphakit]: Remove: archive file [/home/abi/fetcher/tmp/Alphakit-1.2.4.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - main [MainThread]: End processing [Alphakit]: success
+[2023-08-04 10:44:34] INFO root fetch - processPackages [md4-fileo]: Remove: archive file [/home/abi/fetcher/tmp/md4_fileo-0.9.47.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - processPackages [md4-fileo]: Remove: archive file [/home/abi/fetcher/tmp/md4_fileo-0.9.48.tar.gz]
+[2023-08-04 10:44:34] INFO root fetch - main [MainThread]: End processing [md4-fileo]: success
+[2023-08-04 10:44:35] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/8d/e7/b8881e47097497471c7112ef2abc4328496f66e5c91772837ef365f39dc1/diffoscope-99.tar.gz
+[2023-08-04 10:44:35] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b8.tar.gz]
+[2023-08-04 10:44:35] INFO root fetch - processPackages [openprotein-python]: Remove: archive file [/home/abi/fetcher/tmp/openprotein_python-0.1.1b9.tar.gz]
+[2023-08-04 10:44:35] INFO root fetch - main [MainThread]: End processing [openprotein-python]: success
+[2023-08-04 10:44:35] INFO root fetch - processPackages [declearn]: Remove: archive file [/home/abi/fetcher/tmp/declearn-2.1.0.tar.gz]
+[2023-08-04 10:44:35] INFO root fetch - processPackages [declearn]: Remove: archive file [/home/abi/fetcher/tmp/declearn-2.2.0.tar.gz]
+[2023-08-04 10:44:35] INFO root fetch - main [MainThread]: End processing [declearn]: success
+[2023-08-04 10:44:36] INFO root fetch - processPackages [diffoscope]: executing diffoscope
+[2023-08-04 10:44:36] INFO root fetch - processPackages [diffoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffoscope-98.tar.gz tmp/diffoscope-99.tar.gz --markdown 20230804/d/diffoscope/98-99/diff.md --exclude *.pyd
+[2023-08-04 10:44:40] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-98.tar.gz]
+[2023-08-04 10:44:40] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
+[2023-08-04 10:44:40] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
+[2023-08-04 10:44:41] INFO root fetch - processPackages [odoo11-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_es_ticketbai_pos-11.0.0.6.2-py2.py3-none-any.whl.zip]
+[2023-08-04 10:44:41] INFO root fetch - processPackages [odoo11-addon-l10n-es-ticketbai-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_es_ticketbai_pos-11.0.0.6.3-py2.py3-none-any.whl.zip]
+[2023-08-04 10:44:41] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-es-ticketbai-pos]: success
+[2023-08-04 10:44:41] INFO root fetch - main [MainThread]: Store serial: [19171666]
