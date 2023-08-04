@@ -14049,3 +14049,114 @@
 [2023-08-04 08:30:56] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.9.tar.gz]
 [2023-08-04 08:30:56] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-08-04 08:30:56] INFO root fetch - main [MainThread]: Store serial: [19170473]
+[2023-08-04 08:36:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19170473]
+[2023-08-04 08:36:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RM-Tools
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-minio
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huhk
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trex-apis
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromadb-client
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alipai
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdxbasics
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chromadb
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: json-five
+[2023-08-04 08:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-08-04 08:36:06] INFO root fetch - processPackages [json-five]: New version: [1.1.0] Old Version: [1.0.0rc1]
+[2023-08-04 08:36:06] INFO root fetch - processPackages [chromadb]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-04 08:36:06] INFO root fetch - processPackages [RM-Tools]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-04 08:36:06] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-04 08:36:06] INFO root fetch - processPackages [trex-apis]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-04 08:36:06] INFO root fetch - processPackages [huhk]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-08-04 08:36:07] INFO root fetch - processPackages [chromadb-client]: New version: [0.4.6.dev0] Old Version: [0.4.5.dev0]
+[2023-08-04 08:36:07] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-08-04 08:36:07] INFO root fetch - processPackages [alipai]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-04 08:36:07] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-04 08:36:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [json-five]: Downloading https://files.pythonhosted.org/packages/3b/f7/ddcdc5e2ec36b89e5da1fb8a038e44c630a00e0f071ff5a6989701af0fce/json-five-1.0.0rc1.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [RM-Tools]: Downloading https://files.pythonhosted.org/packages/0a/2b/4e111b3b572c556e3a92082588377bbb9e0a6f3ab1b5e360063e7c3e371f/RM-Tools-1.3.0.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/1b/f5/a89e5ecfcf334768bbe82dbf571610884fb967fb45c790e4a1fd1970ff12/chromadb-0.4.3.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/03/29/968ca6dd3bd7ff1a8b0498ff5624f5c057f62abc9d49650b668c2f183ab3/huhk-1.9.6.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/50/b5/65977cae36333f000312e36e8c0ef2221c95e6421351dbdd0889bfbbd225/trex-apis-1.0.6.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [chromadb-client]: Downloading https://files.pythonhosted.org/packages/6c/ca/58b147600679b1917afe48b3266f906f6ebbba0640cf7a5b931f3a5840fe/chromadb-client-0.4.5.dev0.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [alipai]: Downloading https://files.pythonhosted.org/packages/e9/5f/0184a0e82cdc0979a9aa70e5dcf273ad3fe20a714d18e5c6be1e26fd8bb6/alipai-0.4.1-py2.py3-none-any.whl
+[2023-08-04 08:36:07] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/1c/d2/01948ac98bf6a73a7d35dfca13d66457e4f2ac9ea6155f9a12e04ec55f44/huhk-1.9.7.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-08-04 08:36:07] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230804/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-04 08:36:07] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-08-04 08:36:07] INFO root fetch - processPackages [json-five]: Downloading https://files.pythonhosted.org/packages/1b/94/688006192dae9cefc565bf1721e18c04e9af288bb48d362ce3955bcc93bf/json-five-1.1.0.tar.gz
+[2023-08-04 08:36:08] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-08-04 08:36:08] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230804/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-04 08:36:08] INFO root fetch - processPackages [alipai]: Downloading https://files.pythonhosted.org/packages/94/6e/d18af93888349a77077ca7858378c151a47e926f908ff56b2cc2ae8c57ef/alipai-0.4.2-py3-none-any.whl
+[2023-08-04 08:36:08] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-08-04 08:36:08] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.9.6.tar.gz tmp/huhk-1.9.7.tar.gz --markdown 20230804/h/huhk/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-08-04 08:36:08] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2023-08-04 08:36:08] INFO root fetch - processPackages [chromadb]: Downloading https://files.pythonhosted.org/packages/48/f2/c3d8ee5f17b9289e81167761808d15883a6a96463eb6fd63674753944ca8/chromadb-0.4.4.tar.gz
+[2023-08-04 08:36:08] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/77/c3/bee722b60baa266faf9f43d8cbaffe0cb4a5e041b8a315d5e76e066e4ad2/trex-apis-1.0.7.tar.gz
+[2023-08-04 08:36:08] INFO root fetch - processPackages [chromadb-client]: Downloading https://files.pythonhosted.org/packages/de/6e/9b82bf3f2c9c2032a2fd692f3ae86cc2b9384e2dbfe1e7fe17bce5e39fc8/chromadb-client-0.4.6.dev0.tar.gz
+[2023-08-04 08:36:08] INFO root fetch - processPackages [RM-Tools]: Downloading https://files.pythonhosted.org/packages/6a/74/f908855b622c4f5dd5ac959edf9ca35cc897deb890bcea8b4193a8228866/RM-Tools-1.3.1.tar.gz
+[2023-08-04 08:36:08] INFO root fetch - processPackages [json-five]: executing diffoscope
+[2023-08-04 08:36:08] INFO root fetch - processPackages [json-five]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-five-1.0.0rc1.tar.gz tmp/json-five-1.1.0.tar.gz --markdown 20230804/j/json-five/1.0.0rc1-1.1.0/diff.md --exclude *.pyd
+[2023-08-04 08:36:08] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-08-04 08:36:08] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230804/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-08-04 08:36:08] INFO root fetch - processPackages [alipai]: executing diffoscope
+[2023-08-04 08:36:08] INFO root fetch - processPackages [alipai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alipai-0.4.1-py2.py3-none-any.whl.zip tmp/alipai-0.4.2-py3-none-any.whl.zip --markdown 20230804/a/alipai/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-04 08:36:08] INFO root fetch - processPackages [chromadb]: executing diffoscope
+[2023-08-04 08:36:08] INFO root fetch - processPackages [chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-0.4.3.tar.gz tmp/chromadb-0.4.4.tar.gz --markdown 20230804/c/chromadb/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-04 08:36:08] INFO root fetch - processPackages [trex-apis]: executing diffoscope
+[2023-08-04 08:36:08] INFO root fetch - processPackages [trex-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-apis-1.0.6.tar.gz tmp/trex-apis-1.0.7.tar.gz --markdown 20230804/t/trex-apis/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-04 08:36:08] INFO root fetch - processPackages [chromadb-client]: executing diffoscope
+[2023-08-04 08:36:08] INFO root fetch - processPackages [chromadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-client-0.4.5.dev0.tar.gz tmp/chromadb-client-0.4.6.dev0.tar.gz --markdown 20230804/c/chromadb-client/0.4.5.dev0-0.4.6.dev0/diff.md --exclude *.pyd
+[2023-08-04 08:36:08] INFO root fetch - processPackages [RM-Tools]: executing diffoscope
+[2023-08-04 08:36:08] INFO root fetch - processPackages [RM-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RM-Tools-1.3.0.tar.gz tmp/RM-Tools-1.3.1.tar.gz --markdown 20230804/R/RM-Tools/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-04 08:36:09] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-08-04 08:36:09] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-08-04 08:36:09] INFO root fetch - processPackages [cdxbasics]: Start processing: mynacode
+[2023-08-04 08:36:09] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-08-04 08:36:09] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-04 08:36:09] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-08-04 08:36:09] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-08-04 08:36:09] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: gymnasium-connect-four
+[2023-08-04 08:36:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-08-04 08:36:09] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-04 08:36:09] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-04 08:36:09] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/10/f4/defb331698a308599ed8b42d485055ad865716bbf775b2c81a05f638aeb3/gymnasium_connect_four-1.2.8.tar.gz
+[2023-08-04 08:36:09] INFO root fetch - processPackages [json-five]: Remove: archive file [/home/abi/fetcher/tmp/json-five-1.0.0rc1.tar.gz]
+[2023-08-04 08:36:09] INFO root fetch - processPackages [json-five]: Remove: archive file [/home/abi/fetcher/tmp/json-five-1.1.0.tar.gz]
+[2023-08-04 08:36:10] INFO root fetch - main [MainThread]: End processing [json-five]: success
+[2023-08-04 08:36:10] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.0.6.tar.gz]
+[2023-08-04 08:36:10] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.0.7.tar.gz]
+[2023-08-04 08:36:10] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
+[2023-08-04 08:36:10] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/89/82/db53e26c7ee24b313627d1d98a8e8a5e7b7a45aee6c81e8e50b060871db9/gymnasium_connect_four-1.2.9.tar.gz
+[2023-08-04 08:36:10] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2023-08-04 08:36:10] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2023-08-04 08:36:10] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-08-04 08:36:10] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.6.tar.gz]
+[2023-08-04 08:36:10] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.7.tar.gz]
+[2023-08-04 08:36:10] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-08-04 08:36:10] INFO root fetch - processPackages [gymnasium-connect-four]: executing diffoscope
+[2023-08-04 08:36:10] INFO root fetch - processPackages [gymnasium-connect-four]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gymnasium_connect_four-1.2.8.tar.gz tmp/gymnasium_connect_four-1.2.9.tar.gz --markdown 20230804/g/gymnasium-connect-four/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-04 08:36:10] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-04 08:36:10] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-04 08:36:10] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230804:/home/abi/fetcher/20230804:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230804/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-04 08:36:10] INFO root fetch - processPackages [alipai]: Remove: archive file [/home/abi/fetcher/tmp/alipai-0.4.1-py2.py3-none-any.whl.zip]
+[2023-08-04 08:36:10] INFO root fetch - processPackages [alipai]: Remove: archive file [/home/abi/fetcher/tmp/alipai-0.4.2-py3-none-any.whl.zip]
+[2023-08-04 08:36:10] INFO root fetch - main [MainThread]: End processing [alipai]: success
+[2023-08-04 08:36:10] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/RM-Tools-1.3.0.tar.gz]
+[2023-08-04 08:36:10] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/RM-Tools-1.3.1.tar.gz]
+[2023-08-04 08:36:10] INFO root fetch - main [MainThread]: End processing [RM-Tools]: success
+[2023-08-04 08:36:11] INFO root fetch - processPackages [chromadb]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-0.4.3.tar.gz]
+[2023-08-04 08:36:11] INFO root fetch - processPackages [chromadb]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-0.4.4.tar.gz]
+[2023-08-04 08:36:11] INFO root fetch - main [MainThread]: End processing [chromadb]: success
+[2023-08-04 08:36:11] INFO root fetch - processPackages [chromadb-client]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-client-0.4.5.dev0.tar.gz]
+[2023-08-04 08:36:11] INFO root fetch - processPackages [chromadb-client]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-client-0.4.6.dev0.tar.gz]
+[2023-08-04 08:36:11] INFO root fetch - main [MainThread]: End processing [chromadb-client]: success
+[2023-08-04 08:36:11] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.8.tar.gz]
+[2023-08-04 08:36:11] INFO root fetch - processPackages [gymnasium-connect-four]: Remove: archive file [/home/abi/fetcher/tmp/gymnasium_connect_four-1.2.9.tar.gz]
+[2023-08-04 08:36:11] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four]: success
+[2023-08-04 08:36:11] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-04 08:36:11] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-04 08:36:11] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-04 08:36:11] INFO root fetch - main [MainThread]: Store serial: [19170506]
